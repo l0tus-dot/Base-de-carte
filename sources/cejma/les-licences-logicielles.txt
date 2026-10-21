@@ -1,0 +1,24 @@
+# Matière : CEJMA
+# Paquet : Les licences logicielles
+
+Quel terme anglais désigne le droit d'auteur ? ; Le copyright.
+Que protège le droit d'auteur pour un logiciel ? ; Il interdit d'utiliser, de reproduire ou de diffuser l'œuvre sans l'autorisation de son auteur.
+Comment s'appelle l'autorisation de l'auteur d'utiliser son logiciel ? ; Une licence.
+Comment est défini un logiciel (JO du 17 janvier 1982) ? ; C'est l'ensemble des programmes, procédés, règles et de la documentation relative au fonctionnement d'un ensemble de traitement de données.
+Pourquoi un logiciel est-il un actif de l'entreprise ? ; Il est enregistré dans son patrimoine, il a donc une valeur.
+Qu'est-ce qu'une licence (license-agreement) ? ; C'est le contrat par lequel le titulaire des droits d'auteur définit avec l'utilisateur les conditions dans lesquelles le programme peut être utilisé, diffusé ou modifié.
+Sur quoi portent les droits concédés par une licence ? ; Sur l'utilisation, la reproduction, la traduction, l'adaptation, l'accès et la modification du code source, ainsi que la distribution.
+Qu'est-ce qu'un audit de licences ? ; C'est le contrôle périodique par les éditeurs de l'étendue et de la durée des licences, pour vérifier que l'utilisation respecte les droits concédés.
+Qu'est-ce que la contrefaçon d'un logiciel ? ; C'est la violation de l'un des droits de l'auteur, par représentation ou reproduction intégrale ou partielle sans son consentement.
+Quelle sanction pour la contrefaçon d'un logiciel ? ; C'est un délit jugé devant un tribunal correctionnel.
+Quels droits encadre la licence d'un logiciel propriétaire ? ; Elle encadre les droits de l'utilisateur et les limite généralement à l'exécution du logiciel.
+Quels sont les deux autres noms d'un logiciel propriétaire ? ; Logiciel privatif ou privateur.
+Quelles sont les quatre libertés qu'une licence propriétaire ne permet pas d'exercer ensemble ? ; L'exécution pour tout usage, l'étude du code source, la distribution de copies et la modification du code source.
+Que signifie « code source fermé » ? ; Le logiciel n'est diffusé que sous forme d'exécutables binaires et la licence interdit de le décompiler.
+Pourquoi interdire de décompiler un logiciel propriétaire ? ; Pour empêcher de comprendre comment il est fait, de l'adapter à de nouveaux besoins ou d'en faire un nouvel OS.
+Que précise le contrat de licence sur la gratuité ? ; Il prévoit si la licence est octroyée à titre gratuit ou onéreux.
+Que paie le client d'un logiciel propriétaire payant ? ; Un droit d'usage, auquel s'ajoute le coût des prestations de support comme la formation et la maintenance.
+Quels modèles économiques existent pour un logiciel propriétaire payant ? ; Une redevance unique et forfaitaire, un abonnement périodique (selon le nombre de postes ou le volume d'utilisation) ou des redevances évolutives selon les montées de version.
+Qu'est-ce qu'un freeware (gratuiciel) ? ; C'est un logiciel gratuit au code source fermé, dont le propriétaire compte sur l'ampleur de la diffusion pour obtenir des retombées publicitaires.
+Qu'est-ce qu'un shareware (partagiciel) ? ; C'est un logiciel propriétaire à contribution, avec un droit d'utilisation temporaire et/ou des fonctionnalités limitées, et un code fermé.
+Que doit faire l'utilisateur d'un shareware après la période d'essai ? ; Il doit rétribuer l'auteur pour continuer à utiliser le logiciel ou accéder à la version complète.

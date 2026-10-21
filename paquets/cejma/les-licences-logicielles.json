@@ -1,0 +1,474 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Les licences logicielles"
+   }
+  ],
+  "cards": [
+   {
+    "id": "01f697b9-9afc-5fb5-be20-82f4ff2ce845",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Quel terme anglais désigne le droit d'auteur ?",
+    "back": "Le copyright.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "64ba7209-9443-5c22-8243-2905d04822e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Que protège le droit d'auteur pour un logiciel ?",
+    "back": "Il interdit d'utiliser, de reproduire ou de diffuser l'œuvre sans l'autorisation de son auteur.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "916603d9-514d-56b9-83a2-b685bfd82301",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Comment s'appelle l'autorisation de l'auteur d'utiliser son logiciel ?",
+    "back": "Une licence.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "426548f0-ed0e-513f-afa3-c00ee44fe6a1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Comment est défini un logiciel (JO du 17 janvier 1982) ?",
+    "back": "C'est l'ensemble des programmes, procédés, règles et de la documentation relative au fonctionnement d'un ensemble de traitement de données.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "f4af34ce-21d2-5f20-bdf8-d1b6fb71b9cf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Pourquoi un logiciel est-il un actif de l'entreprise ?",
+    "back": "Il est enregistré dans son patrimoine, il a donc une valeur.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "fb3beace-4fa0-5c2d-a731-0c141bf8dfd5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Qu'est-ce qu'une licence (license-agreement) ?",
+    "back": "C'est le contrat par lequel le titulaire des droits d'auteur définit avec l'utilisateur les conditions dans lesquelles le programme peut être utilisé, diffusé ou modifié.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "f0f9380c-2005-50b8-81a6-f166faf1235a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Sur quoi portent les droits concédés par une licence ?",
+    "back": "Sur l'utilisation, la reproduction, la traduction, l'adaptation, l'accès et la modification du code source, ainsi que la distribution.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "8f77495b-5262-54fc-9333-c471cdcc85c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Qu'est-ce qu'un audit de licences ?",
+    "back": "C'est le contrôle périodique par les éditeurs de l'étendue et de la durée des licences, pour vérifier que l'utilisation respecte les droits concédés.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "d8efe15d-4f74-50c8-a8cc-0c724a15c937",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Qu'est-ce que la contrefaçon d'un logiciel ?",
+    "back": "C'est la violation de l'un des droits de l'auteur, par représentation ou reproduction intégrale ou partielle sans son consentement.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "9a868c0c-f5c7-5f72-9716-0cef0b3e4a01",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Quelle sanction pour la contrefaçon d'un logiciel ?",
+    "back": "C'est un délit jugé devant un tribunal correctionnel.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "b310ffb4-749d-523e-8105-4a6aa45f0e1d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Quels droits encadre la licence d'un logiciel propriétaire ?",
+    "back": "Elle encadre les droits de l'utilisateur et les limite généralement à l'exécution du logiciel.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "94b4a70a-4da4-5eec-abd5-19d505795598",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Quels sont les deux autres noms d'un logiciel propriétaire ?",
+    "back": "Logiciel privatif ou privateur.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "ed1f8843-0135-542d-adff-1a299f22e8a1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Quelles sont les quatre libertés qu'une licence propriétaire ne permet pas d'exercer ensemble ?",
+    "back": "L'exécution pour tout usage, l'étude du code source, la distribution de copies et la modification du code source.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "aa93e42b-1862-54a6-b17f-5f49638cd974",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Que signifie « code source fermé » ?",
+    "back": "Le logiciel n'est diffusé que sous forme d'exécutables binaires et la licence interdit de le décompiler.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "7baf60e6-df73-53e9-adda-bf6b725d2427",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Pourquoi interdire de décompiler un logiciel propriétaire ?",
+    "back": "Pour empêcher de comprendre comment il est fait, de l'adapter à de nouveaux besoins ou d'en faire un nouvel OS.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "7c8f89ec-f875-5407-b359-fcd763d2eae9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Que précise le contrat de licence sur la gratuité ?",
+    "back": "Il prévoit si la licence est octroyée à titre gratuit ou onéreux.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "87f61440-ac9d-540c-95c9-10e3a55247ad",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Que paie le client d'un logiciel propriétaire payant ?",
+    "back": "Un droit d'usage, auquel s'ajoute le coût des prestations de support comme la formation et la maintenance.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "475b2967-a4d3-5f41-8f65-713d8cc92cb0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Quels modèles économiques existent pour un logiciel propriétaire payant ?",
+    "back": "Une redevance unique et forfaitaire, un abonnement périodique (selon le nombre de postes ou le volume d'utilisation) ou des redevances évolutives selon les montées de version.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "06fed478-4e96-5858-ba8e-5856dcbdacd1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Qu'est-ce qu'un freeware (gratuiciel) ?",
+    "back": "C'est un logiciel gratuit au code source fermé, dont le propriétaire compte sur l'ampleur de la diffusion pour obtenir des retombées publicitaires.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "855c37e0-cae1-591d-8dee-d2efcb14dcd5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Qu'est-ce qu'un shareware (partagiciel) ?",
+    "back": "C'est un logiciel propriétaire à contribution, avec un droit d'utilisation temporaire et/ou des fonctionnalités limitées, et un code fermé.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "a2f515eb-dc4d-5300-a0a4-6741752c9612",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1ce71081-5284-536b-8a8b-732d0d04bc1b",
+    "front": "Que doit faire l'utilisateur d'un shareware après la période d'essai ?",
+    "back": "Il doit rétribuer l'auteur pour continuer à utiliser le logiciel ou accéder à la version complète.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "aaed7396-116d-5977-91de-e96f3e00871d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "01f697b9-9afc-5fb5-be20-82f4ff2ce845",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "96203657-e4e3-5e0c-a506-ae2637ebb184",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "64ba7209-9443-5c22-8243-2905d04822e6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c7957726-0dec-50b6-b183-9258c4471bd9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "916603d9-514d-56b9-83a2-b685bfd82301",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9ea6707f-9953-5f43-91f6-ed256f4af6b8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "426548f0-ed0e-513f-afa3-c00ee44fe6a1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "49c46ad3-12cf-582c-96bd-5e1e0b5fd94f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f4af34ce-21d2-5f20-bdf8-d1b6fb71b9cf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3c1c1638-2c3d-5b67-a75b-55381a0a9684",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fb3beace-4fa0-5c2d-a731-0c141bf8dfd5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cae14b24-ee95-5a87-b465-3de5f0faaaa3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f0f9380c-2005-50b8-81a6-f166faf1235a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "581b38ec-b14d-5d8e-9d6b-3adba421739e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8f77495b-5262-54fc-9333-c471cdcc85c6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ff72264a-0750-524d-85bd-44a84814a3e7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d8efe15d-4f74-50c8-a8cc-0c724a15c937",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cc5062e7-1da6-546b-a818-6728d33c9189",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9a868c0c-f5c7-5f72-9716-0cef0b3e4a01",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "aecddc2b-eec1-54bd-a5ca-3a195055e55f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b310ffb4-749d-523e-8105-4a6aa45f0e1d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "599d5eae-2730-50a2-95c3-1112f13ff726",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "94b4a70a-4da4-5eec-abd5-19d505795598",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7586db68-56fb-5e44-bf17-e15b3a43c728",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ed1f8843-0135-542d-adff-1a299f22e8a1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f877c611-202d-533f-8710-062c3555b500",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "aa93e42b-1862-54a6-b17f-5f49638cd974",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "309c23ea-6c46-5d4e-9aee-a55a154fb8f9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7baf60e6-df73-53e9-adda-bf6b725d2427",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4531d2a7-1cd2-5193-a202-b63aedcefe3a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7c8f89ec-f875-5407-b359-fcd763d2eae9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6e0d82ad-436c-5b23-af04-c62733e5dc55",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "87f61440-ac9d-540c-95c9-10e3a55247ad",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "54dce3b0-a11f-576d-b401-5966593a696c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "475b2967-a4d3-5f41-8f65-713d8cc92cb0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b8339890-27cd-5da3-adf9-b43cbfee5c8e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "06fed478-4e96-5858-ba8e-5856dcbdacd1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c2c8a7fd-0460-5460-8cd3-02a312976324",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "855c37e0-cae1-591d-8dee-d2efcb14dcd5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "38181627-bdd8-5f29-8725-f709d8db120e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a2f515eb-dc4d-5300-a0a4-6741752c9612",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

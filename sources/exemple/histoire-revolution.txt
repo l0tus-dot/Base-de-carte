@@ -1,0 +1,8 @@
+# Matière : Histoire (exemple)
+# Paquet : La Révolution française
+
+En quelle année commence la Révolution française ? ; 1789
+Quel événement a lieu le 14 juillet 1789 ? ; La prise de la Bastille
+Quel texte proclame les droits de l'homme en août 1789 ? ; La Déclaration des droits de l'homme et du citoyen
+En quelle année la monarchie est-elle abolie et la République proclamée ? ; 1792
+Quel roi de France est exécuté en 1793 ? ; Louis XVI
