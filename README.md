@@ -18,6 +18,7 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | Matière | Paquet | Cartes | Fichier |
 | --- | --- | --- | --- |
 | CEJMA | Les licences logicielles | 21 | `paquets/cejma/les-licences-logicielles.json` |
+| Réseau | Routage statique | 22 | `paquets/reseau/routage-statique.json` |
 
 *(Tenir cette liste à jour à chaque nouveau paquet.)*
 

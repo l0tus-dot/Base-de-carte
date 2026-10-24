@@ -1,0 +1,495 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "3749f34e-ae60-5901-95f5-f2963565ceb2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Réseau",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "3749f34e-ae60-5901-95f5-f2963565ceb2",
+    "name": "Routage statique"
+   }
+  ],
+  "cards": [
+   {
+    "id": "83364372-9838-59cb-8c10-6417a2f3a54d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Dans quel cas utilise-t-on le routage statique ?",
+    "back": "Pour faire communiquer deux réseaux locaux séparés par une liaison entre routeurs, sans protocole dynamique, sur une infrastructure de petite taille dont la topologie ne change pas.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "569c7a0d-014f-50be-910b-bc43c5f4f0c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quels équipements et accès faut-il pour configurer du routage statique ?",
+    "back": "Deux routeurs Cisco (IOS 15.x ou plus récent) avec accès console ou SSH en mode privilégié, et des interfaces adressées et actives.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "dbc2f389-c7a9-5385-9319-4c3f663dfc27",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quelle commande active une interface Cisco désactivée administrativement ?",
+    "back": "no shutdown.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "99ce4a19-cb83-56b0-9cac-7434e2d11b1f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Pourquoi no shutdown n'est-il pas optionnel ?",
+    "back": "Une interface laissée désactivée n'apparaît pas dans la table de routage, c'est la première cause du problème « la route ne remonte pas ».",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "06c8c0fe-acb3-5005-8888-4ea1585aaef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quelle est la syntaxe d'une route statique Cisco ?",
+    "back": "ip route suivi du réseau de destination, du masque, puis de l'adresse du prochain saut.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "2906dc40-3978-5d9b-98ec-4ff2b2abb09f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quelle commande déclare sur R1 la route vers le réseau 192.168.20.0/24 ?",
+    "back": "ip route 192.168.20.0 255.255.255.0 10.0.0.2.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "3942ed2f-9cb1-5088-bd37-588ff0b76906",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Pourquoi faut-il configurer R2 symétriquement ?",
+    "back": "Une route ne vaut que dans un sens : sans route retour sur R2, le ping part mais la réponse ne revient jamais.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "4af25ca5-c4e6-5f88-9360-725ed68af883",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quelle commande Cisco crée une route par défaut vers l'extérieur ?",
+    "back": "ip route 0.0.0.0 0.0.0.0 suivi de l'adresse du prochain saut, par exemple 203.0.113.1 dans l'exemple du cours.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "2e816375-ccca-5a58-aa62-51c779be1639",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Sur quel routeur ajoute-t-on la route par défaut ?",
+    "back": "Uniquement sur le routeur de bordure, pour tout ce qui n'est pas connu localement.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "7d6d57a5-bcac-5e4f-946e-ac652973f1a7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quelles commandes enregistrent la configuration sur un routeur Cisco ?",
+    "back": "end puis copy running-config startup-config.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "bcead091-b2f0-5327-b1ed-b2692cbd93bb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Comment retirer une route statique ajoutée par la procédure ?",
+    "back": "Avec la même commande précédée de no, par exemple no ip route 192.168.20.0 255.255.255.0 10.0.0.2.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "d6873dbf-5745-5e65-aabe-50ae828ff11b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Que faut-il vérifier avant de retirer une route statique ?",
+    "back": "Que du NAT ou une ACL ne s'appuie pas dessus, avec show ip route et show running-config | include ip route.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "f771726e-b378-5921-b29a-905b9bb2fa91",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quelles commandes Cisco vérifient une route statique ?",
+    "back": "show ip route static, show ip interface brief, ping avec source et traceroute.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "212ce0a3-a4e0-5d7b-9f32-dc74730e2a6b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Comment une route statique apparaît-elle dans show ip route ?",
+    "back": "Préfixée par S, ou S* pour la route par défaut, avec une distance administrative de 1.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "aefeeeec-b6d0-5b7c-8469-68edc50cc32b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quelles commandes de vérification existent sous Linux ?",
+    "back": "ip route show, ping -c 4 et traceroute.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "082e5718-2a59-5ccd-a91a-6fc362f4c609",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quelles commandes de vérification existent sous Windows ?",
+    "back": "route print, Test-NetConnection et tracert.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "016a0861-806c-51d6-95b0-02162e59f3c1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quelle est la cause probable si la route n'apparaît pas dans show ip route ?",
+    "back": "Une interface de sortie down ou un prochain saut injoignable : vérifier show ip interface brief, no shutdown et le câblage.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "12b44ec3-af62-5c4d-a95b-c0636e2bfd9c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Que faire si le ping reste sans réponse alors que la route existe des deux côtés ?",
+    "back": "La route retour est absente : ajouter la route symétrique sur le routeur distant.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "d4299719-6572-5f29-af40-47a44ed9e675",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Que signifie un ping OK depuis le routeur mais KO depuis le poste ?",
+    "back": "La passerelle par défaut est probablement absente du poste : vérifier la configuration IP du client ou l'étendue DHCP.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "1de941e2-4489-50b6-aa5b-90a7819dbbb6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Pourquoi un ping peut-il être bloqué au-delà du routeur de bordure ?",
+    "back": "À cause d'une ACL ou d'un NAT manquant.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "ae599357-4af6-548e-bc5e-15e54688fe66",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Quelles sont les distances administratives d'une route statique et d'une route OSPF ?",
+    "back": "1 pour une route statique et 110 pour OSPF, donc à destination égale la statique l'emporte.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "a2ab8b03-c109-53b4-95f8-6fb7a6aa0d61",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7709e671-fb8f-578d-9b16-a73a17d79c06",
+    "front": "Comment faire d'une route statique une route de secours derrière OSPF ?",
+    "back": "Lui donner une distance supérieure à 110, par exemple en ajoutant 200 à la fin de la commande ip route.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "06de2794-04d5-5ae5-893c-86c425f3d924",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "83364372-9838-59cb-8c10-6417a2f3a54d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8a8b4762-1600-586d-a83b-5a71277ca915",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "569c7a0d-014f-50be-910b-bc43c5f4f0c6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "14f37dfa-4d03-5801-87c5-56dff4fda25b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dbc2f389-c7a9-5385-9319-4c3f663dfc27",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5526e37d-cd4e-5250-a97e-4440b9d23f00",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "99ce4a19-cb83-56b0-9cac-7434e2d11b1f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8073e431-e993-5d72-b6c6-3976132f913b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "06c8c0fe-acb3-5005-8888-4ea1585aaef6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1c84ea62-da37-59d5-b399-4c23040fb46c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2906dc40-3978-5d9b-98ec-4ff2b2abb09f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4cdd1479-6288-52d9-a404-0dc45095c3c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3942ed2f-9cb1-5088-bd37-588ff0b76906",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0aade5de-a8a1-5fa2-bbad-0bccb353fd60",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4af25ca5-c4e6-5f88-9360-725ed68af883",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "36f343f5-3bfd-5f60-ab15-90bbc159bf23",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2e816375-ccca-5a58-aa62-51c779be1639",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9b5f147e-f4d5-52d5-82f4-108cfc35cd7f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7d6d57a5-bcac-5e4f-946e-ac652973f1a7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8e923c98-2c24-5152-884d-f856ff69dd46",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bcead091-b2f0-5327-b1ed-b2692cbd93bb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ff95728e-a956-5a11-8cbe-e8e913cedf1b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d6873dbf-5745-5e65-aabe-50ae828ff11b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c3f0704b-6af1-59df-9e06-ff7baaa33a21",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f771726e-b378-5921-b29a-905b9bb2fa91",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5c77fd41-d811-5abc-b831-046ce3aec505",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "212ce0a3-a4e0-5d7b-9f32-dc74730e2a6b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2e004fa7-e216-5801-bf30-d18c2a74b16c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "aefeeeec-b6d0-5b7c-8469-68edc50cc32b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0d2f234a-d4c8-500b-9391-51c7627b25d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "082e5718-2a59-5ccd-a91a-6fc362f4c609",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a5ca8f44-116b-5c7b-968d-93139e74b362",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "016a0861-806c-51d6-95b0-02162e59f3c1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6f1fa4d8-1039-532f-b961-0f84d0701f34",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "12b44ec3-af62-5c4d-a95b-c0636e2bfd9c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e3dc701c-fc75-5ad7-91a6-ffbde46692b8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d4299719-6572-5f29-af40-47a44ed9e675",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "55e8ce01-ea08-579d-9fb4-1b916c43112a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1de941e2-4489-50b6-aa5b-90a7819dbbb6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bdfc5559-f6c3-5cf9-b4e6-11a16bc6fb18",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ae599357-4af6-548e-bc5e-15e54688fe66",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "58bce737-0ae0-5143-b95a-cb5065436d67",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a2ab8b03-c109-53b4-95f8-6fb7a6aa0d61",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}
