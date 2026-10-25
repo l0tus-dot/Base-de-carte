@@ -1,0 +1,66 @@
+# Matière : CEJM
+# Parent : Thème 5 - Les mutations du travail
+# Paquet : Economique
+# Description : Le marché du travail, ses déterminants, ses déséquilibres, sa segmentation et les politiques de l'emploi.
+
+Qu'est-ce que le marché du travail ? ; Le lieu de rencontre entre l'offre et la demande de travail. Le prix de ce marché est la rémunération.
+Qu'est-ce qu'un emploi ? ; Une situation d'exercice de l'activité professionnelle rémunérée.
+D'où provient l'offre de travail ? ; Des ménages (travailleurs salariés et chômeurs), c'est-à-dire des demandeurs d'emploi mesurés par la population active. Ils mettent à disposition des employeurs du temps de travail et des compétences.
+D'où provient la demande de travail ? ; Des organisations (les employeurs) qui offrent des emplois et souhaitent recruter.
+Selon la théorie néoclassique, comment le prix du travail varie-t-il ? ; En fonction de la loi de l'offre et de la demande : le marché fonctionnerait de manière parfaitement efficace grâce à la flexibilité du salaire, qui permet d'atteindre un équilibre entre l'offre et la demande de travail.
+Que se passe-t-il quand l'offre de travail est supérieure à la demande ? ; Il y a du chômage, et les salaires sont tirés vers le bas.
+Qu'est-ce que le salaire d'équilibre selon la théorie néoclassique ? ; Le salaire qui permet à tous les ménages de conserver leur emploi ou d'en trouver un : c'est la situation de plein emploi.
+Quels sont les facteurs qui influent sur le niveau des salaires, en plus de l'offre et de la demande ? ; Les politiques, le secteur d'activité et la capacité à négocier.
+Quelles sont les cinq hypothèses de la concurrence pure et parfaite ? ; L'atomicité de l'offre, l'homogénéité des offres, la transparence des marchés, la liberté d'entrée et la mobilité des facteurs de production.
+Qu'est-ce que l'atomicité de l'offre ? ; La présence d'un grand nombre d'offreurs et de demandeurs de travail, qui fait qu'ils ne peuvent influencer la quantité globale de travail disponible, et donc le salaire d'équilibre.
+Qu'est-ce que l'homogénéité des offres ? ; Tous les travailleurs doivent être parfaitement identiques, comparables ou homogènes, donc indifférenciés.
+Qu'est-ce que la transparence des marchés ? ; Les agents doivent disposer d'une information parfaite sur les prix.
+Qu'est-ce que la liberté d'entrée ? ; L'accès des offreurs ou des demandeurs sur un marché doit être totalement libre. Toute réglementation imposant des conditions préalables à l'exercice d'une activité est donc exclue.
+Qu'est-ce que la mobilité des facteurs de production ? ; Le travail et le capital doivent pouvoir se déplacer dans les secteurs où ils sont nécessaires.
+Pourquoi le marché du travail ne respecte-t-il pas l'homogénéité des offres ? ; Les travailleurs se distinguent par leur qualification (diplôme et expérience) et par leurs compétences (savoirs, savoir-faire, savoir-être).
+Pourquoi le marché du travail ne respecte-t-il pas la transparence ? ; Il existe une asymétrie de l'information.
+Quelles sont des barrières à l'entrée sur le marché du travail ? ; La concurrence, les coûts de l'embauche, les coûts du licenciement, la qualification et la compétence.
+Pourquoi la mobilité géographique est-elle freinée ? ; Par le transport, le coût du logement et la scolarisation des enfants.
+De quoi dépend l'offre de travail d'un individu ? ; Des salaires offerts, des conditions de travail, du niveau de qualification et de compétences, et de la mobilité fonctionnelle et géographique.
+De quoi dépend l'offre globale de travail ? ; Du volume de la population active (facteurs démographiques), du taux d'activité (facteurs sociologiques) et des politiques publiques en matière d'éducation, de formation et de santé.
+De quoi dépend la demande de travail d'une entreprise ? ; Du niveau de production fixé selon les débouchés escomptés, de la structure de la combinaison productive retenue et du coût du travail (plus le coût salarial est élevé, moins la demande est forte).
+De quoi dépend la demande globale de travail ? ; Du niveau d'activité économique (le taux de croissance du PIB) et des différences de coûts salariaux entre les pays.
+Qu'est-ce qu'un déséquilibre sur le marché du travail ? ; Une situation où la demande de travail n'est pas en adéquation avec l'offre de travail.
+Qu'est-ce qu'une situation de chômage ? ; Un marché où l'offre de travail excède la demande de travail.
+Quand le marché du travail est-il « en tension » ? ; Quand, pour certaines qualifications ou certains types d'emplois, la demande dépasse l'offre : les entreprises peinent à recruter.
+Qu'est-ce que la population active au sens du BIT ? ; La population active occupée (PAO : les actifs qui ont un emploi) et la population active inoccupée (PAI : les actifs au chômage qui recherchent un emploi).
+De qui la population active d'un pays est-elle composée ? ; De tous les habitants de 15 à 64 ans qui travaillent ou sont à la recherche d'un emploi, salariés et non-salariés, qui résident dans le pays.
+Qu'est-ce que la population inactive ? ; Les personnes qui ne travaillent pas et ne cherchent pas d'emploi. Attention : occupé n'est pas inactive.
+Qu'est-ce que le taux d'activité ? ; Le rapport entre l'ensemble de la population active et la population en âge de travailler (ou une sous-catégorie de la population).
+Qu'est-ce que le taux d'emploi ? ; Le rapport entre la population active occupée et la population en âge de travailler.
+Qu'est-ce que le taux de chômage ? ; Le rapport entre le nombre de chômeurs et le nombre d'actifs (en emploi ou au chômage).
+Quel est l'organisme de référence en matière de chômage ? ; Le Bureau international du travail (BIT), qui harmonise les définitions de l'emploi et du chômage entre pays pour comparer les statistiques.
+Quels sont les critères du chômage selon le BIT, repris par l'Insee ? ; Avoir au moins 15 ans, ne pas avoir travaillé au cours de la période, être disponible pour prendre un emploi dans les quinze jours et avoir cherché activement un emploi dans le mois précédent.
+Une personne qui a travaillé au moins une heure pendant la semaine de référence est-elle au chômage selon l'Insee ? ; Non.
+Un étudiant qui travaille 2 heures cette semaine est-il compté comme chômeur au sens du BIT ? ; Non.
+Une personne licenciée pour motif économique qui a cessé de travailler le mois dernier est-elle chômeuse au sens du BIT ? ; Oui, si elle cherche activement un emploi et est disponible.
+Quelle différence entre la définition du BIT et celle de Pôle emploi ? ; Pôle emploi publie des statistiques qui reposent sur sa propre définition : sont au chômage les demandeurs d'emploi inscrits auprès de ses services. Elles ne permettent pas de comparaisons internationales.
+Comment appelle-t-on le halo du chômage ? ; Les personnes sans emploi qui, soit ont recherché un emploi mais ne sont pas disponibles, soit n'ont pas recherché d'emploi mais souhaitent travailler et sont disponibles, soit souhaitent travailler mais n'ont ni recherché d'emploi ni ne sont disponibles : le « halo du chômage » ou chômage marginal.
+Que signifie la dualité du marché du travail ? ; Le marché du travail en France n'est pas uniforme : il est constitué de plusieurs marchés du travail.
+Qu'est-ce que le marché interne ? ; Le marché propre à une entreprise, qui peut y favoriser la promotion interne.
+Qu'est-ce que le marché externe ? ; Le marché sur lequel se présentent toutes les entreprises susceptibles d'embaucher et tous les candidats potentiels à l'embauche. Il est soumis à des règles concurrentielles.
+Qu'est-ce que le marché primaire ? ; Le marché avec des contrats stables (CDI à temps plein). Les salariés profitent d'une bonne rémunération, de bonnes conditions de travail, sont qualifiés, protégés par les syndicats et ont des possibilités de promotion.
+Qu'est-ce que le marché secondaire ? ; Le marché avec des contrats précaires (CDD, intérim, apprentissage, parfois à temps partiel). On y trouve des salariés peu qualifiés, souvent peu rémunérés, avec des conditions de travail difficiles et peu de promotion.
+Que sont les insiders et les outsiders ? ; Les insiders sont les salariés qui connaissent une évolution de carrière favorable au sein de leur entreprise. Les outsiders sont les autres salariés, qui doivent se présenter sur le marché externe.
+Qu'est-ce qu'une politique de l'emploi ? ; Des mesures mises en œuvre par les administrations publiques, spécifiquement orientées vers la lutte contre les déséquilibres observés sur le marché du travail.
+Quel est l'objectif des mesures générales de la politique de l'emploi ? ; Elles bénéficient à tous les salariés en recherche d'emploi et visent à baisser le coût du travail, pour maintenir l'emploi, encourager sa création et améliorer la compétitivité des entreprises.
+Donnez des exemples de mesures générales. ; Les allègements généraux de cotisations sociales ou d'impôts, les incitations financières à l'emploi, les exonérations de cotisations sociales ou fiscales.
+Quel est l'objectif des mesures ciblées ? ; Favoriser l'employabilité de catégories de personnes en difficulté d'accès à l'emploi (les jeunes, les chômeurs de longue durée, les seniors, les personnes handicapées).
+Quel est l'objectif des mesures actives ? ; Augmenter la demande de travail : reprendre une activité professionnelle, inciter la création d'emplois et préserver ceux existants, aider à la recherche d'emploi, adapter la main-d'œuvre aux besoins de l'économie et introduire de la flexibilité.
+Donnez des exemples de mesures actives. ; Les primes à l'embauche, la baisse des charges sur salaire, les emplois aidés, l'aide à la création d'entreprise, le service public de l'emploi, la formation professionnelle, la réforme du Code du travail.
+Quel est l'objectif des mesures passives ? ; Rendre le chômage supportable en indemnisant les chômeurs, et réduire la population active en incitant à retarder l'entrée sur le marché, au retrait d'activité ou au partage du travail.
+Donnez des exemples de mesures passives. ; Les allocations chômage, le temps partiel volontaire, le financement de la pré-retraite, l'abaissement de l'âge de la retraite, la loi Aubry avec les 35 heures et l'allongement des études.
+À quoi sert le Compte personnel de formation (CPF) ? ; À permettre à toute personne active, dès son entrée sur le marché du travail et jusqu'à la retraite, d'acquérir des droits à la formation mobilisables tout au long de sa vie professionnelle.
+Que fait Pôle emploi (devenu France Travail) ? ; Il est chargé du placement des demandeurs d'emploi et de leur indemnisation. Il est né de la fusion en 2008 de l'ANPE et de l'UNEDIC et son réseau d'ASSEDIC.
+Qu'est-ce que l'UNEDIC ? ; L'association chargée, par délégation de service public, de la gestion de l'assurance chômage. Ses recettes proviennent principalement des cotisations sociales patronales.
+Qu'est-ce que l'allocation d'aide au retour à l'emploi (ARE) ? ; L'allocation chômage versée aux chômeurs indemnisés.
+Qu'est-ce que le plan « 1 jeune, 1 solution » ? ; Un dispositif de l'État, avec les emplois franc+, qui permet à l'employeur de percevoir une aide quand il recrute un jeune de moins de 26 ans issu d'un quartier prioritaire de la ville, en CDI ou en CDD d'au moins 6 mois.
+Qu'est-ce que le Parcours emploi compétences (PEC) ? ; Un dispositif qui favorise le retour à l'emploi durable des personnes les plus éloignées du marché du travail, avec une aide de l'État à l'employeur, un accès facilité à la formation et un accompagnement par Pôle emploi.
+Qu'est-ce que la prime d'activité ? ; Une aide versée par la Caisse d'allocations familiales, qui incite les travailleurs aux ressources modestes à exercer ou reprendre une activité professionnelle et soutient leur pouvoir d'achat.
+Comment l'assurance chômage a-t-elle été durcie depuis 2019 ? ; La période de travail minimum pour y accéder est passée de 4 mois sur 28 à 6 mois sur les 24 derniers mois, les conditions de rechargement des droits ont été modifiées et le mode de calcul des allocations a été durci en 2021.
+Qu'est-ce que le système de bonus-malus de l'assurance chômage ? ; Un système prévu pour les entreprises de plus de 11 salariés qui recourent aux contrats courts, pour lutter contre l'abus des CDD ou des missions d'intérim.

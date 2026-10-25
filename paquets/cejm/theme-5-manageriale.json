@@ -1,0 +1,1029 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "7b9c6cc3-e038-52d7-8bf6-a891cca2bda5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Thème 5 - Les mutations du travail",
+    "parentId": null
+   },
+   {
+    "id": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Managériale",
+    "parentId": "7b9c6cc3-e038-52d7-8bf6-a891cca2bda5"
+   }
+  ],
+  "cards": [
+   {
+    "id": "546875a6-301f-50a9-9cdb-f9184f81aa5b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Que signifie GEPP ?",
+    "back": "Gestion des emplois et des parcours professionnels. Elle remplace la GPEC (gestion prévisionnelle des emplois et des compétences).",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "c1a7eaee-f7cf-5f48-acbd-2f16d1617425",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Qu'est-ce que la GPEC ?",
+    "back": "Un dispositif prévisionnel de ressources humaines qui permet à l'entreprise de rester compétitive et de s'adapter à son contexte économique, social et technologique.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "620a58d7-7e5c-5c34-aeb9-630487ea3600",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quelle loi régit la GPEC ?",
+    "back": "La loi Borloo (Jean-Louis Borloo).",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "a0040904-613b-55cd-95f2-44f2ab515b3a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quelles entreprises ont l'obligation de mettre en place la GPEC ?",
+    "back": "Les entreprises de plus de 300 salariés.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "845ad796-ebed-59bd-aedb-05c427dc03f3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Sur quelle durée la GPEC se fait-elle ?",
+    "back": "Sur un plan quinquennal (3 à 5 ans).",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "204db8f1-88b0-5845-9a72-13997bb2af61",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quelles sont les trois étapes de la démarche de GPEC ?",
+    "back": "Le diagnostic des ressources actuelles, l'évaluation des besoins quantitatifs et qualitatifs, et la mise en action.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "2c2ddc0a-75b8-5e51-b394-c31a03f54b4a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Avec qui la GEPP est-elle mise en œuvre ?",
+    "back": "Grâce à des accords entre la direction et les syndicats.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "4418f3bb-4ab0-5814-b41a-a692852095e5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quels sont les deux volets de la GEPP ?",
+    "back": "Un volet quantitatif (l'évaluation du volume d'emplois dont l'entreprise aura besoin pour mettre en œuvre sa stratégie) et un volet qualitatif (les compétences détenues par les salariés, pour développer le savoir-faire ou réorienter les collaborateurs vers d'autres métiers).",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "0b494244-d413-51ac-8d9c-39334254eb32",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Que doit inclure la gestion de la compétence pour Philippe Zarifian ?",
+    "back": "Le développement de l'initiative (avoir de l'inventivité, donner une réponse adaptée à un événement) et de la responsabilité (aller au bout de ses initiatives en répondant des conséquences).",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "a4bbbded-f48f-5d55-8ee2-6eab67b9785b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quels outils la GEPP prévoit-elle ?",
+    "back": "Le recrutement de ressources humaines compétentes, la réduction des effectifs, la réduction ou l'aménagement du temps de travail, la mobilité interne, la formation professionnelle et la promotion après entretien annuel d'évaluation.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "3622dca0-e37b-5179-8e8c-2f5725600d6c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quels sont les trois types de mobilité interne ?",
+    "back": "La mobilité fonctionnelle (changement de poste ou de métier à un niveau hiérarchique identique), la mobilité verticale (changement de poste pour un accroissement de responsabilités, c'est-à-dire la promotion) et la mobilité géographique (changement de lieu de travail pour le même métier).",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "cdab95cc-514d-5bd0-83a9-215ff56b07b9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quelle limite de la GPEC conduit à la gestion des talents ?",
+    "back": "La GPEC montre ses limites lorsque les entreprises sont confrontées à un environnement exigeant en talents, suite notamment à la transformation numérique.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "0a745fe2-9e1c-520f-8f1a-d5f8b7e71724",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Comment C. Déjoux définit-elle le talent ?",
+    "back": "« La combinaison rare de compétences rares » qui peuvent être décelées chez tous les collaborateurs.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "d981859d-9b4a-59ce-bef7-e39a55e4fab4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quelle différence entre la compétence (GEPP) et le talent selon Dejoux et Thévenet ?",
+    "back": "La GEPP a une vision collective des compétences (savoirs, savoir-faire, savoir-être dans une logique d'adaptabilité et d'employabilité), alors que le talent est une combinaison rare de compétences rares, avec une hyper individualisation pour attirer et retenir les meilleurs, dans un environnement concurrentiel de recherche d'innovation.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "eadbe214-5231-57d2-8576-db11f8497fbe",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quelle est la méthodologie de la gestion des talents ?",
+    "back": "Le repérage de profils atypiques et la valorisation de la différence.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "9d122f8c-3725-5988-a114-99ac22960eaf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quelles sont les quatre étapes de la gestion des talents ?",
+    "back": "L'attraction, la détection, le développement et la reconnaissance des talents.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "87fa68c5-9e52-5c93-b55b-f7cf6ee78799",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Comment attirer les talents ?",
+    "back": "En développant la notoriété de l'entreprise, par des Serious Games par exemple.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "3dd644d3-74fe-56fb-8afc-45a3b75e6b05",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Comment détecter les talents ?",
+    "back": "En repensant les procédures de recrutement classiques au profit d'une évaluation des compétences des futures recrues via leurs interactions avec l'entreprise (appels, commentaires sur le site).",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "d9023a11-971d-5c01-addf-4533f1393132",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Comment développer les talents ?",
+    "back": "Par le coaching, le mentoring et les actions de challenge.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "0f59bd0a-403c-5ca0-a775-3963a8bc8164",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Comment reconnaître les talents ?",
+    "back": "Par l'écoute et les actions de motivation financière ou non (distinctions, carrière).",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "02d4e39c-a725-573c-bc08-d33d5ec6c856",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Qu'est-ce que la « 9-box » ?",
+    "back": "Un outil de gestion des talents développé aux États-Unis dans les années 1970 : une grille qui permet de mettre en relation performance et potentiel.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "35f908d7-24ad-5371-bc3b-13831c6dc9de",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Qu'est-ce que la motivation ?",
+    "back": "La force plus ou moins consciente qui pousse un individu à agir. Dans le domaine du travail, c'est ce qui pousse le salarié à s'impliquer et à s'engager dans la réussite de son entreprise.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "1d2ecb20-7bbe-54f1-bc97-da97e5cb782b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Combien de catégories de besoins Maslow distingue-t-il ?",
+    "back": "Cinq, sous forme d'une pyramide : besoins physiologiques, de sécurité, d'appartenance, d'estime et d'accomplissement.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "762e36a3-5658-54e8-926a-892049f6802b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quels sont les 5 besoins de la pyramide de Maslow, de la base au sommet ?",
+    "back": "1. Besoin physiologique (manger, boire). 2. Besoin de sécurité (s'abriter, se vêtir). 3. Besoin d'appartenance (relations). 4. Besoin d'estime (grades, reconnaissance). 5. Besoin de s'accomplir (viser et atteindre ses objectifs).",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "70ead4bc-31a1-5d32-89d9-e438566039c3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Que dit Maslow sur la satisfaction des motivations ?",
+    "back": "Pour satisfaire les motivations « supérieures », les motivations primaires doivent d'abord être satisfaites.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "61404806-c27f-5005-a97c-2911ced224aa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quels deux types de besoins Herzberg distingue-t-il ?",
+    "back": "Les facteurs internes (moteurs), sources de motivation, et les facteurs externes (d'hygiène), sources de satisfaction mais pas de motivation.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "eeeba188-967b-54db-a57a-3ed0493a9e37",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Qu'est-ce que les facteurs de motivation (facteurs moteurs) chez Herzberg ?",
+    "back": "Des facteurs internes particuliers à chaque individu : l'intérêt du travail, la réussite, la promotion, l'initiative, l'autonomie, l'accomplissement, la progression, la reconnaissance, les responsabilités.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "990f1694-e1bc-5836-9de0-dce78a4eccf2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Qu'est-ce que les facteurs d'hygiène chez Herzberg ?",
+    "back": "Des facteurs externes propres à tous les individus, qui concernent l'environnement du travail : relations inter-personnelles, statut, sécurité de l'emploi, politique de l'entreprise, conditions de travail, salaires. Non satisfaits, ils provoquent la démotivation, mais une fois satisfaits ils ne motivent plus.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "5ef8542d-8cd2-5064-afba-95b549aa1d41",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Comment motiver les salariés selon Herzberg ?",
+    "back": "Il faut satisfaire les facteurs moteurs, sources de satisfaction liées au contenu du travail.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "ef4d4b6d-d36a-54ec-8b89-4e71897d2832",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Qu'est-ce que l'équité (John Stacey Adams) ?",
+    "back": "La recherche de la « justice » est un moteur essentiel de motivation : chaque salarié compare sa situation à celle des autres, au sein et en dehors de l'entreprise.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "98e9f0d3-7c57-5965-8a08-08e8db33caa6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Comment le salarié calcule-t-il son ratio d'équité ?",
+    "back": "En comparant la rétribution de son travail (salaire, avantages, conditions de travail) avec l'effort engagé (temps de travail, expérience, formation).",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "f65dd8c0-d4a6-56b4-a47c-f07610ed7273",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Que se passe-t-il si le ratio d'équité du salarié est identique à celui des autres ?",
+    "back": "Sentiment d'équité et de satisfaction.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "67ae066d-fc7b-50cf-b221-140b969fe40a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Que se passe-t-il si le ratio d'équité est supérieur ?",
+    "back": "Sentiment de sur-équité, qui pousse à augmenter l'investissement : le salarié a tendance à augmenter son travail et à alléger celui des autres en les aidant.",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "23fb5ce7-2251-5855-9cf2-7772bec02a30",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Que se passe-t-il si le ratio d'équité est inférieur ?",
+    "back": "Sentiment de sous-équité, source de tensions : le salarié va exiger une meilleure rétribution, sera démotivé (absentéisme, limitation des efforts) et mettra en œuvre des stratégies de non-coopération.",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "1acb782e-c3ec-5abb-ab55-2a4cbbfc8bb0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Pourquoi les actions de motivation traditionnelles ne suffisent-elles plus ?",
+    "back": "Les actions centrées sur la satisfaction des besoins, l'aménagement du temps de travail, l'attractivité de la rémunération, l'épargne salariale ou la gestion de carrière ne sont plus suffisantes pour motiver les jeunes générations.",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "d15760c6-5420-539d-ba19-02d14ba6f0fb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quel est le profil de la génération X ?",
+    "back": "Née entre 1960 et 1980. Points forts : expérience, loyauté, sens de l'autorité et de la hiérarchie, esprit de compétition, organisation, capacité d'innovation managériale. Points faibles : faible capacité de communication, manque de transparence, conception pyramidale de l'entreprise, parfois techno-exclue.",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "ec502934-ed4e-5d7a-962a-5783ac0cd8d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quel est le profil de la génération Y ?",
+    "back": "Née entre 1980 et 1995 (digital natives). Points forts : pas de résistance au changement, forte capacité d'adaptation, autonomie, facilité d'apprentissage, envie d'entreprendre, maîtrise des outils technologiques. Points faibles : sens relatif de la hiérarchie, instabilité, égocentrisme, faible engagement collectif, forte exigence d'équilibre vie privée et vie professionnelle.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "8357f435-28f2-59c9-9e59-46a23dddfa6c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quel est le profil de la génération Z ?",
+    "back": "Née après 1995, ouverte sur le monde. Points forts : sens des valeurs, vision internationale, totale transparence, rapidité de pensée et d'action, originalité, soif d'entreprendre, fonctionnement en réseau. Points faibles : défiance vis-à-vis de l'entreprise, impatience, exigence, dispersion.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "c0154647-b935-5fde-b647-ba1c1b40da26",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quelles nouvelles attentes la génération Y a-t-elle ?",
+    "back": "Elle est en quête d'aventure et de sens et souhaite multiplier les expériences : 56 % de ces jeunes ne veulent pas travailler avec certains employeurs en raison de leurs valeurs ou de leur conduite.",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   },
+   {
+    "id": "08807cb0-f1af-56b0-804d-bf84ace379e2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quels sont les trois nouveaux dispositifs que l'entreprise doit envisager pour les digital natives ?",
+    "back": "Prendre en compte la responsabilité sociétale, la diversité, et le besoin d'autonomie et de responsabilité.",
+    "createdAt": "2000-01-01T00:00:39.000Z"
+   },
+   {
+    "id": "c432b114-3b62-566f-ad70-bde2b4d2ac68",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Pourquoi la responsabilité sociétale (RSE) compte-t-elle pour la motivation ?",
+    "back": "Plus de 70 % des salariés disent qu'ils seraient plus épanouis et plus fidèles à leur entreprise si elle était véritablement investie dans une démarche de RSE.",
+    "createdAt": "2000-01-01T00:00:40.000Z"
+   },
+   {
+    "id": "ab6f9aba-6be6-502b-8a36-d972b4585384",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Qu'est-ce que la gestion de la diversité ?",
+    "back": "Les mesures prises par les employeurs pour recruter, conserver et former des salariés issus de catégories sociales variées, d'âge, de nationalité, de sexe, d'origine ethnique et d'orientation sexuelle différents.",
+    "createdAt": "2000-01-01T00:00:41.000Z"
+   },
+   {
+    "id": "5cd87088-b145-50aa-ad0f-5d915f697dce",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Pourquoi faut-il faire converger les valeurs de l'entreprise et des salariés (Jean-Marie Peretti) ?",
+    "back": "Pour améliorer leur fidélisation, diminuer le turn-over, augmenter leur motivation et leur implication.",
+    "createdAt": "2000-01-01T00:00:42.000Z"
+   },
+   {
+    "id": "02041ef8-1247-5a9c-8087-7c5c86b5f94d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Comment inclure la diversité en tant que thème de négociation collective ?",
+    "back": "Par des engagements (accords sur l'égalité professionnelle, la diversité et la cohésion sociale) et par des chartes et labels de la diversité et de l'égalité professionnelle.",
+    "createdAt": "2000-01-01T00:00:43.000Z"
+   },
+   {
+    "id": "a99a95d7-8e05-5010-9748-895bc4a9f0cc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Quelles nouvelles formes d'organisation favorisent l'autonomie et la responsabilité ?",
+    "back": "Un management plus participatif, de nouveaux modes d'organisation du travail (mobilité, technologies de communication mobiles, télétravail) et la collaboration, la transparence et le partage de connaissances (flex office, espaces communs connectés, travail en mode projet).",
+    "createdAt": "2000-01-01T00:00:44.000Z"
+   },
+   {
+    "id": "0ea10460-931a-58c8-a8f3-055290e55a35",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Qu'est-ce que le flex office ?",
+    "back": "Des espaces de travail communs accueillants, conviviaux et connectés, qui remplacent les bureaux attitrés et favorisent le travail en mode projet.",
+    "createdAt": "2000-01-01T00:00:45.000Z"
+   },
+   {
+    "id": "7f8623a2-b792-5ab5-af8b-e5841e2b9068",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "82b3f57d-42ca-538e-9cd5-d6936cf1b65a",
+    "front": "Pourquoi le manque de compétences en cybersécurité est-il un enjeu pour les entreprises ?",
+    "back": "Les entreprises qui mettent plusieurs mois à trouver des candidats compétents butent non seulement sur un problème d'efficacité, mais s'exposent aussi à des risques accrus de cybercriminalité : elles doivent revoir leur stratégie de recrutement et de rétention des talents.",
+    "createdAt": "2000-01-01T00:00:46.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "cd0e8423-00b5-5af7-9abe-254e2ce21009",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "546875a6-301f-50a9-9cdb-f9184f81aa5b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "00f8a7a7-5072-50f4-b13c-ced6370e6966",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c1a7eaee-f7cf-5f48-acbd-2f16d1617425",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "32d9e57b-6d9e-562f-833d-0464c0bfd091",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "620a58d7-7e5c-5c34-aeb9-630487ea3600",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "254ddd36-361d-5873-9a76-1437aa3970e4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a0040904-613b-55cd-95f2-44f2ab515b3a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cc0fcc52-8317-5185-8a79-ae481abae1b8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "845ad796-ebed-59bd-aedb-05c427dc03f3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9d0a9958-65cd-5cae-b33b-e635f313296a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "204db8f1-88b0-5845-9a72-13997bb2af61",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "071bfe8f-71a2-5bf1-addc-d08d8ed9bed7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2c2ddc0a-75b8-5e51-b394-c31a03f54b4a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "571193b5-555d-5fed-8267-1b4c1c8a2525",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4418f3bb-4ab0-5814-b41a-a692852095e5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "22119522-c93e-5112-a8b8-498b5ad695c4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0b494244-d413-51ac-8d9c-39334254eb32",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "df28cfed-9a7d-5a55-a8dc-6a248dc52b49",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a4bbbded-f48f-5d55-8ee2-6eab67b9785b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6f4e0c41-ca1a-5381-be39-e57d66d24a05",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3622dca0-e37b-5179-8e8c-2f5725600d6c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e5766ab1-7672-5d37-9cee-393d1925b436",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cdab95cc-514d-5bd0-83a9-215ff56b07b9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4efae958-8cc6-538f-a36c-5ab0afd9ca3e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0a745fe2-9e1c-520f-8f1a-d5f8b7e71724",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a4fc4eac-5f66-5652-9522-a1b81be4ff92",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d981859d-9b4a-59ce-bef7-e39a55e4fab4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "687a97b5-d529-5a98-a782-5b7a80be5f50",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eadbe214-5231-57d2-8576-db11f8497fbe",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ac3ed337-f1d5-5ffe-ad2d-4ac3bc4f2fd5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9d122f8c-3725-5988-a114-99ac22960eaf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c2b3726a-c70d-53c9-b0d7-1b86b3ad682b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "87fa68c5-9e52-5c93-b55b-f7cf6ee78799",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5f7645cb-d2b1-541e-bb4b-32dec09a5575",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3dd644d3-74fe-56fb-8afc-45a3b75e6b05",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cf27797e-fd39-5c30-ad6f-a5393041a86e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d9023a11-971d-5c01-addf-4533f1393132",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ca7a8966-1da0-59b3-8240-0db378df1333",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0f59bd0a-403c-5ca0-a775-3963a8bc8164",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e8e52512-da2d-5fd1-bcca-6bbaf7b306a2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "02d4e39c-a725-573c-bc08-d33d5ec6c856",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "33df49d9-9043-5346-8e38-abb1427af81e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "35f908d7-24ad-5371-bc3b-13831c6dc9de",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1149c17c-acb6-5e9e-a488-b12bf27a5790",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1d2ecb20-7bbe-54f1-bc97-da97e5cb782b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c41f1639-5612-5a4a-ad14-c710ef27fcec",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "762e36a3-5658-54e8-926a-892049f6802b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e0235f74-47b5-587e-9de1-b57325ecdc39",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "70ead4bc-31a1-5d32-89d9-e438566039c3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cb3b322d-3ca5-5174-adc5-ede8b44e92c8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "61404806-c27f-5005-a97c-2911ced224aa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1f198ec1-357a-5b2f-9345-6165ac522b71",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eeeba188-967b-54db-a57a-3ed0493a9e37",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4f937696-da7b-5fa8-8b9c-56133ec22e17",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "990f1694-e1bc-5836-9de0-dce78a4eccf2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "058764cb-1124-5599-95f8-0db9b4df2a78",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5ef8542d-8cd2-5064-afba-95b549aa1d41",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c65aa045-a90b-5446-96ed-480a312e9680",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ef4d4b6d-d36a-54ec-8b89-4e71897d2832",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cd08a1b2-e301-5b8a-a879-6c0969ec97db",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "98e9f0d3-7c57-5965-8a08-08e8db33caa6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c5d9f343-ba3f-539a-abbe-29c2f4e764ae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f65dd8c0-d4a6-56b4-a47c-f07610ed7273",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "845bd5bb-9871-5673-bf28-70fa143ff10c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "67ae066d-fc7b-50cf-b221-140b969fe40a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "04344210-bc19-543b-ac84-de22ef104171",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "23fb5ce7-2251-5855-9cf2-7772bec02a30",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5f03e482-4f02-5d11-b33e-28e48bf2ad72",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1acb782e-c3ec-5abb-ab55-2a4cbbfc8bb0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "65ba263a-529b-5661-ae4f-523b40dff927",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d15760c6-5420-539d-ba19-02d14ba6f0fb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ac1706b0-891d-5256-a1dd-2aff756f497a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ec502934-ed4e-5d7a-962a-5783ac0cd8d2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "20e6d24e-8d6e-50ff-a809-d76fc5641142",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8357f435-28f2-59c9-9e59-46a23dddfa6c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8e14d5c7-606f-55ab-ab59-2b67e1250f42",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c0154647-b935-5fde-b647-ba1c1b40da26",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "af9047d3-ceb4-5557-8e8f-49afbd75b2e3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "08807cb0-f1af-56b0-804d-bf84ace379e2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "efa0b7b0-15ad-51da-8179-c471e50bdd96",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c432b114-3b62-566f-ad70-bde2b4d2ac68",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "882b3840-b4c6-5a08-ba61-642a2bd16db4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ab6f9aba-6be6-502b-8a36-d972b4585384",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "63803300-806d-5136-ba3b-cb1802993c78",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5cd87088-b145-50aa-ad0f-5d915f697dce",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8a3e3615-ce8b-5650-9bbc-b36a6861428e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "02041ef8-1247-5a9c-8087-7c5c86b5f94d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "41538194-f89a-5a2e-a19a-1766a965236c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a99a95d7-8e05-5010-9748-895bc4a9f0cc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "be143327-35f7-575c-a4ff-9dc6cd357d0d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0ea10460-931a-58c8-a8f3-055290e55a35",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "966148a4-c848-551d-a079-cac81bbf6890",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7f8623a2-b792-5ab5-af8b-e5841e2b9068",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

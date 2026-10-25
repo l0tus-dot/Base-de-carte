@@ -67,6 +67,30 @@
    "parent": "Thème 4 - L'impact du numérique sur la vie de l'entreprise"
   },
   {
+   "subject": "CEJM",
+   "deck": "Economique",
+   "cards": 61,
+   "description": "Le marché du travail, ses déterminants, ses déséquilibres, sa segmentation et les politiques de l'emploi.",
+   "path": "paquets/cejm/theme-5-economique.json",
+   "parent": "Thème 5 - Les mutations du travail"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Juridique",
+   "cards": 163,
+   "description": "Les sources du droit du travail, le droit négocié, le contrat de travail, les pouvoirs de l'employeur, la formation, la modification et la rupture du contrat.",
+   "path": "paquets/cejm/theme-5-juridique.json",
+   "parent": "Thème 5 - Les mutations du travail"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Managériale",
+   "cards": 47,
+   "description": "La GEPP (ex-GPEC), la gestion des talents, les leviers de motivation (Maslow, Herzberg, équité) et les attentes des générations X, Y et Z.",
+   "path": "paquets/cejm/theme-5-manageriale.json",
+   "parent": "Thème 5 - Les mutations du travail"
+  },
+  {
    "subject": "CEJMA",
    "deck": "Les licences logicielles",
    "cards": 21,

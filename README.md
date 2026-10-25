@@ -36,6 +36,9 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | CEJM | Thème 4 - L'impact du numérique sur la vie de l'entreprise : Economique | 47 | `paquets/cejm/theme-4-economique.json` |
 | CEJM | Thème 4 - L'impact du numérique sur la vie de l'entreprise : Juridique | 144 | `paquets/cejm/theme-4-juridique.json` |
 | CEJM | Thème 4 - L'impact du numérique sur la vie de l'entreprise : Managériale | 66 | `paquets/cejm/theme-4-manageriale.json` |
+| CEJM | Thème 5 - Les mutations du travail : Economique | 61 | `paquets/cejm/theme-5-economique.json` |
+| CEJM | Thème 5 - Les mutations du travail : Juridique | 163 | `paquets/cejm/theme-5-juridique.json` |
+| CEJM | Thème 5 - Les mutations du travail : Managériale | 47 | `paquets/cejm/theme-5-manageriale.json` |
 
 Dans la matière CEJM, chaque paquet est un thème du cours, avec un sous-paquet par sous-thème (Economique, Juridique ou Managériale) qui regroupe les cartes de tous les PDF.
 
