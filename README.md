@@ -18,15 +18,15 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | Matière | Paquet | Cartes | Fichier |
 | --- | --- | --- | --- |
 | CEJMA | Les licences logicielles | 21 | `paquets/cejma/les-licences-logicielles.json` |
-| Réseau | Routage statique | 22 | `paquets/reseau/routage-statique.json` |
-| Réseau | Routage Dynamique (RIPv2) | 28 | `paquets/reseau/routage-dynamique-ripv2.json` |
+| Réseau | Routage statique | 18 | `paquets/reseau/routage-statique.json` |
+| Réseau | Routage Dynamique (RIPv2) | 26 | `paquets/reseau/routage-dynamique-ripv2.json` |
 | Réseau | NAT et PAT | 25 | `paquets/reseau/nat-et-pat.json` |
-| Réseau | DHCP | 24 | `paquets/reseau/dhcp.json` |
-| Réseau | Active Directory | 32 | `paquets/reseau/active-directory.json` |
+| Réseau | DHCP | 22 | `paquets/reseau/dhcp.json` |
+| Réseau | Active Directory | 30 | `paquets/reseau/active-directory.json` |
 | Réseau | Dépannage réseau | 33 | `paquets/reseau/depannage-reseau.json` |
-| Cybersécurité | Segmentation VLSM | 28 | `paquets/cybersecurite/segmentation-vlsm.json` |
-| Cybersécurité | VPN | 33 | `paquets/cybersecurite/vpn.json` |
-| Cybersécurité | Délégation de droit avec sudo | 32 | `paquets/cybersecurite/delegation-sudo.json` |
+| Cybersécurité | Segmentation VLSM | 18 | `paquets/cybersecurite/segmentation-vlsm.json` |
+| Cybersécurité | VPN | 28 | `paquets/cybersecurite/vpn.json` |
+| Cybersécurité | Délégation de droit avec sudo | 31 | `paquets/cybersecurite/delegation-sudo.json` |
 | Cybersécurité | ACL cisco | 32 | `paquets/cybersecurite/acl-cisco.json` |
 
 *(Tenir cette liste à jour à chaque nouveau paquet.)*

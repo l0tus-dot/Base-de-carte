@@ -50,22 +50,13 @@
     "createdAt": "2000-01-01T00:00:02.000Z"
    },
    {
-    "id": "6422d458-1eea-5708-83af-8d8568b92f12",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
-    "front": "Quel protocole de routage dynamique est étudié dans ce cours ?",
-    "back": "RIP version 2 (RIPv2), configuré sur des routeurs Cisco.",
-    "createdAt": "2000-01-01T00:00:03.000Z"
-   },
-   {
     "id": "ed5b8ff9-db17-575c-9749-eebc0ef1230a",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Dans quel cas utilise-t-on RIPv2 ?",
     "back": "Sur de petites topologies (moins de 15 sauts) où la simplicité de mise en œuvre prime sur la rapidité de convergence.",
-    "createdAt": "2000-01-01T00:00:04.000Z"
+    "createdAt": "2000-01-01T00:00:03.000Z"
    },
    {
     "id": "b851ab2a-3e79-5356-93ee-d5e90cb9c94b",
@@ -74,7 +65,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Quel protocole préfère-t-on à RIP sur un réseau plus grand ou plus exigeant ?",
     "back": "OSPF.",
-    "createdAt": "2000-01-01T00:00:05.000Z"
+    "createdAt": "2000-01-01T00:00:04.000Z"
    },
    {
     "id": "48ff1e83-c7ef-5e5b-b4d6-c4341a7404ad",
@@ -83,7 +74,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Quelles sont les distances administratives d'une route statique, d'OSPF et de RIP ?",
     "back": "1 pour une route statique, 110 pour OSPF et 120 pour RIP.",
-    "createdAt": "2000-01-01T00:00:06.000Z"
+    "createdAt": "2000-01-01T00:00:05.000Z"
    },
    {
     "id": "c1a024f7-3dc5-5689-96bb-97e96958a273",
@@ -92,7 +83,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Que se passe-t-il quand une route statique et une route RIP existent pour la même destination ?",
     "back": "La route statique reste prioritaire car sa distance administrative (1) est plus faible que celle de RIP (120), même si RIP a une meilleure métrique.",
-    "createdAt": "2000-01-01T00:00:07.000Z"
+    "createdAt": "2000-01-01T00:00:06.000Z"
    },
    {
     "id": "174fb488-3a0b-55d5-b540-0e3656f4c748",
@@ -101,7 +92,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Comment faire prévaloir RIP sur une route statique ?",
     "back": "Retirer la route statique ou augmenter sa distance.",
-    "createdAt": "2000-01-01T00:00:08.000Z"
+    "createdAt": "2000-01-01T00:00:07.000Z"
    },
    {
     "id": "baf4f7a8-c9ad-534c-9471-9da1fe5f87f8",
@@ -110,7 +101,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Quelles commandes activent RIPv2 sur un routeur Cisco ?",
     "back": "router rip, puis version 2 et no auto-summary.",
-    "createdAt": "2000-01-01T00:00:09.000Z"
+    "createdAt": "2000-01-01T00:00:08.000Z"
    },
    {
     "id": "2b792ac6-88f1-5da5-a411-958cc3b04791",
@@ -119,7 +110,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Pourquoi no auto-summary n'est-il pas optionnel avec RIPv2 ?",
     "back": "Sans lui, RIPv2 résume les routes à la frontière de classe comme RIPv1, ce qui casse le routage sur des sous-réseaux discontinus sans message d'erreur visible.",
-    "createdAt": "2000-01-01T00:00:10.000Z"
+    "createdAt": "2000-01-01T00:00:09.000Z"
    },
    {
     "id": "29260433-b095-562d-a661-4d6bfb459e86",
@@ -128,7 +119,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Que prend la commande network dans le processus RIP ?",
     "back": "L'adresse de classe complète et non le préfixe exact de l'interface. IOS retrouve lui-même le bon masque.",
-    "createdAt": "2000-01-01T00:00:11.000Z"
+    "createdAt": "2000-01-01T00:00:10.000Z"
    },
    {
     "id": "377b345b-c476-5a9e-ba7a-eca3bc162c3e",
@@ -137,7 +128,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Pourquoi utiliser passive-interface sur les interfaces côté LAN ?",
     "back": "RIP diffuse ses annonces sur toutes les interfaces déclarées, y compris vers les postes clients, ce qui est inutile et légèrement exposé.",
-    "createdAt": "2000-01-01T00:00:12.000Z"
+    "createdAt": "2000-01-01T00:00:11.000Z"
    },
    {
     "id": "6178239e-a3d3-5387-9cd5-1b1407de2fa7",
@@ -146,7 +137,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Quel est l'effet de passive-interface sur une interface RIP ?",
     "back": "Son réseau continue d'être annoncé aux autres routeurs, mais le routeur n'y envoie plus de mises à jour.",
-    "createdAt": "2000-01-01T00:00:13.000Z"
+    "createdAt": "2000-01-01T00:00:12.000Z"
    },
    {
     "id": "9d72f9cd-b8b5-50c5-a5ee-0891d7b5e922",
@@ -155,7 +146,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Comment propager une route par défaut avec RIP ?",
     "back": "Sur le routeur de bordure, créer la route ip route 0.0.0.0 0.0.0.0 vers le fournisseur puis ajouter default-information originate sous router rip.",
-    "createdAt": "2000-01-01T00:00:14.000Z"
+    "createdAt": "2000-01-01T00:00:13.000Z"
    },
    {
     "id": "1348f5bb-e7ae-518b-b128-f88a1e4e325e",
@@ -164,7 +155,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Que se passe-t-il sans default-information originate ?",
     "back": "La route par défaut reste locale au routeur de bordure et n'est pas propagée aux autres routeurs RIP.",
-    "createdAt": "2000-01-01T00:00:15.000Z"
+    "createdAt": "2000-01-01T00:00:14.000Z"
    },
    {
     "id": "e3864a8a-589a-5af2-a764-46d735ea95f4",
@@ -173,7 +164,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Pourquoi authentifier les échanges d'un protocole de routage dynamique comme RIP ?",
     "back": "Sans cela, n'importe quel équipement connecté au segment peut annoncer de fausses routes et détourner du trafic. L'authentification MD5 est un minimum, pas une garantie absolue.",
-    "createdAt": "2000-01-01T00:00:16.000Z"
+    "createdAt": "2000-01-01T00:00:15.000Z"
    },
    {
     "id": "45f2629a-3fee-5d13-8089-2c6f8d4939e6",
@@ -182,16 +173,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Quelles commandes mettent en place l'authentification MD5 sur RIP ?",
     "back": "Créer un key chain avec key et key-string, puis sur l'interface ip rip authentication mode md5 et ip rip authentication key-chain.",
-    "createdAt": "2000-01-01T00:00:17.000Z"
-   },
-   {
-    "id": "8e098923-8061-5d81-ae5d-e7a4e3b642a4",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
-    "front": "Comment annuler la configuration si RIP a été introduit uniquement pour cette procédure ?",
-    "back": "Avec no router rip, qui retire d'un coup toute la configuration RIP (réseaux, passive-interface, default-information originate).",
-    "createdAt": "2000-01-01T00:00:18.000Z"
+    "createdAt": "2000-01-01T00:00:16.000Z"
    },
    {
     "id": "20ab325b-35d1-5f45-be48-4d8234f0efb1",
@@ -200,7 +182,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Comment annuler la configuration si RIP gère déjà d'autres réseaux ?",
     "back": "Retirer uniquement ce qui a été ajouté sous router rip avec no network, no passive-interface et no default-information originate.",
-    "createdAt": "2000-01-01T00:00:19.000Z"
+    "createdAt": "2000-01-01T00:00:17.000Z"
    },
    {
     "id": "9eb317ca-e52a-5487-99d4-32b5d8d4cf21",
@@ -209,7 +191,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Quel est le risque d'un retour arrière RIP ?",
     "back": "Les routes annoncées disparaissent progressivement des autres routeurs jusqu'au timeout. Sans route statique de secours, la connectivité se coupe sans message d'erreur explicite.",
-    "createdAt": "2000-01-01T00:00:20.000Z"
+    "createdAt": "2000-01-01T00:00:18.000Z"
    },
    {
     "id": "4596c5b6-3b6e-546a-9b21-b2621e94ecc1",
@@ -218,7 +200,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Quelles commandes vérifient le fonctionnement de RIP ?",
     "back": "show ip protocols, show ip route rip et show ip rip database.",
-    "createdAt": "2000-01-01T00:00:21.000Z"
+    "createdAt": "2000-01-01T00:00:19.000Z"
    },
    {
     "id": "08954171-b554-55b7-be13-d1d0520aeb22",
@@ -227,7 +209,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Comment une route apprise par RIP apparaît-elle dans show ip route ?",
     "back": "Préfixée par R, avec une distance administrative de 120. Le chiffre après le 120 entre crochets est le nombre de sauts.",
-    "createdAt": "2000-01-01T00:00:22.000Z"
+    "createdAt": "2000-01-01T00:00:20.000Z"
    },
    {
     "id": "31e66ccf-6a64-562f-8dce-47cc6f9877e5",
@@ -236,7 +218,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Quelle est la limite de sauts de RIP ?",
     "back": "RIP écarte toute route à plus de 15 sauts.",
-    "createdAt": "2000-01-01T00:00:23.000Z"
+    "createdAt": "2000-01-01T00:00:21.000Z"
    },
    {
     "id": "83900277-00d0-5de5-88a0-23ed3a29bf00",
@@ -245,7 +227,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Pourquoi éviter debug ip rip en production ?",
     "back": "Il charge le processeur en continu, il est réservé aux environnements de test et s'arrête avec undebug all.",
-    "createdAt": "2000-01-01T00:00:24.000Z"
+    "createdAt": "2000-01-01T00:00:22.000Z"
    },
    {
     "id": "abf39a48-01c6-5f0b-ae5a-48f50a959f14",
@@ -254,7 +236,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Que faire si aucune route R n'apparaît ?",
     "back": "Le réseau est probablement non déclaré ou déclaré avec la mauvaise adresse de classe. Vérifier avec show ip protocols (section Routing for Networks).",
-    "createdAt": "2000-01-01T00:00:25.000Z"
+    "createdAt": "2000-01-01T00:00:23.000Z"
    },
    {
     "id": "f5e97236-efab-54aa-872f-dce85dc23ea3",
@@ -263,7 +245,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Pourquoi une route RIP apprise est-elle retirée après environ 3 minutes ?",
     "back": "Le voisin est injoignable et le timeout RIP est atteint. Vérifier la liaison physique et l'adressage de l'interface commune.",
-    "createdAt": "2000-01-01T00:00:26.000Z"
+    "createdAt": "2000-01-01T00:00:24.000Z"
    },
    {
     "id": "1d69f07a-52b1-5a47-b5df-2fa4638aadd0",
@@ -272,7 +254,7 @@
     "deckId": "3deece00-513a-5bad-a443-df948fb5d2ba",
     "front": "Que faire si des routes RIP sont en boucle ou instables ?",
     "back": "L'auto-résumé est probablement actif sur un plan discontinu. Ajouter no auto-summary sur tous les routeurs du domaine RIP.",
-    "createdAt": "2000-01-01T00:00:27.000Z"
+    "createdAt": "2000-01-01T00:00:25.000Z"
    }
   ],
   "card_states": [
@@ -305,18 +287,6 @@
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "cardId": "44c0de62-8e95-5381-a9ec-32ca4fd523f0",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
-    "id": "2d22c569-4d24-51e3-93a9-22131c0fce60",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "6422d458-1eea-5708-83af-8d8568b92f12",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -485,18 +455,6 @@
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "cardId": "45f2629a-3fee-5d13-8089-2c6f8d4939e6",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
-    "id": "7e657e07-b15e-5d14-a314-b925b94e9714",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "8e098923-8061-5d81-ae5d-e7a4e3b642a4",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,

@@ -4,7 +4,6 @@
 À quoi sert un annuaire Active Directory ? ; Il centralise l'identification et l'authentification d'un parc Windows dans un annuaire unique, plutôt qu'une base de comptes locale par machine (modèle « groupe de travail », base SAM).
 Que regroupe un domaine Active Directory ? ; Des utilisateurs, groupes et ordinateurs dans une arborescence d'unités d'organisation (OU), avec des stratégies de sécurité appliquées via des GPO.
 Pourquoi avoir plusieurs contrôleurs de domaine ? ; L'annuaire est répliqué entre eux, donc la disponibilité du domaine ne dépend plus d'un seul serveur.
-Quels sont les prérequis pour créer l'arborescence AD du cours ? ; Un Windows Server promu contrôleur de domaine (rôle AD DS), le module PowerShell ActiveDirectory (RSAT) sur le poste d'administration et un poste client joint au domaine pour vérifier les GPO.
 Qu'est-ce que le DistinguishedName d'un objet AD ? ; C'est son chemin LDAP dans l'annuaire, par exemple cn=Pierre,ou=Informatique,dc=galaxy-swiss,dc=com. Il change si l'objet est déplacé.
 Qu'est-ce que le GUID d'un objet AD ? ; Un identifiant sur 128 bits attribué à la création, qui est invariable.
 Que détermine l'étendue d'un groupe ? ; Où il peut être utilisé : domaine local, globale ou universelle. C'est elle qui structure la méthode AGDLP.
@@ -29,7 +28,6 @@ Que prouve gpresult /r ? ; Il liste les GPO réellement appliquées à l'utilisa
 Pourquoi une GPO n'apparaît-elle pas appliquée sur le poste ? ; L'intervalle d'actualisation (60 à 120 minutes) n'est probablement pas encore écoulé. Lancer gpupdate /force sur le poste client.
 Comment vérifier que deux contrôleurs de domaine partagent le même annuaire ? ; Avec repadmin /replsummary. Résultat attendu : Largest Delta proche de zéro et aucune erreur de réplication.
 Que faire si repadmin /replsummary signale une erreur entre deux contrôleurs ? ; La réplication est en échec (réseau, DNS ou service arrêté). Lancer repadmin /showrepl sur chacun des deux contrôleurs pour isoler la cause.
-Dans quel ordre retirer la configuration AD du cours ? ; D'abord la GPO, puis les appartenances de groupe, les groupes, l'utilisateur et l'OU en dernier, pour ne jamais laisser un objet orphelin référencé ailleurs.
 Pourquoi Remove-ADOrganizationalUnit échoue-t-il avec « accès refusé » ? ; Car ProtectedFromAccidentalDeletion est toujours activé, ce qui est volontaire. Il faut d'abord lancer Set-ADOrganizationalUnit avec -ProtectedFromAccidentalDeletion $false.
 Pourquoi un utilisateur accède-t-il encore à une ressource après avoir quitté le service ? ; Il est toujours membre du groupe global associé. Le retirer de ce groupe, sans toucher aux permissions NTFS.
 Pourquoi des applications comme GLPI, un pare-feu ou un VPN utilisent-elles LDAP ? ; Pour authentifier leurs utilisateurs contre l'annuaire plutôt que de maintenir leur propre base de comptes.

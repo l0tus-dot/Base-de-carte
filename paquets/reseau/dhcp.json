@@ -113,22 +113,13 @@
     "createdAt": "2000-01-01T00:00:09.000Z"
    },
    {
-    "id": "3488924f-a9d4-5c90-ba9e-a23cef765228",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
-    "front": "Où et comment configurer le relais DHCP ?",
-    "back": "Avec ip helper-address suivi de l'adresse du serveur DHCP, sur l'interface du routeur relais qui reçoit les diffusions des clients (ici celle de R2).",
-    "createdAt": "2000-01-01T00:00:10.000Z"
-   },
-   {
     "id": "f64687cf-72d1-5100-98a2-63f616df8c04",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Que relaie en plus du DHCP la commande ip helper-address ?",
     "back": "Par défaut elle transfère aussi les requêtes TFTP, DNS, NetBIOS et quelques autres protocoles de diffusion. Pour les restreindre, utiliser no ip forward-protocol udp suivi du port.",
-    "createdAt": "2000-01-01T00:00:11.000Z"
+    "createdAt": "2000-01-01T00:00:10.000Z"
    },
    {
     "id": "76311f4f-3241-5c78-a622-ef81ca6d4ad2",
@@ -137,7 +128,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Comment configurer un serveur DHCP sous Linux ?",
     "back": "Avec isc-dhcp-server, on définit dans /etc/dhcp/dhcpd.conf un subnet (range, option routers, option domain-name-servers, durées de bail) puis on redémarre le service avec systemctl restart.",
-    "createdAt": "2000-01-01T00:00:12.000Z"
+    "createdAt": "2000-01-01T00:00:11.000Z"
    },
    {
     "id": "4f8eb6c9-3943-5a30-8e62-39f4ac82378a",
@@ -146,7 +137,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Pourquoi isc-dhcp-server peut-il démarrer sans répondre à aucune requête ?",
     "back": "Il faut lui indiquer l'interface d'écoute avec INTERFACESv4=\"ens18\" dans /etc/default/isc-dhcp-server.",
-    "createdAt": "2000-01-01T00:00:13.000Z"
+    "createdAt": "2000-01-01T00:00:12.000Z"
    },
    {
     "id": "95da43f3-54a8-5877-83f9-9d251261dc26",
@@ -155,7 +146,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Que fait-on pour annuler la configuration DHCP Cisco ?",
     "back": "Retirer le helper-address de l'interface, puis les pools avec no ip dhcp pool et les exclusions avec no ip dhcp excluded-address, avant d'enregistrer.",
-    "createdAt": "2000-01-01T00:00:14.000Z"
+    "createdAt": "2000-01-01T00:00:13.000Z"
    },
    {
     "id": "5a53b87f-c682-51da-8ee8-a3d4d6063a58",
@@ -164,7 +155,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Que devient un bail en cours quand on supprime une étendue ?",
     "back": "Il n'est pas révoqué, le poste garde son adresse jusqu'à expiration ou ipconfig /release. clear ip dhcp binding * vide immédiatement la base de baux.",
-    "createdAt": "2000-01-01T00:00:15.000Z"
+    "createdAt": "2000-01-01T00:00:14.000Z"
    },
    {
     "id": "7eb9d89d-4f6f-5ef1-be3e-8044b6ce8acf",
@@ -173,7 +164,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Quelles commandes vérifient le DHCP sur le routeur ?",
     "back": "show ip dhcp binding (baux actifs avec MAC et expiration), show ip dhcp pool et show ip dhcp conflict (adresses détectées comme déjà utilisées).",
-    "createdAt": "2000-01-01T00:00:16.000Z"
+    "createdAt": "2000-01-01T00:00:15.000Z"
    },
    {
     "id": "849d92e8-3faa-57f7-b71a-cbcf09e9da50",
@@ -182,7 +173,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Quelles commandes de vérification existent sur un poste client ?",
     "back": "Sous Windows ipconfig /all, /release et /renew, et sous Linux ip addr show, sudo dhclient -r et sudo dhclient -v.",
-    "createdAt": "2000-01-01T00:00:17.000Z"
+    "createdAt": "2000-01-01T00:00:16.000Z"
    },
    {
     "id": "e2c49f9a-bb6f-5a2f-bf45-22cc075dcaa5",
@@ -191,7 +182,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Que signifie une adresse 169.254.x.x reçue par un poste ?",
     "back": "C'est une adresse APIPA, donc aucune réponse DHCP n'a été reçue. Vérifier que l'étendue est active et, si le client est sur un autre sous-réseau, que ip helper-address est configuré.",
-    "createdAt": "2000-01-01T00:00:18.000Z"
+    "createdAt": "2000-01-01T00:00:17.000Z"
    },
    {
     "id": "eeb66bc7-aa3f-522b-a72d-02c4a8a30289",
@@ -200,7 +191,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Pourquoi un poste reçoit-il une adresse d'un mauvais sous-réseau ?",
     "back": "Des étendues se chevauchent entre deux serveurs DHCP, il faut comparer les plages avec show ip dhcp pool sur chaque serveur.",
-    "createdAt": "2000-01-01T00:00:19.000Z"
+    "createdAt": "2000-01-01T00:00:18.000Z"
    },
    {
     "id": "f9ef1d59-e2b3-52e9-ad63-a7471520709c",
@@ -209,7 +200,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Pourquoi une imprimante ou un serveur change-t-il d'adresse après redémarrage ?",
     "back": "Il n'y a pas de réservation ou une exclusion a été oubliée, il faut ajouter une réservation host ou corriger ip dhcp excluded-address.",
-    "createdAt": "2000-01-01T00:00:20.000Z"
+    "createdAt": "2000-01-01T00:00:19.000Z"
    },
    {
     "id": "41c45dc0-eeb7-5fcd-879d-beee8e0a1db0",
@@ -218,16 +209,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Que faire quand show ip dhcp conflict liste une adresse ?",
     "back": "Un équipement est adressé en statique dans la plage dynamique, il faut exclure l'adresse ou la sortir de la plage.",
-    "createdAt": "2000-01-01T00:00:21.000Z"
-   },
-   {
-    "id": "c3b45d5c-9f86-585c-a581-af3ae9d9ec7a",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
-    "front": "Pourquoi PC2 ne reçoit-il jamais de bail alors que R1 fonctionne ?",
-    "back": "ip helper-address est absent ou mal placé, il doit être configuré sur l'interface de R2 qui reçoit les diffusions de PC2 et non sur celle de R1.",
-    "createdAt": "2000-01-01T00:00:22.000Z"
+    "createdAt": "2000-01-01T00:00:20.000Z"
    },
    {
     "id": "54e1d91a-733a-586f-8508-ffe121947475",
@@ -236,7 +218,7 @@
     "deckId": "203a7040-719c-5724-9c4f-59f931b1f260",
     "front": "Pourquoi un serveur DHCP doit-il être autorisé dans Active Directory ?",
     "back": "Il doit être autorisé par un membre du groupe Administrateurs de l'entreprise avant de répondre aux clients. C'est une protection contre un serveur DHCP non maîtrisé qui distribuerait des adresses en conflit.",
-    "createdAt": "2000-01-01T00:00:23.000Z"
+    "createdAt": "2000-01-01T00:00:21.000Z"
    }
   ],
   "card_states": [
@@ -353,18 +335,6 @@
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "cardId": "ca4e8b88-848d-5cc2-baf8-8eba8a334ac3",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
-    "id": "7e3a5c43-bf1e-5779-bc06-70933a644f2c",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "3488924f-a9d4-5c90-ba9e-a23cef765228",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -497,18 +467,6 @@
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "cardId": "41c45dc0-eeb7-5fcd-879d-beee8e0a1db0",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
-    "id": "57a97f54-0bde-5dde-b5f4-516b9c8f0c00",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "c3b45d5c-9f86-585c-a581-af3ae9d9ec7a",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,

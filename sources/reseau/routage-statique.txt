@@ -6,12 +6,8 @@ Quels équipements et accès faut-il pour configurer du routage statique ? ; Deu
 Quelle commande active une interface Cisco désactivée administrativement ? ; no shutdown.
 Pourquoi no shutdown n'est-il pas optionnel ? ; Une interface laissée désactivée n'apparaît pas dans la table de routage, c'est la première cause du problème « la route ne remonte pas ».
 Quelle est la syntaxe d'une route statique Cisco ? ; ip route suivi du réseau de destination, du masque, puis de l'adresse du prochain saut.
-Quelle commande déclare sur R1 la route vers le réseau 192.168.20.0/24 ? ; ip route 192.168.20.0 255.255.255.0 10.0.0.2.
-Pourquoi faut-il configurer R2 symétriquement ? ; Une route ne vaut que dans un sens : sans route retour sur R2, le ping part mais la réponse ne revient jamais.
-Quelle commande Cisco crée une route par défaut vers l'extérieur ? ; ip route 0.0.0.0 0.0.0.0 suivi de l'adresse du prochain saut, par exemple 203.0.113.1 dans l'exemple du cours.
 Sur quel routeur ajoute-t-on la route par défaut ? ; Uniquement sur le routeur de bordure, pour tout ce qui n'est pas connu localement.
 Quelles commandes enregistrent la configuration sur un routeur Cisco ? ; end puis copy running-config startup-config.
-Comment retirer une route statique ajoutée par la procédure ? ; Avec la même commande précédée de no, par exemple no ip route 192.168.20.0 255.255.255.0 10.0.0.2.
 Que faut-il vérifier avant de retirer une route statique ? ; Que du NAT ou une ACL ne s'appuie pas dessus, avec show ip route et show running-config | include ip route.
 Quelles commandes Cisco vérifient une route statique ? ; show ip route static, show ip interface brief, ping avec source et traceroute.
 Comment une route statique apparaît-elle dans show ip route ? ; Préfixée par S, ou S* pour la route par défaut, avec une distance administrative de 1.

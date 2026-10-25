@@ -10,17 +10,7 @@ Comment trouver le masque minimal pour N hôtes ? ; Prendre le plus petit /n tel
 Dans quel ordre alloue-t-on les sous-réseaux en VLSM ? ; Du plus grand besoin au plus petit, chaque sous-réseau étant prélevé juste après le précédent dans le bloc disponible.
 Pourquoi ne pas attribuer un petit sous-réseau en premier ? ; Cela peut fragmenter l'espace restant au point de ne plus pouvoir caser un besoin plus grand, même si le total d'adresses libres suffirait.
 Quel masque pour 100 hôtes et quel sous-réseau dans le bloc 192.168.1.0/24 ? ; 2^7 - 2 = 126 ≥ 100, donc 7 bits d'hôte et un /25. Le premier sous-réseau est 192.168.1.0/25.
-Quel masque pour 50 hôtes et quel sous-réseau suit le premier ? ; 2^6 - 2 = 62 ≥ 50, donc un /26. Le sous-réseau est 192.168.1.128/26.
-Quel masque pour une liaison point à point de 2 hôtes ? ; 2^2 - 2 = 2 ≥ 2, donc un /30. Le sous-réseau du cours est 192.168.1.192/30.
-Quelles sont les adresses du LAN Site A (192.168.1.0/25) ? ; Première adresse d'hôte 192.168.1.1, dernière 192.168.1.126 et diffusion 192.168.1.127.
-Quelles sont les adresses du LAN Site B (192.168.1.128/26) ? ; Première adresse d'hôte 192.168.1.129, dernière 192.168.1.190 et diffusion 192.168.1.191.
-Quelles sont les adresses de la liaison R1-R2 (192.168.1.192/30) ? ; Hôtes 192.168.1.193 et 192.168.1.194, diffusion 192.168.1.195.
-Que reste-t-il du bloc 192.168.1.0/24 après les trois allocations ? ; Les adresses 192.168.1.196 à 192.168.1.255 (60 adresses), conservées comme réserve pour une évolution future.
 Quels masques de sous-réseau pour /25, /26 et /30 ? ; /25 donne 255.255.255.128, /26 donne 255.255.255.192 et /30 donne 255.255.255.252.
-Comment configurer l'interface LAN du Site A sur R1 ? ; ip address 192.168.1.1 255.255.255.128 sur GigabitEthernet0/1, suivi de no shutdown.
-Comment configurer l'interface LAN du Site B sur R2 ? ; ip address 192.168.1.129 255.255.255.192 sur GigabitEthernet0/1, suivi de no shutdown.
-Quelle route statique ajoute-t-on sur R1 pour joindre le LAN Site B ? ; ip route 192.168.1.128 255.255.255.192 192.168.1.194.
-Quelle route symétrique ajoute-t-on sur R2 vers le LAN Site A ? ; ip route 192.168.1.0 255.255.255.128 192.168.1.193.
 Dans quel ordre retirer la configuration VLSM d'un routeur ? ; D'abord les routes, puis les adresses d'interface avec no ip address. Une route vers un prochain saut sans adresse resterait invalide jusqu'au nettoyage complet.
 Quelles commandes vérifient le plan d'adressage VLSM ? ; show ip interface brief (chaque interface doit être up/up), show ip route et ping avec source.
 Que signifie une adresse qui déborde du sous-réseau prévu ? ; C'est le signe d'une confusion entre deux blocs calculés, à repérer avant la mise en service.

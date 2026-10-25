@@ -68,40 +68,13 @@
     "createdAt": "2000-01-01T00:00:04.000Z"
    },
    {
-    "id": "99263e8b-1afa-5c49-b306-ffa2597dbbb6",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
-    "front": "Pourquoi choisir WireGuard plutôt qu'IPsec ou OpenVPN dans cette fiche ?",
-    "back": "Configuration réduite à une poignée de paramètres, cryptographie moderne imposée par défaut sans négociation de suite d'algorithmes, et fonctionnement en interface réseau standard (wg0).",
-    "createdAt": "2000-01-01T00:00:05.000Z"
-   },
-   {
     "id": "c5dd0cf9-7afa-5445-82ef-cbd294dd50be",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Quels prérequis pour un tunnel WireGuard ?",
     "back": "Deux machines Linux avec wireguard-tools, une IP publique joignable en UDP sur au moins un point (le serveur) et ip_forward activé sur les passerelles pour du site à site.",
-    "createdAt": "2000-01-01T00:00:06.000Z"
-   },
-   {
-    "id": "30b3e168-e74e-50f2-a9c1-e10c717b291a",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
-    "front": "Quel port et quel sous-réseau utilise le tunnel dans le cours ?",
-    "back": "Le port UDP 51820 et le sous-réseau dédié 10.10.0.0/30, avec WG1 en 10.10.0.1 et WG2 en 10.10.0.2.",
-    "createdAt": "2000-01-01T00:00:07.000Z"
-   },
-   {
-    "id": "b292fed4-e6cf-5141-bd52-af07ef411d23",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
-    "front": "Quels rôles jouent WG1 et WG2 ?",
-    "back": "WG1 a une adresse publique fixe et sert de serveur du tunnel. WG2 initie la connexion en tant que client.",
-    "createdAt": "2000-01-01T00:00:08.000Z"
+    "createdAt": "2000-01-01T00:00:05.000Z"
    },
    {
     "id": "0e6dbab7-697e-5547-995e-de3013c0d248",
@@ -110,7 +83,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Comment installer WireGuard sur Debian ou Ubuntu ?",
     "back": "sudo apt update puis sudo apt install wireguard.",
-    "createdAt": "2000-01-01T00:00:09.000Z"
+    "createdAt": "2000-01-01T00:00:06.000Z"
    },
    {
     "id": "a71dd244-633b-59e2-9048-fdba8bf7fc8b",
@@ -119,7 +92,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Comment générer une paire de clés sur une passerelle ?",
     "back": "wg genkey | sudo tee /etc/wireguard/privatekey | wg pubkey | sudo tee /etc/wireguard/publickey, puis sudo chmod 600 /etc/wireguard/privatekey.",
-    "createdAt": "2000-01-01T00:00:10.000Z"
+    "createdAt": "2000-01-01T00:00:07.000Z"
    },
    {
     "id": "0d20328f-683f-5b70-a0a0-f7aa3c3b558f",
@@ -128,7 +101,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Quelle clé communique-t-on à l'autre passerelle ?",
     "back": "Uniquement la clé publique, par un canal de confiance hors tunnel. Transmettre une clé privée reviendrait à donner l'identité complète du point qu'elle authentifie.",
-    "createdAt": "2000-01-01T00:00:11.000Z"
+    "createdAt": "2000-01-01T00:00:08.000Z"
    },
    {
     "id": "998977fc-7513-5df4-8de3-f28185a58f18",
@@ -137,7 +110,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Quelles sections contient le fichier /etc/wireguard/wg0.conf ?",
     "back": "[Interface] avec PrivateKey, Address et ListenPort (côté serveur), puis [Peer] avec PublicKey et AllowedIPs, plus Endpoint côté client.",
-    "createdAt": "2000-01-01T00:00:12.000Z"
+    "createdAt": "2000-01-01T00:00:09.000Z"
    },
    {
     "id": "a895e013-92d7-56a9-8a74-d1692bf856c0",
@@ -146,7 +119,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Quelle est la double fonction de AllowedIPs ?",
     "back": "Filtrer les paquets acceptés depuis ce pair et servir de route vers le réseau distant une fois l'interface active.",
-    "createdAt": "2000-01-01T00:00:13.000Z"
+    "createdAt": "2000-01-01T00:00:10.000Z"
    },
    {
     "id": "74ddbe19-eac7-57d6-8204-6fb283f1d184",
@@ -155,16 +128,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "À quoi sert le paramètre Endpoint ?",
     "back": "Il donne l'adresse IP publique et le port du serveur à joindre. On le renseigne côté client, par exemple 203.0.113.2:51820.",
-    "createdAt": "2000-01-01T00:00:14.000Z"
-   },
-   {
-    "id": "a676c62a-b9ea-587e-9b2a-d52c03f4ce51",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
-    "front": "À quoi sert PersistentKeepalive = 25 et de quel côté le mettre ?",
-    "back": "Il envoie un paquet vide toutes les 25 secondes pour maintenir l'association NAT ouverte. On le met côté client derrière un NAT, il est inutile côté WG1 qui a une IP publique stable.",
-    "createdAt": "2000-01-01T00:00:15.000Z"
+    "createdAt": "2000-01-01T00:00:11.000Z"
    },
    {
     "id": "ebc0d999-4fb3-57ca-9871-4d73a583c571",
@@ -173,7 +137,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Comment activer le transfert IP de façon persistante pour WireGuard ?",
     "back": "sudo sysctl -w net.ipv4.ip_forward=1 puis écrire net.ipv4.ip_forward=1 dans /etc/sysctl.d/99-wireguard.conf.",
-    "createdAt": "2000-01-01T00:00:16.000Z"
+    "createdAt": "2000-01-01T00:00:12.000Z"
    },
    {
     "id": "679e115f-2a45-53fa-adf6-28e309b0f88a",
@@ -182,16 +146,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Quelle commande active et démarre le tunnel ?",
     "back": "sudo systemctl enable --now wg-quick@wg0.",
-    "createdAt": "2000-01-01T00:00:17.000Z"
-   },
-   {
-    "id": "061096ca-a067-5b42-9e16-3621e8c317fa",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
-    "front": "Comment ajouter un poste nomade sur WG1 ?",
-    "back": "Ajouter un pair avec sa clé publique et une route limitée à lui-même, par exemple AllowedIPs = 10.10.0.3/32.",
-    "createdAt": "2000-01-01T00:00:18.000Z"
+    "createdAt": "2000-01-01T00:00:13.000Z"
    },
    {
     "id": "f7d5d127-7367-5608-963b-a15aaa9a2078",
@@ -200,7 +155,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Que fait wg syncconf par rapport à wg-quick down puis up ?",
     "back": "Il recharge la configuration sans couper les tunnels déjà établis avec les autres pairs.",
-    "createdAt": "2000-01-01T00:00:19.000Z"
+    "createdAt": "2000-01-01T00:00:14.000Z"
    },
    {
     "id": "b33281a2-f809-5f4a-a449-79edc3509a17",
@@ -209,7 +164,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Qu'est-ce qu'un split tunnel ?",
     "back": "Avec AllowedIPs = 192.168.10.0/24, seul le trafic vers le LAN de l'entreprise passe dans le tunnel et le reste d'Internet sort directement.",
-    "createdAt": "2000-01-01T00:00:20.000Z"
+    "createdAt": "2000-01-01T00:00:15.000Z"
    },
    {
     "id": "6056f1f1-bd81-566c-a40f-9dfcbe3e0f6d",
@@ -218,7 +173,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Que provoque AllowedIPs = 0.0.0.0/0 sur un poste nomade ?",
     "back": "Tout le trafic, navigation Internet comprise, passe par le VPN. C'est utile pour l'inspecter mais cela consomme la bande passante VPN et ralentit les usages non liés au travail.",
-    "createdAt": "2000-01-01T00:00:21.000Z"
+    "createdAt": "2000-01-01T00:00:16.000Z"
    },
    {
     "id": "26cb6bfb-4e45-566a-b516-eca5afdacaa5",
@@ -227,7 +182,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Comment supprimer complètement le tunnel WireGuard d'une passerelle ?",
     "back": "sudo systemctl disable --now wg-quick@wg0 puis sudo rm /etc/wireguard/wg0.conf.",
-    "createdAt": "2000-01-01T00:00:22.000Z"
+    "createdAt": "2000-01-01T00:00:17.000Z"
    },
    {
     "id": "6adc74e1-349f-5ea1-be2c-b43df2459384",
@@ -236,7 +191,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Comment retirer un seul pair sans couper le reste du tunnel ?",
     "back": "sudo wg set wg0 peer suivi de la clé publique du pair puis remove.",
-    "createdAt": "2000-01-01T00:00:23.000Z"
+    "createdAt": "2000-01-01T00:00:18.000Z"
    },
    {
     "id": "f451b689-8beb-570c-9361-e18d754dd583",
@@ -245,7 +200,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Pourquoi retirer un pair ne suffit-il pas si sa clé est compromise ?",
     "back": "Sa clé privée reste valide si elle a été copiée ailleurs. Il faut régénérer une nouvelle paire de clés sur la machine concernée.",
-    "createdAt": "2000-01-01T00:00:24.000Z"
+    "createdAt": "2000-01-01T00:00:19.000Z"
    },
    {
     "id": "598fa39d-97f4-5da6-8041-fe95588277c9",
@@ -254,7 +209,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Comment vérifier l'état du tunnel ?",
     "back": "sudo wg show affiche pour chaque pair le dernier handshake (latest handshake) et le volume transféré. Une entrée sans latest handshake indique un tunnel jamais établi.",
-    "createdAt": "2000-01-01T00:00:25.000Z"
+    "createdAt": "2000-01-01T00:00:20.000Z"
    },
    {
     "id": "dc8a039e-6db4-526b-b1c2-8d49f9fd085b",
@@ -263,7 +218,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Comment constater que le trafic qui transite par Internet est chiffré ?",
     "back": "Capturer sur l'interface physique avec sudo tcpdump -n -i eth0 udp port 51820. Seuls des paquets UDP chiffrés vers le port 51820 apparaissent.",
-    "createdAt": "2000-01-01T00:00:26.000Z"
+    "createdAt": "2000-01-01T00:00:21.000Z"
    },
    {
     "id": "ffc557af-113e-5e1c-8707-a0540cbcc122",
@@ -272,7 +227,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Que faire si wg show n'affiche aucun latest handshake ?",
     "back": "Le port UDP 51820 est peut-être bloqué par un pare-feu ou la clé publique est mauvaise. Vérifier l'ouverture du port côté serveur et comparer les clés publiques des deux côtés.",
-    "createdAt": "2000-01-01T00:00:27.000Z"
+    "createdAt": "2000-01-01T00:00:22.000Z"
    },
    {
     "id": "eda745a5-d272-5b4e-81e1-b0bb4d86f355",
@@ -281,7 +236,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Que faire si le handshake est établi mais qu'aucun ping ne passe ?",
     "back": "AllowedIPs ne couvre pas le réseau distant ou ip_forward est désactivé. Vérifier AllowedIPs sur les deux pairs et sysctl net.ipv4.ip_forward.",
-    "createdAt": "2000-01-01T00:00:28.000Z"
+    "createdAt": "2000-01-01T00:00:23.000Z"
    },
    {
     "id": "43370b80-b75e-5d1b-8e18-05d301b4eca8",
@@ -290,7 +245,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Pourquoi le tunnel fonctionne-t-il puis se coupe-t-il après quelques minutes ?",
     "back": "Un pair est derrière un NAT sans PersistentKeepalive. Ajouter PersistentKeepalive = 25 côté pair derrière le NAT.",
-    "createdAt": "2000-01-01T00:00:29.000Z"
+    "createdAt": "2000-01-01T00:00:24.000Z"
    },
    {
     "id": "e88965e7-97a8-5d7a-8d71-3a3feebf35df",
@@ -299,7 +254,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Pourquoi un poste nomade perd-il tout accès Internet normal ?",
     "back": "AllowedIPs = 0.0.0.0/0 alors qu'un tunnel partagé était prévu. Restreindre AllowedIPs au seul sous-réseau de l'entreprise.",
-    "createdAt": "2000-01-01T00:00:30.000Z"
+    "createdAt": "2000-01-01T00:00:25.000Z"
    },
    {
     "id": "aafaeae5-5e78-502d-b29f-974f39710e6d",
@@ -308,7 +263,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Pourquoi un ancien poste supprimé se connecte-t-il encore ?",
     "back": "Sa clé publique a été retirée côté serveur mais le service n'a pas été rechargé. Utiliser wg syncconf ou systemctl restart wg-quick@wg0.",
-    "createdAt": "2000-01-01T00:00:31.000Z"
+    "createdAt": "2000-01-01T00:00:26.000Z"
    },
    {
     "id": "5efe8e2b-200b-50dd-8b5e-d2a7a84f202f",
@@ -317,7 +272,7 @@
     "deckId": "cc02a792-2dff-5240-89a3-6bfb41bf42b6",
     "front": "Comment traiter une clé privée compromise ?",
     "back": "Comme un incident de sécurité : l'exposition dure jusqu'à ce que le pair soit retiré et que l'entrée associée disparaisse de la configuration de l'autre extrémité.",
-    "createdAt": "2000-01-01T00:00:32.000Z"
+    "createdAt": "2000-01-01T00:00:27.000Z"
    }
   ],
   "card_states": [
@@ -382,46 +337,10 @@
     "lapses": 0
    },
    {
-    "id": "a6843b89-efb9-5c1b-bca7-2174a299660f",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "99263e8b-1afa-5c49-b306-ffa2597dbbb6",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
     "id": "b5fe5d5c-99ef-567f-a1f6-31006687ced2",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "cardId": "c5dd0cf9-7afa-5445-82ef-cbd294dd50be",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
-    "id": "00642da1-23ea-55fe-be99-d0d7c1782b8f",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "30b3e168-e74e-50f2-a9c1-e10c717b291a",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
-    "id": "1a76f9e9-81cc-5157-b92f-338033767201",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "b292fed4-e6cf-5141-bd52-af07ef411d23",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -502,18 +421,6 @@
     "lapses": 0
    },
    {
-    "id": "1cf7bb7d-bcf6-5b8f-afb7-d75a5bbb0fd5",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "a676c62a-b9ea-587e-9b2a-d52c03f4ce51",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
     "id": "a671349c-18b9-5a52-8678-cf4821c89cb7",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
@@ -530,18 +437,6 @@
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "cardId": "679e115f-2a45-53fa-adf6-28e309b0f88a",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
-    "id": "0bc935c4-10ef-578f-9ccc-cb8c9ae63789",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "061096ca-a067-5b42-9e16-3621e8c317fa",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,

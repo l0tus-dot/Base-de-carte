@@ -50,22 +50,13 @@
     "createdAt": "2000-01-01T00:00:02.000Z"
    },
    {
-    "id": "0c432f3f-98ea-5264-9119-ab89d7952e8a",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
-    "front": "Quels sont les prérequis pour créer l'arborescence AD du cours ?",
-    "back": "Un Windows Server promu contrôleur de domaine (rôle AD DS), le module PowerShell ActiveDirectory (RSAT) sur le poste d'administration et un poste client joint au domaine pour vérifier les GPO.",
-    "createdAt": "2000-01-01T00:00:03.000Z"
-   },
-   {
     "id": "dfa50bbb-695e-5155-8c75-a6b7766dad88",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Qu'est-ce que le DistinguishedName d'un objet AD ?",
     "back": "C'est son chemin LDAP dans l'annuaire, par exemple cn=Pierre,ou=Informatique,dc=galaxy-swiss,dc=com. Il change si l'objet est déplacé.",
-    "createdAt": "2000-01-01T00:00:04.000Z"
+    "createdAt": "2000-01-01T00:00:03.000Z"
    },
    {
     "id": "fca1d37b-3b2b-55e6-94d2-0a40f9952bab",
@@ -74,7 +65,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Qu'est-ce que le GUID d'un objet AD ?",
     "back": "Un identifiant sur 128 bits attribué à la création, qui est invariable.",
-    "createdAt": "2000-01-01T00:00:05.000Z"
+    "createdAt": "2000-01-01T00:00:04.000Z"
    },
    {
     "id": "77902006-928f-51e9-92d2-905c69633ab1",
@@ -83,7 +74,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Que détermine l'étendue d'un groupe ?",
     "back": "Où il peut être utilisé : domaine local, globale ou universelle. C'est elle qui structure la méthode AGDLP.",
-    "createdAt": "2000-01-01T00:00:06.000Z"
+    "createdAt": "2000-01-01T00:00:05.000Z"
    },
    {
     "id": "f6247a8d-7c7b-5fd0-9d42-ad99e39253d2",
@@ -92,7 +83,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Sur quel port et avec quel protocole un poste s'authentifie-t-il auprès d'un contrôleur de domaine ?",
     "back": "Via LDAP sur le port 389 en clair, ou 636 en LDAPS (chiffré).",
-    "createdAt": "2000-01-01T00:00:07.000Z"
+    "createdAt": "2000-01-01T00:00:06.000Z"
    },
    {
     "id": "68f1dc29-746b-5282-afad-d7581d98822a",
@@ -101,7 +92,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Quelle commande PowerShell crée une unité d'organisation ?",
     "back": "New-ADOrganizationalUnit avec -Name et -Path, et -ProtectedFromAccidentalDeletion $true.",
-    "createdAt": "2000-01-01T00:00:08.000Z"
+    "createdAt": "2000-01-01T00:00:07.000Z"
    },
    {
     "id": "f0433402-71de-51ed-b6af-80e7a067ce4d",
@@ -110,7 +101,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Pourquoi préciser -ProtectedFromAccidentalDeletion en PowerShell ?",
     "back": "Une OU créée depuis la console graphique est protégée contre la suppression accidentelle, mais en PowerShell ce n'est pas automatique sans ce paramètre explicite.",
-    "createdAt": "2000-01-01T00:00:09.000Z"
+    "createdAt": "2000-01-01T00:00:08.000Z"
    },
    {
     "id": "16609c8e-5337-5428-8323-72c186d6106b",
@@ -119,7 +110,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Quelle commande PowerShell crée un compte utilisateur AD ?",
     "back": "New-ADUser, avec notamment -SamAccountName, -UserPrincipalName, -Path, -AccountPassword, -ChangePasswordAtLogon et -Enabled $true.",
-    "createdAt": "2000-01-01T00:00:10.000Z"
+    "createdAt": "2000-01-01T00:00:09.000Z"
    },
    {
     "id": "187199c4-d503-5fcd-8431-1466c8c912c6",
@@ -128,7 +119,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Pourquoi un compte créé en PowerShell ne peut-il pas ouvrir de session ?",
     "back": "Il est désactivé par défaut. Sans -Enabled $true, le compte existe mais ne peut pas s'authentifier, contrairement à un compte créé depuis la console dsa.msc.",
-    "createdAt": "2000-01-01T00:00:11.000Z"
+    "createdAt": "2000-01-01T00:00:10.000Z"
    },
    {
     "id": "320ec83b-6a0c-5254-bbbf-c982f4f5ec0f",
@@ -137,7 +128,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Comment activer un compte AD créé sans -Enabled $true ?",
     "back": "Avec la commande Enable-ADAccount -Identity suivie du nom du compte.",
-    "createdAt": "2000-01-01T00:00:12.000Z"
+    "createdAt": "2000-01-01T00:00:11.000Z"
    },
    {
     "id": "2f42fcf5-19e6-5c3b-9e38-674fc0e2a1ee",
@@ -146,7 +137,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Que signifie la méthode AGDLP ?",
     "back": "Account, Global Group, Domain Local Group, Permissions. C'est la méthode recommandée par Microsoft pour attribuer les droits.",
-    "createdAt": "2000-01-01T00:00:13.000Z"
+    "createdAt": "2000-01-01T00:00:12.000Z"
    },
    {
     "id": "aec8a550-b13f-57f3-aef8-856bc4b30af1",
@@ -155,7 +146,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Que représente un groupe global et un groupe de domaine local en AGDLP ?",
     "back": "Un groupe global représente la fonction métier, un groupe de domaine local représente l'accès à une ressource.",
-    "createdAt": "2000-01-01T00:00:14.000Z"
+    "createdAt": "2000-01-01T00:00:13.000Z"
    },
    {
     "id": "918ca93f-058b-5460-8f93-90f45d2313af",
@@ -164,7 +155,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Sur quel type d'objet pose-t-on les permissions NTFS en AGDLP ?",
     "back": "Uniquement sur le groupe de domaine local, jamais directement sur un utilisateur ni sur un groupe global.",
-    "createdAt": "2000-01-01T00:00:15.000Z"
+    "createdAt": "2000-01-01T00:00:14.000Z"
    },
    {
     "id": "694dad35-e67d-52b2-9360-9465e7369da6",
@@ -173,7 +164,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Quel est l'avantage de la méthode AGDLP quand un utilisateur change de service ?",
     "back": "Il suffit de le changer de groupe global, sans jamais retoucher les permissions posées sur la ressource.",
-    "createdAt": "2000-01-01T00:00:16.000Z"
+    "createdAt": "2000-01-01T00:00:15.000Z"
    },
    {
     "id": "e4c47273-c89f-5418-975a-68f83a62e2d3",
@@ -182,7 +173,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Quelle commande ajoute un membre à un groupe AD ?",
     "back": "Add-ADGroupMember avec -Identity (le groupe) et -Members.",
-    "createdAt": "2000-01-01T00:00:17.000Z"
+    "createdAt": "2000-01-01T00:00:16.000Z"
    },
    {
     "id": "d9307e67-4427-5eb0-8953-b5b61982bcf4",
@@ -191,7 +182,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Quelle commande attribue une permission NTFS en lecture à un groupe sur un dossier ?",
     "back": "icacls suivi du chemin, de /grant et du groupe avec la permission (RX), par exemple icacls \"D:\\Partages\\Compta\" /grant \"GALAXY-SWISS\\GDL_Partage_Compta_Lecture:(RX)\".",
-    "createdAt": "2000-01-01T00:00:18.000Z"
+    "createdAt": "2000-01-01T00:00:17.000Z"
    },
    {
     "id": "773640a9-e604-549d-a2f8-ce810077a72f",
@@ -200,7 +191,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Comment créer et lier une GPO à une OU en PowerShell ?",
     "back": "Avec New-GPO -Name suivi de New-GPLink -Target désignant l'OU.",
-    "createdAt": "2000-01-01T00:00:19.000Z"
+    "createdAt": "2000-01-01T00:00:18.000Z"
    },
    {
     "id": "50dbb9f4-f45a-5972-815c-d74f04179794",
@@ -209,7 +200,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Où configure-t-on les paramètres d'une GPO ?",
     "back": "Dans la console gpmc.msc, sous Configuration utilisateur ou Configuration ordinateur selon la cible.",
-    "createdAt": "2000-01-01T00:00:20.000Z"
+    "createdAt": "2000-01-01T00:00:19.000Z"
    },
    {
     "id": "d475a9dd-fdcb-5f14-85a6-abc04044b456",
@@ -218,7 +209,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Que signifie LSDOU ?",
     "back": "L'ordre d'application d'une GPO : Local, Site Active Directory, Domaine, Unité d'organisation.",
-    "createdAt": "2000-01-01T00:00:21.000Z"
+    "createdAt": "2000-01-01T00:00:20.000Z"
    },
    {
     "id": "136c5187-61bb-5447-9bf6-b0b4f7e04bff",
@@ -227,7 +218,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Que se passe-t-il quand deux GPO ont des paramètres contradictoires ?",
     "back": "C'est la dernière appliquée, donc la plus proche de l'objet (en général l'OU), qui l'emporte.",
-    "createdAt": "2000-01-01T00:00:22.000Z"
+    "createdAt": "2000-01-01T00:00:21.000Z"
    },
    {
     "id": "2b38a5ac-9ad3-5ca1-9b9d-a847e28d3fe0",
@@ -236,7 +227,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Quelles commandes forcent et vérifient l'application d'une GPO sur un poste ?",
     "back": "gpupdate /force pour forcer, gpresult /r pour vérifier.",
-    "createdAt": "2000-01-01T00:00:23.000Z"
+    "createdAt": "2000-01-01T00:00:22.000Z"
    },
    {
     "id": "bd1bd014-aaf2-5968-9c43-b4a3833d803c",
@@ -245,7 +236,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Que prouve gpresult /r ?",
     "back": "Il liste les GPO réellement appliquées à l'utilisateur et à l'ordinateur, preuve qu'une GPO liée à l'OU est bien descendue jusqu'au poste.",
-    "createdAt": "2000-01-01T00:00:24.000Z"
+    "createdAt": "2000-01-01T00:00:23.000Z"
    },
    {
     "id": "d45e704e-5527-5ba4-a762-7939329b415a",
@@ -254,7 +245,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Pourquoi une GPO n'apparaît-elle pas appliquée sur le poste ?",
     "back": "L'intervalle d'actualisation (60 à 120 minutes) n'est probablement pas encore écoulé. Lancer gpupdate /force sur le poste client.",
-    "createdAt": "2000-01-01T00:00:25.000Z"
+    "createdAt": "2000-01-01T00:00:24.000Z"
    },
    {
     "id": "58d1f421-a8e2-5d88-b024-053bd7fef22a",
@@ -263,7 +254,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Comment vérifier que deux contrôleurs de domaine partagent le même annuaire ?",
     "back": "Avec repadmin /replsummary. Résultat attendu : Largest Delta proche de zéro et aucune erreur de réplication.",
-    "createdAt": "2000-01-01T00:00:26.000Z"
+    "createdAt": "2000-01-01T00:00:25.000Z"
    },
    {
     "id": "97590039-10bd-5819-92d8-144258069ae2",
@@ -272,16 +263,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Que faire si repadmin /replsummary signale une erreur entre deux contrôleurs ?",
     "back": "La réplication est en échec (réseau, DNS ou service arrêté). Lancer repadmin /showrepl sur chacun des deux contrôleurs pour isoler la cause.",
-    "createdAt": "2000-01-01T00:00:27.000Z"
-   },
-   {
-    "id": "4c545cba-ed3e-5164-89bb-91228bba6a6a",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
-    "front": "Dans quel ordre retirer la configuration AD du cours ?",
-    "back": "D'abord la GPO, puis les appartenances de groupe, les groupes, l'utilisateur et l'OU en dernier, pour ne jamais laisser un objet orphelin référencé ailleurs.",
-    "createdAt": "2000-01-01T00:00:28.000Z"
+    "createdAt": "2000-01-01T00:00:26.000Z"
    },
    {
     "id": "b6a618fe-6953-5ba5-8830-8f92cf56b743",
@@ -290,7 +272,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Pourquoi Remove-ADOrganizationalUnit échoue-t-il avec « accès refusé » ?",
     "back": "Car ProtectedFromAccidentalDeletion est toujours activé, ce qui est volontaire. Il faut d'abord lancer Set-ADOrganizationalUnit avec -ProtectedFromAccidentalDeletion $false.",
-    "createdAt": "2000-01-01T00:00:29.000Z"
+    "createdAt": "2000-01-01T00:00:27.000Z"
    },
    {
     "id": "db968489-2903-51fc-ae7b-fc5bb729d00c",
@@ -299,7 +281,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Pourquoi un utilisateur accède-t-il encore à une ressource après avoir quitté le service ?",
     "back": "Il est toujours membre du groupe global associé. Le retirer de ce groupe, sans toucher aux permissions NTFS.",
-    "createdAt": "2000-01-01T00:00:30.000Z"
+    "createdAt": "2000-01-01T00:00:28.000Z"
    },
    {
     "id": "b21b9a56-ae4c-537e-9e6f-beff60a8ebb8",
@@ -308,7 +290,7 @@
     "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
     "front": "Pourquoi des applications comme GLPI, un pare-feu ou un VPN utilisent-elles LDAP ?",
     "back": "Pour authentifier leurs utilisateurs contre l'annuaire plutôt que de maintenir leur propre base de comptes.",
-    "createdAt": "2000-01-01T00:00:31.000Z"
+    "createdAt": "2000-01-01T00:00:29.000Z"
    }
   ],
   "card_states": [
@@ -341,18 +323,6 @@
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "cardId": "a5444161-d708-5e30-824b-feda444b2976",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
-    "id": "3ab4abec-a5ad-5745-b9d8-0a710206c09b",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "0c432f3f-98ea-5264-9119-ab89d7952e8a",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -641,18 +611,6 @@
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "cardId": "97590039-10bd-5819-92d8-144258069ae2",
-    "phase": 0,
-    "stepIndex": 0,
-    "ease": 2.5,
-    "intervalDays": 0,
-    "dueAt": "2000-01-01T00:00:00.000Z",
-    "lapses": 0
-   },
-   {
-    "id": "fe44a1fd-38a8-50ac-a610-5b2a29f0640f",
-    "updatedAt": "2000-01-01T00:00:00.000Z",
-    "deletedAt": null,
-    "cardId": "4c545cba-ed3e-5164-89bb-91228bba6a6a",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,

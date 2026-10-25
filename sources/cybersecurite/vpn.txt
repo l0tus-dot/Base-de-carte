@@ -6,20 +6,15 @@ Quels sont les deux usages courants d'un VPN ? ; L'accès distant (un poste rejo
 Quelle différence entre Intranet VPN et Extranet VPN ? ; Les deux sont du site à site. L'Intranet VPN relie deux sites d'une même entreprise et l'Extranet VPN relie l'entreprise à un partenaire.
 Que se passe-t-il sans VPN pour un poste hors du réseau local ? ; Il est traité comme n'importe quel hôte d'Internet, sans accès aux fichiers, applications métier ou services internes non publiés.
 Quelles trois garanties un tunnel VPN doit-il apporter ? ; L'authentification des deux extrémités, la confidentialité du contenu (chiffrement) et son intégrité (détection de toute altération en transit).
-Pourquoi choisir WireGuard plutôt qu'IPsec ou OpenVPN dans cette fiche ? ; Configuration réduite à une poignée de paramètres, cryptographie moderne imposée par défaut sans négociation de suite d'algorithmes, et fonctionnement en interface réseau standard (wg0).
 Quels prérequis pour un tunnel WireGuard ? ; Deux machines Linux avec wireguard-tools, une IP publique joignable en UDP sur au moins un point (le serveur) et ip_forward activé sur les passerelles pour du site à site.
-Quel port et quel sous-réseau utilise le tunnel dans le cours ? ; Le port UDP 51820 et le sous-réseau dédié 10.10.0.0/30, avec WG1 en 10.10.0.1 et WG2 en 10.10.0.2.
-Quels rôles jouent WG1 et WG2 ? ; WG1 a une adresse publique fixe et sert de serveur du tunnel. WG2 initie la connexion en tant que client.
 Comment installer WireGuard sur Debian ou Ubuntu ? ; sudo apt update puis sudo apt install wireguard.
 Comment générer une paire de clés sur une passerelle ? ; wg genkey | sudo tee /etc/wireguard/privatekey | wg pubkey | sudo tee /etc/wireguard/publickey, puis sudo chmod 600 /etc/wireguard/privatekey.
 Quelle clé communique-t-on à l'autre passerelle ? ; Uniquement la clé publique, par un canal de confiance hors tunnel. Transmettre une clé privée reviendrait à donner l'identité complète du point qu'elle authentifie.
 Quelles sections contient le fichier /etc/wireguard/wg0.conf ? ; [Interface] avec PrivateKey, Address et ListenPort (côté serveur), puis [Peer] avec PublicKey et AllowedIPs, plus Endpoint côté client.
 Quelle est la double fonction de AllowedIPs ? ; Filtrer les paquets acceptés depuis ce pair et servir de route vers le réseau distant une fois l'interface active.
 À quoi sert le paramètre Endpoint ? ; Il donne l'adresse IP publique et le port du serveur à joindre. On le renseigne côté client, par exemple 203.0.113.2:51820.
-À quoi sert PersistentKeepalive = 25 et de quel côté le mettre ? ; Il envoie un paquet vide toutes les 25 secondes pour maintenir l'association NAT ouverte. On le met côté client derrière un NAT, il est inutile côté WG1 qui a une IP publique stable.
 Comment activer le transfert IP de façon persistante pour WireGuard ? ; sudo sysctl -w net.ipv4.ip_forward=1 puis écrire net.ipv4.ip_forward=1 dans /etc/sysctl.d/99-wireguard.conf.
 Quelle commande active et démarre le tunnel ? ; sudo systemctl enable --now wg-quick@wg0.
-Comment ajouter un poste nomade sur WG1 ? ; Ajouter un pair avec sa clé publique et une route limitée à lui-même, par exemple AllowedIPs = 10.10.0.3/32.
 Que fait wg syncconf par rapport à wg-quick down puis up ? ; Il recharge la configuration sans couper les tunnels déjà établis avec les autres pairs.
 Qu'est-ce qu'un split tunnel ? ; Avec AllowedIPs = 192.168.10.0/24, seul le trafic vers le LAN de l'entreprise passe dans le tunnel et le reste d'Internet sort directement.
 Que provoque AllowedIPs = 0.0.0.0/0 sur un poste nomade ? ; Tout le trafic, navigation Internet comprise, passe par le VPN. C'est utile pour l'inspecter mais cela consomme la bande passante VPN et ralentit les usages non liés au travail.

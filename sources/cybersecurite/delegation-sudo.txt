@@ -3,7 +3,6 @@
 
 À quoi sert sudo ? ; Il accorde à un utilisateur ou un groupe des droits précis, sans lui ouvrir un accès root complet ni permanent.
 Quel avantage de traçabilité sudo apporte-t-il par rapport à un compte administrateur partagé ? ; Chaque commande exécutée avec élévation est consignée dans les journaux avec le nom de l'utilisateur qui l'a lancée, alors qu'un compte partagé rend toute trace anonyme.
-Quel risque de vigilance la fiche sudo souligne-t-elle ? ; Une délégation mal bornée peut être détournée pour obtenir un accès root complet.
 Quel est le comportement du compte root sur Ubuntu ? ; L'installateur ne définit pas de mot de passe root, le compte reste verrouillé (L dans passwd -S root ou ! ou * dans /etc/shadow) et le premier utilisateur créé reçoit directement les droits sudo.
 Qui peut lire /etc/sudoers et que fait le répertoire /etc/sudoers.d/ ? ; Seul root peut lire /etc/sudoers (r--r-----). Tout fichier de /etc/sudoers.d/ est lu comme un ajout, à condition que /etc/sudoers contienne @includedir /etc/sudoers.d.
 Que se passe-t-il quand un utilisateur sans entrée dans sudoers lance sudo ? ; Le mot de passe est demandé puis la commande est refusée avec le message « n'est pas dans le fichier sudoers ». L'échec est tout de même journalisé.
