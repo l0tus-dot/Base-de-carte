@@ -20,6 +20,7 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | CEJMA | Les licences logicielles | 21 | `paquets/cejma/les-licences-logicielles.json` |
 | Réseau | Routage statique | 22 | `paquets/reseau/routage-statique.json` |
 | Réseau | Routage Dynamique (RIPv2) | 28 | `paquets/reseau/routage-dynamique-ripv2.json` |
+| Réseau | NAT et PAT | 25 | `paquets/reseau/nat-et-pat.json` |
 
 *(Tenir cette liste à jour à chaque nouveau paquet.)*
 

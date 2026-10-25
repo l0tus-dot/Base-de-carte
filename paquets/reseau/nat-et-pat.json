@@ -1,0 +1,558 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "3749f34e-ae60-5901-95f5-f2963565ceb2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Réseau",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "3749f34e-ae60-5901-95f5-f2963565ceb2",
+    "name": "NAT et PAT"
+   }
+  ],
+  "cards": [
+   {
+    "id": "15e5e0cf-406f-507e-8767-b5b048d503c1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "À quoi servent le PAT et le NAT statique ?",
+    "back": "Le PAT permet à un réseau privé d'atteindre l'extérieur derrière une seule adresse publique. Le NAT statique ou la redirection de port expose un serveur interne depuis l'extérieur.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "53c21970-2cc0-5e4c-b832-c159825645ef",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Quels prérequis faut-il pour configurer NAT et PAT ?",
+    "back": "Un routeur de bordure avec une interface LAN et une interface WAN, un routage interne déjà fonctionnel et une route par défaut vers le fournisseur d'accès.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "50b8bd70-fc2c-5ff3-ad54-dac47ecc11e3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Comment marquer les interfaces pour le NAT sur Cisco ?",
+    "back": "ip nat inside sur l'interface côté LAN et ip nat outside sur l'interface côté WAN, pour que le routeur sache de quel côté se trouve le réseau à traduire.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "c2347239-f805-578f-befc-add3f7e3c17a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Quelle est la cause la plus fréquente d'un NAT qui ne traduit rien ?",
+    "back": "Un ip nat inside ou un ip nat outside oublié. show ip nat statistics affiche les interfaces retenues et, si la liste est vide, c'est là qu'il faut regarder.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "0facdce9-cdc2-5abd-814c-2eb19facafff",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Comment définit-on le trafic à traduire pour le NAT ?",
+    "back": "Avec une ACL standard comme access-list 1 permit 192.168.10.0 0.0.0.255.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "ce2a8e75-9a1d-5e53-bc24-d6aed5031a8a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Quel masque utilise une ACL et que vaut un /24 ?",
+    "back": "Un masque générique (wildcard), inverse du masque de sous-réseau, donc 0.0.0.255 pour un /24.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "7ced0f3c-872c-5d78-9227-2fde9aa12580",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Quelle commande active le PAT sur l'interface WAN ?",
+    "back": "ip nat inside source list 1 interface GigabitEthernet0/0 overload. Toutes les machines du LAN sortent derrière l'adresse WAN, différenciées par le port source.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "e39d762c-bab9-583a-b0c9-666236010c18",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Quel mot-clé distingue le PAT du NAT dynamique ?",
+    "back": "Le mot-clé overload. Sans lui, il faut autant d'adresses publiques que de machines simultanées.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "eed7c460-9ed1-572d-8f4f-73331707fabe",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Quand utiliser le NAT dynamique avec un pool ?",
+    "back": "Quand plusieurs adresses publiques sont disponibles, avec ip nat pool puis ip nat inside source list 1 pool PUBLIC overload.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "dd24eb3b-b852-5193-b048-f69ffce8e8f7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Comment exposer entièrement un serveur interne avec un NAT statique ?",
+    "back": "Avec ip nat inside source static suivi de l'adresse privée puis de l'adresse publique. Le serveur est alors joignable sur tous ses ports, à réserver aux cas réellement nécessaires.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "5bf606fc-01de-532f-b065-b8292b50d216",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Quelle forme d'exposition de serveur faut-il privilégier et pourquoi ?",
+    "back": "La redirection de port avec ip nat inside source static tcp et le port, par exemple 443, car elle réduit la surface exposée.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "f70db8dc-11ee-5ca0-85a7-635f3fbcad72",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Quelles commandes configurent le NAT sous Linux avec iptables ?",
+    "back": "sysctl -w net.ipv4.ip_forward=1 puis iptables -t nat -A POSTROUTING -o ens18 -s 192.168.10.0/24 -j MASQUERADE.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "8460cd53-0de7-5074-828f-779dcb58aef2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Comment rendre le transfert IP persistant sous Linux ?",
+    "back": "sysctl -w ne survit pas au redémarrage. Il faut écrire net.ipv4.ip_forward=1 dans /etc/sysctl.d/99-routeur.conf puis lancer sysctl --system.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "2ac6831b-e1dc-5d89-9bb5-71be299cbdce",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Dans quel ordre retirer une configuration NAT sur Cisco ?",
+    "back": "D'abord les règles de traduction, puis l'ACL, puis les marquages inside et outside, pour ne jamais laisser une interface marquée sans règle associée.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "7aebfc2d-779c-56af-8bf1-9a7dd115123e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Comment couper immédiatement les traductions NAT en cours ?",
+    "back": "Avec clear ip nat translation *, car sinon les traductions restent actives jusqu'à expiration.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "6bda1999-3dc0-53c7-bfd7-50518fff5b9c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Que supprime nft delete table ip nat ?",
+    "back": "La table entière donc toutes les règles NAT qu'elle contient. Pour retirer une seule règle, utiliser nft delete rule avec son handle obtenu par nft -a list table ip nat.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "13454f21-3b8b-5b96-9893-5da20ad53639",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Comment retirer une règle iptables ajoutée avec -A ?",
+    "back": "Avec -D en reprenant exactement les mêmes paramètres que ceux de l'ajout.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "002764a3-e54a-5307-bc76-d35252fb56cf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Quel est l'effet du retrait du NAT/PAT sur le trafic ?",
+    "back": "Les machines du LAN ne peuvent plus atteindre l'extérieur avec une adresse privée, il faut prévenir les utilisateurs avant de le faire hors fenêtre de maintenance.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "6d79648c-bfad-5a85-9238-903476bfd7ee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Quelles commandes vérifient le NAT sur Cisco ?",
+    "back": "show ip nat translations et show ip nat statistics. En PAT, les ports source figurent après l'adresse, par exemple 192.168.10.10:1234.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "913ff5a3-06fe-5e60-9e84-c0bee37d292a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Pourquoi utiliser debug ip nat avec précaution ?",
+    "back": "Il génère une ligne par paquet traduit et peut saturer le processeur d'un routeur chargé. Il est réservé aux tests et toujours suivi de undebug all.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "053c7a6c-ecd8-5b42-9911-fed89205bade",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Que faire si show ip nat translations reste vide ?",
+    "back": "Un ip nat inside ou outside est probablement manquant, à vérifier avec show ip nat statistics.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "4c5a9bbc-6b14-54bf-b6ba-1361f8bedb10",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Que faire si la traduction est créée mais qu'il n'y a pas de réponse ?",
+    "back": "La route par défaut est probablement absente, il faut ajouter ip route 0.0.0.0 0.0.0.0 vers la passerelle.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "a9dad8b5-ee54-57c1-b250-740e1ed6621e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Que faire si le LAN sort mais que le serveur publié reste injoignable ?",
+    "back": "La redirection est peut-être sur le mauvais port ou une ACL entrante bloque. Contrôler la règle statique puis show access-lists.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "3a1c2397-bf0a-5d88-8b43-4d164b3936b4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Que faire si une ancienne traduction persiste après un changement ?",
+    "back": "Ce sont des entrées en cache, il faut lancer clear ip nat translation *.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "a8394d51-e3e9-5742-ab94-040ce5469627",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f599c565-7505-57dc-8216-5d26a6e6d3da",
+    "front": "Que signifie un seul poste qui sort à la fois ?",
+    "back": "Le mot-clé overload a été oublié, il faut reprendre l'étape d'activation du PAT.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "ff34a1db-014c-54c2-a68d-4fe4e47dcdfe",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "15e5e0cf-406f-507e-8767-b5b048d503c1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "68978390-2ddf-5892-9ef8-99016491fd36",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "53c21970-2cc0-5e4c-b832-c159825645ef",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "94bb473b-e415-5bf7-a93e-a167c45b7911",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "50b8bd70-fc2c-5ff3-ad54-dac47ecc11e3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1ae32d8b-d5bc-5fe3-b5dd-761dd1492fc8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c2347239-f805-578f-befc-add3f7e3c17a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dca6384d-fca4-5882-9401-1ffb619d830f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0facdce9-cdc2-5abd-814c-2eb19facafff",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ca4c460b-4586-514c-b975-c4b59d758786",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ce2a8e75-9a1d-5e53-bc24-d6aed5031a8a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "613e7938-98aa-574e-bd31-99cac7690344",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7ced0f3c-872c-5d78-9227-2fde9aa12580",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2e1b04ff-0d31-548a-a237-52b568ed0e5c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e39d762c-bab9-583a-b0c9-666236010c18",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6957a652-3fab-5205-83f0-aa116d24ff72",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eed7c460-9ed1-572d-8f4f-73331707fabe",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ae2d10d2-230a-5734-b06b-5969bd4b1b36",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dd24eb3b-b852-5193-b048-f69ffce8e8f7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "112d8eef-28a7-5418-800b-6d341c43472b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5bf606fc-01de-532f-b065-b8292b50d216",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0ffc6c41-37cc-524d-8c00-85dc23d4432a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f70db8dc-11ee-5ca0-85a7-635f3fbcad72",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "029fa1ec-79bf-5b98-afa2-64af5309b760",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8460cd53-0de7-5074-828f-779dcb58aef2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ee8aedd0-3aa4-583e-9675-90375be3cd2f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2ac6831b-e1dc-5d89-9bb5-71be299cbdce",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3c37a63e-ccf0-512c-82e4-67201dcc428e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7aebfc2d-779c-56af-8bf1-9a7dd115123e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c8dbdcdd-9a69-5b34-9d06-390b4fef9341",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6bda1999-3dc0-53c7-bfd7-50518fff5b9c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "352c7b25-0455-5f35-a354-2da6d0a0864f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "13454f21-3b8b-5b96-9893-5da20ad53639",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1831b420-6124-51bf-8df1-17b48eada473",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "002764a3-e54a-5307-bc76-d35252fb56cf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f7ac1290-cd0e-51df-b140-bbc0b3585339",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6d79648c-bfad-5a85-9238-903476bfd7ee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "087dfcb7-d258-5973-8dcd-c9dea99e7ff6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "913ff5a3-06fe-5e60-9e84-c0bee37d292a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a63b4b05-3a38-5d5d-8779-d1b4ada330f6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "053c7a6c-ecd8-5b42-9911-fed89205bade",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "88b0f249-079f-53d0-bccd-8d61243803fb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4c5a9bbc-6b14-54bf-b6ba-1361f8bedb10",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f1bfd529-c54b-50d0-bc10-cf41194542f3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a9dad8b5-ee54-57c1-b250-740e1ed6621e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cae10529-c619-5932-a58e-3178767d15c3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3a1c2397-bf0a-5d88-8b43-4d164b3936b4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8434dbda-5a86-591a-9c29-df4107e54669",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a8394d51-e3e9-5742-ab94-040ce5469627",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}
