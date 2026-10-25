@@ -1,0 +1,24 @@
+# Matière : CEJM
+# Parent : Juridique
+# Paquet : Chapitre 1.2 - Pages 5 et 6
+# Description : Les clauses d'un contrat et ses effets juridiques entre les parties et à l'égard des tiers.
+
+Qu'est-ce qu'une clause ? ; Un paragraphe d'un contrat qui définit les droits et les obligations des parties.
+Qu'est-ce que la clause de fixation du prix ? ; La clause qui détermine le prix dès la conclusion du contrat : c'est un gage de sécurité, chaque partie connaît ses gains ou ce que lui coûte son engagement.
+Le prix peut-il être fixé par une seule partie ? ; Pour les contrats-cadres et les prestations de services, le créancier peut fixer le prix à défaut d'accord avant l'exécution (art. 1164 et 1165). Il doit pouvoir le justifier : si le prix est abusif, le juge peut attribuer des dommages-intérêts.
+Qu'est-ce que la clause d'indexation ? ; La clause qui prévoit que le prix mentionné au contrat évoluera automatiquement en fonction de l'évolution d'une autre donnée.
+Qu'est-ce que la clause de réserve de propriété ? ; La clause par laquelle le vendeur conserve la propriété du bien vendu jusqu'au complet paiement, si le paiement ne se fait pas au comptant.
+Quel est l'avantage de la clause de réserve de propriété ? ; Le vendeur impayé peut réclamer la restitution du bien, dont il est toujours propriétaire. Sa situation est plus confortable que celle des autres créanciers.
+Qu'est-ce que la clause de renégociation ? ; La clause qui oblige les parties à renégocier le contrat si des données essentielles à son équilibre viennent à changer.
+Qu'est-ce que la clause limitative ou exclusive de responsabilité ? ; La clause par laquelle le débiteur d'une obligation décide de limiter ou d'exclure par avance sa responsabilité en cas de mauvaise exécution ou d'inexécution du contrat.
+Quand la clause limitative ou exclusive de responsabilité est-elle valable ? ; Si elle est librement négociée et si elle ne vide pas de toute sa substance l'obligation essentielle du cocontractant.
+Qu'est-ce que la clause résolutoire ? ; La clause qui prévoit qu'en cas de manquement à une obligation contractuelle, le contrat est résilié de plein droit, ce qui évite d'avoir recours à la justice.
+Qu'est-ce que la clause pénale ? ; La clause qui fixe d'avance le montant précis de la réparation due par le débiteur en cas d'inexécution.
+Pourquoi la clause pénale est-elle plus efficace que la clause limitative de responsabilité ? ; Elle empêche toute contestation sur l'importance du préjudice à réparer. Son rôle préventif peut faciliter la conclusion du contrat.
+Quelle est la force du contrat entre les parties (art. 1103) ? ; Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits : les parties sont obligées de respecter leurs engagements comme s'ils étaient d'origine légale.
+Que garantit la force obligatoire du contrat ? ; La sécurité des transactions : aucun cocontractant ne peut se soustraire à ses engagements, sauf à en répondre devant les juges.
+Pourquoi dit-on que le contrat est irrévocable ? ; Il ne peut être mis fin que par la volonté des parties. Un nouveau contrat librement conclu peut anéantir ou modifier les effets du contrat passé.
+Que dit le principe de l'effet relatif du contrat (art. 1199) ? ; Le contrat ne produit d'effets qu'à l'égard des parties qui l'ont conclu : les tiers ne subissent aucune conséquence du contrat.
+Comment la Cour de cassation applique-t-elle l'effet relatif dans une chaîne de contrats ? ; Chaque contractant n'est lié qu'à celui avec lequel il a conclu : un sous-traitant, par exemple, ne peut pas être mis en cause par le client de son donneur d'ordre.
+Quelle est l'exception à l'effet relatif du contrat ? ; La stipulation pour autrui : un tiers au contrat bénéficie de l'exécution des obligations convenues entre le stipulant et le promettant.
+Donnez un exemple de stipulation pour autrui. ; Dans un contrat d'assurance décès, l'assuré (le stipulant) et l'assureur (le promettant) conviennent qu'un capital sera versé au bénéficiaire choisi par l'assuré. Autre exemple : le destinataire désigné au transporteur par le donneur d'ordre dans un contrat de transport.

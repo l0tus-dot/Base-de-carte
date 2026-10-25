@@ -1,0 +1,861 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "a3b0cf39-9e1b-5080-ae7d-ba5ed1f7c9d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Economique",
+    "parentId": null
+   },
+   {
+    "id": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Chapitre 1.1.2 - Pages 3 et 4",
+    "parentId": "a3b0cf39-9e1b-5080-ae7d-ba5ed1f7c9d9"
+   }
+  ],
+  "cards": [
+   {
+    "id": "46e499f2-c28a-5dda-bd57-7c909431d9a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'une barrière à l'entrée ?",
+    "back": "Un obstacle qui rend difficile ou impossible l'implantation d'une entreprise sur un marché et ne lui permet pas de rivaliser avec les entreprises en place.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "a060e64d-8166-522d-aa6b-bf81e4bf8db9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'une barrière à la sortie ?",
+    "back": "Un obstacle qui oblige une entreprise à rester en activité sur un marché ou un segment de marché sur lequel il n'y a plus ou peu de rentabilité.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "0712833d-7a4b-5725-8854-3304ee5d227e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Que sont les barrières naturelles ?",
+    "back": "Des barrières liées à la nature de l'activité ou aux caractéristiques du marché. Elles sont inévitables et indépendantes de la volonté des producteurs (ex. : l'accès aux matières premières ou aux technologies).",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "e29252f1-5b4a-52b3-8d5b-ea5814e9f0c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Que sont les barrières institutionnelles ?",
+    "back": "Des barrières qui résultent de l'action publique (réglementation) pour rendre l'accès au marché plus difficile (ex. : autorisations, normes, brevets).",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "754e455c-e283-5737-ab79-a8c86bb1ac9d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Que sont les barrières stratégiques ?",
+    "back": "Des barrières qui résultent d'une stratégie des entreprises en place, pour rendre l'accès au marché plus difficile aux concurrents et être dissuasif.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "beb75b0e-8224-59c7-8a3a-1e646f03e7aa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'une asymétrie d'information ?",
+    "back": "Une situation dans laquelle tous les participants à un marché ne disposent pas de la même information.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "5683c86a-86b6-5065-a863-abda5bbf11a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Pourquoi les asymétries d'information sont-elles un dysfonctionnement du marché ?",
+    "back": "Certains agents détiennent des informations que les autres n'ont pas : ils ont un avantage et peuvent influencer la fixation du prix. Les asymétries doivent donc être éliminées.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "46a810dc-7142-50aa-a8bf-434989fae6e3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'une externalité ?",
+    "back": "L'effet produit par l'activité économique d'un agent sur le bien-être d'un autre agent, en dehors de toute transaction : il n'est pas intégré dans le prix et ne donne pas lieu à une contrepartie financière.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "013941ce-917a-5700-9561-02b15ae66eef",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'une externalité positive ?",
+    "back": "Une externalité qui améliore le bien-être des autres agents (ex. : l'installation d'un apiculteur améliore les rendements agricoles des alentours).",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "ebf2838d-63c5-5ccf-a29d-85c34e59340c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'une externalité négative ?",
+    "back": "Une externalité qui dégrade le bien-être des autres agents économiques (ex. : la pollution générée par une usine).",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "45dda2aa-6a3c-55f8-bd6f-08451a34ebf0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Que sont les externalités créées par les TIC ?",
+    "back": "Des actes de production et de consommation des utilisateurs des technologies de l'information et de la communication qui influent sur la situation d'un autre agent, sans compensation monétaire.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "6efc3609-63de-56bd-b6de-58805a712e1e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Quelles sont les deux démarches écoresponsables du secteur du numérique ?",
+    "back": "Le Green IT et l'IT for Green.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "29137d27-d965-5fee-a7fd-721284da7fdd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce que le Green IT ?",
+    "back": "La démarche éco-responsable des entreprises de la filière TIC : méthodes, logiciels, matériels, services et processus informatiques qui réduisent l'impact de l'informatique sur l'environnement.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "12bade10-e5d3-57df-bab8-0f994dec6cd3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce que l'IT for Green ?",
+    "back": "La démarche éco-responsable des organisations utilisatrices des TIC : le développement du numérique aide aussi les autres secteurs à se développer durablement.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "870b1bdb-fc72-5df7-b560-60a593f50f92",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'une économie d'échelle ?",
+    "back": "La baisse du coût unitaire d'un produit obtenue en accroissant la quantité produite.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "a82c91ea-342b-5b9e-a8d4-42b2125ee9d6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'un coût de transfert ?",
+    "back": "Les coûts associés aux transactions entre sociétés d'un même groupe.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "483258c2-26b2-5015-8e45-fe4daecbeacb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'un effet de réseau (ou effet de club) ?",
+    "back": "Le pouvoir d'attraction où la valeur d'un produit, d'un service ou d'une plateforme grandit avec le nombre d'utilisateurs : l'arrivée d'un nouveau client accroît la satisfaction des clients existants (ex. : les réseaux sociaux).",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "5b0132a1-0e43-588e-93fc-0d48566fc9d1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce que le financement ?",
+    "back": "L'ensemble des opérations qui permettent aux agents économiques d'obtenir les ressources financières nécessaires à la satisfaction de leurs besoins.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "eee67fa3-6699-535f-b79e-4d718f023eb4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce que le financement interne (autofinancement) ?",
+    "back": "L'entreprise finance son activité et ses investissements avec ses propres moyens financiers.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "b6d26953-8a26-5139-8e63-30a49f8dc701",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Quelles sont les formes de financement externe ?",
+    "back": "Le financement indirect (intermédié), le financement direct, le financement participatif et le soutien de l'État.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "07989bdd-1609-5b6c-9889-ba4d05899827",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce que le financement indirect (intermédié) ?",
+    "back": "Les banques (intermédiaires) répondent aux demandes de crédit émanant des entreprises.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "8188d7a3-ceea-50c8-b1e5-62aaacee0ddc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce que le financement direct ?",
+    "back": "Les entreprises s'adressent au marché financier, qui met en relation leurs demandes de financement avec les investisseurs.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "fa263565-4845-5f35-b465-e60cdb5ff117",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce que le financement participatif (crowdfunding) ?",
+    "back": "Un appel à des ressources financières auprès de nombreux internautes pour financer un projet (culturel, entrepreneurial, etc.) sous la forme de dons, de prêts rémunérés ou de participations dans l'entreprise.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "64e45132-8ad0-54cc-a3de-45e1e2cf3f9b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Quel est le rôle de Bpifrance ?",
+    "back": "C'est la banque publique d'investissement : présente dans chaque région, elle offre des solutions de financement aux entreprises pour soutenir leurs projets (création, développement, innovation, conquête de marchés, investissement en fonds propres, reprise).",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "e84cff0e-dca7-5525-bf42-f2c0b3d48fd4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Quels sont les rôles des banques ?",
+    "back": "La collecte de l'épargne, le financement par le crédit, le rôle d'intermédiaire et les services financiers.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "97b5064a-b599-5132-a720-91b03722ce26",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "En quoi consiste la collecte de l'épargne par une banque ?",
+    "back": "La banque reçoit les dépôts du public et fournit les moyens de paiement.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "c522762f-d1bb-5978-ac5a-186a5fb89c2a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "En quoi consiste le financement par le crédit ?",
+    "back": "La banque accorde des crédits à court, à moyen ou à long terme, ou des découverts.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "7eff3a07-6791-5338-9416-1d87e4039b3a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "En quoi consiste le rôle d'intermédiaire d'une banque ?",
+    "back": "Mettre en relation l'entreprise et les investisseurs sur le marché des capitaux : émission et placement de titres (actions et obligations).",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "da0f1c62-cacf-56e0-a339-6dbe89b78279",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Quels services financiers une banque propose-t-elle ?",
+    "back": "Des services de gestion pour optimiser la trésorerie, la gestion des risques, l'accompagnement à l'export, l'introduction en Bourse, etc.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "f9137ac1-f3c0-564f-9a3b-1e3ed4f5d43a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'un emprunt bancaire ?",
+    "back": "L'opération par laquelle un agent se procure une somme d'argent moyennant le paiement d'un taux d'intérêt et un remboursement à une ou plusieurs dates fixées (échéances), matérialisée par un contrat entre l'emprunteur et le prêteur (la banque).",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "5f649aa8-6bbb-576e-ac60-b36f1127899c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'un crédit bancaire ?",
+    "back": "L'opération par laquelle l'emprunteur (débiteur) obtient de la monnaie d'un prêteur (créditeur) en échange de la promesse d'un remboursement différé majoré d'un intérêt.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "ea7bd1ae-8356-5adc-9b19-c8678c98c760",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Pourquoi le taux d'intérêt d'un crédit varie-t-il avec sa durée ?",
+    "back": "Un crédit accordé sur une longue période est plus risqué, donc plus cher.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "d0ecc77a-b5c6-53ab-8822-5518a5166b8d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Comment circule l'argent dans le financement indirect ?",
+    "back": "Les prêteurs (agents à capacité de financement) déposent leur épargne auprès d'un intermédiaire, qui accorde des crédits aux emprunteurs (agents à besoin de financement). Les emprunteurs paient des intérêts.",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "ed7105a7-a389-517c-8ea0-6538d66ed339",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce que le marché financier ?",
+    "back": "Le marché des capitaux à long terme sur lequel se rencontrent les offres de capitaux des agents à capacité de financement (investisseurs qui achètent des titres) et les demandes des agents à besoin de financement (émetteurs en recherche de capitaux).",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "7370249f-c001-53bf-8c80-75e7930f2b33",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'une action ?",
+    "back": "Un titre de propriété d'une part du capital d'une société : il donne à l'actionnaire le droit à une partie des bénéfices (le dividende) et à une voix lors des assemblées générales.",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "f8b864ad-3df3-5696-8ea6-dea3ea0b8659",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce qu'une obligation ?",
+    "back": "Un titre de créance à long terme (plus de 7 ans) : elle représente une fraction d'un emprunt émis par des entreprises ou des États. Elle donne droit à des intérêts (le coupon).",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "3a7661ad-9edf-543b-83c4-4fd305008245",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'apporte la cotation en Bourse d'une obligation ?",
+    "back": "Elle permet de la revendre avant son échéance ou de l'acheter en cours de vie.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "6843aade-fa7b-5c9d-aa5f-8e004772024d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce que le marché primaire ?",
+    "back": "Le marché sur lequel les nouveaux titres financiers sont émis.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "88d171d1-4277-509b-b6de-690e8a9a04c4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "745a2b6d-74e9-5fcb-bdcc-373f3d97008b",
+    "front": "Qu'est-ce que le marché secondaire ?",
+    "back": "Le marché sur lequel sont échangés des titres déjà émis. Leurs prix, appelés cours, varient en fonction de l'offre et de la demande.",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "793c24fa-1e3a-5868-9ebd-3027d73216d5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "46e499f2-c28a-5dda-bd57-7c909431d9a9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a54e6540-f440-56d5-ad50-6be17cf8331a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a060e64d-8166-522d-aa6b-bf81e4bf8db9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d68c8772-6076-545c-895b-7945be5fd58c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0712833d-7a4b-5725-8854-3304ee5d227e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a61519c3-ff28-5efb-b61d-37b6d9f55b0d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e29252f1-5b4a-52b3-8d5b-ea5814e9f0c6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "65d7bad5-285d-57db-959f-80a53192a39e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "754e455c-e283-5737-ab79-a8c86bb1ac9d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f03cfa6c-e9af-5720-aae5-0f3c53f38aa9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "beb75b0e-8224-59c7-8a3a-1e646f03e7aa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a2a27fd5-3f95-5b8a-a256-6beff60560f8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5683c86a-86b6-5065-a863-abda5bbf11a4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d4b890b1-fb9a-5744-8cdf-01194819f369",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "46a810dc-7142-50aa-a8bf-434989fae6e3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "20e315fb-cb5d-58eb-9974-d33c4e3de237",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "013941ce-917a-5700-9561-02b15ae66eef",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "84a128df-28b7-5a4e-abc7-bc4526a9f2db",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ebf2838d-63c5-5ccf-a29d-85c34e59340c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ac74efc3-d86c-5a63-b3a8-c10deb12ccd3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "45dda2aa-6a3c-55f8-bd6f-08451a34ebf0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "32910eb5-4996-5ddc-9ee8-4e0758c13e9c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6efc3609-63de-56bd-b6de-58805a712e1e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "26b84240-292f-53c4-8d04-b050556badd5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "29137d27-d965-5fee-a7fd-721284da7fdd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "839ca820-c4df-5546-ba5c-aa5893d9bd5f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "12bade10-e5d3-57df-bab8-0f994dec6cd3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "41cf2ae8-f9b9-537c-8b77-00600014e4ed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "870b1bdb-fc72-5df7-b560-60a593f50f92",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f6358d03-2dd6-5443-941e-fde1bf668457",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a82c91ea-342b-5b9e-a8d4-42b2125ee9d6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2dd7bc25-1e69-57f6-9939-6794aad8b931",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "483258c2-26b2-5015-8e45-fe4daecbeacb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "faeb50c4-4e4f-592d-ba9e-f05857422ca5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5b0132a1-0e43-588e-93fc-0d48566fc9d1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2847fb00-3d49-57a8-8d28-6ef3ead553d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eee67fa3-6699-535f-b79e-4d718f023eb4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "65400186-410e-57dd-a741-bc965f678470",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b6d26953-8a26-5139-8e63-30a49f8dc701",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "54790e6b-f197-5f84-8372-facc0d1c8225",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "07989bdd-1609-5b6c-9889-ba4d05899827",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0e1b61ff-2a73-598c-953f-b084792098d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8188d7a3-ceea-50c8-b1e5-62aaacee0ddc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "67e985e8-4106-5561-a1e8-d68674dc76b5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fa263565-4845-5f35-b465-e60cdb5ff117",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "54c28454-b3ab-5b49-8956-71e11daddc0b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "64e45132-8ad0-54cc-a3de-45e1e2cf3f9b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cdf78f47-9481-56dd-9008-be5818a7caf9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e84cff0e-dca7-5525-bf42-f2c0b3d48fd4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2dca7647-2766-5263-ba36-92f7a0d48797",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "97b5064a-b599-5132-a720-91b03722ce26",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0ae32b87-6cdc-53a1-9d67-bf50f8f68ad5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c522762f-d1bb-5978-ac5a-186a5fb89c2a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "97365f12-814c-51d0-922b-4b8ab3de4ae2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7eff3a07-6791-5338-9416-1d87e4039b3a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "76cfaaa9-ad0e-5f73-926e-45db694c043f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "da0f1c62-cacf-56e0-a339-6dbe89b78279",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ae73952d-f04f-5ed0-8a34-a6dde737b25c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f9137ac1-f3c0-564f-9a3b-1e3ed4f5d43a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b071fcba-f16e-55dd-ac3e-bbb30fee5894",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5f649aa8-6bbb-576e-ac60-b36f1127899c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f54224be-8add-5872-bcf6-85957364be78",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ea7bd1ae-8356-5adc-9b19-c8678c98c760",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b6d3031b-56af-57d8-a137-07e7b6d46ad4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d0ecc77a-b5c6-53ab-8822-5518a5166b8d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1591d31c-b4ff-546f-9ee5-4af82ea2dcb3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ed7105a7-a389-517c-8ea0-6538d66ed339",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0ce3c960-ec2e-56c8-a18b-e09bc1968ba7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7370249f-c001-53bf-8c80-75e7930f2b33",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0535a701-0012-5438-a307-836770816658",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f8b864ad-3df3-5696-8ea6-dea3ea0b8659",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e8d36a20-70c4-5420-942c-c45ace18be25",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3a7661ad-9edf-543b-83c4-4fd305008245",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a18f96e3-f6a5-5200-b927-5aafdedb7d1c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6843aade-fa7b-5c9d-aa5f-8e004772024d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ee9ddd31-ff1b-55c9-9300-aca04b2e6c6d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "88d171d1-4277-509b-b6de-690e8a9a04c4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

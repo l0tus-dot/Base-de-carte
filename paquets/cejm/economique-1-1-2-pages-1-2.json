@@ -1,0 +1,630 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "a3b0cf39-9e1b-5080-ae7d-ba5ed1f7c9d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Economique",
+    "parentId": null
+   },
+   {
+    "id": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Chapitre 1.1.2 - Pages 1 et 2",
+    "parentId": "a3b0cf39-9e1b-5080-ae7d-ba5ed1f7c9d9"
+   }
+  ],
+  "cards": [
+   {
+    "id": "641a16ec-6184-5329-be9f-dd707e3d045f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Qu'est-ce qu'un marché ?",
+    "back": "Le lieu de rencontre physique ou virtuel entre l'offre et la demande, qui aboutit à la fixation d'un prix d'équilibre et d'une quantité d'équilibre.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "4d61877c-eaf9-52f8-943b-ec2189334c97",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Sur le marché des biens et services, qui sont les offreurs, les demandeurs et quel est le prix ?",
+    "back": "Les offreurs sont les producteurs, les demandeurs sont les consommateurs (ménages) et l'échange se fait contre un prix.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "94e210e3-91f0-55d9-9471-6c0da8227c9e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Sur le marché du travail, qui sont les offreurs, les demandeurs et quel est le prix ?",
+    "back": "Les offreurs sont les ménages qui proposent leur force de travail, les demandeurs sont les employeurs qui en ont besoin et le prix est le salaire.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "719ead1a-bdb2-5483-9a09-0f3b69285bae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Sur le marché financier, qui sont les offreurs et les demandeurs ?",
+    "back": "Les offreurs sont les agents à capacité de financement et les demandeurs sont les agents à besoin de financement.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "06dbe3c5-118c-5807-b6d2-601a2f617952",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Quelles sont les étapes pour analyser ou caractériser un marché ?",
+    "back": "1. Définir le marché. 2. L'identifier (type de produit, B to B ou B to C, importance en volume et en valeur, étendue géographique, évolution). 3. Décrire ses composantes (l'offre et la demande).",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "e3867163-7222-5a3d-8a15-ec57962ec0ec",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Quels éléments décrivent l'offre sur un marché ?",
+    "back": "La structure (oligopolistique, concurrentielle), la part de marché, les positions concurrentielles (leader, challenger, outsider) et les stratégies des offreurs.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "7c103b66-b0a7-5d36-a97f-288acde21b56",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Quels éléments décrivent la demande sur un marché ?",
+    "back": "La typologie des clients (particuliers, professionnels, administrations), leur profil, leurs attentes, leurs besoins et leurs comportements.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "995b0b1b-de76-5557-ac61-cd48590f359e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Que dit la loi de l'offre et de la demande ?",
+    "back": "La rencontre entre l'offre et la demande sur le marché fixe un prix d'équilibre et une quantité d'équilibre.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "880e6aef-751f-5d45-8f55-bf9dafc0ba8a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Que représente la demande ?",
+    "back": "La quantité de produits que les acheteurs sont prêts à acquérir.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "5c981a6f-ad06-5b63-9391-c10aa38d78cb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Que représente l'offre ?",
+    "back": "La quantité de produits que les vendeurs sont prêts à vendre.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "10517537-c9fc-5ad7-afcd-f55573e65b15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Que se passe-t-il si le prix augmente trop au-dessus du prix d'équilibre ?",
+    "back": "La demande diminue car elle est une fonction décroissante du prix. L'offre devient abondante et supérieure à la demande, donc les prix vont naturellement baisser pour revenir à l'équilibre.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "47f3cd08-c255-5120-b2a4-b769ad1f4c3f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Que se passe-t-il si le prix est trop bas ?",
+    "back": "La demande augmente, mais l'offre diminue car certaines entreprises se retirent du marché : elle est une fonction croissante du prix. L'offre devient rare, donc son prix augmente pour revenir à l'équilibre.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "ac342302-7414-50a9-9668-743bf87ba13e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Pourquoi l'offre a-t-elle tendance à augmenter quand les prix sont élevés ?",
+    "back": "Les entreprises, attirées par des perspectives de profits plus élevés, vont produire davantage : l'offre est une fonction croissante du prix.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "c1beba2b-3ed6-5163-81d4-9364757dfa06",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Quel est le rôle de signal du prix ?",
+    "back": "Il permet aux agents d'évaluer la valeur du produit et d'orienter leur choix : en fonction de la rareté des ressources et de l'intensité de la demande, le prix varie à la hausse ou à la baisse.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "b43262ac-3b6d-539b-8111-736208f38cb4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Tous les marchés suivent-ils le mécanisme de l'offre et de la demande ?",
+    "back": "Non, sur certains marchés la demande ne suit pas ce mécanisme (ex. : la consommation ostentatoire).",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "33190722-1abc-5b0f-8f01-f945e0817a20",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Qu'est-ce que la concurrence ?",
+    "back": "Un marché où les offreurs et les demandeurs peuvent librement se confronter et où le prix sert de variable d'ajustement entre l'offre et la demande.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "7b3d522d-6347-5921-b39b-eea5e53428a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Quelles sont les 4 conditions de la concurrence pure et parfaite ?",
+    "back": "L'atomicité (beaucoup de petits offreurs et de demandeurs), la libre entrée sur le marché, l'homogénéité du produit et la transparence de l'information.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "71df0331-a6a8-53c6-99cf-8df134c3cf2a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Pourquoi la concurrence pure et parfaite n'existe-t-elle pas en réalité ?",
+    "back": "Ses conditions théoriques sont rarement respectées : l'intensité de la concurrence varie selon les marchés.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "0dd236c9-34ab-5529-9590-353f5259b275",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Qu'est-ce qu'une entreprise peut faire sur un marché à faible intensité concurrentielle ?",
+    "back": "Elle bénéficie d'un pouvoir de marché : elle peut imposer ses prix au consommateur et même fixer des prix élevés (cas d'un monopole ou d'un oligopole).",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "08380393-8b38-5af9-a01d-c8f49e773510",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Qu'est-ce qu'un marché concurrentiel ?",
+    "back": "Un marché qui présente de nombreux offreurs et de nombreux demandeurs.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "8d355b6f-0812-530f-a011-8c82a230c8e5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Qu'est-ce qu'un oligopole ?",
+    "back": "Un marché où quelques offreurs font face à de nombreux demandeurs.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "8d483832-ccbb-5980-9311-8d1389aa22f8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Qu'est-ce qu'un monopole ?",
+    "back": "Un marché où un seul offreur fait face à de nombreux demandeurs.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "089f9f89-ab7f-5b42-8add-f95e2edd01c0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Qu'est-ce que la coopération ?",
+    "back": "Une relation permettant à des personnes ayant des intérêts communs de travailler ensemble.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "1bf00cdf-1512-5c64-8a68-92f8110c9a95",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Quelles sont les deux formes de coopération entre entreprises ?",
+    "back": "La coopétition et le partenariat.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "3a6957ff-8688-5376-ae58-6766d69cbe19",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Qu'est-ce que la coopétition ?",
+    "back": "Une alliance entre entreprises concurrentes.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "e6efbe86-6952-5987-9ea7-6759a75b6035",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Qu'est-ce que le partenariat ?",
+    "back": "Une coopération entre entreprises non concurrentes.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "d4abd203-8d12-546e-8972-3fb81d1ee51c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Quand la coopétition est-elle autorisée ?",
+    "back": "Si elle n'a pas pour objet d'échapper à la concurrence mais d'améliorer l'offre.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "853984de-e14e-51a0-8abe-91565e0332b3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "598fa544-ef90-57b4-83f0-c405e540b0e5",
+    "front": "Quand les ententes sont-elles interdites ?",
+    "back": "Si leur objectif est de manipuler les informations disponibles pour fausser le choix des agents économiques (ex. : entente pour bloquer artificiellement les prix ou fausser les informations sur les produits).",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "c8059619-e542-556c-bfb9-5f1ada7b14cc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "641a16ec-6184-5329-be9f-dd707e3d045f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0ac97597-6fa7-5ea9-9833-f7ff83fb476c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4d61877c-eaf9-52f8-943b-ec2189334c97",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5eadc3a8-a6c5-5546-ad8e-02ff07812e76",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "94e210e3-91f0-55d9-9471-6c0da8227c9e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7847fd46-3884-5a87-b77c-855811cc7742",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "719ead1a-bdb2-5483-9a09-0f3b69285bae",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "23d80acb-4616-575e-b5bb-392d41533e71",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "06dbe3c5-118c-5807-b6d2-601a2f617952",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "891a3512-4099-5b83-98f6-15f8cbf7ef13",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e3867163-7222-5a3d-8a15-ec57962ec0ec",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f0656bdc-492e-58d6-8c31-9fd41bae43cd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7c103b66-b0a7-5d36-a97f-288acde21b56",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b349ff83-388c-5d2a-b06c-b0146097d72a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "995b0b1b-de76-5557-ac61-cd48590f359e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "799439f4-235b-5381-8c6a-53906adc5d4e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "880e6aef-751f-5d45-8f55-bf9dafc0ba8a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8d75c2a2-63ae-59d0-9847-d043454db3b7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5c981a6f-ad06-5b63-9391-c10aa38d78cb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0d101c09-b113-5212-a0fa-b541b97e43ff",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "10517537-c9fc-5ad7-afcd-f55573e65b15",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "929459b8-3c52-5989-9c06-8a09e94c2eae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "47f3cd08-c255-5120-b2a4-b769ad1f4c3f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c4877bd9-7bd2-5620-a7d6-c201d430afab",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ac342302-7414-50a9-9668-743bf87ba13e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8626a6c9-1a4b-5e59-b650-75c6a27d8514",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c1beba2b-3ed6-5163-81d4-9364757dfa06",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1b87fa20-bcca-5c8b-8d1f-d87b15e53d70",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b43262ac-3b6d-539b-8111-736208f38cb4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2f743aec-8488-592a-bef3-8815515a25a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "33190722-1abc-5b0f-8f01-f945e0817a20",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "49870cb6-f6b0-5a1c-b4ba-b370d271fc82",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7b3d522d-6347-5921-b39b-eea5e53428a4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "339be6ae-8160-5b20-8231-a9fb35b9c66c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "71df0331-a6a8-53c6-99cf-8df134c3cf2a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b4ac8d86-c8ed-5855-a0f5-1d834929c1ce",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0dd236c9-34ab-5529-9590-353f5259b275",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "828e1d26-1a85-5ca0-b5a6-c2ba014ab968",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "08380393-8b38-5af9-a01d-c8f49e773510",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ec3c3157-eac3-59c5-9160-ccbf6f5d3692",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8d355b6f-0812-530f-a011-8c82a230c8e5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "67a2756c-d06f-5dc4-a046-9e448969d8a6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8d483832-ccbb-5980-9311-8d1389aa22f8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e62bee40-60a9-5117-9f4c-248450925d8e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "089f9f89-ab7f-5b42-8add-f95e2edd01c0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f9d29d35-f4ea-5783-9f2f-5d247e07084e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1bf00cdf-1512-5c64-8a68-92f8110c9a95",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "01798290-9106-5227-8aef-a6518e6db4e9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3a6957ff-8688-5376-ae58-6766d69cbe19",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "21fb0a4c-e0f9-5c10-9b8f-6363b531f51d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e6efbe86-6952-5987-9ea7-6759a75b6035",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c555f8bd-b292-51a8-ba73-82a1256ab3bf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d4abd203-8d12-546e-8972-3fb81d1ee51c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "566cb18b-b7e8-5ed1-8589-9acdd82b207b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "853984de-e14e-51a0-8abe-91565e0332b3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

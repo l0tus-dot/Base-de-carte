@@ -1,0 +1,441 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "0c2704b4-7a0b-5962-88bd-34dede5f23fa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Juridique",
+    "parentId": null
+   },
+   {
+    "id": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Chapitre 1.2 - Pages 5 et 6",
+    "parentId": "0c2704b4-7a0b-5962-88bd-34dede5f23fa"
+   }
+  ],
+  "cards": [
+   {
+    "id": "b600ef73-9e8f-5c3c-92e6-4581941a1fca",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Qu'est-ce qu'une clause ?",
+    "back": "Un paragraphe d'un contrat qui définit les droits et les obligations des parties.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "1b763390-cad1-5149-8f4f-06562cc31d31",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Qu'est-ce que la clause de fixation du prix ?",
+    "back": "La clause qui détermine le prix dès la conclusion du contrat : c'est un gage de sécurité, chaque partie connaît ses gains ou ce que lui coûte son engagement.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "0ef87e1f-a61e-52c9-8304-f2650024a457",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Le prix peut-il être fixé par une seule partie ?",
+    "back": "Pour les contrats-cadres et les prestations de services, le créancier peut fixer le prix à défaut d'accord avant l'exécution (art. 1164 et 1165). Il doit pouvoir le justifier : si le prix est abusif, le juge peut attribuer des dommages-intérêts.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "b313185a-cf39-53cd-989c-6eefee0d8e2f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Qu'est-ce que la clause d'indexation ?",
+    "back": "La clause qui prévoit que le prix mentionné au contrat évoluera automatiquement en fonction de l'évolution d'une autre donnée.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "b4d51c30-5159-5cb7-8d03-9e05cab5196c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Qu'est-ce que la clause de réserve de propriété ?",
+    "back": "La clause par laquelle le vendeur conserve la propriété du bien vendu jusqu'au complet paiement, si le paiement ne se fait pas au comptant.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "9223ceea-797d-5d1b-b4e2-2804d7f6c2d4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Quel est l'avantage de la clause de réserve de propriété ?",
+    "back": "Le vendeur impayé peut réclamer la restitution du bien, dont il est toujours propriétaire. Sa situation est plus confortable que celle des autres créanciers.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "cd352610-a8ab-508c-a289-349af504cea8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Qu'est-ce que la clause de renégociation ?",
+    "back": "La clause qui oblige les parties à renégocier le contrat si des données essentielles à son équilibre viennent à changer.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "4d1decf9-8086-56d4-87a8-7b9b3bea826d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Qu'est-ce que la clause limitative ou exclusive de responsabilité ?",
+    "back": "La clause par laquelle le débiteur d'une obligation décide de limiter ou d'exclure par avance sa responsabilité en cas de mauvaise exécution ou d'inexécution du contrat.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "469ef52a-9134-53ab-9ecf-ac0ae08c5d2b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Quand la clause limitative ou exclusive de responsabilité est-elle valable ?",
+    "back": "Si elle est librement négociée et si elle ne vide pas de toute sa substance l'obligation essentielle du cocontractant.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "b5e3d916-5a4c-5486-8217-2ea94176d04a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Qu'est-ce que la clause résolutoire ?",
+    "back": "La clause qui prévoit qu'en cas de manquement à une obligation contractuelle, le contrat est résilié de plein droit, ce qui évite d'avoir recours à la justice.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "5818aed9-b2a4-5d5d-805c-2ad4e615f4df",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Qu'est-ce que la clause pénale ?",
+    "back": "La clause qui fixe d'avance le montant précis de la réparation due par le débiteur en cas d'inexécution.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "4223e7d9-fc71-577e-8973-6b572f7c00b9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Pourquoi la clause pénale est-elle plus efficace que la clause limitative de responsabilité ?",
+    "back": "Elle empêche toute contestation sur l'importance du préjudice à réparer. Son rôle préventif peut faciliter la conclusion du contrat.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "b9ce3bc8-adfa-5e72-89d6-ed2815b1c0e5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Quelle est la force du contrat entre les parties (art. 1103) ?",
+    "back": "Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits : les parties sont obligées de respecter leurs engagements comme s'ils étaient d'origine légale.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "d78deb13-43a9-5dfb-b7da-0ac51abaee10",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Que garantit la force obligatoire du contrat ?",
+    "back": "La sécurité des transactions : aucun cocontractant ne peut se soustraire à ses engagements, sauf à en répondre devant les juges.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "c16cd695-f180-5950-8584-eb6a88b40489",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Pourquoi dit-on que le contrat est irrévocable ?",
+    "back": "Il ne peut être mis fin que par la volonté des parties. Un nouveau contrat librement conclu peut anéantir ou modifier les effets du contrat passé.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "cb91f0dc-2493-55f0-b424-b2e808756301",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Que dit le principe de l'effet relatif du contrat (art. 1199) ?",
+    "back": "Le contrat ne produit d'effets qu'à l'égard des parties qui l'ont conclu : les tiers ne subissent aucune conséquence du contrat.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "8d8ab05c-aa11-5d23-af2c-b7395341c05b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Comment la Cour de cassation applique-t-elle l'effet relatif dans une chaîne de contrats ?",
+    "back": "Chaque contractant n'est lié qu'à celui avec lequel il a conclu : un sous-traitant, par exemple, ne peut pas être mis en cause par le client de son donneur d'ordre.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "2ed62f70-24dd-5213-a978-33bf592342a6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Quelle est l'exception à l'effet relatif du contrat ?",
+    "back": "La stipulation pour autrui : un tiers au contrat bénéficie de l'exécution des obligations convenues entre le stipulant et le promettant.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "04da89b5-d0bc-5b2a-9136-ee88e15db7eb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8354e56b-3e17-566a-b5d1-4b7608eaa85b",
+    "front": "Donnez un exemple de stipulation pour autrui.",
+    "back": "Dans un contrat d'assurance décès, l'assuré (le stipulant) et l'assureur (le promettant) conviennent qu'un capital sera versé au bénéficiaire choisi par l'assuré. Autre exemple : le destinataire désigné au transporteur par le donneur d'ordre dans un contrat de transport.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "b6fbd8a7-f143-59d0-9891-bc65b9d430c0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b600ef73-9e8f-5c3c-92e6-4581941a1fca",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e904d8e0-1e8f-5f3a-ba62-6c7e7c125760",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1b763390-cad1-5149-8f4f-06562cc31d31",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fa779749-947d-5fb4-9b23-07ebc65e8654",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0ef87e1f-a61e-52c9-8304-f2650024a457",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5e1b9a06-eb33-5791-9a5e-725e61c6bc50",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b313185a-cf39-53cd-989c-6eefee0d8e2f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "03ac46b4-2ebc-5b44-a57b-dedcc5d3e852",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b4d51c30-5159-5cb7-8d03-9e05cab5196c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "05306771-e95d-56f6-8d92-0528f2607211",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9223ceea-797d-5d1b-b4e2-2804d7f6c2d4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3794bf27-c089-55f9-80c6-1b30a08e8142",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cd352610-a8ab-508c-a289-349af504cea8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "99c4721d-86db-5a0e-94d8-f9d9c2753eec",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4d1decf9-8086-56d4-87a8-7b9b3bea826d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "646a9de2-6ee6-5024-b018-5e3cf4b528f3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "469ef52a-9134-53ab-9ecf-ac0ae08c5d2b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2f5743c9-7fad-5a6f-a053-9a749a5dd1cf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b5e3d916-5a4c-5486-8217-2ea94176d04a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ee81d8b5-b8ed-519c-95c9-2dc700a0262d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5818aed9-b2a4-5d5d-805c-2ad4e615f4df",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d28fb1b3-5776-57df-b7c3-87fb16134fdc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4223e7d9-fc71-577e-8973-6b572f7c00b9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1f994264-8d7e-50f9-afd0-9d4811841ac5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b9ce3bc8-adfa-5e72-89d6-ed2815b1c0e5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e08b438c-7249-5d8d-9a51-3fe1fcedabf1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d78deb13-43a9-5dfb-b7da-0ac51abaee10",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2b7e12cb-2f1b-51dd-9158-996cc392f9fc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c16cd695-f180-5950-8584-eb6a88b40489",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c5e2770d-1d7f-5675-b43c-0b6af072ba88",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cb91f0dc-2493-55f0-b424-b2e808756301",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9e445777-9355-5307-b7fd-4a843815c797",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8d8ab05c-aa11-5d23-af2c-b7395341c05b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "edbb49de-d68b-5a68-90e4-1931b7226240",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2ed62f70-24dd-5213-a978-33bf592342a6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7b59f0c6-e62b-5462-98af-63890a116b58",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "04da89b5-d0bc-5b2a-9136-ee88e15db7eb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

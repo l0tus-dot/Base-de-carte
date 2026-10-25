@@ -1,0 +1,756 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "0c2704b4-7a0b-5962-88bd-34dede5f23fa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Juridique",
+    "parentId": null
+   },
+   {
+    "id": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Chapitre 1.2 - Pages 3 et 4",
+    "parentId": "0c2704b4-7a0b-5962-88bd-34dede5f23fa"
+   }
+  ],
+  "cards": [
+   {
+    "id": "cacafecf-55ac-54fa-9f4e-035893443cf5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Que dit l'article 1113 du Code civil ?",
+    "back": "Le contrat est formé par la rencontre d'une offre et d'une acceptation par lesquelles les parties manifestent leur volonté de s'engager.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "1f848ef7-711e-583b-9ff1-785cc66b2981",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Que signifie le principe de l'autonomie de la volonté ?",
+    "back": "Le contrat est l'expression de la volonté des parties : des obligations vont apparaître pour chaque partie.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "b9abfa5e-5dec-504f-8603-bf76f6f01314",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Qui émet l'offre et qui l'accepte dans un contrat commercial ?",
+    "back": "L'offre émane du vendeur et rencontre l'acceptation de l'acheteur.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "af3c9f21-f301-5ac9-a644-a748c0f91f8f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Comment l'offre et l'acceptation peuvent-elles s'exprimer ?",
+    "back": "De manière expresse ou tacite.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "d5fecf44-9b47-5187-9989-b32ea1d2c9d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Un contrat peut-il être formé à distance ?",
+    "back": "Oui. Lors d'une transaction sur Internet, le double-clic vaut acceptation (avec un mail de confirmation).",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "a4533204-2d2b-5695-968c-0d0f6a87a9b3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Que dit l'article 1102 du Code civil ?",
+    "back": "Chacun est libre de contracter ou de ne pas contracter, de choisir son cocontractant et de déterminer le contenu et la forme du contrat, dans les limites fixées par la loi.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "acec2800-4a00-5c84-bcbd-cfdf12a8de60",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quelles sont les 4 composantes de la liberté contractuelle ?",
+    "back": "La liberté de contracter ou non, de choisir son contractant, de fixer le contenu du contrat et de choisir la forme du contrat.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "fe5afb68-26a8-5c4c-ab9e-1ac693d600a2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quelle est une limite à la liberté de contracter ou non ?",
+    "back": "Certains contrats sont obligatoires (ex. : l'assurance automobile obligatoire).",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "2895b9e6-28d3-5627-bbc2-2da078d51adb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quelles sont des limites à la liberté de choisir son contractant ?",
+    "back": "Par exemple le transport de personnes, ou la vente d'un bien immobilier où le locataire est prioritaire.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "b0d6c995-92c6-53eb-b1c0-41902e4d840b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quelles sont des limites à la liberté de fixer le contenu du contrat ?",
+    "back": "Les abonnements (un contrat que l'on ne négocie pas) et l'interdiction des contrats illicites.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "d7fab06a-118f-5116-aca4-b31be5270809",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quelles sont des limites à la liberté de choisir la forme du contrat ?",
+    "back": "L'écrit est imposé pour certains contrats, mais il existe d'autres formes (ex. : le bras levé pour les enchères, l'ouverture de la portière d'un taxi, la poignée de main).",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "b34fa93c-f42d-50c8-9e5d-4b61b20732c2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Que se passe-t-il si un contrat respecte les conditions de validité ?",
+    "back": "Il a force de loi pour les parties.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "31b13a75-24f5-5abd-965d-a3067b085616",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quelles sont les conditions de validité d'un contrat ?",
+    "back": "Le consentement libre, éclairé et non vicié des parties, leur capacité de contracter, et un contenu licite et certain.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "17892c96-42af-5341-8936-c787174a39f8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Que dit l'article 1129 du Code civil ?",
+    "back": "Il faut être sain d'esprit pour consentir valablement à un contrat.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "8586852e-326b-53bd-9a66-c02e160e4c6f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quels sont les vices du consentement ?",
+    "back": "L'erreur, le dol et la violence.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "7c587a85-151a-5329-94ba-ff4f33b87137",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quand l'erreur est-elle prise en compte ?",
+    "back": "Quand elle porte sur un élément essentiel du contrat ou sur la personne.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "0b15512f-a173-5eb4-8885-2fd32f924a2c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Un client peut-il invoquer l'erreur dans un projet informatique s'il avait déjà une solution informatique, un service informatique et des relations suivies avec un fournisseur ?",
+    "back": "Non (Cour d'appel de Paris, janvier 2000).",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "3c8c5780-3725-5b86-b671-1b07a1a3012b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Qu'est-ce que le dol ?",
+    "back": "Une tromperie ou des mensonges, par une action ou une omission.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "30f0b858-2937-52d0-af95-568d66fe6bd9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quel exemple de dol la Cour de cassation a-t-elle admis en 2005 ?",
+    "back": "L'éditeur d'un logiciel qui prétendait détenir tous les droits d'auteur en s'abstenant d'indiquer que ce logiciel était un module d'un logiciel antérieur dont deux autres personnes étaient co-auteurs.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "3328c550-04d5-5e44-a465-94440dfd22cd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Qu'est-ce que la violence comme vice du consentement ?",
+    "back": "Une contrainte physique ou morale exercée sur une personne pour l'amener à consentir.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "ac391676-9484-57fc-9986-f993cc970f89",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Qu'est-ce que la capacité de contracter ?",
+    "back": "L'aptitude à être titulaire de droits et à les exercer.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "9e333a1d-fc06-588e-b081-fe8e799270b5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Qui peut contracter ?",
+    "back": "Toute personne physique, sauf si la loi prévoit une incapacité (art. 1145 du Code civil).",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "531422df-2cf7-5feb-a76e-04bc4fdad79f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "À quoi sert l'incapacité juridique ?",
+    "back": "Elle protège les mineurs et les majeurs victimes d'altérations des facultés mentales ou corporelles contre des décisions qui pourraient léser leur patrimoine.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "156223a1-bb17-5040-b74d-d95b085f2154",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Qu'est-ce que l'incapacité pénale ?",
+    "back": "Une interdiction d'exercer des droits, prononcée par un tribunal pénal. Elle permet d'annuler les contrats conclus par des personnes condamnées pour infractions graves et par des dirigeants responsables de fraudes.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "364984d8-6307-5037-ba5e-acaf3e5a73da",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Comment une personne morale peut-elle contracter ?",
+    "back": "Uniquement par l'intermédiaire de ses représentants légaux (dirigeants, mandataires). Sans représentant, elle ne peut pas conclure de contrats.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "c584d87d-91a5-54ca-8d91-d225acfe5872",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Que doit respecter le contenu licite d'un contrat (art. 1162) ?",
+    "back": "Les stipulations (objet du contrat) ne doivent pas être contraires à la loi et à l'ordre public, et l'objectif poursuivi ne doit pas être illicite.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "cb92380c-c660-5fc0-8924-2a837244c63f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Donnez un exemple de contrat dont l'objet est illicite.",
+    "back": "La vente d'organes : elle est contraire à l'ordre public, donc le contrat est nul.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "f48ccece-ce7c-5810-bb88-db4da9a8d892",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Donnez un exemple de contrat dont l'objectif est illicite.",
+    "back": "Acheter un local pour y installer une maison de jeux.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "8e826952-82fd-5273-82fd-b113535c72bc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Le contrat est-il nul si une seule des parties poursuit un but illicite inconnu de son cocontractant ?",
+    "back": "Oui, la loi précise que le contrat est nul même si ce but est inconnu du cocontractant.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "9c23b8c1-d562-5180-a076-3279f021d920",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Que signifie un contenu certain ?",
+    "back": "Le contenu doit exister (un objet réel et clair) et être déterminé ou déterminable (ex. : un prix fixé à l'avance ou déterminable par des critères).",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "8649f1c6-0157-5adc-a535-0c0f67fed3ba",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Un contrat de création de site e-commerce prévoit un prix calculé selon le nombre de jours de travail au tarif de 400 € par jour. Le contenu est-il certain ?",
+    "back": "Oui, le prix n'est pas encore fixé mais il est déterminable par des critères précisés dans le contrat.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "21d51a56-5a52-5b85-b595-061f4918d01d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quelle est la sanction du non-respect d'une condition de validité ?",
+    "back": "La nullité du contrat : elle entraîne la disparition de tous ses effets, avec si possible les restitutions qui en découlent.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "65010c68-7d5d-5447-a988-6a6ba21ff06d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Quel est le délai pour agir en nullité ?",
+    "back": "5 ans, à partir du moment où l'on a connaissance du problème (la cause de nullité).",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "08e7a98c-4db6-565c-a689-a62c972260bd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1a4d56b9-2e92-56d4-9ee9-853075077c59",
+    "front": "Que peut demander le demandeur en plus de la nullité ?",
+    "back": "Des dommages et intérêts.",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "98bb4dc3-29a1-5f07-8a90-be25f2fb297e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cacafecf-55ac-54fa-9f4e-035893443cf5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cacf3a54-12cd-5c8b-ad6e-5ee4ee402af4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1f848ef7-711e-583b-9ff1-785cc66b2981",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f442a769-2ef7-5719-acd4-3089f660a5d8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b9abfa5e-5dec-504f-8603-bf76f6f01314",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e79d07fb-a215-509c-917e-ecd2221405cb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "af3c9f21-f301-5ac9-a644-a748c0f91f8f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "913a1e2b-3b3d-513c-8d7a-76a6dfacc323",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d5fecf44-9b47-5187-9989-b32ea1d2c9d2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e687a590-dba3-5d9e-b89d-357b5a85edbf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a4533204-2d2b-5695-968c-0d0f6a87a9b3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dfd992c4-476e-5490-81d3-f25edbf78476",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "acec2800-4a00-5c84-bcbd-cfdf12a8de60",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2cb84563-dd4a-5d4c-a62c-bb7e1fd5b116",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fe5afb68-26a8-5c4c-ab9e-1ac693d600a2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "859ffed2-04fd-5ac9-b968-cadbbbc5b220",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2895b9e6-28d3-5627-bbc2-2da078d51adb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "23c3942c-5e91-5250-bc16-65edf62c0ac3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b0d6c995-92c6-53eb-b1c0-41902e4d840b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "58d88459-0da7-5861-9a5a-095251511ebb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d7fab06a-118f-5116-aca4-b31be5270809",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e1210cee-d2ce-5800-8d25-ea98fde07fb5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b34fa93c-f42d-50c8-9e5d-4b61b20732c2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3122dd92-2aaf-58fc-abd8-63cacefefb2b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "31b13a75-24f5-5abd-965d-a3067b085616",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4d3b1c0f-d149-5323-8385-9142c7e25bc8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "17892c96-42af-5341-8936-c787174a39f8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c3ebc01f-0ab9-54ca-b931-b2e33e4c73b3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8586852e-326b-53bd-9a66-c02e160e4c6f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d5712d8f-630e-577d-bb71-a5ba1c51db2e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7c587a85-151a-5329-94ba-ff4f33b87137",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c496c669-57fb-5954-84ef-fb472a815378",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0b15512f-a173-5eb4-8885-2fd32f924a2c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cc7bcee5-829f-5ad1-9404-326032c391dd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3c8c5780-3725-5b86-b671-1b07a1a3012b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a541d6da-654d-57cc-9ec0-65436dfe70f3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "30f0b858-2937-52d0-af95-568d66fe6bd9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bdfa41bf-78f5-58e5-b081-107ca6391188",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3328c550-04d5-5e44-a465-94440dfd22cd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a5bf72c2-0eb1-5d12-b124-a40d49fcf563",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ac391676-9484-57fc-9986-f993cc970f89",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c856cb1b-df98-5706-84ad-7aec6dd19e43",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9e333a1d-fc06-588e-b081-fe8e799270b5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8d1ad212-4590-5ee5-ba38-3394d381f328",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "531422df-2cf7-5feb-a76e-04bc4fdad79f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f00bca27-654d-5899-8144-610c63dc7feb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "156223a1-bb17-5040-b74d-d95b085f2154",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b477ccea-9c91-506d-9aa0-1adca419a726",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "364984d8-6307-5037-ba5e-acaf3e5a73da",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d0a11918-f296-53f9-ad79-93d90319b76c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c584d87d-91a5-54ca-8d91-d225acfe5872",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d31d4b58-60a9-59c6-b34f-ed86d1d9a360",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cb92380c-c660-5fc0-8924-2a837244c63f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4a479dd2-6a2b-5503-89b7-93b2b9c98ba4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f48ccece-ce7c-5810-bb88-db4da9a8d892",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6193db88-9548-529d-a002-3e97e2efee63",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8e826952-82fd-5273-82fd-b113535c72bc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c2876c4b-7f16-520c-9d8b-d9fe23cd7aa2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9c23b8c1-d562-5180-a076-3279f021d920",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "14fe9ef7-588b-5236-9b41-51f426bd435b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8649f1c6-0157-5adc-a535-0c0f67fed3ba",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1080684e-09c4-57e3-acae-1749910f2241",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "21d51a56-5a52-5b85-b595-061f4918d01d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f44583d1-a157-5f6e-a81a-6d86fb89b687",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "65010c68-7d5d-5447-a988-6a6ba21ff06d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7f289413-df7c-5527-bcea-5d815c285f65",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "08e7a98c-4db6-565c-a689-a62c972260bd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

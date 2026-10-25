@@ -1,0 +1,38 @@
+# Matière : CEJM
+# Parent : Managériale
+# Paquet : Chapitre 1.3 - Pages 1 et 2
+# Description : Les parties prenantes, les finalités, la performance et la responsabilité sociétale de l'entreprise (RSE).
+
+Qu'est-ce qu'une partie prenante (Edward Freeman, 1984) ? ; Tout individu ou groupe d'individus qui peut affecter ou être affecté par la réalisation des objectifs de l'organisation.
+Que sont les parties prenantes primaires ? ; Celles qui ont un contrat avec l'organisation, sont en relation directe avec elle et peuvent menacer sa survie.
+Que sont les parties prenantes secondaires ? ; Celles qui n'ont pas de lien contractuel avec l'organisation et ne sont pas essentielles à sa survie.
+Donnez des parties prenantes primaires internes. ; Les salariés, les propriétaires (actionnaires d'une SA ou d'une SAS) et les représentants du personnel (CSE).
+Donnez des parties prenantes primaires externes. ; Les clients et usagers, les fournisseurs et les sous-traitants.
+Donnez des parties prenantes secondaires externes. ; Les concurrents, les administrations, les pouvoirs publics, les associations et les médias.
+Y a-t-il des parties prenantes secondaires internes ? ; Non, seules les parties prenantes secondaires externes existent.
+De quoi dépend la pérennité de l'entreprise ? ; De la seule satisfaction des parties prenantes primaires, puisque ce sont les seules à pouvoir menacer sa survie.
+Quelles questions toute organisation doit-elle résoudre avec ses parties prenantes ? ; Quels compromis établir entre les résultats espérés par chacune, et comment et dans quel ordre fournir à chacune ce qu'elle attend.
+Qu'est-ce que la finalité de l'entreprise ? ; Sa raison d'être : l'orientation générale que veulent poursuivre les fondateurs sur le long terme.
+Qu'est-ce qu'une finalité économique ? ; Créer de la valeur financière en réalisant du profit afin d'être pérenne et de satisfaire différentes parties prenantes (ex. : redistribuer les bénéfices aux propriétaires).
+Qu'est-ce qu'une finalité sociale ? ; Répondre aux attentes des salariés, leur assurer un travail, une reconnaissance et une qualité de vie convenable (ex. : leur fournir des conditions matérielles comme un ordinateur ou une voiture).
+Qu'est-ce qu'une finalité sociétale ? ; Contribuer au bien-être de la société et prendre en compte les préoccupations environnementales des êtres humains dans ses activités.
+Quelle est la différence entre finalité et objectif ? ; L'objectif est le moyen d'atteindre la finalité. Les finalités sont à long terme, les objectifs à plus court terme, précis, mesurables et communiqués (économiques, sociaux ou sociétaux).
+Que dit Peter Drucker sur le profit ? ; Réaliser du profit n'est pas une finalité mais un objectif : la finalité est de développer et satisfaire une clientèle pour être pérenne, avec des objectifs clairs (marketing, innovation, ressources humaines, ressources financières, productivité, responsabilité sociale, profit).
+Qu'est-ce que la performance d'une entreprise ? ; La capacité à atteindre ses objectifs fixés (efficacité) en optimisant les ressources à sa disposition (efficience).
+Quelle est la formule de la performance ? ; Performance = efficacité + efficience.
+Que mesurent les critères et indicateurs de performance ? ; Le niveau de réalisation des objectifs à atteindre. Un indicateur peut être quantitatif (ex. : taux de part de marché) ou qualitatif (ex. : note de satisfaction client).
+Qu'est-ce qu'un tableau de bord ? ; Un outil qui regroupe des critères et mesure les écarts entre les différents objectifs et les résultats obtenus.
+À quoi servent les rapports d'activité ? ; Ce sont les outils pour communiquer les résultats de performance.
+Qu'évalue la performance économique ? ; La performance financière (rentabilité, productivité, coûts, chiffre d'affaires, résultat net, dividende versé aux propriétaires) et la performance commerciale (part de marché, innovation, satisfaction client, qualité de service, notoriété, réputation).
+Qu'évalue la performance sociale ? ; Le bilan social, le climat social, la promotion, l'implication des salariés, l'absentéisme, le turnover, la sécurité au travail, les perspectives de carrière, le développement des compétences et la formation.
+Qu'évalue la performance sociétale et environnementale ? ; La parité, l'égalité homme-femme, la discrimination, l'empreinte écologique, le rejet de gaz à effet de serre, le recyclage des déchets et la consommation d'énergie.
+Qu'est-ce que la performance globale ? ; L'ensemble des composantes de la performance : économique, sociale, sociétale et environnementale.
+Qu'est-ce que la RSE ? ; La responsabilité sociétale (ou sociale) des entreprises : l'intégration volontaire par les entreprises de préoccupations sociales et environnementales à leurs activités commerciales et à leurs relations avec les parties prenantes (définition de la Commission européenne).
+À quels enjeux la RSE contribue-t-elle ? ; Aux enjeux du développement durable.
+Qu'est-ce que le développement durable (rapport Brundtland, 1987) ? ; Un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de répondre aux leurs.
+Quels sont les 3 piliers du développement durable ? ; La société (socialement équitable), l'économie (économiquement viable) et l'environnement (écologiquement vivable).
+Comment la RSE contribue-t-elle au pilier économique ? ; Par la satisfaction et la fidélisation des clients, la qualité de service, le recours à des fournisseurs locaux, l'accès à l'information et au commerce.
+Comment la RSE contribue-t-elle au pilier social ? ; Par le respect des droits des salariés, la formation du personnel et l'égalité hommes-femmes.
+Comment la RSE contribue-t-elle au pilier environnemental ? ; Par le recyclage des déchets et la réduction des gaz à effet de serre.
+Que définit la norme ISO 26000 ? ; Le périmètre de la RSE, autour de 7 questions centrales.
+Quelles sont les 7 questions centrales de la norme ISO 26000 ? ; La gouvernance de l'organisation, les droits de l'homme, les relations et conditions de travail, l'environnement, la loyauté des pratiques, les questions relatives aux consommateurs, les communautés et le développement local.

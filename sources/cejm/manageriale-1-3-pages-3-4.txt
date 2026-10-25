@@ -1,0 +1,31 @@
+# Matière : CEJM
+# Parent : Managériale
+# Paquet : Chapitre 1.3 - Pages 3 et 4
+# Description : Les étapes de la création d'entreprise, la logique entrepreneuriale et la logique managériale.
+
+Combien de grandes phases comporte la création d'entreprise ? ; Trois grandes phases, qui se décomposent chacune en plusieurs étapes.
+Quelles sont les 7 étapes de la création d'entreprise ? ; Trouver une idée, réaliser une étude de marché, monter un business plan, chercher un financement, obtenir des subventions, rédiger les statuts juridiques, faire les formalités administratives.
+D'où part toute création d'entreprise ? ; D'une opportunité ou d'un besoin à satisfaire. Il n'y a pas de bonne ou de mauvaise idée : c'est souvent une intuition qu'il faut approfondir.
+Que faut-il décrire pour approfondir une idée d'entreprise ? ; Le bien ou le service envisagé (utilité, usage, performance) et le fonctionnement de l'entreprise à créer.
+À quoi sert l'étude de marché ? ; À découvrir le marché et ses tendances : connaître les acheteurs et leurs besoins, estimer la demande potentielle et identifier les concurrents.
+Quelle stratégie commerciale définit-on après l'étude de marché ? ; Le prix, la distribution (les canaux, selon chaque segment de clientèle) et la communication (le message pour séduire et fidéliser la clientèle).
+Qu'est-ce qu'un business plan ? ; Un dossier qui présente le projet de création d'entreprise aux investisseurs (banque, Business Angels) pour les convaincre de le financer.
+Que contient un business plan ? ; Une description du projet, une présentation des créateurs et du concept, une étude économique et le plan d'action envisagé.
+Quelles sources de financement peut-on combiner pour créer une entreprise ? ; Les capitaux de départ (apports des créateurs), la levée de fonds, les prêts bancaires, les fonds d'aide privés, le soutien d'organismes publics, le financement participatif et le financement par les amis.
+Que sont les capitaux de départ d'une entreprise ? ; Les apports des créateurs (fonds propres), qui constituent le capital social.
+Qu'est-ce que la levée de fonds ? ; Des apports d'investisseurs.
+Qu'est-ce que la love money ? ; Le financement par les amis.
+Quels organismes publics peuvent soutenir financièrement la création ? ; L'État, la Région, le Département, Bpifrance.
+Que peut-on obtenir de l'État et des collectivités territoriales ? ; Des aides pour soutenir la création : aides financières, allègements fiscaux, exonération de charges sociales, mise à disposition de locaux (les subventions).
+Pourquoi le choix de la structure juridique est-il important ? ; Il entraîne des conséquences fiscales et sociales, a un impact important sur la vie de l'entreprise et sur ses possibilités d'évolution. Il dépend de l'activité et du nombre d'associés.
+Qu'est-ce que le CFE ? ; Le centre de formalités des entreprises : un interlocuteur unique qui centralise les pièces du dossier et les transmet aux organismes et administrations concernés par la création d'une entreprise.
+À quoi servent les dernières formalités de création ? ; À se rapprocher de l'administration pour déclarer l'activité et obtenir une immatriculation.
+Qu'est-ce que la démarche entrepreneuriale ? ; La volonté d'une ou plusieurs personnes qui, à partir d'une idée, mettent sur pied un projet qui aboutit à la création ou à la reprise d'une entreprise (ou d'une activité).
+Comment Joseph Schumpeter définit-il l'entrepreneur ? ; Un individu visionnaire doté d'une intuition, créatif capable d'innover, et qui prend des risques (investissements, engagements contractuels).
+Qui est Joseph Schumpeter ? ; Un économiste autrichien (1883-1950), qui a défini l'entrepreneur.
+Qu'apporte l'innovation à l'entrepreneur ? ; Un certain monopole naturel.
+Qu'est-ce que la démarche managériale ? ; La capacité du manager à gérer de manière optimale les ressources pour assurer le développement et la pérennité de l'entreprise.
+Comment Peter Drucker définit-il le manager ? ; Il fixe des objectifs à court et moyen termes, définit les moyens à mettre en œuvre (budget, recettes, dépenses), anime et dirige les ressources humaines, contrôle les résultats obtenus et élabore des actions correctrices.
+Qui est Peter Drucker ? ; Un professeur autrichien (1909-2005), qui a défini le manager.
+Pourquoi les démarches entrepreneuriale et managériale sont-elles complémentaires ? ; Pour être compétitive, l'entreprise doit provoquer le changement et innover pour surprendre ses concurrents, tout en gérant de manière optimale ses ressources pour être rentable et réaliser un profit.
+Que doit faire l'entrepreneur quand l'entreprise se développe ? ; Il est obligé d'endosser le rôle de manager pour assurer sa pérennité.

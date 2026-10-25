@@ -1,0 +1,34 @@
+# Matière : CEJM
+# Parent : Economique
+# Paquet : Chapitre 1.1.1 - Pages 1 et 2
+# Description : Les agents économiques, la production, la consommation et les six secteurs institutionnels.
+
+Qu'est-ce qu'un agent économique ? ; Un individu ou un groupe d'individus, centre de décision autonome, qui réalise des opérations économiques avec d'autres agents (consommer, produire, accorder des prêts, redistribuer des revenus).
+Quel est le synonyme d'agent économique ? ; Acteur économique.
+Qu'est-ce qu'un secteur institutionnel ? ; Le groupement de millions d'agents économiques ayant la même fonction principale, réalisé par la Comptabilité nationale pour mieux étudier leur rôle et leur comportement.
+Qu'est-ce que la Comptabilité nationale ? ; Une représentation chiffrée de l'activité économique de la France, réalisée notamment par l'Insee.
+Que signifie Insee ? ; Institut national de la statistique et des études économiques.
+Qu'est-ce que la consommation ? ; L'acte d'acquérir des biens et services pour satisfaire les besoins des agents.
+Qu'est-ce qu'une production marchande ? ; Une production vendue sur un marché à un prix supérieur aux coûts de production, ce qui permet à l'offreur de réaliser un profit.
+Qu'est-ce qu'une production non marchande ? ; Une production proposée gratuitement ou à un prix inférieur aux coûts de production (ex. : frais universitaires, entrée dans une piscine municipale, restaurant universitaire).
+Quels sont les six secteurs institutionnels ? ; Les ménages, les sociétés non financières (SNF), les sociétés financières (SF), les administrations publiques (APU), les institutions sans but lucratif au service des ménages (ISBLSM) et le reste du monde (RDM).
+Que sont les ménages ? ; Les occupants d'un même logement avec ou sans lien de parenté. Les entreprises individuelles y sont incluses.
+Quelle est la fonction principale des ménages ? ; La consommation de biens et services.
+Pourquoi les entreprises individuelles sont-elles considérées comme des ménages ? ; Parce qu'il n'y a pas de distinction juridique entre l'entrepreneur et son entreprise : le patrimoine de l'entreprise est intégré à celui du ménage auquel l'entrepreneur appartient.
+Que sont les sociétés non financières (SNF) ? ; Les entreprises ayant un statut de société (SA, SAS, SARL, etc.) qui ne font pas d'opérations financières.
+Quelle est la fonction principale des sociétés non financières ? ; Produire des biens et des services marchands.
+Que sont les sociétés financières (SF) ? ; Les agents qui financent l'économie : les banques, les assurances, les mutuelles et les fonds de pension.
+Quelle est la fonction principale des sociétés financières ? ; Produire des services financiers marchands.
+Que comprennent les administrations publiques (APU) ? ; Les administrations publiques centrales, les administrations publiques locales et les administrations de Sécurité sociale.
+Quelles sont les administrations publiques centrales ? ; L'État, les ministères, la préfecture, les rectorats et les universités.
+Quelles sont les administrations publiques locales ? ; Les collectivités territoriales et les établissements publics d'enseignement.
+Quelles sont les administrations de Sécurité sociale ? ; L'URSSAF, la CAF et les hôpitaux.
+Quelle est la fonction principale des administrations publiques ? ; Produire des services publics non marchands.
+Que sont les ISBLSM ? ; Les organisations sans recherche de profit, au service des ménages : associations, fondations, partis politiques, syndicats.
+Quelle est la fonction principale des ISBLSM ? ; Produire des biens et services non marchands.
+Que désigne le reste du monde (RDM) ? ; L'ensemble des agents des autres pays ou des zones économiques (ex. : Union européenne) avec lesquels sont réalisés des échanges (importations ou exportations).
+À quel secteur institutionnel appartient un groupe de consommateurs comme UFC-Que Choisir ? ; Aux ISBLSM : c'est une association sans but lucratif.
+À quel secteur institutionnel appartient une entreprise qui répare et revend des smartphones ? ; Aux sociétés non financières : elle produit des biens et services marchands.
+À quel secteur institutionnel appartient la CAF ? ; Aux administrations publiques (administration de Sécurité sociale) : elle produit des services non marchands.
+À quel secteur institutionnel appartient un lycée professionnel public ? ; Aux administrations publiques (administration locale) : il produit des services non marchands.
+À quel secteur institutionnel appartient une banque comme la Banque populaire ? ; Aux sociétés financières : elle produit des services financiers marchands.

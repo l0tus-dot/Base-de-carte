@@ -1,0 +1,44 @@
+# Matière : CEJM
+# Parent : Economique
+# Paquet : Chapitre 1.1.2 - Pages 3 et 4
+# Description : Les dysfonctionnements du marché (barrières, asymétries, externalités) et le rôle des banques et du marché financier.
+
+Qu'est-ce qu'une barrière à l'entrée ? ; Un obstacle qui rend difficile ou impossible l'implantation d'une entreprise sur un marché et ne lui permet pas de rivaliser avec les entreprises en place.
+Qu'est-ce qu'une barrière à la sortie ? ; Un obstacle qui oblige une entreprise à rester en activité sur un marché ou un segment de marché sur lequel il n'y a plus ou peu de rentabilité.
+Que sont les barrières naturelles ? ; Des barrières liées à la nature de l'activité ou aux caractéristiques du marché. Elles sont inévitables et indépendantes de la volonté des producteurs (ex. : l'accès aux matières premières ou aux technologies).
+Que sont les barrières institutionnelles ? ; Des barrières qui résultent de l'action publique (réglementation) pour rendre l'accès au marché plus difficile (ex. : autorisations, normes, brevets).
+Que sont les barrières stratégiques ? ; Des barrières qui résultent d'une stratégie des entreprises en place, pour rendre l'accès au marché plus difficile aux concurrents et être dissuasif.
+Qu'est-ce qu'une asymétrie d'information ? ; Une situation dans laquelle tous les participants à un marché ne disposent pas de la même information.
+Pourquoi les asymétries d'information sont-elles un dysfonctionnement du marché ? ; Certains agents détiennent des informations que les autres n'ont pas : ils ont un avantage et peuvent influencer la fixation du prix. Les asymétries doivent donc être éliminées.
+Qu'est-ce qu'une externalité ? ; L'effet produit par l'activité économique d'un agent sur le bien-être d'un autre agent, en dehors de toute transaction : il n'est pas intégré dans le prix et ne donne pas lieu à une contrepartie financière.
+Qu'est-ce qu'une externalité positive ? ; Une externalité qui améliore le bien-être des autres agents (ex. : l'installation d'un apiculteur améliore les rendements agricoles des alentours).
+Qu'est-ce qu'une externalité négative ? ; Une externalité qui dégrade le bien-être des autres agents économiques (ex. : la pollution générée par une usine).
+Que sont les externalités créées par les TIC ? ; Des actes de production et de consommation des utilisateurs des technologies de l'information et de la communication qui influent sur la situation d'un autre agent, sans compensation monétaire.
+Quelles sont les deux démarches écoresponsables du secteur du numérique ? ; Le Green IT et l'IT for Green.
+Qu'est-ce que le Green IT ? ; La démarche éco-responsable des entreprises de la filière TIC : méthodes, logiciels, matériels, services et processus informatiques qui réduisent l'impact de l'informatique sur l'environnement.
+Qu'est-ce que l'IT for Green ? ; La démarche éco-responsable des organisations utilisatrices des TIC : le développement du numérique aide aussi les autres secteurs à se développer durablement.
+Qu'est-ce qu'une économie d'échelle ? ; La baisse du coût unitaire d'un produit obtenue en accroissant la quantité produite.
+Qu'est-ce qu'un coût de transfert ? ; Les coûts associés aux transactions entre sociétés d'un même groupe.
+Qu'est-ce qu'un effet de réseau (ou effet de club) ? ; Le pouvoir d'attraction où la valeur d'un produit, d'un service ou d'une plateforme grandit avec le nombre d'utilisateurs : l'arrivée d'un nouveau client accroît la satisfaction des clients existants (ex. : les réseaux sociaux).
+Qu'est-ce que le financement ? ; L'ensemble des opérations qui permettent aux agents économiques d'obtenir les ressources financières nécessaires à la satisfaction de leurs besoins.
+Qu'est-ce que le financement interne (autofinancement) ? ; L'entreprise finance son activité et ses investissements avec ses propres moyens financiers.
+Quelles sont les formes de financement externe ? ; Le financement indirect (intermédié), le financement direct, le financement participatif et le soutien de l'État.
+Qu'est-ce que le financement indirect (intermédié) ? ; Les banques (intermédiaires) répondent aux demandes de crédit émanant des entreprises.
+Qu'est-ce que le financement direct ? ; Les entreprises s'adressent au marché financier, qui met en relation leurs demandes de financement avec les investisseurs.
+Qu'est-ce que le financement participatif (crowdfunding) ? ; Un appel à des ressources financières auprès de nombreux internautes pour financer un projet (culturel, entrepreneurial, etc.) sous la forme de dons, de prêts rémunérés ou de participations dans l'entreprise.
+Quel est le rôle de Bpifrance ? ; C'est la banque publique d'investissement : présente dans chaque région, elle offre des solutions de financement aux entreprises pour soutenir leurs projets (création, développement, innovation, conquête de marchés, investissement en fonds propres, reprise).
+Quels sont les rôles des banques ? ; La collecte de l'épargne, le financement par le crédit, le rôle d'intermédiaire et les services financiers.
+En quoi consiste la collecte de l'épargne par une banque ? ; La banque reçoit les dépôts du public et fournit les moyens de paiement.
+En quoi consiste le financement par le crédit ? ; La banque accorde des crédits à court, à moyen ou à long terme, ou des découverts.
+En quoi consiste le rôle d'intermédiaire d'une banque ? ; Mettre en relation l'entreprise et les investisseurs sur le marché des capitaux : émission et placement de titres (actions et obligations).
+Quels services financiers une banque propose-t-elle ? ; Des services de gestion pour optimiser la trésorerie, la gestion des risques, l'accompagnement à l'export, l'introduction en Bourse, etc.
+Qu'est-ce qu'un emprunt bancaire ? ; L'opération par laquelle un agent se procure une somme d'argent moyennant le paiement d'un taux d'intérêt et un remboursement à une ou plusieurs dates fixées (échéances), matérialisée par un contrat entre l'emprunteur et le prêteur (la banque).
+Qu'est-ce qu'un crédit bancaire ? ; L'opération par laquelle l'emprunteur (débiteur) obtient de la monnaie d'un prêteur (créditeur) en échange de la promesse d'un remboursement différé majoré d'un intérêt.
+Pourquoi le taux d'intérêt d'un crédit varie-t-il avec sa durée ? ; Un crédit accordé sur une longue période est plus risqué, donc plus cher.
+Comment circule l'argent dans le financement indirect ? ; Les prêteurs (agents à capacité de financement) déposent leur épargne auprès d'un intermédiaire, qui accorde des crédits aux emprunteurs (agents à besoin de financement). Les emprunteurs paient des intérêts.
+Qu'est-ce que le marché financier ? ; Le marché des capitaux à long terme sur lequel se rencontrent les offres de capitaux des agents à capacité de financement (investisseurs qui achètent des titres) et les demandes des agents à besoin de financement (émetteurs en recherche de capitaux).
+Qu'est-ce qu'une action ? ; Un titre de propriété d'une part du capital d'une société : il donne à l'actionnaire le droit à une partie des bénéfices (le dividende) et à une voix lors des assemblées générales.
+Qu'est-ce qu'une obligation ? ; Un titre de créance à long terme (plus de 7 ans) : elle représente une fraction d'un emprunt émis par des entreprises ou des États. Elle donne droit à des intérêts (le coupon).
+Qu'apporte la cotation en Bourse d'une obligation ? ; Elle permet de la revendre avant son échéance ou de l'acheter en cours de vie.
+Qu'est-ce que le marché primaire ? ; Le marché sur lequel les nouveaux titres financiers sont émis.
+Qu'est-ce que le marché secondaire ? ; Le marché sur lequel sont échangés des titres déjà émis. Leurs prix, appelés cours, varient en fonction de l'offre et de la demande.

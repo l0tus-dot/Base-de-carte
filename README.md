@@ -2,7 +2,7 @@
 
 Ce dépôt contient des **paquets de cartes prêts à importer** dans l'application Flash : une matière, un paquet, des cartes. Rien à installer en plus, et aucune carte n'arrive avec une progression : tout le monde repart de zéro, à son rythme.
 
-Il faut **Flash 1.1.0 ou plus récent** (une version plus ancienne refuse ces fichiers).
+Il faut **Flash 1.1.0 ou plus récent** (une version plus ancienne refuse ces fichiers). Les paquets découpés en sous-paquets (matière CEJM) demandent **Flash 1.5.0 ou plus récent**.
 
 ## Utiliser un paquet
 
@@ -28,6 +28,17 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | Cybersécurité | VPN | 28 | `paquets/cybersecurite/vpn.json` |
 | Cybersécurité | Délégation de droit avec sudo | 31 | `paquets/cybersecurite/delegation-sudo.json` |
 | Cybersécurité | ACL cisco | 32 | `paquets/cybersecurite/acl-cisco.json` |
+| CEJM | Economique : Chapitre 1.1.1 - Pages 1 et 2 | 29 | `paquets/cejm/economique-1-1-1-pages-1-2.json` |
+| CEJM | Economique : Chapitre 1.1.1 - Pages 3 et 4 | 19 | `paquets/cejm/economique-1-1-1-pages-3-4.json` |
+| CEJM | Economique : Chapitre 1.1.2 - Pages 1 et 2 | 28 | `paquets/cejm/economique-1-1-2-pages-1-2.json` |
+| CEJM | Economique : Chapitre 1.1.2 - Pages 3 et 4 | 39 | `paquets/cejm/economique-1-1-2-pages-3-4.json` |
+| CEJM | Juridique : Chapitre 1.2 - Pages 1 et 2 | 35 | `paquets/cejm/juridique-1-2-pages-1-2.json` |
+| CEJM | Juridique : Chapitre 1.2 - Pages 3 et 4 | 34 | `paquets/cejm/juridique-1-2-pages-3-4.json` |
+| CEJM | Juridique : Chapitre 1.2 - Pages 5 et 6 | 19 | `paquets/cejm/juridique-1-2-pages-5-6.json` |
+| CEJM | Managériale : Chapitre 1.3 - Pages 1 et 2 | 33 | `paquets/cejm/manageriale-1-3-pages-1-2.json` |
+| CEJM | Managériale : Chapitre 1.3 - Pages 3 et 4 | 26 | `paquets/cejm/manageriale-1-3-pages-3-4.json` |
+
+Dans la matière CEJM, chaque paquet (Economique, Juridique, Managériale) est découpé en sous-paquets : un par fichier PDF du cours.
 
 *(Tenir cette liste à jour à chaque nouveau paquet.)*
 
@@ -46,7 +57,7 @@ Il faut Python (aucune bibliothèque à installer). Sous Windows, si la commande
    autre question ; autre réponse
    ```
 
-   La ligne `# Description` est facultative : c'est la courte phrase affichée sous le nom du paquet dans la liste de l'application. Une carte par ligne, **un seul point-virgule**. Le prompt du guide Flash (« Créer tes cartes avec une IA ») produit déjà ce format : colle le bloc de code obtenu sous les deux lignes d'en-tête.
+   Pour un sous-paquet, ajoute une ligne `# Parent : Nom du paquet` : `# Paquet` donne alors le nom du sous-paquet (voir `sources/cejm/`). La ligne `# Description` est facultative : c'est la courte phrase affichée sous le nom du paquet dans la liste de l'application. Une carte par ligne, **un seul point-virgule**. Le prompt du guide Flash (« Créer tes cartes avec une IA ») produit déjà ce format : colle le bloc de code obtenu sous les deux lignes d'en-tête.
 2. Génère le fichier à importer, depuis la racine du dépôt :
 
    ```bash

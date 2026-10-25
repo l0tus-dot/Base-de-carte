@@ -1,0 +1,39 @@
+# Matière : CEJM
+# Parent : Juridique
+# Paquet : Chapitre 1.2 - Pages 3 et 4
+# Description : La formation du contrat, la liberté contractuelle, les conditions de validité et la nullité.
+
+Que dit l'article 1113 du Code civil ? ; Le contrat est formé par la rencontre d'une offre et d'une acceptation par lesquelles les parties manifestent leur volonté de s'engager.
+Que signifie le principe de l'autonomie de la volonté ? ; Le contrat est l'expression de la volonté des parties : des obligations vont apparaître pour chaque partie.
+Qui émet l'offre et qui l'accepte dans un contrat commercial ? ; L'offre émane du vendeur et rencontre l'acceptation de l'acheteur.
+Comment l'offre et l'acceptation peuvent-elles s'exprimer ? ; De manière expresse ou tacite.
+Un contrat peut-il être formé à distance ? ; Oui. Lors d'une transaction sur Internet, le double-clic vaut acceptation (avec un mail de confirmation).
+Que dit l'article 1102 du Code civil ? ; Chacun est libre de contracter ou de ne pas contracter, de choisir son cocontractant et de déterminer le contenu et la forme du contrat, dans les limites fixées par la loi.
+Quelles sont les 4 composantes de la liberté contractuelle ? ; La liberté de contracter ou non, de choisir son contractant, de fixer le contenu du contrat et de choisir la forme du contrat.
+Quelle est une limite à la liberté de contracter ou non ? ; Certains contrats sont obligatoires (ex. : l'assurance automobile obligatoire).
+Quelles sont des limites à la liberté de choisir son contractant ? ; Par exemple le transport de personnes, ou la vente d'un bien immobilier où le locataire est prioritaire.
+Quelles sont des limites à la liberté de fixer le contenu du contrat ? ; Les abonnements (un contrat que l'on ne négocie pas) et l'interdiction des contrats illicites.
+Quelles sont des limites à la liberté de choisir la forme du contrat ? ; L'écrit est imposé pour certains contrats, mais il existe d'autres formes (ex. : le bras levé pour les enchères, l'ouverture de la portière d'un taxi, la poignée de main).
+Que se passe-t-il si un contrat respecte les conditions de validité ? ; Il a force de loi pour les parties.
+Quelles sont les conditions de validité d'un contrat ? ; Le consentement libre, éclairé et non vicié des parties, leur capacité de contracter, et un contenu licite et certain.
+Que dit l'article 1129 du Code civil ? ; Il faut être sain d'esprit pour consentir valablement à un contrat.
+Quels sont les vices du consentement ? ; L'erreur, le dol et la violence.
+Quand l'erreur est-elle prise en compte ? ; Quand elle porte sur un élément essentiel du contrat ou sur la personne.
+Un client peut-il invoquer l'erreur dans un projet informatique s'il avait déjà une solution informatique, un service informatique et des relations suivies avec un fournisseur ? ; Non (Cour d'appel de Paris, janvier 2000).
+Qu'est-ce que le dol ? ; Une tromperie ou des mensonges, par une action ou une omission.
+Quel exemple de dol la Cour de cassation a-t-elle admis en 2005 ? ; L'éditeur d'un logiciel qui prétendait détenir tous les droits d'auteur en s'abstenant d'indiquer que ce logiciel était un module d'un logiciel antérieur dont deux autres personnes étaient co-auteurs.
+Qu'est-ce que la violence comme vice du consentement ? ; Une contrainte physique ou morale exercée sur une personne pour l'amener à consentir.
+Qu'est-ce que la capacité de contracter ? ; L'aptitude à être titulaire de droits et à les exercer.
+Qui peut contracter ? ; Toute personne physique, sauf si la loi prévoit une incapacité (art. 1145 du Code civil).
+À quoi sert l'incapacité juridique ? ; Elle protège les mineurs et les majeurs victimes d'altérations des facultés mentales ou corporelles contre des décisions qui pourraient léser leur patrimoine.
+Qu'est-ce que l'incapacité pénale ? ; Une interdiction d'exercer des droits, prononcée par un tribunal pénal. Elle permet d'annuler les contrats conclus par des personnes condamnées pour infractions graves et par des dirigeants responsables de fraudes.
+Comment une personne morale peut-elle contracter ? ; Uniquement par l'intermédiaire de ses représentants légaux (dirigeants, mandataires). Sans représentant, elle ne peut pas conclure de contrats.
+Que doit respecter le contenu licite d'un contrat (art. 1162) ? ; Les stipulations (objet du contrat) ne doivent pas être contraires à la loi et à l'ordre public, et l'objectif poursuivi ne doit pas être illicite.
+Donnez un exemple de contrat dont l'objet est illicite. ; La vente d'organes : elle est contraire à l'ordre public, donc le contrat est nul.
+Donnez un exemple de contrat dont l'objectif est illicite. ; Acheter un local pour y installer une maison de jeux.
+Le contrat est-il nul si une seule des parties poursuit un but illicite inconnu de son cocontractant ? ; Oui, la loi précise que le contrat est nul même si ce but est inconnu du cocontractant.
+Que signifie un contenu certain ? ; Le contenu doit exister (un objet réel et clair) et être déterminé ou déterminable (ex. : un prix fixé à l'avance ou déterminable par des critères).
+Un contrat de création de site e-commerce prévoit un prix calculé selon le nombre de jours de travail au tarif de 400 € par jour. Le contenu est-il certain ? ; Oui, le prix n'est pas encore fixé mais il est déterminable par des critères précisés dans le contrat.
+Quelle est la sanction du non-respect d'une condition de validité ? ; La nullité du contrat : elle entraîne la disparition de tous ses effets, avec si possible les restitutions qui en découlent.
+Quel est le délai pour agir en nullité ? ; 5 ans, à partir du moment où l'on a connaissance du problème (la cause de nullité).
+Que peut demander le demandeur en plus de la nullité ? ; Des dommages et intérêts.
