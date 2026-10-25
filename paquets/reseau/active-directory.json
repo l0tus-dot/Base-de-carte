@@ -1,0 +1,705 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "3749f34e-ae60-5901-95f5-f2963565ceb2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Réseau",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "3749f34e-ae60-5901-95f5-f2963565ceb2",
+    "name": "Active Directory"
+   }
+  ],
+  "cards": [
+   {
+    "id": "94d4e853-07ba-5df9-8cd1-eb12273dc694",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "À quoi sert un annuaire Active Directory ?",
+    "back": "Il centralise l'identification et l'authentification d'un parc Windows dans un annuaire unique, plutôt qu'une base de comptes locale par machine (modèle « groupe de travail », base SAM).",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "b880a0c1-d180-53b7-81e7-498f63795b17",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Que regroupe un domaine Active Directory ?",
+    "back": "Des utilisateurs, groupes et ordinateurs dans une arborescence d'unités d'organisation (OU), avec des stratégies de sécurité appliquées via des GPO.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "a5444161-d708-5e30-824b-feda444b2976",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Pourquoi avoir plusieurs contrôleurs de domaine ?",
+    "back": "L'annuaire est répliqué entre eux, donc la disponibilité du domaine ne dépend plus d'un seul serveur.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "0c432f3f-98ea-5264-9119-ab89d7952e8a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Quels sont les prérequis pour créer l'arborescence AD du cours ?",
+    "back": "Un Windows Server promu contrôleur de domaine (rôle AD DS), le module PowerShell ActiveDirectory (RSAT) sur le poste d'administration et un poste client joint au domaine pour vérifier les GPO.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "dfa50bbb-695e-5155-8c75-a6b7766dad88",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Qu'est-ce que le DistinguishedName d'un objet AD ?",
+    "back": "C'est son chemin LDAP dans l'annuaire, par exemple cn=Pierre,ou=Informatique,dc=galaxy-swiss,dc=com. Il change si l'objet est déplacé.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "fca1d37b-3b2b-55e6-94d2-0a40f9952bab",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Qu'est-ce que le GUID d'un objet AD ?",
+    "back": "Un identifiant sur 128 bits attribué à la création, qui est invariable.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "77902006-928f-51e9-92d2-905c69633ab1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Que détermine l'étendue d'un groupe ?",
+    "back": "Où il peut être utilisé : domaine local, globale ou universelle. C'est elle qui structure la méthode AGDLP.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "f6247a8d-7c7b-5fd0-9d42-ad99e39253d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Sur quel port et avec quel protocole un poste s'authentifie-t-il auprès d'un contrôleur de domaine ?",
+    "back": "Via LDAP sur le port 389 en clair, ou 636 en LDAPS (chiffré).",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "68f1dc29-746b-5282-afad-d7581d98822a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Quelle commande PowerShell crée une unité d'organisation ?",
+    "back": "New-ADOrganizationalUnit avec -Name et -Path, et -ProtectedFromAccidentalDeletion $true.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "f0433402-71de-51ed-b6af-80e7a067ce4d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Pourquoi préciser -ProtectedFromAccidentalDeletion en PowerShell ?",
+    "back": "Une OU créée depuis la console graphique est protégée contre la suppression accidentelle, mais en PowerShell ce n'est pas automatique sans ce paramètre explicite.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "16609c8e-5337-5428-8323-72c186d6106b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Quelle commande PowerShell crée un compte utilisateur AD ?",
+    "back": "New-ADUser, avec notamment -SamAccountName, -UserPrincipalName, -Path, -AccountPassword, -ChangePasswordAtLogon et -Enabled $true.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "187199c4-d503-5fcd-8431-1466c8c912c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Pourquoi un compte créé en PowerShell ne peut-il pas ouvrir de session ?",
+    "back": "Il est désactivé par défaut. Sans -Enabled $true, le compte existe mais ne peut pas s'authentifier, contrairement à un compte créé depuis la console dsa.msc.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "320ec83b-6a0c-5254-bbbf-c982f4f5ec0f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Comment activer un compte AD créé sans -Enabled $true ?",
+    "back": "Avec la commande Enable-ADAccount -Identity suivie du nom du compte.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "2f42fcf5-19e6-5c3b-9e38-674fc0e2a1ee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Que signifie la méthode AGDLP ?",
+    "back": "Account, Global Group, Domain Local Group, Permissions. C'est la méthode recommandée par Microsoft pour attribuer les droits.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "aec8a550-b13f-57f3-aef8-856bc4b30af1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Que représente un groupe global et un groupe de domaine local en AGDLP ?",
+    "back": "Un groupe global représente la fonction métier, un groupe de domaine local représente l'accès à une ressource.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "918ca93f-058b-5460-8f93-90f45d2313af",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Sur quel type d'objet pose-t-on les permissions NTFS en AGDLP ?",
+    "back": "Uniquement sur le groupe de domaine local, jamais directement sur un utilisateur ni sur un groupe global.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "694dad35-e67d-52b2-9360-9465e7369da6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Quel est l'avantage de la méthode AGDLP quand un utilisateur change de service ?",
+    "back": "Il suffit de le changer de groupe global, sans jamais retoucher les permissions posées sur la ressource.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "e4c47273-c89f-5418-975a-68f83a62e2d3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Quelle commande ajoute un membre à un groupe AD ?",
+    "back": "Add-ADGroupMember avec -Identity (le groupe) et -Members.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "d9307e67-4427-5eb0-8953-b5b61982bcf4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Quelle commande attribue une permission NTFS en lecture à un groupe sur un dossier ?",
+    "back": "icacls suivi du chemin, de /grant et du groupe avec la permission (RX), par exemple icacls \"D:\\Partages\\Compta\" /grant \"GALAXY-SWISS\\GDL_Partage_Compta_Lecture:(RX)\".",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "773640a9-e604-549d-a2f8-ce810077a72f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Comment créer et lier une GPO à une OU en PowerShell ?",
+    "back": "Avec New-GPO -Name suivi de New-GPLink -Target désignant l'OU.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "50dbb9f4-f45a-5972-815c-d74f04179794",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Où configure-t-on les paramètres d'une GPO ?",
+    "back": "Dans la console gpmc.msc, sous Configuration utilisateur ou Configuration ordinateur selon la cible.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "d475a9dd-fdcb-5f14-85a6-abc04044b456",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Que signifie LSDOU ?",
+    "back": "L'ordre d'application d'une GPO : Local, Site Active Directory, Domaine, Unité d'organisation.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "136c5187-61bb-5447-9bf6-b0b4f7e04bff",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Que se passe-t-il quand deux GPO ont des paramètres contradictoires ?",
+    "back": "C'est la dernière appliquée, donc la plus proche de l'objet (en général l'OU), qui l'emporte.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "2b38a5ac-9ad3-5ca1-9b9d-a847e28d3fe0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Quelles commandes forcent et vérifient l'application d'une GPO sur un poste ?",
+    "back": "gpupdate /force pour forcer, gpresult /r pour vérifier.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "bd1bd014-aaf2-5968-9c43-b4a3833d803c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Que prouve gpresult /r ?",
+    "back": "Il liste les GPO réellement appliquées à l'utilisateur et à l'ordinateur, preuve qu'une GPO liée à l'OU est bien descendue jusqu'au poste.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "d45e704e-5527-5ba4-a762-7939329b415a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Pourquoi une GPO n'apparaît-elle pas appliquée sur le poste ?",
+    "back": "L'intervalle d'actualisation (60 à 120 minutes) n'est probablement pas encore écoulé. Lancer gpupdate /force sur le poste client.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "58d1f421-a8e2-5d88-b024-053bd7fef22a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Comment vérifier que deux contrôleurs de domaine partagent le même annuaire ?",
+    "back": "Avec repadmin /replsummary. Résultat attendu : Largest Delta proche de zéro et aucune erreur de réplication.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "97590039-10bd-5819-92d8-144258069ae2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Que faire si repadmin /replsummary signale une erreur entre deux contrôleurs ?",
+    "back": "La réplication est en échec (réseau, DNS ou service arrêté). Lancer repadmin /showrepl sur chacun des deux contrôleurs pour isoler la cause.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "4c545cba-ed3e-5164-89bb-91228bba6a6a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Dans quel ordre retirer la configuration AD du cours ?",
+    "back": "D'abord la GPO, puis les appartenances de groupe, les groupes, l'utilisateur et l'OU en dernier, pour ne jamais laisser un objet orphelin référencé ailleurs.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "b6a618fe-6953-5ba5-8830-8f92cf56b743",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Pourquoi Remove-ADOrganizationalUnit échoue-t-il avec « accès refusé » ?",
+    "back": "Car ProtectedFromAccidentalDeletion est toujours activé, ce qui est volontaire. Il faut d'abord lancer Set-ADOrganizationalUnit avec -ProtectedFromAccidentalDeletion $false.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "db968489-2903-51fc-ae7b-fc5bb729d00c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Pourquoi un utilisateur accède-t-il encore à une ressource après avoir quitté le service ?",
+    "back": "Il est toujours membre du groupe global associé. Le retirer de ce groupe, sans toucher aux permissions NTFS.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "b21b9a56-ae4c-537e-9e6f-beff60a8ebb8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "992de93f-923c-56a4-9262-a2c91bf9ddea",
+    "front": "Pourquoi des applications comme GLPI, un pare-feu ou un VPN utilisent-elles LDAP ?",
+    "back": "Pour authentifier leurs utilisateurs contre l'annuaire plutôt que de maintenir leur propre base de comptes.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "6445c4fa-69bf-50df-87cf-4354da7ec864",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "94d4e853-07ba-5df9-8cd1-eb12273dc694",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "351e2c6d-4e60-5b25-90a1-8194d95881cf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b880a0c1-d180-53b7-81e7-498f63795b17",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9e5d6022-0e0b-54f5-a8b1-4700ea6368bd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a5444161-d708-5e30-824b-feda444b2976",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3ab4abec-a5ad-5745-b9d8-0a710206c09b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0c432f3f-98ea-5264-9119-ab89d7952e8a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2d52a67c-5f27-5cb5-b4c8-68f8bb8b776b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dfa50bbb-695e-5155-8c75-a6b7766dad88",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "68f15f1e-844e-501c-aee3-4e88a98326d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fca1d37b-3b2b-55e6-94d2-0a40f9952bab",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0ec43060-964a-52c4-9ff2-068f600be60f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "77902006-928f-51e9-92d2-905c69633ab1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9196e9c5-9ce5-5a8f-b7b4-836947348e01",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f6247a8d-7c7b-5fd0-9d42-ad99e39253d2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "55a0438d-cd3f-5cc1-8d4b-97058229ce1d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "68f1dc29-746b-5282-afad-d7581d98822a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "badcc6bc-d79a-50bd-a8d9-eea96fd94e9b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f0433402-71de-51ed-b6af-80e7a067ce4d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c6930566-49c9-551b-a6f2-5014478ac976",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "16609c8e-5337-5428-8323-72c186d6106b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "22a6037b-1e0e-5161-9369-7e69368274c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "187199c4-d503-5fcd-8431-1466c8c912c6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f4068be6-bee3-5d92-9a5a-224350e43250",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "320ec83b-6a0c-5254-bbbf-c982f4f5ec0f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e8de34ce-494f-5f34-b9e2-ac7742233c70",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2f42fcf5-19e6-5c3b-9e38-674fc0e2a1ee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e391a167-771b-5c33-9134-3a8fcf92cb17",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "aec8a550-b13f-57f3-aef8-856bc4b30af1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c7bd170d-e8f5-57b1-bc68-d4fcdfbffb4a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "918ca93f-058b-5460-8f93-90f45d2313af",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "553842bb-72b2-5f33-89e4-4abe1e6dbfa7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "694dad35-e67d-52b2-9360-9465e7369da6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2422b642-ac9c-5285-b0b3-e8ae3848df68",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e4c47273-c89f-5418-975a-68f83a62e2d3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c3701a0a-5123-5058-a850-b4aa5482e7ea",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d9307e67-4427-5eb0-8953-b5b61982bcf4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "53a3737e-4110-5c96-8665-68b169750244",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "773640a9-e604-549d-a2f8-ce810077a72f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "abe5317d-f258-518f-813e-c6f5b93f29a3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "50dbb9f4-f45a-5972-815c-d74f04179794",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4b7159a5-d1cb-5251-9934-89048207f10e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d475a9dd-fdcb-5f14-85a6-abc04044b456",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "be9fedba-3e4d-5a7f-9d4e-4892bb0903e8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "136c5187-61bb-5447-9bf6-b0b4f7e04bff",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cf33df39-8444-5b0a-993a-65215f7503c2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2b38a5ac-9ad3-5ca1-9b9d-a847e28d3fe0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "350754f1-1cf6-54d0-b00b-05b59a3a16b1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bd1bd014-aaf2-5968-9c43-b4a3833d803c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ae8a433f-9416-5703-b921-b950b941616a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d45e704e-5527-5ba4-a762-7939329b415a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "10428ab3-5334-5f50-a97d-32f0f7b032ac",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "58d1f421-a8e2-5d88-b024-053bd7fef22a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e54c4afd-8b8d-51aa-acda-312dc871fad6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "97590039-10bd-5819-92d8-144258069ae2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fe44a1fd-38a8-50ac-a610-5b2a29f0640f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4c545cba-ed3e-5164-89bb-91228bba6a6a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ee472d97-8836-5e01-8610-a97c13121c59",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b6a618fe-6953-5ba5-8830-8f92cf56b743",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b6e1880f-80b6-5ace-a4b8-cf301deaa01e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "db968489-2903-51fc-ae7b-fc5bb729d00c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "91871500-ceb7-5fbb-89a8-7e138c3902ec",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b21b9a56-ae4c-537e-9e6f-beff60a8ebb8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}
