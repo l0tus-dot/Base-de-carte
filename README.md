@@ -23,6 +23,7 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | Réseau | NAT et PAT | 25 | `paquets/reseau/nat-et-pat.json` |
 | Réseau | DHCP | 24 | `paquets/reseau/dhcp.json` |
 | Réseau | Active Directory | 32 | `paquets/reseau/active-directory.json` |
+| Réseau | Dépannage réseau | 33 | `paquets/reseau/depannage-reseau.json` |
 
 *(Tenir cette liste à jour à chaque nouveau paquet.)*
 

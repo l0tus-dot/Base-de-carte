@@ -1,0 +1,36 @@
+# Matière : Réseau
+# Paquet : Dépannage réseau
+
+Pourquoi isoler la couche en cause avant de chercher une cause précise ? ; Cela évite de corriger un symptôme à la mauvaise place, par exemple vérifier le routage alors que le câble est débranché.
+Quelles sont les quatre étapes de la méthode de dépannage par couche ? ; Physique (lien actif), liaison (bon VLAN, trunk monté), réseau (IP correcte, route dans les deux sens) puis transport/application (port du service ouvert et atteignable).
+Pourquoi faut-il toujours tester dans les deux sens ? ; Un ping qui part sans réponse n'est pas une panne de connectivité mais une route, une ACL ou un pare-feu asymétrique.
+Quelle commande Cisco vérifie l'état physique des liens ? ; show interfaces status.
+Que signifie une interface down/down et comment la traiter ? ; Câble débranché, mauvais port ou matériel en panne. Tester avec un câble et un port connus bons.
+Que signifie une interface up/down (protocole down) ? ; Duplex ou vitesse en désaccord avec l'autre extrémité, ou mauvais type de câble sur une liaison sans auto-MDIX. Aligner speed et duplex des deux côtés ou repasser en auto.
+Quelles sont les causes d'un port bloqué en errdisabled ? ; Une violation de port-security ou une boucle détectée par le spanning-tree.
+Comment traiter un port en errdisabled ? ; Utiliser show interfaces status err-disabled puis show port-security ou show spanning-tree selon la cause. Une fois la cause corrigée, réactiver avec shutdown puis no shutdown.
+Que signifient une topologie instable et des pertes intermittentes sur un commutateur ? ; Une boucle physique sans spanning-tree actif. Vérifier avec show spanning-tree sur chaque commutateur qu'aucun port n'est resté sans STP.
+Pourquoi deux postes du même VLAN ne se voient-ils pas malgré un câblage correct ? ; Le VLAN natif est différent sur un trunk. Comparer le native VLAN avec show interfaces trunk des deux côtés.
+Que signifie une adresse 169.254.x.x sous Windows ou aucune adresse sous Linux ? ; Aucune réponse DHCP reçue. Vérifier que le serveur DHCP est joignable et, sur un réseau multi-VLAN, contrôler le relais ip helper-address.
+Comment diagnostiquer deux machines qui partagent la même adresse IP ? ; Utiliser arp -a pour repérer les deux adresses MAC associées à l'IP. La cause est une adresse statique en conflit avec une plage DHCP ou un bail dupliqué, il faut sortir l'adresse statique de l'étendue.
+Pourquoi un poste perd-il sa connexion après quelques heures ? ; Son bail DHCP a expiré sans être renouvelé. Vérifier la durée de bail côté serveur et forcer un renouvellement avec ipconfig /renew ou dhclient -r puis dhclient.
+Pourquoi un poste adressé correctement reste-t-il injoignable ? ; La passerelle par défaut est absente ou incorrecte. Vérifier avec ip route ou route print côté client.
+Comment savoir si un problème vient du DNS ou de la connectivité ? ; Si ping nom.domaine échoue alors que ping adresse-ip fonctionne, c'est la résolution DNS qui est en cause. Confirmer avec nslookup ou dig.
+Que faire si la résolution DNS est lente ou incohérente selon les postes ? ; Les serveurs DNS diffèrent d'un poste à l'autre ou le cache local est obsolète. Aligner le DNS distribué par DHCP et vider le cache avec ipconfig /flushdns ou systemd-resolve --flush-caches.
+Pourquoi un enregistrement DNS modifié n'est-il pas pris en compte ? ; Le TTL n'a pas expiré ou un cache intermédiaire le garde. Attendre ou interroger le serveur autoritaire avec dig @serveur nom.domaine.
+Que signifie une résolution interne qui échoue alors que l'externe fonctionne ? ; La zone interne est absente ou mal déléguée sur le serveur DNS local. Vérifier la zone sur le serveur (AD DS ou BIND) et l'ordre des serveurs DNS côté client.
+Que faire si le ping part mais que la réponse n'arrive jamais ? ; La route retour est absente sur le routeur distant, il faut ajouter la route symétrique.
+Pourquoi une route statique reste-t-elle utilisée malgré une meilleure route dynamique ? ; Sa distance administrative est plus basse : 1 pour la statique contre 120 en RIP et 110 en OSPF. C'est normal, retirer ou augmenter la distance de la statique si la dynamique doit prévaloir.
+Pourquoi le trafic sortant peut-il être bloqué au niveau du routeur de bordure ? ; Un NAT ou une ACL est manquant.
+Pourquoi tout le trafic d'un sous-réseau est-il bloqué alors qu'une seule règle de refus était prévue ? ; Toute ACL Cisco se termine par un deny implicite. Il faut ajouter une ligne d'autorisation explicite en fin d'ACL si un flux par défaut doit passer.
+Pourquoi une règle censée bloquer un flux ne s'applique-t-elle pas ? ; Une règle plus permissive placée avant capte le trafic. Les ACL Cisco s'évaluent séquentiellement et la première correspondance l'emporte, à lire avec show access-lists.
+Pourquoi un service reste-t-il injoignable malgré une ACL correcte ? ; Le filtrage est appliqué dans le mauvais sens (in ou out) ou sur la mauvaise interface. Vérifier avec show ip interface.
+Pourquoi deux ports du même VLAN ne communiquent-ils pas ? ; Un port est en mode access sur un VLAN différent de celui attendu. Confirmer avec show interfaces switchport.
+Pourquoi aucun trafic ne traverse-t-il la liaison entre deux commutateurs ? ; Le trunk n'est pas monté (négociation DTP échouée ou encapsulation différente). Vérifier avec show interfaces trunk des deux côtés et forcer switchport mode trunk.
+Pourquoi un VLAN précis ne passe-t-il pas sur un trunk actif ? ; Il est exclu de la liste autorisée sur le trunk. Utiliser switchport trunk allowed vlan add suivi du numéro.
+Que signifient des adresses MAC dupliquées ou instables dans show mac address-table ? ; Une boucle réseau non couverte par le spanning-tree. Vérifier qu'aucun câblage redondant n'a été ajouté sans activer STP sur les ports concernés.
+Pourquoi les petits paquets passent-ils mais pas les transferts de fichiers ? ; La MTU est trop élevée sur une portion du chemin (tunnel VPN, PPPoE) et fragmente mal. Tester avec ping -f -l sous Windows ou ping -M do -s sous Linux pour trouver la MTU réelle.
+Que faire si le débit est très inférieur à celui attendu sur un lien ? ; La négociation duplex est incohérente (un côté en full, l'autre en half). Comparer show interfaces des deux extrémités et forcer les deux côtés en auto ou les aligner.
+Comment diagnostiquer une latence ou des pertes qui n'apparaissent qu'en charge ? ; Le lien est sous-dimensionné ou il y a une boucle de queuing. Regarder les compteurs d'erreurs et de drops (output drops, CRC) avec show interfaces.
+Quelles commandes Cisco servent au diagnostic général ? ; show interfaces status, show ip interface brief, show mac address-table, show spanning-tree et show cdp neighbors detail.
+Quelles commandes Linux servent au diagnostic réseau ? ; ip addr, ip route, ss -tulnp et mtr suivi de l'adresse IP.
