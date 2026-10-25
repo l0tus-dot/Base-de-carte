@@ -1,0 +1,27 @@
+# Matière : Réseau
+# Paquet : DHCP
+
+À quoi sert le DHCP ? ; Il attribue automatiquement l'adresse IP, le masque, la passerelle et les autres paramètres réseau aux clients. C'est indispensable dès qu'un parc dépasse quelques machines ou accueille des utilisateurs mobiles.
+Quels prérequis faut-il pour configurer le DHCP sur un routeur Cisco ? ; Un routeur Cisco IOS avec l'interface LAN déjà adressée en statique (elle sert de passerelle) et un routage déjà fonctionnel entre les sous-réseaux concernés.
+Pourquoi un client derrière un routeur a-t-il besoin d'un agent relais ? ; Parce que les diffusions DHCP ne traversent pas un routeur.
+Que fait la commande ip dhcp excluded-address ? ; Elle exclut de la distribution les adresses utilisées par des équipements fixes comme les passerelles, serveurs et imprimantes.
+Pourquoi déclarer les exclusions avant de créer l'étendue ? ; Une exclusion n'agit que sur les attributions futures et ne retire pas les baux déjà distribués. La déclarer d'abord évite qu'une adresse statique soit distribuée entre-temps.
+Quels paramètres contient une étendue DHCP Cisco ? ; Avec ip dhcp pool, on définit network, default-router, dns-server, domain-name et lease.
+Que signifient default-router, dns-server et lease 7 ? ; Ce sont des options propres à l'étendue que seuls les clients de ce sous-réseau reçoivent. lease 7 fixe le bail à 7 jours alors que la valeur par défaut est d'un jour.
+Pourquoi deux étendues ne doivent-elles jamais se chevaucher ? ; Deux clients distincts pourraient recevoir la même adresse, même si les étendues sont sur des serveurs DHCP différents.
+Comment réserver une adresse pour un hôte précis sur Cisco ? ; Avec un pool dédié contenant host (adresse et masque) et client-identifier, pour garder la même adresse tout en restant géré depuis l'étendue DHCP.
+Que vaut le client-identifier d'un hôte Windows ? ; 01 suivi de son adresse MAC. Pour un client Linux ou un équipement qui envoie son adresse matérielle, hardware-address remplace client-identifier.
+Où et comment configurer le relais DHCP ? ; Avec ip helper-address suivi de l'adresse du serveur DHCP, sur l'interface du routeur relais qui reçoit les diffusions des clients (ici celle de R2).
+Que relaie en plus du DHCP la commande ip helper-address ? ; Par défaut elle transfère aussi les requêtes TFTP, DNS, NetBIOS et quelques autres protocoles de diffusion. Pour les restreindre, utiliser no ip forward-protocol udp suivi du port.
+Comment configurer un serveur DHCP sous Linux ? ; Avec isc-dhcp-server, on définit dans /etc/dhcp/dhcpd.conf un subnet (range, option routers, option domain-name-servers, durées de bail) puis on redémarre le service avec systemctl restart.
+Pourquoi isc-dhcp-server peut-il démarrer sans répondre à aucune requête ? ; Il faut lui indiquer l'interface d'écoute avec INTERFACESv4="ens18" dans /etc/default/isc-dhcp-server.
+Que fait-on pour annuler la configuration DHCP Cisco ? ; Retirer le helper-address de l'interface, puis les pools avec no ip dhcp pool et les exclusions avec no ip dhcp excluded-address, avant d'enregistrer.
+Que devient un bail en cours quand on supprime une étendue ? ; Il n'est pas révoqué, le poste garde son adresse jusqu'à expiration ou ipconfig /release. clear ip dhcp binding * vide immédiatement la base de baux.
+Quelles commandes vérifient le DHCP sur le routeur ? ; show ip dhcp binding (baux actifs avec MAC et expiration), show ip dhcp pool et show ip dhcp conflict (adresses détectées comme déjà utilisées).
+Quelles commandes de vérification existent sur un poste client ? ; Sous Windows ipconfig /all, /release et /renew, et sous Linux ip addr show, sudo dhclient -r et sudo dhclient -v.
+Que signifie une adresse 169.254.x.x reçue par un poste ? ; C'est une adresse APIPA, donc aucune réponse DHCP n'a été reçue. Vérifier que l'étendue est active et, si le client est sur un autre sous-réseau, que ip helper-address est configuré.
+Pourquoi un poste reçoit-il une adresse d'un mauvais sous-réseau ? ; Des étendues se chevauchent entre deux serveurs DHCP, il faut comparer les plages avec show ip dhcp pool sur chaque serveur.
+Pourquoi une imprimante ou un serveur change-t-il d'adresse après redémarrage ? ; Il n'y a pas de réservation ou une exclusion a été oubliée, il faut ajouter une réservation host ou corriger ip dhcp excluded-address.
+Que faire quand show ip dhcp conflict liste une adresse ? ; Un équipement est adressé en statique dans la plage dynamique, il faut exclure l'adresse ou la sortir de la plage.
+Pourquoi PC2 ne reçoit-il jamais de bail alors que R1 fonctionne ? ; ip helper-address est absent ou mal placé, il doit être configuré sur l'interface de R2 qui reçoit les diffusions de PC2 et non sur celle de R1.
+Pourquoi un serveur DHCP doit-il être autorisé dans Active Directory ? ; Il doit être autorisé par un membre du groupe Administrateurs de l'entreprise avant de répondre aux clients. C'est une protection contre un serveur DHCP non maîtrisé qui distribuerait des adresses en conflit.
