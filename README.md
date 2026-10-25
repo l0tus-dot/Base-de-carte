@@ -27,6 +27,7 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | Cybersécurité | Segmentation VLSM | 28 | `paquets/cybersecurite/segmentation-vlsm.json` |
 | Cybersécurité | VPN | 33 | `paquets/cybersecurite/vpn.json` |
 | Cybersécurité | Délégation de droit avec sudo | 32 | `paquets/cybersecurite/delegation-sudo.json` |
+| Cybersécurité | ACL cisco | 32 | `paquets/cybersecurite/acl-cisco.json` |
 
 *(Tenir cette liste à jour à chaque nouveau paquet.)*
 

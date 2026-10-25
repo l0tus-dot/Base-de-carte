@@ -1,0 +1,35 @@
+# Matière : Cybersécurité
+# Paquet : ACL cisco
+
+À quoi servent les ACL Cisco ? ; Elles filtrent le trafic sur les interfaces d'un routeur ou commutateur L3 en examinant les en-têtes IP (couche 3) et TCP/UDP (couche 4) pour permit ou deny chaque paquet.
+Quels sont les usages principaux des ACL ? ; Le cloisonnement inter-réseaux, la restriction d'accès SSH et la sélection de flux pour NAT ou VPN.
+Qu'est-ce que le refus implicite d'une ACL ? ; Toute ACL se termine par un deny ip any any invisible. Tout paquet sans correspondance est détruit.
+Comment une ACL traite-t-elle les règles ? ; La première règle correspondante s'applique et les suivantes ne sont pas lues.
+Quelle est la différence entre in et out sur une interface ? ; in filtre le paquet à l'entrée de l'interface, avant le routage. out le filtre à la sortie, après le routage.
+Où placer une ACL standard et sur quoi filtre-t-elle ? ; Près de la destination, et elle filtre uniquement sur l'IP source.
+Où placer une ACL étendue et sur quoi filtre-t-elle ? ; Près de la source, et elle filtre sur source, destination, protocole et ports.
+Comment calculer un masque générique (wildcard) ? ; 255.255.255.255 moins le masque de sous-réseau.
+Quels sont les wildcards de /32, /30, /24 et /16 ? ; /32 donne 0.0.0.0 (raccourci host), /30 donne 0.0.0.3, /24 donne 0.0.0.255 et /16 donne 0.0.255.255.
+Quels sont les wildcards de /29 et /27 ? ; /29 donne 0.0.0.7 et /27 donne 0.0.0.31.
+Quel raccourci IOS désigne tout le trafic ? ; any, équivalent au wildcard 255.255.255.255.
+Quelles plages de numéros pour les ACL numérotées standard et étendues ? ; Standard : 1 à 99 et 1300 à 1999. Étendue : 100 à 199 et 2000 à 2699.
+Comment déclare-t-on une ACL nommée ? ; ip access-list standard suivi du nom, ou ip access-list extended suivi du nom.
+Pourquoi préférer les ACL nommées ? ; Elles permettent d'insérer, modifier ou supprimer une règle précise grâce aux numéros de séquence, sans tout réécrire.
+Quelle commande applique une ACL à une interface ? ; ip access-group suivi du nom de l'ACL et de la direction in ou out, sous la configuration de l'interface.
+Quels opérateurs de port existe-t-il dans une ACL étendue ? ; eq (égal), neq (différent), lt (inférieur), gt (supérieur) et range suivi du début et de la fin.
+Que fait l'option established dans une ACL ? ; Elle autorise uniquement les paquets TCP retour (flags ACK ou RST) d'une connexion initiée depuis l'intérieur.
+Comment autoriser le trafic de retour du WAN vers le LAN ? ; Avec une ACL entrante sur l'interface WAN, par exemple permit tcp any 192.168.10.0 0.0.0.255 established et permit udp any eq 53 192.168.10.0 0.0.0.255.
+Comment restreindre l'accès SSH à un seul poste ? ; Créer une ACL standard avec permit host 192.168.10.10 et deny any log, puis sous line vty 0 4 ajouter access-class ACCES_SSH in et transport input ssh.
+Quel risque en appliquant access-class sur les lignes VTY ? ; Si sa propre IP est absente du permit, la session SSH en cours se coupe immédiatement. Il faut la vérifier avant d'appliquer.
+Comment insérer une règle entre la 10 et la 20 d'une ACL nommée ? ; En entrant dans l'ACL et en ajoutant la règle avec un numéro de séquence intermédiaire, par exemple 15 deny ip host 192.168.10.15 host 192.168.20.10.
+Comment supprimer une règle précise d'une ACL nommée ? ; Dans l'ACL, utiliser no suivi de son numéro de séquence, par exemple no 15.
+Comment réindexer les numéros de séquence d'une ACL ? ; access-list resequence suivi du nom de l'ACL, du numéro de départ et du pas, par exemple access-list resequence FILTRAGE_SERVEURS 10 10.
+Dans quel ordre retirer une ACL ? ; D'abord la détacher de l'interface (no ip access-group) ou de la ligne VTY (no access-class), puis supprimer la liste avec no ip access-list, avant d'enregistrer.
+Quelles commandes vérifient les ACL ? ; show access-lists pour les règles et compteurs de correspondance, show ip interface suivi du nom de l'interface pour voir l'application, et clear ip access-list counters pour remettre les compteurs à zéro.
+Quel résultat attendu de show ip interface pour une ACL appliquée en entrée ? ; Inbound access list is FILTRAGE_SERVEURS et Outbound access list is not set.
+Pourquoi tout le trafic est-il bloqué ? ; À cause du refus implicite, aucune règle permit ne correspond. Ajouter permit ip any any en fin d'ACL si le filtrage ne doit être que partiel.
+Pourquoi une règle de refus n'a-t-elle aucun effet ? ; Une règle permit plus haute intercepte le trafic en premier. Vérifier l'ordre avec show access-lists et remonter la règle avec un numéro de séquence inférieur.
+Pourquoi le ping part-il mais la réponse ne revient-elle pas ? ; L'ACL bloque l'echo-reply sur le chemin retour. Ajouter permit icmp any any echo-reply sur l'interface de retour.
+Pourquoi les compteurs restent-ils à 0 malgré du trafic ? ; L'ACL est appliquée sur la mauvaise interface ou dans le mauvais sens. Vérifier avec show ip interface suivi du nom de l'interface.
+Pourquoi un masque est-il trop large ou trop restrictif ? ; Confusion entre masque de sous-réseau et wildcard. Recalculer avec 255.255.255.255 moins le masque.
+Que faire si un admin est déconnecté après access-class ? ; Sa propre IP était absente du permit. Se reconnecter via la console physique et corriger l'ACL.

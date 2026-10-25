@@ -1,0 +1,705 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "5794b0db-006d-5efa-95bd-337af5765586",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Cybersécurité",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "5794b0db-006d-5efa-95bd-337af5765586",
+    "name": "ACL cisco"
+   }
+  ],
+  "cards": [
+   {
+    "id": "8f189f4a-be2c-5913-855e-3e46b1db9123",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "À quoi servent les ACL Cisco ?",
+    "back": "Elles filtrent le trafic sur les interfaces d'un routeur ou commutateur L3 en examinant les en-têtes IP (couche 3) et TCP/UDP (couche 4) pour permit ou deny chaque paquet.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "f829a10c-d9ee-5c80-b901-63cc08b3dfdb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quels sont les usages principaux des ACL ?",
+    "back": "Le cloisonnement inter-réseaux, la restriction d'accès SSH et la sélection de flux pour NAT ou VPN.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "638812b9-5902-56e8-b76c-260a8116e1fe",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Qu'est-ce que le refus implicite d'une ACL ?",
+    "back": "Toute ACL se termine par un deny ip any any invisible. Tout paquet sans correspondance est détruit.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "173b03b2-d7a8-5db8-8a0f-db842f5ac02b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Comment une ACL traite-t-elle les règles ?",
+    "back": "La première règle correspondante s'applique et les suivantes ne sont pas lues.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "066c2d9e-026f-5957-a9bc-a1455ccd7d4b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quelle est la différence entre in et out sur une interface ?",
+    "back": "in filtre le paquet à l'entrée de l'interface, avant le routage. out le filtre à la sortie, après le routage.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "29e40307-44db-5b15-b00f-e0a635072a72",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Où placer une ACL standard et sur quoi filtre-t-elle ?",
+    "back": "Près de la destination, et elle filtre uniquement sur l'IP source.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "043eb1fe-ecb5-5c6c-9df9-9f64ac964779",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Où placer une ACL étendue et sur quoi filtre-t-elle ?",
+    "back": "Près de la source, et elle filtre sur source, destination, protocole et ports.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "973662bd-536a-547f-92b4-22ece1c77ad6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Comment calculer un masque générique (wildcard) ?",
+    "back": "255.255.255.255 moins le masque de sous-réseau.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "236fbb41-2ad5-5a93-b83b-6eb8c37f7b00",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quels sont les wildcards de /32, /30, /24 et /16 ?",
+    "back": "/32 donne 0.0.0.0 (raccourci host), /30 donne 0.0.0.3, /24 donne 0.0.0.255 et /16 donne 0.0.255.255.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "a7d47195-943f-5c84-a893-6cc8955a3885",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quels sont les wildcards de /29 et /27 ?",
+    "back": "/29 donne 0.0.0.7 et /27 donne 0.0.0.31.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "da5230f0-ec15-5067-ba38-13a4202fd075",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quel raccourci IOS désigne tout le trafic ?",
+    "back": "any, équivalent au wildcard 255.255.255.255.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "2ca12102-2560-525d-9778-c0f339a9e6a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quelles plages de numéros pour les ACL numérotées standard et étendues ?",
+    "back": "Standard : 1 à 99 et 1300 à 1999. Étendue : 100 à 199 et 2000 à 2699.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "2d5dc4ce-7fa6-5b9c-bd4c-184af0601d0f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Comment déclare-t-on une ACL nommée ?",
+    "back": "ip access-list standard suivi du nom, ou ip access-list extended suivi du nom.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "ac33d68b-fc14-5391-a13c-2ca7b8c56118",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Pourquoi préférer les ACL nommées ?",
+    "back": "Elles permettent d'insérer, modifier ou supprimer une règle précise grâce aux numéros de séquence, sans tout réécrire.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "a6f1c15b-98e3-5e82-812c-d9475854f67d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quelle commande applique une ACL à une interface ?",
+    "back": "ip access-group suivi du nom de l'ACL et de la direction in ou out, sous la configuration de l'interface.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "912bd394-beba-5f12-aa6f-5824444ab98b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quels opérateurs de port existe-t-il dans une ACL étendue ?",
+    "back": "eq (égal), neq (différent), lt (inférieur), gt (supérieur) et range suivi du début et de la fin.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "6dafd8ce-80d1-589d-82b7-7417797480f9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Que fait l'option established dans une ACL ?",
+    "back": "Elle autorise uniquement les paquets TCP retour (flags ACK ou RST) d'une connexion initiée depuis l'intérieur.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "b545436e-ce93-508c-ad6e-394336bac2d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Comment autoriser le trafic de retour du WAN vers le LAN ?",
+    "back": "Avec une ACL entrante sur l'interface WAN, par exemple permit tcp any 192.168.10.0 0.0.0.255 established et permit udp any eq 53 192.168.10.0 0.0.0.255.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "c80df2f7-07f1-584b-b38d-fc042fc6d11a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Comment restreindre l'accès SSH à un seul poste ?",
+    "back": "Créer une ACL standard avec permit host 192.168.10.10 et deny any log, puis sous line vty 0 4 ajouter access-class ACCES_SSH in et transport input ssh.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "e9b00ae2-1e8a-5db7-911c-2f57997126e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quel risque en appliquant access-class sur les lignes VTY ?",
+    "back": "Si sa propre IP est absente du permit, la session SSH en cours se coupe immédiatement. Il faut la vérifier avant d'appliquer.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "494df6fa-0571-5f54-9fc9-5e5adf2e70c7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Comment insérer une règle entre la 10 et la 20 d'une ACL nommée ?",
+    "back": "En entrant dans l'ACL et en ajoutant la règle avec un numéro de séquence intermédiaire, par exemple 15 deny ip host 192.168.10.15 host 192.168.20.10.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "13634b51-394b-5c2e-9c61-47735219455e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Comment supprimer une règle précise d'une ACL nommée ?",
+    "back": "Dans l'ACL, utiliser no suivi de son numéro de séquence, par exemple no 15.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "a174beb4-cc2c-5f4a-9e30-62a6d193086f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Comment réindexer les numéros de séquence d'une ACL ?",
+    "back": "access-list resequence suivi du nom de l'ACL, du numéro de départ et du pas, par exemple access-list resequence FILTRAGE_SERVEURS 10 10.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "88eb3fc0-e1bf-5896-b0cf-c540cc39abe9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Dans quel ordre retirer une ACL ?",
+    "back": "D'abord la détacher de l'interface (no ip access-group) ou de la ligne VTY (no access-class), puis supprimer la liste avec no ip access-list, avant d'enregistrer.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "948182bc-b8c5-5851-8bda-7bc32f800df2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quelles commandes vérifient les ACL ?",
+    "back": "show access-lists pour les règles et compteurs de correspondance, show ip interface suivi du nom de l'interface pour voir l'application, et clear ip access-list counters pour remettre les compteurs à zéro.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "0d435fe2-6b4e-5940-8be7-660ac1b3c8a5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Quel résultat attendu de show ip interface pour une ACL appliquée en entrée ?",
+    "back": "Inbound access list is FILTRAGE_SERVEURS et Outbound access list is not set.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "28a2a62a-4040-5e5d-8ff8-4ca31326e058",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Pourquoi tout le trafic est-il bloqué ?",
+    "back": "À cause du refus implicite, aucune règle permit ne correspond. Ajouter permit ip any any en fin d'ACL si le filtrage ne doit être que partiel.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "0bcf9d38-5f42-5f0e-8123-5db95b91374e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Pourquoi une règle de refus n'a-t-elle aucun effet ?",
+    "back": "Une règle permit plus haute intercepte le trafic en premier. Vérifier l'ordre avec show access-lists et remonter la règle avec un numéro de séquence inférieur.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "b88770ee-7fe9-54dd-8994-dcb223ec7256",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Pourquoi le ping part-il mais la réponse ne revient-elle pas ?",
+    "back": "L'ACL bloque l'echo-reply sur le chemin retour. Ajouter permit icmp any any echo-reply sur l'interface de retour.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "e804a770-e9f6-5c73-b01d-af64a7981ddc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Pourquoi les compteurs restent-ils à 0 malgré du trafic ?",
+    "back": "L'ACL est appliquée sur la mauvaise interface ou dans le mauvais sens. Vérifier avec show ip interface suivi du nom de l'interface.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "25c8a351-5758-5be4-bcfb-4882d7d5c33b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Pourquoi un masque est-il trop large ou trop restrictif ?",
+    "back": "Confusion entre masque de sous-réseau et wildcard. Recalculer avec 255.255.255.255 moins le masque.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "a5dd3e5e-f321-5306-9238-edd5d75769f7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9c6d4cb2-bbe6-5b03-88ed-8fd7049c3832",
+    "front": "Que faire si un admin est déconnecté après access-class ?",
+    "back": "Sa propre IP était absente du permit. Se reconnecter via la console physique et corriger l'ACL.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "eaf84b03-59b0-5bfc-8b51-639b8a4b08d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8f189f4a-be2c-5913-855e-3e46b1db9123",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d1cf0d8b-c965-5597-bd06-eeadbe2205a1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f829a10c-d9ee-5c80-b901-63cc08b3dfdb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "46adbdad-3958-5dda-a5b4-a8d7e36e7a0f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "638812b9-5902-56e8-b76c-260a8116e1fe",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "626056fc-fcfc-5329-bd98-938760b2cdb2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "173b03b2-d7a8-5db8-8a0f-db842f5ac02b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f97e8de1-9262-55eb-90b0-783a19ace125",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "066c2d9e-026f-5957-a9bc-a1455ccd7d4b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f7277d41-6431-5ccd-8b1b-55262dcdaa9c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "29e40307-44db-5b15-b00f-e0a635072a72",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "29189479-b33c-559e-9a73-75c32a311035",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "043eb1fe-ecb5-5c6c-9df9-9f64ac964779",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a1b80ad9-cb3d-57a5-b7e4-ae68b8db185a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "973662bd-536a-547f-92b4-22ece1c77ad6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "de01f1d9-3be8-56df-8ebf-fd15914561f4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "236fbb41-2ad5-5a93-b83b-6eb8c37f7b00",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "00e3886c-d0c4-5a9b-b4dc-77c156586508",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a7d47195-943f-5c84-a893-6cc8955a3885",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f9821b75-ca64-5fd2-bfb0-e1794616ef20",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "da5230f0-ec15-5067-ba38-13a4202fd075",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "21f95dc8-36d1-5ef3-bff2-5e7a45e93a73",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2ca12102-2560-525d-9778-c0f339a9e6a4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b6d2bbf9-0586-58c1-9e8e-d1ac6704164b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2d5dc4ce-7fa6-5b9c-bd4c-184af0601d0f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "408e979a-23aa-55e6-95e4-03d1bc9fa5eb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ac33d68b-fc14-5391-a13c-2ca7b8c56118",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "32a00927-bbd1-5fb2-b6e2-d2bcc68e5771",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a6f1c15b-98e3-5e82-812c-d9475854f67d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6ea412ec-50d1-53d5-93ed-4a167acb3478",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "912bd394-beba-5f12-aa6f-5824444ab98b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0e97f98f-1bcc-5808-bc55-1271571a5baa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6dafd8ce-80d1-589d-82b7-7417797480f9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3e3b9539-6a6e-5ceb-a822-362ef16be7a5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b545436e-ce93-508c-ad6e-394336bac2d2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6465a57a-3c2a-505c-841e-d14d38de0197",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c80df2f7-07f1-584b-b38d-fc042fc6d11a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a807f242-1337-5cb6-a95b-d233bb53ea16",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e9b00ae2-1e8a-5db7-911c-2f57997126e6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1f43f2f9-0535-5139-992f-7c189a74259d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "494df6fa-0571-5f54-9fc9-5e5adf2e70c7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "74f0eb22-45de-5f1c-ad46-0f7ffc7c0760",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "13634b51-394b-5c2e-9c61-47735219455e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1b0348e9-9986-5693-8478-5418121378ba",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a174beb4-cc2c-5f4a-9e30-62a6d193086f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f14e1150-13d4-5531-a831-78243b29c020",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "88eb3fc0-e1bf-5896-b0cf-c540cc39abe9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0dfd94c3-005c-53e4-8cbe-975ff95792b7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "948182bc-b8c5-5851-8bda-7bc32f800df2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f1ac0542-2428-57a9-9ac2-75ed1bd5498e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0d435fe2-6b4e-5940-8be7-660ac1b3c8a5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a2d138ed-8cf1-5741-8e64-cae455c0f5bc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "28a2a62a-4040-5e5d-8ff8-4ca31326e058",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "81e81d46-3b81-5898-99c8-7db0aebf61da",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0bcf9d38-5f42-5f0e-8123-5db95b91374e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8f4d6473-5571-5a9c-88a2-f7bc5244cc89",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b88770ee-7fe9-54dd-8994-dcb223ec7256",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dcfcf4af-affc-518a-b597-ef6e70f72eb9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e804a770-e9f6-5c73-b01d-af64a7981ddc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4ed021a3-94a4-598d-b4f5-7158e0c3bd57",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "25c8a351-5758-5be4-bcfb-4882d7d5c33b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d6f56bc9-528c-54a6-b70c-9051db910dce",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a5dd3e5e-f321-5306-9238-edd5d75769f7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}
