@@ -1,0 +1,71 @@
+# Matière : CEJM
+# Parent : Thème 4 - L'impact du numérique sur la vie de l'entreprise
+# Paquet : Managériale
+# Description : Le système d'information, la décision, l'alignement stratégique, les nouvelles organisations, la coordination (Mintzberg), les modalités de travail et les risques du SI.
+
+Qu'est-ce qu'un système d'information (SI) ? ; Un ensemble organisé de ressources techniques, humaines et organisationnelles, qui permet de créer, collecter, stocker, traiter, modifier et diffuser des informations sous différents formats (données, textes, images, sons) dans et entre des organisations.
+Quelle différence entre système d'information et système informatique ? ; Le système informatique est la partie informatisée du système d'information, dont les données peuvent faire l'objet d'un traitement automatisable.
+Quelles sont les trois composantes du système d'information ? ; Une dimension technique, une dimension humaine et une dimension organisationnelle.
+Que comprend la dimension technique du SI ? ; Un système informatique composé de ressources matérielles et immatérielles.
+Que comprend la dimension humaine du SI ? ; Des collaborateurs utilisateurs qui traitent l'information et lui donnent du sens en la transformant en une connaissance à gérer, soutenus par les équipes de la DSI aux métiers variés.
+Que comprend la dimension organisationnelle du SI ? ; Un ensemble de processus, de règles et de procédures qui ont pour objectif de collecter, mémoriser, traiter et diffuser l'information.
+Quelles sont les quatre fonctions du SI ? ; Collecter, stocker, traiter et diffuser.
+En quoi consiste la fonction collecter du SI ? ; L'acquisition des données provenant de l'environnement interne ou externe à l'entreprise.
+En quoi consiste la fonction stocker du SI ? ; La conservation des données par le SI, qui doivent être disponibles et conservées dans le temps.
+En quoi consiste la fonction traiter du SI ? ; Transformer les données en modifiant le fond et la forme et en choisissant le support adapté.
+En quoi consiste la fonction diffuser du SI ? ; Transmettre l'information traitée dans l'environnement interne ou externe.
+Qu'est-ce que décider ? ; Faire un choix entre plusieurs solutions pour résoudre un problème ou saisir une opportunité : « transformer l'information en action » (J. Forester).
+Quel est l'objectif d'un SI pour la décision ? ; Restituer une information à la bonne personne, au bon moment et sous le format approprié, afin de faciliter sa prise de décision aux niveaux stratégique, tactique ou opérationnel.
+Quels sont les trois niveaux de décision (Ansoff) ? ; Stratégique, tactique et opérationnel.
+Qu'est-ce qu'une décision stratégique ? ; Une décision prise par les dirigeants pour le long terme, complexe et risquée, qui engage l'avenir de l'entreprise.
+Qu'est-ce qu'une décision tactique ? ; Une décision prise par les cadres pour le moyen terme, occasionnelle et à risque moyen, structurée et modélisable par des procédures.
+Qu'est-ce qu'une décision opérationnelle ? ; Une décision prise par les exécutants pour le court terme, à risque mineur, répétitive et souvent automatisable grâce à des procédures.
+Quel est le risque de la multiplication des sources d'information (Big Data) ? ; Elle peut rendre la prise de décision complexe, voire immobiliser l'action et s'avérer contre-productive.
+Que signifie GIGO ? ; Garbage In, Garbage Out : si les données d'entrée sont mauvaises, le résultat sera mauvais.
+Qu'apporte le SI à l'entreprise ? ; De la flexibilité, de l'agilité, de l'intégration, de la cohérence et de la réactivité.
+À quelle condition le SI crée-t-il de la valeur et un avantage concurrentiel ? ; À condition d'assurer son adéquation avec les besoins métiers, c'est-à-dire de réaliser un alignement stratégique.
+Qu'est-ce que l'alignement stratégique (source CIGREF) ? ; Une démarche visant à faire coïncider les objectifs du système d'information avec ceux de la stratégie métiers de l'entreprise.
+Quels sont les deux principes qui expliquent le fonctionnement d'une organisation ? ; La spécialisation et l'intégration.
+Qu'est-ce que la spécialisation d'une entité ? ; Se concentrer sur quelques compétences pour répondre rapidement aux demandes spécifiques des clients : limiter les tâches confiées tout en élargissant le domaine d'intervention grâce au numérique.
+Qu'est-ce que l'intégration des entités ? ; Favoriser des synergies entre plusieurs entreprises, services ou individus (ex. : l'intégration des processus métier synchronise les opérations internes de différents services pour accéder aux données en temps réel).
+Que signifie BPI ? ; Business process integration.
+Quelles nouvelles formes d'organisation apparaissent grâce au numérique ? ; Une réduction des niveaux hiérarchiques (travail en mode projet au sein d'équipes autonomes) et une gestion transversale des activités par processus.
+Qu'est-ce qu'un processus ? ; Un ensemble d'activités relevant de fonctions ou de métiers différents, organisé en réseau de manière séquentielle ou parallèle, mettant en œuvre des ressources, des capacités et des compétences afin de produire un résultat ayant de la valeur pour le client.
+Qu'est-ce que le reengineering ? ; Une démarche qui consiste à analyser les processus opérationnels afin de repérer et restructurer les processus créateurs de valeur pour le client, dans le but d'améliorer la performance en termes de coûts, de qualité, de services et de rapidité.
+Qui a développé le reengineering ? ; Michael Hammer et James Champy en 1993 (Business Process Reengineering : reingénierie des processus métiers).
+Qu'est-ce qu'un PGI (ERP) ? ; Le progiciel de gestion intégré (Enterprise Resource Planning) : un ensemble de logiciels qui permet de rassembler les données des différents processus dans une base de données unique et structurée, en intégrant les fonctions de l'entreprise.
+Quelles fonctions un PGI intègre-t-il ? ; La gestion des ressources humaines (HRM), la gestion comptable et financière (FRM), la gestion de la relation client (CRM), la gestion de la chaîne logistique (SCM), la production (MRP), la gestion de l'inventaire, l'aide à la décision et la gestion de projet (PSA).
+Que signifie CRM ? ; Customer Relationship Management : la gestion de la relation client (prospection, télévente, vente, action, e-commerce).
+Que signifie SCM ? ; Supply Chain Management : la gestion de la chaîne logistique (approvisionnement, transport, distribution, livraison).
+Qu'est-ce que l'entreprise étendue (ou entreprise en réseau) ? ; Un partage, une mise en réseau de compétences diverses et complémentaires avec d'autres entreprises, rendue possible par le numérique.
+Qu'est-ce que l'externalisation dans l'entreprise étendue ? ; L'entreprise confie une ou plusieurs de ses activités secondaires à un prestataire externe spécialiste (ex. : la logistique, la maintenance).
+Que sont les partenariats dans l'entreprise étendue ? ; Des partenariats pour co-innover ou coconstruire une offre personnalisée avec les clients ou les fournisseurs (ex. : un constructeur qui conçoit avec son partenaire).
+Qui est Henry Mintzberg ? ; L'auteur qui distingue six mécanismes de coordination des tâches.
+Quels sont les six mécanismes de coordination de Mintzberg ? ; L'ajustement mutuel, la supervision directe, la standardisation des procédés, la standardisation des résultats, la standardisation des qualifications et la standardisation des normes.
+En quoi consiste l'ajustement mutuel ? ; Coordonner les tâches par des discussions informelles.
+En quoi consiste la supervision directe ? ; Coordonner les tâches par des ordres et des commandements.
+En quoi consiste la standardisation des procédés ? ; Énoncer la description des tâches dans un manuel.
+En quoi consiste la standardisation des résultats ? ; Déterminer des objectifs à atteindre.
+En quoi consiste la standardisation des qualifications ? ; Préciser les diplômes et les compétences requis pour réaliser une activité.
+En quoi consiste la standardisation des normes ? ; Le travail est dicté par des règles et des valeurs communes.
+De quoi dépend le choix du mécanisme de coordination ? ; De la complexité de l'activité.
+Quels mécanismes utiliser pour des activités complexes ? ; L'ajustement mutuel et la supervision directe.
+Quels mécanismes utiliser lors d'une procédure de recrutement ? ; La standardisation des procédés et des résultats.
+Qu'est-ce que l'action collective ? ; L'activité qui répond à un besoin collectif d'un groupe de personnes poursuivant et partageant un objectif commun, tout en satisfaisant un intérêt individuel.
+Qu'est-ce qu'une action collective performante ? ; Une action efficace et efficiente en termes de coûts et de temps. Les activités doivent être coordonnées.
+Que modifie le numérique dans l'action collective ? ; La façon de communiquer, de collaborer et d'interagir des collaborateurs (c'est le cas du PGI).
+Qu'est-ce que le télétravail ? ; Une modalité de travail qui permet de faire travailler ensemble des individus éloignés grâce aux outils numériques (avec le travail collaboratif).
+Qu'est-ce que le coworking ? ; Une modalité de travail qui permet de faire travailler des individus isolés au même endroit, dans un espace de travail partagé.
+Quel mécanisme de coordination correspond à des développeurs qui échangent entre eux pour résoudre des problèmes techniques ? ; L'ajustement mutuel.
+Quel mécanisme de coordination correspond à un chef de projet qui répartit les tâches et donne les consignes ? ; La supervision directe.
+Quel mécanisme de coordination correspond à des tests et validations qui suivent un guide précis ? ; La standardisation des procédés.
+Quelle modalité de travail correspond à des développeurs qui travaillent depuis leur domicile grâce aux outils numériques ? ; Le télétravail.
+Quelle modalité de travail correspond à des travailleurs indépendants qui utilisent un espace de travail partagé ? ; Le coworking.
+Quelle est la typologie des risques liés au système d'information (Groupe Rocher) ? ; Les risques financiers, opérationnels, liés à la sécurité, sociaux et humains, et juridiques.
+Que sont les risques financiers du SI ? ; Le SI génère des coûts importants qu'il faut maîtriser (ex. : dimensionnement du système informatique, coûts de maintenance, d'acquisition, d'hébergement, cloud, moyen de secours, formation, organisation).
+Que sont les risques opérationnels du SI ? ; L'entreprise doit disposer d'une haute disponibilité et d'une performance de son SI (ex. : perte de configuration du RAID, de la baie de stockage, panne des réseaux, coupure de connexion, objets connectés IoT, manque de stock).
+Que sont les risques liés à la sécurité ? ; Les atteintes au patrimoine informationnel de l'entreprise tant en interne qu'en externe (ex. : phishing, intrusion dans le SI, ransomware, failles).
+Que sont les risques sociaux et humains ? ; L'adaptation des compétences et des qualifications, l'impact sur l'implication, l'adaptation et le contrôle (ex. : mauvais recrutement, manque de sensibilisation, mauvaise utilisation du SI, contrôle excessif).
+Que sont les risques juridiques ? ; La négociation et la gestion des contrats de prestations informatiques, le respect de la réglementation (ex. : contrat qui ne respecte pas la loi, non-respect du RGPD, risque juridique avec un client ou un prestataire).
+Le non-respect du RGPD relève de quel risque du SI ? ; D'un risque juridique.
+Quelle fonction n'appartient pas au SI ? ; Vendre : le SI collecte, stocke, traite et diffuse.

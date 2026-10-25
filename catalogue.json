@@ -43,6 +43,30 @@
    "parent": "Thème 3 - L'organisation de l'activité de l'entreprise"
   },
   {
+   "subject": "CEJM",
+   "deck": "Economique",
+   "cards": 47,
+   "description": "Sites web et plateformes, places de marché, relations d'échange, modèles économiques, effets de réseau, économie collaborative, cloud, normes et standards.",
+   "path": "paquets/cejm/theme-4-economique.json",
+   "parent": "Thème 4 - L'impact du numérique sur la vie de l'entreprise"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Juridique",
+   "cards": 144,
+   "description": "Protection des actifs immatériels (logiciel, marque, nom de domaine, bases de données), protection des personnes (RGPD, CNIL), contrats informatiques, vente électronique et preuve.",
+   "path": "paquets/cejm/theme-4-juridique.json",
+   "parent": "Thème 4 - L'impact du numérique sur la vie de l'entreprise"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Managériale",
+   "cards": 66,
+   "description": "Le système d'information, la décision, l'alignement stratégique, les nouvelles organisations, la coordination (Mintzberg), les modalités de travail et les risques du SI.",
+   "path": "paquets/cejm/theme-4-manageriale.json",
+   "parent": "Thème 4 - L'impact du numérique sur la vie de l'entreprise"
+  },
+  {
    "subject": "CEJMA",
    "deck": "Les licences logicielles",
    "cards": 21,

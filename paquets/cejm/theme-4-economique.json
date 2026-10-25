@@ -1,0 +1,1029 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "d303de9e-0e83-5a8e-9a47-9ff24c370bb6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Thème 4 - L'impact du numérique sur la vie de l'entreprise",
+    "parentId": null
+   },
+   {
+    "id": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Economique",
+    "parentId": "d303de9e-0e83-5a8e-9a47-9ff24c370bb6"
+   }
+  ],
+  "cards": [
+   {
+    "id": "a28cb5c9-bcec-5c86-8990-c10e1185e7e7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce qu'un site web ?",
+    "back": "Un ensemble de pages web et de ressources reliées par des hyperliens, défini et accessible par une adresse web. Les contenus proviennent des administrateurs du site.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "9a8edfa6-60a4-56fb-a766-c7b5d5919eae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce qu'une plateforme numérique (portail ou service web) ?",
+    "back": "Elle met à la disposition de l'utilisateur des programmes permettant la diffusion et le partage d'informations ou de contenus multimédias, des fonctionnalités propres aux médias sociaux et des applications tierces. Son contenu provient en partie des utilisateurs.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "1f769799-0689-54b4-9c2b-3ee59641d303",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Quelles formes une plateforme numérique peut-elle prendre ?",
+    "back": "Celle d'une application mobile ou d'un intranet.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "4fa42276-5bb8-534a-8dbb-6b02a7ade292",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Quelle différence entre un site web et une plateforme web sur l'information proposée ?",
+    "back": "Un site web a une information statique et semblable pour tous, sans démarche participative. Une plateforme a une information dynamique (synchrone ou asynchrone), personnalisée, avec une démarche participative.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "9059b614-4acf-5534-aa10-4b455214a4bb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce qu'un site dynamique ?",
+    "back": "Un site dont le contenu évolue continuellement en fonction des internautes, qui peuvent donner des avis ou commenter des articles. Un site statique a un contenu figé.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "126a1686-1236-5bde-8863-42134cedc299",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce qu'une place de marché (marketplace) ?",
+    "back": "Un espace qui se développe sur des sites le plus souvent marchands, pour mettre en relation des vendeurs et des acheteurs (particuliers ou professionnels).",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "00bd0ade-f4e5-5834-b5f2-094775c664da",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qui peut être vendeur sur une place de marché ?",
+    "back": "Une marque, un grossiste, un distributeur, un revendeur, un artisan.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "fc85d79c-48ec-5be2-ba8c-eb8b999a0410",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Quelles possibilités une place de marché peut-elle offrir en plus ?",
+    "back": "Le placement d'appels d'offres et l'organisation de mises aux enchères. La majorité sont spécialisées sur un secteur d'activité, certaines sont généralistes.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "0fa2a442-cf8d-5c8a-96e2-fa2a4c69d7e7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Comment fonctionne une marketplace en quatre étapes ?",
+    "back": "1. Le vendeur transmet son catalogue. 2. L'internaute passe sa commande via la plateforme. 3. La commande est livrée par la marketplace ou le vendeur. 4. Le paiement sécurisé est retransmis au vendeur, avec une commission d'en moyenne 15 %.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "de762c0c-6f2d-588b-bcc9-3c3bcf6f325c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Comment le numérique transforme-t-il les échanges entre agents ?",
+    "back": "Les technologies permettent de dématérialiser les échanges : les agents se rencontrent plus facilement. Les nouvelles relations d'échange sont marchandes ou non marchandes.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "a68a3b5e-637a-5bef-a8cb-a455de042526",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qui est concerné par les relations non marchandes ?",
+    "back": "Les plateformes répondent au besoin d'accès à distance des usagers des administrations (BtoG), des adhérents des associations et des syndicats, et des particuliers (troc).",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "e2d96df9-4ceb-5664-b45d-78b751fea9c4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Quel type de services trouve-t-on dans les relations non marchandes ?",
+    "back": "Des services fournis gratuitement ou à un prix n'excédant pas la moitié de leur coût de production : déclarations, inscriptions, paiement, publications officielles.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "106def52-3db0-583d-9fb1-335c51f9ab21",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Que sont les places de marché publiques ?",
+    "back": "Des places de marché proposées par certaines administrations, qui permettent aux entreprises de répondre à des appels d'offres.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "4795b1aa-9c4d-56a9-8c15-1bc22573ca4c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qui se rencontre dans les relations marchandes ?",
+    "back": "Les utilisateurs (les faces) se rencontrent sur des plateformes multifaces (bifaces ou trifaces), créées par des professionnels intermédiaires qui les mettent en relation.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "4823b165-d630-5a95-9ffd-e270b1b1210e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Combien de faces compte YouTube ?",
+    "back": "Trois : les utilisateurs, ceux qui partagent des contenus et les annonceurs.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "dfd85913-c3c7-5cfc-8a16-021dfb1102f8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que le BtoC ?",
+    "back": "Business to Consumer : le commerce de détail, la vente d'entreprises à particuliers.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "cd192d37-116c-5b69-95c9-32530f276f1a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que le BtoB ?",
+    "back": "Business to Business : les relations commerciales entre entreprises, donc la vente des fournisseurs aux clients.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "3cdf927f-71ae-57c8-b972-d577b089f367",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que le CtoC ?",
+    "back": "Consumer to Consumer : le commerce entre particuliers.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "1ca6ebf1-30f9-5cfb-a4bb-60a90996028a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que le BtoG ?",
+    "back": "Business (ou usager) to Government : la relation entre les usagers ou entreprises et les administrations.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "5ab0b44d-865c-56f1-901e-9291e0344d98",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Quelles sont les cinq catégories de plateformes marchandes ?",
+    "back": "Les plateformes d'échange direct (dont les places de marché), d'audience, de transaction, d'intermédiation (et de financement) et de travail collaboratif.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "7a8119d5-2fff-5129-9aa0-c06486039472",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Que sont les plateformes d'audience ?",
+    "back": "Les moteurs, portails, médias et sites communautaires.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "f8cd242c-1066-535d-9024-99b2a5c1ddf2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Que sont les plateformes de transaction ?",
+    "back": "Celles qui sécurisent les relations (ex. : PayPal).",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "f97ead5b-7b2b-518f-a37c-0962e7125527",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Deliveroo est-il un marché biface ou triface ?",
+    "back": "Triface : c'est une plateforme qui permet à une entreprise de proposer ses offres aux utilisateurs de Deliveroo (client, livreur, restaurateur).",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "0f731ebc-bb1d-5ea5-99d1-93cd956e775e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce qu'un modèle économique (business model) ?",
+    "back": "La description de la façon dont l'entreprise va créer de la valeur et des revenus pour l'ensemble des parties prenantes (clients, entrepreneur, associés, investisseurs).",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "bef41488-20be-563c-9205-39cef3fdf3e5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Quels sont des exemples de modèles économiques ?",
+    "back": "La vente directe, l'abonnement et le freemium.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "2693ff55-711f-55a1-bcbd-097f10e86aee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Comment se rémunère un site marchand de type place de marché ?",
+    "back": "Par une commission prélevée sur chaque vente, en contrepartie du service rendu aux partenaires (autres commerçants, artisans).",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "5e813215-eb2d-54b5-81b9-c68f693b3bf0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Quel est le modèle économique de Deliveroo ?",
+    "back": "La commission.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "7b7da649-1ac9-56fb-a7c9-33ca816a0354",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce qu'une externalité de réseau (ou effet de réseau) ?",
+    "back": "Une situation où la valeur d'une offre augmente avec le nombre de clients qui l'utilisent. Les services des plateformes génèrent des effets de réseau positifs grâce à la satisfaction de nombreux utilisateurs.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "90d86a7f-80dd-5424-bc7b-a96cc00ce10b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Une externalité de réseau est-elle toujours positive ?",
+    "back": "Non, elle peut être positive ou négative.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "da025729-0090-5ab4-91d6-bfc56f023f91",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Pourquoi Deliveroo repose-t-il sur l'effet de réseau ?",
+    "back": "L'effet de réseau correspond à l'augmentation de l'utilité d'une plateforme parce que le nombre d'utilisateurs augmente.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "9a5d1619-3444-53c9-8c27-3ebccbe17fb6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que l'économie collaborative ?",
+    "back": "Un modèle économique qui favorise l'usage sur la possession (ou propriété), aussi appelé économie du partage.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "f41f2152-1ff9-5496-9af6-e069f58210d4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Que permet l'économie collaborative ?",
+    "back": "D'optimiser les ressources par le partage, la revente, le troc, la location, le prêt ou le don.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "a565963c-4e7c-53bb-949e-8e58998d40ca",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce qu'un système d'information ?",
+    "back": "Un ensemble organisé de ressources (matériels, logiciels, personnels, données et procédures) permettant de collecter, traiter, stocker et diffuser l'information.",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "e5d7d556-14f6-53f7-a22d-3cd7cb2ad432",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que l'externalisation ?",
+    "back": "L'action qui consiste à confier une fonction auparavant réalisée en interne à un prestataire extérieur.",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "33e7fe95-1135-5f8f-8e80-28c7151cbcb6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que l'infogérance ?",
+    "back": "L'externalisation des systèmes d'information (outsourcing, facilities management) : transférer à un prestataire, qui s'engage sur les objectifs, la gestion des ressources matérielles, des logiciels et du personnel informatique.",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "d39d313e-064f-5cd7-bf87-8c54ea1fc087",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que l'infonuagique (cloud computing) ?",
+    "back": "Un modèle informatique qui permet un accès réseau à la demande grâce à l'usage de serveurs distants interconnectés par Internet. C'est un mode de traitement des données d'un client, dont l'exploitation s'effectue par Internet, sous la forme de services fournis par un prestataire.",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "32737ed9-92bb-52cf-94a6-f3080075f784",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que la virtualisation ?",
+    "back": "Simuler sur un serveur une ou plusieurs configurations informatiques (processeur, mémoire vive, système d'exploitation) pour créer des machines virtuelles qui reproduisent le comportement de véritables PC.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "895ca662-0ab0-5802-8553-b41c74f56cdb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que le BPO ?",
+    "back": "Le Business Process Outsourcing : l'externalisation d'une ou plusieurs fonctions complètes de l'entreprise (paie, comptabilité, centre d'appel, SAV) auprès d'un sous-traitant. C'est la pratique d'externalisation la plus globale, assimilable à un service bureau.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "e59cee4b-7971-53e3-91bb-8cd6352a1dad",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que le SaaS ?",
+    "back": "Software as a Service : l'accès à distance à un logiciel (ex. : la messagerie Gmail de Google). C'est la forme la plus répandue du cloud.",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   },
+   {
+    "id": "5c723abf-3542-5932-b1fa-1b7da2782479",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que l'IaaS ?",
+    "back": "Infrastructure as a Service : un prestataire propose en location des éléments d'infrastructure informatique (stockage, bande passante, unités centrales, systèmes d'exploitation). Le client peut configurer son environnement à distance.",
+    "createdAt": "2000-01-01T00:00:39.000Z"
+   },
+   {
+    "id": "fe8adcf0-c713-53fc-ae8d-1e1afa698241",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce que le PaaS ?",
+    "back": "Platform as a Service : permet de virtualiser et de louer la plateforme sur laquelle l'entreprise développe, teste ou exécute toutes ses applications.",
+    "createdAt": "2000-01-01T00:00:40.000Z"
+   },
+   {
+    "id": "f4ba91ad-9538-5fb8-8d3f-f884c7ab1106",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce qu'un datacenter ?",
+    "back": "De gigantesques fermes (parcs ou banques) de serveurs où les données sont stockées.",
+    "createdAt": "2000-01-01T00:00:41.000Z"
+   },
+   {
+    "id": "adeecee4-3de5-507a-b455-af349ccb150e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce qu'un standard ?",
+    "back": "Un référentiel développé et préconisé par un ou quelques acteurs, souvent d'origine industrielle, qui forment une organisation non officielle (appelée consortium ou forum).",
+    "createdAt": "2000-01-01T00:00:42.000Z"
+   },
+   {
+    "id": "ee3de667-3fcb-53ee-afb4-e4920c44c823",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Qu'est-ce qu'une norme ?",
+    "back": "Un référentiel élaboré par un organisme de normalisation reconnu par l'ensemble des parties prenantes (industriels, États, associations), qui fournit des règles communes pour des activités ou des caractéristiques spécifiques d'un produit.",
+    "createdAt": "2000-01-01T00:00:43.000Z"
+   },
+   {
+    "id": "bf9ba62f-c44a-5cee-811a-7a7ef11cbcb1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Quelle différence entre un standard fermé et un standard ouvert ?",
+    "back": "Le référentiel d'un standard fermé (ou propriétaire) n'est pas diffusé. Celui d'un standard ouvert est diffusé librement : il propose les premières règles du jeu (y compris pour l'interopérabilité) et favorise une technologie particulière.",
+    "createdAt": "2000-01-01T00:00:44.000Z"
+   },
+   {
+    "id": "791338a7-cb8a-517e-bbd3-fffe2d1ac266",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "À quoi sert le référentiel d'une norme ?",
+    "back": "À définir des règles du jeu justes et équitables, des caractéristiques, des bonnes pratiques et des recommandations, applicables à des biens, des services, des méthodes ou des processus.",
+    "createdAt": "2000-01-01T00:00:45.000Z"
+   },
+   {
+    "id": "e0efb77f-13ac-53c7-a349-37e95d43a913",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6723a69a-9013-57c6-9ef0-5b6f61ae565d",
+    "front": "Quelles sont les finalités d'une norme ?",
+    "back": "Harmoniser l'activité d'un secteur, réduire les entraves aux échanges et permettre à différentes technologies de coexister.",
+    "createdAt": "2000-01-01T00:00:46.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "e4d9a09d-b8cb-5dc3-94e5-a32f0fe59589",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a28cb5c9-bcec-5c86-8990-c10e1185e7e7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5124eafb-30d0-5a1a-9f1c-66d688eaa610",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9a8edfa6-60a4-56fb-a766-c7b5d5919eae",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8f7e450e-1372-5e90-b5ce-2be456ffadfa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1f769799-0689-54b4-9c2b-3ee59641d303",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c3d384fb-d24f-55ff-aa4d-28bbb3bada33",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4fa42276-5bb8-534a-8dbb-6b02a7ade292",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fc25245d-67aa-53cf-b24e-a2d7a33e8595",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9059b614-4acf-5534-aa10-4b455214a4bb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ad1d190f-6ed1-5400-9b66-0941e72c2275",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "126a1686-1236-5bde-8863-42134cedc299",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ea59f5c7-52ec-59ea-9345-0a21424d78e7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "00bd0ade-f4e5-5834-b5f2-094775c664da",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f3b79e02-a63f-5e9e-b74f-f7caf1e7e897",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fc85d79c-48ec-5be2-ba8c-eb8b999a0410",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ff0b4543-343d-5ea4-bb5b-fb5fcdfb3139",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0fa2a442-cf8d-5c8a-96e2-fa2a4c69d7e7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c0e5cd08-a5f6-51df-a026-2d9ffe2d774e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "de762c0c-6f2d-588b-bcc9-3c3bcf6f325c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8eef7dc8-75db-589f-be3b-8d0c75989cab",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a68a3b5e-637a-5bef-a8cb-a455de042526",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0995f223-b439-5164-8737-d3880696fc9f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e2d96df9-4ceb-5664-b45d-78b751fea9c4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "da4b3fbe-c657-5ce5-acf6-5d243f284ffa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "106def52-3db0-583d-9fb1-335c51f9ab21",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3cdb072e-7852-59cf-abc8-5462d91ebb65",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4795b1aa-9c4d-56a9-8c15-1bc22573ca4c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a8b7db7e-3bbf-5dd7-92dd-9ff1041f67bf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4823b165-d630-5a95-9ffd-e270b1b1210e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6a935b0f-df3c-52cf-a689-eddcc8f68875",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dfd85913-c3c7-5cfc-8a16-021dfb1102f8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "56a0f878-2e4b-5ee4-b20a-fbf740dd8214",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cd192d37-116c-5b69-95c9-32530f276f1a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d64dd089-142a-596c-916c-aeb2b70019f1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3cdf927f-71ae-57c8-b972-d577b089f367",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6a06a6cb-4ffd-5d7d-85b4-2ad368bb7864",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1ca6ebf1-30f9-5cfb-a4bb-60a90996028a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fee365cc-480e-5113-b097-abe493582136",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5ab0b44d-865c-56f1-901e-9291e0344d98",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e27f25c1-d58f-5701-aebb-78f09498ff77",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7a8119d5-2fff-5129-9aa0-c06486039472",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "20d11d03-76b6-5ef2-abef-e804825f09e3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f8cd242c-1066-535d-9024-99b2a5c1ddf2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9ecae67e-cc0a-5946-a03c-b01190a28f47",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f97ead5b-7b2b-518f-a37c-0962e7125527",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7316fd1a-6eae-5349-9630-178358baab6e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0f731ebc-bb1d-5ea5-99d1-93cd956e775e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d373f576-06b3-552c-bf43-5340f65b751a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bef41488-20be-563c-9205-39cef3fdf3e5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1f317baf-dd1e-5c9c-909a-34f166f20945",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2693ff55-711f-55a1-bcbd-097f10e86aee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ba86b437-20db-5d6d-a310-709cda66accc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5e813215-eb2d-54b5-81b9-c68f693b3bf0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e0a604bb-31b6-590a-8782-e9fd6873c3bc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7b7da649-1ac9-56fb-a7c9-33ca816a0354",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "58b21b58-f8f6-584c-af91-8d8540a2ecf2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "90d86a7f-80dd-5424-bc7b-a96cc00ce10b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f68cc30c-37c1-5474-bf45-15b57e6f6c31",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "da025729-0090-5ab4-91d6-bfc56f023f91",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c36f85cf-d91d-52d0-a42f-afc5ba764fed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9a5d1619-3444-53c9-8c27-3ebccbe17fb6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "db4f8a11-b8a4-56c2-97d7-6ee0e224071d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f41f2152-1ff9-5496-9af6-e069f58210d4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "61e0287e-8cbb-5d40-915f-689027a5e0bd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a565963c-4e7c-53bb-949e-8e58998d40ca",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cca5e0b8-d5f4-5474-b86c-59fb49d11fb1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e5d7d556-14f6-53f7-a22d-3cd7cb2ad432",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4473a36a-34ad-5683-878c-5c6da15b6bb1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "33e7fe95-1135-5f8f-8e80-28c7151cbcb6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6c7b40c8-0def-5737-9aa6-325341892103",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d39d313e-064f-5cd7-bf87-8c54ea1fc087",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "78c01809-2c74-51da-9b31-0a60b00d4f2c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "32737ed9-92bb-52cf-94a6-f3080075f784",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "123652b0-0e20-528b-a1c7-9130ceb29cc0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "895ca662-0ab0-5802-8553-b41c74f56cdb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "27059657-f3db-57f4-a82f-eac23bd06d56",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e59cee4b-7971-53e3-91bb-8cd6352a1dad",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2c6512e7-3ab1-55af-8e66-ad7d72302100",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5c723abf-3542-5932-b1fa-1b7da2782479",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f0cc4fb0-d011-5004-b72c-599aa288fe8b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fe8adcf0-c713-53fc-ae8d-1e1afa698241",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fed98792-e247-5059-9ce0-81255f9c1368",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f4ba91ad-9538-5fb8-8d3f-f884c7ab1106",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7e192287-8804-5f75-bd4f-175c8221da80",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "adeecee4-3de5-507a-b455-af349ccb150e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a117da60-5b9c-5d0b-b0af-ae27467aafc7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ee3de667-3fcb-53ee-afb4-e4920c44c823",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d5cc55cb-3f91-5709-b073-fd3c182818a0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bf9ba62f-c44a-5cee-811a-7a7ef11cbcb1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5a216346-1e16-5e8e-8e07-ab21b56fad6a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "791338a7-cb8a-517e-bbd3-fffe2d1ac266",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fce3ea24-06de-538a-a62f-e925fa914a4f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e0efb77f-13ac-53c7-a349-37e95d43a913",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

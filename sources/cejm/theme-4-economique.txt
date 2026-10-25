@@ -1,0 +1,52 @@
+# Matière : CEJM
+# Parent : Thème 4 - L'impact du numérique sur la vie de l'entreprise
+# Paquet : Economique
+# Description : Sites web et plateformes, places de marché, relations d'échange, modèles économiques, effets de réseau, économie collaborative, cloud, normes et standards.
+
+Qu'est-ce qu'un site web ? ; Un ensemble de pages web et de ressources reliées par des hyperliens, défini et accessible par une adresse web. Les contenus proviennent des administrateurs du site.
+Qu'est-ce qu'une plateforme numérique (portail ou service web) ? ; Elle met à la disposition de l'utilisateur des programmes permettant la diffusion et le partage d'informations ou de contenus multimédias, des fonctionnalités propres aux médias sociaux et des applications tierces. Son contenu provient en partie des utilisateurs.
+Quelles formes une plateforme numérique peut-elle prendre ? ; Celle d'une application mobile ou d'un intranet.
+Quelle différence entre un site web et une plateforme web sur l'information proposée ? ; Un site web a une information statique et semblable pour tous, sans démarche participative. Une plateforme a une information dynamique (synchrone ou asynchrone), personnalisée, avec une démarche participative.
+Qu'est-ce qu'un site dynamique ? ; Un site dont le contenu évolue continuellement en fonction des internautes, qui peuvent donner des avis ou commenter des articles. Un site statique a un contenu figé.
+Qu'est-ce qu'une place de marché (marketplace) ? ; Un espace qui se développe sur des sites le plus souvent marchands, pour mettre en relation des vendeurs et des acheteurs (particuliers ou professionnels).
+Qui peut être vendeur sur une place de marché ? ; Une marque, un grossiste, un distributeur, un revendeur, un artisan.
+Quelles possibilités une place de marché peut-elle offrir en plus ? ; Le placement d'appels d'offres et l'organisation de mises aux enchères. La majorité sont spécialisées sur un secteur d'activité, certaines sont généralistes.
+Comment fonctionne une marketplace en quatre étapes ? ; 1. Le vendeur transmet son catalogue. 2. L'internaute passe sa commande via la plateforme. 3. La commande est livrée par la marketplace ou le vendeur. 4. Le paiement sécurisé est retransmis au vendeur, avec une commission d'en moyenne 15 %.
+Comment le numérique transforme-t-il les échanges entre agents ? ; Les technologies permettent de dématérialiser les échanges : les agents se rencontrent plus facilement. Les nouvelles relations d'échange sont marchandes ou non marchandes.
+Qui est concerné par les relations non marchandes ? ; Les plateformes répondent au besoin d'accès à distance des usagers des administrations (BtoG), des adhérents des associations et des syndicats, et des particuliers (troc).
+Quel type de services trouve-t-on dans les relations non marchandes ? ; Des services fournis gratuitement ou à un prix n'excédant pas la moitié de leur coût de production : déclarations, inscriptions, paiement, publications officielles.
+Que sont les places de marché publiques ? ; Des places de marché proposées par certaines administrations, qui permettent aux entreprises de répondre à des appels d'offres.
+Qui se rencontre dans les relations marchandes ? ; Les utilisateurs (les faces) se rencontrent sur des plateformes multifaces (bifaces ou trifaces), créées par des professionnels intermédiaires qui les mettent en relation.
+Combien de faces compte YouTube ? ; Trois : les utilisateurs, ceux qui partagent des contenus et les annonceurs.
+Qu'est-ce que le BtoC ? ; Business to Consumer : le commerce de détail, la vente d'entreprises à particuliers.
+Qu'est-ce que le BtoB ? ; Business to Business : les relations commerciales entre entreprises, donc la vente des fournisseurs aux clients.
+Qu'est-ce que le CtoC ? ; Consumer to Consumer : le commerce entre particuliers.
+Qu'est-ce que le BtoG ? ; Business (ou usager) to Government : la relation entre les usagers ou entreprises et les administrations.
+Quelles sont les cinq catégories de plateformes marchandes ? ; Les plateformes d'échange direct (dont les places de marché), d'audience, de transaction, d'intermédiation (et de financement) et de travail collaboratif.
+Que sont les plateformes d'audience ? ; Les moteurs, portails, médias et sites communautaires.
+Que sont les plateformes de transaction ? ; Celles qui sécurisent les relations (ex. : PayPal).
+Deliveroo est-il un marché biface ou triface ? ; Triface : c'est une plateforme qui permet à une entreprise de proposer ses offres aux utilisateurs de Deliveroo (client, livreur, restaurateur).
+Qu'est-ce qu'un modèle économique (business model) ? ; La description de la façon dont l'entreprise va créer de la valeur et des revenus pour l'ensemble des parties prenantes (clients, entrepreneur, associés, investisseurs).
+Quels sont des exemples de modèles économiques ? ; La vente directe, l'abonnement et le freemium.
+Comment se rémunère un site marchand de type place de marché ? ; Par une commission prélevée sur chaque vente, en contrepartie du service rendu aux partenaires (autres commerçants, artisans).
+Quel est le modèle économique de Deliveroo ? ; La commission.
+Qu'est-ce qu'une externalité de réseau (ou effet de réseau) ? ; Une situation où la valeur d'une offre augmente avec le nombre de clients qui l'utilisent. Les services des plateformes génèrent des effets de réseau positifs grâce à la satisfaction de nombreux utilisateurs.
+Une externalité de réseau est-elle toujours positive ? ; Non, elle peut être positive ou négative.
+Pourquoi Deliveroo repose-t-il sur l'effet de réseau ? ; L'effet de réseau correspond à l'augmentation de l'utilité d'une plateforme parce que le nombre d'utilisateurs augmente.
+Qu'est-ce que l'économie collaborative ? ; Un modèle économique qui favorise l'usage sur la possession (ou propriété), aussi appelé économie du partage.
+Que permet l'économie collaborative ? ; D'optimiser les ressources par le partage, la revente, le troc, la location, le prêt ou le don.
+Qu'est-ce qu'un système d'information ? ; Un ensemble organisé de ressources (matériels, logiciels, personnels, données et procédures) permettant de collecter, traiter, stocker et diffuser l'information.
+Qu'est-ce que l'externalisation ? ; L'action qui consiste à confier une fonction auparavant réalisée en interne à un prestataire extérieur.
+Qu'est-ce que l'infogérance ? ; L'externalisation des systèmes d'information (outsourcing, facilities management) : transférer à un prestataire, qui s'engage sur les objectifs, la gestion des ressources matérielles, des logiciels et du personnel informatique.
+Qu'est-ce que l'infonuagique (cloud computing) ? ; Un modèle informatique qui permet un accès réseau à la demande grâce à l'usage de serveurs distants interconnectés par Internet. C'est un mode de traitement des données d'un client, dont l'exploitation s'effectue par Internet, sous la forme de services fournis par un prestataire.
+Qu'est-ce que la virtualisation ? ; Simuler sur un serveur une ou plusieurs configurations informatiques (processeur, mémoire vive, système d'exploitation) pour créer des machines virtuelles qui reproduisent le comportement de véritables PC.
+Qu'est-ce que le BPO ? ; Le Business Process Outsourcing : l'externalisation d'une ou plusieurs fonctions complètes de l'entreprise (paie, comptabilité, centre d'appel, SAV) auprès d'un sous-traitant. C'est la pratique d'externalisation la plus globale, assimilable à un service bureau.
+Qu'est-ce que le SaaS ? ; Software as a Service : l'accès à distance à un logiciel (ex. : la messagerie Gmail de Google). C'est la forme la plus répandue du cloud.
+Qu'est-ce que l'IaaS ? ; Infrastructure as a Service : un prestataire propose en location des éléments d'infrastructure informatique (stockage, bande passante, unités centrales, systèmes d'exploitation). Le client peut configurer son environnement à distance.
+Qu'est-ce que le PaaS ? ; Platform as a Service : permet de virtualiser et de louer la plateforme sur laquelle l'entreprise développe, teste ou exécute toutes ses applications.
+Qu'est-ce qu'un datacenter ? ; De gigantesques fermes (parcs ou banques) de serveurs où les données sont stockées.
+Qu'est-ce qu'un standard ? ; Un référentiel développé et préconisé par un ou quelques acteurs, souvent d'origine industrielle, qui forment une organisation non officielle (appelée consortium ou forum).
+Qu'est-ce qu'une norme ? ; Un référentiel élaboré par un organisme de normalisation reconnu par l'ensemble des parties prenantes (industriels, États, associations), qui fournit des règles communes pour des activités ou des caractéristiques spécifiques d'un produit.
+Quelle différence entre un standard fermé et un standard ouvert ? ; Le référentiel d'un standard fermé (ou propriétaire) n'est pas diffusé. Celui d'un standard ouvert est diffusé librement : il propose les premières règles du jeu (y compris pour l'interopérabilité) et favorise une technologie particulière.
+À quoi sert le référentiel d'une norme ? ; À définir des règles du jeu justes et équitables, des caractéristiques, des bonnes pratiques et des recommandations, applicables à des biens, des services, des méthodes ou des processus.
+Quelles sont les finalités d'une norme ? ; Harmoniser l'activité d'un secteur, réduire les entraves aux échanges et permettre à différentes technologies de coexister.

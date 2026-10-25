@@ -1,0 +1,149 @@
+# Matière : CEJM
+# Parent : Thème 4 - L'impact du numérique sur la vie de l'entreprise
+# Paquet : Juridique
+# Description : Protection des actifs immatériels (logiciel, marque, nom de domaine, bases de données), protection des personnes (RGPD, CNIL), contrats informatiques, vente électronique et preuve.
+
+Qu'est-ce que le logiciel (JO du 17 janvier 1982) ? ; Un ensemble des programmes, procédés et règles, et éventuellement de la documentation, relatifs au fonctionnement d'un ensemble de traitement de données.
+Qu'est-ce que la propriété intellectuelle ? ; L'ensemble des droits exclusifs accordés sur des créations intellectuelles (droit d'auteur, droit des marques, droit des brevets, droit des dessins et modèles).
+Quelles conditions un logiciel doit-il remplir pour être protégé par le droit d'auteur ? ; Il doit être original et mis en forme.
+Que signifie qu'un logiciel doit être original ? ; Il doit provenir d'un apport personnel de l'auteur, concrétisé par un effort intellectuel et par le choix de technologies, d'esthétique, de méthodes, de ressources, de scénarios.
+Que signifie qu'un logiciel doit être mis en forme ? ; Le droit d'auteur ne protège pas les idées : il faut une concrétisation sous une forme tangible (papier, fichier, cahier des charges, esquisse).
+À partir de quand un logiciel est-il protégé par le droit d'auteur ? ; Du seul fait de sa création, indépendamment de toute divulgation publique, même lorsqu'il est inachevé.
+Quels sont les deux types de prérogatives du droit d'auteur ? ; Les droits patrimoniaux et les droits moraux.
+Que sont les droits patrimoniaux ? ; Le droit exclusif d'exploitation de l'œuvre. Toute utilisation sans autorisation constitue une contrefaçon, civilement et pénalement sanctionnée.
+Quels sont les droits patrimoniaux sur un logiciel ? ; Le droit de reproduction (fixation matérielle de l'œuvre), le droit de représentation (distribution de l'œuvre au public) et le droit d'adaptation (traduction, modification et reproduction qui en résulte).
+Que sont les droits moraux ? ; Les droits sur la création qui n'ont pas de valeur pécuniaire. Pour un logiciel, il est difficile d'appliquer le droit au respect de l'œuvre et le droit de retrait.
+Quels sont les droits moraux ? ; Le droit de divulgation (décider du moment et des conditions de communication au public), le droit de paternité (exiger la mention de son nom), le droit au respect de l'œuvre (s'opposer aux modifications non autorisées) et le droit de retrait (faire cesser l'exploitation, en indemnisant son cocontractant).
+Quelle est la durée de protection des droits patrimoniaux ? ; Limitée : 70 ans après la mort de l'auteur. Ils peuvent faire l'objet d'une cession, donc d'une rémunération.
+Quelle est la durée de protection des droits moraux ? ; Illimitée : le droit moral est perpétuel et transmis aux ayants droit. Il n'est pas cessible et ne peut faire l'objet d'une renonciation ou d'un transfert par contrat.
+Un logiciel peut-il être breveté ? ; Non : le logiciel en tant que tel est exclu de la brevetabilité.
+Par quoi passe l'utilisation d'un logiciel ? ; Par un contrat appelé licence, accordé par le concédant à un licencié.
+Quelles sont les deux grandes catégories de licences ? ; Les licences propriétaires et les licences libres, dont la principale utilisation est la libre disposition du code source.
+Qu'est-ce qu'une marque ? ; Un signe distinctif d'une entreprise ou d'un produit qui permet de se différencier des autres. Elle confère un monopole d'exploitation sur le territoire français de 10 ans, renouvelable indéfiniment.
+Comment protéger le nom d'un logiciel ? ; Par le droit des marques, à condition de le déposer en tant que marque auprès de l'INPI.
+Que signifie INPI ? ; Institut national de la propriété intellectuelle.
+Qu'est-ce qu'un nom de domaine ? ; Un moyen technique de localisation et d'accès aux pages web.
+Qui profite du nom de domaine ? ; Celui qui, le premier arrivé, en demande la réservation auprès de bureaux d'enregistrement (les registrars), sous réserve que ces bureaux soient accrédités par les organismes chargés de gérer les noms de domaine.
+Quel organisme gère les noms de domaine en France ? ; L'AFNIC (.fr).
+Quel organisme gère les noms de domaine de l'Union européenne ? ; L'EURid (.eu).
+Quel organisme gère les noms de domaine au niveau international ? ; L'ICANN (.com, .net, .org).
+Pourquoi le nom de domaine se distingue-t-il de la marque ? ; Ce n'est pas un titre de propriété industrielle.
+Pourquoi le nom de domaine se distingue-t-il de la dénomination sociale ou du nom commercial ? ; Il n'identifie pas nécessairement la société ou le fonds de commerce qui lui est rattaché.
+Quelles sont les deux pratiques illicites sur les noms de domaine ? ; Le cybersquatting et le typosquatting.
+Qu'est-ce que le cybersquatting ? ; Le dépôt de noms de domaine sans les exploiter, pour les revendre.
+Qu'est-ce que le typosquatting ? ; La reprise du nom d'un site en modifiant légèrement ses caractères, pour détourner les internautes du site initialement recherché.
+Comment un site internet est-il protégé ? ; C'est une œuvre de l'esprit complexe, donc ses éléments sont protégés séparément : images et vidéos (droit d'auteur et droit à l'image), contenu, présentation, logiciels et logos (droit d'auteur), marque (droit des marques) et dessins (dessins et modèles).
+À quelle condition le site entier est-il protégé par le droit d'auteur ? ; Au titre d'œuvre multimédia, s'il présente un caractère original.
+Comment la loi définit-elle une base de données ? ; Un recueil de données ou d'autres éléments indépendants, disposés de manière systématique ou méthodique et individuellement accessibles par des moyens électroniques ou par tout autre moyen (art. L112-3 du Code de la propriété intellectuelle).
+Quelles trois caractéristiques se dégagent de la définition d'une base de données ? ; Un groupement de données, une organisation (des données qui peuvent être réparties dans plusieurs tables) et une extraction (la capacité à utiliser ou à interroger les données).
+Quels sont les objets protégés dans une base de données ? ; Certaines données et la structure de la base (par le droit d'auteur), et l'investissement substantiel du producteur (par le droit sui generis, le droit du producteur).
+Qu'est-ce que le droit sui generis ou droit du producteur ? ; Le droit qui protège l'investissement substantiel financier, humain et matériel de celui qui prend l'initiative et le risque de créer la base.
+Que peut faire le producteur d'une base de données grâce à son droit ? ; Autoriser l'accès à sa base par contrat, et interdire l'extraction ou la réutilisation d'une partie qualitative ou quantitative substantielle de sa base.
+Quelle est la durée de protection d'une base de données ? ; 70 ans pour le droit d'auteur, 15 ans pour le droit du producteur (à compter du 1er janvier de l'année qui suit l'achèvement ou la mise à disposition de la base).
+À quelles conditions les données et la structure d'une base sont-elles protégées par le droit d'auteur ? ; Si elles sont originales et mises en forme (le dépôt n'est pas obligatoire).
+Que sont les données libres de droit ? ; Des données tombées dans le domaine public, que le créateur de la base peut intégrer librement (ex. : images libres, musique libre).
+Que se passe-t-il pour des données protégées par la propriété intellectuelle ? ; Elles ne peuvent pas être librement utilisées : le créateur de la base doit obtenir l'autorisation de l'auteur ou de ses ayants droit, sinon il est coupable de contrefaçon (ex. : logos, illustrations, schémas).
+Quel texte protège les données à caractère personnel ? ; La loi Informatique et Libertés de 1978, et plus récemment le règlement RGPD de 2016.
+Que sont des données à caractère personnel (DCP) ? ; Des informations relatives à une personne physique identifiable (ex. : numéros de téléphone, nom et prénom, adresse).
+Que sont les DCP sensibles ? ; Des données comme la santé, l'opinion politique ou la religion, protégées par la loi Informatique et Libertés de 1978.
+Que sont les données produites par le créateur de la base ? ; Des données librement utilisables (ex. : les données de test).
+Quel est le premier devoir du responsable de traitement ? ; Le consentement : lors de la collecte, la personne fichée doit être informée et avoir explicitement accepté que des DCP la concernant soient recueillies, avec des informations loyales et transparentes.
+Que signifie la finalité du traitement ? ; Le responsable doit préciser à quoi serviront les DCP collectées. Il ne peut pas les utiliser pour un autre objectif, ni les communiquer à des tiers sans le consentement préalable de la personne.
+Quels sont les droits des personnes selon la loi Informatique et Libertés ? ; Le droit d'accès, le droit de rectification, le droit d'opposition et le droit au déréférencement.
+En quoi consiste le droit d'accès ? ; Une personne peut demander directement au responsable d'un fichier s'il détient des informations sur elle et se les voir communiquer.
+En quoi consiste le droit de rectification ? ; Corriger les erreurs dans les données enregistrées.
+En quoi consiste le droit d'opposition ? ; Toute personne physique peut, si elle a un motif légitime, s'opposer à ce que des données la concernant fassent l'objet d'un traitement.
+En quoi consiste le droit au déréférencement ? ; Une personne peut demander aux moteurs de recherche de ne plus indiquer une page web associée à son nom et à son prénom.
+Quelles autres obligations a le responsable de traitement ? ; Assurer la sécurité des données (locaux, sécurité informatique, contrôle des personnes habilitées) et limiter la durée de conservation des données.
+Qu'est-ce que le RGPD ? ; Le Règlement général sur la protection des données : un règlement européen n° 2016/679 du 27 avril 2016, entré en vigueur en mai 2018.
+Quels nouveaux droits le RGPD crée-t-il ? ; Le droit à la portabilité des données, le droit à l'information en cas de piratage, le droit d'action en groupe et le droit de réparation.
+En quoi consiste le droit à la portabilité ? ; Une personne peut récupérer et transférer ses données sans subir de problème d'interopérabilité qui pourrait la dissuader de changer de prestataire.
+En quoi consiste le droit d'action en groupe ? ; Des personnes victimes d'une infraction relative à leurs DCP peuvent agir collectivement en justice via une association.
+En quoi consiste le droit de réparation ? ; Obtenir la réparation d'un préjudice matériel ou moral lié à un mauvais traitement des DCP (en général une faille de sécurité).
+Qu'est-ce que la CNIL ? ; Une autorité administrative indépendante (AAI) créée par la loi Informatique et Libertés de 1978, modifiée en 2004, en charge de la régulation des données personnelles.
+Que signifie AAI ? ; Autorité administrative indépendante : un organisme public chargé d'une mission de régulation, qui agit au nom de l'État mais sans être soumis au gouvernement.
+Quelles sont les missions de la CNIL ? ; Informer et protéger les droits, accompagner les organismes, contrôler et sanctionner, anticiper et encadrer les innovations, et représenter la France au niveau européen.
+Comment la CNIL accompagne-t-elle les organismes ? ; Elle les aide à se mettre en conformité.
+Que peut faire la CNIL après une plainte ou un contrôle ? ; Mettre en demeure (ce n'est pas une sanction) l'organisme de cesser un manquement constaté.
+Quelles sanctions la CNIL peut-elle prononcer ? ; Un rappel à l'ordre, une injonction (avec astreinte d'au plus 100 000 euros par jour de retard), une limitation temporaire ou définitive du traitement, une suspension des flux de données vers un pays tiers, l'ordre de satisfaire les demandes des personnes et une amende administrative.
+Quel est le montant maximal de l'amende administrative de la CNIL ? ; 10 millions d'euros ou 2 % du chiffre d'affaires annuel mondial. Pour les manquements les plus graves : 20 millions d'euros ou 4 % du chiffre d'affaires annuel mondial.
+Qu'est-ce que l'identité numérique ? ; L'ensemble des éléments sur supports technologiques relatifs à une personne réelle (à ne pas confondre avec les DCP).
+Quels sont les trois types de traces de l'identité numérique ? ; Les traces volontaires, les traces involontaires (ou informatiques) et les traces héritées.
+Que sont les traces volontaires ? ; Des informations sur la vie privée publiées par l'internaute, sous sa responsabilité (ex. : publication sur un réseau, photo, commentaire). Un pseudonyme permet de limiter le traçage.
+Que sont les traces involontaires ? ; Des traces qui apparaissent lors de la connexion et de la navigation (ex. : cookies, historique de navigation, adresse IP, géolocalisation).
+Que sont les traces héritées ? ; Ce que les autres disent d'une personne (ex. : les commentaires d'autres personnes).
+Qu'est-ce que l'e-réputation ? ; Les éléments de la renommée, en bien ou en mal, d'une personne (particulier ou entreprise) véhiculés sur des supports en ligne.
+Quelle différence entre réputation et notoriété ? ; La notoriété est la présence dans l'esprit du public, la popularité. Une personne peut être populaire mais de mauvaise réputation.
+Comment la loi protège-t-elle l'identité numérique (art. 226-4-1 du Code pénal) ? ; Usurper l'identité d'un tiers ou faire usage de données permettant de l'identifier, pour troubler sa tranquillité ou porter atteinte à son honneur, est puni d'un an d'emprisonnement et de 15 000 euros d'amende.
+Quels textes protègent la vie privée du salarié ? ; L'article 9 du Code civil (chacun a droit au respect de sa vie privée) et la jurisprudence (arrêt Nikon, 2001) qui applique ce principe à la vie en entreprise.
+Quelles trois règles du Code du travail protègent le salarié ? ; Le principe de transparence, le principe de proportionnalité et le principe de consultation et d'information des représentants du personnel.
+En quoi consiste le principe de transparence ? ; Tout dispositif de surveillance d'un salarié doit avoir été porté à sa connaissance (art. L1222-4).
+En quoi consiste le principe de proportionnalité ? ; Les atteintes aux libertés individuelles et collectives d'un salarié doivent être justifiées et proportionnées (art. L1121-1).
+En quoi consiste le principe de consultation et d'information ? ; Les représentants du personnel doivent être consultés et informés (art. L2312-38).
+Quelles prestations informatiques propose-t-on dans un contrat d'étude et de conseil ? ; Le recensement de l'existant et la préconisation d'une solution évolutive adaptée au besoin.
+En quoi consiste le contrat d'assistance à la maîtrise d'ouvrage ? ; Un conseil permanent de l'entreprise sur l'ensemble d'un projet.
+En quoi consiste le contrat d'hébergement ? ; Il propose trois offres de services cloud computing : SaaS, IaaS et PaaS.
+Que fournit le mode SaaS dans un contrat d'hébergement ? ; La commercialisation d'un logiciel avec des modules personnalisés selon le client (assistance, support, hébergement), installé sur les serveurs de l'éditeur et facturé forfaitairement ou à l'utilisation.
+Que fournit le mode IaaS dans un contrat d'hébergement ? ; Des ressources d'infrastructure à la demande : mise en réseau, stockage, calcul, virtualisation.
+Que fournit le mode PaaS dans un contrat d'hébergement ? ; Les ressources matérielles et logicielles pour développer des applications via le cloud (environnement et déploiement des applications).
+Qu'est-ce qu'un contrat ASP ? ; Un logiciel en ligne avec abonnement, en mode hébergé et non personnalisé. Cette application service provider est une solution on-demand (à la demande).
+En quoi consiste le contrat de développement ? ; La création d'un site internet ou d'un logiciel spécifique conforme à un cahier des charges, avec une recette.
+En quoi consiste le contrat de maintenance ? ; Une maintenance matérielle ou logicielle, préventive ou curative.
+En quoi consiste le contrat d'intégration ? ; Mettre en place une procédure ou un protocole pour organiser la migration d'un logiciel ou de plusieurs programmes.
+Qu'est-ce qu'une licence logicielle ? ; Un contrat de location de logiciel informatique.
+Que contiennent les clauses générales d'un contrat informatique ? ; L'identification des parties, l'objet du contrat (cahier des charges en annexe), les prix et modalités de règlement, les modalités d'exécution, la durée, les obligations des parties, les modalités de rupture et de résiliation, la clause limitative de responsabilité, la force majeure et la gestion des litiges.
+Qu'est-ce que la clause limitative de responsabilité ? ; Elle plafonne le montant des dommages-intérêts pour des préjudices prévus par le prestataire à son client. Elle peut être abusive.
+Qu'est-ce que la force majeure ? ; Un événement qui ne présente ni un caractère imprévisible, ni un caractère irrésistible.
+Que précise la clause de gestion des litiges ? ; La clause d'arbitrage ou la clause définissant la juridiction compétente, ce qui est un compromis.
+Qu'est-ce que la clause de confidentialité ? ; Elle engage le prestataire à respecter le secret professionnel, à ne pas diffuser l'information et à la sécuriser.
+Qu'est-ce que la clause de réserve de propriété (transfert de propriété) dans un contrat informatique ? ; Elle indique que le propriétaire sera le client ou le prestataire. C'est une clause de cession du droit d'auteur qui définit les droits d'exploitation (droits patrimoniaux).
+Qu'est-ce que la clause de résultat ? ; Elle impose au prestataire l'obligation de parvenir à un résultat défini dans le contrat.
+Qu'est-ce que la clause de moyen ? ; Elle engage le prestataire à apporter tous les moyens dont il dispose pour exécuter sa prestation.
+Qu'est-ce que la clause d'assistance ? ; Elle définit les conditions d'une assistance téléphonique (horaires, tarifs de la hotline, délais de dépannage).
+Qu'est-ce que la clause de veille technologique ? ; Elle impose au prestataire de rechercher des informations sur l'évolution des solutions informatiques plus adaptées aux problématiques du client.
+Qu'est-ce que la clause de recette ? ; Elle définit les procédures pour que le client accepte le livrable du prestataire qui correspond au cahier des charges et à ses besoins (recette provisoire et recette définitive).
+Qu'est-ce que la clause SLA ? ; Le Service Level Agreement : elle donne le niveau de qualité de la prestation à atteindre pour le client (plan d'assurance qualité).
+Qu'est-ce que la clause de réversibilité ? ; Elle organise la façon dont le prestataire rendra les données et le matériel au client lorsque le contrat d'infogérance touche à sa fin, pour éviter la perte de données et assurer la continuité de service.
+Qu'est-ce que la clause d'exploitation ? ; Elle garantit au client la confidentialité, la sécurité et l'intégrité des données.
+Qu'est-ce que la clause d'indexation ? ; Elle prévoit que le prix pourra varier pendant la relation contractuelle (ex. : l'indice SYNTEC qui mesure l'évolution du coût de la main-d'œuvre pour une prestation informatique).
+Qu'est-ce que la clause relative au contenu hébergé et aux droits d'auteur ? ; Elle protège le prestataire en excluant sa responsabilité en cas de contenu illégal par exemple.
+Quelles sont les origines des obligations du prestataire ? ; Elles sont d'origine légale (énoncées par la loi) ou jurisprudentielle (d'origine judiciaire).
+En quoi consiste l'obligation générale d'information du prestataire ? ; Un devoir de renseignement, un devoir de conseil et d'assistance et un devoir de mise en garde.
+En quoi consiste le devoir de renseignement ? ; Après avoir pris un maximum d'informations du client pour comprendre ses besoins, expliquer toutes les caractéristiques de ses prestations (modalités, étapes, calendrier, intervenants, date limite), le prix, les questions et les risques éventuels.
+En quoi consiste le devoir de conseil et d'assistance ? ; Guider les choix du client et l'orienter sur les différentes options en fonction de la situation.
+En quoi consiste le devoir de mise en garde ? ; Informer sur des contraintes particulières, des limites à prendre en compte et les obligations à respecter.
+Quelles autres obligations a le prestataire ? ; Un devoir de confidentialité, une obligation de délivrance de l'objet de la prestation dans les délais convenus, une obligation de réversibilité des données et une clause de cession de droits de propriété.
+En quoi consiste l'obligation de réversibilité des données ? ; Offrir au client la possibilité de récupérer en fin de contrat l'ensemble de ses données confiées au prestataire, ou de les transférer auprès d'un nouveau prestataire.
+En quoi consiste la clause de cession de droits de propriété ? ; Elle stipule que la propriété de toutes les créations du prestataire revient au commanditaire, c'est-à-dire au client (droits d'auteur sur les œuvres créées).
+Quelles sont les obligations du client ? ; Une obligation de collaboration, une obligation de payer le prix et une obligation de réception.
+En quoi consiste l'obligation de collaboration du client ? ; Faire en sorte que le prestataire puisse mener à bien son activité, en lui fournissant les informations et la documentation nécessaires et en lui donnant accès au système informatique dans la mesure du besoin.
+En quoi consiste l'obligation de réception du client ? ; Le devoir de recette : accuser réception d'un logiciel, d'un matériel ou d'une prestation informatique et donner son approbation au prestataire après avoir vérifié que la livraison est conforme à ce qui a été convenu.
+Quelles conditions de validité doit respecter un contrat électronique (art. 1108 du Code civil) ? ; Le consentement libre et éclairé des parties, la capacité à contracter des parties et un contenu licite et certain.
+Pourquoi le contrat de vente par voie électronique est-il spécifique ? ; Il est conclu sans la présence physique du cybermarchand et du cyberconsommateur, et le consentement n'est pas simultané. Il obéit donc au régime des contrats conclus à distance.
+Quels sont les risques de l'achat sur Internet ? ; Les risques sécuritaire, fonctionnel, financier, temporel, physique, psychologique et social.
+En quoi consiste le risque sécuritaire d'un achat en ligne ? ; L'insécurité des données, l'interception des données bancaires et la revente des DCP.
+En quoi consiste le risque financier d'un achat en ligne ? ; Le coût important de la livraison et du retour, la contrefaçon ou le produit volé.
+Que doit faire le cybervendeur pour une prospection commerciale électronique ? ; Obtenir loyalement les coordonnées du prospect et son accord préalable, signaler explicitement le caractère commercial du message, permettre de stopper le message sans frais, indiquer son identité, ses coordonnées et son activité, préciser les caractéristiques des produits, le prix, la livraison et la garantie, et indiquer le délai de rétractation de 14 jours.
+Comment protéger les données personnelles des clients d'un site marchand ? ; Informer l'internaute sur les traceurs (cookies), obtenir son consentement et lui fournir un moyen de les refuser, obtenir son consentement express (opt-in) pour la newsletter et respecter les règles de collecte des données.
+Quels cookies sont dispensés de consentement ? ; Les cookies strictement nécessaires à la fourniture d'un service expressément demandé par l'utilisateur.
+Que sont les CGV ? ; Les conditions générales de vente : elles définissent les droits et les obligations de l'utilisateur d'un site en ligne.
+Les CGV sont-elles obligatoires ? ; Obligatoires dans les relations BtoC. Facultatives dans les relations professionnelles, mais elles doivent être transmises sur simple demande.
+Comment l'acheteur accepte-t-il les CGV ? ; La jurisprudence admet que le clic valide les CGV et marque l'acceptation de l'acheteur.
+Que contiennent les CGV ? ; Les coordonnées du professionnel, les modalités du consentement, la durée et la modification des CGV, les précisions sur les produits et les prix, les modalités de remboursement, de livraison, de passation de commande, de droit de rétractation, les garanties légales et commerciales, le SAV, la clause de responsabilité et force majeure et la clause de réserve de propriété.
+Comment le consentement est-il matérialisé dans la vente en ligne ? ; Par le double-clic et l'accusé de réception (art. 1127-2 du Code civil).
+En quoi consiste la procédure du double-clic ? ; 1er clic : le client vérifie le récapitulatif de sa commande (produits, quantité, prix) et la corrige si nécessaire. 2e clic : il confirme la commande et valide les CGV (l'obligation de paiement est explicite).
+Que mentionne l'accusé de réception de la commande ? ; Il est envoyé par voie électronique, sans délai injustifié, et mentionne les éléments essentiels du contrat. Il sert de preuve à la conclusion du contrat.
+Quel est le délai de livraison de la vente en ligne ? ; À la date mentionnée lors de la conclusion du contrat et sous 30 jours. En cas de retard, le consommateur peut demander le remboursement du bien, effectué sous 30 jours, frais de retour compris.
+Quel est le délai du droit de rétractation en vente en ligne ? ; 14 jours, ou 14 jours et 1 an si le vendeur ne l'avait pas mentionné. Le remboursement doit s'effectuer sous 14 jours.
+Qui paie les frais de retour lors d'une rétractation ? ; Le client, sauf si le commerçant a oublié d'en informer le client ou si les frais sont offerts.
+Quels produits ne bénéficient pas du droit de rétractation ? ; Les produits personnalisables et les biens numériques téléchargés dès que la commande est validée (e-books, musique).
+Combien de temps faut-il archiver les contrats commerciaux ? ; 10 ans, pour les contrats d'un montant supérieur à 120 euros.
+Quel tribunal est compétent en cas de litige avec un cybervendeur implanté en France ? ; Celui du lieu de livraison de la chose objet du contrat. Aucune exclusivité de compétence ne peut être imposée dans les CGV.
+Quelle est la valeur juridique d'un écrit électronique (art. 1366 du Code civil) ? ; Il a la même force probante que l'écrit sur support papier, sous réserve que puisse être dûment identifiée la personne dont il émane et qu'il soit établi et conservé dans des conditions de nature à en garantir l'intégrité.
+Quelles deux conditions un document numérique doit-il remplir pour valoir comme preuve ? ; L'authenticité et l'intégrité. En cas de litige, un expert en informatique devra les prouver.
+Que permet la signature électronique ? ; De garantir l'authenticité de l'expéditeur et de vérifier l'intégrité du message reçu.
+Qu'est-ce que l'eIDAS ? ; Electronic IDentification Authentication and trust Services : un règlement de l'Union européenne qui fournit un cadre légal à l'utilisation de la signature électronique et harmonise les règles à l'échelle de l'Union.
+Quels sont les trois niveaux de sécurité de l'eIDAS ? ; Standard, avancé et qualifié.
+Pourquoi recommande-t-on les niveaux avancé et qualifié aux entreprises ? ; Ils font intervenir un tiers de confiance (prestataire comme Docusign, Yousign, Signaturit), ce qui dispense d'une procédure d'expertise en cas de litige.
+Quelle valeur a un courriel comme preuve ? ; Un document numérique qui ne garantit pas l'identité de l'émetteur vaut comme commencement de preuve. Le juge est libre d'en apprécier la valeur probante.
+Quels éléments sont réunis dans une signature, électronique ou manuscrite ? ; Le document, le signataire et l'outil de signature, grâce à un certificat numérique (porté par exemple sur une carte à puce) qui identifie le signataire et fixe le document pour en garantir l'intégrité.
