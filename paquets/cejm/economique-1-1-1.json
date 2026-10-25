@@ -1,0 +1,1050 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "95958ca2-2e81-5c6a-a38c-95ba14ac58ac",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Les agents économiques et leurs échanges",
+    "parentId": null
+   },
+   {
+    "id": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Economique",
+    "parentId": "95958ca2-2e81-5c6a-a38c-95ba14ac58ac"
+   }
+  ],
+  "cards": [
+   {
+    "id": "65b10770-29f3-56f0-aa05-6e29daf276c8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce qu'un agent économique ?",
+    "back": "Un individu ou un groupe d'individus, centre de décision autonome, qui réalise des opérations économiques avec d'autres agents (consommer, produire, accorder des prêts, redistribuer des revenus).",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "2e138d84-ea6a-5210-b0f8-eff1cf002dab",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quel est le synonyme d'agent économique ?",
+    "back": "Acteur économique.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "9e7a32fd-18da-5718-8de9-2db272916bdd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce qu'un secteur institutionnel ?",
+    "back": "Le groupement de millions d'agents économiques ayant la même fonction principale, réalisé par la Comptabilité nationale pour mieux étudier leur rôle et leur comportement.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "907e3464-8a8e-5842-9447-6f2afcd57baa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce que la Comptabilité nationale ?",
+    "back": "Une représentation chiffrée de l'activité économique de la France, réalisée notamment par l'Insee.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "b75b003b-6b75-5d05-a589-530b187eca93",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que signifie Insee ?",
+    "back": "Institut national de la statistique et des études économiques.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "379ab40a-51ff-55c1-b57b-6556d69f1a0e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce que la consommation ?",
+    "back": "L'acte d'acquérir des biens et services pour satisfaire les besoins des agents.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "a5a047fa-9360-58ad-a8d1-971b352cfeff",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce qu'une production marchande ?",
+    "back": "Une production vendue sur un marché à un prix supérieur aux coûts de production, ce qui permet à l'offreur de réaliser un profit.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "56504944-f7d6-5e8e-9d34-841539ca80ff",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce qu'une production non marchande ?",
+    "back": "Une production proposée gratuitement ou à un prix inférieur aux coûts de production (ex. : frais universitaires, entrée dans une piscine municipale, restaurant universitaire).",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "d137c743-4005-535f-b9bb-7bbf371249fb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quels sont les six secteurs institutionnels ?",
+    "back": "Les ménages, les sociétés non financières (SNF), les sociétés financières (SF), les administrations publiques (APU), les institutions sans but lucratif au service des ménages (ISBLSM) et le reste du monde (RDM).",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "0142e1a1-98f0-5587-b9f7-391356e8d104",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que sont les ménages ?",
+    "back": "Les occupants d'un même logement avec ou sans lien de parenté. Les entreprises individuelles y sont incluses.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "5e1e8b16-87a7-5da7-89c1-d819d9239043",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelle est la fonction principale des ménages ?",
+    "back": "La consommation de biens et services.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "89ce696d-06ed-51c4-bf79-42e334400943",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Pourquoi les entreprises individuelles sont-elles considérées comme des ménages ?",
+    "back": "Parce qu'il n'y a pas de distinction juridique entre l'entrepreneur et son entreprise : le patrimoine de l'entreprise est intégré à celui du ménage auquel l'entrepreneur appartient.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "d5071937-4a07-5f31-b003-eb2d46130867",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que sont les sociétés non financières (SNF) ?",
+    "back": "Les entreprises ayant un statut de société (SA, SAS, SARL, etc.) qui ne font pas d'opérations financières.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "11f3baa7-c4d4-57a3-be0c-4d4bde190c23",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelle est la fonction principale des sociétés non financières ?",
+    "back": "Produire des biens et des services marchands.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "2967c9bd-ca53-5036-b137-72a05a6cb3fa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que sont les sociétés financières (SF) ?",
+    "back": "Les agents qui financent l'économie : les banques, les assurances, les mutuelles et les fonds de pension.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "d4bcae1e-d853-53a1-bf08-1074b68104fc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelle est la fonction principale des sociétés financières ?",
+    "back": "Produire des services financiers marchands.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "e15d19b0-1188-5be5-ac1b-15fef540ccfa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que comprennent les administrations publiques (APU) ?",
+    "back": "Les administrations publiques centrales, les administrations publiques locales et les administrations de Sécurité sociale.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "b1c62418-fb9e-5add-8afa-b104fa0f4ebe",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelles sont les administrations publiques centrales ?",
+    "back": "L'État, les ministères, la préfecture, les rectorats et les universités.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "51ab3d41-ad3b-5195-8bee-4c13a02ce653",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelles sont les administrations publiques locales ?",
+    "back": "Les collectivités territoriales et les établissements publics d'enseignement.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "a3f9a46d-0037-5b13-ba05-1d9acd5f2f92",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelles sont les administrations de Sécurité sociale ?",
+    "back": "L'URSSAF, la CAF et les hôpitaux.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "f7278a36-5a99-558e-9bc3-5a707cecdfdd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelle est la fonction principale des administrations publiques ?",
+    "back": "Produire des services publics non marchands.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "e568ab37-f7ca-524c-8051-d039bdec24e7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que sont les ISBLSM ?",
+    "back": "Les organisations sans recherche de profit, au service des ménages : associations, fondations, partis politiques, syndicats.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "96e58659-e7b4-50c5-ae29-6a7da14d9855",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelle est la fonction principale des ISBLSM ?",
+    "back": "Produire des biens et services non marchands.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "c212ea35-443e-528d-aa27-a36cde21f935",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que désigne le reste du monde (RDM) ?",
+    "back": "L'ensemble des agents des autres pays ou des zones économiques (ex. : Union européenne) avec lesquels sont réalisés des échanges (importations ou exportations).",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "849093fb-0498-5375-934a-ab3c7b632407",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "À quel secteur institutionnel appartient un groupe de consommateurs comme UFC-Que Choisir ?",
+    "back": "Aux ISBLSM : c'est une association sans but lucratif.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "f6484f13-1200-5ffb-aea9-3399f34c8cc0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "À quel secteur institutionnel appartient une entreprise qui répare et revend des smartphones ?",
+    "back": "Aux sociétés non financières : elle produit des biens et services marchands.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "0bbd3337-5014-5647-96e1-a0b5f330710e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "À quel secteur institutionnel appartient la CAF ?",
+    "back": "Aux administrations publiques (administration de Sécurité sociale) : elle produit des services non marchands.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "e4e04c78-1c05-5284-83db-e24c026e91f5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "À quel secteur institutionnel appartient un lycée professionnel public ?",
+    "back": "Aux administrations publiques (administration locale) : il produit des services non marchands.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "eb9e8bd6-47bf-56f3-9fad-21529f7bdcdb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "À quel secteur institutionnel appartient une banque comme la Banque populaire ?",
+    "back": "Aux sociétés financières : elle produit des services financiers marchands.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "f1d41a2e-3dd9-5869-8f74-965a07848cfb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Pourquoi les individus échangent-ils des produits ?",
+    "back": "Ils ne peuvent pas produire eux-mêmes tout ce dont ils ont besoin : ils se spécialisent dans une activité et échangent des produits (biens, services, travail, capitaux) contre un paiement en nature ou en monnaie.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "d199f6e0-12dc-595a-8406-66e632f7f896",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce que le circuit économique ?",
+    "back": "La représentation schématique des échanges entre les agents économiques, avec deux types de flux : les flux réels et les flux monétaires.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "250a7dcd-2af7-5c09-9939-9412266d1a71",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce qu'un flux réel ?",
+    "back": "Un échange de services, de biens, de marchandises ou de matières premières.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "2294f041-8b7a-5e72-a8da-6759cf1dcb52",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce qu'un flux monétaire ?",
+    "back": "Un échange de monnaie.",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "535fe2df-c583-586f-88fa-3b9481dc82fd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que sont les capitaux fixes ?",
+    "back": "L'ensemble des actifs corporels ou incorporels destinés à être utilisés dans le processus de production pendant au moins un an. Ils correspondent à l'investissement.",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "dfec00b6-1328-5d7f-abaf-fb7e3efee666",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce que l'investissement ?",
+    "back": "L'acquisition de capitaux fixes : l'achat de biens d'équipement durables (plus d'un an).",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "66e05f28-db3d-562d-9578-e082387b4c52",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que sont les capitaux circulants ?",
+    "back": "L'ensemble des moyens de production détruits ou transformés au cours du processus de production, dont la durée d'utilisation est inférieure à un an (matières premières, énergie).",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "cc2b7f62-0342-5773-a949-084501e0cbf5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que sont les consommations intermédiaires ?",
+    "back": "L'achat de capital circulant : les valeurs qui n'ont pas été produites par l'entreprise mais par ses fournisseurs.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "7e8a1359-67d2-5847-92b6-f2c9524e04a8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Que sont les prélèvements obligatoires ?",
+    "back": "L'ensemble des versements effectifs opérés par tous les agents économiques aux administrations publiques : impôts, taxes, cotisations sociales.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "244d33a7-0057-53c7-b694-06b0846f3707",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce qu'une subvention ?",
+    "back": "Une aide financière allouée par une personne publique pour financer une activité d'intérêt général. Le bénéficiaire peut être public ou privé (entreprise, association, personne).",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   },
+   {
+    "id": "5c7b3ec4-9464-54ee-b8ff-203e178ce54c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce qu'un don ?",
+    "back": "Une contribution volontaire en espèces ou en nature.",
+    "createdAt": "2000-01-01T00:00:39.000Z"
+   },
+   {
+    "id": "bcf9633b-2147-544f-aaea-f8468232cc55",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce que l'inflation ?",
+    "back": "Une augmentation durable et générale des prix des biens et des services, aussi caractérisée par l'accroissement de la circulation de la monnaie (masse monétaire).",
+    "createdAt": "2000-01-01T00:00:40.000Z"
+   },
+   {
+    "id": "19304cfa-e982-5be8-87dd-90428bc91989",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce que la déflation ?",
+    "back": "Un phénomène de baisse générale des prix constatée sur une période suffisamment longue.",
+    "createdAt": "2000-01-01T00:00:41.000Z"
+   },
+   {
+    "id": "a3836622-e5c5-5685-a163-bfe2f799d108",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Qu'est-ce qu'un crédit ?",
+    "back": "L'acte par lequel une personne, généralement un banquier, met à la disposition d'une autre personne une somme d'argent ou un bien qui devra être restitué.",
+    "createdAt": "2000-01-01T00:00:42.000Z"
+   },
+   {
+    "id": "6a3625d8-1a64-577e-bae4-c5cd57b2bb25",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelles sont des ressources financières des ménages ?",
+    "back": "Le salaire, le profit de l'entreprise individuelle, les revenus du patrimoine particulier, les pensions de retraite, les indemnités de congé maladie, les allocations familiales et les bourses des étudiants.",
+    "createdAt": "2000-01-01T00:00:43.000Z"
+   },
+   {
+    "id": "1ba17a83-c43b-5c55-ada3-b226488af842",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelles sont des ressources financières des sociétés financières ?",
+    "back": "Le profit et les intérêts des prêts.",
+    "createdAt": "2000-01-01T00:00:44.000Z"
+   },
+   {
+    "id": "d6d84cca-179c-54ba-bb10-ad0332057662",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelles sont des ressources financières des administrations publiques ?",
+    "back": "Les prélèvements obligatoires (impôts et taxes) : la TVA et les cotisations sociales.",
+    "createdAt": "2000-01-01T00:00:45.000Z"
+   },
+   {
+    "id": "af3115a7-1dc3-5f0b-b7ca-4740072bbc46",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelles sont des ressources financières des ISBLSM ?",
+    "back": "Les adhésions et cotisations des membres, les subventions publiques, les revenus de la propriété et les dons.",
+    "createdAt": "2000-01-01T00:00:46.000Z"
+   },
+   {
+    "id": "f5713101-2005-5b56-af7c-f9839ccb95b9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5bd1d2e-9d1c-520a-a82d-104de9ce12b4",
+    "front": "Quelles sont des ressources financières du reste du monde ?",
+    "back": "Le montant des importations et des exportations de biens et services.",
+    "createdAt": "2000-01-01T00:00:47.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "a05d31aa-0aa9-5d4a-86ed-6a3833437a07",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "65b10770-29f3-56f0-aa05-6e29daf276c8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a819b731-c940-54e2-b722-b488c614d4ec",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2e138d84-ea6a-5210-b0f8-eff1cf002dab",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a1ee917f-ae2b-5a04-89ba-0de1703a1d0a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9e7a32fd-18da-5718-8de9-2db272916bdd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d3735ea9-f378-53fb-9220-8d461d4a50ff",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "907e3464-8a8e-5842-9447-6f2afcd57baa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6e438a55-26f7-56dc-9ba3-adaceddf7503",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b75b003b-6b75-5d05-a589-530b187eca93",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dd1c2a5d-27b7-5dab-9c96-d6427918bed0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "379ab40a-51ff-55c1-b57b-6556d69f1a0e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "24c6d450-a5b8-5a5e-b4c1-3e19ef4e0f69",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a5a047fa-9360-58ad-a8d1-971b352cfeff",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c94b5788-97b0-5c81-a2d5-d969d9f3d87d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "56504944-f7d6-5e8e-9d34-841539ca80ff",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e8f38ab7-dbcf-578e-9e38-f9db1848dd5f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d137c743-4005-535f-b9bb-7bbf371249fb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d2426250-1891-58e2-8c70-7cc775d7dfce",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0142e1a1-98f0-5587-b9f7-391356e8d104",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "66e477b0-b50d-5940-ac9d-aff8117ddd97",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5e1e8b16-87a7-5da7-89c1-d819d9239043",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3d606ad1-e008-5332-9195-e4649e589a98",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "89ce696d-06ed-51c4-bf79-42e334400943",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d23a5d3d-41ae-5148-8efd-e65cd54ea89c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d5071937-4a07-5f31-b003-eb2d46130867",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7de8e91f-14b3-5b29-b0ee-8973682c736b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "11f3baa7-c4d4-57a3-be0c-4d4bde190c23",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ea3c314b-f314-5dec-9e3b-fea806cee2e8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2967c9bd-ca53-5036-b137-72a05a6cb3fa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2249ddb5-8e9e-5791-bfc5-0b9f39fce37c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d4bcae1e-d853-53a1-bf08-1074b68104fc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ff941207-8849-590b-ba8a-c6b12241e958",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e15d19b0-1188-5be5-ac1b-15fef540ccfa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "68e00080-5e93-5500-afcf-598ad2caa852",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b1c62418-fb9e-5add-8afa-b104fa0f4ebe",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a0813f22-b300-5d98-be8e-e7a079c1e543",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "51ab3d41-ad3b-5195-8bee-4c13a02ce653",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1e02ce8f-8823-59c4-868a-e475852cc2c9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a3f9a46d-0037-5b13-ba05-1d9acd5f2f92",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7cd0d0df-7857-571c-aeee-9711b2ec5c47",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f7278a36-5a99-558e-9bc3-5a707cecdfdd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "002310b4-96e6-5a49-87a8-10140b4dc2e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e568ab37-f7ca-524c-8051-d039bdec24e7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4e7a69c3-1bbe-5062-a177-87d0d08cd1c1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "96e58659-e7b4-50c5-ae29-6a7da14d9855",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0b49185c-04f8-5c3d-b830-7e6e7eda5a9d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c212ea35-443e-528d-aa27-a36cde21f935",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "407ebcfa-5948-5649-96f7-046f25b6d298",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "849093fb-0498-5375-934a-ab3c7b632407",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fb7c0cdd-544c-545a-9aa3-45ad71421f67",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f6484f13-1200-5ffb-aea9-3399f34c8cc0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7b6c693b-571c-5d65-bc0c-fd49c66b2f48",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0bbd3337-5014-5647-96e1-a0b5f330710e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "92dbd6fc-124b-50ad-9be3-28fecc0515ed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e4e04c78-1c05-5284-83db-e24c026e91f5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0c84ef10-3e64-5d3b-9ac8-8318a50b31ed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eb9e8bd6-47bf-56f3-9fad-21529f7bdcdb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "88d6861d-263a-504e-ab30-e7338043247d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f1d41a2e-3dd9-5869-8f74-965a07848cfb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d3372430-3718-5e01-8f42-c346ef23f1bf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d199f6e0-12dc-595a-8406-66e632f7f896",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3c59da6f-5cb8-543e-bb7e-b495a6c3667f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "250a7dcd-2af7-5c09-9939-9412266d1a71",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "833d2e18-eee4-5060-bc11-a613fd78da6c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2294f041-8b7a-5e72-a8da-6759cf1dcb52",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "65249a72-fe26-550d-993c-bd933f3d05a5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "535fe2df-c583-586f-88fa-3b9481dc82fd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2dc6cfaf-ddc5-59b0-ab92-19cbaa191ffe",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dfec00b6-1328-5d7f-abaf-fb7e3efee666",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f4465f6f-b94f-574f-b8dd-1f607ae03d27",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "66e05f28-db3d-562d-9578-e082387b4c52",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "aeb5aa45-30cf-54de-a616-00925ee95305",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cc2b7f62-0342-5773-a949-084501e0cbf5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "28517fd6-05af-51fb-af8d-d731aac4ed6e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7e8a1359-67d2-5847-92b6-f2c9524e04a8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dcfa2a7b-359f-5de4-a9aa-862dbf9604eb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "244d33a7-0057-53c7-b694-06b0846f3707",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "79b97351-5f81-52bc-8333-41804f8777f3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5c7b3ec4-9464-54ee-b8ff-203e178ce54c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5b6f1fff-1292-5946-be23-8ff59c808551",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bcf9633b-2147-544f-aaea-f8468232cc55",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2c00d509-3e8a-52de-974d-e7f6a1b548bb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "19304cfa-e982-5be8-87dd-90428bc91989",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b4500c02-5110-57d1-875f-cbdfb0f9cd6a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a3836622-e5c5-5685-a163-bfe2f799d108",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7225acd5-ba81-5927-8536-954220b417b3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6a3625d8-1a64-577e-bae4-c5cd57b2bb25",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e8a63a38-fe39-58f4-bcd8-fdb381cdec5c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1ba17a83-c43b-5c55-ada3-b226488af842",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b5320092-2d8b-5e8f-9b3a-d14c65d54667",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d6d84cca-179c-54ba-bb10-ad0332057662",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "74784b13-6d52-5b1e-8279-b6256f92b952",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "af3115a7-1dc3-5f0b-b7ca-4740072bbc46",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5d3a2f9a-91b8-5120-8ce4-448bfbca18e1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f5713101-2005-5b56-af7c-f9839ccb95b9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

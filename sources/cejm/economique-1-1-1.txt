@@ -1,7 +1,7 @@
 # Matière : CEJM
-# Parent : Economique
-# Paquet : Les agents économiques et leurs échanges - Pages 1 et 2
-# Description : Les agents économiques, la production, la consommation et les six secteurs institutionnels.
+# Parent : Les agents économiques et leurs échanges
+# Paquet : Economique
+# Description : Les agents économiques, les six secteurs institutionnels, le circuit économique et son lexique.
 
 Qu'est-ce qu'un agent économique ? ; Un individu ou un groupe d'individus, centre de décision autonome, qui réalise des opérations économiques avec d'autres agents (consommer, produire, accorder des prêts, redistribuer des revenus).
 Quel est le synonyme d'agent économique ? ; Acteur économique.
@@ -32,3 +32,22 @@ Que désigne le reste du monde (RDM) ? ; L'ensemble des agents des autres pays o
 À quel secteur institutionnel appartient la CAF ? ; Aux administrations publiques (administration de Sécurité sociale) : elle produit des services non marchands.
 À quel secteur institutionnel appartient un lycée professionnel public ? ; Aux administrations publiques (administration locale) : il produit des services non marchands.
 À quel secteur institutionnel appartient une banque comme la Banque populaire ? ; Aux sociétés financières : elle produit des services financiers marchands.
+Pourquoi les individus échangent-ils des produits ? ; Ils ne peuvent pas produire eux-mêmes tout ce dont ils ont besoin : ils se spécialisent dans une activité et échangent des produits (biens, services, travail, capitaux) contre un paiement en nature ou en monnaie.
+Qu'est-ce que le circuit économique ? ; La représentation schématique des échanges entre les agents économiques, avec deux types de flux : les flux réels et les flux monétaires.
+Qu'est-ce qu'un flux réel ? ; Un échange de services, de biens, de marchandises ou de matières premières.
+Qu'est-ce qu'un flux monétaire ? ; Un échange de monnaie.
+Que sont les capitaux fixes ? ; L'ensemble des actifs corporels ou incorporels destinés à être utilisés dans le processus de production pendant au moins un an. Ils correspondent à l'investissement.
+Qu'est-ce que l'investissement ? ; L'acquisition de capitaux fixes : l'achat de biens d'équipement durables (plus d'un an).
+Que sont les capitaux circulants ? ; L'ensemble des moyens de production détruits ou transformés au cours du processus de production, dont la durée d'utilisation est inférieure à un an (matières premières, énergie).
+Que sont les consommations intermédiaires ? ; L'achat de capital circulant : les valeurs qui n'ont pas été produites par l'entreprise mais par ses fournisseurs.
+Que sont les prélèvements obligatoires ? ; L'ensemble des versements effectifs opérés par tous les agents économiques aux administrations publiques : impôts, taxes, cotisations sociales.
+Qu'est-ce qu'une subvention ? ; Une aide financière allouée par une personne publique pour financer une activité d'intérêt général. Le bénéficiaire peut être public ou privé (entreprise, association, personne).
+Qu'est-ce qu'un don ? ; Une contribution volontaire en espèces ou en nature.
+Qu'est-ce que l'inflation ? ; Une augmentation durable et générale des prix des biens et des services, aussi caractérisée par l'accroissement de la circulation de la monnaie (masse monétaire).
+Qu'est-ce que la déflation ? ; Un phénomène de baisse générale des prix constatée sur une période suffisamment longue.
+Qu'est-ce qu'un crédit ? ; L'acte par lequel une personne, généralement un banquier, met à la disposition d'une autre personne une somme d'argent ou un bien qui devra être restitué.
+Quelles sont des ressources financières des ménages ? ; Le salaire, le profit de l'entreprise individuelle, les revenus du patrimoine particulier, les pensions de retraite, les indemnités de congé maladie, les allocations familiales et les bourses des étudiants.
+Quelles sont des ressources financières des sociétés financières ? ; Le profit et les intérêts des prêts.
+Quelles sont des ressources financières des administrations publiques ? ; Les prélèvements obligatoires (impôts et taxes) : la TVA et les cotisations sociales.
+Quelles sont des ressources financières des ISBLSM ? ; Les adhésions et cotisations des membres, les subventions publiques, les revenus de la propriété et les dons.
+Quelles sont des ressources financières du reste du monde ? ; Le montant des importations et des exportations de biens et services.

@@ -1,0 +1,1281 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "acc44556-06ed-5a29-88a5-753c58db2d4f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "De quelle manière l'entreprise s'inscrit-elle dans son environnement ?",
+    "parentId": null
+   },
+   {
+    "id": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Managériale",
+    "parentId": "acc44556-06ed-5a29-88a5-753c58db2d4f"
+   }
+  ],
+  "cards": [
+   {
+    "id": "ab952753-9fee-52b8-aa26-c94d0f5ed126",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce qu'une partie prenante (Edward Freeman, 1984) ?",
+    "back": "Tout individu ou groupe d'individus qui peut affecter ou être affecté par la réalisation des objectifs de l'organisation.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "da6ceb7c-5f33-553a-b93f-386c43d25fdf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Que sont les parties prenantes primaires ?",
+    "back": "Celles qui ont un contrat avec l'organisation, sont en relation directe avec elle et peuvent menacer sa survie.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "4ef025d9-3546-5a8b-867f-9773aa22f823",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Que sont les parties prenantes secondaires ?",
+    "back": "Celles qui n'ont pas de lien contractuel avec l'organisation et ne sont pas essentielles à sa survie.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "33718a05-eef0-5a7d-881a-ffb94e2fb743",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Donnez des parties prenantes primaires internes.",
+    "back": "Les salariés, les propriétaires (actionnaires d'une SA ou d'une SAS) et les représentants du personnel (CSE).",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "3cdb252e-05b3-58c3-8412-4d8e873d7be3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Donnez des parties prenantes primaires externes.",
+    "back": "Les clients et usagers, les fournisseurs et les sous-traitants.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "1fb49c6a-be67-5597-a823-e1587fd515ee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Donnez des parties prenantes secondaires externes.",
+    "back": "Les concurrents, les administrations, les pouvoirs publics, les associations et les médias.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "5e151b38-6f14-5e1c-9916-4770bad29f8e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Y a-t-il des parties prenantes secondaires internes ?",
+    "back": "Non, seules les parties prenantes secondaires externes existent.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "7af0c842-141b-517a-8dd5-45a66fc12605",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "De quoi dépend la pérennité de l'entreprise ?",
+    "back": "De la seule satisfaction des parties prenantes primaires, puisque ce sont les seules à pouvoir menacer sa survie.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "b1926ac8-3c3b-5977-b97f-93454a51dcd6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Quelles questions toute organisation doit-elle résoudre avec ses parties prenantes ?",
+    "back": "Quels compromis établir entre les résultats espérés par chacune, et comment et dans quel ordre fournir à chacune ce qu'elle attend.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "aeb143ba-9b97-53a3-bc15-baaec41c391b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce que la finalité de l'entreprise ?",
+    "back": "Sa raison d'être : l'orientation générale que veulent poursuivre les fondateurs sur le long terme.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "eea409d8-f570-53d3-a445-659ce0693512",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce qu'une finalité économique ?",
+    "back": "Créer de la valeur financière en réalisant du profit afin d'être pérenne et de satisfaire différentes parties prenantes (ex. : redistribuer les bénéfices aux propriétaires).",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "ed2e472b-2102-5c32-bd43-a81bd59ff9b3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce qu'une finalité sociale ?",
+    "back": "Répondre aux attentes des salariés, leur assurer un travail, une reconnaissance et une qualité de vie convenable (ex. : leur fournir des conditions matérielles comme un ordinateur ou une voiture).",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "5847caca-2d39-5380-939a-8adb94ce056f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce qu'une finalité sociétale ?",
+    "back": "Contribuer au bien-être de la société et prendre en compte les préoccupations environnementales des êtres humains dans ses activités.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "8bbb89b3-3498-5184-b74e-810c75b6c5a3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Quelle est la différence entre finalité et objectif ?",
+    "back": "L'objectif est le moyen d'atteindre la finalité. Les finalités sont à long terme, les objectifs à plus court terme, précis, mesurables et communiqués (économiques, sociaux ou sociétaux).",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "d0c9b405-5b00-5f25-b72b-5b5c66dee17b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Que dit Peter Drucker sur le profit ?",
+    "back": "Réaliser du profit n'est pas une finalité mais un objectif : la finalité est de développer et satisfaire une clientèle pour être pérenne, avec des objectifs clairs (marketing, innovation, ressources humaines, ressources financières, productivité, responsabilité sociale, profit).",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "a4066e07-3f1f-5afd-b91d-857fc12e1b93",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce que la performance d'une entreprise ?",
+    "back": "La capacité à atteindre ses objectifs fixés (efficacité) en optimisant les ressources à sa disposition (efficience).",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "e5334ad7-08d9-5f32-8fd0-9f60c5cbbe5f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Quelle est la formule de la performance ?",
+    "back": "Performance = efficacité + efficience.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "c262fc8c-08a4-5f9c-bb61-aed21f119f38",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Que mesurent les critères et indicateurs de performance ?",
+    "back": "Le niveau de réalisation des objectifs à atteindre. Un indicateur peut être quantitatif (ex. : taux de part de marché) ou qualitatif (ex. : note de satisfaction client).",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "1da6bc1e-8c1a-5e80-89ee-401910d4dd49",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce qu'un tableau de bord ?",
+    "back": "Un outil qui regroupe des critères et mesure les écarts entre les différents objectifs et les résultats obtenus.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "878614ca-b147-54b7-b8fd-3dcd135ebf10",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "À quoi servent les rapports d'activité ?",
+    "back": "Ce sont les outils pour communiquer les résultats de performance.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "12f20829-d219-51ab-84f6-5e9eec3b904c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'évalue la performance économique ?",
+    "back": "La performance financière (rentabilité, productivité, coûts, chiffre d'affaires, résultat net, dividende versé aux propriétaires) et la performance commerciale (part de marché, innovation, satisfaction client, qualité de service, notoriété, réputation).",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "c477103d-663f-5810-8d5a-8b49aac018ee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'évalue la performance sociale ?",
+    "back": "Le bilan social, le climat social, la promotion, l'implication des salariés, l'absentéisme, le turnover, la sécurité au travail, les perspectives de carrière, le développement des compétences et la formation.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "f326310d-ebbc-5cf7-a89f-d3eb8a3cbfb5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'évalue la performance sociétale et environnementale ?",
+    "back": "La parité, l'égalité homme-femme, la discrimination, l'empreinte écologique, le rejet de gaz à effet de serre, le recyclage des déchets et la consommation d'énergie.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "b0cf5621-bffc-5a10-8b4a-ffa6dbc455f4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce que la performance globale ?",
+    "back": "L'ensemble des composantes de la performance : économique, sociale, sociétale et environnementale.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "5fbd1ba1-5b18-57bf-a75c-7211d1a79cba",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce que la RSE ?",
+    "back": "La responsabilité sociétale (ou sociale) des entreprises : l'intégration volontaire par les entreprises de préoccupations sociales et environnementales à leurs activités commerciales et à leurs relations avec les parties prenantes (définition de la Commission européenne).",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "92bae10a-1ad5-54ae-92b4-ef00b34b0963",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "À quels enjeux la RSE contribue-t-elle ?",
+    "back": "Aux enjeux du développement durable.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "703f8f3a-f8c2-52e7-a77c-68e544c5e400",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce que le développement durable (rapport Brundtland, 1987) ?",
+    "back": "Un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de répondre aux leurs.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "ec00c7d5-3c27-56ad-b3fe-267dc7dddb59",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Quels sont les 3 piliers du développement durable ?",
+    "back": "La société (socialement équitable), l'économie (économiquement viable) et l'environnement (écologiquement vivable).",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "4d9854e3-0546-5938-bf2c-9badfe60b5ae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Comment la RSE contribue-t-elle au pilier économique ?",
+    "back": "Par la satisfaction et la fidélisation des clients, la qualité de service, le recours à des fournisseurs locaux, l'accès à l'information et au commerce.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "dba260eb-471b-5dae-9750-0b3a09330cd6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Comment la RSE contribue-t-elle au pilier social ?",
+    "back": "Par le respect des droits des salariés, la formation du personnel et l'égalité hommes-femmes.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "3ef5eef5-7525-53ee-a584-b8130159ffc0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Comment la RSE contribue-t-elle au pilier environnemental ?",
+    "back": "Par le recyclage des déchets et la réduction des gaz à effet de serre.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "a815e1b0-8fbe-5fec-8d71-cd5cd1e0b17b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Que définit la norme ISO 26000 ?",
+    "back": "Le périmètre de la RSE, autour de 7 questions centrales.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "9e9b357b-41d1-519d-b76b-b98e8b6135f2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Quelles sont les 7 questions centrales de la norme ISO 26000 ?",
+    "back": "La gouvernance de l'organisation, les droits de l'homme, les relations et conditions de travail, l'environnement, la loyauté des pratiques, les questions relatives aux consommateurs, les communautés et le développement local.",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "3292650a-17ff-5e74-8158-2feafd34fd55",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Combien de grandes phases comporte la création d'entreprise ?",
+    "back": "Trois grandes phases, qui se décomposent chacune en plusieurs étapes.",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "598231ef-4c50-50b7-8b02-ed3e9691785b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Quelles sont les 7 étapes de la création d'entreprise ?",
+    "back": "Trouver une idée, réaliser une étude de marché, monter un business plan, chercher un financement, obtenir des subventions, rédiger les statuts juridiques, faire les formalités administratives.",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "e6822c57-c8bc-5233-8fca-efb7e878291f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "D'où part toute création d'entreprise ?",
+    "back": "D'une opportunité ou d'un besoin à satisfaire. Il n'y a pas de bonne ou de mauvaise idée : c'est souvent une intuition qu'il faut approfondir.",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "115a8108-8166-578a-858b-7cff4974fff2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Que faut-il décrire pour approfondir une idée d'entreprise ?",
+    "back": "Le bien ou le service envisagé (utilité, usage, performance) et le fonctionnement de l'entreprise à créer.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "993bf6b7-4754-5fdd-b828-62c33bc26adf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "À quoi sert l'étude de marché ?",
+    "back": "À découvrir le marché et ses tendances : connaître les acheteurs et leurs besoins, estimer la demande potentielle et identifier les concurrents.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "87140794-f25f-58bd-bc80-fefe3a42ac65",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Quelle stratégie commerciale définit-on après l'étude de marché ?",
+    "back": "Le prix, la distribution (les canaux, selon chaque segment de clientèle) et la communication (le message pour séduire et fidéliser la clientèle).",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   },
+   {
+    "id": "ad54b02f-84a7-583d-8197-57aa10ca6d07",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce qu'un business plan ?",
+    "back": "Un dossier qui présente le projet de création d'entreprise aux investisseurs (banque, Business Angels) pour les convaincre de le financer.",
+    "createdAt": "2000-01-01T00:00:39.000Z"
+   },
+   {
+    "id": "2bde5ae5-e434-54e6-aca5-b2ee37a25a54",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Que contient un business plan ?",
+    "back": "Une description du projet, une présentation des créateurs et du concept, une étude économique et le plan d'action envisagé.",
+    "createdAt": "2000-01-01T00:00:40.000Z"
+   },
+   {
+    "id": "cd137b29-fec4-5c8a-aa2f-1f79ab2a9435",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Quelles sources de financement peut-on combiner pour créer une entreprise ?",
+    "back": "Les capitaux de départ (apports des créateurs), la levée de fonds, les prêts bancaires, les fonds d'aide privés, le soutien d'organismes publics, le financement participatif et le financement par les amis.",
+    "createdAt": "2000-01-01T00:00:41.000Z"
+   },
+   {
+    "id": "5bd6254d-074e-556c-a96d-75781a58b33c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Que sont les capitaux de départ d'une entreprise ?",
+    "back": "Les apports des créateurs (fonds propres), qui constituent le capital social.",
+    "createdAt": "2000-01-01T00:00:42.000Z"
+   },
+   {
+    "id": "10ed5e04-e047-5b3c-b5e6-69ccbe0818cf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce que la levée de fonds ?",
+    "back": "Des apports d'investisseurs.",
+    "createdAt": "2000-01-01T00:00:43.000Z"
+   },
+   {
+    "id": "97982369-aede-58a0-aceb-fc7bed02feb2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce que la love money ?",
+    "back": "Le financement par les amis.",
+    "createdAt": "2000-01-01T00:00:44.000Z"
+   },
+   {
+    "id": "48d1335a-4d0a-54e4-8efa-90cf29d65647",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Quels organismes publics peuvent soutenir financièrement la création ?",
+    "back": "L'État, la Région, le Département, Bpifrance.",
+    "createdAt": "2000-01-01T00:00:45.000Z"
+   },
+   {
+    "id": "8508233d-84f0-59d3-91ce-4b4192370d37",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Que peut-on obtenir de l'État et des collectivités territoriales ?",
+    "back": "Des aides pour soutenir la création : aides financières, allègements fiscaux, exonération de charges sociales, mise à disposition de locaux (les subventions).",
+    "createdAt": "2000-01-01T00:00:46.000Z"
+   },
+   {
+    "id": "4a2ea625-f8c6-5537-8a60-1665ec1eb253",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Pourquoi le choix de la structure juridique est-il important ?",
+    "back": "Il entraîne des conséquences fiscales et sociales, a un impact important sur la vie de l'entreprise et sur ses possibilités d'évolution. Il dépend de l'activité et du nombre d'associés.",
+    "createdAt": "2000-01-01T00:00:47.000Z"
+   },
+   {
+    "id": "1c2c26ee-00db-587d-bc75-cd87419a1ce9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce que le CFE ?",
+    "back": "Le centre de formalités des entreprises : un interlocuteur unique qui centralise les pièces du dossier et les transmet aux organismes et administrations concernés par la création d'une entreprise.",
+    "createdAt": "2000-01-01T00:00:48.000Z"
+   },
+   {
+    "id": "101b159e-1858-59a9-b893-f1bb092ff95c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "À quoi servent les dernières formalités de création ?",
+    "back": "À se rapprocher de l'administration pour déclarer l'activité et obtenir une immatriculation.",
+    "createdAt": "2000-01-01T00:00:49.000Z"
+   },
+   {
+    "id": "cec4305a-3232-5831-826e-b2ab76b41913",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce que la démarche entrepreneuriale ?",
+    "back": "La volonté d'une ou plusieurs personnes qui, à partir d'une idée, mettent sur pied un projet qui aboutit à la création ou à la reprise d'une entreprise (ou d'une activité).",
+    "createdAt": "2000-01-01T00:00:50.000Z"
+   },
+   {
+    "id": "3aea4b9c-7c45-53a1-b4b1-d92e87df4cdc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Comment Joseph Schumpeter définit-il l'entrepreneur ?",
+    "back": "Un individu visionnaire doté d'une intuition, créatif capable d'innover, et qui prend des risques (investissements, engagements contractuels).",
+    "createdAt": "2000-01-01T00:00:51.000Z"
+   },
+   {
+    "id": "7f99ab94-5345-5b09-8f06-0818e5c5d624",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qui est Joseph Schumpeter ?",
+    "back": "Un économiste autrichien (1883-1950), qui a défini l'entrepreneur.",
+    "createdAt": "2000-01-01T00:00:52.000Z"
+   },
+   {
+    "id": "a8d485ad-52e0-5c78-88bf-22229c3855cb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'apporte l'innovation à l'entrepreneur ?",
+    "back": "Un certain monopole naturel.",
+    "createdAt": "2000-01-01T00:00:53.000Z"
+   },
+   {
+    "id": "a0fb8c93-72d4-5ba0-9c7c-ea4b21b48431",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qu'est-ce que la démarche managériale ?",
+    "back": "La capacité du manager à gérer de manière optimale les ressources pour assurer le développement et la pérennité de l'entreprise.",
+    "createdAt": "2000-01-01T00:00:54.000Z"
+   },
+   {
+    "id": "3e2e3edc-a0ba-548d-b60b-2273ea1d5a70",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Comment Peter Drucker définit-il le manager ?",
+    "back": "Il fixe des objectifs à court et moyen termes, définit les moyens à mettre en œuvre (budget, recettes, dépenses), anime et dirige les ressources humaines, contrôle les résultats obtenus et élabore des actions correctrices.",
+    "createdAt": "2000-01-01T00:00:55.000Z"
+   },
+   {
+    "id": "f83ac23b-5cf4-5e2d-ae30-611a0d94f820",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Qui est Peter Drucker ?",
+    "back": "Un professeur autrichien (1909-2005), qui a défini le manager.",
+    "createdAt": "2000-01-01T00:00:56.000Z"
+   },
+   {
+    "id": "932cbbc0-e997-5035-a6eb-492c4250da6d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Pourquoi les démarches entrepreneuriale et managériale sont-elles complémentaires ?",
+    "back": "Pour être compétitive, l'entreprise doit provoquer le changement et innover pour surprendre ses concurrents, tout en gérant de manière optimale ses ressources pour être rentable et réaliser un profit.",
+    "createdAt": "2000-01-01T00:00:57.000Z"
+   },
+   {
+    "id": "53862b67-7c4e-5978-90cb-508f110ade71",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9eb60384-d4d0-5a1e-9a58-347723c01a87",
+    "front": "Que doit faire l'entrepreneur quand l'entreprise se développe ?",
+    "back": "Il est obligé d'endosser le rôle de manager pour assurer sa pérennité.",
+    "createdAt": "2000-01-01T00:00:58.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "e1904ac0-27ab-5d4c-93ff-8daff0dc93cd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ab952753-9fee-52b8-aa26-c94d0f5ed126",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "41af7b6d-40f8-58de-8810-3319fb2d2774",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "da6ceb7c-5f33-553a-b93f-386c43d25fdf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0a524475-92d7-5713-81ab-73d0a66b2ea1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4ef025d9-3546-5a8b-867f-9773aa22f823",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "86f8213f-a344-5ed4-9184-0f5bacf8e171",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "33718a05-eef0-5a7d-881a-ffb94e2fb743",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "151b4508-93ff-5e4f-a744-8361e8a1a948",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3cdb252e-05b3-58c3-8412-4d8e873d7be3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bb01434e-45a9-54ee-af9a-6e16c2e214b4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1fb49c6a-be67-5597-a823-e1587fd515ee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "571ac1f5-a98f-500f-9fc4-104b9d152c89",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5e151b38-6f14-5e1c-9916-4770bad29f8e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ebc99c7d-1998-5ca4-b7fe-4b11db15c02e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7af0c842-141b-517a-8dd5-45a66fc12605",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3c02c3bd-9931-568c-bea6-c0b10d85e1c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b1926ac8-3c3b-5977-b97f-93454a51dcd6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3aa7c008-9208-5104-a9b9-f8da09bcd04e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "aeb143ba-9b97-53a3-bc15-baaec41c391b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1f7e83bd-e150-5459-aa84-f81a1571af80",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eea409d8-f570-53d3-a445-659ce0693512",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dcae5a9a-abb8-5ead-87de-dad80babe159",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ed2e472b-2102-5c32-bd43-a81bd59ff9b3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0b391d96-7cb1-55d3-b0b9-a80c62827275",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5847caca-2d39-5380-939a-8adb94ce056f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3a460110-200e-5aed-9340-0916db954fc3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8bbb89b3-3498-5184-b74e-810c75b6c5a3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "57c29643-7707-5e1f-bfef-e07ba0e8e6bd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d0c9b405-5b00-5f25-b72b-5b5c66dee17b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "514c0191-1535-5351-b073-19d62b96698a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a4066e07-3f1f-5afd-b91d-857fc12e1b93",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "98d78737-c748-50c1-86fb-480689e0085e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e5334ad7-08d9-5f32-8fd0-9f60c5cbbe5f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4065322f-d809-5e67-931c-c99aa4dd6333",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c262fc8c-08a4-5f9c-bb61-aed21f119f38",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2f971869-1528-5f83-8c6b-a711c7739274",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1da6bc1e-8c1a-5e80-89ee-401910d4dd49",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f1fc0473-bcbb-52a1-8028-08884daaf42e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "878614ca-b147-54b7-b8fd-3dcd135ebf10",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8e5e1117-1cef-59ff-bfb8-15f94111ad44",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "12f20829-d219-51ab-84f6-5e9eec3b904c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1024a841-10d1-5e91-ad9a-2e84cdc2c5c8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c477103d-663f-5810-8d5a-8b49aac018ee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f019edcd-7a8b-5f7b-986a-b9a40675edc5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f326310d-ebbc-5cf7-a89f-d3eb8a3cbfb5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "19a78c0a-3b5e-53a2-9310-4763d91c582d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b0cf5621-bffc-5a10-8b4a-ffa6dbc455f4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1bd4b0fd-c395-5d38-8ac2-38de7001a9e9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5fbd1ba1-5b18-57bf-a75c-7211d1a79cba",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c5846e07-4678-5326-9ac8-b5c03fe746aa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "92bae10a-1ad5-54ae-92b4-ef00b34b0963",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "257cdb25-b07c-5f49-b4d1-73361b148b7d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "703f8f3a-f8c2-52e7-a77c-68e544c5e400",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "72588caa-8df4-5ca9-819f-31f03e98978c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ec00c7d5-3c27-56ad-b3fe-267dc7dddb59",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5d5b1b00-cb3e-5ecd-a0ed-298f6387c1a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4d9854e3-0546-5938-bf2c-9badfe60b5ae",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "023acbb9-2500-59c3-ac7d-76d7ad0313cf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dba260eb-471b-5dae-9750-0b3a09330cd6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "07c68091-b6e7-53e9-8664-da3ed50d3dc4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3ef5eef5-7525-53ee-a584-b8130159ffc0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a2f50d56-0250-5e67-b600-4cdbab485d5f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a815e1b0-8fbe-5fec-8d71-cd5cd1e0b17b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b49b6d16-dbeb-5fea-86e7-a18d67b9802b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9e9b357b-41d1-519d-b76b-b98e8b6135f2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f6f69a26-52cd-5c5d-9db9-8303e2cd700b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3292650a-17ff-5e74-8158-2feafd34fd55",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f99f3aba-fc81-5e48-b706-4ea8e1cb37ed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "598231ef-4c50-50b7-8b02-ed3e9691785b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "617015e2-0f92-56a9-ab1d-0a33545ffe00",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e6822c57-c8bc-5233-8fca-efb7e878291f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c28753b1-5a49-5bab-82f8-981168f88f83",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "115a8108-8166-578a-858b-7cff4974fff2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "21dfd0e4-7e2c-5efa-8881-15fedd8b90c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "993bf6b7-4754-5fdd-b828-62c33bc26adf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "18cdebb6-305d-5ac0-a5a9-ed11c08449f7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "87140794-f25f-58bd-bc80-fefe3a42ac65",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "404ea843-d669-5a0d-9d13-7cdcfd55166b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ad54b02f-84a7-583d-8197-57aa10ca6d07",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3ff63b8f-13ce-547b-aab2-893f39bcd1a7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2bde5ae5-e434-54e6-aca5-b2ee37a25a54",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2456b6a5-7837-54a8-8944-636eb37aa077",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cd137b29-fec4-5c8a-aa2f-1f79ab2a9435",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8fa25532-ee14-52d2-a29d-a311352c08ba",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5bd6254d-074e-556c-a96d-75781a58b33c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d1e49c85-f02d-55eb-8ca0-e0f4a30479cc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "10ed5e04-e047-5b3c-b5e6-69ccbe0818cf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "385ba00d-6c86-57ab-a2aa-976cc994935a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "97982369-aede-58a0-aceb-fc7bed02feb2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3e6a54ee-c56d-5337-85d2-bdc88e43c2fd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "48d1335a-4d0a-54e4-8efa-90cf29d65647",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1a0c6414-827e-5380-bfa2-1b2ee546c4e7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8508233d-84f0-59d3-91ce-4b4192370d37",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "db695023-b2fa-5200-ab13-30a0140c38fc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4a2ea625-f8c6-5537-8a60-1665ec1eb253",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7efee13b-000e-50ca-9665-268e6184c1b2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1c2c26ee-00db-587d-bc75-cd87419a1ce9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6d24a1cd-0672-55fe-982f-ece51240f036",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "101b159e-1858-59a9-b893-f1bb092ff95c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "225e40eb-117e-5ebd-8837-15f026fbc1f5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cec4305a-3232-5831-826e-b2ab76b41913",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f03b80b1-fdb0-5ac5-a805-b3c1d013e36e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3aea4b9c-7c45-53a1-b4b1-d92e87df4cdc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b7960d30-fd98-56bc-8ccf-9b6309ab7914",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7f99ab94-5345-5b09-8f06-0818e5c5d624",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "154f4ad1-c88a-5b2e-bbc4-f3f706775130",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a8d485ad-52e0-5c78-88bf-22229c3855cb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6f33afe0-e652-5ead-ac83-7a876006f9a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a0fb8c93-72d4-5ba0-9c7c-ea4b21b48431",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b1ef826a-7ac1-5ef1-afcc-bf82badb551b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3e2e3edc-a0ba-548d-b60b-2273ea1d5a70",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "399c664a-c173-5418-bd3b-da8e2aa9ad2c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f83ac23b-5cf4-5e2d-ae30-611a0d94f820",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d1d214be-bcb8-55be-90b5-a0cd51b5b176",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "932cbbc0-e997-5035-a6eb-492c4250da6d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c524bf64-df19-5eae-b725-075e5226d4c4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "53862b67-7c4e-5978-90cb-508f110ade71",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

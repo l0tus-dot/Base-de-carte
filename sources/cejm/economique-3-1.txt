@@ -1,0 +1,82 @@
+# Matière : CEJM
+# Parent : Les facteurs économiques et les choix de production
+# Paquet : Economique
+# Description : Les facteurs de production, la valeur ajoutée, la productivité, les coûts de production, la chaîne de valeur et l'impartition.
+
+Qu'est-ce que la production ? ; L'activité économique qui permet la création de biens et de services (output) en exploitant des ressources (input), dont les facteurs de production et les consommations intermédiaires.
+Que sont les facteurs de production ? ; Les éléments utilisés dans plusieurs processus de production et qui ne sont pas détruits ou transformés au cours de ce processus.
+Quels sont les quatre facteurs de production ? ; Le travail, le capital technique fixe, la connaissance et les ressources naturelles.
+Qu'est-ce que le facteur travail ? ; L'activité humaine, rémunérée, pour produire des biens et des services.
+Comment mesure-t-on le facteur travail ? ; Par la qualité du capital humain et par la quantité de travail disponible.
+Qu'est-ce que la qualité du capital humain ? ; Toutes les capacités physiques et intellectuelles à produire d'un individu.
+De quoi dépend la quantité de travail disponible ? ; De la population active et de la durée du travail, qui varie selon les époques, les métiers et les secteurs.
+Qu'est-ce que le capital technique fixe ? ; Les biens durables nécessaires à la production, utilisés pendant plusieurs cycles de production (au moins un an) et qui font l'objet d'un amortissement économique avant d'être renouvelés (ex. : équipements et infrastructures).
+Qu'est-ce que la connaissance comme facteur de production ? ; Les données permettant de connaître l'environnement économique. Dans une économie développée, c'est une ressource clef de la création de richesse.
+Comment faire face à l'accélération du changement (innovation, progrès scientifiques, organisationnels, technologiques) ? ; En investissant dans la formation, la recherche-développement et la veille informationnelle.
+Que sont les ressources naturelles ? ; Les éléments provenant de la terre (sols fertiles, faune, flore), du ciel (climat, énergies solaire et éolienne) et de la mer (espace de transport, régulation thermique).
+Que sont les consommations intermédiaires (capital technique circulant) ? ; La valeur des biens et des services achetés à d'autres entreprises, puis transformés ou entièrement détruits au cours d'un processus de production (matières premières, produits semi-finis, énergie).
+Quelle est la différence entre un input et un output ? ; L'output est le produit fabriqué, l'input est ce que le producteur consomme (produits fournis par d'autres producteurs) pour le fabriquer.
+Qu'est-ce qu'un facteur primaire ? ; Un facteur qui ne subit aucune transformation avant d'entrer dans le processus de production : la terre, les ressources naturelles et le travail.
+Qu'est-ce qu'un facteur secondaire ? ; Un facteur qui a subi une transformation avant d'entrer dans le processus de production : le capital et l'information.
+Que sont les investissements matériels ? ; L'acquisition de capital technique fixe, c'est-à-dire de biens de production durables : équipements (véhicules, machines) et infrastructures (bâtiments, routes).
+Que sont les investissements immatériels ? ; Les dépenses destinées à accroître le potentiel productif qui ne sont pas du capital technique fixe : formation pour améliorer le capital humain, recherche-développement, achat de logiciels, dépôt de brevets, licences, publicité.
+Qu'est-ce que la valeur ajoutée ? ; La richesse créée par les entreprises grâce à leur activité productive.
+Qu'est-ce que le produit intérieur brut (PIB) ? ; La somme de toutes les valeurs ajoutées des entreprises, à l'échelle nationale.
+Comment calcule-t-on la valeur ajoutée ? ; Valeur ajoutée = chiffre d'affaires (CA) - consommations intermédiaires (CI).
+Qu'est-ce que le chiffre d'affaires ? ; La production vendue sur une période donnée.
+Que sont les consommations intermédiaires (CI) dans le calcul de la valeur ajoutée ? ; La richesse créée antérieurement par d'autres entreprises (les fournisseurs).
+Comment sont rémunérés les salariés (facteur travail) sur la valeur ajoutée ? ; Par les salaires.
+Comment est rémunérée l'État (services publics) sur la valeur ajoutée ? ; Par les impôts et taxes.
+Comment sont rémunérés les organismes sociaux (Sécurité sociale) sur la valeur ajoutée ? ; Par les cotisations sociales (salariales et patronales).
+Comment sont rémunérés les organismes prêteurs sur la valeur ajoutée ? ; Par les intérêts.
+Comment sont rémunérés les propriétaires (facteur capital) sur la valeur ajoutée ? ; Par les bénéfices distribués.
+Comment l'entreprise elle-même est-elle rémunérée sur la valeur ajoutée ? ; Par les bénéfices mis en réserve, qui servent à l'autofinancement.
+Qu'est-ce que la combinaison productive ? ; La proportion de capital et de travail utilisée pour produire.
+Que sont des facteurs de production complémentaires ? ; Des facteurs qui ne peuvent pas être remplacés l'un par l'autre, car l'usage de l'un nécessite l'utilisation de l'autre : il n'existe qu'une seule combinaison productive possible.
+Que sont des facteurs de production substituables ? ; Des facteurs qui peuvent être remplacés par un autre : il existe alors plusieurs combinaisons productives possibles (ex. : du développement de lignes de code réalisé avec l'IA et supervisé).
+Qu'est-ce qu'une combinaison productive capitalistique ? ; Une combinaison qui utilise beaucoup de capital technique.
+Pourquoi l'entreprise doit-elle choisir la meilleure combinaison de ses facteurs de production ? ; Afin d'améliorer sa productivité (son efficience).
+Qu'est-ce que la productivité ? ; Un indicateur de performance qui mesure l'efficacité du processus productif : le rapport entre la production réalisée et les quantités de facteurs de production utilisés.
+Qu'est-ce que la productivité du travail ? ; Le rapport entre la production obtenue et la quantité de travail utilisée.
+Quelles sont les deux formes de productivité du travail ? ; La productivité horaire (par le nombre d'heures de travail) et la productivité par tête (par l'effectif de travailleurs employés).
+Qu'est-ce que la productivité du capital ? ; Le rapport entre la production obtenue et la quantité de capital utilisée.
+Qu'est-ce que la productivité globale des facteurs ? ; La part de l'augmentation de la production qui ne résulte ni de la productivité du travail, ni de la productivité du capital (le résidu).
+Comment peut-on calculer la production obtenue pour la productivité ? ; En volume (à partir des quantités produites) ou en valeur (à partir de la valeur ajoutée).
+Que mesurent les gains de productivité ? ; L'accroissement de la productivité sur une période donnée.
+Quelles sont les trois explications d'un gain de productivité ? ; On augmente la production sans modifier les facteurs de production, ou on produit autant en réduisant les facteurs de production, ou on augmente la production et on réduit les facteurs de production.
+Que désigne le coût de production ? ; L'ensemble des charges fixes et variables supportées par l'entreprise pour transformer ou créer des produits intermédiaires, semi-finis ou finis dans son processus productif.
+Comment calcule-t-on le coût de production unitaire ? ; Coût de production unitaire = coût de production total / quantité produite.
+Que sont les charges fixes (CF) ? ; Les coûts indépendants des quantités produites (ex. : loyers, abonnements).
+Que sont les charges variables (CV) ? ; Les coûts dépendants des quantités produites (ex. : matière première, emballages).
+Qu'est-ce que la structure des coûts de production ? ; La répartition du coût total de production entre coût fixe et coût variable.
+À quoi sert la structure des coûts de production ? ; À connaître l'impact d'une baisse de l'activité sur la rentabilité. Plus la part des charges fixes est élevée, plus une baisse d'activité risque de mettre l'entreprise en difficulté.
+Qu'est-ce que la rentabilité ? ; La capacité à obtenir des bénéfices.
+Pourquoi produire de gros volumes permet-il des économies d'échelle ? ; Les charges fixes sont mieux réparties.
+Comment le coût du facteur travail est-il déterminé ? ; Essentiellement par le salaire horaire. Une hausse du SMIC augmente le coût de production, sauf si l'entreprise remplace le travail par du capital. Une baisse des cotisations sociales permet de le réduire.
+Comment le coût du facteur capital est-il déterminé ? ; Essentiellement par le taux d'intérêt.
+Comment le coût des consommations intermédiaires est-il déterminé ? ; Il fluctue selon le contexte de leur production et leur cotation sur le marché (le cours).
+Qu'est-ce qu'une charge directe ? ; Une charge qui peut être directement imputée à un produit.
+Qu'est-ce qu'une charge indirecte ? ; Une charge qui ne peut pas être attribuée en totalité à un produit.
+Comment calcule-t-on le coût total d'un produit ? ; Coût d'achat des matières premières utilisées (CAMPU) ou consommées (CAMPC) + charges de main-d'œuvre directe de production + charges indirectes de production imputées.
+Comment l'entreprise peut-elle financer un investissement ? ; Par un emprunt bancaire : le taux d'intérêt représente alors le coût de cet emprunt.
+Qu'est-ce qu'un investissement au sens du cours ? ; L'acquisition de capital technique fixe et durable.
+Quel est l'effet d'une baisse des taux d'intérêt sur l'investissement ? ; Elle encourage l'emprunt donc l'investissement, et joue sur les modalités de financement choisies par les entreprises.
+Que provoque une baisse des taux d'intérêt directeurs de la BCE ? ; Les banques se refinancent à moindre coût et baissent leurs taux : les crédits aux entreprises se développent, ce qui favorise l'investissement.
+Que provoque une hausse des taux d'intérêt directeurs de la BCE ? ; Les banques commerciales augmentent leurs taux, le crédit devient plus cher : les entreprises reportent ou renoncent à un investissement.
+Que signifie BCE ? ; Banque centrale européenne.
+Qu'est-ce que le développement durable (rapport Brundtland, 1987) ? ; Un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de répondre aux leurs.
+Quels trois objectifs le développement durable doit-il concilier ? ; La croissance économique, les équilibres sociétaux et environnementaux, et les équilibres sociaux.
+Comment le développement durable oblige-t-il les entreprises à adapter leurs décisions ? ; En choisissant des modes de transport avec moins d'externalités négatives, des produits plus économes en matières premières, en intégrant l'écoconception dès la phase d'innovation et en optimisant les processus.
+Quel est le coût et l'intérêt du développement durable pour l'entreprise ? ; Cette contrainte est coûteuse en recherche et développement et en investissements, et risque de limiter la valeur créée à court terme. Mais elle peut aussi créer de la valeur pour le client et être un facteur de compétitivité par la différenciation.
+Qu'est-ce que la chaîne de valeur (Michael Porter, 1985) ? ; Un outil qui permet d'identifier les activités interdépendantes d'une entreprise qui sont créatrices de valeur, sources d'un avantage concurrentiel, des autres activités.
+Qu'est-ce que la valeur dans la chaîne de valeur ? ; La somme que le client est prêt à payer pour obtenir le produit. Chaque activité ajoute ou fait perdre de la valeur à la chaîne d'activités.
+Quelles activités Michael Porter distingue-t-il ? ; Les activités principales et les activités de soutien.
+Quelles sont les activités principales de la chaîne de valeur ? ; La logistique interne, la production, la logistique externe, les ventes et le marketing, et le service après-vente (SAV).
+Quelles sont les activités de soutien de la chaîne de valeur ? ; L'infrastructure de l'entreprise, la gestion des ressources humaines (RH), le développement technologique (R&D) et l'approvisionnement.
+Que permet l'analyse de la chaîne de valeur ? ; D'améliorer la compétitivité en se différenciant, d'améliorer la rentabilité en réduisant les coûts, d'augmenter la création de valeur pour le client et de décider d'externaliser certaines activités (l'impartition).
+Que sont les activités principales pour l'entreprise ? ; Le cœur de métier de l'entreprise : ces activités doivent être privilégiées et réalisées en interne.
+Que sont les activités non-clés ? ; Celles pour lesquelles l'entreprise est moins performante que d'autres acteurs : elles ne contribuent pas à l'avantage concurrentiel.
+Qu'est-ce que l'impartition ? ; Le fait, pour une entreprise, de faire produire par des entités externes des biens et services au lieu de les produire ou de les développer en interne (sous-traitance, concession, franchise : des relations de coopération étroites).
+Que signifient « faire » et « faire-faire » ? ; « Faire » : produire en interne. « Faire-faire » : recourir à l'impartition, c'est-à-dire confier la production à une entité externe.
+Qu'est-ce que l'externalisation (outsourcing) ? ; Une forme d'impartition choisie par l'entreprise qui confie des activités non-clés à un prestataire extérieur.
+Qu'est-ce que l'infogérance ? ; La gestion de tâches informatiques confiées à un prestataire extérieur.

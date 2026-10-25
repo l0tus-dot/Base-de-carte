@@ -28,24 +28,14 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | Cybersécurité | VPN | 28 | `paquets/cybersecurite/vpn.json` |
 | Cybersécurité | Délégation de droit avec sudo | 31 | `paquets/cybersecurite/delegation-sudo.json` |
 | Cybersécurité | ACL cisco | 32 | `paquets/cybersecurite/acl-cisco.json` |
-| CEJM | Economique : Le fonctionnement des marchés - Pages 1 et 2 | 28 | `paquets/cejm/economique-1-1-2-pages-1-2.json` |
-| CEJM | Economique : Le fonctionnement des marchés - Pages 3 et 4 | 39 | `paquets/cejm/economique-1-1-2-pages-3-4.json` |
-| CEJM | Economique : Les agents économiques et leurs échanges - Pages 1 et 2 | 29 | `paquets/cejm/economique-1-1-1-pages-1-2.json` |
-| CEJM | Economique : Les agents économiques et leurs échanges - Pages 3 et 4 | 19 | `paquets/cejm/economique-1-1-1-pages-3-4.json` |
-| CEJM | Economique : Les facteurs économiques et les choix de production - Pages 1 et 2 | 28 | `paquets/cejm/economique-3-1-pages-1-2.json` |
-| CEJM | Economique : Les facteurs économiques et les choix de production - Pages 3 et 4 | 27 | `paquets/cejm/economique-3-1-pages-3-4.json` |
-| CEJM | Economique : Les facteurs économiques et les choix de production - Pages 5 et 6 | 22 | `paquets/cejm/economique-3-1-pages-5-6.json` |
-| CEJM | Juridique : La période précontractuelle et la formation du contrat - Pages 1 et 2 | 35 | `paquets/cejm/juridique-1-2-pages-1-2.json` |
-| CEJM | Juridique : La période précontractuelle et la formation du contrat - Pages 3 et 4 | 34 | `paquets/cejm/juridique-1-2-pages-3-4.json` |
-| CEJM | Juridique : La période précontractuelle et la formation du contrat - Pages 5 et 6 | 19 | `paquets/cejm/juridique-1-2-pages-5-6.json` |
-| CEJM | Juridique : Les structures juridiques - Page 1 | 14 | `paquets/cejm/juridique-3-2-1-page-1.json` |
-| CEJM | Juridique : Les structures juridiques - Page 2 | 31 | `paquets/cejm/juridique-3-2-1-page-2.json` |
-| CEJM | Juridique : Les structures juridiques - Page 3 | 16 | `paquets/cejm/juridique-3-2-1-page-3.json` |
-| CEJM | Juridique : Les structures juridiques - Page 4 | 21 | `paquets/cejm/juridique-3-2-1-page-4.json` |
-| CEJM | Managériale : De quelle manière l'entreprise s'inscrit-elle dans son environnement ? - Pages 1 et 2 | 33 | `paquets/cejm/manageriale-1-3-pages-1-2.json` |
-| CEJM | Managériale : De quelle manière l'entreprise s'inscrit-elle dans son environnement ? - Pages 3 et 4 | 26 | `paquets/cejm/manageriale-1-3-pages-3-4.json` |
+| CEJM | De quelle manière l'entreprise s'inscrit-elle dans son environnement ? : Managériale | 59 | `paquets/cejm/manageriale-1-3.json` |
+| CEJM | La période précontractuelle et la formation du contrat : Juridique | 88 | `paquets/cejm/juridique-1-2.json` |
+| CEJM | Le fonctionnement des marchés : Economique | 67 | `paquets/cejm/economique-1-1-2.json` |
+| CEJM | Les agents économiques et leurs échanges : Economique | 48 | `paquets/cejm/economique-1-1-1.json` |
+| CEJM | Les facteurs économiques et les choix de production : Economique | 77 | `paquets/cejm/economique-3-1.json` |
+| CEJM | Les structures juridiques : Juridique | 82 | `paquets/cejm/juridique-3-2-1.json` |
 
-Dans la matière CEJM, chaque paquet (Economique, Juridique, Managériale) est découpé en sous-paquets : un par fichier PDF du cours.
+Dans la matière CEJM, chaque paquet est un chapitre du cours, avec un sous-paquet par sous-thème (Economique, Juridique ou Managériale) qui regroupe les cartes de tous les PDF du chapitre.
 
 *(Tenir cette liste à jour à chaque nouveau paquet.)*
 

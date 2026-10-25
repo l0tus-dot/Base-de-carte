@@ -1,0 +1,87 @@
+# Matière : CEJM
+# Parent : Les structures juridiques
+# Paquet : Juridique
+# Description : Les structures juridiques (entreprise individuelle et sociétés) et leurs motivations patrimoniales, fiscales, sociales et financières.
+
+Qu'est-ce que la structure juridique d'une entreprise ? ; Le cadre légal de l'activité de l'entrepreneur.
+Quand analyse-t-on les critères de choix d'une structure juridique ? ; À différents moments de la vie de l'entreprise, dès sa création et au cours de son évolution.
+Pour quelle entreprise l'entreprise individuelle classique est-elle adaptée ? ; Une petite entreprise sans grande perspective de développement.
+Quel régime ultra-simplifié l'entreprise individuelle peut-elle bénéficier ? ; Celui de micro-entrepreneur.
+Pour quelle entreprise une société est-elle adaptée ? ; Une plus grande entreprise, au développement plus conséquent.
+Quelle est la différence entre une société et une entreprise individuelle ? ; Une société est une personne morale, contrairement à une entreprise individuelle.
+Que doit avoir une société en tant que personne morale ? ; Un nom (la dénomination sociale), de l'argent et des biens (le capital social) et un domicile (le siège social).
+Quelles sont les structures sociétaires à un seul associé ? ; La SASU et l'EURL.
+Quelles sont les structures sociétaires à plusieurs associés ? ; La SA, la SAS et la SARL.
+Que signifient SASU, EURL, SA, SAS et SARL ? ; SASU : société par actions simplifiée unipersonnelle. EURL : entreprise unipersonnelle à responsabilité limitée. SA : société anonyme. SAS : société par actions simplifiée. SARL : société à responsabilité limitée.
+Qu'est devenue l'EIRL ? ; Elle a disparu le 14 février 2022.
+Qu'est-ce que le contrat de société (art. 1832 du Code civil) ? ; Le contrat par lequel deux ou plusieurs personnes conviennent d'affecter à une entreprise commune des biens ou leur industrie, en vue de partager le bénéfice ou de profiter de l'économie qui pourra en résulter.
+Une société peut-elle être créée par une seule personne ? ; Oui, dans les cas prévus par la loi, par l'acte de volonté d'une seule personne.
+À quoi s'engagent les associés d'une société ? ; À contribuer aux pertes.
+Quels sont les critères de comparaison des structures juridiques ? ; Entreprendre seul ou non, décider seul ou non, le capital social minimum, le patrimoine, la responsabilité de l'entrepreneur, le régime social du dirigeant, le régime fiscal, le coût de la comptabilité.
+Combien d'associés faut-il pour une SA ? ; Au moins 2 actionnaires (personnes physiques ou morales), ou 7 actionnaires si elle est cotée en bourse.
+Combien d'associés faut-il pour une SAS ? ; Au moins 2 actionnaires (personnes physiques ou morales).
+Combien d'associés faut-il pour une SARL ? ; De 2 à 100 associés (personnes physiques ou morales).
+Peut-on entreprendre seul en EURL ou en SASU ? ; Oui. On peut aussi entreprendre seul en entreprise individuelle.
+Qui décide dans une entreprise individuelle ? ; L'entrepreneur dispose des pleins pouvoirs : c'est une grande liberté.
+Qui décide dans une EURL ? ; Un seul décideur, avec une gestion encadrée et la publication des comptes.
+Qui décide dans une SASU ? ; Un seul décideur, avec une gestion peu encadrée et une liberté d'action.
+Comment sont partagés les pouvoirs dans une SA ? ; Ils sont partagés, avec une lourdeur de fonctionnement (assemblée générale, conseil d'administration).
+Comment sont partagés les pouvoirs dans une SAS ? ; Ils sont partagés, mais la gestion est peu encadrée : il y a une liberté d'organisation.
+Comment sont partagés les pouvoirs dans une SARL ? ; Ils sont partagés, avec une gestion encadrée et la publication des comptes.
+Quel est le capital social minimum d'une SA ? ; 37 000 euros. L'appel public à l'épargne est possible.
+Quel est le capital social minimum d'une SARL, d'une SAS, d'une EURL ou d'une SASU ? ; Il est libre.
+Que devient le patrimoine dans une entreprise individuelle ? ; Il est confondu avec celui de l'entrepreneur (pas de risque d'abus de bien social).
+Que devient le patrimoine dans une société ? ; Il est propre à la société.
+Quelle est la responsabilité de l'entrepreneur individuel ? ; Elle est limitée au patrimoine professionnel de l'entrepreneur.
+Quelle est la responsabilité des associés d'une EURL ou d'une SASU ? ; Elle est limitée au montant des apports de l'associé.
+Quelle est la responsabilité des associés d'une SA, d'une SAS ou d'une SARL ? ; Elle est limitée aux apports.
+Quel est le régime social du dirigeant d'une entreprise individuelle ? ; Le régime des travailleurs indépendants (TNS).
+Quel est le régime social du gérant d'une EURL ? ; Gérant associé : TNS (travailleur non salarié). Gérant non-associé : assimilé salarié.
+Quel est le régime social du président d'une SASU ou d'une SAS ? ; Assimilé salarié, donc une protection sociale forte.
+Quel est le régime social des dirigeants d'une SA ? ; Les administrateurs ne sont pas rémunérés (1/3 maximum) et peuvent avoir un contrat de travail. Le PDG relève du régime des assimilés salariés.
+Quel est le régime social du gérant d'une SARL ? ; Gérant majoritaire : TNS. Gérant minoritaire : assimilé salarié.
+Quel est le régime fiscal d'une entreprise individuelle ? ; L'impôt sur le revenu (IR), dans la catégorie des bénéfices industriels et commerciaux (micro-BIC). L'option pour l'IS est possible.
+Quel est le régime fiscal d'une EURL ? ; L'impôt sur le revenu (IR), avec option possible pour l'impôt sur les sociétés (IS).
+Quel est le régime fiscal d'une SASU ? ; L'impôt sur les sociétés (IS), avec option possible pour l'IR.
+Quel est le régime fiscal d'une SA ? ; La SA est soumise à l'IS, mais le régime fiscal du dirigeant relève de l'IR.
+Quel est le régime fiscal d'une SAS ? ; Le principe est l'IS, avec option possible pour l'IR pour 5 ans maximum.
+Quel est le régime fiscal d'une SARL ? ; Le principe est l'IS, avec option possible pour l'IR (SARL de famille et SARL de moins de 5 ans).
+La comptabilité d'une entreprise individuelle est-elle simple ou double ? ; Simple. Dans les sociétés, la comptabilité est double.
+Quelles sont les motivations qui guident le choix d'une structure juridique ? ; L'autonomie dans la prise de décision, la crédibilité financière, la protection du patrimoine du créateur et de son conjoint, la protection sociale (y compris contre le chômage), la limitation de l'imposition des bénéfices et le coût de la comptabilité.
+Pourquoi choisit-on une structure juridique ? ; Plusieurs raisons expliquent le choix d'une structure juridique ou justifient le souhait de la faire évoluer : motivations patrimoniales, fiscales, sociales, financières et partage du pouvoir.
+Qu'est-ce que le patrimoine ? ; L'ensemble des droits (actif) et des obligations (passif) d'une personne, évaluable en argent.
+Dans quel cas l'entreprise individuelle est-elle adaptée ? ; Si les risques sont peu importants et les investissements limités.
+Que se passe-t-il pour le patrimoine d'un entrepreneur individuel ? ; Le patrimoine de l'entreprise se confond avec celui de l'entrepreneur, qui agit en son nom propre : il est responsable des dettes sur l'ensemble de son patrimoine.
+Comment l'entrepreneur individuel peut-il protéger ses biens fonciers ? ; Par une déclaration d'insaisissabilité devant notaire (loi du 4 août 2008) : ses immeubles non affectés à un usage professionnel sont alors protégés des poursuites des créanciers professionnels.
+Pourquoi une société à responsabilité limitée protège-t-elle le patrimoine ? ; La responsabilité des associés est limitée à leurs apports : en cas de liquidation, l'associé ne perd au maximum que le capital qu'il a investi.
+Quelle limite à la protection du patrimoine dans une société ? ; La responsabilité du dirigeant peut être engagée civilement et pénalement en cas de fautes de gestion.
+Pourquoi la société facilite-t-elle la transmission de l'entreprise ? ; La transmission se fait par transmission de titres (actions ou parts sociales), totalement ou partiellement, vers une ou plusieurs personnes de son choix.
+À quoi servent les régimes matrimoniaux ? ; À organiser les relations pécuniaires des époux. En choisissant son régime, le créateur cherche à protéger son conjoint contre les difficultés financières de son activité.
+Qu'est-ce que le régime légal de la communauté réduite aux acquêts ? ; Le régime sans contrat : les biens et dettes des époux avant le mariage restent propres, ainsi que les donations et successions pendant le mariage. Les biens acquis pendant le mariage sont communs et peuvent servir à rembourser les dettes.
+Qu'est-ce que le régime de séparation de biens ? ; Chaque époux détient la propriété des biens acquis avant et pendant le mariage et est responsable de ses dettes. Il est conseillé dans les affaires et un contrat est rédigé par un notaire.
+Que prévoit le PACS pour le patrimoine ? ; Il organise les relations pécuniaires entre personnes pacsées : chacun des partenaires reste propriétaire des biens qu'il acquiert pendant et après la conclusion du PACS.
+Quelle est la logique d'une motivation fiscale ? ; L'optimisation fiscale conduit à choisir une forme soumise à l'impôt sur les sociétés si les résultats sont substantiels, en tenant compte de la situation personnelle du créateur.
+Comment est imposée l'entreprise individuelle ? ; À l'impôt sur le revenu (IR) : la totalité des bénéfices est déclarée à la rubrique des BIC (bénéfices industriels et commerciaux), avec un barème progressif. Si les bénéfices sont importants, cette imposition peut vite devenir très élevée.
+Comment est imposée une société ? ; À l'impôt sur les sociétés (IS) : le taux normal est de 25 %. Seuls les bénéfices distribués sont déclarés par les associés au titre de l'impôt sur le revenu, et non la totalité.
+Quel est le taux de l'IS si le chiffre d'affaires dépasse 250 millions d'euros ? ; 27,5 %. Le prélèvement est proportionnel.
+Quelle est la motivation sociale du dirigeant ? ; Opter pour une structure juridique qui lui offre une protection sociale forte.
+Qui relève du régime des travailleurs non-salariés (TNS) ? ; Les entrepreneurs individuels, les micro-entrepreneurs, les gérants majoritaires de SARL et les gérants associés uniques d'EURL.
+Quel est l'autre nom du régime TNS ? ; La Sécurité sociale des indépendants.
+Quels droits ont les TNS ? ; Ils cotisent à des caisses spécifiques : assurances maladie-maternité, invalidité, décès et indemnité journalière (caisse primaire d'assurance maladie), allocations familiales (caisse des allocations familiales) et retraite (caisse d'assurance vieillesse pour les indépendants, ou CNAVPL pour certaines professions libérales).
+Qui relève du régime assimilé salarié ? ; Le gérant minoritaire de SARL et le dirigeant de SA, de SAS ou de SASU.
+Quels droits ont les assimilés salariés ? ; Les mêmes qu'un salarié : maladie-maternité, allocations familiales, accidents du travail, vieillesse (cotisations patronales et salariales versées par la société à l'Urssaf), retraite complémentaire (Agirc), prévoyance.
+Un assimilé salarié a-t-il droit au chômage ? ; Non : ce statut ne cotise pas à l'assurance chômage (Pôle emploi), donc il n'est pas indemnisé en cas de perte du statut.
+Quelle est la motivation financière d'un entrepreneur individuel qui veut se développer ? ; Faire entrer de nouveaux capitaux par la collaboration avec un ou plusieurs associés, ou chercher un apport de compétences ou de nouveaux marchés : il doit alors se diriger vers une structure sociétaire adaptée.
+Comment l'entrepreneur individuel finance-t-il son entreprise ? ; Avec ses propres capitaux ou par le crédit bancaire. Il doit fournir des garanties sur ses biens (gage, hypothèque) ou des garanties apportées par des tiers (cautionnement).
+Quelles sont les formes d'apport d'un créateur de société ? ; Les apports en numéraire, les apports en nature et les apports en industrie.
+Qu'est-ce qu'un apport en numéraire ? ; De l'argent qui crédite le compte bancaire de la société.
+Qu'est-ce qu'un apport en nature ? ; Des biens immobiliers ou mobiliers (ex. : matériel informatique, véhicule).
+Qu'est-ce qu'un apport en industrie ? ; Un savoir-faire ou une expérience. Les apports en industrie sont interdits dans la SA.
+Que reçoit l'associé en échange de son apport ? ; Des parts sociales (ou des actions dans une SA), proportionnellement à son apport.
+À quoi sert le capital social ? ; Il illustre la solidité financière de la société pour rassurer les créanciers et permet de financer les premiers investissements. Son montant est mentionné dans les statuts.
+Toutes les structures imposent-elles un capital social minimum ? ; Non, seule la SA en impose un. Un capital de départ important reste toutefois une garantie pour les créanciers et le financement des investissements.
+Comment une société peut-elle se financer par son capital ? ; Par une augmentation de capital, en faisant appel aux actionnaires existants ou à de nouveaux actionnaires. Elle peut aussi recourir à l'emprunt obligataire.
+Qui prend les décisions dans une entreprise individuelle ? ; L'entrepreneur individuel prend seul les décisions et assume toutes les responsabilités.
+Qui détient le pouvoir dans une société ? ; Les associés ou actionnaires, détenteurs de parts ou d'actions. Ils délèguent le pouvoir de décision aux organes de gestion, qui détiennent un mandat pour agir au nom de la société.
+Qu'est-ce que l'assemblée générale ordinaire (AGO) ? ; La réunion des associés au minimum une fois par an pour approuver les comptes et prendre des décisions à la majorité.
+Qu'est-ce que l'assemblée générale extraordinaire (AGE) ? ; La réunion qui vise à modifier les statuts de la société. Il faut alors l'accord de 2/3 des actionnaires.

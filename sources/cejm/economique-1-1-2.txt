@@ -1,8 +1,36 @@
 # Matière : CEJM
-# Parent : Economique
-# Paquet : Le fonctionnement des marchés - Pages 3 et 4
-# Description : Les dysfonctionnements du marché (barrières, asymétries, externalités) et le rôle des banques et du marché financier.
+# Parent : Le fonctionnement des marchés
+# Paquet : Economique
+# Description : Les marchés, la loi de l'offre et de la demande, la concurrence, les dysfonctionnements du marché et le financement.
 
+Qu'est-ce qu'un marché ? ; Le lieu de rencontre physique ou virtuel entre l'offre et la demande, qui aboutit à la fixation d'un prix d'équilibre et d'une quantité d'équilibre.
+Sur le marché des biens et services, qui sont les offreurs, les demandeurs et quel est le prix ? ; Les offreurs sont les producteurs, les demandeurs sont les consommateurs (ménages) et l'échange se fait contre un prix.
+Sur le marché du travail, qui sont les offreurs, les demandeurs et quel est le prix ? ; Les offreurs sont les ménages qui proposent leur force de travail, les demandeurs sont les employeurs qui en ont besoin et le prix est le salaire.
+Sur le marché financier, qui sont les offreurs et les demandeurs ? ; Les offreurs sont les agents à capacité de financement et les demandeurs sont les agents à besoin de financement.
+Quelles sont les étapes pour analyser ou caractériser un marché ? ; 1. Définir le marché. 2. L'identifier (type de produit, B to B ou B to C, importance en volume et en valeur, étendue géographique, évolution). 3. Décrire ses composantes (l'offre et la demande).
+Quels éléments décrivent l'offre sur un marché ? ; La structure (oligopolistique, concurrentielle), la part de marché, les positions concurrentielles (leader, challenger, outsider) et les stratégies des offreurs.
+Quels éléments décrivent la demande sur un marché ? ; La typologie des clients (particuliers, professionnels, administrations), leur profil, leurs attentes, leurs besoins et leurs comportements.
+Que dit la loi de l'offre et de la demande ? ; La rencontre entre l'offre et la demande sur le marché fixe un prix d'équilibre et une quantité d'équilibre.
+Que représente la demande ? ; La quantité de produits que les acheteurs sont prêts à acquérir.
+Que représente l'offre ? ; La quantité de produits que les vendeurs sont prêts à vendre.
+Que se passe-t-il si le prix augmente trop au-dessus du prix d'équilibre ? ; La demande diminue car elle est une fonction décroissante du prix. L'offre devient abondante et supérieure à la demande, donc les prix vont naturellement baisser pour revenir à l'équilibre.
+Que se passe-t-il si le prix est trop bas ? ; La demande augmente, mais l'offre diminue car certaines entreprises se retirent du marché : elle est une fonction croissante du prix. L'offre devient rare, donc son prix augmente pour revenir à l'équilibre.
+Pourquoi l'offre a-t-elle tendance à augmenter quand les prix sont élevés ? ; Les entreprises, attirées par des perspectives de profits plus élevés, vont produire davantage : l'offre est une fonction croissante du prix.
+Quel est le rôle de signal du prix ? ; Il permet aux agents d'évaluer la valeur du produit et d'orienter leur choix : en fonction de la rareté des ressources et de l'intensité de la demande, le prix varie à la hausse ou à la baisse.
+Tous les marchés suivent-ils le mécanisme de l'offre et de la demande ? ; Non, sur certains marchés la demande ne suit pas ce mécanisme (ex. : la consommation ostentatoire).
+Qu'est-ce que la concurrence ? ; Un marché où les offreurs et les demandeurs peuvent librement se confronter et où le prix sert de variable d'ajustement entre l'offre et la demande.
+Quelles sont les 4 conditions de la concurrence pure et parfaite ? ; L'atomicité (beaucoup de petits offreurs et de demandeurs), la libre entrée sur le marché, l'homogénéité du produit et la transparence de l'information.
+Pourquoi la concurrence pure et parfaite n'existe-t-elle pas en réalité ? ; Ses conditions théoriques sont rarement respectées : l'intensité de la concurrence varie selon les marchés.
+Qu'est-ce qu'une entreprise peut faire sur un marché à faible intensité concurrentielle ? ; Elle bénéficie d'un pouvoir de marché : elle peut imposer ses prix au consommateur et même fixer des prix élevés (cas d'un monopole ou d'un oligopole).
+Qu'est-ce qu'un marché concurrentiel ? ; Un marché qui présente de nombreux offreurs et de nombreux demandeurs.
+Qu'est-ce qu'un oligopole ? ; Un marché où quelques offreurs font face à de nombreux demandeurs.
+Qu'est-ce qu'un monopole ? ; Un marché où un seul offreur fait face à de nombreux demandeurs.
+Qu'est-ce que la coopération ? ; Une relation permettant à des personnes ayant des intérêts communs de travailler ensemble.
+Quelles sont les deux formes de coopération entre entreprises ? ; La coopétition et le partenariat.
+Qu'est-ce que la coopétition ? ; Une alliance entre entreprises concurrentes.
+Qu'est-ce que le partenariat ? ; Une coopération entre entreprises non concurrentes.
+Quand la coopétition est-elle autorisée ? ; Si elle n'a pas pour objet d'échapper à la concurrence mais d'améliorer l'offre.
+Quand les ententes sont-elles interdites ? ; Si leur objectif est de manipuler les informations disponibles pour fausser le choix des agents économiques (ex. : entente pour bloquer artificiellement les prix ou fausser les informations sur les produits).
 Qu'est-ce qu'une barrière à l'entrée ? ; Un obstacle qui rend difficile ou impossible l'implantation d'une entreprise sur un marché et ne lui permet pas de rivaliser avec les entreprises en place.
 Qu'est-ce qu'une barrière à la sortie ? ; Un obstacle qui oblige une entreprise à rester en activité sur un marché ou un segment de marché sur lequel il n'y a plus ou peu de rentabilité.
 Que sont les barrières naturelles ? ; Des barrières liées à la nature de l'activité ou aux caractéristiques du marché. Elles sont inévitables et indépendantes de la volonté des producteurs (ex. : l'accès aux matières premières ou aux technologies).
