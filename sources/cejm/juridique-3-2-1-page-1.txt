@@ -1,0 +1,19 @@
+# Matière : CEJM
+# Parent : Juridique
+# Paquet : Les structures juridiques - Page 1
+# Description : La structure juridique, l'entreprise individuelle et les sociétés, le contrat de société.
+
+Qu'est-ce que la structure juridique d'une entreprise ? ; Le cadre légal de l'activité de l'entrepreneur.
+Quand analyse-t-on les critères de choix d'une structure juridique ? ; À différents moments de la vie de l'entreprise, dès sa création et au cours de son évolution.
+Pour quelle entreprise l'entreprise individuelle classique est-elle adaptée ? ; Une petite entreprise sans grande perspective de développement.
+Quel régime ultra-simplifié l'entreprise individuelle peut-elle bénéficier ? ; Celui de micro-entrepreneur.
+Pour quelle entreprise une société est-elle adaptée ? ; Une plus grande entreprise, au développement plus conséquent.
+Quelle est la différence entre une société et une entreprise individuelle ? ; Une société est une personne morale, contrairement à une entreprise individuelle.
+Que doit avoir une société en tant que personne morale ? ; Un nom (la dénomination sociale), de l'argent et des biens (le capital social) et un domicile (le siège social).
+Quelles sont les structures sociétaires à un seul associé ? ; La SASU et l'EURL.
+Quelles sont les structures sociétaires à plusieurs associés ? ; La SA, la SAS et la SARL.
+Que signifient SASU, EURL, SA, SAS et SARL ? ; SASU : société par actions simplifiée unipersonnelle. EURL : entreprise unipersonnelle à responsabilité limitée. SA : société anonyme. SAS : société par actions simplifiée. SARL : société à responsabilité limitée.
+Qu'est devenue l'EIRL ? ; Elle a disparu le 14 février 2022.
+Qu'est-ce que le contrat de société (art. 1832 du Code civil) ? ; Le contrat par lequel deux ou plusieurs personnes conviennent d'affecter à une entreprise commune des biens ou leur industrie, en vue de partager le bénéfice ou de profiter de l'économie qui pourra en résulter.
+Une société peut-elle être créée par une seule personne ? ; Oui, dans les cas prévus par la loi, par l'acte de volonté d'une seule personne.
+À quoi s'engagent les associés d'une société ? ; À contribuer aux pertes.

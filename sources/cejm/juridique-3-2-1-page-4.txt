@@ -1,0 +1,26 @@
+# Matière : CEJM
+# Parent : Juridique
+# Paquet : Les structures juridiques - Page 4
+# Description : Les motivations sociales et financières (TNS, assimilé salarié, apports, capital) et le partage du pouvoir.
+
+Quelle est la motivation sociale du dirigeant ? ; Opter pour une structure juridique qui lui offre une protection sociale forte.
+Qui relève du régime des travailleurs non-salariés (TNS) ? ; Les entrepreneurs individuels, les micro-entrepreneurs, les gérants majoritaires de SARL et les gérants associés uniques d'EURL.
+Quel est l'autre nom du régime TNS ? ; La Sécurité sociale des indépendants.
+Quels droits ont les TNS ? ; Ils cotisent à des caisses spécifiques : assurances maladie-maternité, invalidité, décès et indemnité journalière (caisse primaire d'assurance maladie), allocations familiales (caisse des allocations familiales) et retraite (caisse d'assurance vieillesse pour les indépendants, ou CNAVPL pour certaines professions libérales).
+Qui relève du régime assimilé salarié ? ; Le gérant minoritaire de SARL et le dirigeant de SA, de SAS ou de SASU.
+Quels droits ont les assimilés salariés ? ; Les mêmes qu'un salarié : maladie-maternité, allocations familiales, accidents du travail, vieillesse (cotisations patronales et salariales versées par la société à l'Urssaf), retraite complémentaire (Agirc), prévoyance.
+Un assimilé salarié a-t-il droit au chômage ? ; Non : ce statut ne cotise pas à l'assurance chômage (Pôle emploi), donc il n'est pas indemnisé en cas de perte du statut.
+Quelle est la motivation financière d'un entrepreneur individuel qui veut se développer ? ; Faire entrer de nouveaux capitaux par la collaboration avec un ou plusieurs associés, ou chercher un apport de compétences ou de nouveaux marchés : il doit alors se diriger vers une structure sociétaire adaptée.
+Comment l'entrepreneur individuel finance-t-il son entreprise ? ; Avec ses propres capitaux ou par le crédit bancaire. Il doit fournir des garanties sur ses biens (gage, hypothèque) ou des garanties apportées par des tiers (cautionnement).
+Quelles sont les formes d'apport d'un créateur de société ? ; Les apports en numéraire, les apports en nature et les apports en industrie.
+Qu'est-ce qu'un apport en numéraire ? ; De l'argent qui crédite le compte bancaire de la société.
+Qu'est-ce qu'un apport en nature ? ; Des biens immobiliers ou mobiliers (ex. : matériel informatique, véhicule).
+Qu'est-ce qu'un apport en industrie ? ; Un savoir-faire ou une expérience. Les apports en industrie sont interdits dans la SA.
+Que reçoit l'associé en échange de son apport ? ; Des parts sociales (ou des actions dans une SA), proportionnellement à son apport.
+À quoi sert le capital social ? ; Il illustre la solidité financière de la société pour rassurer les créanciers et permet de financer les premiers investissements. Son montant est mentionné dans les statuts.
+Toutes les structures imposent-elles un capital social minimum ? ; Non, seule la SA en impose un. Un capital de départ important reste toutefois une garantie pour les créanciers et le financement des investissements.
+Comment une société peut-elle se financer par son capital ? ; Par une augmentation de capital, en faisant appel aux actionnaires existants ou à de nouveaux actionnaires. Elle peut aussi recourir à l'emprunt obligataire.
+Qui prend les décisions dans une entreprise individuelle ? ; L'entrepreneur individuel prend seul les décisions et assume toutes les responsabilités.
+Qui détient le pouvoir dans une société ? ; Les associés ou actionnaires, détenteurs de parts ou d'actions. Ils délèguent le pouvoir de décision aux organes de gestion, qui détiennent un mandat pour agir au nom de la société.
+Qu'est-ce que l'assemblée générale ordinaire (AGO) ? ; La réunion des associés au minimum une fois par an pour approuver les comptes et prendre des décisions à la majorité.
+Qu'est-ce que l'assemblée générale extraordinaire (AGE) ? ; La réunion qui vise à modifier les statuts de la société. Il faut alors l'accord de 2/3 des actionnaires.

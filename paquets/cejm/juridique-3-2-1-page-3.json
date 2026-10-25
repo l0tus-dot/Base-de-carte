@@ -1,0 +1,378 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "0c2704b4-7a0b-5962-88bd-34dede5f23fa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Juridique",
+    "parentId": null
+   },
+   {
+    "id": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Les structures juridiques - Page 3",
+    "parentId": "0c2704b4-7a0b-5962-88bd-34dede5f23fa"
+   }
+  ],
+  "cards": [
+   {
+    "id": "c31d74c4-2f5d-5f9a-96a6-c181eeca56c1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Pourquoi choisit-on une structure juridique ?",
+    "back": "Plusieurs raisons expliquent le choix d'une structure juridique ou justifient le souhait de la faire évoluer : motivations patrimoniales, fiscales, sociales, financières et partage du pouvoir.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "11e8e5af-d58e-5e9f-81ad-65d3a3773d26",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Qu'est-ce que le patrimoine ?",
+    "back": "L'ensemble des droits (actif) et des obligations (passif) d'une personne, évaluable en argent.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "756ba1b0-9283-5677-8e18-c33c0804524e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Dans quel cas l'entreprise individuelle est-elle adaptée ?",
+    "back": "Si les risques sont peu importants et les investissements limités.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "7260f476-c5bf-5e6e-b884-bc6d3f0eb4e7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Que se passe-t-il pour le patrimoine d'un entrepreneur individuel ?",
+    "back": "Le patrimoine de l'entreprise se confond avec celui de l'entrepreneur, qui agit en son nom propre : il est responsable des dettes sur l'ensemble de son patrimoine.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "09408f93-eb68-5ab2-88af-9e2299c72c88",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Comment l'entrepreneur individuel peut-il protéger ses biens fonciers ?",
+    "back": "Par une déclaration d'insaisissabilité devant notaire (loi du 4 août 2008) : ses immeubles non affectés à un usage professionnel sont alors protégés des poursuites des créanciers professionnels.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "ee359b61-eee2-5f07-9894-441148125e18",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Pourquoi une société à responsabilité limitée protège-t-elle le patrimoine ?",
+    "back": "La responsabilité des associés est limitée à leurs apports : en cas de liquidation, l'associé ne perd au maximum que le capital qu'il a investi.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "51db7837-b322-5250-815e-7e431a7c38c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Quelle limite à la protection du patrimoine dans une société ?",
+    "back": "La responsabilité du dirigeant peut être engagée civilement et pénalement en cas de fautes de gestion.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "145107e7-9886-5516-a5c0-a2c0d70d0999",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Pourquoi la société facilite-t-elle la transmission de l'entreprise ?",
+    "back": "La transmission se fait par transmission de titres (actions ou parts sociales), totalement ou partiellement, vers une ou plusieurs personnes de son choix.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "8172b6f2-e3ad-59fc-ba8a-a93ff2f39424",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "À quoi servent les régimes matrimoniaux ?",
+    "back": "À organiser les relations pécuniaires des époux. En choisissant son régime, le créateur cherche à protéger son conjoint contre les difficultés financières de son activité.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "16a43792-392c-5417-9b5f-ca6b9a53e922",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Qu'est-ce que le régime légal de la communauté réduite aux acquêts ?",
+    "back": "Le régime sans contrat : les biens et dettes des époux avant le mariage restent propres, ainsi que les donations et successions pendant le mariage. Les biens acquis pendant le mariage sont communs et peuvent servir à rembourser les dettes.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "04d47cbd-89c2-5eb1-8403-e666f68ae410",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Qu'est-ce que le régime de séparation de biens ?",
+    "back": "Chaque époux détient la propriété des biens acquis avant et pendant le mariage et est responsable de ses dettes. Il est conseillé dans les affaires et un contrat est rédigé par un notaire.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "0268c5cb-fdde-5ebe-81e2-052bc9671be2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Que prévoit le PACS pour le patrimoine ?",
+    "back": "Il organise les relations pécuniaires entre personnes pacsées : chacun des partenaires reste propriétaire des biens qu'il acquiert pendant et après la conclusion du PACS.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "37fe4bb2-8bd4-52f2-a5ac-82bda730ebc1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Quelle est la logique d'une motivation fiscale ?",
+    "back": "L'optimisation fiscale conduit à choisir une forme soumise à l'impôt sur les sociétés si les résultats sont substantiels, en tenant compte de la situation personnelle du créateur.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "6f3f2266-6778-579e-8260-02b456760076",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Comment est imposée l'entreprise individuelle ?",
+    "back": "À l'impôt sur le revenu (IR) : la totalité des bénéfices est déclarée à la rubrique des BIC (bénéfices industriels et commerciaux), avec un barème progressif. Si les bénéfices sont importants, cette imposition peut vite devenir très élevée.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "d448e471-b8e9-53b1-9d86-239e3edda561",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Comment est imposée une société ?",
+    "back": "À l'impôt sur les sociétés (IS) : le taux normal est de 25 %. Seuls les bénéfices distribués sont déclarés par les associés au titre de l'impôt sur le revenu, et non la totalité.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "761c5cfd-1e97-5867-b650-5e81748c75d3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e92395fc-d94a-5527-9084-55ff3f037da5",
+    "front": "Quel est le taux de l'IS si le chiffre d'affaires dépasse 250 millions d'euros ?",
+    "back": "27,5 %. Le prélèvement est proportionnel.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "f002fb05-8953-583d-b662-f5ca842f39fc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c31d74c4-2f5d-5f9a-96a6-c181eeca56c1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e3939512-2292-5364-9627-a74040f29562",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "11e8e5af-d58e-5e9f-81ad-65d3a3773d26",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5ac9f32e-2902-5c0c-a1d9-890e9b488404",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "756ba1b0-9283-5677-8e18-c33c0804524e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "edc248e1-8b02-5501-b61a-c23aa8ba0bb8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7260f476-c5bf-5e6e-b884-bc6d3f0eb4e7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a187bc5c-0d8b-5ee7-b125-db17a208562f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "09408f93-eb68-5ab2-88af-9e2299c72c88",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d051e37d-78c1-5b7f-aa65-e60a287faac0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ee359b61-eee2-5f07-9894-441148125e18",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b6486f97-b71b-5fa6-bb5d-419990dbeb99",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "51db7837-b322-5250-815e-7e431a7c38c5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "978c02b1-afc9-55d7-8a35-6650434a211c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "145107e7-9886-5516-a5c0-a2c0d70d0999",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "49ea1372-376f-5853-a3b3-aa7333a0a729",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8172b6f2-e3ad-59fc-ba8a-a93ff2f39424",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b2d9d05a-a37a-56c9-a7d6-7beef7ac1132",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "16a43792-392c-5417-9b5f-ca6b9a53e922",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c7b0157b-5a13-5808-9960-2e5e86295706",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "04d47cbd-89c2-5eb1-8403-e666f68ae410",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "536a2f1b-22ab-5fc4-a786-56e2e42f150e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0268c5cb-fdde-5ebe-81e2-052bc9671be2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f2416fc1-b936-5e45-8401-ed3012904642",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "37fe4bb2-8bd4-52f2-a5ac-82bda730ebc1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5db1a0af-781d-5492-a8d7-f634ce7b1411",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6f3f2266-6778-579e-8260-02b456760076",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a34331a9-2e6b-52db-bdba-e6a87d0c376d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d448e471-b8e9-53b1-9d86-239e3edda561",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f735f41c-0bbe-5d54-bf77-a9ee5e54256a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "761c5cfd-1e97-5867-b650-5e81748c75d3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

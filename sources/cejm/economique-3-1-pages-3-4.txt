@@ -1,0 +1,32 @@
+# Matière : CEJM
+# Parent : Economique
+# Paquet : Les facteurs économiques et les choix de production - Pages 3 et 4
+# Description : La combinaison productive, la productivité, les gains de productivité et les coûts de production.
+
+Qu'est-ce que la combinaison productive ? ; La proportion de capital et de travail utilisée pour produire.
+Que sont des facteurs de production complémentaires ? ; Des facteurs qui ne peuvent pas être remplacés l'un par l'autre, car l'usage de l'un nécessite l'utilisation de l'autre : il n'existe qu'une seule combinaison productive possible.
+Que sont des facteurs de production substituables ? ; Des facteurs qui peuvent être remplacés par un autre : il existe alors plusieurs combinaisons productives possibles (ex. : du développement de lignes de code réalisé avec l'IA et supervisé).
+Qu'est-ce qu'une combinaison productive capitalistique ? ; Une combinaison qui utilise beaucoup de capital technique.
+Pourquoi l'entreprise doit-elle choisir la meilleure combinaison de ses facteurs de production ? ; Afin d'améliorer sa productivité (son efficience).
+Qu'est-ce que la productivité ? ; Un indicateur de performance qui mesure l'efficacité du processus productif : le rapport entre la production réalisée et les quantités de facteurs de production utilisés.
+Qu'est-ce que la productivité du travail ? ; Le rapport entre la production obtenue et la quantité de travail utilisée.
+Quelles sont les deux formes de productivité du travail ? ; La productivité horaire (par le nombre d'heures de travail) et la productivité par tête (par l'effectif de travailleurs employés).
+Qu'est-ce que la productivité du capital ? ; Le rapport entre la production obtenue et la quantité de capital utilisée.
+Qu'est-ce que la productivité globale des facteurs ? ; La part de l'augmentation de la production qui ne résulte ni de la productivité du travail, ni de la productivité du capital (le résidu).
+Comment peut-on calculer la production obtenue pour la productivité ? ; En volume (à partir des quantités produites) ou en valeur (à partir de la valeur ajoutée).
+Que mesurent les gains de productivité ? ; L'accroissement de la productivité sur une période donnée.
+Quelles sont les trois explications d'un gain de productivité ? ; On augmente la production sans modifier les facteurs de production, ou on produit autant en réduisant les facteurs de production, ou on augmente la production et on réduit les facteurs de production.
+Que désigne le coût de production ? ; L'ensemble des charges fixes et variables supportées par l'entreprise pour transformer ou créer des produits intermédiaires, semi-finis ou finis dans son processus productif.
+Comment calcule-t-on le coût de production unitaire ? ; Coût de production unitaire = coût de production total / quantité produite.
+Que sont les charges fixes (CF) ? ; Les coûts indépendants des quantités produites (ex. : loyers, abonnements).
+Que sont les charges variables (CV) ? ; Les coûts dépendants des quantités produites (ex. : matière première, emballages).
+Qu'est-ce que la structure des coûts de production ? ; La répartition du coût total de production entre coût fixe et coût variable.
+À quoi sert la structure des coûts de production ? ; À connaître l'impact d'une baisse de l'activité sur la rentabilité. Plus la part des charges fixes est élevée, plus une baisse d'activité risque de mettre l'entreprise en difficulté.
+Qu'est-ce que la rentabilité ? ; La capacité à obtenir des bénéfices.
+Pourquoi produire de gros volumes permet-il des économies d'échelle ? ; Les charges fixes sont mieux réparties.
+Comment le coût du facteur travail est-il déterminé ? ; Essentiellement par le salaire horaire. Une hausse du SMIC augmente le coût de production, sauf si l'entreprise remplace le travail par du capital. Une baisse des cotisations sociales permet de le réduire.
+Comment le coût du facteur capital est-il déterminé ? ; Essentiellement par le taux d'intérêt.
+Comment le coût des consommations intermédiaires est-il déterminé ? ; Il fluctue selon le contexte de leur production et leur cotation sur le marché (le cours).
+Qu'est-ce qu'une charge directe ? ; Une charge qui peut être directement imputée à un produit.
+Qu'est-ce qu'une charge indirecte ? ; Une charge qui ne peut pas être attribuée en totalité à un produit.
+Comment calcule-t-on le coût total d'un produit ? ; Coût d'achat des matières premières utilisées (CAMPU) ou consommées (CAMPC) + charges de main-d'œuvre directe de production + charges indirectes de production imputées.

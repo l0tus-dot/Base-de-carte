@@ -1,0 +1,504 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "a3b0cf39-9e1b-5080-ae7d-ba5ed1f7c9d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Economique",
+    "parentId": null
+   },
+   {
+    "id": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Les facteurs économiques et les choix de production - Pages 5 et 6",
+    "parentId": "a3b0cf39-9e1b-5080-ae7d-ba5ed1f7c9d9"
+   }
+  ],
+  "cards": [
+   {
+    "id": "3a69d842-9aa8-515f-bade-2914e23526d7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Comment l'entreprise peut-elle financer un investissement ?",
+    "back": "Par un emprunt bancaire : le taux d'intérêt représente alors le coût de cet emprunt.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "262419fd-cf24-58eb-ae04-68808932f7d5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Qu'est-ce qu'un investissement au sens du cours ?",
+    "back": "L'acquisition de capital technique fixe et durable.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "d500cc89-ab4e-506e-a9c8-a8d607563a59",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Quel est l'effet d'une baisse des taux d'intérêt sur l'investissement ?",
+    "back": "Elle encourage l'emprunt donc l'investissement, et joue sur les modalités de financement choisies par les entreprises.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "80c4a4fa-1b1f-5b93-8035-c901222aeff4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Que provoque une baisse des taux d'intérêt directeurs de la BCE ?",
+    "back": "Les banques se refinancent à moindre coût et baissent leurs taux : les crédits aux entreprises se développent, ce qui favorise l'investissement.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "94cf4e62-f9cc-5d6f-b1f7-a1e0bd8b4f66",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Que provoque une hausse des taux d'intérêt directeurs de la BCE ?",
+    "back": "Les banques commerciales augmentent leurs taux, le crédit devient plus cher : les entreprises reportent ou renoncent à un investissement.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "b057708a-8c90-5983-8ae0-ca1d86ec3941",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Que signifie BCE ?",
+    "back": "Banque centrale européenne.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "b222c093-f158-5592-8446-18a3864e32c4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Qu'est-ce que le développement durable (rapport Brundtland, 1987) ?",
+    "back": "Un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de répondre aux leurs.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "908f7cd0-9493-5287-8527-7167f64a4565",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Quels trois objectifs le développement durable doit-il concilier ?",
+    "back": "La croissance économique, les équilibres sociétaux et environnementaux, et les équilibres sociaux.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "fcd9a875-524b-5cca-88a1-8bb63e729908",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Comment le développement durable oblige-t-il les entreprises à adapter leurs décisions ?",
+    "back": "En choisissant des modes de transport avec moins d'externalités négatives, des produits plus économes en matières premières, en intégrant l'écoconception dès la phase d'innovation et en optimisant les processus.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "54d9468f-d977-5f37-81e7-f33dc80d59fc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Quel est le coût et l'intérêt du développement durable pour l'entreprise ?",
+    "back": "Cette contrainte est coûteuse en recherche et développement et en investissements, et risque de limiter la valeur créée à court terme. Mais elle peut aussi créer de la valeur pour le client et être un facteur de compétitivité par la différenciation.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "8a86ce44-1a11-5346-bb09-dec4e17df2e9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Qu'est-ce que la chaîne de valeur (Michael Porter, 1985) ?",
+    "back": "Un outil qui permet d'identifier les activités interdépendantes d'une entreprise qui sont créatrices de valeur, sources d'un avantage concurrentiel, des autres activités.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "9fb335ed-8f57-5304-b406-368ff63b4768",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Qu'est-ce que la valeur dans la chaîne de valeur ?",
+    "back": "La somme que le client est prêt à payer pour obtenir le produit. Chaque activité ajoute ou fait perdre de la valeur à la chaîne d'activités.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "e138b07c-54a8-55c7-92be-2a39253d7d2b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Quelles activités Michael Porter distingue-t-il ?",
+    "back": "Les activités principales et les activités de soutien.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "b92aed41-01db-522b-8ab7-4e236914ccc4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Quelles sont les activités principales de la chaîne de valeur ?",
+    "back": "La logistique interne, la production, la logistique externe, les ventes et le marketing, et le service après-vente (SAV).",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "338981cc-e5e1-5efd-bf73-50c3cf430dd7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Quelles sont les activités de soutien de la chaîne de valeur ?",
+    "back": "L'infrastructure de l'entreprise, la gestion des ressources humaines (RH), le développement technologique (R&D) et l'approvisionnement.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "b23084f1-e8ca-59ea-a728-c082e4a7af47",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Que permet l'analyse de la chaîne de valeur ?",
+    "back": "D'améliorer la compétitivité en se différenciant, d'améliorer la rentabilité en réduisant les coûts, d'augmenter la création de valeur pour le client et de décider d'externaliser certaines activités (l'impartition).",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "3aeccee2-77a9-5515-85d9-837ae14c0215",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Que sont les activités principales pour l'entreprise ?",
+    "back": "Le cœur de métier de l'entreprise : ces activités doivent être privilégiées et réalisées en interne.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "7923c699-d269-58f0-88d0-8b84a46ad023",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Que sont les activités non-clés ?",
+    "back": "Celles pour lesquelles l'entreprise est moins performante que d'autres acteurs : elles ne contribuent pas à l'avantage concurrentiel.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "4ec95c32-4859-5d8c-be08-e3eaa7be09a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Qu'est-ce que l'impartition ?",
+    "back": "Le fait, pour une entreprise, de faire produire par des entités externes des biens et services au lieu de les produire ou de les développer en interne (sous-traitance, concession, franchise : des relations de coopération étroites).",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "539882d6-389f-504d-a475-bfaf0f78d5d3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Que signifient « faire » et « faire-faire » ?",
+    "back": "« Faire » : produire en interne. « Faire-faire » : recourir à l'impartition, c'est-à-dire confier la production à une entité externe.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "3d79cb2f-26a5-5200-a636-b7d403d63f9c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Qu'est-ce que l'externalisation (outsourcing) ?",
+    "back": "Une forme d'impartition choisie par l'entreprise qui confie des activités non-clés à un prestataire extérieur.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "bdfad366-f7cf-598d-a3dd-a17810a1f76d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a22f33e2-568e-56f4-82e6-251c8b5a89ad",
+    "front": "Qu'est-ce que l'infogérance ?",
+    "back": "La gestion de tâches informatiques confiées à un prestataire extérieur.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "bde2d246-88b0-54cb-89da-e8562ae914ae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3a69d842-9aa8-515f-bade-2914e23526d7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7a7f6323-adb3-5ef5-8e60-cca37c0b8fd8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "262419fd-cf24-58eb-ae04-68808932f7d5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "285ac63c-52c3-5c55-999c-66888ce67e1d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d500cc89-ab4e-506e-a9c8-a8d607563a59",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5b9d5324-d4f4-5141-956a-c212af146c09",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "80c4a4fa-1b1f-5b93-8035-c901222aeff4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8b353285-d25c-5f2d-ab6e-7d3fd5baa00d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "94cf4e62-f9cc-5d6f-b1f7-a1e0bd8b4f66",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3d72346d-9957-58f3-a689-59c6fda6af8e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b057708a-8c90-5983-8ae0-ca1d86ec3941",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7e53c298-a249-5bed-a83c-be7732c2efc5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b222c093-f158-5592-8446-18a3864e32c4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "30f057f7-a23f-5efc-95d9-9ee054a81e37",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "908f7cd0-9493-5287-8527-7167f64a4565",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6d87a1ac-c2d3-503d-8a3d-adc11e14c553",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fcd9a875-524b-5cca-88a1-8bb63e729908",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a98e1fba-ddde-5a15-a60d-dc4528c9336b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "54d9468f-d977-5f37-81e7-f33dc80d59fc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bff32ace-ab07-560e-bdf9-b188dc53851a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8a86ce44-1a11-5346-bb09-dec4e17df2e9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e92a6bb7-5f0f-5a06-a1d8-2d7342a4db7d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9fb335ed-8f57-5304-b406-368ff63b4768",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a2527c44-6e4c-5aba-a09c-cae8eba872ef",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e138b07c-54a8-55c7-92be-2a39253d7d2b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1dae69a3-2130-5431-887d-78a4bfec966a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b92aed41-01db-522b-8ab7-4e236914ccc4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "af574c8e-fc4d-57ef-8eda-79c5003d47c0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "338981cc-e5e1-5efd-bf73-50c3cf430dd7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "794ec27d-04c0-5b4b-aa06-8068574df6f3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b23084f1-e8ca-59ea-a728-c082e4a7af47",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "26e1f034-ec85-5f90-87cf-3c377ffcdebe",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3aeccee2-77a9-5515-85d9-837ae14c0215",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0d5b062a-e260-5ddf-afa9-fa952734693c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7923c699-d269-58f0-88d0-8b84a46ad023",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cf9a9489-575b-5d3f-a230-720759dfc576",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4ec95c32-4859-5d8c-be08-e3eaa7be09a9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "63500345-3561-5cf6-b7fb-dac1a645aed7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "539882d6-389f-504d-a475-bfaf0f78d5d3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "502e0e5f-abd1-5103-9df6-bf64ec0a7444",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3d79cb2f-26a5-5200-a636-b7d403d63f9c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8dc0c860-d29d-563f-b0ea-3dd36ac5a3ab",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bdfad366-f7cf-598d-a3dd-a17810a1f76d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

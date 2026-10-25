@@ -36,6 +36,30 @@
   },
   {
    "subject": "CEJM",
+   "deck": "Les facteurs économiques et les choix de production - Pages 1 et 2",
+   "cards": 28,
+   "description": "Les facteurs de production, les consommations intermédiaires, la valeur ajoutée et sa répartition.",
+   "path": "paquets/cejm/economique-3-1-pages-1-2.json",
+   "parent": "Economique"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Les facteurs économiques et les choix de production - Pages 3 et 4",
+   "cards": 27,
+   "description": "La combinaison productive, la productivité, les gains de productivité et les coûts de production.",
+   "path": "paquets/cejm/economique-3-1-pages-3-4.json",
+   "parent": "Economique"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Les facteurs économiques et les choix de production - Pages 5 et 6",
+   "cards": 22,
+   "description": "Le taux d'intérêt, le développement durable, la chaîne de valeur et le choix entre « faire » et « faire-faire ».",
+   "path": "paquets/cejm/economique-3-1-pages-5-6.json",
+   "parent": "Economique"
+  },
+  {
+   "subject": "CEJM",
    "deck": "La période précontractuelle et la formation du contrat - Pages 1 et 2",
    "cards": 35,
    "description": "La définition et les types de contrats informatiques, les pourparlers et les avant-contrats.",
@@ -56,6 +80,38 @@
    "cards": 19,
    "description": "Les clauses d'un contrat et ses effets juridiques entre les parties et à l'égard des tiers.",
    "path": "paquets/cejm/juridique-1-2-pages-5-6.json",
+   "parent": "Juridique"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Les structures juridiques - Page 1",
+   "cards": 14,
+   "description": "La structure juridique, l'entreprise individuelle et les sociétés, le contrat de société.",
+   "path": "paquets/cejm/juridique-3-2-1-page-1.json",
+   "parent": "Juridique"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Les structures juridiques - Page 2",
+   "cards": 31,
+   "description": "Le tableau comparatif des structures juridiques : associés, pouvoirs, capital, patrimoine, régimes social et fiscal.",
+   "path": "paquets/cejm/juridique-3-2-1-page-2.json",
+   "parent": "Juridique"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Les structures juridiques - Page 3",
+   "cards": 16,
+   "description": "Les motivations patrimoniales et fiscales : protection du patrimoine, régimes matrimoniaux, IR et IS.",
+   "path": "paquets/cejm/juridique-3-2-1-page-3.json",
+   "parent": "Juridique"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Les structures juridiques - Page 4",
+   "cards": 21,
+   "description": "Les motivations sociales et financières (TNS, assimilé salarié, apports, capital) et le partage du pouvoir.",
+   "path": "paquets/cejm/juridique-3-2-1-page-4.json",
    "parent": "Juridique"
   },
   {

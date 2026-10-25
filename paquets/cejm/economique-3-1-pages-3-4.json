@@ -1,0 +1,609 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "a3b0cf39-9e1b-5080-ae7d-ba5ed1f7c9d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Economique",
+    "parentId": null
+   },
+   {
+    "id": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Les facteurs économiques et les choix de production - Pages 3 et 4",
+    "parentId": "a3b0cf39-9e1b-5080-ae7d-ba5ed1f7c9d9"
+   }
+  ],
+  "cards": [
+   {
+    "id": "be9b3b89-bd0f-5380-ae2c-a919b5d329f8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Qu'est-ce que la combinaison productive ?",
+    "back": "La proportion de capital et de travail utilisée pour produire.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "c86c3e3f-c6b0-5972-95c8-329d5b8c0eba",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Que sont des facteurs de production complémentaires ?",
+    "back": "Des facteurs qui ne peuvent pas être remplacés l'un par l'autre, car l'usage de l'un nécessite l'utilisation de l'autre : il n'existe qu'une seule combinaison productive possible.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "bf885c41-b736-59a9-bed7-b63524401dbc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Que sont des facteurs de production substituables ?",
+    "back": "Des facteurs qui peuvent être remplacés par un autre : il existe alors plusieurs combinaisons productives possibles (ex. : du développement de lignes de code réalisé avec l'IA et supervisé).",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "6cd2c48b-4d93-5164-96f6-1145e01ba116",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Qu'est-ce qu'une combinaison productive capitalistique ?",
+    "back": "Une combinaison qui utilise beaucoup de capital technique.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "25466f52-31b3-570b-859a-b255c5dc4df6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Pourquoi l'entreprise doit-elle choisir la meilleure combinaison de ses facteurs de production ?",
+    "back": "Afin d'améliorer sa productivité (son efficience).",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "f14b2dea-1e47-551f-9dfa-e78b22a5930d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Qu'est-ce que la productivité ?",
+    "back": "Un indicateur de performance qui mesure l'efficacité du processus productif : le rapport entre la production réalisée et les quantités de facteurs de production utilisés.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "feab49d5-4707-5bab-ab87-324d9faf160b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Qu'est-ce que la productivité du travail ?",
+    "back": "Le rapport entre la production obtenue et la quantité de travail utilisée.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "efd83d78-aede-5194-ba35-628fc3329b8b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Quelles sont les deux formes de productivité du travail ?",
+    "back": "La productivité horaire (par le nombre d'heures de travail) et la productivité par tête (par l'effectif de travailleurs employés).",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "6241b714-35dd-5c65-8b12-556f802d4eb4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Qu'est-ce que la productivité du capital ?",
+    "back": "Le rapport entre la production obtenue et la quantité de capital utilisée.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "a1b5853e-f2d3-5bbc-a966-c3a2884749c1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Qu'est-ce que la productivité globale des facteurs ?",
+    "back": "La part de l'augmentation de la production qui ne résulte ni de la productivité du travail, ni de la productivité du capital (le résidu).",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "f4274bdd-a5ce-55d7-8a1b-41f74b5c4946",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Comment peut-on calculer la production obtenue pour la productivité ?",
+    "back": "En volume (à partir des quantités produites) ou en valeur (à partir de la valeur ajoutée).",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "8747873d-be38-5cd0-a92f-1e667371a95a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Que mesurent les gains de productivité ?",
+    "back": "L'accroissement de la productivité sur une période donnée.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "7adc52e1-9f2e-5954-9c23-7195d7fb3952",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Quelles sont les trois explications d'un gain de productivité ?",
+    "back": "On augmente la production sans modifier les facteurs de production, ou on produit autant en réduisant les facteurs de production, ou on augmente la production et on réduit les facteurs de production.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "53bc8ed5-39d2-536f-9364-a6859f152313",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Que désigne le coût de production ?",
+    "back": "L'ensemble des charges fixes et variables supportées par l'entreprise pour transformer ou créer des produits intermédiaires, semi-finis ou finis dans son processus productif.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "b019e99f-0581-5c74-b303-8e26e8bce913",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Comment calcule-t-on le coût de production unitaire ?",
+    "back": "Coût de production unitaire = coût de production total / quantité produite.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "3bd2e3ee-0fe7-5f5e-9015-565f58baa219",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Que sont les charges fixes (CF) ?",
+    "back": "Les coûts indépendants des quantités produites (ex. : loyers, abonnements).",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "494636f7-a4b7-5d9a-b405-bb9b3ad900ab",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Que sont les charges variables (CV) ?",
+    "back": "Les coûts dépendants des quantités produites (ex. : matière première, emballages).",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "2d68d0b5-0fd5-552e-9702-3c906c3fee2b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Qu'est-ce que la structure des coûts de production ?",
+    "back": "La répartition du coût total de production entre coût fixe et coût variable.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "bf67381d-55e9-59ed-a76a-d518b3c979dc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "À quoi sert la structure des coûts de production ?",
+    "back": "À connaître l'impact d'une baisse de l'activité sur la rentabilité. Plus la part des charges fixes est élevée, plus une baisse d'activité risque de mettre l'entreprise en difficulté.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "2d1303c6-0b18-5ef0-b44e-ea15888ee1a8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Qu'est-ce que la rentabilité ?",
+    "back": "La capacité à obtenir des bénéfices.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "bef25351-01f9-5945-9c48-75421b210476",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Pourquoi produire de gros volumes permet-il des économies d'échelle ?",
+    "back": "Les charges fixes sont mieux réparties.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "2b7f3d75-4117-5293-b03f-7af28a67c24f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Comment le coût du facteur travail est-il déterminé ?",
+    "back": "Essentiellement par le salaire horaire. Une hausse du SMIC augmente le coût de production, sauf si l'entreprise remplace le travail par du capital. Une baisse des cotisations sociales permet de le réduire.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "879b1ba4-0a0a-5dc6-a68e-87f63c5edfd1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Comment le coût du facteur capital est-il déterminé ?",
+    "back": "Essentiellement par le taux d'intérêt.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "4a0003de-d1fc-5ede-b927-08b07e2a45c7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Comment le coût des consommations intermédiaires est-il déterminé ?",
+    "back": "Il fluctue selon le contexte de leur production et leur cotation sur le marché (le cours).",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "665877bd-02b6-5cec-936e-55e36c48abaa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Qu'est-ce qu'une charge directe ?",
+    "back": "Une charge qui peut être directement imputée à un produit.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "7216a5f3-bf1c-543a-ba78-068b58768b36",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Qu'est-ce qu'une charge indirecte ?",
+    "back": "Une charge qui ne peut pas être attribuée en totalité à un produit.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "6c5b4d1e-c83d-5177-899d-d57f767d6c48",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1af2b14d-1e8f-5e1f-b9ae-94fb72a9a622",
+    "front": "Comment calcule-t-on le coût total d'un produit ?",
+    "back": "Coût d'achat des matières premières utilisées (CAMPU) ou consommées (CAMPC) + charges de main-d'œuvre directe de production + charges indirectes de production imputées.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "00ac6672-3185-5c47-93c1-da85845b86f7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "be9b3b89-bd0f-5380-ae2c-a919b5d329f8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "482e6efd-4779-5d28-98c1-a2f1edb3cd7c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c86c3e3f-c6b0-5972-95c8-329d5b8c0eba",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4441449b-ee03-54a8-affa-33b2530429a6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bf885c41-b736-59a9-bed7-b63524401dbc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9d3a4a39-2716-5e0d-9cc1-d3ad84d0991c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6cd2c48b-4d93-5164-96f6-1145e01ba116",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "adc3e7b8-1d59-5181-b1ef-4e1cf0c65666",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "25466f52-31b3-570b-859a-b255c5dc4df6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f9de36f5-b8be-5044-9efe-c9a21dc3feef",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f14b2dea-1e47-551f-9dfa-e78b22a5930d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "098b7b08-369b-5788-ba9a-23deda90c9f1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "feab49d5-4707-5bab-ab87-324d9faf160b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fdb4a0d5-29dd-5484-9301-4c488e381758",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "efd83d78-aede-5194-ba35-628fc3329b8b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "774da9ad-aa59-597d-986b-c87abcd66226",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6241b714-35dd-5c65-8b12-556f802d4eb4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "de2a1330-cb8e-57a3-a97a-e4fcc34b5c1f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a1b5853e-f2d3-5bbc-a966-c3a2884749c1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8fd26464-09f9-5dce-b864-6a7d22f51da2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f4274bdd-a5ce-55d7-8a1b-41f74b5c4946",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a33cb445-ee8f-53a4-a7d3-066d4e374be6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8747873d-be38-5cd0-a92f-1e667371a95a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "622b0b3b-44c8-512f-91c9-40cdd125ade2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7adc52e1-9f2e-5954-9c23-7195d7fb3952",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fa3caac4-e00e-5d27-b83c-76b717efe59a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "53bc8ed5-39d2-536f-9364-a6859f152313",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1fe8201c-c4ae-5248-825c-c6485690150a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b019e99f-0581-5c74-b303-8e26e8bce913",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "76d5d5ed-2c46-5994-9759-726f453b7afa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3bd2e3ee-0fe7-5f5e-9015-565f58baa219",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "45eb115e-5cf8-5e2d-b607-28bed0ac4e40",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "494636f7-a4b7-5d9a-b405-bb9b3ad900ab",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c5d7c878-40ce-5788-845d-7ce5ec9779f7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2d68d0b5-0fd5-552e-9702-3c906c3fee2b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "559dc41c-4413-59c9-8d39-ffc6d2afcc2b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bf67381d-55e9-59ed-a76a-d518b3c979dc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "04806db6-b76d-58e9-bdc8-a7fc1758d243",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2d1303c6-0b18-5ef0-b44e-ea15888ee1a8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4a80f895-445c-520e-803a-a39341a6b267",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bef25351-01f9-5945-9c48-75421b210476",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b8dc8253-a4d6-501e-bf08-2e425d5788c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2b7f3d75-4117-5293-b03f-7af28a67c24f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7e373726-601e-5314-9ae8-30146244fef4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "879b1ba4-0a0a-5dc6-a68e-87f63c5edfd1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b656950b-a58c-5e71-9235-b1eaa3020034",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4a0003de-d1fc-5ede-b927-08b07e2a45c7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c763ef0c-1c06-582a-be91-8a2dc1781374",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "665877bd-02b6-5cec-936e-55e36c48abaa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "340bde6a-21ba-5f7d-b2c5-5f56771b1cab",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7216a5f3-bf1c-543a-ba78-068b58768b36",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a45bed53-e485-519f-ae0e-805aa273e06f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6c5b4d1e-c83d-5177-899d-d57f767d6c48",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}
