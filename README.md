@@ -40,12 +40,13 @@ Il faut Python (aucune bibliothèque à installer). Sous Windows, si la commande
    ```text
    # Matière : Histoire
    # Paquet : La Révolution française
+   # Description : Dates et événements clés de 1789 à 1793
 
    question ; réponse
    autre question ; autre réponse
    ```
 
-   Une carte par ligne, **un seul point-virgule**. Le prompt du guide Flash (« Créer tes cartes avec une IA ») produit déjà ce format : colle le bloc de code obtenu sous les deux lignes d'en-tête.
+   La ligne `# Description` est facultative : c'est la courte phrase affichée sous le nom du paquet dans la liste de l'application. Une carte par ligne, **un seul point-virgule**. Le prompt du guide Flash (« Créer tes cartes avec une IA ») produit déjà ce format : colle le bloc de code obtenu sous les deux lignes d'en-tête.
 2. Génère le fichier à importer, depuis la racine du dépôt :
 
    ```bash
@@ -53,7 +54,14 @@ Il faut Python (aucune bibliothèque à installer). Sous Windows, si la commande
    ```
 
    Le fichier est écrit dans `paquets/histoire/revolution.json`. Le script s'arrête avec un message clair si une ligne est mal formée ou si une question est en double. Il est un peu plus strict que « Importer du texte » dans Flash : une ligne ne doit contenir qu'**un** point-virgule. Enregistre le `.txt` en UTF-8.
-3. **Relis les cartes** (une IA peut se tromper), ajoute le paquet à la liste ci-dessus, puis envoie le tout sur GitHub.
+3. Mets à jour le **catalogue** que l'application lit pour proposer les paquets (Réglages, Importer un fichier, Depuis la base de cartes) :
+
+   ```bash
+   python outils/creer-paquet.py --catalogue
+   ```
+
+   Cela écrit `catalogue.json` à la racine du dépôt (matière, nom, nombre de cartes et description de chaque paquet). **À relancer chaque fois qu'un paquet est ajouté, modifié ou retiré**, et à envoyer avec les paquets : sans lui, l'application n'affiche pas le nouveau paquet. Les noms de fichiers doivent être de la forme `paquets/<dossier>/<nom>.json`, avec seulement des lettres, des chiffres, `-` ou `_`.
+4. **Relis les cartes** (une IA peut se tromper), ajoute le paquet à la liste ci-dessus, puis envoie le tout sur GitHub, `catalogue.json` compris. Un paquet publié peut mettre jusqu'à 5 minutes à apparaître dans l'application.
 
 ## Règles
 

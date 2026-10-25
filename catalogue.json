@@ -1,0 +1,83 @@
+{
+ "format": "flash-catalogue",
+ "version": 1,
+ "packs": [
+  {
+   "subject": "CEJMA",
+   "deck": "Les licences logicielles",
+   "cards": 21,
+   "description": "",
+   "path": "paquets/cejma/les-licences-logicielles.json"
+  },
+  {
+   "subject": "Cybersécurité",
+   "deck": "ACL cisco",
+   "cards": 32,
+   "description": "",
+   "path": "paquets/cybersecurite/acl-cisco.json"
+  },
+  {
+   "subject": "Cybersécurité",
+   "deck": "Délégation de droit avec sudo",
+   "cards": 31,
+   "description": "",
+   "path": "paquets/cybersecurite/delegation-sudo.json"
+  },
+  {
+   "subject": "Cybersécurité",
+   "deck": "Segmentation VLSM",
+   "cards": 18,
+   "description": "",
+   "path": "paquets/cybersecurite/segmentation-vlsm.json"
+  },
+  {
+   "subject": "Cybersécurité",
+   "deck": "VPN",
+   "cards": 28,
+   "description": "",
+   "path": "paquets/cybersecurite/vpn.json"
+  },
+  {
+   "subject": "Réseau",
+   "deck": "Active Directory",
+   "cards": 30,
+   "description": "",
+   "path": "paquets/reseau/active-directory.json"
+  },
+  {
+   "subject": "Réseau",
+   "deck": "DHCP",
+   "cards": 22,
+   "description": "",
+   "path": "paquets/reseau/dhcp.json"
+  },
+  {
+   "subject": "Réseau",
+   "deck": "Dépannage réseau",
+   "cards": 33,
+   "description": "",
+   "path": "paquets/reseau/depannage-reseau.json"
+  },
+  {
+   "subject": "Réseau",
+   "deck": "NAT et PAT",
+   "cards": 25,
+   "description": "",
+   "path": "paquets/reseau/nat-et-pat.json"
+  },
+  {
+   "subject": "Réseau",
+   "deck": "Routage Dynamique (RIPv2)",
+   "cards": 26,
+   "description": "",
+   "path": "paquets/reseau/routage-dynamique-ripv2.json"
+  },
+  {
+   "subject": "Réseau",
+   "deck": "Routage statique",
+   "cards": 18,
+   "description": "",
+   "path": "paquets/reseau/routage-statique.json"
+  }
+ ]
+}

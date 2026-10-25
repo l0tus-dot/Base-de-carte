@@ -19,6 +19,15 @@ Format de la source (enregistrée en UTF-8) :
     autre question ; autre réponse
 
 Une carte par ligne, avec un seul point-virgule. Les lignes vides et les lignes ``` sont ignorées.
+Une ligne facultative « # Description : … » donne la courte description affichée dans la liste des
+paquets de l'application (elle n'entre pas dans le fichier du paquet).
+
+Le catalogue des paquets (lu par l'application) se fabrique avec :
+
+    python outils/creer-paquet.py --catalogue
+
+Il écrit catalogue.json à la racine du dépôt : à relancer, puis à envoyer avec les paquets,
+chaque fois qu'un paquet est ajouté, modifié ou retiré.
 
 Les identifiants sont calculés à partir des textes : relancer le script donne exactement le
 même fichier, et importer deux fois le même paquet ne crée aucun doublon. Toutes les dates sont
@@ -29,6 +38,7 @@ précédente, pour que Flash les propose dans l'ordre de la source.
 import datetime
 import json
 import pathlib
+import re
 import sys
 import unicodedata
 import uuid
@@ -44,9 +54,12 @@ class SourceError(Exception):
 
 
 def parse_source(text):
-    """Renvoie (matière, paquet, [(question, réponse), ...]) ou lève SourceError."""
+    """Renvoie (matière, paquet, [(question, réponse), ...], description) ou lève SourceError.
+
+    La description est facultative : une chaîne vide si la ligne « # Description : … » manque.
+    """
     text = unicodedata.normalize("NFC", text)  # un « é » décomposé donnerait d'autres identifiants
-    subject = deck = None
+    subject = deck = description = None
     cards = []
     seen = set()
     for number, raw in enumerate(text.splitlines(), start=1):
@@ -64,8 +77,13 @@ def parse_source(text):
                 if deck is not None:
                     raise SourceError(f"ligne {number} : le paquet est déjà indiqué plus haut")
                 deck = value
+            elif key == "description":
+                if description is not None:
+                    raise SourceError(f"ligne {number} : la description est déjà indiquée plus haut")
+                description = value
             else:
-                raise SourceError(f"ligne {number} : en-tête inconnu « {line} » (attendu : Matière ou Paquet)")
+                raise SourceError(f"ligne {number} : en-tête inconnu « {line} » "
+                                  "(attendu : Matière, Paquet ou Description)")
             continue
         parts = line.split(";")
         if len(parts) != 2:
@@ -83,7 +101,7 @@ def parse_source(text):
         raise SourceError("il manque la ligne « # Paquet : … »")
     if not cards:
         raise SourceError("le paquet ne contient aucune carte")
-    return subject, deck, cards
+    return subject, deck, cards, description or ""
 
 
 def make_id(*parts):
@@ -145,15 +163,69 @@ def write_pack(output, pack):
         raise SourceError(f"impossible d'écrire « {output} »")
 
 
+PACK_PATH = re.compile(r"^paquets/[\w-]+/[\w-]+\.json$")  # ce que l'application accepte de télécharger
+
+
+def read_pack_summary(path, relative):
+    """(matière, paquet, nombre de cartes) d'un fichier de paquet, ou SourceError."""
+    try:
+        tables = json.loads(path.read_text(encoding="utf-8"))["tables"]
+        subject = tables["subjects"][0]["name"]
+        deck = tables["decks"][0]["name"]
+        cards = sum(1 for card in tables["cards"] if card.get("deletedAt") is None)
+    except (OSError, ValueError, KeyError, IndexError, TypeError, AttributeError):
+        raise SourceError(f"paquet illisible : {relative} (ce n'est pas un fichier produit par ce script ?)")
+    return subject, deck, cards
+
+
+def build_catalogue(root):
+    """Le catalogue de tous les paquets de root/paquets, trié par matière puis paquet."""
+    packs_dir = root / "paquets"
+    if not packs_dir.is_dir():
+        raise SourceError(f"il n'y a pas de dossier paquets/ dans « {root} »")
+    packs = []
+    for path in sorted(packs_dir.rglob("*.json")):
+        relative = path.relative_to(root).as_posix()
+        if not PACK_PATH.match(relative):
+            raise SourceError(f"nom de fichier non pris en charge : {relative} "
+                              "(utilise paquets/<dossier>/<nom>.json, avec des lettres, chiffres, - ou _)")
+        subject, deck, cards = read_pack_summary(path, relative)
+        description = ""
+        source = root / "sources" / path.relative_to(packs_dir).with_suffix(".txt")
+        if source.is_file():
+            description = parse_source(read_source(source))[3]
+        packs.append({"subject": subject, "deck": deck, "cards": cards,
+                      "description": description, "path": relative})
+    packs.sort(key=lambda p: (p["subject"].casefold(), p["deck"].casefold()))
+    return {"format": "flash-catalogue", "version": 1, "packs": packs}
+
+
+def catalogue_main(args):
+    if len(args) > 1:
+        print(__doc__)
+        return 2
+    root = pathlib.Path(args[0]) if args else pathlib.Path(__file__).resolve().parent.parent
+    try:
+        catalogue = build_catalogue(root)
+        write_pack(root / "catalogue.json", catalogue)
+    except SourceError as error:
+        print(f"Erreur : {error}", file=sys.stderr)
+        return 1
+    print(f"{len(catalogue['packs'])} paquets -> {root / 'catalogue.json'}")
+    return 0
+
+
 def main(argv):
     for stream in (sys.stdout, sys.stderr):
         stream.reconfigure(errors="replace")  # une console Windows ancienne ne doit pas faire planter l'affichage
+    if len(argv) >= 2 and argv[1] == "--catalogue":
+        return catalogue_main(argv[2:])
     if len(argv) not in (2, 3):
         print(__doc__)
         return 2
     source = pathlib.Path(argv[1])
     try:
-        subject, deck, cards = parse_source(read_source(source))
+        subject, deck, cards, _description = parse_source(read_source(source))
         output = pathlib.Path(argv[2]) if len(argv) == 3 else default_output(source)
         write_pack(output, build_pack(subject, deck, cards))
     except SourceError as error:
