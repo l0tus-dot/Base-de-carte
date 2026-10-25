@@ -1,0 +1,73 @@
+# Matière : CEJM
+# Parent : Méthodes
+# Paquet : Epreuve E4
+# Description : L'épreuve E4 (CEJMI), la démarche, la rédaction, la méthode PEI, les connecteurs logiques, les verbes de consigne et les mots délimitateurs.
+
+Sur quoi porte l'épreuve E4 du BTS SIO ? ; Sur la culture économique, juridique et managériale pour l'informatique (CEJMI), appliquée au contexte informatique.
+Quelles sont les modalités de l'épreuve E4 ? ; Une épreuve écrite de 4 heures, de coefficient 3. Aucun matériel n'est autorisé.
+Quel est l'objectif de l'épreuve E4 ? ; Éclairer des problématiques économiques, juridiques et managériales rencontrées par des prestataires de services informatiques.
+De quoi se compose le sujet de l'épreuve E4 ? ; D'un dossier d'une dizaine de pages : un contexte de prestation de services informatiques contenant des problématiques, plusieurs missions avec des questions formulées avec des verbes de compétence et une base documentaire.
+Quelles compétences l'épreuve E4 évalue-t-elle ? ; Analyser des situations, exploiter une base documentaire, proposer des solutions argumentées en mobilisant des notions et des méthodes, établir un diagnostic, prendre des décisions opérationnelles et exposer des analyses de manière cohérente et argumentée.
+Comment se déroule l'épreuve de contrôle de rattrapage ? ; Une épreuve orale : 20 minutes de préparation, 10 minutes d'exposé et 10 minutes d'interrogation. Le sujet fait 2 pages (contexte, 1 question de droit, 1 d'économie, 1 de management et 2 annexes).
+Quelles sont les 5 étapes de la démarche pour traiter un sujet ? ; 1. Comprendre. 2. Définir. 3. Structurer. 4. Repérer dans les documents et la mémoire. 5. Rédiger.
+Que faut-il comprendre au début d'un sujet ? ; Le contexte (organisation, secteur d'activités, projets, enjeux), les verbes des consignes et les notions du programme, pour en déduire le domaine (économie, droit ou management) et adapter le vocabulaire et les méthodes, sans faire de hors sujet.
+À quel domaine se rattachent les agents économiques et la relation d'échange ? ; À l'économie.
+À quel domaine se rattachent les responsabilités et les clauses contractuelles ? ; Au droit.
+À quel domaine se rattachent les parties prenantes, les stratégies et les types de ressources ? ; Au management.
+Que faut-il faire à l'étape « Définir » ? ; Donner les définitions des notions et concepts.
+Comment structurer sa réponse ? ; Le plan est suggéré dans la consigne ou correspond aux typologies du cours. Il consiste souvent à utiliser des méthodes données en cours (méthode PEI, analyse d'un marché, argumentation juridique dans un cas pratique, etc.).
+Comment repérer l'information dans les documents et la mémoire ? ; Relier et justifier les notions avec les éléments du contexte et des documents en respectant le plan, souligner ou surligner et annoter sans la marge, et ne pas se limiter aux documents mais s'appuyer aussi sur ses connaissances.
+Quelles sont les règles d'un écrit clair et professionnel ? ; Des phrases ponctuées, directes et concises (sujet, verbe, un ou deux compléments), un ton et une langue adaptés (formel, neutre, académique), pas de tutoiement, la 3e personne du singulier, pas de langage familier, tout rédiger (pas d'abréviations, de flèches ou de symboles) et un vocabulaire varié.
+Peut-on recopier les documents dans sa copie ? ; Non, il faut reformuler les informations pour les intégrer à son écrit.
+Faut-il définir deux fois la même notion ? ; Non, il faut faire un renvoi (« Nous avons défini la notion de marché dans la question 1.1 »).
+Quelles sont les règles d'une copie soignée ? ; Commencer une mission en haut d'une page, inscrire le numéro de la question sans la recopier, une écriture lisible, un texte aéré, des ratures rayées proprement à la règle, un stylo d'une seule couleur (encre foncée, noire ou bleue, pas de rouge), des outils de mise en forme (soulignement, espaces) et des marges et alignements respectés.
+Quelle couleur d'encre est réservée au correcteur ? ; Le rouge.
+Que signifie la méthode PEI (ou AEI) ? ; Présenter ou Affirmer l'idée, Expliquer, Illustrer par un exemple expliqué. Chaque paragraphe argumenté est construit avec cette méthode.
+En quoi consiste le « P » de PEI ? ; Présenter ou affirmer l'idée qui répond à la problématique, en faisant référence à une notion de cours au moins, puis la définir.
+En quoi consiste le « E » de PEI ? ; Expliquer, c'est convaincre : préciser les notions et concepts, préciser une typologie si elle existe, expliquer les mécanismes économiques, montrer les causes et les effets, nuancer, comparer avec une autre situation, présenter des conditions de réussite.
+En quoi consiste le « I » de PEI ? ; Illustrer par un exemple expliqué, issu et situé dans le contexte, pertinent, qui complète l'argument. Il peut être personnel (cours ou documents), être des chiffres vus dans les documents ou des faits observés dans l'actualité du secteur.
+Comment mobiliser des données chiffrées ? ; À partir des tableaux ou graphiques, comme des pourcentages clairs et convaincants.
+À quoi servent les connecteurs logiques ? ; À guider le lecteur : il doit comprendre la logique du raisonnement au sein du paragraphe et le texte doit être fluide.
+Quels connecteurs utiliser pour annoncer les paragraphes successifs ? ; Tout d'abord ou Premièrement, De plus, Par ailleurs ou Ensuite, De même (argument proche), En revanche (argument qui s'oppose), Enfin.
+Quels connecteurs utiliser pour expliquer, prouver ou justifier ? ; En effet, car, étant donné que, en raison de, parce que, puisque.
+Quels connecteurs utiliser pour scinder deux explications ? ; D'une part, d'autre part, non seulement mais aussi, également.
+Quels connecteurs utiliser pour préciser ? ; D'ailleurs, encore, quant à, voire, non seulement mais encore, de surcroît, en outre.
+Quels connecteurs utiliser pour illustrer ? ; À titre d'exemple, ainsi, on peut citer, par exemple, notamment.
+Quels connecteurs utiliser pour opposer ou nuancer ? ; Cependant, mais, néanmoins, en revanche, au contraire, pourtant, toutefois, bien que, malgré, d'un côté d'un autre côté.
+Quels connecteurs utiliser pour ajouter une condition ? ; À condition que, si alors, en admettant que.
+Quels connecteurs utiliser pour montrer l'objectif ? ; Pour que, en vue de, afin que, afin de, dans le but de.
+Quels connecteurs utiliser pour présenter les conséquences ? ; Si bien que, voilà pourquoi, par conséquent, donc.
+Quels connecteurs utiliser pour conclure ? ; Donc, finalement, en résumé, il est indéniable que, ainsi il apparaît que, il apparaît clairement que, il s'avère que.
+Quels connecteurs utiliser pour annoncer une transition ? ; Cela amène à se demander si, dès lors on peut s'interroger sur, cette réflexion conduit à examiner.
+Comment le verbe s'accorde-t-il ? ; En nombre et en personne avec son sujet (ex. : ces entreprises augmentent leurs investissements).
+Quelle est la règle du participe passé avec avoir ? ; Il s'accorde avec le COD placé avant le verbe (ex. : les contrats que le directeur a signés).
+Quelle est la règle du participe passé avec être ? ; Il s'accorde avec le sujet (ex. : la production est assurée à temps).
+Comment s'accordent les noms et adjectifs ? ; En genre et en nombre (ex. : les stratégies marketing efficaces augmentent le chiffre d'affaires).
+Quels mots sont invariables dans les exemples du cours ? ; Toujours, davantage et malgré.
+Quelle est la différence entre « ce » et « se » ? ; Ce + nom (ce rapport est confidentiel). Se + verbe (le PDG se concentre sur la stratégie).
+Quelle est la différence entre « ces » et « ses » ? ; Ces = celle-ci (ces actions sont cotées en bourse). Ses = les siennes (ses décisions influencent l'équipe).
+Quelle est la différence entre « c'est » et « s'est » ? ; C'est = cela est (c'est un bon investissement). S'est = verbe réfléchi (il s'est entretenu avec les partenaires).
+Quelle est la différence entre « tout » et « tous » ? ; Tout = l'ensemble (tout est prêt pour la réunion). Tous = chacun (tous les salariés ont signé le contrat).
+Quelle est la différence entre « à » et « a » ? ; À est une préposition (l'entreprise est située à Paris). A est l'auxiliaire avoir (le directeur a approuvé le budget).
+Quelle est la différence entre « ou » et « où » ? ; Ou est une alternative (investir en France ou en Allemagne ?). Où indique le lieu ou le temps (voici le bureau où se tiennent les négociations).
+Que signifient les verbes « citer, repérer, relever, classer » ? ; Ce sont des questions de lecture : énumérer les éléments dans le contexte et les reformuler, sans les commenter, en les présentant de manière structurée à l'aide de critères, d'une typologie ou d'une méthode vue en classe. Il faut faire une phrase introductive.
+Que signifient les verbes « identifier, qualifier, décrire » ? ; Reconnaître dans le texte un élément qui doit être reformulé avec les concepts et notions vus en classe, avec le vocabulaire de la matière.
+Que signifie le verbe « caractériser » ? ; Présenter en précisant les caractères, les propriétés ou les particularités.
+Que signifient les verbes « expliquer, commenter, interpréter, présenter » ? ; Ce sont des questions de compréhension : montrer que l'on maîtrise le sens de ce que l'on a lu dans les documents et restituer les notions et concepts du cours, en repérant les informations des documents et en les ordonnant dans des paragraphes structurés.
+Que signifient les verbes « (dé)montrer, justifier, indiquer si, évaluer, déterminer, apporter une réponse argumentée » ? ; Ce sont des questions de réflexion et d'argumentation : raisonner et prouver ou donner de la crédibilité à ce qui est avancé, avec méthode.
+Que signifie le verbe « analyser » ? ; Recenser les avantages, les causes, les conséquences, les opportunités, les enjeux (intérêts et risques).
+Quelle différence entre « comparer » et « distinguer » ? ; Comparer consiste à mettre en évidence les similitudes et les différences. Distinguer consiste à noter que les différences.
+Que signifie le verbe « proposer » ? ; Apporter des solutions et les défendre.
+Quels sont les trois types de questions de consigne ? ; Les questions de lecture, de compréhension, et de réflexion et d'argumentation.
+Quelle différence entre les causes, les facteurs et les effets ? ; Les causes (ou raisons) permettent d'expliquer le mécanisme, pourquoi une chose existe. Les facteurs contribuent à une probabilité plus élevée d'aboutir à un résultat. Les effets (conséquences, incidences) sont le résultat concret d'une action ou d'un phénomène, c'est la portée.
+Quelle différence entre une finalité, un objectif, une valeur et une fonction ? ; La finalité est la raison d'être, non quantifiable. L'objectif est le but précis à atteindre, quantifiable ou chiffrable. La valeur est la qualité estimée de ce qui produit l'effet souhaité. La fonction est le rôle.
+Que sont les enjeux ? ; Ce que l'on a à gagner ou à perdre (les gains et les risques).
+Que sont les limites ? ; Les aspects négatifs, donc les risques (aussi appelés les freins ou les obstacles).
+Que sont les contraintes ou impératifs ? ; Les exigences, les obligations, les conditions obligatoires, les inconvénients liés à une activité, à un usage ou à une nécessité.
+Que sont les critères et les conditions ? ; Les critères sont des indications ou indices à prendre en compte pour effectuer un choix, et les conditions sont les éléments utiles pour analyser une situation dans une grille.
+Quelle différence entre l'évolution, la mutation et l'indicateur ? ; L'évolution est la tendance, la série de transformations successives. La mutation est la modification finale fondamentale d'un phénomène. L'indicateur est un outil mathématique significatif qui mesure la situation ou l'évolution (ex. : un taux).
+Que désignent les mots forme, nature et type ? ; L'ensemble des traits caractéristiques d'un groupe, d'une famille, que l'on peut classer par catégorie.
+Que désigne le mot « domaine » ? ; Un espace, un champ d'application ou d'action : il embrasse un art, une science, un sujet, une idée.
+Que désignent les outils, moyens et ressources ? ; Les éléments humains, matériels ou financiers sur lesquels s'appuie l'organisation (forces) ou qui l'entravent (faiblesses). Exemples : méthodes, recours, instruments, procédures, mesures, tactiques.
+Que sont les composantes ? ; Les éléments qui entrent dans la composition d'un autre élément.
+Quelle différence entre le contexte, l'environnement, la conjoncture et le phénomène ? ; Le contexte est un ensemble d'informations qui présente les circonstances. L'environnement est le milieu, le cadre dans lequel se produit un fait ou évolue une organisation. La conjoncture est, en économie, l'état mesurable à un moment donné. Le phénomène est un ou plusieurs faits observés, événement anormal ou surprenant.

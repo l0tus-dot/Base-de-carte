@@ -1,0 +1,1008 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "9d35962a-a5eb-5c05-b7a4-2e30cf3b3e89",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Méthodes",
+    "parentId": null
+   },
+   {
+    "id": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Notions Droit",
+    "parentId": "9d35962a-a5eb-5c05-b7a4-2e30cf3b3e89"
+   }
+  ],
+  "cards": [
+   {
+    "id": "9737259c-3ee0-5c47-b9ff-139e18fd05dc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que dit le principe de la hiérarchie des normes ?",
+    "back": "Les normes inférieures respectent les règles supérieures.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "fad1f2c1-f04e-5166-9c05-95f9cf26450c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que dit le principe de la complémentarité des normes ?",
+    "back": "Les normes inférieures précisent les normes supérieures et les adaptent à un public déterminé.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "3566c53c-eaf0-5387-8e80-c12e84eb5dfd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Comment s'appelle la représentation de la hiérarchie des normes ?",
+    "back": "La pyramide de Kelsen.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "eb6ab1ac-9986-5d06-b456-ee7796d67e66",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quelle est la hiérarchie des normes, de la plus haute à la plus basse ?",
+    "back": "La Constitution, les traités internationaux (dont le droit de l'Union européenne), les lois ordinaires et ordonnances, la jurisprudence, les règlements, les actes administratifs et le droit négocié.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "cee46a31-3c79-5198-9870-17dbdf43c72a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que comprend la Constitution de 1958 ?",
+    "back": "Elle fonde la Ve République et inclut la Déclaration des droits de l'homme et du citoyen du 26 août 1789 et la Charte de l'environnement de 2004.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "7c37a5eb-8c48-5133-b1ff-f52c6b6661a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qui crée la Constitution ?",
+    "back": "Elle est rédigée par le Gouvernement et décidée par référendum par le Peuple.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "ccd24841-03ec-56f4-bc4b-091570da3d7c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qui crée les traités internationaux ?",
+    "back": "Les chefs d'État.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "c6bb5b29-ae94-574a-8f93-94d6e75ea1c0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qui crée les règlements européens et les directives européennes ?",
+    "back": "Le Parlement européen. Exemple de règlement européen : le RGPD.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "3d3ac61a-4f6f-50d6-9c37-1b12d4ae4f28",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qui crée les lois ?",
+    "back": "Le Parlement français (pouvoir législatif).",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "829f0233-803c-516a-80c0-9a1cf98bbcdf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qui crée les ordonnances (dans le domaine de la loi) ?",
+    "back": "Le Gouvernement avec l'accord du Parlement.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "f24a0ac0-32aa-5570-8820-51546f325c54",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qui crée la jurisprudence ?",
+    "back": "La justice (pouvoir judiciaire) : les principes issus des décisions qui émanent des juges (juridictions : tribunaux et cours).",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "ae2c1bb1-2bf3-5d7b-83a3-216b9edfeeda",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qui crée les règlements nationaux ?",
+    "back": "Le Gouvernement (pouvoir exécutif) : les décrets pris en Conseil des ministres, les arrêtés ministériels et préfectoraux.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "02c60497-30c8-52f5-80c0-477c89f673b7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qu'est-ce qu'un acte administratif ?",
+    "back": "Un règlement ou un arrêté d'une autorité administrative (ex. : le règlement intérieur du lycée, arrêtés municipaux) ou une circulaire des ministres, recteurs et préfets. Il est créé par les autorités administratives.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "8c43054f-8424-5249-902c-15a768434acf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qu'est-ce que le droit négocié ?",
+    "back": "Les conventions collectives et accords d'entreprise négociés par les partenaires sociaux, et les contrats négociés par les co-contractants (parties au contrat). Il est créé par les partenaires sociaux ou les parties au contrat.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "212a25bb-93d9-5fc4-aff3-126ce1acd664",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que signifie « énoncer, préciser, disposer » pour un article de loi ?",
+    "back": "Ce sont les verbes pour exprimer ce que dit la loi : l'article de loi « référence » énonce que, précise que, dispose que.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "5473c59a-38a5-5c11-acb0-6cb202af0679",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quel verbe utiliser pour une clause de contrat ?",
+    "back": "La clause XX du contrat stipule.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "d2f42887-6432-5708-8ce4-226267053680",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quels verbes utiliser pour un jugement ou un arrêt ?",
+    "back": "Le jugement (ou l'arrêt) ordonne de, condamne, prononce une condamnation de.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "33f0d5f6-d37a-5acf-8601-69e791531956",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Comment formuler la demande d'une entreprise en droit ?",
+    "back": "L'entreprise est en droit de, ou a de bonnes raisons de demander réparation pour.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "4852444d-d89d-5270-b00f-cd51924764a0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que signifient légal, illégal et légalité ?",
+    "back": "Légal signifie conforme à la loi, à la législation qui émane du Parlement. Illégal signifie contraire à la loi. La légalité est le caractère de ce qui est légal (terme juridique).",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "509b3958-a5dc-54ae-9d91-d77e7a32e1bd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que signifient licite, illicite et abusif ?",
+    "back": "Licite signifie ce qui est autorisé, permis par le droit. La licéité est le caractère de ce qui est licite. Une clause est illicite lorsqu'elle est prohibée par la loi, et abusive lorsqu'elle crée un déséquilibre entre les droits et obligations des parties.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "2a0a394e-21a3-5447-bf9e-86702319e1b2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quelle différence entre l'Union européenne et le Conseil de l'Europe ?",
+    "back": "L'Union européenne associe 27 États membres qui ont transféré des compétences dans les domaines économiques et politiques (paix, progrès économique et social). Le Conseil de l'Europe (1949) rassemble 46 États membres et protège les droits de l'homme, la démocratie et la primauté du droit.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "e876216d-ff0f-50d1-85e4-764269897239",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quels sont les outils juridiques de l'Union européenne ?",
+    "back": "Les traités, les règlements européens et les directives européennes.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "f6b7d98a-2d0b-56ac-82ea-87ec9b570f64",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quel est l'outil juridique du Conseil de l'Europe ?",
+    "back": "Les traités pour prendre des décisions communes. La Convention européenne des droits de l'homme est son premier traité.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "cbd869de-27ec-59a6-a8cd-8fb2ac3d1085",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quelles institutions européennes participent à l'adoption des lois ?",
+    "back": "Le Conseil européen (27 chefs d'État et de gouvernement) définit les grandes orientations, la Commission européenne (27 commissaires) propose les lois, et le Conseil de l'UE (27 ministres) et le Parlement européen codécident en les modifiant, adoptant ou rejetant.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "7e4991c1-603f-5065-8c61-7157cd1c4cde",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quels sont les deux ordres de juridictions ?",
+    "back": "L'ordre judiciaire (juridictions civiles et pénales) et l'ordre administratif.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "fdf07c18-8b51-5563-a289-3358ff9767fe",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que règlent les juridictions civiles ?",
+    "back": "Les litiges entre les personnes privées.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "ea10dc5f-9b8d-5418-a514-527024cd791d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que sanctionnent les juridictions pénales ?",
+    "back": "Les auteurs soupçonnés d'avoir commis une infraction.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "0e397e6f-37da-5972-8440-dd6438e61b8f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que règle l'ordre administratif ?",
+    "back": "Les litiges avec une personne publique.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "5ae1cd9f-5dfe-572b-8ed0-83c2e14c8c33",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quelle est la haute juridiction de l'ordre judiciaire ?",
+    "back": "La Cour de cassation.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "2be9a071-4714-599d-b07a-0e0fb4d58564",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que fait la Cour de cassation ?",
+    "back": "Elle vérifie si les règles de droit ont bien été appliquées et ne rejuge pas l'affaire sur le fond.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "116ae4dd-4fba-5f00-bcca-c9c29055b7c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quelles décisions la Cour de cassation rend-elle ?",
+    "back": "Un arrêt de rejet si elle refuse le pourvoi, ou un arrêt de cassation ou de renvoi si elle retient la demande et fait rejuger l'affaire par une autre cour d'appel.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "7daa7b6a-7a21-5c48-95d0-5349b3ddc1a8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Comment saisir la Cour de cassation ?",
+    "back": "En faisant un pourvoi en cassation.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "79ddd942-ad09-58fb-a99c-bb3d65f0bb4e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quelle est la juridiction du 2e degré dans l'ordre judiciaire ?",
+    "back": "La cour d'appel, si le litige dépasse 5 000 euros.",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "05348073-1396-5cea-ae49-b720f5c7b81f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que fait la cour d'appel ?",
+    "back": "Elle réexamine une affaire portée devant une juridiction du 1er degré, sauf jugement rendu en dernier ressort.",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "09ee79c6-3c50-5d7e-bb3c-aaf41ef8676b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quelles décisions la cour d'appel rend-elle ?",
+    "back": "Un arrêt confirmatif si elle approuve le jugement du 1er degré, ou un arrêt infirmatif si elle ne l'approuve pas : elle tranche alors à nouveau sur le fond.",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "9fc3432c-68b9-5f7d-ae3d-5ee8fccbfce7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Comment s'appelle la décision des juridictions du 1er degré ?",
+    "back": "Un jugement. Elle se conteste en faisant appel.",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "2ed3e236-f110-5218-a472-b9fe92628d94",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que juge le tribunal judiciaire ?",
+    "back": "Les litiges entre personnes privées qui ne sont pas attribués aux juridictions spécialisées : litiges familiaux, immobiliers, successions, action en contrefaçon (de logiciel), etc.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "8d5c4cb9-52ea-54d6-a518-36549e50a346",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que juge le conseil de prud'hommes ?",
+    "back": "Les litiges entre employeur et salarié (ex. : licenciement).",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "aaddd0ad-079c-54c9-9448-3afa113b85c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que juge le tribunal de commerce ?",
+    "back": "Les litiges entre commerçants, y compris les sociétés (ex. : action en concurrence déloyale).",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   },
+   {
+    "id": "e9f5cb8a-cbbb-544e-96db-66299fa2e835",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que juge la cour d'assises ?",
+    "back": "Les accusés de crimes (infractions les plus graves telles que le viol, le meurtre) passibles de la réclusion jusqu'à la perpétuité.",
+    "createdAt": "2000-01-01T00:00:39.000Z"
+   },
+   {
+    "id": "8f3a4846-da44-5a31-b006-ecd3d4ed6940",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que juge le tribunal correctionnel ?",
+    "back": "Les prévenus, auteurs de délits (vol, abus de confiance, homicide involontaire), passibles d'emprisonnement jusqu'à 10 ans et d'autres peines (amendes, peines complémentaires, travail d'intérêt général).",
+    "createdAt": "2000-01-01T00:00:40.000Z"
+   },
+   {
+    "id": "d31325be-2909-558f-b5db-e24c91c5328d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Que juge le tribunal de police ?",
+    "back": "Les prévenus, auteurs de contraventions de 5e classe passibles d'amendes de moins de 1 500 euros (infractions routières, pollution, tapage).",
+    "createdAt": "2000-01-01T00:00:41.000Z"
+   },
+   {
+    "id": "cb20e1da-65db-56cb-babc-2de5ccdfc909",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quelles sont les juridictions administratives ?",
+    "back": "Le Conseil d'État (haute juridiction), la cour d'appel administrative et le tribunal administratif.",
+    "createdAt": "2000-01-01T00:00:42.000Z"
+   },
+   {
+    "id": "30deeeda-4814-583e-b065-0f2de283f4fd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qu'est-ce que l'action civile ?",
+    "back": "Une action menée par le demandeur devant les juridictions civiles de première instance. Les sanctions civiles cherchent à réparer un préjudice individuel (dommages-intérêts ou exécution d'une obligation, par exemple).",
+    "createdAt": "2000-01-01T00:00:43.000Z"
+   },
+   {
+    "id": "40c6112b-7676-53e0-9cf5-8ff2a66349ec",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Qu'est-ce que l'action publique ?",
+    "back": "Une action conduite au nom de la société en vue de juger l'accusé, supposé coupable, soupçonné d'avoir commis une infraction en application de la loi pénale. Elle est mise en œuvre par le procureur et non par la victime.",
+    "createdAt": "2000-01-01T00:00:44.000Z"
+   },
+   {
+    "id": "09b7518c-e5f7-52b0-a6a8-976de3e557b1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1f908e36-2b17-5962-854d-73fea22ea9c5",
+    "front": "Quel est le but des sanctions pénales ?",
+    "back": "Punir les auteurs d'infractions, coauteurs ou complices, et prévenir pour éviter d'autres infractions.",
+    "createdAt": "2000-01-01T00:00:45.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "96cefece-7b53-5501-90ac-4286079b03db",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9737259c-3ee0-5c47-b9ff-139e18fd05dc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5b6c9951-b31c-5d6b-a57b-a83909123412",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fad1f2c1-f04e-5166-9c05-95f9cf26450c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "13623c51-7e7a-5377-864c-23c1f254219a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3566c53c-eaf0-5387-8e80-c12e84eb5dfd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "739449b7-8ea8-5456-87cf-9dad69b05ac2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eb6ab1ac-9986-5d06-b456-ee7796d67e66",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cba33a72-22ed-55fe-a113-d43e39b4900a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cee46a31-3c79-5198-9870-17dbdf43c72a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7151251c-594f-57c2-942d-8ea725ea8525",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7c37a5eb-8c48-5133-b1ff-f52c6b6661a9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b20f4099-9c2e-5857-b595-552832a70f16",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ccd24841-03ec-56f4-bc4b-091570da3d7c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "99158ecd-79f2-554d-880f-a358aa667a51",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c6bb5b29-ae94-574a-8f93-94d6e75ea1c0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8def3ed3-2396-55a9-a477-4d1c28798e2f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3d3ac61a-4f6f-50d6-9c37-1b12d4ae4f28",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5c332bc1-5348-5258-87ae-ee8e68a7a281",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "829f0233-803c-516a-80c0-9a1cf98bbcdf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "59b0666d-b076-54bc-9203-af216c756859",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f24a0ac0-32aa-5570-8820-51546f325c54",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "95e344d4-473f-59e8-8a6c-a2c528b34f76",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ae2c1bb1-2bf3-5d7b-83a3-216b9edfeeda",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1a44cf11-0fb2-5eb9-a586-bfe11ac067b6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "02c60497-30c8-52f5-80c0-477c89f673b7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a7f5df7b-f0cd-55ab-bd8e-2dbc509ec120",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8c43054f-8424-5249-902c-15a768434acf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8d208ce1-a21f-5b3f-8f82-246846210708",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "212a25bb-93d9-5fc4-aff3-126ce1acd664",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ae30440e-be0f-5e14-a63a-b86e611a06cd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5473c59a-38a5-5c11-acb0-6cb202af0679",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f4822977-489c-5c06-96ab-ccf74a5c9ad0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d2f42887-6432-5708-8ce4-226267053680",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "df2bd1bd-9d80-5c4d-be3b-6fd475f67f0c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "33f0d5f6-d37a-5acf-8601-69e791531956",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e9027e8c-2d16-54ec-8aef-df166861182a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4852444d-d89d-5270-b00f-cd51924764a0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5dd347be-7cc3-5ef1-a72b-d908b2e9b8a2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "509b3958-a5dc-54ae-9d91-d77e7a32e1bd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "29c21222-6399-5562-98a0-763e9438b260",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2a0a394e-21a3-5447-bf9e-86702319e1b2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e0559570-7c02-5b67-a746-c7c8243b26a5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e876216d-ff0f-50d1-85e4-764269897239",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5b20f753-eb30-5383-b2cc-3df51ef46c74",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f6b7d98a-2d0b-56ac-82ea-87ec9b570f64",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7cf7ab71-66fa-5e4c-909e-d206c29ffeef",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cbd869de-27ec-59a6-a8cd-8fb2ac3d1085",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b570e64e-42b1-5dc6-bb1c-59e0ef996ddd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7e4991c1-603f-5065-8c61-7157cd1c4cde",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fa3b1b31-a493-5c32-a008-17bf3186526a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fdf07c18-8b51-5563-a289-3358ff9767fe",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4140d4b1-aba2-5ffc-9657-808589de8f95",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ea10dc5f-9b8d-5418-a514-527024cd791d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e175cf1a-9480-5475-a59d-8188725ec6bf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0e397e6f-37da-5972-8440-dd6438e61b8f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7292b6da-a583-540b-8986-5f7fbccbf17b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5ae1cd9f-5dfe-572b-8ed0-83c2e14c8c33",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "80fa6c15-ad34-53be-b62a-513e18f0717c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2be9a071-4714-599d-b07a-0e0fb4d58564",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dcc25708-05f0-58b8-a85d-3b23ad0aa045",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "116ae4dd-4fba-5f00-bcca-c9c29055b7c6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4204ada1-b3a7-5886-80b3-3cfc9e66b97c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7daa7b6a-7a21-5c48-95d0-5349b3ddc1a8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c56d18c5-526b-550b-a49b-8eab85455e50",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "79ddd942-ad09-58fb-a99c-bb3d65f0bb4e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c6adc8df-c749-5f23-998d-834df0fc24b5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "05348073-1396-5cea-ae49-b720f5c7b81f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5bebaf9c-07bf-5ce4-95a4-1c03d7c07d2e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "09ee79c6-3c50-5d7e-bb3c-aaf41ef8676b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f37d769c-b702-5919-a5ba-c4ee1be561c0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9fc3432c-68b9-5f7d-ae3d-5ee8fccbfce7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2d43c336-3709-52b7-a9b5-67c1dc8a01a0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2ed3e236-f110-5218-a472-b9fe92628d94",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b3b99f4e-1fef-511e-ba1b-c9409ef7b323",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8d5c4cb9-52ea-54d6-a518-36549e50a346",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "42c29a94-df72-5ffe-9a61-aead38ad9bea",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "aaddd0ad-079c-54c9-9448-3afa113b85c5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "69538463-6915-5678-8a73-7a2bdaf9a5fd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e9f5cb8a-cbbb-544e-96db-66299fa2e835",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "018dfe2a-e826-5fc8-a8e0-dda36e223326",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8f3a4846-da44-5a31-b006-ecd3d4ed6940",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "baa8c8b9-2f12-5863-b6e3-1eaa9bd27265",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d31325be-2909-558f-b5db-e24c91c5328d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "727838d1-26b0-5b1e-a5d1-5a809cc0304d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cb20e1da-65db-56cb-babc-2de5ccdfc909",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "78598384-84f2-52b4-8f66-dd9ec7b12b86",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "30deeeda-4814-583e-b065-0f2de283f4fd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "aba7e785-2e2d-5693-9972-f068b95ed385",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "40c6112b-7676-53e0-9cf5-8ff2a66349ec",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f3425d37-666c-5aed-a5db-a038bcad730c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "09b7518c-e5f7-52b0-a6a8-976de3e557b1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

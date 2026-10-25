@@ -1,0 +1,51 @@
+# Matière : CEJM
+# Parent : Méthodes
+# Paquet : Notions Droit
+# Description : La hiérarchie des normes, l'Union européenne et le Conseil de l'Europe, l'organisation juridictionnelle et le vocabulaire juridique.
+
+Que dit le principe de la hiérarchie des normes ? ; Les normes inférieures respectent les règles supérieures.
+Que dit le principe de la complémentarité des normes ? ; Les normes inférieures précisent les normes supérieures et les adaptent à un public déterminé.
+Comment s'appelle la représentation de la hiérarchie des normes ? ; La pyramide de Kelsen.
+Quelle est la hiérarchie des normes, de la plus haute à la plus basse ? ; La Constitution, les traités internationaux (dont le droit de l'Union européenne), les lois ordinaires et ordonnances, la jurisprudence, les règlements, les actes administratifs et le droit négocié.
+Que comprend la Constitution de 1958 ? ; Elle fonde la Ve République et inclut la Déclaration des droits de l'homme et du citoyen du 26 août 1789 et la Charte de l'environnement de 2004.
+Qui crée la Constitution ? ; Elle est rédigée par le Gouvernement et décidée par référendum par le Peuple.
+Qui crée les traités internationaux ? ; Les chefs d'État.
+Qui crée les règlements européens et les directives européennes ? ; Le Parlement européen. Exemple de règlement européen : le RGPD.
+Qui crée les lois ? ; Le Parlement français (pouvoir législatif).
+Qui crée les ordonnances (dans le domaine de la loi) ? ; Le Gouvernement avec l'accord du Parlement.
+Qui crée la jurisprudence ? ; La justice (pouvoir judiciaire) : les principes issus des décisions qui émanent des juges (juridictions : tribunaux et cours).
+Qui crée les règlements nationaux ? ; Le Gouvernement (pouvoir exécutif) : les décrets pris en Conseil des ministres, les arrêtés ministériels et préfectoraux.
+Qu'est-ce qu'un acte administratif ? ; Un règlement ou un arrêté d'une autorité administrative (ex. : le règlement intérieur du lycée, arrêtés municipaux) ou une circulaire des ministres, recteurs et préfets. Il est créé par les autorités administratives.
+Qu'est-ce que le droit négocié ? ; Les conventions collectives et accords d'entreprise négociés par les partenaires sociaux, et les contrats négociés par les co-contractants (parties au contrat). Il est créé par les partenaires sociaux ou les parties au contrat.
+Que signifie « énoncer, préciser, disposer » pour un article de loi ? ; Ce sont les verbes pour exprimer ce que dit la loi : l'article de loi « référence » énonce que, précise que, dispose que.
+Quel verbe utiliser pour une clause de contrat ? ; La clause XX du contrat stipule.
+Quels verbes utiliser pour un jugement ou un arrêt ? ; Le jugement (ou l'arrêt) ordonne de, condamne, prononce une condamnation de.
+Comment formuler la demande d'une entreprise en droit ? ; L'entreprise est en droit de, ou a de bonnes raisons de demander réparation pour.
+Que signifient légal, illégal et légalité ? ; Légal signifie conforme à la loi, à la législation qui émane du Parlement. Illégal signifie contraire à la loi. La légalité est le caractère de ce qui est légal (terme juridique).
+Que signifient licite, illicite et abusif ? ; Licite signifie ce qui est autorisé, permis par le droit. La licéité est le caractère de ce qui est licite. Une clause est illicite lorsqu'elle est prohibée par la loi, et abusive lorsqu'elle crée un déséquilibre entre les droits et obligations des parties.
+Quelle différence entre l'Union européenne et le Conseil de l'Europe ? ; L'Union européenne associe 27 États membres qui ont transféré des compétences dans les domaines économiques et politiques (paix, progrès économique et social). Le Conseil de l'Europe (1949) rassemble 46 États membres et protège les droits de l'homme, la démocratie et la primauté du droit.
+Quels sont les outils juridiques de l'Union européenne ? ; Les traités, les règlements européens et les directives européennes.
+Quel est l'outil juridique du Conseil de l'Europe ? ; Les traités pour prendre des décisions communes. La Convention européenne des droits de l'homme est son premier traité.
+Quelles institutions européennes participent à l'adoption des lois ? ; Le Conseil européen (27 chefs d'État et de gouvernement) définit les grandes orientations, la Commission européenne (27 commissaires) propose les lois, et le Conseil de l'UE (27 ministres) et le Parlement européen codécident en les modifiant, adoptant ou rejetant.
+Quels sont les deux ordres de juridictions ? ; L'ordre judiciaire (juridictions civiles et pénales) et l'ordre administratif.
+Que règlent les juridictions civiles ? ; Les litiges entre les personnes privées.
+Que sanctionnent les juridictions pénales ? ; Les auteurs soupçonnés d'avoir commis une infraction.
+Que règle l'ordre administratif ? ; Les litiges avec une personne publique.
+Quelle est la haute juridiction de l'ordre judiciaire ? ; La Cour de cassation.
+Que fait la Cour de cassation ? ; Elle vérifie si les règles de droit ont bien été appliquées et ne rejuge pas l'affaire sur le fond.
+Quelles décisions la Cour de cassation rend-elle ? ; Un arrêt de rejet si elle refuse le pourvoi, ou un arrêt de cassation ou de renvoi si elle retient la demande et fait rejuger l'affaire par une autre cour d'appel.
+Comment saisir la Cour de cassation ? ; En faisant un pourvoi en cassation.
+Quelle est la juridiction du 2e degré dans l'ordre judiciaire ? ; La cour d'appel, si le litige dépasse 5 000 euros.
+Que fait la cour d'appel ? ; Elle réexamine une affaire portée devant une juridiction du 1er degré, sauf jugement rendu en dernier ressort.
+Quelles décisions la cour d'appel rend-elle ? ; Un arrêt confirmatif si elle approuve le jugement du 1er degré, ou un arrêt infirmatif si elle ne l'approuve pas : elle tranche alors à nouveau sur le fond.
+Comment s'appelle la décision des juridictions du 1er degré ? ; Un jugement. Elle se conteste en faisant appel.
+Que juge le tribunal judiciaire ? ; Les litiges entre personnes privées qui ne sont pas attribués aux juridictions spécialisées : litiges familiaux, immobiliers, successions, action en contrefaçon (de logiciel), etc.
+Que juge le conseil de prud'hommes ? ; Les litiges entre employeur et salarié (ex. : licenciement).
+Que juge le tribunal de commerce ? ; Les litiges entre commerçants, y compris les sociétés (ex. : action en concurrence déloyale).
+Que juge la cour d'assises ? ; Les accusés de crimes (infractions les plus graves telles que le viol, le meurtre) passibles de la réclusion jusqu'à la perpétuité.
+Que juge le tribunal correctionnel ? ; Les prévenus, auteurs de délits (vol, abus de confiance, homicide involontaire), passibles d'emprisonnement jusqu'à 10 ans et d'autres peines (amendes, peines complémentaires, travail d'intérêt général).
+Que juge le tribunal de police ? ; Les prévenus, auteurs de contraventions de 5e classe passibles d'amendes de moins de 1 500 euros (infractions routières, pollution, tapage).
+Quelles sont les juridictions administratives ? ; Le Conseil d'État (haute juridiction), la cour d'appel administrative et le tribunal administratif.
+Qu'est-ce que l'action civile ? ; Une action menée par le demandeur devant les juridictions civiles de première instance. Les sanctions civiles cherchent à réparer un préjudice individuel (dommages-intérêts ou exécution d'une obligation, par exemple).
+Qu'est-ce que l'action publique ? ; Une action conduite au nom de la société en vue de juger l'accusé, supposé coupable, soupçonné d'avoir commis une infraction en application de la loi pénale. Elle est mise en œuvre par le procureur et non par la victime.
+Quel est le but des sanctions pénales ? ; Punir les auteurs d'infractions, coauteurs ou complices, et prévenir pour éviter d'autres infractions.

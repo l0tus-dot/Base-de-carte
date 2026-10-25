@@ -1,0 +1,546 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJM",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "9d35962a-a5eb-5c05-b7a4-2e30cf3b3e89",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Méthodes",
+    "parentId": null
+   },
+   {
+    "id": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
+    "name": "Raisonnement Juridique",
+    "parentId": "9d35962a-a5eb-5c05-b7a4-2e30cf3b3e89"
+   }
+  ],
+  "cards": [
+   {
+    "id": "bb740669-f9f4-5faf-8b58-93ed99e20519",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Quelles sont les deux grandes parties du raisonnement juridique ?",
+    "back": "La présentation des éléments du litige et l'argumentation juridique (la plaidoirie).",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "3e4400a9-769e-5ab1-b024-488a6114d958",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Quelles sont les 7 étapes du raisonnement juridique ?",
+    "back": "1. La qualification juridique des parties. 2. La qualification juridique des faits. 3. Les prétentions des parties. 4. Le problème de droit. 5. Les règles de droit applicables (la majeure). 6. L'application aux faits (la mineure). 7. La conclusion.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "7f35e3a0-636d-558b-9be2-5e6b60a53f66",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Quelles étapes composent la présentation des éléments du litige ?",
+    "back": "La qualification juridique des parties, la qualification juridique des faits, les prétentions des parties et le problème de droit.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "58431b52-1306-50f4-8695-d0186e93a2b7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Quelles étapes composent l'argumentation juridique ?",
+    "back": "Les règles de droit applicables (la majeure), l'application aux faits (la mineure) et la conclusion.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "7f3b2e1f-3677-5c87-8984-f4ad1b25cccd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "En quoi consiste la qualification juridique des parties ?",
+    "back": "Présenter les personnes impliquées par le litige : leur nom ou dénomination, leur statut (à déterminer selon la branche du droit concernée) et le lien qui les unit.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "443dec89-08a6-5e4c-b61b-ff66bb18c37b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Donnez des exemples de statut d'une partie.",
+    "back": "Commerçant, client, employeur, salarié, propriétaire, éditeur, prestataire, personne physique, personne morale, société, contrefacteur, victime.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "add0a4cf-c4a2-56b7-88b0-0cdcc851a0b0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Donnez des exemples de lien entre les parties.",
+    "back": "Contrat de travail, contrat de prestation de service, contrat d'hébergement, contrefaçon, vol, intrusion dans un système de traitement de données.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "77e8f596-d13e-585e-a834-92644edd7011",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "En quoi consiste la qualification juridique des faits ?",
+    "back": "Ne garder que les éléments utiles, dans l'ordre chronologique (dates importantes), avec les preuves et les dommages (corporels, matériels, moraux, écologiques, perte de change).",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "49b14670-074b-51a2-a225-24fdea794186",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "En quoi consistent les prétentions des parties ?",
+    "back": "Ce qu'elles souhaitent : le demandeur qui réclame des droits, le défendeur qui est appelé à se défendre, et les demandes des parties.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "5fed9fd2-3225-514b-bd82-a82d6552cca0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Donnez des exemples de demandes des parties.",
+    "back": "Une indemnisation pour réparer les dommages sous forme de dommages-intérêts, une exonération de sa responsabilité, l'annulation du contrat, l'exécution du contrat.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "4bb8b307-9a8f-52eb-89e2-4039b3e92c95",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "En quoi consiste le problème de droit ?",
+    "back": "Une question à laquelle le candidat répondra, précise (qui s'appuie sur la situation juridique) et générale (qui amène une réponse à tous les cas similaires, donc sans faire apparaître le nom des parties). Cette étape est facultative.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "a0fe4d90-284d-5820-b527-82a41c23c558",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Que doit contenir la majeure du raisonnement juridique ?",
+    "back": "Les règles de droit applicables : reformuler la ou les règles et expliquer en mobilisant les connaissances si nécessaire. Il faut toujours donner les références de la source de droit.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "02269ce7-c41a-502f-b1e3-456470a2d6a2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Par quelles expressions peut-on commencer la majeure ?",
+    "back": "« Selon l'article LXXX du Code... », ou « Dans l'arrêt de la Cour de cassation du... 200N, le juge a retenu que... ».",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "83bfc835-d10e-52ea-ad9b-7ce18cd0b1da",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Que doit contenir la mineure du raisonnement juridique ?",
+    "back": "L'application aux faits : montrer si le cas est conforme ou non à ces règles de droit. Le paragraphe commence par « En l'espèce, ... ».",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "fb4c0180-8e63-5f5e-ac02-e42262452f99",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Que doit contenir la conclusion du raisonnement juridique ?",
+    "back": "Le paragraphe commence par « Donc ». Il indique si la demande de la partie que l'on défend est légitime au regard du droit, si elle peut valablement obtenir ce qu'elle réclame, ou lui indique ce qu'elle peut obtenir.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "402e1792-0557-595c-a30f-e9f18de17bd9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Que doit préciser la conclusion en plus ?",
+    "back": "Le tribunal compétent et le nom de l'action (action en responsabilité civile, plainte auprès du tribunal correctionnel, action en contrefaçon, etc.).",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "6e7506d9-5331-55aa-82fa-5c3ae11d9173",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Que dit l'article 1112, alinéa 1er du Code civil ?",
+    "back": "L'initiative, le déroulement et la rupture des négociations précontractuelles sont libres. Elles doivent impérativement satisfaire aux exigences de la bonne foi.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "9b77fef4-b99f-5a9b-8df5-1438fe81219d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Que précise l'arrêt Manoukian du 26 novembre 2003 ?",
+    "back": "Quatre conditions pour qu'une rupture des pourparlers soit qualifiée d'abusive : les pourparlers sont bien engagés, les investissements ont été réalisés, la rupture est brutale et la rupture n'est pas motivée, donc injustifiée.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "a1949e79-555b-521f-ac17-f66894cd60f9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Exemple : la société Y est une start-up qui négocie avec X depuis deux mois et X rompt par mail sans justification. Quelle est la qualification des parties ?",
+    "back": "X et Y sont des personnes morales de droit privé, des sociétés commerciales dotées de la personnalité juridique et capables de contracter. Elles sont liées par des négociations précontractuelles dans le cadre d'un futur contrat de partenariat technologique.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "37cafc11-ec17-567d-8501-2784f009dae3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Dans cet exemple, qui est demandeur et qui est défendeur ?",
+    "back": "Y est demandeur : elle invoque un préjudice lié aux frais engagés pour la fabrication du prototype et au temps mobilisé par ses équipes. X est défendeur.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "0a523f06-33df-5f49-be89-e4c45085b06c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Dans cet exemple, quel est le problème de droit ?",
+    "back": "À quelles conditions une partie peut-elle rompre des négociations précontractuelles sans engager sa responsabilité ?",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "d5dd28dd-46c6-5e21-ba2d-e526d1012254",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Dans cet exemple, quelle est la majeure ?",
+    "back": "Selon l'article 1112 du Code civil, la liberté de rompre les négociations est un principe, mais elle doit s'exercer de bonne foi. La Cour de cassation précise, dans l'arrêt Manoukian du 26 novembre 2003, quatre conditions pour qu'une rupture soit abusive.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "afd36d94-0418-561d-8039-2d4b01579815",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Dans cet exemple, quelle est la mineure ?",
+    "back": "En l'espèce, la négociation a duré d'avril à septembre, avec des réunions et des échanges de documents. L'investissement est important (envoi d'un prototype apprécié par le client). La rupture a été prononcée par mail, donc brutalement, et la justification reste à apprécier par le juge.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "c70abeef-0999-5f4d-b27d-9c466e2e35fd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "6ac8bd0d-d6c2-5e9d-a9bb-60c3dc8f6332",
+    "front": "Dans cet exemple, quelle est la conclusion ?",
+    "back": "Donc, la société X peut rompre les négociations, mais si la rupture est jugée brutale et de mauvaise foi, elle pourrait être condamnée à indemniser la société Y pour le préjudice subi, notamment les frais engagés pour le prototype. Y peut mener une action en responsabilité extracontractuelle (délictuelle) devant le tribunal de commerce et obtenir une indemnisation.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "4b8b08a8-e4b3-5435-97fe-62e29769ac18",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bb740669-f9f4-5faf-8b58-93ed99e20519",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b2c93706-5f6b-5c23-9d05-b30cd3058312",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3e4400a9-769e-5ab1-b024-488a6114d958",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "89e13cd4-bc33-50c2-822f-0f004578da52",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7f35e3a0-636d-558b-9be2-5e6b60a53f66",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "579495e2-2d5b-582f-9277-c71aed144479",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "58431b52-1306-50f4-8695-d0186e93a2b7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a3473e2b-66cb-5fd7-b744-9ff0075bf882",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7f3b2e1f-3677-5c87-8984-f4ad1b25cccd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "54940391-1ff8-5841-9c2b-44c97586eeef",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "443dec89-08a6-5e4c-b61b-ff66bb18c37b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "50cfa820-4047-54c0-abbd-f824d9059561",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "add0a4cf-c4a2-56b7-88b0-0cdcc851a0b0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0d877aa9-5b40-53f2-a895-75cf37993bf8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "77e8f596-d13e-585e-a834-92644edd7011",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d650b9fd-e0e2-5554-8d80-f809c5a382a6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "49b14670-074b-51a2-a225-24fdea794186",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "23a730a3-ec38-5128-90ff-2289e2f3edff",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5fed9fd2-3225-514b-bd82-a82d6552cca0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "632715c2-6e82-5a07-b38b-97e30755df7c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4bb8b307-9a8f-52eb-89e2-4039b3e92c95",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f8e9ee85-b1b7-587b-bd2b-c3e47eb7d538",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a0fe4d90-284d-5820-b527-82a41c23c558",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "51760f02-801f-523e-8703-6d887a81ad72",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "02269ce7-c41a-502f-b1e3-456470a2d6a2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "05c5ec3b-e764-5aed-a5cd-9c59e3cecec7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "83bfc835-d10e-52ea-ad9b-7ce18cd0b1da",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "19fc7f05-a16e-5b8d-8570-252b9edbbf36",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fb4c0180-8e63-5f5e-ac02-e42262452f99",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e08276f1-2596-5eec-8283-7b53edfa456a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "402e1792-0557-595c-a30f-e9f18de17bd9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0e1a0ed4-195f-5fc3-bc80-2198d537e121",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6e7506d9-5331-55aa-82fa-5c3ae11d9173",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ff3ac618-e604-5f36-9ac5-9be02ac2b189",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9b77fef4-b99f-5a9b-8df5-1438fe81219d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ddcd4a98-f811-57f5-8406-0b91b400d3c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a1949e79-555b-521f-ac17-f66894cd60f9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b045d9a5-f4d4-588f-addd-d9732a38592e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "37cafc11-ec17-567d-8501-2784f009dae3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "34633366-7281-5189-a6ae-9731daf9b5a5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0a523f06-33df-5f49-be89-e4c45085b06c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6f479228-e292-54c9-8bb8-626c1eebe73d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d5dd28dd-46c6-5e21-ba2d-e526d1012254",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c4c820ef-7450-59db-ac22-05a34fb82a92",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "afd36d94-0418-561d-8039-2d4b01579815",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0f47e94a-5db7-5cde-9bd4-018e0eac0913",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c70abeef-0999-5f4d-b27d-9c466e2e35fd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

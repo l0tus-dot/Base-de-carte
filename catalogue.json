@@ -4,6 +4,30 @@
  "packs": [
   {
    "subject": "CEJM",
+   "deck": "Epreuve E4",
+   "cards": 68,
+   "description": "L'épreuve E4 (CEJMI), la démarche, la rédaction, la méthode PEI, les connecteurs logiques, les verbes de consigne et les mots délimitateurs.",
+   "path": "paquets/cejm/methodes-epreuve-e4.json",
+   "parent": "Méthodes"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Notions Droit",
+   "cards": 46,
+   "description": "La hiérarchie des normes, l'Union européenne et le Conseil de l'Europe, l'organisation juridictionnelle et le vocabulaire juridique.",
+   "path": "paquets/cejm/methodes-notions-droit.json",
+   "parent": "Méthodes"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Raisonnement Juridique",
+   "cards": 24,
+   "description": "Les 7 étapes du raisonnement juridique : qualification des parties et des faits, prétentions, problème de droit, majeure, mineure et conclusion.",
+   "path": "paquets/cejm/methodes-raisonnement-juridique.json",
+   "parent": "Méthodes"
+  },
+  {
+   "subject": "CEJM",
    "deck": "Economique",
    "cards": 115,
    "description": "Les agents économiques, les secteurs institutionnels, les marchés, la concurrence, les dysfonctionnements du marché et le financement.",

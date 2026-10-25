@@ -28,6 +28,9 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | Cybersécurité | VPN | 28 | `paquets/cybersecurite/vpn.json` |
 | Cybersécurité | Délégation de droit avec sudo | 31 | `paquets/cybersecurite/delegation-sudo.json` |
 | Cybersécurité | ACL cisco | 32 | `paquets/cybersecurite/acl-cisco.json` |
+| CEJM | Méthodes : Epreuve E4 | 68 | `paquets/cejm/methodes-epreuve-e4.json` |
+| CEJM | Méthodes : Notions Droit | 46 | `paquets/cejm/methodes-notions-droit.json` |
+| CEJM | Méthodes : Raisonnement Juridique | 24 | `paquets/cejm/methodes-raisonnement-juridique.json` |
 | CEJM | Thème 1 - L'intégration de l'entreprise dans son environnement : Economique | 115 | `paquets/cejm/theme-1-economique.json` |
 | CEJM | Thème 1 - L'intégration de l'entreprise dans son environnement : Juridique | 88 | `paquets/cejm/theme-1-juridique.json` |
 | CEJM | Thème 1 - L'intégration de l'entreprise dans son environnement : Managériale | 59 | `paquets/cejm/theme-1-manageriale.json` |
