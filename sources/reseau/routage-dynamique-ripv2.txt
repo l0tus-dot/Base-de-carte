@@ -1,0 +1,31 @@
+# Matière : Réseau
+# Paquet : Routage Dynamique (RIPv2)
+
+Qu'est-ce que le routage dynamique ? ; C'est le fait de faire apprendre automatiquement les routes entre plusieurs routeurs, sans les saisir une à une.
+Quelle est la différence entre routage statique et routage dynamique ? ; En statique, les routes sont saisies à la main sur chaque routeur. En dynamique, les routeurs les apprennent automatiquement grâce à un protocole.
+Pourquoi désactiver le routage statique sur les réseaux concernés avant de configurer un protocole dynamique ? ; Pour éviter les conflits de source d'information.
+Quel protocole de routage dynamique est étudié dans ce cours ? ; RIP version 2 (RIPv2), configuré sur des routeurs Cisco.
+Dans quel cas utilise-t-on RIPv2 ? ; Sur de petites topologies (moins de 15 sauts) où la simplicité de mise en œuvre prime sur la rapidité de convergence.
+Quel protocole préfère-t-on à RIP sur un réseau plus grand ou plus exigeant ? ; OSPF.
+Quelles sont les distances administratives d'une route statique, d'OSPF et de RIP ? ; 1 pour une route statique, 110 pour OSPF et 120 pour RIP.
+Que se passe-t-il quand une route statique et une route RIP existent pour la même destination ? ; La route statique reste prioritaire car sa distance administrative (1) est plus faible que celle de RIP (120), même si RIP a une meilleure métrique.
+Comment faire prévaloir RIP sur une route statique ? ; Retirer la route statique ou augmenter sa distance.
+Quelles commandes activent RIPv2 sur un routeur Cisco ? ; router rip, puis version 2 et no auto-summary.
+Pourquoi no auto-summary n'est-il pas optionnel avec RIPv2 ? ; Sans lui, RIPv2 résume les routes à la frontière de classe comme RIPv1, ce qui casse le routage sur des sous-réseaux discontinus sans message d'erreur visible.
+Que prend la commande network dans le processus RIP ? ; L'adresse de classe complète et non le préfixe exact de l'interface. IOS retrouve lui-même le bon masque.
+Pourquoi utiliser passive-interface sur les interfaces côté LAN ? ; RIP diffuse ses annonces sur toutes les interfaces déclarées, y compris vers les postes clients, ce qui est inutile et légèrement exposé.
+Quel est l'effet de passive-interface sur une interface RIP ? ; Son réseau continue d'être annoncé aux autres routeurs, mais le routeur n'y envoie plus de mises à jour.
+Comment propager une route par défaut avec RIP ? ; Sur le routeur de bordure, créer la route ip route 0.0.0.0 0.0.0.0 vers le fournisseur puis ajouter default-information originate sous router rip.
+Que se passe-t-il sans default-information originate ? ; La route par défaut reste locale au routeur de bordure et n'est pas propagée aux autres routeurs RIP.
+Pourquoi authentifier les échanges d'un protocole de routage dynamique comme RIP ? ; Sans cela, n'importe quel équipement connecté au segment peut annoncer de fausses routes et détourner du trafic. L'authentification MD5 est un minimum, pas une garantie absolue.
+Quelles commandes mettent en place l'authentification MD5 sur RIP ? ; Créer un key chain avec key et key-string, puis sur l'interface ip rip authentication mode md5 et ip rip authentication key-chain.
+Comment annuler la configuration si RIP a été introduit uniquement pour cette procédure ? ; Avec no router rip, qui retire d'un coup toute la configuration RIP (réseaux, passive-interface, default-information originate).
+Comment annuler la configuration si RIP gère déjà d'autres réseaux ? ; Retirer uniquement ce qui a été ajouté sous router rip avec no network, no passive-interface et no default-information originate.
+Quel est le risque d'un retour arrière RIP ? ; Les routes annoncées disparaissent progressivement des autres routeurs jusqu'au timeout. Sans route statique de secours, la connectivité se coupe sans message d'erreur explicite.
+Quelles commandes vérifient le fonctionnement de RIP ? ; show ip protocols, show ip route rip et show ip rip database.
+Comment une route apprise par RIP apparaît-elle dans show ip route ? ; Préfixée par R, avec une distance administrative de 120. Le chiffre après le 120 entre crochets est le nombre de sauts.
+Quelle est la limite de sauts de RIP ? ; RIP écarte toute route à plus de 15 sauts.
+Pourquoi éviter debug ip rip en production ? ; Il charge le processeur en continu, il est réservé aux environnements de test et s'arrête avec undebug all.
+Que faire si aucune route R n'apparaît ? ; Le réseau est probablement non déclaré ou déclaré avec la mauvaise adresse de classe. Vérifier avec show ip protocols (section Routing for Networks).
+Pourquoi une route RIP apprise est-elle retirée après environ 3 minutes ? ; Le voisin est injoignable et le timeout RIP est atteint. Vérifier la liaison physique et l'adressage de l'interface commune.
+Que faire si des routes RIP sont en boucle ou instables ? ; L'auto-résumé est probablement actif sur un plan discontinu. Ajouter no auto-summary sur tous les routeurs du domaine RIP.
