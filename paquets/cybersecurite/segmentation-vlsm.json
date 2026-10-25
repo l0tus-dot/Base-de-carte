@@ -1,0 +1,621 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "5794b0db-006d-5efa-95bd-337af5765586",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Cybersécurité",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "5794b0db-006d-5efa-95bd-337af5765586",
+    "name": "Segmentation VLSM"
+   }
+  ],
+  "cards": [
+   {
+    "id": "16c9cc9c-4355-5a64-8d97-104d9527e2d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Pourquoi segmenter un réseau « à plat » ?",
+    "back": "Les diffusions (ARP, DHCP) atteignent toutes les machines et tout incident est à portée du reste. Segmenter réduit le domaine de diffusion, limite ce qu'un hôte compromis peut atteindre et permet des règles de filtrage par segment.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "ab81437d-3aac-58b5-b648-09fe2381aef3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Qu'est-ce que le VLSM ?",
+    "back": "Variable Length Subnet Mask : on découpe un même bloc d'adresses en sous-réseaux de tailles différentes, chacun dimensionné au plus près du besoin.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "3a66c787-97b0-5c4b-879c-1be0135315d7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quel défaut du découpage en blocs de taille identique le VLSM corrige-t-il ?",
+    "back": "Les blocs identiques gaspillent des adresses sur les petits segments pour satisfaire les plus grands.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "7511bd91-d814-5532-80b0-fc0b2f741de9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Combien d'hôtes utilisables pour h bits de partie hôte ?",
+    "back": "2^h - 2, car l'adresse réseau et l'adresse de diffusion sont exclues.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "a5c45a56-a71c-5e12-a63d-a07da41d7141",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Combien de sous-réseaux obtient-on en empruntant s bits ?",
+    "back": "2^s.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "fc0c45aa-b77e-50ae-a82c-fab68f2b607e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Comment trouver le masque minimal pour N hôtes ?",
+    "back": "Prendre le plus petit /n tel que 2^(32-n) - 2 ≥ N.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "31f45f4d-516b-5f76-b5ff-9f5f78433dd6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Dans quel ordre alloue-t-on les sous-réseaux en VLSM ?",
+    "back": "Du plus grand besoin au plus petit, chaque sous-réseau étant prélevé juste après le précédent dans le bloc disponible.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "33f6b723-ebb4-552e-883d-cd4f0a677a4e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Pourquoi ne pas attribuer un petit sous-réseau en premier ?",
+    "back": "Cela peut fragmenter l'espace restant au point de ne plus pouvoir caser un besoin plus grand, même si le total d'adresses libres suffirait.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "931e1433-a343-556b-990c-864cbfdbb577",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quel masque pour 100 hôtes et quel sous-réseau dans le bloc 192.168.1.0/24 ?",
+    "back": "2^7 - 2 = 126 ≥ 100, donc 7 bits d'hôte et un /25. Le premier sous-réseau est 192.168.1.0/25.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "bdbbf10e-5985-5486-b383-570019877ac1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quel masque pour 50 hôtes et quel sous-réseau suit le premier ?",
+    "back": "2^6 - 2 = 62 ≥ 50, donc un /26. Le sous-réseau est 192.168.1.128/26.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "12762e17-88b2-520a-a7df-c9370f70a28c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quel masque pour une liaison point à point de 2 hôtes ?",
+    "back": "2^2 - 2 = 2 ≥ 2, donc un /30. Le sous-réseau du cours est 192.168.1.192/30.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "65f88222-78c9-55a7-93d8-fe044c601cc1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quelles sont les adresses du LAN Site A (192.168.1.0/25) ?",
+    "back": "Première adresse d'hôte 192.168.1.1, dernière 192.168.1.126 et diffusion 192.168.1.127.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "b34d86b6-f484-5217-aa4f-fb0ee05f8469",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quelles sont les adresses du LAN Site B (192.168.1.128/26) ?",
+    "back": "Première adresse d'hôte 192.168.1.129, dernière 192.168.1.190 et diffusion 192.168.1.191.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "61117059-80a8-58e0-8096-88b503f04fd8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quelles sont les adresses de la liaison R1-R2 (192.168.1.192/30) ?",
+    "back": "Hôtes 192.168.1.193 et 192.168.1.194, diffusion 192.168.1.195.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "e7776322-d791-5255-adb3-6ad3f592faaa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Que reste-t-il du bloc 192.168.1.0/24 après les trois allocations ?",
+    "back": "Les adresses 192.168.1.196 à 192.168.1.255 (60 adresses), conservées comme réserve pour une évolution future.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "62cb2483-d4c8-5c70-95ba-fade318de39a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quels masques de sous-réseau pour /25, /26 et /30 ?",
+    "back": "/25 donne 255.255.255.128, /26 donne 255.255.255.192 et /30 donne 255.255.255.252.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "887b67c9-d9e4-54b7-b69e-ef2ab1c0d9d3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Comment configurer l'interface LAN du Site A sur R1 ?",
+    "back": "ip address 192.168.1.1 255.255.255.128 sur GigabitEthernet0/1, suivi de no shutdown.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "59fe56c4-aa69-531d-a60c-3d4b3ac64e44",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Comment configurer l'interface LAN du Site B sur R2 ?",
+    "back": "ip address 192.168.1.129 255.255.255.192 sur GigabitEthernet0/1, suivi de no shutdown.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "2030404d-c57f-5ccb-882d-d63db6288c24",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quelle route statique ajoute-t-on sur R1 pour joindre le LAN Site B ?",
+    "back": "ip route 192.168.1.128 255.255.255.192 192.168.1.194.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "6c88cc3f-343a-5dbd-bb77-ba683f3211ea",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quelle route symétrique ajoute-t-on sur R2 vers le LAN Site A ?",
+    "back": "ip route 192.168.1.0 255.255.255.128 192.168.1.193.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "5b44f941-9c8a-539a-8d79-46c0591c2cae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Dans quel ordre retirer la configuration VLSM d'un routeur ?",
+    "back": "D'abord les routes, puis les adresses d'interface avec no ip address. Une route vers un prochain saut sans adresse resterait invalide jusqu'au nettoyage complet.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "2619aca1-759a-5d9a-a6e4-5b3ce485eca7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Quelles commandes vérifient le plan d'adressage VLSM ?",
+    "back": "show ip interface brief (chaque interface doit être up/up), show ip route et ping avec source.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "68b856f1-a6a5-5550-9bb7-149e6fdf0838",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Que signifie une adresse qui déborde du sous-réseau prévu ?",
+    "back": "C'est le signe d'une confusion entre deux blocs calculés, à repérer avant la mise en service.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "96ef75ba-bc65-5e9a-a8a5-20b938c5e90c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Pourquoi deux sous-réseaux se chevauchent-ils partiellement ?",
+    "back": "Le calcul du préfixe suivant est parti de la mauvaise adresse. Il faut reprendre l'adresse de diffusion du sous-réseau précédent + 1, pas une valeur arrondie.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "567464af-f613-53e3-ae6f-bfc40267de15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Pourquoi un sous-réseau censé contenir N hôtes en contient-il moins ?",
+    "back": "On a oublié de soustraire l'adresse réseau et l'adresse de diffusion (2^h - 2 et non 2^h).",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "687ecfe3-7eaa-5d32-879b-1ff7254dcf41",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Pourquoi est-il impossible de caser le dernier sous-réseau alors qu'il reste assez d'adresses ?",
+    "back": "Les besoins ont été traités dans le mauvais ordre (petit avant grand). Il faut repartir du bloc d'origine et réallouer du plus grand au plus petit.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "1ab32109-c8a3-55e6-b1e4-274603784aee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Pourquoi un hôte ne peut-il pas joindre sa passerelle ?",
+    "back": "L'adresse d'interface est hors de la plage valide du sous-réseau (adresse réseau ou diffusion utilisée par erreur). Comparer avec la plage calculée.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "bc53d5b8-96d9-5d75-baa4-e1d1c45b7d85",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5275f552-6a0b-52e6-b151-070dba2edf37",
+    "front": "Pourquoi n'y a-t-il plus de place pour un futur sous-réseau ?",
+    "back": "Aucune réserve n'a été laissée après l'allocation des besoins initiaux. Il faut dimensionner le bloc global avec une marge ou revoir le plan d'adressage.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "9a9e23d6-9ab1-547c-a074-ac8290886940",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "16c9cc9c-4355-5a64-8d97-104d9527e2d9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "78fe2e18-23e9-51d9-821d-f482ce9cfb7e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ab81437d-3aac-58b5-b648-09fe2381aef3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b3b2e4af-6683-5144-9696-66985e26200c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3a66c787-97b0-5c4b-879c-1be0135315d7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "594ee9e4-bd24-58c6-a540-8412aca4c53d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7511bd91-d814-5532-80b0-fc0b2f741de9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "85ef50e6-3a3b-5115-b895-105d77460653",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a5c45a56-a71c-5e12-a63d-a07da41d7141",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "35644448-2a11-58b8-a80b-5b2c58f4a759",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fc0c45aa-b77e-50ae-a82c-fab68f2b607e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "49f3bd35-a6b5-58d6-ba40-427c122500ce",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "31f45f4d-516b-5f76-b5ff-9f5f78433dd6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "909f8ffd-000d-5a7d-9211-52e0d2ddb339",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "33f6b723-ebb4-552e-883d-cd4f0a677a4e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4b3dd63b-d269-5c77-b0cb-0e722febe34f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "931e1433-a343-556b-990c-864cbfdbb577",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "400faac4-120c-52fd-895a-570490579e15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bdbbf10e-5985-5486-b383-570019877ac1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "da5b7985-ca29-5083-928a-9f91e897882a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "12762e17-88b2-520a-a7df-c9370f70a28c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "00cf5592-2e58-5a4f-adfa-f510be20f8c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "65f88222-78c9-55a7-93d8-fe044c601cc1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c487d42c-f52b-542d-8e36-3043c47b4630",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b34d86b6-f484-5217-aa4f-fb0ee05f8469",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dc353b89-8b9a-5613-8f1c-25e9e137d367",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "61117059-80a8-58e0-8096-88b503f04fd8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2381454f-f247-5783-a8d9-2c605ddd9295",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e7776322-d791-5255-adb3-6ad3f592faaa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f01b9c7d-9bae-5c3c-8293-020ec37a6032",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "62cb2483-d4c8-5c70-95ba-fade318de39a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "51e47418-7328-5de6-bf19-e435d48a4079",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "887b67c9-d9e4-54b7-b69e-ef2ab1c0d9d3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2e25f109-661f-506e-b7dc-25119a00042d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "59fe56c4-aa69-531d-a60c-3d4b3ac64e44",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "58591f8d-1a9f-5b56-81ee-65206b874575",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2030404d-c57f-5ccb-882d-d63db6288c24",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e45d1029-e59d-5eb6-833c-039d259c6ab4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6c88cc3f-343a-5dbd-bb77-ba683f3211ea",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5794d334-98a3-5ade-8979-ce336eb33489",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5b44f941-9c8a-539a-8d79-46c0591c2cae",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d96a63df-b8ff-5779-91d4-e5d7486f122c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2619aca1-759a-5d9a-a6e4-5b3ce485eca7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4e92fdb5-1efe-54a9-b69f-de692e746be7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "68b856f1-a6a5-5550-9bb7-149e6fdf0838",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a8eec5c0-5e47-5814-b0f9-6145e7e25c95",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "96ef75ba-bc65-5e9a-a8a5-20b938c5e90c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "46c0e1d5-a01d-5769-873d-93adfcbd7aa3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "567464af-f613-53e3-ae6f-bfc40267de15",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1ee02781-3836-5c09-ac8d-fc0854668d2b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "687ecfe3-7eaa-5d32-879b-1ff7254dcf41",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0feae952-35de-519c-a777-86ca9757e85b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1ab32109-c8a3-55e6-b1e4-274603784aee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "18faec34-ed34-5ae9-9d5c-a8740b514b01",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bc53d5b8-96d9-5d75-baa4-e1d1c45b7d85",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}
