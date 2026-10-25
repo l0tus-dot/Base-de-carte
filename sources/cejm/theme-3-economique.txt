@@ -1,5 +1,5 @@
 # Matière : CEJM
-# Parent : Les facteurs économiques et les choix de production
+# Parent : Thème 3 - L'organisation de l'activité de l'entreprise
 # Paquet : Economique
 # Description : Les facteurs de production, la valeur ajoutée, la productivité, les coûts de production, la chaîne de valeur et l'impartition.
 

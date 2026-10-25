@@ -4,51 +4,43 @@
  "packs": [
   {
    "subject": "CEJM",
-   "deck": "Managériale",
-   "cards": 59,
-   "description": "Les parties prenantes, les finalités, la performance, la RSE, la création d'entreprise et les logiques entrepreneuriale et managériale.",
-   "path": "paquets/cejm/manageriale-1-3.json",
-   "parent": "De quelle manière l'entreprise s'inscrit-elle dans son environnement ?"
+   "deck": "Economique",
+   "cards": 115,
+   "description": "Les agents économiques, les secteurs institutionnels, les marchés, la concurrence, les dysfonctionnements du marché et le financement.",
+   "path": "paquets/cejm/theme-1-economique.json",
+   "parent": "Thème 1 - L'intégration de l'entreprise dans son environnement"
   },
   {
    "subject": "CEJM",
    "deck": "Juridique",
    "cards": 88,
    "description": "Les contrats informatiques, les pourparlers, la formation et la validité du contrat, les clauses et les effets.",
-   "path": "paquets/cejm/juridique-1-2.json",
-   "parent": "La période précontractuelle et la formation du contrat"
+   "path": "paquets/cejm/theme-1-juridique.json",
+   "parent": "Thème 1 - L'intégration de l'entreprise dans son environnement"
   },
   {
    "subject": "CEJM",
-   "deck": "Economique",
-   "cards": 67,
-   "description": "Les marchés, la loi de l'offre et de la demande, la concurrence, les dysfonctionnements du marché et le financement.",
-   "path": "paquets/cejm/economique-1-1-2.json",
-   "parent": "Le fonctionnement des marchés"
-  },
-  {
-   "subject": "CEJM",
-   "deck": "Economique",
-   "cards": 48,
-   "description": "Les agents économiques, les six secteurs institutionnels, le circuit économique et son lexique.",
-   "path": "paquets/cejm/economique-1-1-1.json",
-   "parent": "Les agents économiques et leurs échanges"
+   "deck": "Managériale",
+   "cards": 59,
+   "description": "Les parties prenantes, les finalités, la performance, la RSE, la création d'entreprise et les logiques entrepreneuriale et managériale.",
+   "path": "paquets/cejm/theme-1-manageriale.json",
+   "parent": "Thème 1 - L'intégration de l'entreprise dans son environnement"
   },
   {
    "subject": "CEJM",
    "deck": "Economique",
    "cards": 77,
    "description": "Les facteurs de production, la valeur ajoutée, la productivité, les coûts de production, la chaîne de valeur et l'impartition.",
-   "path": "paquets/cejm/economique-3-1.json",
-   "parent": "Les facteurs économiques et les choix de production"
+   "path": "paquets/cejm/theme-3-economique.json",
+   "parent": "Thème 3 - L'organisation de l'activité de l'entreprise"
   },
   {
    "subject": "CEJM",
    "deck": "Juridique",
    "cards": 82,
    "description": "Les structures juridiques (entreprise individuelle et sociétés) et leurs motivations patrimoniales, fiscales, sociales et financières.",
-   "path": "paquets/cejm/juridique-3-2-1.json",
-   "parent": "Les structures juridiques"
+   "path": "paquets/cejm/theme-3-juridique.json",
+   "parent": "Thème 3 - L'organisation de l'activité de l'entreprise"
   },
   {
    "subject": "CEJMA",

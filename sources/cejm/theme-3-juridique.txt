@@ -1,5 +1,5 @@
 # Matière : CEJM
-# Parent : Les structures juridiques
+# Parent : Thème 3 - L'organisation de l'activité de l'entreprise
 # Paquet : Juridique
 # Description : Les structures juridiques (entreprise individuelle et sociétés) et leurs motivations patrimoniales, fiscales, sociales et financières.
 

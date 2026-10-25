@@ -28,14 +28,13 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | Cybersécurité | VPN | 28 | `paquets/cybersecurite/vpn.json` |
 | Cybersécurité | Délégation de droit avec sudo | 31 | `paquets/cybersecurite/delegation-sudo.json` |
 | Cybersécurité | ACL cisco | 32 | `paquets/cybersecurite/acl-cisco.json` |
-| CEJM | De quelle manière l'entreprise s'inscrit-elle dans son environnement ? : Managériale | 59 | `paquets/cejm/manageriale-1-3.json` |
-| CEJM | La période précontractuelle et la formation du contrat : Juridique | 88 | `paquets/cejm/juridique-1-2.json` |
-| CEJM | Le fonctionnement des marchés : Economique | 67 | `paquets/cejm/economique-1-1-2.json` |
-| CEJM | Les agents économiques et leurs échanges : Economique | 48 | `paquets/cejm/economique-1-1-1.json` |
-| CEJM | Les facteurs économiques et les choix de production : Economique | 77 | `paquets/cejm/economique-3-1.json` |
-| CEJM | Les structures juridiques : Juridique | 82 | `paquets/cejm/juridique-3-2-1.json` |
+| CEJM | Thème 1 - L'intégration de l'entreprise dans son environnement : Economique | 115 | `paquets/cejm/theme-1-economique.json` |
+| CEJM | Thème 1 - L'intégration de l'entreprise dans son environnement : Juridique | 88 | `paquets/cejm/theme-1-juridique.json` |
+| CEJM | Thème 1 - L'intégration de l'entreprise dans son environnement : Managériale | 59 | `paquets/cejm/theme-1-manageriale.json` |
+| CEJM | Thème 3 - L'organisation de l'activité de l'entreprise : Economique | 77 | `paquets/cejm/theme-3-economique.json` |
+| CEJM | Thème 3 - L'organisation de l'activité de l'entreprise : Juridique | 82 | `paquets/cejm/theme-3-juridique.json` |
 
-Dans la matière CEJM, chaque paquet est un chapitre du cours, avec un sous-paquet par sous-thème (Economique, Juridique ou Managériale) qui regroupe les cartes de tous les PDF du chapitre.
+Dans la matière CEJM, chaque paquet est un thème du cours, avec un sous-paquet par sous-thème (Economique, Juridique ou Managériale) qui regroupe les cartes de tous les PDF.
 
 *(Tenir cette liste à jour à chaque nouveau paquet.)*
 

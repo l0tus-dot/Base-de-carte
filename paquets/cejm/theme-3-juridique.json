@@ -14,757 +14,757 @@
   ],
   "decks": [
    {
-    "id": "19ca0ea0-1826-56a5-a85c-1131c8492128",
+    "id": "d1facb8a-c61f-528a-99ce-a5926747810e",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
-    "name": "Les structures juridiques",
+    "name": "Thème 3 - L'organisation de l'activité de l'entreprise",
     "parentId": null
    },
    {
-    "id": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "id": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
     "name": "Juridique",
-    "parentId": "19ca0ea0-1826-56a5-a85c-1131c8492128"
+    "parentId": "d1facb8a-c61f-528a-99ce-a5926747810e"
    }
   ],
   "cards": [
    {
-    "id": "63492e78-5ac3-5e05-a6b8-5458540b2c1d",
+    "id": "ac0c4c6b-a93a-5a4f-98eb-3911b7e9bb61",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est-ce que la structure juridique d'une entreprise ?",
     "back": "Le cadre légal de l'activité de l'entrepreneur.",
     "createdAt": "2000-01-01T00:00:00.000Z"
    },
    {
-    "id": "71755112-5a8f-5f81-b308-cd721bc31b80",
+    "id": "60012343-ea6c-507d-9a58-fda915221afd",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quand analyse-t-on les critères de choix d'une structure juridique ?",
     "back": "À différents moments de la vie de l'entreprise, dès sa création et au cours de son évolution.",
     "createdAt": "2000-01-01T00:00:01.000Z"
    },
    {
-    "id": "709c279b-601d-5860-932d-5a8f46924352",
+    "id": "577baf0a-f4ff-5938-9d81-ce53839e0ce5",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Pour quelle entreprise l'entreprise individuelle classique est-elle adaptée ?",
     "back": "Une petite entreprise sans grande perspective de développement.",
     "createdAt": "2000-01-01T00:00:02.000Z"
    },
    {
-    "id": "e05b93e6-0f9e-510c-a158-516acc8f2552",
+    "id": "835fe30b-739c-5a8a-9d1f-2bdf339d0e7d",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel régime ultra-simplifié l'entreprise individuelle peut-elle bénéficier ?",
     "back": "Celui de micro-entrepreneur.",
     "createdAt": "2000-01-01T00:00:03.000Z"
    },
    {
-    "id": "bd874f54-d700-50ee-a90b-e20be7448a7a",
+    "id": "a835ed02-8962-5373-91d2-2781d779c0b5",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Pour quelle entreprise une société est-elle adaptée ?",
     "back": "Une plus grande entreprise, au développement plus conséquent.",
     "createdAt": "2000-01-01T00:00:04.000Z"
    },
    {
-    "id": "c20532aa-689a-5654-a150-e8c00b0324c1",
+    "id": "d9520a72-4a0a-594c-bade-52efb19d07fe",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelle est la différence entre une société et une entreprise individuelle ?",
     "back": "Une société est une personne morale, contrairement à une entreprise individuelle.",
     "createdAt": "2000-01-01T00:00:05.000Z"
    },
    {
-    "id": "2de71bc6-879a-51a9-b575-6284eec300e5",
+    "id": "c6eddda8-f061-5d91-a7ba-cd11779f0e3e",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Que doit avoir une société en tant que personne morale ?",
     "back": "Un nom (la dénomination sociale), de l'argent et des biens (le capital social) et un domicile (le siège social).",
     "createdAt": "2000-01-01T00:00:06.000Z"
    },
    {
-    "id": "50db4d6c-5e76-5d3b-8408-0b8f7ad711dd",
+    "id": "9ee2591f-5ffa-5f52-b7ce-6333a8014bbd",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelles sont les structures sociétaires à un seul associé ?",
     "back": "La SASU et l'EURL.",
     "createdAt": "2000-01-01T00:00:07.000Z"
    },
    {
-    "id": "1c620c00-115c-57b3-94de-de3641cbc8c2",
+    "id": "3024dbde-d95f-55b2-9bf8-c9c5f9ae9da1",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelles sont les structures sociétaires à plusieurs associés ?",
     "back": "La SA, la SAS et la SARL.",
     "createdAt": "2000-01-01T00:00:08.000Z"
    },
    {
-    "id": "79783bd3-5b75-5dc9-8e60-3fc591c307ca",
+    "id": "9c7cc75c-d63d-5fcb-8a5e-eec77fad4987",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Que signifient SASU, EURL, SA, SAS et SARL ?",
     "back": "SASU : société par actions simplifiée unipersonnelle. EURL : entreprise unipersonnelle à responsabilité limitée. SA : société anonyme. SAS : société par actions simplifiée. SARL : société à responsabilité limitée.",
     "createdAt": "2000-01-01T00:00:09.000Z"
    },
    {
-    "id": "e9ce2a59-ad59-579d-a7b1-5dfdc6707885",
+    "id": "1f150df3-a73e-52dc-b466-b5fcc03113d3",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est devenue l'EIRL ?",
     "back": "Elle a disparu le 14 février 2022.",
     "createdAt": "2000-01-01T00:00:10.000Z"
    },
    {
-    "id": "26e4a878-42b0-5d92-9b69-0bda6303f931",
+    "id": "0ea5cbed-0de0-50b5-af79-8de60052d877",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est-ce que le contrat de société (art. 1832 du Code civil) ?",
     "back": "Le contrat par lequel deux ou plusieurs personnes conviennent d'affecter à une entreprise commune des biens ou leur industrie, en vue de partager le bénéfice ou de profiter de l'économie qui pourra en résulter.",
     "createdAt": "2000-01-01T00:00:11.000Z"
    },
    {
-    "id": "3a10d01f-ec77-5846-9e1a-4409bbcda6e7",
+    "id": "0b61fd54-5d09-515b-abfd-f9230fdf5590",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Une société peut-elle être créée par une seule personne ?",
     "back": "Oui, dans les cas prévus par la loi, par l'acte de volonté d'une seule personne.",
     "createdAt": "2000-01-01T00:00:12.000Z"
    },
    {
-    "id": "9b84fe40-59d0-50f1-b1a6-828d8aeb1fa5",
+    "id": "26050bfe-1433-5d60-b0fe-0f398f14fcb6",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "À quoi s'engagent les associés d'une société ?",
     "back": "À contribuer aux pertes.",
     "createdAt": "2000-01-01T00:00:13.000Z"
    },
    {
-    "id": "b711af4c-7d90-561a-a636-bdd6656b010d",
+    "id": "dc5acc6d-be7d-52c9-8956-c924bcad7498",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quels sont les critères de comparaison des structures juridiques ?",
     "back": "Entreprendre seul ou non, décider seul ou non, le capital social minimum, le patrimoine, la responsabilité de l'entrepreneur, le régime social du dirigeant, le régime fiscal, le coût de la comptabilité.",
     "createdAt": "2000-01-01T00:00:14.000Z"
    },
    {
-    "id": "96687d62-b178-5ad3-b699-e775ef278c50",
+    "id": "3a5c80ff-76ac-591e-bfb8-a489f42c46ae",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Combien d'associés faut-il pour une SA ?",
     "back": "Au moins 2 actionnaires (personnes physiques ou morales), ou 7 actionnaires si elle est cotée en bourse.",
     "createdAt": "2000-01-01T00:00:15.000Z"
    },
    {
-    "id": "481bde67-5c2c-5a8d-bc9a-527f89312388",
+    "id": "d3a4bd71-0040-53c0-8c7e-562f6cedce14",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Combien d'associés faut-il pour une SAS ?",
     "back": "Au moins 2 actionnaires (personnes physiques ou morales).",
     "createdAt": "2000-01-01T00:00:16.000Z"
    },
    {
-    "id": "31c42523-4f96-586a-a81d-485624ee3829",
+    "id": "d4490094-b237-5753-9e7f-76997372af34",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Combien d'associés faut-il pour une SARL ?",
     "back": "De 2 à 100 associés (personnes physiques ou morales).",
     "createdAt": "2000-01-01T00:00:17.000Z"
    },
    {
-    "id": "77c1daa0-1a3f-59c3-8f14-6e08934f9788",
+    "id": "b5abcc22-b3c3-5b00-bab4-9f0c517a7660",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Peut-on entreprendre seul en EURL ou en SASU ?",
     "back": "Oui. On peut aussi entreprendre seul en entreprise individuelle.",
     "createdAt": "2000-01-01T00:00:18.000Z"
    },
    {
-    "id": "475e8164-26da-5dcf-b93f-a67e1d57ec2d",
+    "id": "e54f4f6d-051c-5b0a-965e-9f3692f5112b",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qui décide dans une entreprise individuelle ?",
     "back": "L'entrepreneur dispose des pleins pouvoirs : c'est une grande liberté.",
     "createdAt": "2000-01-01T00:00:19.000Z"
    },
    {
-    "id": "6adcdb9a-4bc8-5f09-ab46-076551665690",
+    "id": "4d85f757-a189-516f-921f-9862c8dd4514",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qui décide dans une EURL ?",
     "back": "Un seul décideur, avec une gestion encadrée et la publication des comptes.",
     "createdAt": "2000-01-01T00:00:20.000Z"
    },
    {
-    "id": "88628acc-36ad-5af4-9d1e-0d5076d9719c",
+    "id": "51b37e26-de5d-5eee-9db5-00581fec1df9",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qui décide dans une SASU ?",
     "back": "Un seul décideur, avec une gestion peu encadrée et une liberté d'action.",
     "createdAt": "2000-01-01T00:00:21.000Z"
    },
    {
-    "id": "cc6feb1f-41c2-5645-956e-b27182f18f7a",
+    "id": "a54ba93a-1d33-588e-8034-00237e920e84",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Comment sont partagés les pouvoirs dans une SA ?",
     "back": "Ils sont partagés, avec une lourdeur de fonctionnement (assemblée générale, conseil d'administration).",
     "createdAt": "2000-01-01T00:00:22.000Z"
    },
    {
-    "id": "7da6e151-e384-5042-b60c-3cae93c5b861",
+    "id": "0cff493d-83f1-5613-a467-4ccc28cc7d6f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Comment sont partagés les pouvoirs dans une SAS ?",
     "back": "Ils sont partagés, mais la gestion est peu encadrée : il y a une liberté d'organisation.",
     "createdAt": "2000-01-01T00:00:23.000Z"
    },
    {
-    "id": "1fc60de6-e2d0-5728-aa93-988dbad28a1b",
+    "id": "fe20b3af-4db1-595f-b1e7-c07c03d13808",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Comment sont partagés les pouvoirs dans une SARL ?",
     "back": "Ils sont partagés, avec une gestion encadrée et la publication des comptes.",
     "createdAt": "2000-01-01T00:00:24.000Z"
    },
    {
-    "id": "38689795-bbbe-5bc7-a430-0bf3a9413260",
+    "id": "70977420-8790-5501-bb36-6e96bab010e4",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le capital social minimum d'une SA ?",
     "back": "37 000 euros. L'appel public à l'épargne est possible.",
     "createdAt": "2000-01-01T00:00:25.000Z"
    },
    {
-    "id": "af6633d8-58a0-5f91-b7cb-e643182a6045",
+    "id": "5269d01a-1a3a-552c-9ecb-99b8ada2491c",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le capital social minimum d'une SARL, d'une SAS, d'une EURL ou d'une SASU ?",
     "back": "Il est libre.",
     "createdAt": "2000-01-01T00:00:26.000Z"
    },
    {
-    "id": "c49cc6f3-aa59-5866-94cc-b29b099d60f9",
+    "id": "d40aeff1-b050-512c-83b5-6e92a523d153",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Que devient le patrimoine dans une entreprise individuelle ?",
     "back": "Il est confondu avec celui de l'entrepreneur (pas de risque d'abus de bien social).",
     "createdAt": "2000-01-01T00:00:27.000Z"
    },
    {
-    "id": "f3c89b35-29fa-5600-be75-04d12f86fdc9",
+    "id": "b664db97-ccc1-502d-8f2f-f73e128b2d0e",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Que devient le patrimoine dans une société ?",
     "back": "Il est propre à la société.",
     "createdAt": "2000-01-01T00:00:28.000Z"
    },
    {
-    "id": "3311dd10-03d3-5adc-8702-1a3a4c4de07a",
+    "id": "b8cb5cdb-2991-5e2f-bf9d-c725fc7ac102",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelle est la responsabilité de l'entrepreneur individuel ?",
     "back": "Elle est limitée au patrimoine professionnel de l'entrepreneur.",
     "createdAt": "2000-01-01T00:00:29.000Z"
    },
    {
-    "id": "4b146c4d-e633-5dd1-a487-c4dae2cafb41",
+    "id": "fdee5d32-5c58-5919-b36c-1a6d9b100da0",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelle est la responsabilité des associés d'une EURL ou d'une SASU ?",
     "back": "Elle est limitée au montant des apports de l'associé.",
     "createdAt": "2000-01-01T00:00:30.000Z"
    },
    {
-    "id": "9a7478ce-7431-5d51-ae4c-a02dd3f6275d",
+    "id": "9bba35f8-caf6-5021-9ee3-fa99a5ccc533",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelle est la responsabilité des associés d'une SA, d'une SAS ou d'une SARL ?",
     "back": "Elle est limitée aux apports.",
     "createdAt": "2000-01-01T00:00:31.000Z"
    },
    {
-    "id": "e91ea747-5722-59da-ac8b-3d24e9247b6d",
+    "id": "608c638f-0070-580a-a90f-690189bdeced",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime social du dirigeant d'une entreprise individuelle ?",
     "back": "Le régime des travailleurs indépendants (TNS).",
     "createdAt": "2000-01-01T00:00:32.000Z"
    },
    {
-    "id": "4a9728b5-63a2-5d89-a570-f2965827c5c2",
+    "id": "300d74ff-851e-5c1f-946d-870819701f0d",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime social du gérant d'une EURL ?",
     "back": "Gérant associé : TNS (travailleur non salarié). Gérant non-associé : assimilé salarié.",
     "createdAt": "2000-01-01T00:00:33.000Z"
    },
    {
-    "id": "f006e0ad-e3e6-570c-ab42-154e3d0e1cc6",
+    "id": "eadd7ab1-91ee-50fe-a869-2442dbae80e6",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime social du président d'une SASU ou d'une SAS ?",
     "back": "Assimilé salarié, donc une protection sociale forte.",
     "createdAt": "2000-01-01T00:00:34.000Z"
    },
    {
-    "id": "3db94df9-ad30-5e34-9276-dd8cb0a25096",
+    "id": "ae65d5fe-a867-5388-959f-5a5832760a31",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime social des dirigeants d'une SA ?",
     "back": "Les administrateurs ne sont pas rémunérés (1/3 maximum) et peuvent avoir un contrat de travail. Le PDG relève du régime des assimilés salariés.",
     "createdAt": "2000-01-01T00:00:35.000Z"
    },
    {
-    "id": "ae35ab15-33b9-5713-bbbc-d3522fc36c24",
+    "id": "b11ed3c5-44d6-5e23-9c40-e27d70048833",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime social du gérant d'une SARL ?",
     "back": "Gérant majoritaire : TNS. Gérant minoritaire : assimilé salarié.",
     "createdAt": "2000-01-01T00:00:36.000Z"
    },
    {
-    "id": "b9383c68-7f90-574d-bb3a-cbcaf7f73e5e",
+    "id": "477625e6-c932-5c58-ba6f-4fde2465e987",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime fiscal d'une entreprise individuelle ?",
     "back": "L'impôt sur le revenu (IR), dans la catégorie des bénéfices industriels et commerciaux (micro-BIC). L'option pour l'IS est possible.",
     "createdAt": "2000-01-01T00:00:37.000Z"
    },
    {
-    "id": "20eff935-d17c-5f7c-97ee-678867295eec",
+    "id": "d2fc580b-4137-522a-a2f0-e5c606b2176c",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime fiscal d'une EURL ?",
     "back": "L'impôt sur le revenu (IR), avec option possible pour l'impôt sur les sociétés (IS).",
     "createdAt": "2000-01-01T00:00:38.000Z"
    },
    {
-    "id": "4c1eb3ba-5052-51c4-bb02-db8ff90435fa",
+    "id": "db6daacf-bf2c-5f95-9826-b17387bc8e6d",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime fiscal d'une SASU ?",
     "back": "L'impôt sur les sociétés (IS), avec option possible pour l'IR.",
     "createdAt": "2000-01-01T00:00:39.000Z"
    },
    {
-    "id": "bd1c9573-f930-5765-a03a-2819a0f86d48",
+    "id": "9e154859-eed3-5670-9179-0729245c8d40",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime fiscal d'une SA ?",
     "back": "La SA est soumise à l'IS, mais le régime fiscal du dirigeant relève de l'IR.",
     "createdAt": "2000-01-01T00:00:40.000Z"
    },
    {
-    "id": "f90c54ce-bf24-5ce9-9b4b-13d8078ee30d",
+    "id": "58975820-5743-59aa-b2ae-cdc8b20baf49",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime fiscal d'une SAS ?",
     "back": "Le principe est l'IS, avec option possible pour l'IR pour 5 ans maximum.",
     "createdAt": "2000-01-01T00:00:41.000Z"
    },
    {
-    "id": "97002ac0-eb64-5605-9db7-73c8aa9314d6",
+    "id": "5974bbbb-0be9-5a2b-9b4f-8db1e02dceff",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le régime fiscal d'une SARL ?",
     "back": "Le principe est l'IS, avec option possible pour l'IR (SARL de famille et SARL de moins de 5 ans).",
     "createdAt": "2000-01-01T00:00:42.000Z"
    },
    {
-    "id": "6949d9b3-9494-56e9-b169-4a41cd728165",
+    "id": "4ffa0277-d700-5563-be0d-922a3641a985",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "La comptabilité d'une entreprise individuelle est-elle simple ou double ?",
     "back": "Simple. Dans les sociétés, la comptabilité est double.",
     "createdAt": "2000-01-01T00:00:43.000Z"
    },
    {
-    "id": "430ccaf3-ed10-51d3-ae1a-e3e376acef5f",
+    "id": "5ee60c1c-f3e1-598f-94f9-ae46ca479f01",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelles sont les motivations qui guident le choix d'une structure juridique ?",
     "back": "L'autonomie dans la prise de décision, la crédibilité financière, la protection du patrimoine du créateur et de son conjoint, la protection sociale (y compris contre le chômage), la limitation de l'imposition des bénéfices et le coût de la comptabilité.",
     "createdAt": "2000-01-01T00:00:44.000Z"
    },
    {
-    "id": "5345da95-8189-5478-aba0-f4d6069d047f",
+    "id": "40acd0d4-568b-513a-9163-e823ba77e691",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Pourquoi choisit-on une structure juridique ?",
     "back": "Plusieurs raisons expliquent le choix d'une structure juridique ou justifient le souhait de la faire évoluer : motivations patrimoniales, fiscales, sociales, financières et partage du pouvoir.",
     "createdAt": "2000-01-01T00:00:45.000Z"
    },
    {
-    "id": "d3944dda-a2ab-595f-95f9-f21366a8dc2e",
+    "id": "1ed6418b-8ce4-5d61-a080-2ddc5fd0dea1",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est-ce que le patrimoine ?",
     "back": "L'ensemble des droits (actif) et des obligations (passif) d'une personne, évaluable en argent.",
     "createdAt": "2000-01-01T00:00:46.000Z"
    },
    {
-    "id": "08bae0b3-cd46-56bb-b6ca-c7295ab3458f",
+    "id": "b06c99fa-a941-5c5c-b09b-1c9d785ae094",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Dans quel cas l'entreprise individuelle est-elle adaptée ?",
     "back": "Si les risques sont peu importants et les investissements limités.",
     "createdAt": "2000-01-01T00:00:47.000Z"
    },
    {
-    "id": "b8defae3-5824-5096-ab37-70de16cea94f",
+    "id": "f601dd82-f286-5b30-baac-2289e7b73109",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Que se passe-t-il pour le patrimoine d'un entrepreneur individuel ?",
     "back": "Le patrimoine de l'entreprise se confond avec celui de l'entrepreneur, qui agit en son nom propre : il est responsable des dettes sur l'ensemble de son patrimoine.",
     "createdAt": "2000-01-01T00:00:48.000Z"
    },
    {
-    "id": "27c13f3e-005f-5a80-89ab-fa5f57f1bb8a",
+    "id": "44863355-0639-5c68-a37b-a0456032d1d9",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Comment l'entrepreneur individuel peut-il protéger ses biens fonciers ?",
     "back": "Par une déclaration d'insaisissabilité devant notaire (loi du 4 août 2008) : ses immeubles non affectés à un usage professionnel sont alors protégés des poursuites des créanciers professionnels.",
     "createdAt": "2000-01-01T00:00:49.000Z"
    },
    {
-    "id": "7edfe2d8-c976-5998-a38b-2317cbb14b48",
+    "id": "8bd65717-5d31-576b-b28b-362d6b94d99b",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Pourquoi une société à responsabilité limitée protège-t-elle le patrimoine ?",
     "back": "La responsabilité des associés est limitée à leurs apports : en cas de liquidation, l'associé ne perd au maximum que le capital qu'il a investi.",
     "createdAt": "2000-01-01T00:00:50.000Z"
    },
    {
-    "id": "0a792111-189f-5f0f-be26-8d6fe9335919",
+    "id": "4c5c0346-22e5-5e42-9234-1aeee3c0aeff",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelle limite à la protection du patrimoine dans une société ?",
     "back": "La responsabilité du dirigeant peut être engagée civilement et pénalement en cas de fautes de gestion.",
     "createdAt": "2000-01-01T00:00:51.000Z"
    },
    {
-    "id": "a6b5e9ad-c434-5bbd-b4cf-4560d7d27bcc",
+    "id": "e9dfd18e-b9b4-5ebf-bc5a-fd60da7f315f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Pourquoi la société facilite-t-elle la transmission de l'entreprise ?",
     "back": "La transmission se fait par transmission de titres (actions ou parts sociales), totalement ou partiellement, vers une ou plusieurs personnes de son choix.",
     "createdAt": "2000-01-01T00:00:52.000Z"
    },
    {
-    "id": "c280b9e0-9fc6-51af-95ad-92a0981e641e",
+    "id": "812dd3bc-f48c-55bf-bd62-4b6fa68ab965",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "À quoi servent les régimes matrimoniaux ?",
     "back": "À organiser les relations pécuniaires des époux. En choisissant son régime, le créateur cherche à protéger son conjoint contre les difficultés financières de son activité.",
     "createdAt": "2000-01-01T00:00:53.000Z"
    },
    {
-    "id": "d7992985-f4e0-57c9-a7ec-87a7a8b9989f",
+    "id": "e43ba958-67f3-5e14-905e-1a80f9675427",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est-ce que le régime légal de la communauté réduite aux acquêts ?",
     "back": "Le régime sans contrat : les biens et dettes des époux avant le mariage restent propres, ainsi que les donations et successions pendant le mariage. Les biens acquis pendant le mariage sont communs et peuvent servir à rembourser les dettes.",
     "createdAt": "2000-01-01T00:00:54.000Z"
    },
    {
-    "id": "552accb8-27c6-58d3-a4ca-8717a2a92648",
+    "id": "68f7ff14-7ead-5dcc-81f9-8b06dda10fe1",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est-ce que le régime de séparation de biens ?",
     "back": "Chaque époux détient la propriété des biens acquis avant et pendant le mariage et est responsable de ses dettes. Il est conseillé dans les affaires et un contrat est rédigé par un notaire.",
     "createdAt": "2000-01-01T00:00:55.000Z"
    },
    {
-    "id": "26fe5e2e-3e68-52e2-840f-35dd7bea53c8",
+    "id": "610ffb12-5052-5729-bff6-0484c76dcc6f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Que prévoit le PACS pour le patrimoine ?",
     "back": "Il organise les relations pécuniaires entre personnes pacsées : chacun des partenaires reste propriétaire des biens qu'il acquiert pendant et après la conclusion du PACS.",
     "createdAt": "2000-01-01T00:00:56.000Z"
    },
    {
-    "id": "87886f75-9393-5ada-a709-014e22c9ce08",
+    "id": "6f131f2d-b054-5578-93fb-bfb455fec8f5",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelle est la logique d'une motivation fiscale ?",
     "back": "L'optimisation fiscale conduit à choisir une forme soumise à l'impôt sur les sociétés si les résultats sont substantiels, en tenant compte de la situation personnelle du créateur.",
     "createdAt": "2000-01-01T00:00:57.000Z"
    },
    {
-    "id": "ab661f91-d9c0-5020-add9-1a6ba43809cc",
+    "id": "99659e72-1d71-5ca6-b66e-93b4680fd172",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Comment est imposée l'entreprise individuelle ?",
     "back": "À l'impôt sur le revenu (IR) : la totalité des bénéfices est déclarée à la rubrique des BIC (bénéfices industriels et commerciaux), avec un barème progressif. Si les bénéfices sont importants, cette imposition peut vite devenir très élevée.",
     "createdAt": "2000-01-01T00:00:58.000Z"
    },
    {
-    "id": "c3f19571-08c6-5184-81a3-1ecb4416638f",
+    "id": "cf5f101a-711a-5eb5-aba2-7e3dc1d6322c",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Comment est imposée une société ?",
     "back": "À l'impôt sur les sociétés (IS) : le taux normal est de 25 %. Seuls les bénéfices distribués sont déclarés par les associés au titre de l'impôt sur le revenu, et non la totalité.",
     "createdAt": "2000-01-01T00:00:59.000Z"
    },
    {
-    "id": "27fd6ba8-dd41-5213-9403-bfc49c42e418",
+    "id": "28753346-12a9-5b7e-bb85-26d0a5e77abf",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est le taux de l'IS si le chiffre d'affaires dépasse 250 millions d'euros ?",
     "back": "27,5 %. Le prélèvement est proportionnel.",
     "createdAt": "2000-01-01T00:01:00.000Z"
    },
    {
-    "id": "18b7d330-3e0c-5666-b62a-85d8d9704484",
+    "id": "29177148-01fc-5e26-baff-1af2843e014f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelle est la motivation sociale du dirigeant ?",
     "back": "Opter pour une structure juridique qui lui offre une protection sociale forte.",
     "createdAt": "2000-01-01T00:01:01.000Z"
    },
    {
-    "id": "1abeb93d-9e6a-5231-a5f4-274623ae963b",
+    "id": "657ee4d5-d49e-5186-b908-e9b078f783c5",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qui relève du régime des travailleurs non-salariés (TNS) ?",
     "back": "Les entrepreneurs individuels, les micro-entrepreneurs, les gérants majoritaires de SARL et les gérants associés uniques d'EURL.",
     "createdAt": "2000-01-01T00:01:02.000Z"
    },
    {
-    "id": "34fbc329-ff41-58f3-b8b3-82bcdc168ec4",
+    "id": "3c41c7b0-f92b-5215-a706-f09f1d61df43",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quel est l'autre nom du régime TNS ?",
     "back": "La Sécurité sociale des indépendants.",
     "createdAt": "2000-01-01T00:01:03.000Z"
    },
    {
-    "id": "af29dde8-c145-5b02-ab8a-f46926050fd1",
+    "id": "5f295529-d132-560c-909b-8ba13b6511f3",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quels droits ont les TNS ?",
     "back": "Ils cotisent à des caisses spécifiques : assurances maladie-maternité, invalidité, décès et indemnité journalière (caisse primaire d'assurance maladie), allocations familiales (caisse des allocations familiales) et retraite (caisse d'assurance vieillesse pour les indépendants, ou CNAVPL pour certaines professions libérales).",
     "createdAt": "2000-01-01T00:01:04.000Z"
    },
    {
-    "id": "7605c432-ec15-54d7-aa47-b287fbb4f7f1",
+    "id": "55c7463d-97f3-520d-afe7-34183377f6a4",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qui relève du régime assimilé salarié ?",
     "back": "Le gérant minoritaire de SARL et le dirigeant de SA, de SAS ou de SASU.",
     "createdAt": "2000-01-01T00:01:05.000Z"
    },
    {
-    "id": "8adbab15-4ca5-52b8-9731-fee72fc5cdfc",
+    "id": "32d6cf59-ddc1-57b4-bee7-2a56599db65f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quels droits ont les assimilés salariés ?",
     "back": "Les mêmes qu'un salarié : maladie-maternité, allocations familiales, accidents du travail, vieillesse (cotisations patronales et salariales versées par la société à l'Urssaf), retraite complémentaire (Agirc), prévoyance.",
     "createdAt": "2000-01-01T00:01:06.000Z"
    },
    {
-    "id": "71923deb-b6a6-5b18-85a9-a3562e27fc48",
+    "id": "cc08193d-7b1a-500e-94c3-38f00470d165",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Un assimilé salarié a-t-il droit au chômage ?",
     "back": "Non : ce statut ne cotise pas à l'assurance chômage (Pôle emploi), donc il n'est pas indemnisé en cas de perte du statut.",
     "createdAt": "2000-01-01T00:01:07.000Z"
    },
    {
-    "id": "d58c8c0e-364e-5d27-ae40-3d0b2f4bcbbe",
+    "id": "a6b479de-61ab-503e-8eac-9127e18341af",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelle est la motivation financière d'un entrepreneur individuel qui veut se développer ?",
     "back": "Faire entrer de nouveaux capitaux par la collaboration avec un ou plusieurs associés, ou chercher un apport de compétences ou de nouveaux marchés : il doit alors se diriger vers une structure sociétaire adaptée.",
     "createdAt": "2000-01-01T00:01:08.000Z"
    },
    {
-    "id": "f06e2d5c-2eff-5af6-baf6-f6b76fee8ec2",
+    "id": "aff6630c-41ce-5983-9300-0f75f89f5e2c",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Comment l'entrepreneur individuel finance-t-il son entreprise ?",
     "back": "Avec ses propres capitaux ou par le crédit bancaire. Il doit fournir des garanties sur ses biens (gage, hypothèque) ou des garanties apportées par des tiers (cautionnement).",
     "createdAt": "2000-01-01T00:01:09.000Z"
    },
    {
-    "id": "1593825b-5e6c-5651-915b-9be1d8d96440",
+    "id": "16a68a23-286b-54d5-a2d5-546760b07d4e",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Quelles sont les formes d'apport d'un créateur de société ?",
     "back": "Les apports en numéraire, les apports en nature et les apports en industrie.",
     "createdAt": "2000-01-01T00:01:10.000Z"
    },
    {
-    "id": "ecef0d95-a7d1-5f1e-be7a-1336984f63d4",
+    "id": "033e8990-5c54-5386-af70-db575420b245",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est-ce qu'un apport en numéraire ?",
     "back": "De l'argent qui crédite le compte bancaire de la société.",
     "createdAt": "2000-01-01T00:01:11.000Z"
    },
    {
-    "id": "3fa879fc-d18f-5a3b-bd59-0c8134bc69ed",
+    "id": "de3352e8-e2f5-5883-a3d7-13ee32dc0d25",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est-ce qu'un apport en nature ?",
     "back": "Des biens immobiliers ou mobiliers (ex. : matériel informatique, véhicule).",
     "createdAt": "2000-01-01T00:01:12.000Z"
    },
    {
-    "id": "e6342fbe-d4b5-5c7d-a595-020209efe17d",
+    "id": "f37cc309-0435-5ff1-b116-a5023ebe43eb",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est-ce qu'un apport en industrie ?",
     "back": "Un savoir-faire ou une expérience. Les apports en industrie sont interdits dans la SA.",
     "createdAt": "2000-01-01T00:01:13.000Z"
    },
    {
-    "id": "c9240ad1-1ad8-58a4-80c2-e2e4ff3743d8",
+    "id": "870a6a09-7d37-59ea-8749-017fbf02bd49",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Que reçoit l'associé en échange de son apport ?",
     "back": "Des parts sociales (ou des actions dans une SA), proportionnellement à son apport.",
     "createdAt": "2000-01-01T00:01:14.000Z"
    },
    {
-    "id": "44c13c0a-8e6c-55e8-8b79-a106ee24acf8",
+    "id": "c5ecdee4-8138-53b4-9e59-691e52010337",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "À quoi sert le capital social ?",
     "back": "Il illustre la solidité financière de la société pour rassurer les créanciers et permet de financer les premiers investissements. Son montant est mentionné dans les statuts.",
     "createdAt": "2000-01-01T00:01:15.000Z"
    },
    {
-    "id": "e8ea3a42-fe5c-53e8-8d3e-c61bc9271eae",
+    "id": "6fbbf788-9683-5894-a984-2434fa616dbd",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Toutes les structures imposent-elles un capital social minimum ?",
     "back": "Non, seule la SA en impose un. Un capital de départ important reste toutefois une garantie pour les créanciers et le financement des investissements.",
     "createdAt": "2000-01-01T00:01:16.000Z"
    },
    {
-    "id": "c5febabd-f6e1-5d8f-ab2a-582865ae3646",
+    "id": "6b4539ab-8f1e-5ad4-a461-bb0e218727cb",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Comment une société peut-elle se financer par son capital ?",
     "back": "Par une augmentation de capital, en faisant appel aux actionnaires existants ou à de nouveaux actionnaires. Elle peut aussi recourir à l'emprunt obligataire.",
     "createdAt": "2000-01-01T00:01:17.000Z"
    },
    {
-    "id": "c27b2d35-d33d-58e9-828b-6061dbed02bd",
+    "id": "80a0b1e8-e551-571a-89e6-739eb54ac4ec",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qui prend les décisions dans une entreprise individuelle ?",
     "back": "L'entrepreneur individuel prend seul les décisions et assume toutes les responsabilités.",
     "createdAt": "2000-01-01T00:01:18.000Z"
    },
    {
-    "id": "05d67736-2b24-5a67-aff9-7244873d8799",
+    "id": "924b0a29-ae77-5232-8ee4-364ed91de5fc",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qui détient le pouvoir dans une société ?",
     "back": "Les associés ou actionnaires, détenteurs de parts ou d'actions. Ils délèguent le pouvoir de décision aux organes de gestion, qui détiennent un mandat pour agir au nom de la société.",
     "createdAt": "2000-01-01T00:01:19.000Z"
    },
    {
-    "id": "e5491e02-a3a5-5618-956d-9a85585b1a0e",
+    "id": "e4030ca1-4b18-5d3b-85c9-dec035f05ecb",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est-ce que l'assemblée générale ordinaire (AGO) ?",
     "back": "La réunion des associés au minimum une fois par an pour approuver les comptes et prendre des décisions à la majorité.",
     "createdAt": "2000-01-01T00:01:20.000Z"
    },
    {
-    "id": "d8adc5b9-b070-5ac0-ad91-58934a495c19",
+    "id": "9b345119-15e4-568e-852d-de31de2db904",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "6447d6fe-c3ee-5b47-89b2-6d974ce32a2a",
+    "deckId": "29585148-7aeb-57b1-aa08-cceb16e9a57b",
     "front": "Qu'est-ce que l'assemblée générale extraordinaire (AGE) ?",
     "back": "La réunion qui vise à modifier les statuts de la société. Il faut alors l'accord de 2/3 des actionnaires.",
     "createdAt": "2000-01-01T00:01:21.000Z"
@@ -772,10 +772,10 @@
   ],
   "card_states": [
    {
-    "id": "19145342-d348-522e-a73e-712a66f9c3f0",
+    "id": "958bf8e1-4e75-5f1c-9ae0-21000891c25b",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "63492e78-5ac3-5e05-a6b8-5458540b2c1d",
+    "cardId": "ac0c4c6b-a93a-5a4f-98eb-3911b7e9bb61",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -784,10 +784,10 @@
     "lapses": 0
    },
    {
-    "id": "54f4545f-3faf-5c3d-899c-2314d4cee6ea",
+    "id": "90e78cc1-3cf6-5068-b011-ef9573a7d9d1",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "71755112-5a8f-5f81-b308-cd721bc31b80",
+    "cardId": "60012343-ea6c-507d-9a58-fda915221afd",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -796,10 +796,10 @@
     "lapses": 0
    },
    {
-    "id": "b52dc1eb-8caa-5b4b-9b4e-62f7a3b99750",
+    "id": "99f9c50f-c00a-5d68-a698-ecdd2633480b",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "709c279b-601d-5860-932d-5a8f46924352",
+    "cardId": "577baf0a-f4ff-5938-9d81-ce53839e0ce5",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -808,10 +808,10 @@
     "lapses": 0
    },
    {
-    "id": "4a660ea9-9601-5b72-953c-7e2d5d2d92aa",
+    "id": "57f340ba-81c2-56a5-bcf5-ee8ef8ed987b",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "e05b93e6-0f9e-510c-a158-516acc8f2552",
+    "cardId": "835fe30b-739c-5a8a-9d1f-2bdf339d0e7d",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -820,10 +820,10 @@
     "lapses": 0
    },
    {
-    "id": "e61ce9ac-a1c3-56e6-a82e-d0a647579014",
+    "id": "feec9a85-4219-5eb4-b158-88d13f7a1e73",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "bd874f54-d700-50ee-a90b-e20be7448a7a",
+    "cardId": "a835ed02-8962-5373-91d2-2781d779c0b5",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -832,10 +832,10 @@
     "lapses": 0
    },
    {
-    "id": "1d1f4b93-4085-5fd0-9b60-2ce4ac0242dd",
+    "id": "0d0aa289-2057-5f55-b0f6-3f301526b4db",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "c20532aa-689a-5654-a150-e8c00b0324c1",
+    "cardId": "d9520a72-4a0a-594c-bade-52efb19d07fe",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -844,10 +844,10 @@
     "lapses": 0
    },
    {
-    "id": "ece5e649-b99b-5a24-b192-e77a8c78ed55",
+    "id": "104731e8-5a99-5cf8-a9c0-e6377c38efa2",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "2de71bc6-879a-51a9-b575-6284eec300e5",
+    "cardId": "c6eddda8-f061-5d91-a7ba-cd11779f0e3e",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -856,10 +856,10 @@
     "lapses": 0
    },
    {
-    "id": "89511119-f8ba-53f4-ba58-79e377e7d0b2",
+    "id": "4fb11184-7dd2-5a36-9539-f127a32a4e50",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "50db4d6c-5e76-5d3b-8408-0b8f7ad711dd",
+    "cardId": "9ee2591f-5ffa-5f52-b7ce-6333a8014bbd",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -868,10 +868,10 @@
     "lapses": 0
    },
    {
-    "id": "6cc61ee2-cd2b-5b61-9672-bea13fc84640",
+    "id": "d6d11aef-0f05-5c37-ba60-354e1bda5119",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "1c620c00-115c-57b3-94de-de3641cbc8c2",
+    "cardId": "3024dbde-d95f-55b2-9bf8-c9c5f9ae9da1",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -880,10 +880,10 @@
     "lapses": 0
    },
    {
-    "id": "9d4a2a00-1b02-518e-9f14-10c2ed71b7d6",
+    "id": "5fd93768-1eb7-55c3-b4b9-d8199cd6ade5",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "79783bd3-5b75-5dc9-8e60-3fc591c307ca",
+    "cardId": "9c7cc75c-d63d-5fcb-8a5e-eec77fad4987",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -892,10 +892,10 @@
     "lapses": 0
    },
    {
-    "id": "2a7f55d1-4b43-5a6b-b954-15a57197d1cc",
+    "id": "53a54af1-dd9b-50ec-ab3d-3744a45e5282",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "e9ce2a59-ad59-579d-a7b1-5dfdc6707885",
+    "cardId": "1f150df3-a73e-52dc-b466-b5fcc03113d3",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -904,10 +904,10 @@
     "lapses": 0
    },
    {
-    "id": "7bc86afc-b313-5eb3-983a-1dbad0d37bd2",
+    "id": "bd0ba81f-a7da-5eb5-b6cd-e339dd7c34b6",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "26e4a878-42b0-5d92-9b69-0bda6303f931",
+    "cardId": "0ea5cbed-0de0-50b5-af79-8de60052d877",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -916,10 +916,10 @@
     "lapses": 0
    },
    {
-    "id": "88391c2d-68e4-5655-926a-311a7e899bfb",
+    "id": "ea70606a-d697-5a99-97c7-949dbd0637de",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "3a10d01f-ec77-5846-9e1a-4409bbcda6e7",
+    "cardId": "0b61fd54-5d09-515b-abfd-f9230fdf5590",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -928,10 +928,10 @@
     "lapses": 0
    },
    {
-    "id": "1cdef55d-7153-5b85-8364-749e87a648c9",
+    "id": "68078e03-8301-5606-b3fd-4efeb0a7df26",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "9b84fe40-59d0-50f1-b1a6-828d8aeb1fa5",
+    "cardId": "26050bfe-1433-5d60-b0fe-0f398f14fcb6",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -940,10 +940,10 @@
     "lapses": 0
    },
    {
-    "id": "f977b5c7-54e4-54ba-8452-32df38ef5da5",
+    "id": "58322838-d565-5768-be4f-5364acc44a10",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "b711af4c-7d90-561a-a636-bdd6656b010d",
+    "cardId": "dc5acc6d-be7d-52c9-8956-c924bcad7498",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -952,10 +952,10 @@
     "lapses": 0
    },
    {
-    "id": "8afe9ba8-f8c8-5f07-8ab9-22bcffa3ac6a",
+    "id": "f4ad0608-bf35-5d63-8080-e7fe60ce0759",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "96687d62-b178-5ad3-b699-e775ef278c50",
+    "cardId": "3a5c80ff-76ac-591e-bfb8-a489f42c46ae",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -964,10 +964,10 @@
     "lapses": 0
    },
    {
-    "id": "88784823-37c6-57a8-a260-6825b75792aa",
+    "id": "ada1b8d0-5b14-53fe-8d74-5b202179e101",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "481bde67-5c2c-5a8d-bc9a-527f89312388",
+    "cardId": "d3a4bd71-0040-53c0-8c7e-562f6cedce14",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -976,10 +976,10 @@
     "lapses": 0
    },
    {
-    "id": "d7dfada4-f6ac-511f-973d-8508ff52c329",
+    "id": "498a2971-bb29-5fdf-b782-ba43c94963b3",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "31c42523-4f96-586a-a81d-485624ee3829",
+    "cardId": "d4490094-b237-5753-9e7f-76997372af34",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -988,10 +988,10 @@
     "lapses": 0
    },
    {
-    "id": "0fc9efab-ae24-5d0e-94e2-a1591b55d687",
+    "id": "3eda6557-6110-5e46-9caa-a9ffa356863f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "77c1daa0-1a3f-59c3-8f14-6e08934f9788",
+    "cardId": "b5abcc22-b3c3-5b00-bab4-9f0c517a7660",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1000,10 +1000,10 @@
     "lapses": 0
    },
    {
-    "id": "b083f6dc-73fe-555a-a2d5-e11b25022e05",
+    "id": "e9ce0ea4-cc8b-5a79-acc5-83a69578a4d0",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "475e8164-26da-5dcf-b93f-a67e1d57ec2d",
+    "cardId": "e54f4f6d-051c-5b0a-965e-9f3692f5112b",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1012,10 +1012,10 @@
     "lapses": 0
    },
    {
-    "id": "5a67ff1c-2021-57e7-8d4b-799103db7981",
+    "id": "47216dc2-2a30-50ab-ac3f-c2a21302a92f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "6adcdb9a-4bc8-5f09-ab46-076551665690",
+    "cardId": "4d85f757-a189-516f-921f-9862c8dd4514",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1024,10 +1024,10 @@
     "lapses": 0
    },
    {
-    "id": "0e028e45-fbfa-5da5-9160-8b112caf7f8e",
+    "id": "2edecd99-1ae5-5ffe-ad89-acea1d402e8a",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "88628acc-36ad-5af4-9d1e-0d5076d9719c",
+    "cardId": "51b37e26-de5d-5eee-9db5-00581fec1df9",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1036,10 +1036,10 @@
     "lapses": 0
    },
    {
-    "id": "4ee4d964-6dec-5ad0-9f0b-d7d634aaccc0",
+    "id": "e0c3b888-249d-58d3-b3d8-12d64d9c3484",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "cc6feb1f-41c2-5645-956e-b27182f18f7a",
+    "cardId": "a54ba93a-1d33-588e-8034-00237e920e84",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1048,10 +1048,10 @@
     "lapses": 0
    },
    {
-    "id": "fc91182d-245c-545b-8b1b-3bfc2a9a7aa6",
+    "id": "c741c967-1c2b-51dd-bff6-5c8dbc7b18c7",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "7da6e151-e384-5042-b60c-3cae93c5b861",
+    "cardId": "0cff493d-83f1-5613-a467-4ccc28cc7d6f",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1060,10 +1060,10 @@
     "lapses": 0
    },
    {
-    "id": "89da06e1-33ed-5c1a-ac22-a392a9ec4790",
+    "id": "437425c2-c55d-56a8-aa9c-9dbfd3a55e65",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "1fc60de6-e2d0-5728-aa93-988dbad28a1b",
+    "cardId": "fe20b3af-4db1-595f-b1e7-c07c03d13808",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1072,10 +1072,10 @@
     "lapses": 0
    },
    {
-    "id": "9f11152e-8f8d-5a7c-ac91-c5128b26a75b",
+    "id": "388ab1ba-6ea2-50b2-a001-99b0428369f6",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "38689795-bbbe-5bc7-a430-0bf3a9413260",
+    "cardId": "70977420-8790-5501-bb36-6e96bab010e4",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1084,10 +1084,10 @@
     "lapses": 0
    },
    {
-    "id": "095638c1-e543-5823-bd90-23a397b38db6",
+    "id": "35ba0888-29b0-520d-9ef3-a9288ce80510",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "af6633d8-58a0-5f91-b7cb-e643182a6045",
+    "cardId": "5269d01a-1a3a-552c-9ecb-99b8ada2491c",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1096,10 +1096,10 @@
     "lapses": 0
    },
    {
-    "id": "08e291a1-b421-5c6a-ab27-f4862e8950ab",
+    "id": "6b0a2d1c-da8f-54a1-aee3-1e41ac4dabe4",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "c49cc6f3-aa59-5866-94cc-b29b099d60f9",
+    "cardId": "d40aeff1-b050-512c-83b5-6e92a523d153",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1108,10 +1108,10 @@
     "lapses": 0
    },
    {
-    "id": "6e8c64c3-66f8-5ddd-b2e4-139e1fd675e7",
+    "id": "943c93ab-c14a-5c59-a782-7731a7dd09a9",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "f3c89b35-29fa-5600-be75-04d12f86fdc9",
+    "cardId": "b664db97-ccc1-502d-8f2f-f73e128b2d0e",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1120,10 +1120,10 @@
     "lapses": 0
    },
    {
-    "id": "42818d29-0952-5275-87ea-3220ef9b5c98",
+    "id": "3bd91881-e7fa-5c31-b12e-5f4fd303fb7a",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "3311dd10-03d3-5adc-8702-1a3a4c4de07a",
+    "cardId": "b8cb5cdb-2991-5e2f-bf9d-c725fc7ac102",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1132,10 +1132,10 @@
     "lapses": 0
    },
    {
-    "id": "4792cc4b-124e-5811-9eef-0be4ab09e068",
+    "id": "857647ed-a6a7-5379-bc76-c9cfc19267f3",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "4b146c4d-e633-5dd1-a487-c4dae2cafb41",
+    "cardId": "fdee5d32-5c58-5919-b36c-1a6d9b100da0",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1144,10 +1144,10 @@
     "lapses": 0
    },
    {
-    "id": "cbc3b45d-6b47-57ef-be45-da2e8a593926",
+    "id": "70789338-1e04-5c8e-b257-e7e73f70511f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "9a7478ce-7431-5d51-ae4c-a02dd3f6275d",
+    "cardId": "9bba35f8-caf6-5021-9ee3-fa99a5ccc533",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1156,10 +1156,10 @@
     "lapses": 0
    },
    {
-    "id": "bdaeea47-9fc3-5277-b571-5d8dab94e812",
+    "id": "b5177c32-ced1-50c4-93db-3d0c2b61889a",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "e91ea747-5722-59da-ac8b-3d24e9247b6d",
+    "cardId": "608c638f-0070-580a-a90f-690189bdeced",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1168,10 +1168,10 @@
     "lapses": 0
    },
    {
-    "id": "28a30780-9af1-5133-8c03-b7448ed0f98d",
+    "id": "81302833-e89c-5dbd-9402-3837cfa09ad0",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "4a9728b5-63a2-5d89-a570-f2965827c5c2",
+    "cardId": "300d74ff-851e-5c1f-946d-870819701f0d",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1180,10 +1180,10 @@
     "lapses": 0
    },
    {
-    "id": "e70ea99e-19f6-5e84-b838-3a2087f46296",
+    "id": "1945296f-dfd8-5702-915d-0f70402185e5",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "f006e0ad-e3e6-570c-ab42-154e3d0e1cc6",
+    "cardId": "eadd7ab1-91ee-50fe-a869-2442dbae80e6",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1192,10 +1192,10 @@
     "lapses": 0
    },
    {
-    "id": "b2da5a09-d060-5074-8772-495fc5660be9",
+    "id": "d4f3e78f-9905-5903-8220-c8410fb5c8ab",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "3db94df9-ad30-5e34-9276-dd8cb0a25096",
+    "cardId": "ae65d5fe-a867-5388-959f-5a5832760a31",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1204,10 +1204,10 @@
     "lapses": 0
    },
    {
-    "id": "7ad9ed8f-f20a-539b-a7ae-cf034457a42b",
+    "id": "3fed35ee-d72d-51c5-9026-d4d78e280eef",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "ae35ab15-33b9-5713-bbbc-d3522fc36c24",
+    "cardId": "b11ed3c5-44d6-5e23-9c40-e27d70048833",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1216,10 +1216,10 @@
     "lapses": 0
    },
    {
-    "id": "efb641fb-dbf6-5375-8e8f-82326e53702e",
+    "id": "a8efb13a-e2b8-5b1a-839a-a9ae32c22659",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "b9383c68-7f90-574d-bb3a-cbcaf7f73e5e",
+    "cardId": "477625e6-c932-5c58-ba6f-4fde2465e987",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1228,10 +1228,10 @@
     "lapses": 0
    },
    {
-    "id": "645d7b15-5061-5b80-b3f8-a1a905ccf16e",
+    "id": "e5df2391-f9a4-5fc8-9fe1-f7573e10c35d",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "20eff935-d17c-5f7c-97ee-678867295eec",
+    "cardId": "d2fc580b-4137-522a-a2f0-e5c606b2176c",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1240,10 +1240,10 @@
     "lapses": 0
    },
    {
-    "id": "57364f35-800f-59aa-8d11-ddf724206d5c",
+    "id": "70f3321e-b4c9-53b9-86a1-b62f64736e17",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "4c1eb3ba-5052-51c4-bb02-db8ff90435fa",
+    "cardId": "db6daacf-bf2c-5f95-9826-b17387bc8e6d",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1252,10 +1252,10 @@
     "lapses": 0
    },
    {
-    "id": "af1327cc-10ae-568d-8fe6-24e863e95690",
+    "id": "762d4fa5-d2f9-5243-a2bf-3d7e5aa07036",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "bd1c9573-f930-5765-a03a-2819a0f86d48",
+    "cardId": "9e154859-eed3-5670-9179-0729245c8d40",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1264,10 +1264,10 @@
     "lapses": 0
    },
    {
-    "id": "57b265c1-a79a-5fc1-a71f-016020f7a30e",
+    "id": "de2f3300-a8e4-5990-b847-9be73a1c7a56",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "f90c54ce-bf24-5ce9-9b4b-13d8078ee30d",
+    "cardId": "58975820-5743-59aa-b2ae-cdc8b20baf49",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1276,10 +1276,10 @@
     "lapses": 0
    },
    {
-    "id": "876ff4e1-8cc2-50b0-b829-04f66c4227c5",
+    "id": "c258c8fe-5c2c-5b1e-9cd0-2e467e0c5da3",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "97002ac0-eb64-5605-9db7-73c8aa9314d6",
+    "cardId": "5974bbbb-0be9-5a2b-9b4f-8db1e02dceff",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1288,10 +1288,10 @@
     "lapses": 0
    },
    {
-    "id": "e3a8ea02-d3b8-507f-b5d2-57067d657048",
+    "id": "0531b0e1-8652-5ec3-a071-52269677439c",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "6949d9b3-9494-56e9-b169-4a41cd728165",
+    "cardId": "4ffa0277-d700-5563-be0d-922a3641a985",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1300,10 +1300,10 @@
     "lapses": 0
    },
    {
-    "id": "3003e589-f217-51cd-a01d-6c5e223d788d",
+    "id": "a1e72e2c-64f6-5b7c-b514-529090170b29",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "430ccaf3-ed10-51d3-ae1a-e3e376acef5f",
+    "cardId": "5ee60c1c-f3e1-598f-94f9-ae46ca479f01",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1312,10 +1312,10 @@
     "lapses": 0
    },
    {
-    "id": "5778d53c-78f9-57c0-8d45-94b9dfbd76d4",
+    "id": "9b7d4d7b-aee6-54be-91a9-884a9a4d3580",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "5345da95-8189-5478-aba0-f4d6069d047f",
+    "cardId": "40acd0d4-568b-513a-9163-e823ba77e691",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1324,10 +1324,10 @@
     "lapses": 0
    },
    {
-    "id": "b4af2e34-e1e8-520f-a76d-156a97a6c8ca",
+    "id": "030a09c5-3d47-562f-ae38-46c9ae1f3303",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "d3944dda-a2ab-595f-95f9-f21366a8dc2e",
+    "cardId": "1ed6418b-8ce4-5d61-a080-2ddc5fd0dea1",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1336,10 +1336,10 @@
     "lapses": 0
    },
    {
-    "id": "8fd71cfd-f3ce-59f5-a7fc-6ae06ec26a62",
+    "id": "858e3520-5698-5566-a7c0-d5f4dd5ae8d9",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "08bae0b3-cd46-56bb-b6ca-c7295ab3458f",
+    "cardId": "b06c99fa-a941-5c5c-b09b-1c9d785ae094",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1348,10 +1348,10 @@
     "lapses": 0
    },
    {
-    "id": "8c780e36-5b17-5c1e-824d-5db08150554c",
+    "id": "c388a233-174f-5735-9de0-ea0ad912f531",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "b8defae3-5824-5096-ab37-70de16cea94f",
+    "cardId": "f601dd82-f286-5b30-baac-2289e7b73109",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1360,10 +1360,10 @@
     "lapses": 0
    },
    {
-    "id": "3abffb9d-9e1b-535d-abe1-fa768877c5bf",
+    "id": "14859e26-aeac-5c37-aa11-27510ff8aab6",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "27c13f3e-005f-5a80-89ab-fa5f57f1bb8a",
+    "cardId": "44863355-0639-5c68-a37b-a0456032d1d9",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1372,10 +1372,10 @@
     "lapses": 0
    },
    {
-    "id": "ce881885-7451-553e-9dc3-eeb702dcbc8b",
+    "id": "e0c48580-68ab-5ad4-a25f-632dc61621b5",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "7edfe2d8-c976-5998-a38b-2317cbb14b48",
+    "cardId": "8bd65717-5d31-576b-b28b-362d6b94d99b",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1384,10 +1384,10 @@
     "lapses": 0
    },
    {
-    "id": "23ba76c1-2ed4-56d2-9f27-4c44f919f165",
+    "id": "69c37920-c2e5-5711-be7c-85e957b7a767",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "0a792111-189f-5f0f-be26-8d6fe9335919",
+    "cardId": "4c5c0346-22e5-5e42-9234-1aeee3c0aeff",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1396,10 +1396,10 @@
     "lapses": 0
    },
    {
-    "id": "ba8f4043-4a19-55cf-969e-8e91f8af5ab3",
+    "id": "d5544ffd-e3c2-5798-ad51-81ca15bc11ff",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "a6b5e9ad-c434-5bbd-b4cf-4560d7d27bcc",
+    "cardId": "e9dfd18e-b9b4-5ebf-bc5a-fd60da7f315f",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1408,10 +1408,10 @@
     "lapses": 0
    },
    {
-    "id": "240da79e-55d9-50ba-9306-4b69338896f6",
+    "id": "811e6558-9dda-5915-8490-77895cb8d52f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "c280b9e0-9fc6-51af-95ad-92a0981e641e",
+    "cardId": "812dd3bc-f48c-55bf-bd62-4b6fa68ab965",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1420,10 +1420,10 @@
     "lapses": 0
    },
    {
-    "id": "c9009e19-def9-58f3-8525-4c12430de419",
+    "id": "4a05ac28-dbaf-52dd-af2d-72de68874657",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "d7992985-f4e0-57c9-a7ec-87a7a8b9989f",
+    "cardId": "e43ba958-67f3-5e14-905e-1a80f9675427",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1432,10 +1432,10 @@
     "lapses": 0
    },
    {
-    "id": "4f400593-2686-5a16-8d0c-4cdb28019db9",
+    "id": "890fa700-4a43-5f77-b3c5-c923bb7a604a",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "552accb8-27c6-58d3-a4ca-8717a2a92648",
+    "cardId": "68f7ff14-7ead-5dcc-81f9-8b06dda10fe1",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1444,10 +1444,10 @@
     "lapses": 0
    },
    {
-    "id": "08e0cc58-e562-5dff-8779-36592e05b6d3",
+    "id": "31b81390-b053-5368-bfcd-91529dd1217f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "26fe5e2e-3e68-52e2-840f-35dd7bea53c8",
+    "cardId": "610ffb12-5052-5729-bff6-0484c76dcc6f",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1456,10 +1456,10 @@
     "lapses": 0
    },
    {
-    "id": "ec8ca96d-1f1e-56a5-84c5-e52e39a0a791",
+    "id": "1a31560d-e42f-5d1e-884b-f23374d854b4",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "87886f75-9393-5ada-a709-014e22c9ce08",
+    "cardId": "6f131f2d-b054-5578-93fb-bfb455fec8f5",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1468,10 +1468,10 @@
     "lapses": 0
    },
    {
-    "id": "ccd73655-e0ee-59de-9c42-6e4767758b9b",
+    "id": "d0db7fb4-92a5-562a-bc73-6a8725204510",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "ab661f91-d9c0-5020-add9-1a6ba43809cc",
+    "cardId": "99659e72-1d71-5ca6-b66e-93b4680fd172",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1480,10 +1480,10 @@
     "lapses": 0
    },
    {
-    "id": "568722b4-c354-59ec-ae70-d213e6cffc2d",
+    "id": "b8fe1e51-92cb-5a92-857c-c50f96a53194",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "c3f19571-08c6-5184-81a3-1ecb4416638f",
+    "cardId": "cf5f101a-711a-5eb5-aba2-7e3dc1d6322c",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1492,10 +1492,10 @@
     "lapses": 0
    },
    {
-    "id": "5aef7def-86d7-5e6e-a489-f082567dc1ad",
+    "id": "8d6b72ef-0b48-5ef4-b9c5-fc97b9143474",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "27fd6ba8-dd41-5213-9403-bfc49c42e418",
+    "cardId": "28753346-12a9-5b7e-bb85-26d0a5e77abf",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1504,10 +1504,10 @@
     "lapses": 0
    },
    {
-    "id": "5df9ab39-290f-5d52-81eb-da0354e4042a",
+    "id": "fb547b89-4106-5481-bd51-4eb7850145f9",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "18b7d330-3e0c-5666-b62a-85d8d9704484",
+    "cardId": "29177148-01fc-5e26-baff-1af2843e014f",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1516,10 +1516,10 @@
     "lapses": 0
    },
    {
-    "id": "e4b9fd28-3fd3-5ea6-8900-16eb884120a9",
+    "id": "2a822ee6-032f-5bf6-9a79-85644d3b67f9",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "1abeb93d-9e6a-5231-a5f4-274623ae963b",
+    "cardId": "657ee4d5-d49e-5186-b908-e9b078f783c5",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1528,10 +1528,10 @@
     "lapses": 0
    },
    {
-    "id": "d2234c51-4744-50c9-87d5-490021c3c7a6",
+    "id": "21cfa17c-9193-516a-8cb0-9c995285b0d5",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "34fbc329-ff41-58f3-b8b3-82bcdc168ec4",
+    "cardId": "3c41c7b0-f92b-5215-a706-f09f1d61df43",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1540,10 +1540,10 @@
     "lapses": 0
    },
    {
-    "id": "fc0fb78f-45f9-5010-967d-909fe7d75eb0",
+    "id": "0be9d52d-3c7c-51dd-92b7-bce2bfb920f4",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "af29dde8-c145-5b02-ab8a-f46926050fd1",
+    "cardId": "5f295529-d132-560c-909b-8ba13b6511f3",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1552,10 +1552,10 @@
     "lapses": 0
    },
    {
-    "id": "c709dd3e-57ee-5bd4-8bc1-a3d3ee791959",
+    "id": "bdc39f89-a391-5c76-a632-1c262db27c5f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "7605c432-ec15-54d7-aa47-b287fbb4f7f1",
+    "cardId": "55c7463d-97f3-520d-afe7-34183377f6a4",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1564,10 +1564,10 @@
     "lapses": 0
    },
    {
-    "id": "6dc9dd79-32c8-588d-956d-6b0aff5de618",
+    "id": "9c69e668-f7e3-55f5-9077-379f41626227",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "8adbab15-4ca5-52b8-9731-fee72fc5cdfc",
+    "cardId": "32d6cf59-ddc1-57b4-bee7-2a56599db65f",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1576,10 +1576,10 @@
     "lapses": 0
    },
    {
-    "id": "b8ef9418-deb8-5277-b07f-9701cb43ead0",
+    "id": "20e5a57c-1f6b-5162-8405-6d5cde2d76ae",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "71923deb-b6a6-5b18-85a9-a3562e27fc48",
+    "cardId": "cc08193d-7b1a-500e-94c3-38f00470d165",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1588,10 +1588,10 @@
     "lapses": 0
    },
    {
-    "id": "40a02d54-e474-556e-a355-739eab5dd35f",
+    "id": "c2031381-51ee-59a6-8487-5e4b9d2021ed",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "d58c8c0e-364e-5d27-ae40-3d0b2f4bcbbe",
+    "cardId": "a6b479de-61ab-503e-8eac-9127e18341af",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1600,10 +1600,10 @@
     "lapses": 0
    },
    {
-    "id": "3e2453ea-5f73-504a-9b75-14aea45c4542",
+    "id": "54aab022-d580-51c5-a839-b96f47b9bdaf",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "f06e2d5c-2eff-5af6-baf6-f6b76fee8ec2",
+    "cardId": "aff6630c-41ce-5983-9300-0f75f89f5e2c",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1612,10 +1612,10 @@
     "lapses": 0
    },
    {
-    "id": "b450367e-3939-5eec-ab02-b634f877f4f8",
+    "id": "74fa24fe-a82c-585c-8980-ce5552f6ddab",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "1593825b-5e6c-5651-915b-9be1d8d96440",
+    "cardId": "16a68a23-286b-54d5-a2d5-546760b07d4e",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1624,10 +1624,10 @@
     "lapses": 0
    },
    {
-    "id": "464797b2-c7e7-5301-81d4-a20859db222d",
+    "id": "a4401ed6-a8a1-5ffa-bd6f-968720f59914",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "ecef0d95-a7d1-5f1e-be7a-1336984f63d4",
+    "cardId": "033e8990-5c54-5386-af70-db575420b245",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1636,10 +1636,10 @@
     "lapses": 0
    },
    {
-    "id": "5c2ddef9-11d9-5fdb-a981-b97dc95dfcf6",
+    "id": "39f2d6f0-3b71-5291-a50a-868de7af72e2",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "3fa879fc-d18f-5a3b-bd59-0c8134bc69ed",
+    "cardId": "de3352e8-e2f5-5883-a3d7-13ee32dc0d25",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1648,10 +1648,10 @@
     "lapses": 0
    },
    {
-    "id": "a8341102-a9c1-5656-bd08-677b206a09c3",
+    "id": "12723466-9b43-5365-a9a3-a1661447a498",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "e6342fbe-d4b5-5c7d-a595-020209efe17d",
+    "cardId": "f37cc309-0435-5ff1-b116-a5023ebe43eb",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1660,10 +1660,10 @@
     "lapses": 0
    },
    {
-    "id": "1562114d-b79a-57e8-bd62-6cf8815bf905",
+    "id": "96d7bc98-43be-5b58-927a-d1380ef23a31",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "c9240ad1-1ad8-58a4-80c2-e2e4ff3743d8",
+    "cardId": "870a6a09-7d37-59ea-8749-017fbf02bd49",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1672,10 +1672,10 @@
     "lapses": 0
    },
    {
-    "id": "2e7f7f83-6dbf-5bf1-9786-aad32e1c9a9a",
+    "id": "69df45cb-541b-5989-9228-bd23274f21d5",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "44c13c0a-8e6c-55e8-8b79-a106ee24acf8",
+    "cardId": "c5ecdee4-8138-53b4-9e59-691e52010337",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1684,10 +1684,10 @@
     "lapses": 0
    },
    {
-    "id": "99992e81-00dd-59a2-b04d-6ece75b50685",
+    "id": "47bace38-5eda-5fe6-a46d-e08c724b7584",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "e8ea3a42-fe5c-53e8-8d3e-c61bc9271eae",
+    "cardId": "6fbbf788-9683-5894-a984-2434fa616dbd",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1696,10 +1696,10 @@
     "lapses": 0
    },
    {
-    "id": "af2c4dbe-d95f-58e7-a2b4-4e4345dd712d",
+    "id": "0666693a-a7ab-5227-92f9-04dc4c3f18ec",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "c5febabd-f6e1-5d8f-ab2a-582865ae3646",
+    "cardId": "6b4539ab-8f1e-5ad4-a461-bb0e218727cb",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1708,10 +1708,10 @@
     "lapses": 0
    },
    {
-    "id": "23a9751f-64dc-5379-9f78-ebba3a13464e",
+    "id": "ea4a9a2f-62b4-5c22-861d-c3a234508773",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "c27b2d35-d33d-58e9-828b-6061dbed02bd",
+    "cardId": "80a0b1e8-e551-571a-89e6-739eb54ac4ec",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1720,10 +1720,10 @@
     "lapses": 0
    },
    {
-    "id": "d0961ee0-60b8-56a0-8798-2dafaef2dcf9",
+    "id": "349d0f8b-d283-5919-aa09-a9f49140d83c",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "05d67736-2b24-5a67-aff9-7244873d8799",
+    "cardId": "924b0a29-ae77-5232-8ee4-364ed91de5fc",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1732,10 +1732,10 @@
     "lapses": 0
    },
    {
-    "id": "c3408cea-fa8e-587b-895c-c8c5de849c4a",
+    "id": "4c929fed-2359-5bea-8090-658b9fd5c6e2",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "e5491e02-a3a5-5618-956d-9a85585b1a0e",
+    "cardId": "e4030ca1-4b18-5d3b-85c9-dec035f05ecb",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -1744,10 +1744,10 @@
     "lapses": 0
    },
    {
-    "id": "74ee188f-ade2-5562-a2c6-76f8f7d52eb9",
+    "id": "3c1d4619-6abe-5dc9-8c88-78bc49c88bbf",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "d8adc5b9-b070-5ac0-ad91-58934a495c19",
+    "cardId": "9b345119-15e4-568e-852d-de31de2db904",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,

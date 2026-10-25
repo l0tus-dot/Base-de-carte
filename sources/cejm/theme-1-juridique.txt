@@ -1,5 +1,5 @@
 # Matière : CEJM
-# Parent : La période précontractuelle et la formation du contrat
+# Parent : Thème 1 - L'intégration de l'entreprise dans son environnement
 # Paquet : Juridique
 # Description : Les contrats informatiques, les pourparlers, la formation et la validité du contrat, les clauses et les effets.
 

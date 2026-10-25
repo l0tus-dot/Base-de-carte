@@ -1,5 +1,5 @@
 # Matière : CEJM
-# Parent : De quelle manière l'entreprise s'inscrit-elle dans son environnement ?
+# Parent : Thème 1 - L'intégration de l'entreprise dans son environnement
 # Paquet : Managériale
 # Description : Les parties prenantes, les finalités, la performance, la RSE, la création d'entreprise et les logiques entrepreneuriale et managériale.
 
