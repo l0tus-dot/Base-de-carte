@@ -25,6 +25,7 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | Réseau | Active Directory | 32 | `paquets/reseau/active-directory.json` |
 | Réseau | Dépannage réseau | 33 | `paquets/reseau/depannage-reseau.json` |
 | Cybersécurité | Segmentation VLSM | 28 | `paquets/cybersecurite/segmentation-vlsm.json` |
+| Cybersécurité | VPN | 33 | `paquets/cybersecurite/vpn.json` |
 
 *(Tenir cette liste à jour à chaque nouveau paquet.)*
 
