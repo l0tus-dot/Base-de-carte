@@ -1,0 +1,705 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "5794b0db-006d-5efa-95bd-337af5765586",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Cybersécurité",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "5794b0db-006d-5efa-95bd-337af5765586",
+    "name": "Délégation de droit avec sudo"
+   }
+  ],
+  "cards": [
+   {
+    "id": "e592c9b8-1520-5c5e-ab92-43b57321c6f6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "À quoi sert sudo ?",
+    "back": "Il accorde à un utilisateur ou un groupe des droits précis, sans lui ouvrir un accès root complet ni permanent.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "f9b91337-6769-5be9-ad89-0c6e31d340fd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Quel avantage de traçabilité sudo apporte-t-il par rapport à un compte administrateur partagé ?",
+    "back": "Chaque commande exécutée avec élévation est consignée dans les journaux avec le nom de l'utilisateur qui l'a lancée, alors qu'un compte partagé rend toute trace anonyme.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "82a4ab7c-ffdf-5d97-bb29-8e826180aefd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Quel risque de vigilance la fiche sudo souligne-t-elle ?",
+    "back": "Une délégation mal bornée peut être détournée pour obtenir un accès root complet.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "5d54cfb3-fcfd-5f0b-95cf-a6630d30f3e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Quel est le comportement du compte root sur Ubuntu ?",
+    "back": "L'installateur ne définit pas de mot de passe root, le compte reste verrouillé (L dans passwd -S root ou ! ou * dans /etc/shadow) et le premier utilisateur créé reçoit directement les droits sudo.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "d3cfca53-120b-5f0a-9417-aa3103e54a40",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Qui peut lire /etc/sudoers et que fait le répertoire /etc/sudoers.d/ ?",
+    "back": "Seul root peut lire /etc/sudoers (r--r-----). Tout fichier de /etc/sudoers.d/ est lu comme un ajout, à condition que /etc/sudoers contienne @includedir /etc/sudoers.d.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "de663951-089b-5239-8d57-0e91377c152b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Que se passe-t-il quand un utilisateur sans entrée dans sudoers lance sudo ?",
+    "back": "Le mot de passe est demandé puis la commande est refusée avec le message « n'est pas dans le fichier sudoers ». L'échec est tout de même journalisé.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "33e2e28c-5899-5e2a-a936-8fa7b3453efc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Comment accorder tous les droits via le groupe sudo ?",
+    "back": "adduser superman sudo. Id doit alors afficher 27(sudo) dans la liste des groupes.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "60439c32-53c2-5429-8d77-aae90097d5a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Pourquoi réserver le groupe sudo aux vrais administrateurs ?",
+    "back": "Sans configuration plus fine, l'utilisateur peut exécuter n'importe quelle commande en tant que root. C'est le niveau de délégation le plus simple mais le moins contrôlé.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "3e7e54bc-13b8-5119-9c89-46a5f9176a32",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Pourquoi éditer sudoers avec visudo plutôt qu'avec un éditeur ?",
+    "back": "visudo valide la syntaxe avant d'enregistrer et verrouille le fichier pendant l'édition, ce qui évite qu'un enregistrement invalide rende sudo inutilisable ou que deux administrateurs écrivent en même temps.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "0bcfa863-d361-543c-81d1-5f9480fa394b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Comment changer l'éditeur utilisé par visudo ?",
+    "back": "Avec sudo update-alternatives --config editor.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "b91ffa3a-c9c4-5b4d-88b1-bca0a1246d8e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Comment lire la syntaxe d'une règle sudoers ?",
+    "back": "utilisateur hôtes=(en tant que qui) commande(s) autorisée(s). Par exemple epsilon ALL=(ALL) /usr/bin/vi /etc/hosts.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "6db74a06-2263-53d9-a0a3-0963e81a464c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Que signifient ALL en position hôte et (ALL) dans une règle sudoers ?",
+    "back": "ALL en hôte applique la règle quel que soit le nom de machine. (ALL) permet de prendre l'identité de n'importe quel utilisateur, root inclus par défaut si aucun n'est précisé.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "3a000d16-2ccf-5842-a4bc-98df38f6bcc7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Pourquoi faut-il indiquer le chemin complet de la commande dans sudoers ?",
+    "back": "sudoers compare le chemin exact et pas seulement le nom. Une règle sur /usr/bin/vi n'autorise pas /usr/bin/nano.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "455a3a47-cb90-536a-b716-b3efbe86e312",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Quelle faille permet de contourner une règle limitée à sudo vi /etc/hosts ?",
+    "back": "Depuis vi, la commande :! lance un shell qui hérite des droits root de la session sudo, par exemple :!passwd root. La restriction ne portait que sur vi et pas sur ce qu'il permet de faire.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "d6ff1c98-f620-5427-a85a-750a9ca76d15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Quelle est la portée de cette faille ?",
+    "back": "L'utilisateur obtient un shell root complet. Il peut changer le mot de passe root, l'administrateur légitime perd alors son accès et l'utilisateur peut se connecter en root.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "3ebd9358-f979-5a48-ae88-6d8ec4e0ad23",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Pourquoi les journaux sudo ne montrent-ils pas la commande lancée depuis l'éditeur ?",
+    "back": "Ils ne montrent que la commande autorisée initiale (vi /etc/hosts). Seuls les journaux de la commande exécutée en aval, par exemple journalctl _COMM=passwd, révèlent le changement sans désigner directement l'auteur.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "578b1b6c-1728-50bb-abf3-f19e670f0451",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Quelle option corrige l'échappement par un éditeur ?",
+    "back": "NOEXEC, qui empêche la commande autorisée de lancer un sous-shell ou un programme externe. Exemple : epsilon ALL=(ALL) NOEXEC:/usr/bin/vi /etc/hosts.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "33de687f-94fb-5ecc-882e-1fac9e75f1a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Comment interdire un argument précis d'une commande autorisée ?",
+    "back": "Avec le préfixe !. Par exemple epsilon ALL=(ALL) /usr/bin/passwd, !/usr/bin/passwd root.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "f04a26ff-3012-5d0a-9f7a-9abfa43ade79",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Pourquoi cette exclusion nominative ne suffit-elle pas toujours ?",
+    "back": "epsilon peut encore lancer sudo passwd --expire lambda ou sudo passwd -l lambda, qui forcent l'expiration ou verrouillent un compte sans passer par l'argument exclu.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "48298b6b-d70b-50c1-8fa5-3e0973317ad1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Comment restreindre passwd à un usage strictement nominal ?",
+    "back": "Contraindre la forme de l'argument, par exemple /usr/bin/passwd [A-Za-z0-9]*, !/usr/bin/passwd root. Cela exclut les options commençant par - ou --.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "c2e29754-870a-53c3-aeea-3bb5a939c34b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Quels types d'alias sudoers accepte-t-il ?",
+    "back": "Des alias d'utilisateurs (User_Alias), d'hôtes (Host_Alias) et de commandes (Cmnd_Alias).",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "9363cf02-b5b9-5cfc-814a-95dfd9daffa9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Où peut-on définir ces alias et quel avantage cela apporte-t-il ?",
+    "back": "Dans /etc/sudoers ou dans un fichier dédié sous /etc/sudoers.d/, ce qui isole la personnalisation du fichier principal.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "709f4517-c2b8-54b2-a242-df29a7fbf4dc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Comment retirer une règle ajoutée dans /etc/sudoers ?",
+    "back": "Lancer sudo visudo, supprimer la ligne puis enregistrer. visudo revalide la syntaxe à la sortie et ne laisse pas le fichier cassé.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "0ff6485d-bf5f-568f-9e3f-e96176b36808",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Comment retirer une règle placée dans un fichier séparé de sudoers.d ?",
+    "back": "Avec sudo rm /etc/sudoers.d/SUDO_TECHINFO, sans toucher au fichier principal.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "c8a9792f-3172-556c-b244-43f6bbf3c6aa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Que faire avant de modifier sudoers en environnement réel ?",
+    "back": "Faire une copie avec sudo cp /etc/sudoers /etc/sudoers.bak-$(date +%F), car visudo ne conserve pas d'historique des versions précédentes.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "9741a1be-d429-5bdb-8684-d95c744754a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Comment supprimer un compte de test et son dossier personnel ?",
+    "back": "sudo deluser --remove-home epsilon.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "4b889e0f-a415-55a0-80bd-12778c3009e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Quelles commandes vérifient les droits d'un utilisateur ?",
+    "back": "id et groups pour les groupes, et sudo -l exécuté par l'utilisateur concerné pour lister les commandes qu'il peut lancer avec sudo.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "db97a98f-f465-5163-88ad-0bcfcef96cde",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Comment retrouver les traces d'usage de sudo dans les journaux ?",
+    "back": "Avec journalctl | grep sudo. Toute tentative, réussie ou refusée, est journalisée avec l'identité de l'utilisateur.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "dfefa895-a7ef-5958-ba71-a46e2646714a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Que faire face à l'erreur « /etc/sudoers n'est pas disponible, réessayez plus tard » ?",
+    "back": "Une session visudo est déjà ouverte ailleurs. Attendre la fin de l'autre édition ou vérifier qu'aucune session n'est restée bloquée.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "43287ff9-c289-5f05-ba18-b1df6dd6455e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Que faire face à une erreur de syntaxe à l'enregistrement de visudo ?",
+    "back": "Une ligne est mal formée. Corriger la ligne indiquée par le numéro fourni avant de quitter visudo.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "84175337-717d-510b-8010-f67fcdb99d56",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Pourquoi une commande est-elle refusée alors que la règle semble correcte ?",
+    "back": "Le chemin de la commande diffère de celui déclaré dans la règle. Vérifier avec which suivi de la commande et aligner la règle.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "fef3b263-6fea-567a-8928-8bd718b570ed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "a29b5ea4-e052-5fad-9f90-da0ed21fde82",
+    "front": "Pourquoi un utilisateur restreint parvient-il à exécuter une commande arbitraire ?",
+    "back": "NOEXEC est absent sur une commande interactive (éditeur, pager). Ajouter NOEXEC: devant la commande concernée.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "45d36fa4-2388-5542-bf41-e9ba43250cfb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e592c9b8-1520-5c5e-ab92-43b57321c6f6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "eac1fba9-bf60-5cad-a544-69d5099957af",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f9b91337-6769-5be9-ad89-0c6e31d340fd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "10c79b31-68ae-58e7-8742-346e2f3c3a6a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "82a4ab7c-ffdf-5d97-bb29-8e826180aefd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "843c044c-50ef-5989-95ba-16b53f2539c2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5d54cfb3-fcfd-5f0b-95cf-a6630d30f3e6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "149eac06-5ec2-5d94-9cfd-4d08b3167fd2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d3cfca53-120b-5f0a-9417-aa3103e54a40",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "03e59053-d503-5d3c-88b5-97075ae552b2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "de663951-089b-5239-8d57-0e91377c152b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b3367af2-54ac-5a60-8552-a613ca1b8b36",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "33e2e28c-5899-5e2a-a936-8fa7b3453efc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a7a01bc0-6a2e-509b-9677-f14e9b240b00",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "60439c32-53c2-5429-8d77-aae90097d5a4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "155894cb-9a39-5c82-9156-2f9d13604267",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3e7e54bc-13b8-5119-9c89-46a5f9176a32",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "53b02df1-c21d-55a8-8dd5-84f861f9b512",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0bcfa863-d361-543c-81d1-5f9480fa394b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "47c3fff9-f513-5dee-b59a-d036ca189578",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b91ffa3a-c9c4-5b4d-88b1-bca0a1246d8e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b87ad79a-ef3c-526e-9608-86e97a5fa668",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6db74a06-2263-53d9-a0a3-0963e81a464c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5917891b-e24c-5b61-89e9-55aa6eb5473b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3a000d16-2ccf-5842-a4bc-98df38f6bcc7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c4384f39-05f3-5a44-ba24-147ecb03d991",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "455a3a47-cb90-536a-b716-b3efbe86e312",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2960a057-ed39-5391-8a5a-3cf660b54e0b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d6ff1c98-f620-5427-a85a-750a9ca76d15",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d41beea1-54fd-56f3-9e00-457351bca310",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3ebd9358-f979-5a48-ae88-6d8ec4e0ad23",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "43ab408b-a610-5a04-ad17-7bcc4bc20503",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "578b1b6c-1728-50bb-abf3-f19e670f0451",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ecef846d-cdd7-56b1-aa5f-5087fcf6dcb4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "33de687f-94fb-5ecc-882e-1fac9e75f1a4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0e1d3790-993b-5ea9-8ebe-d51187bef1bf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f04a26ff-3012-5d0a-9f7a-9abfa43ade79",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c961c9b7-7d74-5a97-b913-f68b8d525238",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "48298b6b-d70b-50c1-8fa5-3e0973317ad1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d24975a5-bacc-5f70-aabd-e20a0e9d82a2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c2e29754-870a-53c3-aeea-3bb5a939c34b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ad79d5d0-7030-5ae2-a721-a969f82359c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9363cf02-b5b9-5cfc-814a-95dfd9daffa9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "06a2edbf-8920-53d9-9ea8-3f812b57eada",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "709f4517-c2b8-54b2-a242-df29a7fbf4dc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "45fcba6d-83fa-597f-855a-98be383d0835",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0ff6485d-bf5f-568f-9e3f-e96176b36808",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4a328c8f-b007-580d-b2a4-e6e7af4bc5a7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c8a9792f-3172-556c-b244-43f6bbf3c6aa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "250003d8-4821-5f12-89be-fc46f0890ee7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9741a1be-d429-5bdb-8684-d95c744754a4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "06698d41-2cf9-546d-a872-35e625132836",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4b889e0f-a415-55a0-80bd-12778c3009e6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "63c13ca6-6550-5be7-a6e3-19a631143e7e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "db97a98f-f465-5163-88ad-0bcfcef96cde",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0b8df260-8e9d-5198-8bf5-276a48327fb9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dfefa895-a7ef-5958-ba71-a46e2646714a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e8bd3951-570a-5674-90a5-ceefd488f953",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "43287ff9-c289-5f05-ba18-b1df6dd6455e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "501d74dd-0ebf-58cd-864d-2dd2fb23b16f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "84175337-717d-510b-8010-f67fcdb99d56",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d069ba90-46be-5928-8d02-14e93f6719c9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fef3b263-6fea-567a-8928-8bd718b570ed",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

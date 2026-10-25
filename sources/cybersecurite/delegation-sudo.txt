@@ -1,0 +1,35 @@
+# Matière : Cybersécurité
+# Paquet : Délégation de droit avec sudo
+
+À quoi sert sudo ? ; Il accorde à un utilisateur ou un groupe des droits précis, sans lui ouvrir un accès root complet ni permanent.
+Quel avantage de traçabilité sudo apporte-t-il par rapport à un compte administrateur partagé ? ; Chaque commande exécutée avec élévation est consignée dans les journaux avec le nom de l'utilisateur qui l'a lancée, alors qu'un compte partagé rend toute trace anonyme.
+Quel risque de vigilance la fiche sudo souligne-t-elle ? ; Une délégation mal bornée peut être détournée pour obtenir un accès root complet.
+Quel est le comportement du compte root sur Ubuntu ? ; L'installateur ne définit pas de mot de passe root, le compte reste verrouillé (L dans passwd -S root ou ! ou * dans /etc/shadow) et le premier utilisateur créé reçoit directement les droits sudo.
+Qui peut lire /etc/sudoers et que fait le répertoire /etc/sudoers.d/ ? ; Seul root peut lire /etc/sudoers (r--r-----). Tout fichier de /etc/sudoers.d/ est lu comme un ajout, à condition que /etc/sudoers contienne @includedir /etc/sudoers.d.
+Que se passe-t-il quand un utilisateur sans entrée dans sudoers lance sudo ? ; Le mot de passe est demandé puis la commande est refusée avec le message « n'est pas dans le fichier sudoers ». L'échec est tout de même journalisé.
+Comment accorder tous les droits via le groupe sudo ? ; adduser superman sudo. Id doit alors afficher 27(sudo) dans la liste des groupes.
+Pourquoi réserver le groupe sudo aux vrais administrateurs ? ; Sans configuration plus fine, l'utilisateur peut exécuter n'importe quelle commande en tant que root. C'est le niveau de délégation le plus simple mais le moins contrôlé.
+Pourquoi éditer sudoers avec visudo plutôt qu'avec un éditeur ? ; visudo valide la syntaxe avant d'enregistrer et verrouille le fichier pendant l'édition, ce qui évite qu'un enregistrement invalide rende sudo inutilisable ou que deux administrateurs écrivent en même temps.
+Comment changer l'éditeur utilisé par visudo ? ; Avec sudo update-alternatives --config editor.
+Comment lire la syntaxe d'une règle sudoers ? ; utilisateur hôtes=(en tant que qui) commande(s) autorisée(s). Par exemple epsilon ALL=(ALL) /usr/bin/vi /etc/hosts.
+Que signifient ALL en position hôte et (ALL) dans une règle sudoers ? ; ALL en hôte applique la règle quel que soit le nom de machine. (ALL) permet de prendre l'identité de n'importe quel utilisateur, root inclus par défaut si aucun n'est précisé.
+Pourquoi faut-il indiquer le chemin complet de la commande dans sudoers ? ; sudoers compare le chemin exact et pas seulement le nom. Une règle sur /usr/bin/vi n'autorise pas /usr/bin/nano.
+Quelle faille permet de contourner une règle limitée à sudo vi /etc/hosts ? ; Depuis vi, la commande :! lance un shell qui hérite des droits root de la session sudo, par exemple :!passwd root. La restriction ne portait que sur vi et pas sur ce qu'il permet de faire.
+Quelle est la portée de cette faille ? ; L'utilisateur obtient un shell root complet. Il peut changer le mot de passe root, l'administrateur légitime perd alors son accès et l'utilisateur peut se connecter en root.
+Pourquoi les journaux sudo ne montrent-ils pas la commande lancée depuis l'éditeur ? ; Ils ne montrent que la commande autorisée initiale (vi /etc/hosts). Seuls les journaux de la commande exécutée en aval, par exemple journalctl _COMM=passwd, révèlent le changement sans désigner directement l'auteur.
+Quelle option corrige l'échappement par un éditeur ? ; NOEXEC, qui empêche la commande autorisée de lancer un sous-shell ou un programme externe. Exemple : epsilon ALL=(ALL) NOEXEC:/usr/bin/vi /etc/hosts.
+Comment interdire un argument précis d'une commande autorisée ? ; Avec le préfixe !. Par exemple epsilon ALL=(ALL) /usr/bin/passwd, !/usr/bin/passwd root.
+Pourquoi cette exclusion nominative ne suffit-elle pas toujours ? ; epsilon peut encore lancer sudo passwd --expire lambda ou sudo passwd -l lambda, qui forcent l'expiration ou verrouillent un compte sans passer par l'argument exclu.
+Comment restreindre passwd à un usage strictement nominal ? ; Contraindre la forme de l'argument, par exemple /usr/bin/passwd [A-Za-z0-9]*, !/usr/bin/passwd root. Cela exclut les options commençant par - ou --.
+Quels types d'alias sudoers accepte-t-il ? ; Des alias d'utilisateurs (User_Alias), d'hôtes (Host_Alias) et de commandes (Cmnd_Alias).
+Où peut-on définir ces alias et quel avantage cela apporte-t-il ? ; Dans /etc/sudoers ou dans un fichier dédié sous /etc/sudoers.d/, ce qui isole la personnalisation du fichier principal.
+Comment retirer une règle ajoutée dans /etc/sudoers ? ; Lancer sudo visudo, supprimer la ligne puis enregistrer. visudo revalide la syntaxe à la sortie et ne laisse pas le fichier cassé.
+Comment retirer une règle placée dans un fichier séparé de sudoers.d ? ; Avec sudo rm /etc/sudoers.d/SUDO_TECHINFO, sans toucher au fichier principal.
+Que faire avant de modifier sudoers en environnement réel ? ; Faire une copie avec sudo cp /etc/sudoers /etc/sudoers.bak-$(date +%F), car visudo ne conserve pas d'historique des versions précédentes.
+Comment supprimer un compte de test et son dossier personnel ? ; sudo deluser --remove-home epsilon.
+Quelles commandes vérifient les droits d'un utilisateur ? ; id et groups pour les groupes, et sudo -l exécuté par l'utilisateur concerné pour lister les commandes qu'il peut lancer avec sudo.
+Comment retrouver les traces d'usage de sudo dans les journaux ? ; Avec journalctl | grep sudo. Toute tentative, réussie ou refusée, est journalisée avec l'identité de l'utilisateur.
+Que faire face à l'erreur « /etc/sudoers n'est pas disponible, réessayez plus tard » ? ; Une session visudo est déjà ouverte ailleurs. Attendre la fin de l'autre édition ou vérifier qu'aucune session n'est restée bloquée.
+Que faire face à une erreur de syntaxe à l'enregistrement de visudo ? ; Une ligne est mal formée. Corriger la ligne indiquée par le numéro fourni avant de quitter visudo.
+Pourquoi une commande est-elle refusée alors que la règle semble correcte ? ; Le chemin de la commande diffère de celui déclaré dans la règle. Vérifier avec which suivi de la commande et aligner la règle.
+Pourquoi un utilisateur restreint parvient-il à exécuter une commande arbitraire ? ; NOEXEC est absent sur une commande interactive (éditeur, pager). Ajouter NOEXEC: devant la commande concernée.
