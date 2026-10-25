@@ -22,308 +22,308 @@
     "parentId": null
    },
    {
-    "id": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "id": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
     "subjectId": "97f9aa4d-0953-52a6-9296-aaaaeb9eeef6",
-    "name": "Chapitre 1.3 - Pages 1 et 2",
+    "name": "De quelle manière l'entreprise s'inscrit-elle dans son environnement ? - Pages 1 et 2",
     "parentId": "2e24eb38-580d-58d4-ab2f-558f64a251b2"
    }
   ],
   "cards": [
    {
-    "id": "d415c6cb-9dfd-5fec-8f61-cc19c8e2eefd",
+    "id": "303f51a4-8631-52a6-a90d-a6548a916b8b",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'est-ce qu'une partie prenante (Edward Freeman, 1984) ?",
     "back": "Tout individu ou groupe d'individus qui peut affecter ou être affecté par la réalisation des objectifs de l'organisation.",
     "createdAt": "2000-01-01T00:00:00.000Z"
    },
    {
-    "id": "2ae12a4e-cba7-5684-a98d-8b7aa59af369",
+    "id": "4ad93801-c647-537c-8021-65d6713f1764",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Que sont les parties prenantes primaires ?",
     "back": "Celles qui ont un contrat avec l'organisation, sont en relation directe avec elle et peuvent menacer sa survie.",
     "createdAt": "2000-01-01T00:00:01.000Z"
    },
    {
-    "id": "0765f4ca-874f-50b8-9954-31084ab204f5",
+    "id": "dac05010-a96b-56a9-86f4-5edb039472e0",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Que sont les parties prenantes secondaires ?",
     "back": "Celles qui n'ont pas de lien contractuel avec l'organisation et ne sont pas essentielles à sa survie.",
     "createdAt": "2000-01-01T00:00:02.000Z"
    },
    {
-    "id": "160840bd-92e0-51bb-ab25-42f185fe3967",
+    "id": "d98f8d78-e4fc-5735-b06d-409b4bc072d2",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Donnez des parties prenantes primaires internes.",
     "back": "Les salariés, les propriétaires (actionnaires d'une SA ou d'une SAS) et les représentants du personnel (CSE).",
     "createdAt": "2000-01-01T00:00:03.000Z"
    },
    {
-    "id": "c7a3f6db-bef4-55c6-a835-4997ddd8e810",
+    "id": "606a7201-878c-5a42-948d-eff2d91711ff",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Donnez des parties prenantes primaires externes.",
     "back": "Les clients et usagers, les fournisseurs et les sous-traitants.",
     "createdAt": "2000-01-01T00:00:04.000Z"
    },
    {
-    "id": "97bc72b6-a0f6-580b-aa15-26990b06e84d",
+    "id": "0cfbb585-84d0-5de0-9efb-23ebee1385b7",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Donnez des parties prenantes secondaires externes.",
     "back": "Les concurrents, les administrations, les pouvoirs publics, les associations et les médias.",
     "createdAt": "2000-01-01T00:00:05.000Z"
    },
    {
-    "id": "62616a5c-97cc-5569-b116-dfe6a7e0d9d3",
+    "id": "beb7d48e-1ab2-5f85-95e3-c4b73532127e",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Y a-t-il des parties prenantes secondaires internes ?",
     "back": "Non, seules les parties prenantes secondaires externes existent.",
     "createdAt": "2000-01-01T00:00:06.000Z"
    },
    {
-    "id": "b590c0ba-e722-5b27-859a-80bf01d137cc",
+    "id": "51b6c304-4961-5ea5-a1fd-8989b5fbfcfb",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "De quoi dépend la pérennité de l'entreprise ?",
     "back": "De la seule satisfaction des parties prenantes primaires, puisque ce sont les seules à pouvoir menacer sa survie.",
     "createdAt": "2000-01-01T00:00:07.000Z"
    },
    {
-    "id": "9e92a104-23a1-525c-b1cc-cd33c890bc68",
+    "id": "1ff1038d-afcd-56ee-a65e-b1b9db9e8286",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Quelles questions toute organisation doit-elle résoudre avec ses parties prenantes ?",
     "back": "Quels compromis établir entre les résultats espérés par chacune, et comment et dans quel ordre fournir à chacune ce qu'elle attend.",
     "createdAt": "2000-01-01T00:00:08.000Z"
    },
    {
-    "id": "65ac16db-123e-5e85-8b96-cf60cf605572",
+    "id": "afaa88d2-2107-52fb-8158-69c40f219384",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'est-ce que la finalité de l'entreprise ?",
     "back": "Sa raison d'être : l'orientation générale que veulent poursuivre les fondateurs sur le long terme.",
     "createdAt": "2000-01-01T00:00:09.000Z"
    },
    {
-    "id": "c22bd601-56da-524a-9670-f690341d3718",
+    "id": "80760717-d1a0-54d9-8c03-06572270cde6",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'est-ce qu'une finalité économique ?",
     "back": "Créer de la valeur financière en réalisant du profit afin d'être pérenne et de satisfaire différentes parties prenantes (ex. : redistribuer les bénéfices aux propriétaires).",
     "createdAt": "2000-01-01T00:00:10.000Z"
    },
    {
-    "id": "42a11947-304d-56a8-a6c6-08d560704a42",
+    "id": "fecc25be-9002-5919-9ce3-a8faab4a18e5",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'est-ce qu'une finalité sociale ?",
     "back": "Répondre aux attentes des salariés, leur assurer un travail, une reconnaissance et une qualité de vie convenable (ex. : leur fournir des conditions matérielles comme un ordinateur ou une voiture).",
     "createdAt": "2000-01-01T00:00:11.000Z"
    },
    {
-    "id": "3f489e40-7f87-53bb-9dc4-ad2140b538a4",
+    "id": "1cef7f76-a9f1-5e63-9ef2-23693301029b",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'est-ce qu'une finalité sociétale ?",
     "back": "Contribuer au bien-être de la société et prendre en compte les préoccupations environnementales des êtres humains dans ses activités.",
     "createdAt": "2000-01-01T00:00:12.000Z"
    },
    {
-    "id": "fae0003b-8a48-5f61-9cfe-45a7b18e3300",
+    "id": "320bc12a-1612-51c8-8026-d3d8e2af4f16",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Quelle est la différence entre finalité et objectif ?",
     "back": "L'objectif est le moyen d'atteindre la finalité. Les finalités sont à long terme, les objectifs à plus court terme, précis, mesurables et communiqués (économiques, sociaux ou sociétaux).",
     "createdAt": "2000-01-01T00:00:13.000Z"
    },
    {
-    "id": "35552c48-ce5f-5e36-b8a3-ff944ad339df",
+    "id": "24fbd4cc-4915-58b6-b855-c1d3bb139a93",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Que dit Peter Drucker sur le profit ?",
     "back": "Réaliser du profit n'est pas une finalité mais un objectif : la finalité est de développer et satisfaire une clientèle pour être pérenne, avec des objectifs clairs (marketing, innovation, ressources humaines, ressources financières, productivité, responsabilité sociale, profit).",
     "createdAt": "2000-01-01T00:00:14.000Z"
    },
    {
-    "id": "a65ea063-862e-5721-a1cf-9bacaf1afaf5",
+    "id": "ad6a55f5-37de-5f96-befe-e5459306d12c",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'est-ce que la performance d'une entreprise ?",
     "back": "La capacité à atteindre ses objectifs fixés (efficacité) en optimisant les ressources à sa disposition (efficience).",
     "createdAt": "2000-01-01T00:00:15.000Z"
    },
    {
-    "id": "3ed57c44-d61a-51f0-b008-b6f652314d76",
+    "id": "4409efc7-4bf7-521d-95a3-266852664360",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Quelle est la formule de la performance ?",
     "back": "Performance = efficacité + efficience.",
     "createdAt": "2000-01-01T00:00:16.000Z"
    },
    {
-    "id": "7ceaf3de-7698-50c2-b879-6766a5c64790",
+    "id": "03ba685b-ac49-59b3-99ca-b35bd0e56199",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Que mesurent les critères et indicateurs de performance ?",
     "back": "Le niveau de réalisation des objectifs à atteindre. Un indicateur peut être quantitatif (ex. : taux de part de marché) ou qualitatif (ex. : note de satisfaction client).",
     "createdAt": "2000-01-01T00:00:17.000Z"
    },
    {
-    "id": "48655711-4b57-5cf3-b0c5-bd5cea2cabf5",
+    "id": "2c470319-e463-571c-9ae3-b4a56af00bda",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'est-ce qu'un tableau de bord ?",
     "back": "Un outil qui regroupe des critères et mesure les écarts entre les différents objectifs et les résultats obtenus.",
     "createdAt": "2000-01-01T00:00:18.000Z"
    },
    {
-    "id": "1652350b-55a6-56ac-bfdd-96a57d8aacce",
+    "id": "d9cfa5b7-c959-50ea-af49-234c98eaddeb",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "À quoi servent les rapports d'activité ?",
     "back": "Ce sont les outils pour communiquer les résultats de performance.",
     "createdAt": "2000-01-01T00:00:19.000Z"
    },
    {
-    "id": "f2717f89-67fc-5125-aae7-4334c41efe16",
+    "id": "703049d4-96c8-54ed-b8fe-c80104286267",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'évalue la performance économique ?",
     "back": "La performance financière (rentabilité, productivité, coûts, chiffre d'affaires, résultat net, dividende versé aux propriétaires) et la performance commerciale (part de marché, innovation, satisfaction client, qualité de service, notoriété, réputation).",
     "createdAt": "2000-01-01T00:00:20.000Z"
    },
    {
-    "id": "47d1138c-2263-5cda-b327-139331e9e987",
+    "id": "cb8126c1-d3a8-5eab-858b-4075334a3dfe",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'évalue la performance sociale ?",
     "back": "Le bilan social, le climat social, la promotion, l'implication des salariés, l'absentéisme, le turnover, la sécurité au travail, les perspectives de carrière, le développement des compétences et la formation.",
     "createdAt": "2000-01-01T00:00:21.000Z"
    },
    {
-    "id": "47f63f73-65ea-5b34-b936-ba3580a78f8f",
+    "id": "9fc6f8c7-783c-5b61-9a1a-d8c2f0a97e40",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'évalue la performance sociétale et environnementale ?",
     "back": "La parité, l'égalité homme-femme, la discrimination, l'empreinte écologique, le rejet de gaz à effet de serre, le recyclage des déchets et la consommation d'énergie.",
     "createdAt": "2000-01-01T00:00:22.000Z"
    },
    {
-    "id": "406b9548-7ace-5831-a2b0-598ad7b867e7",
+    "id": "d6c8decf-9347-58f5-82c9-2bfd8d84ac6e",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'est-ce que la performance globale ?",
     "back": "L'ensemble des composantes de la performance : économique, sociale, sociétale et environnementale.",
     "createdAt": "2000-01-01T00:00:23.000Z"
    },
    {
-    "id": "35b1abb7-5bb5-5964-b7c4-90fc646f3123",
+    "id": "08f8aeda-00d5-5283-b3f3-2f94d4b2dcb7",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'est-ce que la RSE ?",
     "back": "La responsabilité sociétale (ou sociale) des entreprises : l'intégration volontaire par les entreprises de préoccupations sociales et environnementales à leurs activités commerciales et à leurs relations avec les parties prenantes (définition de la Commission européenne).",
     "createdAt": "2000-01-01T00:00:24.000Z"
    },
    {
-    "id": "619a78b7-4484-5bbe-b7ea-4dbd8c4ef649",
+    "id": "880d97b5-84e3-5e61-9903-5bd9ad2522e0",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "À quels enjeux la RSE contribue-t-elle ?",
     "back": "Aux enjeux du développement durable.",
     "createdAt": "2000-01-01T00:00:25.000Z"
    },
    {
-    "id": "a22f9c05-1d71-5975-b19b-e55d5b81b245",
+    "id": "62b87211-30a1-5951-b41b-d164b2466daa",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Qu'est-ce que le développement durable (rapport Brundtland, 1987) ?",
     "back": "Un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de répondre aux leurs.",
     "createdAt": "2000-01-01T00:00:26.000Z"
    },
    {
-    "id": "5082b120-d3e4-5745-9ecb-44ff8a85a80a",
+    "id": "244cb1da-e8b9-5ff4-8a4f-548fe37b6ede",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Quels sont les 3 piliers du développement durable ?",
     "back": "La société (socialement équitable), l'économie (économiquement viable) et l'environnement (écologiquement vivable).",
     "createdAt": "2000-01-01T00:00:27.000Z"
    },
    {
-    "id": "cd17eff3-c5a1-5ad9-bf85-483ba425d659",
+    "id": "fe1a0804-5fac-556f-b5a7-d544b34527c0",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Comment la RSE contribue-t-elle au pilier économique ?",
     "back": "Par la satisfaction et la fidélisation des clients, la qualité de service, le recours à des fournisseurs locaux, l'accès à l'information et au commerce.",
     "createdAt": "2000-01-01T00:00:28.000Z"
    },
    {
-    "id": "557a0785-52a2-5d59-8754-dde63a532375",
+    "id": "1e6d6927-bac4-5de5-ade8-747717a0e572",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Comment la RSE contribue-t-elle au pilier social ?",
     "back": "Par le respect des droits des salariés, la formation du personnel et l'égalité hommes-femmes.",
     "createdAt": "2000-01-01T00:00:29.000Z"
    },
    {
-    "id": "180b27e2-9936-5f67-8eed-b5def947fe53",
+    "id": "1eea5b67-1e47-5770-b47f-c848cc6e49fc",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Comment la RSE contribue-t-elle au pilier environnemental ?",
     "back": "Par le recyclage des déchets et la réduction des gaz à effet de serre.",
     "createdAt": "2000-01-01T00:00:30.000Z"
    },
    {
-    "id": "9d752f40-22a8-5d8c-8c77-2cac7deea6f6",
+    "id": "304231ca-5d78-51d0-9ef0-09dd49b5a45d",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Que définit la norme ISO 26000 ?",
     "back": "Le périmètre de la RSE, autour de 7 questions centrales.",
     "createdAt": "2000-01-01T00:00:31.000Z"
    },
    {
-    "id": "fd26b487-10bd-53b9-b7b8-4950d2e6838c",
+    "id": "48ac2a8f-2d1a-545f-a947-b4b84243bc99",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "deckId": "cc7737cf-ab7d-5915-80e2-448d094cb811",
+    "deckId": "63aa490a-e4ad-5604-b3f6-5261bbe6d9d8",
     "front": "Quelles sont les 7 questions centrales de la norme ISO 26000 ?",
     "back": "La gouvernance de l'organisation, les droits de l'homme, les relations et conditions de travail, l'environnement, la loyauté des pratiques, les questions relatives aux consommateurs, les communautés et le développement local.",
     "createdAt": "2000-01-01T00:00:32.000Z"
@@ -331,10 +331,10 @@
   ],
   "card_states": [
    {
-    "id": "a2a21317-4186-5460-864f-b0c5e3b93fcd",
+    "id": "c4106c28-8d5d-5894-a6be-0f0166a0dffc",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "d415c6cb-9dfd-5fec-8f61-cc19c8e2eefd",
+    "cardId": "303f51a4-8631-52a6-a90d-a6548a916b8b",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -343,10 +343,10 @@
     "lapses": 0
    },
    {
-    "id": "4e67dc39-20f0-5f18-bfc2-878c689b130a",
+    "id": "fcccba1a-0b38-55ff-b811-52f4b58351e1",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "2ae12a4e-cba7-5684-a98d-8b7aa59af369",
+    "cardId": "4ad93801-c647-537c-8021-65d6713f1764",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -355,10 +355,10 @@
     "lapses": 0
    },
    {
-    "id": "b7f31009-d531-5345-8801-764e8a1d15a4",
+    "id": "9f5c66e6-a84a-5c4a-9b36-7ddc5dbbf65e",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "0765f4ca-874f-50b8-9954-31084ab204f5",
+    "cardId": "dac05010-a96b-56a9-86f4-5edb039472e0",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -367,10 +367,10 @@
     "lapses": 0
    },
    {
-    "id": "37b887cb-82a4-5418-9749-a69bbbfceac7",
+    "id": "ceabfefb-a900-5148-80f8-7e367b4af8e2",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "160840bd-92e0-51bb-ab25-42f185fe3967",
+    "cardId": "d98f8d78-e4fc-5735-b06d-409b4bc072d2",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -379,10 +379,10 @@
     "lapses": 0
    },
    {
-    "id": "9b34a8b9-d179-5c83-a94d-c849c2aee286",
+    "id": "230e8574-b201-529b-835c-b59ad952c674",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "c7a3f6db-bef4-55c6-a835-4997ddd8e810",
+    "cardId": "606a7201-878c-5a42-948d-eff2d91711ff",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -391,10 +391,10 @@
     "lapses": 0
    },
    {
-    "id": "c3bf5b3b-365c-56fd-abe4-52ed7a156c52",
+    "id": "0bbc5a12-edf9-516d-b2aa-286a4f3ec8cf",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "97bc72b6-a0f6-580b-aa15-26990b06e84d",
+    "cardId": "0cfbb585-84d0-5de0-9efb-23ebee1385b7",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -403,10 +403,10 @@
     "lapses": 0
    },
    {
-    "id": "3506203b-e8eb-5a2e-982c-ba77e18186fa",
+    "id": "0909ce63-da46-5051-a95f-875ae6d4136b",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "62616a5c-97cc-5569-b116-dfe6a7e0d9d3",
+    "cardId": "beb7d48e-1ab2-5f85-95e3-c4b73532127e",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -415,10 +415,10 @@
     "lapses": 0
    },
    {
-    "id": "e73dfaec-bb67-5736-b1bc-20e4ff9c6bbe",
+    "id": "cf18af2b-e1ad-56c4-a478-4c147f557694",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "b590c0ba-e722-5b27-859a-80bf01d137cc",
+    "cardId": "51b6c304-4961-5ea5-a1fd-8989b5fbfcfb",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -427,10 +427,10 @@
     "lapses": 0
    },
    {
-    "id": "32a8e335-6a02-5cf5-a3ba-7ed26fd586da",
+    "id": "c86eb23d-6c6f-5a47-ac53-62630acedac8",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "9e92a104-23a1-525c-b1cc-cd33c890bc68",
+    "cardId": "1ff1038d-afcd-56ee-a65e-b1b9db9e8286",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -439,10 +439,10 @@
     "lapses": 0
    },
    {
-    "id": "0ac582d7-15ab-5031-86f5-8d7dbe1fc25a",
+    "id": "d06e9a07-8aef-5f62-b4a3-e7d9441b47c9",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "65ac16db-123e-5e85-8b96-cf60cf605572",
+    "cardId": "afaa88d2-2107-52fb-8158-69c40f219384",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -451,10 +451,10 @@
     "lapses": 0
    },
    {
-    "id": "6418850f-daea-52f0-a47e-7525412b7c2b",
+    "id": "0d39fd7b-779a-529d-a450-0d5dcef2e952",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "c22bd601-56da-524a-9670-f690341d3718",
+    "cardId": "80760717-d1a0-54d9-8c03-06572270cde6",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -463,10 +463,10 @@
     "lapses": 0
    },
    {
-    "id": "247bb76c-ed0c-502d-b467-c9cba31c7b5a",
+    "id": "9c2c4983-90ff-5622-92ca-454e90eaec59",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "42a11947-304d-56a8-a6c6-08d560704a42",
+    "cardId": "fecc25be-9002-5919-9ce3-a8faab4a18e5",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -475,10 +475,10 @@
     "lapses": 0
    },
    {
-    "id": "ec4e74fb-5477-5456-8d72-252bbc13c1e9",
+    "id": "66f41bec-aa55-543c-a7e5-379433ad1c1c",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "3f489e40-7f87-53bb-9dc4-ad2140b538a4",
+    "cardId": "1cef7f76-a9f1-5e63-9ef2-23693301029b",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -487,10 +487,10 @@
     "lapses": 0
    },
    {
-    "id": "817f254a-8641-5b8f-84d7-8ab70f9e1e25",
+    "id": "0d7b6a78-deec-5ca9-9d03-e9114389af00",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "fae0003b-8a48-5f61-9cfe-45a7b18e3300",
+    "cardId": "320bc12a-1612-51c8-8026-d3d8e2af4f16",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -499,10 +499,10 @@
     "lapses": 0
    },
    {
-    "id": "9c0b1ce1-646f-57e1-aecb-8b265ead2251",
+    "id": "5c08d0bc-71e1-5764-8925-f00703021df0",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "35552c48-ce5f-5e36-b8a3-ff944ad339df",
+    "cardId": "24fbd4cc-4915-58b6-b855-c1d3bb139a93",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -511,10 +511,10 @@
     "lapses": 0
    },
    {
-    "id": "19ae75f1-cd70-5c25-ba9d-340ac1ad1451",
+    "id": "98f190c9-21aa-51d7-ae9d-42bcc7ecb6b4",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "a65ea063-862e-5721-a1cf-9bacaf1afaf5",
+    "cardId": "ad6a55f5-37de-5f96-befe-e5459306d12c",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -523,10 +523,10 @@
     "lapses": 0
    },
    {
-    "id": "62cc3a2a-2f5d-5c0e-9382-743ad6861051",
+    "id": "ed34ee13-776f-5dd2-8ad5-61274c850c72",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "3ed57c44-d61a-51f0-b008-b6f652314d76",
+    "cardId": "4409efc7-4bf7-521d-95a3-266852664360",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -535,10 +535,10 @@
     "lapses": 0
    },
    {
-    "id": "fd4c9628-e827-50eb-b727-ca9f8929406c",
+    "id": "d12ae72c-ae65-50ab-b4b8-4beb8f8d07dc",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "7ceaf3de-7698-50c2-b879-6766a5c64790",
+    "cardId": "03ba685b-ac49-59b3-99ca-b35bd0e56199",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -547,10 +547,10 @@
     "lapses": 0
    },
    {
-    "id": "964fb88f-bc08-54b4-aee6-b1e079c1f2dc",
+    "id": "310d17e1-c333-5877-a895-53d0e44feab1",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "48655711-4b57-5cf3-b0c5-bd5cea2cabf5",
+    "cardId": "2c470319-e463-571c-9ae3-b4a56af00bda",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -559,10 +559,10 @@
     "lapses": 0
    },
    {
-    "id": "8697068e-3d7c-595b-a237-85b8b37e1349",
+    "id": "cb465178-e367-58fe-9e22-5e3fbcfe3748",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "1652350b-55a6-56ac-bfdd-96a57d8aacce",
+    "cardId": "d9cfa5b7-c959-50ea-af49-234c98eaddeb",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -571,10 +571,10 @@
     "lapses": 0
    },
    {
-    "id": "c11b3a6c-37fa-5c2b-b2b5-f338da7fe16e",
+    "id": "1ae63bcb-c8a6-5d75-aaf7-f154a8624233",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "f2717f89-67fc-5125-aae7-4334c41efe16",
+    "cardId": "703049d4-96c8-54ed-b8fe-c80104286267",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -583,10 +583,10 @@
     "lapses": 0
    },
    {
-    "id": "0a016a5e-a4bc-54c4-bf10-c1f98682086d",
+    "id": "a44c4f09-6bc3-5681-b78c-99e91b16c830",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "47d1138c-2263-5cda-b327-139331e9e987",
+    "cardId": "cb8126c1-d3a8-5eab-858b-4075334a3dfe",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -595,10 +595,10 @@
     "lapses": 0
    },
    {
-    "id": "4d5fdd0d-ed0f-5bd8-9120-1317a7b8871d",
+    "id": "649fa2b6-1256-5d2d-b845-ca3ed88dac7d",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "47f63f73-65ea-5b34-b936-ba3580a78f8f",
+    "cardId": "9fc6f8c7-783c-5b61-9a1a-d8c2f0a97e40",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -607,10 +607,10 @@
     "lapses": 0
    },
    {
-    "id": "f828b338-7909-578e-b7a5-c8eddb0dd7f8",
+    "id": "74314a8d-21de-52e7-a484-75fbdc97fe64",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "406b9548-7ace-5831-a2b0-598ad7b867e7",
+    "cardId": "d6c8decf-9347-58f5-82c9-2bfd8d84ac6e",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -619,10 +619,10 @@
     "lapses": 0
    },
    {
-    "id": "f253a30d-339f-564d-bc9f-61b16a16cb87",
+    "id": "7ee7646e-b177-5979-a2e0-28e9f0951a92",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "35b1abb7-5bb5-5964-b7c4-90fc646f3123",
+    "cardId": "08f8aeda-00d5-5283-b3f3-2f94d4b2dcb7",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -631,10 +631,10 @@
     "lapses": 0
    },
    {
-    "id": "c3804300-376f-553f-b7bc-478ca98d8f26",
+    "id": "5b202bc4-9797-5cf3-a869-86c4be81bf5d",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "619a78b7-4484-5bbe-b7ea-4dbd8c4ef649",
+    "cardId": "880d97b5-84e3-5e61-9903-5bd9ad2522e0",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -643,10 +643,10 @@
     "lapses": 0
    },
    {
-    "id": "abcf32be-e3b4-533b-94ba-ebe1a9a743a1",
+    "id": "dd5c8001-13ca-5202-a606-f34ab6e75ca3",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "a22f9c05-1d71-5975-b19b-e55d5b81b245",
+    "cardId": "62b87211-30a1-5951-b41b-d164b2466daa",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -655,10 +655,10 @@
     "lapses": 0
    },
    {
-    "id": "a6225d8f-58e9-5115-af14-edd4836a41db",
+    "id": "85112535-107c-5c44-9724-03c6c58e9453",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "5082b120-d3e4-5745-9ecb-44ff8a85a80a",
+    "cardId": "244cb1da-e8b9-5ff4-8a4f-548fe37b6ede",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -667,10 +667,10 @@
     "lapses": 0
    },
    {
-    "id": "31b98cec-918e-5e2a-a6ec-044714c4a9f2",
+    "id": "544941cf-f0b9-56a1-8693-4811e6537d60",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "cd17eff3-c5a1-5ad9-bf85-483ba425d659",
+    "cardId": "fe1a0804-5fac-556f-b5a7-d544b34527c0",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -679,10 +679,10 @@
     "lapses": 0
    },
    {
-    "id": "ab39514e-76ba-5ec3-825c-ffa7c8519495",
+    "id": "bc0f4628-565f-5904-8fc5-476da8cf2a8f",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "557a0785-52a2-5d59-8754-dde63a532375",
+    "cardId": "1e6d6927-bac4-5de5-ade8-747717a0e572",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -691,10 +691,10 @@
     "lapses": 0
    },
    {
-    "id": "5812dc07-40fe-55e5-9fea-e54d87be3fcb",
+    "id": "f900873f-724f-57b5-a202-8aca961dd30e",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "180b27e2-9936-5f67-8eed-b5def947fe53",
+    "cardId": "1eea5b67-1e47-5770-b47f-c848cc6e49fc",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -703,10 +703,10 @@
     "lapses": 0
    },
    {
-    "id": "4ad0a629-f8fb-5158-b0eb-de5557667761",
+    "id": "2dbcc101-b4ba-5cc5-acd8-5720272622cb",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "9d752f40-22a8-5d8c-8c77-2cac7deea6f6",
+    "cardId": "304231ca-5d78-51d0-9ef0-09dd49b5a45d",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,
@@ -715,10 +715,10 @@
     "lapses": 0
    },
    {
-    "id": "b50426c3-f5de-5a23-a9d2-48f3739858ed",
+    "id": "56cdb338-8d56-531b-a42c-7f49ce31ca24",
     "updatedAt": "2000-01-01T00:00:00.000Z",
     "deletedAt": null,
-    "cardId": "fd26b487-10bd-53b9-b7b8-4950d2e6838c",
+    "cardId": "48ac2a8f-2d1a-545f-a947-b4b84243bc99",
     "phase": 0,
     "stepIndex": 0,
     "ease": 2.5,

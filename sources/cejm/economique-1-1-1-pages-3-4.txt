@@ -1,6 +1,6 @@
 # Matière : CEJM
 # Parent : Economique
-# Paquet : Chapitre 1.1.1 - Pages 3 et 4
+# Paquet : Les agents économiques et leurs échanges - Pages 3 et 4
 # Description : Les échanges entre l'entreprise et les autres agents, le circuit économique et son lexique.
 
 Pourquoi les individus échangent-ils des produits ? ; Ils ne peuvent pas produire eux-mêmes tout ce dont ils ont besoin : ils se spécialisent dans une activité et échangent des produits (biens, services, travail, capitaux) contre un paiement en nature ou en monnaie.

@@ -1,6 +1,6 @@
 # Matière : CEJM
 # Parent : Economique
-# Paquet : Chapitre 1.1.2 - Pages 3 et 4
+# Paquet : Le fonctionnement des marchés - Pages 3 et 4
 # Description : Les dysfonctionnements du marché (barrières, asymétries, externalités) et le rôle des banques et du marché financier.
 
 Qu'est-ce qu'une barrière à l'entrée ? ; Un obstacle qui rend difficile ou impossible l'implantation d'une entreprise sur un marché et ne lui permet pas de rivaliser avec les entreprises en place.

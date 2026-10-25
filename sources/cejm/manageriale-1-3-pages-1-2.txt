@@ -1,6 +1,6 @@
 # Matière : CEJM
 # Parent : Managériale
-# Paquet : Chapitre 1.3 - Pages 1 et 2
+# Paquet : De quelle manière l'entreprise s'inscrit-elle dans son environnement ? - Pages 1 et 2
 # Description : Les parties prenantes, les finalités, la performance et la responsabilité sociétale de l'entreprise (RSE).
 
 Qu'est-ce qu'une partie prenante (Edward Freeman, 1984) ? ; Tout individu ou groupe d'individus qui peut affecter ou être affecté par la réalisation des objectifs de l'organisation.

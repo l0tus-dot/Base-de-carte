@@ -4,23 +4,7 @@
  "packs": [
   {
    "subject": "CEJM",
-   "deck": "Chapitre 1.1.1 - Pages 1 et 2",
-   "cards": 29,
-   "description": "Les agents économiques, la production, la consommation et les six secteurs institutionnels.",
-   "path": "paquets/cejm/economique-1-1-1-pages-1-2.json",
-   "parent": "Economique"
-  },
-  {
-   "subject": "CEJM",
-   "deck": "Chapitre 1.1.1 - Pages 3 et 4",
-   "cards": 19,
-   "description": "Les échanges entre l'entreprise et les autres agents, le circuit économique et son lexique.",
-   "path": "paquets/cejm/economique-1-1-1-pages-3-4.json",
-   "parent": "Economique"
-  },
-  {
-   "subject": "CEJM",
-   "deck": "Chapitre 1.1.2 - Pages 1 et 2",
+   "deck": "Le fonctionnement des marchés - Pages 1 et 2",
    "cards": 28,
    "description": "Les marchés, la loi de l'offre et de la demande, la concurrence et la coopération.",
    "path": "paquets/cejm/economique-1-1-2-pages-1-2.json",
@@ -28,7 +12,7 @@
   },
   {
    "subject": "CEJM",
-   "deck": "Chapitre 1.1.2 - Pages 3 et 4",
+   "deck": "Le fonctionnement des marchés - Pages 3 et 4",
    "cards": 39,
    "description": "Les dysfonctionnements du marché (barrières, asymétries, externalités) et le rôle des banques et du marché financier.",
    "path": "paquets/cejm/economique-1-1-2-pages-3-4.json",
@@ -36,7 +20,23 @@
   },
   {
    "subject": "CEJM",
-   "deck": "Chapitre 1.2 - Pages 1 et 2",
+   "deck": "Les agents économiques et leurs échanges - Pages 1 et 2",
+   "cards": 29,
+   "description": "Les agents économiques, la production, la consommation et les six secteurs institutionnels.",
+   "path": "paquets/cejm/economique-1-1-1-pages-1-2.json",
+   "parent": "Economique"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "Les agents économiques et leurs échanges - Pages 3 et 4",
+   "cards": 19,
+   "description": "Les échanges entre l'entreprise et les autres agents, le circuit économique et son lexique.",
+   "path": "paquets/cejm/economique-1-1-1-pages-3-4.json",
+   "parent": "Economique"
+  },
+  {
+   "subject": "CEJM",
+   "deck": "La période précontractuelle et la formation du contrat - Pages 1 et 2",
    "cards": 35,
    "description": "La définition et les types de contrats informatiques, les pourparlers et les avant-contrats.",
    "path": "paquets/cejm/juridique-1-2-pages-1-2.json",
@@ -44,7 +44,7 @@
   },
   {
    "subject": "CEJM",
-   "deck": "Chapitre 1.2 - Pages 3 et 4",
+   "deck": "La période précontractuelle et la formation du contrat - Pages 3 et 4",
    "cards": 34,
    "description": "La formation du contrat, la liberté contractuelle, les conditions de validité et la nullité.",
    "path": "paquets/cejm/juridique-1-2-pages-3-4.json",
@@ -52,7 +52,7 @@
   },
   {
    "subject": "CEJM",
-   "deck": "Chapitre 1.2 - Pages 5 et 6",
+   "deck": "La période précontractuelle et la formation du contrat - Pages 5 et 6",
    "cards": 19,
    "description": "Les clauses d'un contrat et ses effets juridiques entre les parties et à l'égard des tiers.",
    "path": "paquets/cejm/juridique-1-2-pages-5-6.json",
@@ -60,7 +60,7 @@
   },
   {
    "subject": "CEJM",
-   "deck": "Chapitre 1.3 - Pages 1 et 2",
+   "deck": "De quelle manière l'entreprise s'inscrit-elle dans son environnement ? - Pages 1 et 2",
    "cards": 33,
    "description": "Les parties prenantes, les finalités, la performance et la responsabilité sociétale de l'entreprise (RSE).",
    "path": "paquets/cejm/manageriale-1-3-pages-1-2.json",
@@ -68,7 +68,7 @@
   },
   {
    "subject": "CEJM",
-   "deck": "Chapitre 1.3 - Pages 3 et 4",
+   "deck": "De quelle manière l'entreprise s'inscrit-elle dans son environnement ? - Pages 3 et 4",
    "cards": 26,
    "description": "Les étapes de la création d'entreprise, la logique entrepreneuriale et la logique managériale.",
    "path": "paquets/cejm/manageriale-1-3-pages-3-4.json",

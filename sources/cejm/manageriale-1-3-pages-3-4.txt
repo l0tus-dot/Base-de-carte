@@ -1,6 +1,6 @@
 # Matière : CEJM
 # Parent : Managériale
-# Paquet : Chapitre 1.3 - Pages 3 et 4
+# Paquet : De quelle manière l'entreprise s'inscrit-elle dans son environnement ? - Pages 3 et 4
 # Description : Les étapes de la création d'entreprise, la logique entrepreneuriale et la logique managériale.
 
 Combien de grandes phases comporte la création d'entreprise ? ; Trois grandes phases, qui se décomposent chacune en plusieurs étapes.

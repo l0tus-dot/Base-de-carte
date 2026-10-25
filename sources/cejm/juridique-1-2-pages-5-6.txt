@@ -1,6 +1,6 @@
 # Matière : CEJM
 # Parent : Juridique
-# Paquet : Chapitre 1.2 - Pages 5 et 6
+# Paquet : La période précontractuelle et la formation du contrat - Pages 5 et 6
 # Description : Les clauses d'un contrat et ses effets juridiques entre les parties et à l'égard des tiers.
 
 Qu'est-ce qu'une clause ? ; Un paragraphe d'un contrat qui définit les droits et les obligations des parties.

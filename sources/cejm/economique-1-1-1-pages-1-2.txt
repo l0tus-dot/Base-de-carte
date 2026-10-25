@@ -1,6 +1,6 @@
 # Matière : CEJM
 # Parent : Economique
-# Paquet : Chapitre 1.1.1 - Pages 1 et 2
+# Paquet : Les agents économiques et leurs échanges - Pages 1 et 2
 # Description : Les agents économiques, la production, la consommation et les six secteurs institutionnels.
 
 Qu'est-ce qu'un agent économique ? ; Un individu ou un groupe d'individus, centre de décision autonome, qui réalise des opérations économiques avec d'autres agents (consommer, produire, accorder des prêts, redistribuer des revenus).

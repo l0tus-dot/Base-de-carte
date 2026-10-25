@@ -1,6 +1,6 @@
 # Matière : CEJM
 # Parent : Economique
-# Paquet : Chapitre 1.1.2 - Pages 1 et 2
+# Paquet : Le fonctionnement des marchés - Pages 1 et 2
 # Description : Les marchés, la loi de l'offre et de la demande, la concurrence et la coopération.
 
 Qu'est-ce qu'un marché ? ; Le lieu de rencontre physique ou virtuel entre l'offre et la demande, qui aboutit à la fixation d'un prix d'équilibre et d'une quantité d'équilibre.

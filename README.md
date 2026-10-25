@@ -28,15 +28,15 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | Cybersécurité | VPN | 28 | `paquets/cybersecurite/vpn.json` |
 | Cybersécurité | Délégation de droit avec sudo | 31 | `paquets/cybersecurite/delegation-sudo.json` |
 | Cybersécurité | ACL cisco | 32 | `paquets/cybersecurite/acl-cisco.json` |
-| CEJM | Economique : Chapitre 1.1.1 - Pages 1 et 2 | 29 | `paquets/cejm/economique-1-1-1-pages-1-2.json` |
-| CEJM | Economique : Chapitre 1.1.1 - Pages 3 et 4 | 19 | `paquets/cejm/economique-1-1-1-pages-3-4.json` |
-| CEJM | Economique : Chapitre 1.1.2 - Pages 1 et 2 | 28 | `paquets/cejm/economique-1-1-2-pages-1-2.json` |
-| CEJM | Economique : Chapitre 1.1.2 - Pages 3 et 4 | 39 | `paquets/cejm/economique-1-1-2-pages-3-4.json` |
-| CEJM | Juridique : Chapitre 1.2 - Pages 1 et 2 | 35 | `paquets/cejm/juridique-1-2-pages-1-2.json` |
-| CEJM | Juridique : Chapitre 1.2 - Pages 3 et 4 | 34 | `paquets/cejm/juridique-1-2-pages-3-4.json` |
-| CEJM | Juridique : Chapitre 1.2 - Pages 5 et 6 | 19 | `paquets/cejm/juridique-1-2-pages-5-6.json` |
-| CEJM | Managériale : Chapitre 1.3 - Pages 1 et 2 | 33 | `paquets/cejm/manageriale-1-3-pages-1-2.json` |
-| CEJM | Managériale : Chapitre 1.3 - Pages 3 et 4 | 26 | `paquets/cejm/manageriale-1-3-pages-3-4.json` |
+| CEJM | Economique : Les agents économiques et leurs échanges - Pages 1 et 2 | 29 | `paquets/cejm/economique-1-1-1-pages-1-2.json` |
+| CEJM | Economique : Les agents économiques et leurs échanges - Pages 3 et 4 | 19 | `paquets/cejm/economique-1-1-1-pages-3-4.json` |
+| CEJM | Economique : Le fonctionnement des marchés - Pages 1 et 2 | 28 | `paquets/cejm/economique-1-1-2-pages-1-2.json` |
+| CEJM | Economique : Le fonctionnement des marchés - Pages 3 et 4 | 39 | `paquets/cejm/economique-1-1-2-pages-3-4.json` |
+| CEJM | Juridique : La période précontractuelle et la formation du contrat - Pages 1 et 2 | 35 | `paquets/cejm/juridique-1-2-pages-1-2.json` |
+| CEJM | Juridique : La période précontractuelle et la formation du contrat - Pages 3 et 4 | 34 | `paquets/cejm/juridique-1-2-pages-3-4.json` |
+| CEJM | Juridique : La période précontractuelle et la formation du contrat - Pages 5 et 6 | 19 | `paquets/cejm/juridique-1-2-pages-5-6.json` |
+| CEJM | Managériale : De quelle manière l'entreprise s'inscrit-elle dans son environnement ? - Pages 1 et 2 | 33 | `paquets/cejm/manageriale-1-3-pages-1-2.json` |
+| CEJM | Managériale : De quelle manière l'entreprise s'inscrit-elle dans son environnement ? - Pages 3 et 4 | 26 | `paquets/cejm/manageriale-1-3-pages-3-4.json` |
 
 Dans la matière CEJM, chaque paquet (Economique, Juridique, Managériale) est découpé en sous-paquets : un par fichier PDF du cours.
 

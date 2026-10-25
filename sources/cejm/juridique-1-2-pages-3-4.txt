@@ -1,6 +1,6 @@
 # Matière : CEJM
 # Parent : Juridique
-# Paquet : Chapitre 1.2 - Pages 3 et 4
+# Paquet : La période précontractuelle et la formation du contrat - Pages 3 et 4
 # Description : La formation du contrat, la liberté contractuelle, les conditions de validité et la nullité.
 
 Que dit l'article 1113 du Code civil ? ; Le contrat est formé par la rencontre d'une offre et d'une acceptation par lesquelles les parties manifestent leur volonté de s'engager.

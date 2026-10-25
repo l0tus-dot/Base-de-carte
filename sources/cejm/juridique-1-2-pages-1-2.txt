@@ -1,6 +1,6 @@
 # Matière : CEJM
 # Parent : Juridique
-# Paquet : Chapitre 1.2 - Pages 1 et 2
+# Paquet : La période précontractuelle et la formation du contrat - Pages 1 et 2
 # Description : La définition et les types de contrats informatiques, les pourparlers et les avant-contrats.
 
 Qu'est-ce qu'un contrat (art. 1101 du Code civil) ? ; Un accord de volontés entre deux ou plusieurs personnes, destiné à créer, modifier, transmettre ou éteindre des obligations.
