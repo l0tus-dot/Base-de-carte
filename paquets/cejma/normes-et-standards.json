@@ -1,0 +1,285 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Normes et standards en informatique"
+   }
+  ],
+  "cards": [
+   {
+    "id": "5fab84f4-1f69-51e9-9651-739a914259d8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Qu'est-ce qu'un standard ?",
+    "back": "Un référentiel développé et préconisé par un ou quelques acteurs souvent d'origine industrielle, qui forment une organisation non officielle appelée consortium ou forum.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "dfe65ce5-310e-51d8-a55f-d7245e483783",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Qu'est-ce qu'une norme ?",
+    "back": "Un référentiel élaboré par un organisme de normalisation reconnu par l'ensemble des parties prenantes (industriels, États, associations), qui fournit des règles communes pour des activités ou des caractéristiques d'un produit.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "4cc184bd-6498-56a8-a3ec-36707d1429c2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Quelle différence entre un standard fermé et un standard ouvert ?",
+    "back": "Le référentiel d'un standard fermé n'est pas diffusé. Celui d'un standard ouvert est diffusé librement : il propose les premières règles du jeu (y compris pour l'interopérabilité) et favorise une technologie particulière.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "f6ae1c91-37d5-58d0-9ee5-df39f6ac3475",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Que définit le référentiel d'une norme ?",
+    "back": "Des règles du jeu équitables, des caractéristiques, des bonnes pratiques et des recommandations. Elle est applicable à des biens, services, méthodes ou processus des organisations.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "e92884bd-cd5b-541b-963a-efeef79abfb0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Quelle est la finalité d'une norme ?",
+    "back": "Harmoniser l'activité d'un secteur, réduire les entraves aux échanges et permettre à différentes technologies de coexister.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "f8c3ee3b-fa05-5a19-a734-ff0dfd66b569",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Citez des organisations qui élaborent des normes ou standards.",
+    "back": "ISO, CEN, AFNOR, 3WC, CEI, UIT, IETF, CENELEC, ETSI.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "1aef568d-1dc0-5968-9ab5-edfbafafb93d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Citez des exemples de méthodes ou référentiels de bonnes pratiques.",
+    "back": "CMMI, ITIL, AGILE, COBIT, PRINCE 2.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "13f3c2b9-924a-577f-b01d-daa17c76bdd8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Citez des exemples de protocoles de réseaux normalisés.",
+    "back": "TCP/IP, DHCP, DNS, ARP, VLAN, Spanning tree, FTP.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "501b1c8c-a1c7-500d-81fe-f7c25535fc4c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Citez des exemples de standards de formats de fichiers.",
+    "back": "HTML, XML, CSS, JSON, RDF, MP3, RTF.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "87158f81-1c3d-5dc9-a81f-0034a891f13a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Quels critères doit remplir une source pour une fiche sur une norme ?",
+    "back": "Elle doit être pertinente, fiable et actualisée.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "51bbd43e-0fbb-572a-9a69-d08e2f039702",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Quelles rubriques contient une fiche de présentation d'une norme ou d'un standard ?",
+    "back": "L'intitulé (sigle expliqué, norme ou standard fermé ou ouvert), le contenu et/ou les finalités du référentiel, le niveau de connaissance, la présentation de l'organisme qui élabore le document et la sitographie des sites utilisés.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "119d963a-d5c8-5c17-8798-96d97493c882",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "fb5abcca-967f-5c9f-8b08-89be9572887a",
+    "front": "Quels enjeux sont attendus de la mise en place de normes ou de standards ?",
+    "back": "Ils favorisent l'innovation, améliorent l'interopérabilité, déterminent un niveau de qualité, renforcent la sécurité, réduisent l'impact environnemental, incitent à la veille technologique, facilitent les échanges commerciaux, abattent ou deviennent des barrières à l'entrée, favorisent des effets de réseau, permettent des économies d'échelle et peuvent décevoir le consommateur.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "85371b80-5b15-5523-9102-99bea0f1b977",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5fab84f4-1f69-51e9-9651-739a914259d8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f75a6f58-9721-5c1c-82db-3f7a8303d05c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dfe65ce5-310e-51d8-a55f-d7245e483783",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b86e3d1f-7faf-59f1-b6fd-07093d518517",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4cc184bd-6498-56a8-a3ec-36707d1429c2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "26053d63-2bac-5eb2-9bbf-d25d64d78e8e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f6ae1c91-37d5-58d0-9ee5-df39f6ac3475",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "55d2bfc2-1b27-5967-9902-bc7593c76aa9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e92884bd-cd5b-541b-963a-efeef79abfb0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ef5a7232-e563-55d0-bd5c-b4143ee5c7d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f8c3ee3b-fa05-5a19-a734-ff0dfd66b569",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "af51ce8d-1698-5db5-b48d-ae9edc080601",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1aef568d-1dc0-5968-9ab5-edfbafafb93d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3856d795-bac1-5928-8efd-a8f57e3baf9e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "13f3c2b9-924a-577f-b01d-daa17c76bdd8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a8afed0e-bd2c-5781-94b5-3c4759545903",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "501b1c8c-a1c7-500d-81fe-f7c25535fc4c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a4cb05e3-bce7-5f07-a3d0-a70b9b724580",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "87158f81-1c3d-5dc9-a81f-0034a891f13a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4718bd5d-82ba-5cc4-a96a-4223c20a9822",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "51bbd43e-0fbb-572a-9a69-d08e2f039702",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "064fa20f-f22c-58e2-94f3-4788ead35fe1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "119d963a-d5c8-5c17-8798-96d97493c882",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

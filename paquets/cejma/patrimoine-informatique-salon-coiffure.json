@@ -1,0 +1,453 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Patrimoine informatique d'un salon de coiffure"
+   }
+  ],
+  "cards": [
+   {
+    "id": "8a41363a-7186-5c21-a6f7-04d2773e53eb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Qu'est-ce que le patrimoine informatique d'une organisation ?",
+    "back": "L'ensemble de ses actifs informatiques : matériels (le parc informatique) et immatériels (licences logicielles, contrats, brevets, services numériques internes ou dans le Cloud).",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "665936d0-d332-5a6d-8a7d-b17d23a09c7a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Quels sont les actifs matériels du patrimoine informatique ?",
+    "back": "Le parc informatique.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "22f6ae52-b48a-5c41-ba10-6880875df96a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Quels sont les actifs immatériels du patrimoine informatique ?",
+    "back": "Les licences logicielles, les contrats, les brevets, les services numériques internes ou dans le Cloud de l'organisation.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "2d9e6c98-0918-5e3f-9c75-553d2b21325d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Que doit permettre la gestion du patrimoine informatique ?",
+    "back": "L'identification des ressources numériques, la mise en place des niveaux d'habilitation associés aux services numériques, la vérification du respect des règles d'utilisation, la gestion des sauvegardes, l'exploitation des référentiels, normes et standards, et la vérification des conditions de continuité des services informatiques.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "1b2e3b96-e065-55de-b5c1-f20042450901",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Quelle est la source de cette définition du patrimoine informatique ?",
+    "back": "Le Journal officiel, programme SIO du 30 mai 2019.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "79284b42-227d-59cc-b3e4-0ad52a1246bf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Quels sont les leviers à identifier pour la gestion du patrimoine ?",
+    "back": "La scalabilité, la centralisation, la conformité et la résilience.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "c34f9962-26f0-5f7a-950a-92a51613c566",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Citez des catégories de matériel pour un salon de coiffure.",
+    "back": "PC fixe, TPE (terminal de paiement), imprimante, scanner, téléphone fixe, box Internet, écran tactile, clavier et souris, bras d'écran. Également : équipements réseaux, équipements mobiles, postes de travail, matériel partagé, multimédia et sécurité.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "24afb5a5-9100-56d6-880e-dfcd32790f73",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Citez des types de logiciels pour un salon de coiffure.",
+    "back": "Boîte mail, calendrier ou agenda, suite bureautique, tableur, GLPI.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "62d4c0aa-2256-5b3c-ab8e-743790660073",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Citez des types de données à gérer dans un salon de coiffure.",
+    "back": "Nom, prénom, téléphone, e-mail, prix, coiffure, coiffeur, base de données SQL.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "f2a5f2fc-f4b9-58be-8a27-4a6dff762a49",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Quelles informations collecter à l'inventaire pour le matériel ?",
+    "back": "CPU, carte mère, GPU, alimentation, RAM, nombre de disques, version du BIOS, carte réseau, numéros de série.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "dd7678b7-9c32-5a1a-a76e-f24c19f3cf8c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Quelles informations collecter à l'inventaire pour les logiciels ?",
+    "back": "La version et la licence.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "18a72920-3522-5ba3-897c-5624e0c13acc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Quelles informations collecter à l'inventaire pour les données ?",
+    "back": "Le format (SQL/XML, JSON/CSV), le serveur de stockage, les adresses IP et les adresses MAC.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "e6750c22-955d-55be-8db5-5f6b5aab15b6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Que vérifier lors d'un audit préventif du matériel ?",
+    "back": "Maintenance : le matériel est-il en bon état ? Sécurité : le matériel est-il protégé ? Optimisation : les drivers et le BIOS sont-ils à jour ?",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "2dd5142d-1178-506f-91f9-6a9f8719653c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Que vérifier lors d'un audit préventif des logiciels ?",
+    "back": "Maintenance, sécurité et optimisation : le logiciel est-il à jour ?",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "0f709949-6d00-57e3-81b6-c1c22a0e1f98",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Que vérifier lors d'un audit préventif des données ?",
+    "back": "Maintenance : les données ont-elles été sauvegardées une seconde fois ? Sécurité : les données sont-elles sécurisées ? Optimisation : y a-t-il des données en trop à supprimer ?",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "99d81341-4a05-57e6-b0ee-f48b4c0507b2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Quels sont les quatre postes de coût du patrimoine informatique ?",
+    "back": "Les coûts d'acquisition, de maintenance annuelle, de remplacement et d'obsolescence, et des évolutions futures.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "917d9c2a-0505-5632-b073-9bb70de56aea",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Quelles fourchettes de coût ont été estimées pour le salon ?",
+    "back": "Acquisition : entre 2 500 et 5 000 euros. Maintenance annuelle : entre 100 et 200 euros. Remplacement et obsolescence : entre 500 et 1 000 euros. Évolutions futures : entre 400 et 800 euros.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "f69669ad-8b89-5171-af89-d9758ed638ae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Que prévoir si le gérant ouvre un deuxième salon ?",
+    "back": "Une synchronisation entre les deux salons.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "a64a6081-d346-5a79-9890-1716ac7a48b1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Que prévoir si le gérant veut piloter à distance depuis chez lui ?",
+    "back": "Un tunnel VPN sécurisé.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "da9812d2-25e2-55d4-ac2d-dc87443bfcd0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "f7ed41d1-f2a7-58e9-8ea5-28723133eb3d",
+    "front": "Que prévoir si le gérant veut proposer de nouveaux services numériques ?",
+    "back": "Prévoir ce qu'il veut mettre en place pour voir si son infrastructure est adaptée.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "4b592435-2d37-52dd-8c9d-47dcc66e1403",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8a41363a-7186-5c21-a6f7-04d2773e53eb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "034628af-457d-50da-a8a9-884187715f2e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "665936d0-d332-5a6d-8a7d-b17d23a09c7a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4ffe4af6-481b-5b99-a7af-a93d09805bfb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "22f6ae52-b48a-5c41-ba10-6880875df96a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f702100f-99ed-5de6-b3ba-8a2470a752c9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2d9e6c98-0918-5e3f-9c75-553d2b21325d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "de1f6a9f-37a8-59f7-ad63-93a557f73223",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1b2e3b96-e065-55de-b5c1-f20042450901",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b8a8a21a-9e2f-52fb-bd66-1325217a51aa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "79284b42-227d-59cc-b3e4-0ad52a1246bf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "260fc8fb-879c-54a8-a6ae-d35f1a446e50",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c34f9962-26f0-5f7a-950a-92a51613c566",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ba4bda95-5de5-586a-bd5b-4ae659b58ec9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "24afb5a5-9100-56d6-880e-dfcd32790f73",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8e0c5e2c-d670-5a57-a5ed-b236951ba321",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "62d4c0aa-2256-5b3c-ab8e-743790660073",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "420be096-27e7-5320-a814-5961ceb04e4c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f2a5f2fc-f4b9-58be-8a27-4a6dff762a49",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "198fec59-9725-551a-b1e6-1cf88851796a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dd7678b7-9c32-5a1a-a76e-f24c19f3cf8c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b79140d3-6a6e-5b0d-a0cf-3c3762ae898d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "18a72920-3522-5ba3-897c-5624e0c13acc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "144a6438-3457-57ce-ab06-b8ee76d6e6ab",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e6750c22-955d-55be-8db5-5f6b5aab15b6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8df90062-41f6-5836-ad00-0a3f7deb2617",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2dd5142d-1178-506f-91f9-6a9f8719653c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e7080bf6-27af-590d-a4c9-2fe7999445c1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0f709949-6d00-57e3-81b6-c1c22a0e1f98",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "288d3565-3c57-5e61-bcdc-04f6a9aa5800",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "99d81341-4a05-57e6-b0ee-f48b4c0507b2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "687a64cf-0686-569a-b765-55dd4472643b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "917d9c2a-0505-5632-b073-9bb70de56aea",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "39bf64cc-cadb-524d-8b87-2e8ff0298815",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f69669ad-8b89-5171-af89-d9758ed638ae",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7ac49365-2871-54f7-9ac1-5cf86dd59f5b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a64a6081-d346-5a79-9890-1716ac7a48b1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ccf262f9-8348-5fd5-9488-d2b44648c222",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "da9812d2-25e2-55d4-ac2d-dc87443bfcd0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

@@ -1,0 +1,894 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Réglementation d'un site internet"
+   }
+  ],
+  "cards": [
+   {
+    "id": "d5137453-2823-51d3-b4ba-89ae79479341",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Qu'est-ce qu'un nom de domaine ?",
+    "back": "Un moyen technique de localisation et d'accès aux pages web : une adresse alphanumérique traduite (adresse IP) par un serveur appelé DNS. Il se compose d'une chaîne de caractères (de A à Z, de 0 à 9 et le tiret) et d'une extension, qui peut être générique ou géographique.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "273e44bb-599a-50f0-a581-bb48c2da94b5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Comment se décompose l'adresse https://lycee-basch.fr/ ?",
+    "back": "https:// est le protocole, lycee-basch est le domaine, .fr est l'extension. Pour sio.lycee-basch.fr, « sio » est le sous-domaine.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "753cd83e-3341-5f0b-b29e-0a0a3127507d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Que sont les gTLD ?",
+    "back": "Les extensions généralistes ou génériques, mondialement accessibles : pas de choix imposé mais influence sur la visibilité. Exemples : .net, .org, .info, .biz, .com.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "02e579ff-c385-5a0f-8df4-209d45370512",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Que sont les ccTLD ?",
+    "back": "Les extensions géographiques (nationales). Exemples : .fr, .be, .de, .us, .uk.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "c3ec4381-2bbd-51b6-b420-23519ff5ec5b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Où dépose-t-on un nom de domaine ?",
+    "back": "Auprès d'un bureau d'enregistrement (registrar) : une société prestataire de services (fournisseur d'accès, hébergeur, agence web) accréditée par l'Afnic pour la création des noms de domaine sous les extensions qu'elle gère. L'Afnic en compte environ 400. Exemple : OVH.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "fe89fa2b-f0c2-5658-a81b-2bccdddedb91",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quel est le principe d'attribution d'un nom de domaine ?",
+    "back": "La règle du premier arrivé, premier servi.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "cf67f636-7f6c-55b4-9e8f-42d7599bffd3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Comment vérifier la disponibilité d'un nom de domaine ?",
+    "back": "Par un Whois (« qui est ? ») : un service de recherche fourni par les registres Internet, qui permet de connaître le nom de l'administrateur d'un site. L'Afnic propose cet utilitaire.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "2af3cd11-b12a-5872-87fc-ff2f07897643",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Que se passe-t-il si on oublie de renouveler un nom de domaine à sa date d'expiration ?",
+    "back": "Il est mis hors service (le site et la messagerie cessent de fonctionner) et on peut même en perdre la propriété.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "355af219-064a-52a5-a030-2120d4b0339c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Comment éviter un conflit entre un nom de domaine et une marque ?",
+    "back": "Effectuer les recherches d'antériorités sur le site de l'INPI, et enregistrer une marque, dans la mesure du possible identique au radical du nom de domaine.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "7e9a5b48-27e4-5d60-b044-3c32ce748999",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quels critères pour choisir un nom de domaine ?",
+    "back": "Faire court et mémorisable, et vérifier sa disponibilité.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "2ca7a47f-d2f5-5c1c-b5f9-19f5e24c7365",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Qu'est-ce que le cybersquatting ?",
+    "back": "Le fait d'acheter des noms de domaine proches ou identiques au nom d'un tiers, non pas pour les utiliser mais pour les revendre au tiers lésé, selon le principe du premier arrivé, premier servi. Il ne vise pas à tromper l'internaute mais à priver la victime d'un nom pour lui demander de l'argent.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "f03012f6-263b-5143-90fc-7c629edd0726",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Qu'est-ce que le typosquatting ?",
+    "back": "Une technique proche de la contrefaçon de marque : acheter des noms de domaine ressemblant à des sites connus avec une faute volontaire, pour obtenir des visiteurs qui font une erreur de saisie dans la barre d'adresse.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "a88d225e-7d0e-5c71-b802-221b4554caa3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Comment génère-t-on des fautes pour le typosquatting ?",
+    "back": "Inverser deux lettres (gogole.com), retirer des lettres (gogle.com), faire des doublons (gooogle.com) ou remplacer des lettres par d'autres proches sur le clavier (foofle.com).",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "177e634a-07ee-5b32-934e-3b747472ca79",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Que s'est-il passé dans l'affaire du TGI de Paris du 2 mars 2017 ?",
+    "back": "Le TGI de Paris a ordonné le transfert du nom de domaine d'un site frauduleux (vente de chaussures) comportant les nom et prénom d'une victime d'usurpation d'identité. Le site était frauduleux : il n'avait ni CGV, ni mentions légales, ni adresse de contact.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "02019b44-bf82-514c-869e-8cc1da334e72",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quel article le tribunal a-t-il rappelé ?",
+    "back": "L'article L. 45-2-2° du code des postes et communications électroniques : possibilité de supprimer ou de refuser de renouveler un nom de domaine portant atteinte aux droits de la personnalité, sauf intérêt légitime ou bonne foi du demandeur.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "64077bbb-2232-59e7-9e2b-6c2a9a015443",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Que dit le tribunal sur le nom patronymique ?",
+    "back": "Même dépourvu de toute notoriété particulière, il constitue un attribut de la personnalité : la personne est en droit de s'opposer à toute utilisation à titre commercial par un tiers en cas de risque de confusion ou d'assimilation prouvé.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "eba3fbd2-e232-52a9-9792-08c2cf3d22be",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Qu'est-ce que la procédure Syreli de l'Afnic ?",
+    "back": "Une procédure extrajudiciaire pour résoudre un litige sur un nom de domaine (récupérer un nom de domaine ou en obtenir la suppression) sans recourir à la justice.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "d41154ed-ea0c-5052-9caa-b6b085ed824d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "À quoi servent les mentions légales ?",
+    "back": "Elles sont un ensemble d'informations que tout site doit afficher : elles permettent d'assurer la transparence sur l'identité de l'éditeur et d'informer les internautes sur leurs droits.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "f159fe98-4eec-52bd-91a4-1c528830f80e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelle loi impose les mentions légales ?",
+    "back": "La loi pour la confiance dans l'économie numérique (LCEN, 2004), complétée par le RGPD.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "49fe0e74-90b2-55f5-91dd-b8af1a4d2a18",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles mentions doit afficher une entreprise qui publie un site ?",
+    "back": "La dénomination sociale de l'éditeur, l'adresse du siège social, le numéro de téléphone et l'adresse e-mail, le nom du directeur ou responsable de la publication, le nom et les coordonnées de l'hébergeur, le numéro d'immatriculation (SIRET, RCS ou RM), le capital social (pour les sociétés) et le numéro de TVA intracommunautaire (si applicable).",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "d5e67902-813f-5543-b85e-cfd0eb1731a8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Que doit afficher un site personnel (blog, portfolio) ?",
+    "back": "Le nom, prénom et adresse de l'auteur. Ils peuvent être remplacés par les coordonnées de l'hébergeur si l'auteur souhaite rester anonyme, mais celui-ci doit pouvoir être contacté par les autorités.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "c051c284-b24b-57fc-a846-75451ae27c8d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelle sanction en cas d'absence de mentions légales ?",
+    "back": "Jusqu'à 1 an d'emprisonnement et 75 000 euros d'amende pour une personne physique, ou 375 000 euros pour une entreprise.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "d891a5ab-9d60-5b1f-b244-2d31841b2ced",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quel est le triple rôle des mentions obligatoires ?",
+    "back": "Information, responsabilisation et transparence.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "056ea72d-6b2b-588d-88c7-acdd89881296",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Que doit faire un site web pour protéger les données personnelles (RGPD) ?",
+    "back": "Informer clairement l'utilisateur de la collecte de ses données (formulaire, newsletter, cookies), obtenir un consentement explicite (par exemple via une bannière de cookies), lui donner la possibilité d'accéder, modifier ou supprimer ses données et de retirer son consentement à tout moment, et mentionner les coordonnées du responsable du traitement.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "9e091d0f-8ca8-5955-a70b-90b56c330957",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Que faut-il ajouter aux mentions légales pour la protection des données ?",
+    "back": "Une section ou un lien vers la politique de confidentialité ou « protection des données personnelles ».",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "29c4eeab-b0eb-5b63-9a3f-2201113c743c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Que dit le Code de la propriété intellectuelle sur le contenu d'un site ?",
+    "back": "Tout contenu publié (textes, images, vidéos, logos, code) est protégé. Il faut indiquer que le contenu est la propriété de l'entreprise (sauf mention contraire), que toute reproduction, diffusion ou modification sans autorisation est interdite, et préciser les crédits des images ou médias utilisés.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "1f350ff1-3ee0-59f9-b8d0-6e62ce4447f5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quels sont les types de cookies ?",
+    "back": "Fonctionnels, statistiques ou analytiques, et marketing.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "f0e2a155-2562-52c0-b907-3e5e263f331a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quels types de cookies demandent un consentement préalable ?",
+    "back": "Les cookies statistiques ou analytiques et les cookies marketing. Les cookies fonctionnels, strictement nécessaires, en sont dispensés.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "5d1fb29f-c75f-5995-a178-65ada95b29db",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles options un bandeau de cookies doit-il proposer ?",
+    "back": "Accepter, refuser, paramétrer, plus d'information, « j'ai compris ».",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "80370d46-ddd6-5b61-80ce-363cfc422dc8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Qu'est-ce qu'un lien MAILTO ?",
+    "back": "Un lien hypertexte qui permet à un utilisateur d'ouvrir directement son client de messagerie pour envoyer un mail à une adresse précise. Il n'envoie pas de données au serveur tant que l'utilisateur n'envoie pas le mail : les cookies ne sont pas nécessaires, sauf si le site suit les clics par des cookies analytiques.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "dd9c64a8-e05b-5d2b-9934-df3a039ce89a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles fonctionnalités de communication un site peut-il proposer ?",
+    "back": "Un bouton ou formulaire de contact, une adresse e-mail cliquable, un numéro de téléphone, un chat en ligne ou chatbot, des commentaires ou avis, des réseaux sociaux intégrés, une inscription à une newsletter.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "5d3e5175-c3dc-5718-95c5-9ab3fb762c61",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles bonnes pratiques pour les cookies et les CGU ?",
+    "back": "Des options de refus et de paramétrage claires et accessibles, et des CGU qui présentent les droits et obligations des utilisateurs, la propriété intellectuelle et la responsabilité.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "4f108546-9e94-5f16-b5a8-3398bdb8e158",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "À quoi servent les CGU ?",
+    "back": "À définir les droits et obligations des utilisateurs du site, la propriété intellectuelle et la responsabilité.",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "1aeb6b9f-c0f1-5d95-b6f2-3080b9993b44",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quels sont les sept types de sites internet ?",
+    "back": "Institutionnels ou officiels, d'entreprise ou commerciaux, médias ou information, personnels ou portfolios, communautaires ou réseaux sociaux, e-learning ou éducatifs, divertissement ou multimédia.",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "37551bee-c187-5fcd-8bfc-d0b0786d79a7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles sont les caractéristiques d'un site institutionnel ?",
+    "back": "Il présente une organisation, une administration ou un établissement (lycée, mairie, université, ministère) : informations pratiques, contacts officiels, mentions légales simplifiées, rarement orienté vente.",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "05beb055-451c-5615-9629-8df6d4e62f9d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles sont les caractéristiques d'un site d'entreprise ou commercial ?",
+    "back": "Il promeut l'activité de l'entreprise et/ou vend des produits ou services (Klaxoon, Decathlon, Airbnb) : pages produits, boutique en ligne, mentions légales complètes, politique de confidentialité RGPD, formulaire de contact.",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "a851bd75-ef6b-5e08-ad43-5c84c7b2e979",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles sont les caractéristiques d'un site média ?",
+    "back": "Il diffuse des contenus journalistiques (Ouest-France, Le Monde) : articles, vidéos, archives, newsletters, abonnements, mentions légales détaillées, droits d'auteur stricts, RGPD.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "4828c0a3-991e-5bf7-9226-21c9cf3d00b7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles sont les caractéristiques d'un site communautaire ou réseau social ?",
+    "back": "Il permet l'échange, la collaboration ou la création de communautés (Facebook, LinkedIn, Reddit) : comptes utilisateurs, forums, messagerie interne, collecte importante de données personnelles, respect strict du RGPD, CGU.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "3ba199f8-55db-541a-bfb0-d5efff034eb7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles sont les caractéristiques d'un site personnel ou portfolio ?",
+    "back": "Il présente un individu ou ses créations : contenu centré sur l'auteur, souvent anonymisé, mentions légales simplifiées, collecte minimale de données.",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   },
+   {
+    "id": "cd360f7f-ef29-5cbe-9a6e-00ad64c49308",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles sont les caractéristiques d'un site e-learning ?",
+    "back": "Il propose des contenus pédagogiques (OpenClassrooms, Khan Academy) : accès aux cours, quiz, suivi des utilisateurs, mentions légales et politique de confidentialité adaptées.",
+    "createdAt": "2000-01-01T00:00:39.000Z"
+   },
+   {
+    "id": "2bb67ad5-f500-5917-8137-478153a3c54b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "11381321-5486-5943-ad68-8dd4acc06bd0",
+    "front": "Quelles sont les caractéristiques d'un site de divertissement ?",
+    "back": "Il propose des contenus ludiques ou culturels (YouTube, Spotify, jeux en ligne) : streaming, contenus générés par les utilisateurs, monétisation, collecte de données, droit d'auteur et RGPD.",
+    "createdAt": "2000-01-01T00:00:40.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "cd62ae5d-258f-5952-b649-23516cc83b81",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d5137453-2823-51d3-b4ba-89ae79479341",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6192e287-a3a1-5aa9-a91c-8f46ffa4609a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "273e44bb-599a-50f0-a581-bb48c2da94b5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cac9d06f-da9b-5119-aff4-b057efdf3022",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "753cd83e-3341-5f0b-b29e-0a0a3127507d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "561c6dfe-437a-5f23-9000-d58271983ca9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "02e579ff-c385-5a0f-8df4-209d45370512",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ee9ee472-c5a9-50ee-87f2-0c30d2a28843",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c3ec4381-2bbd-51b6-b420-23519ff5ec5b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "87b3ed8f-776c-5046-a502-35ca00d66d5f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fe89fa2b-f0c2-5658-a81b-2bccdddedb91",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2ac0dc9d-b757-589d-b0c6-edc7c28481d7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cf67f636-7f6c-55b4-9e8f-42d7599bffd3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8c5c89d3-9d83-5192-b2b2-80e6fa4d199e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2af3cd11-b12a-5872-87fc-ff2f07897643",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3a95d660-329d-5024-8fcf-9b95c3754dc8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "355af219-064a-52a5-a030-2120d4b0339c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "88e7f4f5-9e3b-550e-9bc3-72617bfc25a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7e9a5b48-27e4-5d60-b044-3c32ce748999",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f8fca488-2656-5a3d-ba92-c1c186117e93",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2ca7a47f-d2f5-5c1c-b5f9-19f5e24c7365",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b062a705-4efb-58cf-9eb4-c622aff7a86d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f03012f6-263b-5143-90fc-7c629edd0726",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "68d29f41-74c3-5872-835d-9889b5b2e3f7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a88d225e-7d0e-5c71-b802-221b4554caa3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7f5bc9ac-0b34-59bf-ab9a-fd085628ad92",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "177e634a-07ee-5b32-934e-3b747472ca79",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c1e48e25-8aba-57d5-b59d-aee8d238f025",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "02019b44-bf82-514c-869e-8cc1da334e72",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b8013aa0-3023-524f-b380-f318adc33a31",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "64077bbb-2232-59e7-9e2b-6c2a9a015443",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "65e6b489-535b-524d-82a1-1aa1e6b3fcfb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eba3fbd2-e232-52a9-9792-08c2cf3d22be",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "acf5b603-7a6e-560c-b5d0-d99593d2f8ae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d41154ed-ea0c-5052-9caa-b6b085ed824d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b6039066-d298-5a75-85ef-33f14c84fc23",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f159fe98-4eec-52bd-91a4-1c528830f80e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c8ce67bf-136f-5b5c-a1c7-11ea48c2b778",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "49fe0e74-90b2-55f5-91dd-b8af1a4d2a18",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b087a213-8fc8-5c5a-9ac0-07c2e7f89327",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d5e67902-813f-5543-b85e-cfd0eb1731a8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3d7cdffc-22ad-555e-a16d-b8ccdaf6a031",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c051c284-b24b-57fc-a846-75451ae27c8d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e4115b52-c339-5477-8fe7-07a487b9b042",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d891a5ab-9d60-5b1f-b244-2d31841b2ced",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "31b78791-9c6a-5f3c-b1dc-8cb4182d54ca",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "056ea72d-6b2b-588d-88c7-acdd89881296",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7edaa695-9f22-5cbc-9d17-122d8533a751",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9e091d0f-8ca8-5955-a70b-90b56c330957",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8c7f5af9-ee82-5952-a623-cb79443fbd6d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "29c4eeab-b0eb-5b63-9a3f-2201113c743c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a15158f1-3220-530d-8e6c-168ce6d9a9e4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1f350ff1-3ee0-59f9-b8d0-6e62ce4447f5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2ed5c040-eb3b-5070-9178-7971ce60bf46",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f0e2a155-2562-52c0-b907-3e5e263f331a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8ccfab87-3ae7-561a-a61b-62307613d9c3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5d1fb29f-c75f-5995-a178-65ada95b29db",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "654e7820-cfa6-56a1-9816-1f1fab38c8bc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "80370d46-ddd6-5b61-80ce-363cfc422dc8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "607eae36-58a6-5f26-9722-29b066c862e1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dd9c64a8-e05b-5d2b-9934-df3a039ce89a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "44119ba5-2267-58b4-9543-007c4ce15985",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5d3e5175-c3dc-5718-95c5-9ab3fb762c61",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "422272df-b4f2-5034-9273-80c231e6395b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4f108546-9e94-5f16-b5a8-3398bdb8e158",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2ca1bcee-e534-57b5-bf2b-19d72e8532ca",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1aeb6b9f-c0f1-5d95-b6f2-3080b9993b44",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e53b6878-5abb-5a6e-8abd-f4be2fd9d626",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "37551bee-c187-5fcd-8bfc-d0b0786d79a7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e3fd697d-c56d-5983-8344-a8e3277ff2ae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "05beb055-451c-5615-9629-8df6d4e62f9d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "64774f2d-0d0e-5036-91c4-683d227fec49",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a851bd75-ef6b-5e08-ad43-5c84c7b2e979",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a3e9ca4e-d907-558d-90cb-c57c851013c8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4828c0a3-991e-5bf7-9226-21c9cf3d00b7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2f7eb8d4-b389-52c2-912e-2be98b4dbe09",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3ba199f8-55db-541a-bfb0-d5efff034eb7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "308f0593-e6c6-5a09-bc5c-73603feb4008",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cd360f7f-ef29-5cbe-9a6e-00ad64c49308",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5c2db546-acdc-5bf5-abe7-bb7af88577c4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2bb67ad5-f500-5917-8137-478153a3c54b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

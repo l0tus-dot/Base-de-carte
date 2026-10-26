@@ -1,0 +1,558 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Gestion des actifs logiciels et contrats de licence"
+   }
+  ],
+  "cards": [
+   {
+    "id": "6666166a-b753-57ff-a3f2-98074b871b44",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Que veut dire SAM ?",
+    "back": "Software Asset Management : la gestion des actifs logiciels, aussi appelée gestion des licences.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "8d26c819-0ffc-5887-88ed-345efc64541c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Qu'est-ce que la gestion des actifs logiciels ?",
+    "back": "Une pratique de management qui consiste à gérer et optimiser l'achat, le déploiement, la maintenance, l'utilisation et l'élimination des actifs logiciels au sein d'une organisation.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "7fd01c86-9a83-5300-88b4-ea937242f953",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Quels sont les objectifs du SAM ?",
+    "back": "Réduire les risques économiques (les coûts), commerciaux et juridiques, tout en maximisant le service rendu.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "d3c64702-d767-55c6-a070-e854758e0c17",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Le SAM est un sous-ensemble de quelle gestion ?",
+    "back": "De la gestion des actifs informatiques (IT Asset Management). Il fait l'objet de la norme ISO/CEI 19770.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "165fe8e7-6a59-5478-a2bb-1a4350b3d486",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Quels risques court une entreprise qui ne fait pas l'inventaire de ses licences ?",
+    "back": "Elle peut payer des licences pour des logiciels qu'elle n'utilise plus, ou à l'inverse ne pas payer des licences pour des logiciels qu'elle utilise.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "8125c88d-3c9d-5c2c-84f8-1ae89dc3d61f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Que représentent les logiciels pour les entreprises ?",
+    "back": "Une source de dépense importante.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "4cde70b9-2981-5fba-a27c-539f6b892057",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Qu'est-ce que l'audit de licence logiciel ?",
+    "back": "Une vérification par un éditeur de la conformité des licences acquises par rapport à l'usage des logiciels.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "6df3f827-1c2f-5cf6-a2e4-e505d8bcaf8f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Quelle est la conséquence majeure d'un audit logiciel pour une entreprise ?",
+    "back": "Un coût important et élevé.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "1fb44d76-08eb-5e19-a6fd-42f88eda3af8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "À quoi sert le logiciel Flexera ?",
+    "back": "À l'optimisation des licences logicielles : il indique les dépenses excessives, permet de préserver la conformité logicielle et d'améliorer la négociation du prix des licences.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "2926d599-c3b0-5ea7-b951-c12875ae8927",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Quelles licences comparer dans l'étude : Photoshop d'Adobe et VLC media player ?",
+    "back": "Photoshop : licence propriétaire, payante. VLC : licence GNU GPL (licence libre), gratuite.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "979fcb29-db9e-5b62-a921-b6e260d3c22d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Quels droits accorde la licence Adobe à l'utilisateur ?",
+    "back": "L'autorisation d'utiliser le logiciel tant qu'une licence valide est présente sur le compte utilisateur.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "ca67a116-ebd4-5f9b-87ca-1d6594dc7aff",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Que prévoit la clause d'audit du contrat Adobe ?",
+    "back": "L'article 15 (droits d'audit) donne à Adobe le droit de vérifier que l'utilisation de ses produits et services est conforme à ses conditions.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "69fc6c29-b233-51f2-a4fb-417da8b741b1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Que ne peut pas faire un utilisateur d'Adobe ?",
+    "back": "Copier le logiciel, le modifier et partager ces modifications.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "db794921-f434-5e80-88f2-561a9b8fccd5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Quels droits accorde la licence GNU GPL de VLC ?",
+    "back": "L'autorisation de copier, diffuser et modifier, à condition de conférer la même licence, donc les mêmes libertés, à autrui.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "0aaa6f22-e990-5487-8350-9febe9a2c5a0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Y a-t-il une clause d'audit dans la licence GNU GPL ?",
+    "back": "Non.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "fb69da5f-b64c-5ee6-ae8b-3dd6f28b2ef4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Que ne peut pas faire l'utilisateur d'un logiciel sous GPL ?",
+    "back": "Il ne peut pas copier, diffuser et modifier le logiciel en changeant la licence de ce même logiciel.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "6124258d-4116-5fcd-9a16-ded42ab8f7bb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Quelle est la première jurisprudence française sur la licence GNU GPL ?",
+    "back": "Educaffix c/ CNRS : décision du TGI de Paris du 28 mars 2007.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "8681ca71-8881-51ff-95a2-f692c7fa245b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Que s'est-il passé dans l'affaire Educaffix c/ CNRS ?",
+    "back": "Le CNRS (l'Organisme) avait cédé à Educaffix les droits patrimoniaux sur son logiciel Baghera, qui ne fonctionnait qu'avec le logiciel libre JATLite (université de Stanford, licence GNU GPL), fourni sur un Cdrom sans la licence GPL.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "0ff44162-8c15-525c-b49d-b131c4b986e9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Que demandait Educaffix aux juges ?",
+    "back": "La nullité du contrat de cession pour dol (on lui aurait caché l'existence du logiciel libre) et, à titre subsidiaire, la résolution du contrat aux torts exclusifs de l'Organisme car son exploitation impliquait un acte de contrefaçon.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "74a96bb8-68e9-5bc0-b21c-67903c46d2fb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Les juges ont-ils retenu le dol dans l'affaire Educaffix ?",
+    "back": "Non : le logiciel libre ne faisait pas l'objet de la cession, le cessionnaire connaissait le contenu du Cdrom et il était un professionnel de l'informatique.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "363b6f4e-a120-5dc6-a32f-7da640bedde2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Comment les juges ont-ils décidé sur la résolution du contrat ?",
+    "back": "Ils ont prononcé la résolution du contrat aux torts partagés : l'Organisme n'avait pas distribué le logiciel libre avec sa licence GNU GPL et n'a pas pu le remplacer par une brique propriétaire.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "e83a0922-1fdc-5542-a6e0-54c0a5cc5efe",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Quelle exception de la licence GNU GPL v2 les juges ont-ils retenue ?",
+    "back": "Le caractère contaminant de la GPL : si des éléments identifiables ne sont pas dérivés du Programme et peuvent être raisonnablement considérés comme indépendants, la licence ne s'applique pas à eux quand ils sont distribués seuls. Distribués dans un ensemble cohérent basé sur un Programme soumis à la licence, ils lui sont aussi soumis.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "22c06140-cd39-5cfd-9280-10bed39a62b0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Qu'a jugé le TGI sur l'indépendance des développements de l'Organisme ?",
+    "back": "Les développements effectués par l'Organisme étaient indépendants du logiciel libre : il pouvait donc disposer de droits de propriété sur ceux-ci.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "9d7fa22b-25af-5f94-b4dd-5b849af08178",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Que faut-il obtenir pour un travail basé sur un logiciel libre qu'on ne peut identifier comme « raisonnablement indépendant » ?",
+    "back": "Une licence.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "8afe8304-750d-54f6-aba7-516cacd009f3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e50878e2-1d73-59a7-8613-1481560e3f79",
+    "front": "Qu'aurait dû faire l'Organisme pour éviter le procès ?",
+    "back": "Distribuer le logiciel libre avec sa licence GNU GPL et informer clairement le cessionnaire.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "ef5acc20-164b-5664-a416-d8da15822a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6666166a-b753-57ff-a3f2-98074b871b44",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "feb40038-9887-56fd-a833-3906e2673370",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8d26c819-0ffc-5887-88ed-345efc64541c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "761c773c-0112-551c-ac21-840b643703a0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7fd01c86-9a83-5300-88b4-ea937242f953",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "abeca9c9-5c81-5ab3-9d03-e99b1078be63",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d3c64702-d767-55c6-a070-e854758e0c17",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "82ff556c-e0ff-50ff-8502-c9f2ceed36df",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "165fe8e7-6a59-5478-a2bb-1a4350b3d486",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "888a540e-6016-5b21-8e54-a5266d70d0ed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8125c88d-3c9d-5c2c-84f8-1ae89dc3d61f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3bb36e05-e293-56ec-b0a5-a979f1e6f952",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4cde70b9-2981-5fba-a27c-539f6b892057",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0b4823ce-0409-574f-9421-a3fc5ae02ec0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6df3f827-1c2f-5cf6-a2e4-e505d8bcaf8f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "aa6b83cf-1670-501e-84c0-6756e6af1498",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1fb44d76-08eb-5e19-a6fd-42f88eda3af8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "70b79e13-8d1d-51a7-b755-cd61cb35ba5b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2926d599-c3b0-5ea7-b951-c12875ae8927",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d0ccab33-5d10-5173-95bb-c0c50dca0537",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "979fcb29-db9e-5b62-a921-b6e260d3c22d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bc696ef7-ef3f-5a56-bf08-6aff204883c3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ca67a116-ebd4-5f9b-87ca-1d6594dc7aff",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "35d1fd65-15c8-54bf-8fbb-af615b227e39",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "69fc6c29-b233-51f2-a4fb-417da8b741b1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5c5202ae-e404-576e-855d-f9f1db1a2d8c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "db794921-f434-5e80-88f2-561a9b8fccd5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "aba97e2f-5d3d-58ab-9972-d7b9b683199f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0aaa6f22-e990-5487-8350-9febe9a2c5a0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a76c74ae-6bb8-56d0-903f-9b6ad138429a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fb69da5f-b64c-5ee6-ae8b-3dd6f28b2ef4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b305781a-36de-592c-8261-17905777ea9e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6124258d-4116-5fcd-9a16-ded42ab8f7bb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "779bcfb8-0002-5039-b165-3f21a7a700a6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8681ca71-8881-51ff-95a2-f692c7fa245b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3bc048ae-4a2b-58cb-b1db-a98b5b0eefac",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0ff44162-8c15-525c-b49d-b131c4b986e9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "76884409-7d03-59cc-b081-638115421985",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "74a96bb8-68e9-5bc0-b21c-67903c46d2fb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8da859fb-e12d-5d48-814f-963055e52321",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "363b6f4e-a120-5dc6-a32f-7da640bedde2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3b3244d7-f2bd-5789-9e3b-fd9d25fd20c4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e83a0922-1fdc-5542-a6e0-54c0a5cc5efe",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7022dd60-89c3-56e4-b02b-2556598b393b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "22c06140-cd39-5cfd-9280-10bed39a62b0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "00b47bc2-df92-50c2-8183-3b02dba67032",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9d7fa22b-25af-5f94-b4dd-5b849af08178",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1ad0c52d-52d7-5f0c-b846-d8be920fed01",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8afe8304-750d-54f6-aba7-516cacd009f3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

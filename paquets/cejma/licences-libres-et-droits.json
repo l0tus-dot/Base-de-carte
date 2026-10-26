@@ -1,0 +1,1104 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Licences libres, droits d'usage et sanctions"
+   }
+  ],
+  "cards": [
+   {
+    "id": "cc6dbe8c-106c-5eda-84fd-0282830a7f5f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Que dit l'article L335-3 du Code de la propriété intellectuelle ?",
+    "back": "Il définit l'illégalité de copier et d'utiliser un logiciel sans l'accord de son auteur.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "687915f6-d44e-5851-aaf4-5c026d4e07f7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qu'est-ce qu'une licence logicielle sur le plan juridique ?",
+    "back": "Un contrat entre le créateur et l'acheteur, qui autorise ce dernier à utiliser la propriété du créateur.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "e6377957-60c2-59c5-a56a-84b501c7e2d8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelles sanctions menacent une personne physique qui viole une licence logicielle ?",
+    "back": "2 ans d'emprisonnement et 150 000 euros d'amende.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "7dcc9778-1abd-5681-b9d5-f1dc20074db3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelles sanctions menacent une personne morale qui viole une licence logicielle ?",
+    "back": "La fermeture de l'établissement, 7 ans de prison et 750 000 euros d'amende.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "81d22035-ba47-5ea3-9468-96d0a632ec88",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qui est responsable du respect des licences en entreprise ?",
+    "back": "Le gestionnaire de parc, co-responsable avec la DSI en cas de piratage logiciel. Si l'entreprise est sanctionnée et qu'il a caché cette utilisation, elle peut se retourner contre lui, jusqu'au licenciement pour faute lourde.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "67ca0a8c-59b6-5674-9bbd-f66c2e907c03",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Que veut dire GLPI ?",
+    "back": "Gestionnaire Libre de Parc Informatique : un logiciel libre de gestion des services informatiques (ITSM) et de gestion des services d'assistance, écrit en PHP et distribué sous licence GPL.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "f1e51c64-a6e1-5ba2-b7dd-87c1343ee301",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "GLPI est-il sous licence permissive ou restrictive ?",
+    "back": "Restrictive (copyleft) : toute personne peut exécuter, modifier ou développer le code, mais à condition de respecter la licence GPL.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "aef7f802-eab5-5a6a-9ec2-0d915ae7e768",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Que désigne le « type » d'une licence dans GLPI ?",
+    "back": "La nature du droit d'utilisation. Le type OEM (licences pré-installées sur les ordinateurs) est le seul type configuré par défaut dans GLPI.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "62d923a7-f281-59a7-baed-0888c0339338",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Que désigne le « nombre » d'une licence dans GLPI ?",
+    "back": "Le volume d'installation permis : un nombre d'utilisateurs (licence flottante), un nombre d'installations (licence multiple) ou un nombre illimité (licence site).",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "cdd47a9d-177a-5924-95d8-dc83a02e5e30",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Que désigne l'« expiration » d'une licence dans GLPI ?",
+    "back": "La date limite donnant droit d'utilisation de la licence. Son dépassement peut déclencher une notification.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "405c98c0-734f-5514-b174-b7f162297c16",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelle différence entre version d'achat et version d'utilisation d'une licence ?",
+    "back": "La version d'achat est celle achetée, la version d'utilisation est celle réellement installée. Elles peuvent être très différentes mais doivent refléter l'existant.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "033385dd-e33c-5a81-8bf1-df2ad6230f09",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Les logiciels libres sont-ils toujours gratuits ?",
+    "back": "Non : des sociétés vendent des logiciels libres en y ajoutant des services (ex. : Openbravo propose un ERP libre avec une version gratuite et une version payante).",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "24c31cf1-c6e2-517f-9047-036c07694be4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quels sont d'autres noms du logiciel ?",
+    "back": "Programme, plateforme, application, portail.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "4708fd90-bf3c-5956-8bb5-7de92b679961",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelles sont les trois limites typiques d'une licence propriétaire d'usage ?",
+    "back": "Elle peut être limitée à un type, à un nombre de postes ou d'utilisateurs nommés, à un volume d'utilisation, à une durée et/ou à une étendue géographique (établissement, pays).",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "1de302e6-f0f9-5cda-8397-141824094469",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qu'est-ce qu'une licence OEM ?",
+    "back": "Une licence préinstallée sur la machine achetée (Original Equipment Manufacturer).",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "58cdcb16-adac-5e1d-89f0-beaa5bce1523",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qu'est-ce qu'une licence réseau ?",
+    "back": "Une licence fondée sur le principe des utilisateurs définis ou des jetons.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "4057a8f1-f9cc-5c95-963f-125a96df4ab6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Comment peut-on mesurer une licence propriétaire ?",
+    "back": "Licences individuelles (1 poste = 1 licence), OEM, réseau, par nombre de processeurs, ou volume (secteurs particuliers, comme la licence Microsoft éducation).",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "7213d70c-640f-5872-8b49-8df0cd6f4984",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelle maintenance un utilisateur légitime peut-il effectuer sur un logiciel propriétaire ?",
+    "back": "La maintenance corrective : il peut effectuer tous les actes nécessaires au fonctionnement normal du logiciel, y compris corriger les erreurs (sauf clause contraire), mais il ne doit pas l'améliorer ni l'adapter.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "7d223896-58e3-5be6-bbf2-92a311892f3b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Combien de copies de sauvegarde un utilisateur peut-il faire d'un logiciel propriétaire ?",
+    "back": "Une seule copie de sauvegarde, si la copie originale est détruite. Elle ne peut pas être utilisée en même temps que l'original.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "e6b925ea-cc9a-5bd7-9239-42481567c46d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Que peut faire un utilisateur pour étudier un logiciel sans autorisation de l'auteur ?",
+    "back": "Observer, étudier ou tester le fonctionnement ou la sécurité du logiciel pour déterminer les idées et principes à la base de ses éléments, lors d'une opération de chargement, d'affichage, d'exécution, de transmission ou de stockage qu'il est en droit d'effectuer.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "78ea276c-8ee0-5ff5-b2cf-7a9ad04ad27f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "À quoi sert le droit de décompiler un logiciel ?",
+    "back": "À assurer l'interopérabilité avec d'autres logiciels : retrouver le code source du programme pour disposer d'informations techniques indispensables au fonctionnement conjoint de plusieurs logiciels.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "dd088e88-dd50-5d0d-82e2-f688a8661a00",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Existe-t-il une exception pour copie privée sur les logiciels ?",
+    "back": "Non : l'exception pour copie privée n'existe pas pour le logiciel, sauf licence libre.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "2a88048b-2c2f-571e-beec-67b0a21e8ab5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qu'est-ce qu'un logiciel libre ?",
+    "back": "Un logiciel payant ou gratuit, distribué avec l'intégralité de ses codes sources ouverts, afin que l'ensemble des contributeurs puisse le modifier, l'enrichir et le redistribuer.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "37e777d1-7a39-5f9e-9e24-cf83319ec347",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Un logiciel libre est-il libre de droits ?",
+    "back": "Non : l'auteur détient les droits de propriété intellectuelle et il est protégé par le droit d'auteur. Celui-ci peut ne pas revendiquer ces droits.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "4f91fd10-6ecf-5f99-93f5-9e37b4dcabf1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qui a défini les 4 libertés de la licence libre ?",
+    "back": "Richard Stallman (1984).",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "2d3f78da-dfbd-5f53-82d4-3e97cda339f6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelles sont les 4 libertés de la licence libre ?",
+    "back": "Liberté 0 : exécuter le programme sans restriction. Liberté 1 : étudier son fonctionnement et l'adapter (accès au code source). Liberté 2 : diffuser des copies. Liberté 3 : publier les modifications (et pour cela, accéder au code source).",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "4e183657-0b44-5017-a506-4738b32d9787",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelles libertés une licence propriétaire limite-t-elle ?",
+    "back": "Au moins une de ces quatre libertés est interdite ou limitée par le propriétaire, alors qu'une licence libre respecte les quatre.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "dec512b1-a80f-50d1-adbd-996ba4a5c6b3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelles sont les 3 familles de licences libres ?",
+    "back": "Copyleft (restrictive), Open Source (permissive) et licence asymétrique (semi-libre).",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "c6c39c18-71b1-510d-aa54-0464fdcdbdac",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qu'est-ce que le copyleft (licence restrictive) ?",
+    "back": "L'autorisation de copier, diffuser et modifier n'est accordée qu'à condition de conférer la même licence, donc les mêmes libertés, à autrui sur ses propres contributions. Exemples : GNU GPL, CeCILL.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "d95bf50a-cd80-573c-b5c4-f219fb67a52b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qu'est-ce qu'une licence open source (permissive) ?",
+    "back": "Elle confère la libre redistribution et l'accès au code source, sans obligation d'accorder les mêmes libertés lors d'une rediffusion de l'œuvre modifiée ou non. Exemples : BSD, CeCILL-B.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "d3731df2-3ad4-5273-afb6-c62a52c0e20c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qu'est-ce qu'une licence asymétrique (semi-libre) ?",
+    "back": "L'auteur accorde les libertés de copier, diffuser et modifier tout en se réservant l'exclusivité de certaines prérogatives, et oblige à ce que les enrichissements soient soumis à une licence qu'il a choisie. Exemples : GNU LGPL, CeCILL-C.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "084a6080-a34a-5385-9f8c-769992915f5c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelle licence correspond à « domaine public, vous pouvez copier, modifier et distribuer, et chaque personne choisit la licence de ses modifications » ?",
+    "back": "BSD (licence permissive).",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "2297ca90-2f3a-5693-b05b-64b30e211d27",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelle licence correspond à « copyleft : chaque modification doit être soumise à la même licence » ?",
+    "back": "GPL.",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "386ff3a8-e338-53a6-ba8a-528363bd1033",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelle licence correspond à « asymétrique : les modifications faites par d'autres doivent être soumises à la licence d'utilisation de ce logiciel » ?",
+    "back": "LGPL.",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "b4da0388-9493-535b-b5cf-26d013249305",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quels sont les avantages d'une licence libre pour l'utilisateur ?",
+    "back": "Liberté d'exécution, d'étudier, de modifier et de partager ces modifications, coût économique plus faible, interopérabilité, flexibilité.",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "55fc4fed-0088-5446-a04b-6080a30f22ea",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quels sont les inconvénients d'une licence libre pour l'utilisateur ?",
+    "back": "Peu de support, la licence peut être asymétrique (GPL ou LGPL) et ne pas permettre de redistribuer comme on veut, il faut connaître les licences pour savoir ce que l'on a le droit de faire, et la dépendance éventuelle à un créateur.",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "4a53a5f9-2a5c-5881-93a6-dbf99642bb37",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quels sont les avantages d'une licence propriétaire pour l'utilisateur ?",
+    "back": "Une interface intuitive et épurée, un support 24h/24 et 7j/7, une notoriété rassurante et plus de documentation.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "a214e964-f9bf-5e15-bee1-3dbe2e2013a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quels sont les inconvénients d'une licence propriétaire pour l'utilisateur ?",
+    "back": "Souvent payant, mises à jour payantes, respect de la vie privée, manque de personnalisation, arrêt de la revente ou du support, et mise à jour forcée.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "b6787056-50fd-5ab6-88f0-dd7e6b6b5cc6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Citez un système d'exploitation propriétaire et un libre.",
+    "back": "Propriétaire : Windows, macOS. Libre : GNU/Linux, BSD.",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   },
+   {
+    "id": "1f01bfa4-10bb-541c-a319-b3a79d1776ad",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Citez un SGBD relationnel propriétaire et un libre.",
+    "back": "Propriétaire : SQL Server, Oracle Database. Libre : MariaDB, MySQL.",
+    "createdAt": "2000-01-01T00:00:39.000Z"
+   },
+   {
+    "id": "a28bd142-8a34-5783-b7b0-38ac5bc92d90",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Citez un navigateur web propriétaire et un libre.",
+    "back": "Propriétaire : Edge, Chrome. Libre : Chromium, Firefox.",
+    "createdAt": "2000-01-01T00:00:40.000Z"
+   },
+   {
+    "id": "949c25aa-b013-5f9e-b5a3-2bb3c5bf28c3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Citez une suite bureautique propriétaire et une libre.",
+    "back": "Propriétaire : Microsoft Office 365. Libre : LibreOffice.",
+    "createdAt": "2000-01-01T00:00:41.000Z"
+   },
+   {
+    "id": "0121e813-eead-500f-9179-5af62371cda6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Citez un logiciel de traitement d'images propriétaire et un libre.",
+    "back": "Propriétaire : Photoshop. Libre : GIMP.",
+    "createdAt": "2000-01-01T00:00:42.000Z"
+   },
+   {
+    "id": "61ae49a4-233e-557d-9536-1db1ee792149",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Citez un serveur d'applications propriétaire et un libre.",
+    "back": "Propriétaire : IIS (Microsoft). Libre : Apache, Nginx.",
+    "createdAt": "2000-01-01T00:00:43.000Z"
+   },
+   {
+    "id": "bd45082c-e7af-5d37-afec-fa2b823b1563",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Citez un serveur mail propriétaire et un libre.",
+    "back": "Propriétaire : MS Exchange. Libre : Zimbra, Postfix.",
+    "createdAt": "2000-01-01T00:00:44.000Z"
+   },
+   {
+    "id": "29418c9e-172a-564d-a2b3-9975a154db12",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qu'est-ce que la double licence ?",
+    "back": "Une clause de licence qui permet à un utilisateur d'une œuvre protégée par le droit d'auteur de l'utiliser en se conformant à l'un de deux ensembles de conditions.",
+    "createdAt": "2000-01-01T00:00:45.000Z"
+   },
+   {
+    "id": "483ce538-11a3-56ff-a237-4dc699f28ee9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quels sont les deux ensembles de conditions d'une double licence ?",
+    "back": "Une licence libre open source pour le produit standard, et une licence commerciale propriétaire, plus protégée, avec garantie et plus de fonctionnalités.",
+    "createdAt": "2000-01-01T00:00:46.000Z"
+   },
+   {
+    "id": "117bbc17-438a-5668-a28c-907a846ab404",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Qu'est-ce que le domaine public ?",
+    "back": "L'ensemble des créations intellectuelles dont les droits d'exploitation liés au droit d'auteur sont expirés.",
+    "createdAt": "2000-01-01T00:00:47.000Z"
+   },
+   {
+    "id": "9d3160b6-efde-58ce-867a-38ad284c10c3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelle est la durée des droits d'exploitation selon la convention de Berne (1886) ?",
+    "back": "70 ans après la mort de l'auteur, ou 70 ans à dater de la première diffusion (si la diffusion est posthume, ou si l'œuvre est créée par plusieurs auteurs).",
+    "createdAt": "2000-01-01T00:00:48.000Z"
+   },
+   {
+    "id": "2733fe37-463e-513b-8e1a-b6c3b31e4961",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Y a-t-il beaucoup de logiciels dans le domaine public ?",
+    "back": "Il y en a peu : ce sont des logiciels abandonnés par leurs auteurs, développés bénévolement (souvent dans le cadre universitaire).",
+    "createdAt": "2000-01-01T00:00:49.000Z"
+   },
+   {
+    "id": "9fecbcd7-14fd-5d00-9099-bbab8756a0d1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "9cc3a80a-6970-55e3-b69b-6c7429b2f2a3",
+    "front": "Quelles sont les caractéristiques d'un logiciel du domaine public ?",
+    "back": "Sa redistribution et son utilisation sont autorisées sans limitation, mais sa modification est souvent impossible car le code source est indisponible.",
+    "createdAt": "2000-01-01T00:00:50.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "0cb71b75-fcd3-50a2-b391-7f58fed198b8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cc6dbe8c-106c-5eda-84fd-0282830a7f5f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c5f027f1-6ea6-532c-b6ff-0345c0d0d0be",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "687915f6-d44e-5851-aaf4-5c026d4e07f7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c1272164-ee25-5bcb-b83f-22498d4e5546",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e6377957-60c2-59c5-a56a-84b501c7e2d8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "df747e22-6d9d-585a-9449-70196aa569af",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7dcc9778-1abd-5681-b9d5-f1dc20074db3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0526dc6c-71b8-5874-b104-25c68e9fba6b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "81d22035-ba47-5ea3-9468-96d0a632ec88",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3434395d-be8d-5264-8263-768b0f8666cf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "67ca0a8c-59b6-5674-9bbd-f66c2e907c03",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "516cf4f2-3b98-5261-b4f1-2a6ae6b035e2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f1e51c64-a6e1-5ba2-b7dd-87c1343ee301",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "45925c13-5cd2-52d1-9502-d84befac1d71",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "aef7f802-eab5-5a6a-9ec2-0d915ae7e768",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b6775bd7-3b2c-5c0f-a64f-9e792f472964",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "62d923a7-f281-59a7-baed-0888c0339338",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1f26fcdc-5d06-5c52-9a54-b0d9a1aa46e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cdd47a9d-177a-5924-95d8-dc83a02e5e30",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0052db7e-52ed-5423-b93b-8766252afcba",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "405c98c0-734f-5514-b174-b7f162297c16",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cd30ffb2-08ed-54a4-8b87-935397d63d8c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "033385dd-e33c-5a81-8bf1-df2ad6230f09",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f734c7de-2e05-5032-8bba-999e9665c382",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "24c31cf1-c6e2-517f-9047-036c07694be4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7322f7c6-dbdd-55bb-816d-c99dfcc270b3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4708fd90-bf3c-5956-8bb5-7de92b679961",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "79699be8-33e5-5583-a3ab-1de258814845",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1de302e6-f0f9-5cda-8397-141824094469",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c7f7e58b-81b1-5a52-8558-160d37df879f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "58cdcb16-adac-5e1d-89f0-beaa5bce1523",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "424dbe25-aa97-5275-95c6-5563861b3952",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4057a8f1-f9cc-5c95-963f-125a96df4ab6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ab21f885-360b-5335-ad8b-2d4bc0a29071",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7213d70c-640f-5872-8b49-8df0cd6f4984",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "45cbed45-4c12-5076-8ca4-6405116b8f50",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7d223896-58e3-5be6-bbf2-92a311892f3b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "018e597c-4e0e-5795-bd2e-025054af06ea",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e6b925ea-cc9a-5bd7-9239-42481567c46d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f1bbdaa6-ec72-53d8-aec9-f1a72fc8478a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "78ea276c-8ee0-5ff5-b2cf-7a9ad04ad27f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d84c8dab-3bbe-5485-a393-f34beb84a936",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dd088e88-dd50-5d0d-82e2-f688a8661a00",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d14a60dd-9062-5930-81d6-cd46e03fc99b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2a88048b-2c2f-571e-beec-67b0a21e8ab5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6ada8776-1b13-5bcc-bb29-5c4c2bb148cc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "37e777d1-7a39-5f9e-9e24-cf83319ec347",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cdbf6697-fbd2-5564-b0fb-09cf3aaccfb4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4f91fd10-6ecf-5f99-93f5-9e37b4dcabf1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f2d4c983-0276-59b5-8ddd-e605d871a68b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2d3f78da-dfbd-5f53-82d4-3e97cda339f6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "86302704-0598-524d-bda6-fd47a420d433",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4e183657-0b44-5017-a506-4738b32d9787",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b210ca29-162e-5ed8-8c18-101a1d7b6f5a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dec512b1-a80f-50d1-adbd-996ba4a5c6b3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "19204b51-2689-561d-b9e0-67aadbeddaad",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c6c39c18-71b1-510d-aa54-0464fdcdbdac",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bb3bb8ea-e029-52bf-8c81-dd14c3b40436",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d95bf50a-cd80-573c-b5c4-f219fb67a52b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8a2c141e-39b2-5cc2-bfff-acad13fb39a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d3731df2-3ad4-5273-afb6-c62a52c0e20c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0c901115-93f4-5c9f-a29f-0e3f8e82a8e4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "084a6080-a34a-5385-9f8c-769992915f5c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7a646757-bde6-5bb5-9dde-1ccacb9d2f77",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2297ca90-2f3a-5693-b05b-64b30e211d27",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cd846379-fe0a-5f07-b916-6eee433637ca",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "386ff3a8-e338-53a6-ba8a-528363bd1033",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c1473ada-acf8-58d2-ac09-c1e219cb1ec3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b4da0388-9493-535b-b5cf-26d013249305",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e2a2294d-0004-5b08-af27-33d9a82a21cd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "55fc4fed-0088-5446-a04b-6080a30f22ea",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "be08fe9b-2d0b-5ee4-a7ad-49962ef21999",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4a53a5f9-2a5c-5881-93a6-dbf99642bb37",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d9defe14-c531-5c8d-852b-6d3323c50ee4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a214e964-f9bf-5e15-bee1-3dbe2e2013a4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e2530836-be9b-56bc-801e-e86c8749b35a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b6787056-50fd-5ab6-88f0-dd7e6b6b5cc6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d96b8db5-e261-5d06-8139-2c03fa6f07d5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1f01bfa4-10bb-541c-a319-b3a79d1776ad",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "700483ee-a290-5cbe-86a7-3d3c43c8d0ab",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a28bd142-8a34-5783-b7b0-38ac5bc92d90",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1ac24094-a292-58fe-b9af-0dfc5bdba14b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "949c25aa-b013-5f9e-b5a3-2bb3c5bf28c3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9d78c14f-855e-5402-8d3a-6350e8b3757c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0121e813-eead-500f-9179-5af62371cda6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7f39fe6f-b068-59fa-963b-6132020c03c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "61ae49a4-233e-557d-9536-1db1ee792149",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7fd08f36-2245-5155-95ee-c73f4b96ba3b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bd45082c-e7af-5d37-afec-fa2b823b1563",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6e5f8bd6-271e-5930-a3c5-1575dbd170a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "29418c9e-172a-564d-a2b3-9975a154db12",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f62952b9-1a5c-5a59-a134-6b6ec5de02b4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "483ce538-11a3-56ff-a237-4dc699f28ee9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6e4f086b-81bb-5d0e-ab7e-60bb72b72d70",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "117bbc17-438a-5668-a28c-907a846ab404",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d4064195-d544-50a4-85d1-9010e23e2515",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9d3160b6-efde-58ce-867a-38ad284c10c3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b74154b0-bf44-54ef-8fc4-40dc2ad4c2d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2733fe37-463e-513b-8e1a-b6c3b31e4961",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "30c4c603-844e-573e-b61c-25401314e245",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9fecbcd7-14fd-5d00-9099-bbab8756a0d1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

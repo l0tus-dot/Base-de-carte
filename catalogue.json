@@ -116,10 +116,87 @@
   },
   {
    "subject": "CEJMA",
+   "deck": "Contrat de prestation informatique et SLA",
+   "cards": 39,
+   "description": "Sous-traitance et externalisation, contrat de prestation TIBCO, obligations d'information, de collaboration, de moyens et de résultat, et accord de niveau de service.",
+   "path": "paquets/cejma/contrat-prestation-et-sla.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "Données à caractère personnel et RGPD",
+   "cards": 51,
+   "description": "Le RGPD, l'identification des DCP, l'anonymisation, les droits des personnes, la CNIL et son MOOC.",
+   "path": "paquets/cejma/donnees-personnelles-rgpd.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "Gestion des actifs logiciels et contrats de licence",
+   "cards": 25,
+   "description": "Le SAM, l'audit de licence, Flexera, la comparaison d'un contrat propriétaire (Adobe) et libre (VLC, GPL) et la jurisprudence Educaffix c/ CNRS.",
+   "path": "paquets/cejma/gestion-actifs-logiciels-et-contrats.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "Identité numérique et cybersécurité",
+   "cards": 58,
+   "description": "Définition de l'identité numérique, composantes, modèles centralisé et décentralisé, eIDAS 2, EUDI Wallet, principes SSI et responsabilité pénale du technicien SIO.",
+   "path": "paquets/cejma/identite-numerique-cybersecurite.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "La gestion des actifs informatiques (ITAM)",
+   "cards": 12,
+   "description": "L'ITAM, les trois étapes de la démarche et les fonctions d'une solution ITAM.",
+   "path": "paquets/cejma/gestion-actifs-informatiques.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "Les acteurs de l'industrie informatique",
+   "cards": 30,
+   "description": "Typologie des acteurs (constructeurs, éditeurs, ESN, opérateurs), secteurs d'activité et taille des entreprises (TPE, PME, ETI, GE).",
+   "path": "paquets/cejma/acteurs-industrie-informatique.json"
+  },
+  {
+   "subject": "CEJMA",
    "deck": "Les licences logicielles",
    "cards": 21,
    "description": "",
    "path": "paquets/cejma/les-licences-logicielles.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "Licences libres, droits d'usage et sanctions",
+   "cards": 51,
+   "description": "Les droits d'une licence propriétaire, les logiciels libres, les trois types de licences libres, la double licence, le domaine public et les sanctions.",
+   "path": "paquets/cejma/licences-libres-et-droits.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "Normes et standards en informatique",
+   "cards": 12,
+   "description": "Différence entre standard et norme, standard ouvert ou fermé, et classement de termes informatiques.",
+   "path": "paquets/cejma/normes-et-standards.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "Patrimoine informatique d'un salon de coiffure",
+   "cards": 20,
+   "description": "Définition du patrimoine informatique, inventaire, audit préventif, coûts et évolutions à partir du cas du salon DuoCoiff.",
+   "path": "paquets/cejma/patrimoine-informatique-salon-coiffure.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "Présentation de la CEJMA",
+   "cards": 12,
+   "description": "Les blocs de compétences, les thèmes de la CEJM et les fiches de CEJMA du BTS SIO.",
+   "path": "paquets/cejma/presentation-cejma.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "Réglementation d'un site internet",
+   "cards": 41,
+   "description": "Nom de domaine et litiges, mentions légales, RGPD, droits d'auteur, CGU, cookies et typologie des sites.",
+   "path": "paquets/cejma/reglementation-site-internet.json"
   },
   {
    "subject": "Cybersécurité",

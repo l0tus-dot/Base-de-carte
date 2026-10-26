@@ -1,0 +1,55 @@
+# Matière : CEJMA
+# Paquet : Données à caractère personnel et RGPD
+# Description : Le RGPD, l'identification des DCP, l'anonymisation, les droits des personnes, la CNIL et son MOOC.
+
+Que veut dire RGPD ? ; Règlement général sur la protection des données.
+Quand le RGPD est-il entré en vigueur ? ; Le 25 mai 2018.
+Qu'est-ce que le RGPD ? ; Un texte réglementaire européen qui harmonise les règles de traitement des données à caractère personnel dans toute l'Union européenne.
+À qui s'adresse le RGPD ? ; À toutes les structures privées ou publiques qui collectent et/ou traitent des DCP sur le territoire de l'UE.
+Quelle loi française protégeait les DCP avant le RGPD ? ; La loi Informatique et Libertés du 6 janvier 1978.
+Quels sont les trois objectifs principaux du RGPD ? ; Renforcer les droits des personnes, responsabiliser les acteurs traitant des données et crédibiliser la régulation grâce à une coopération renforcée entre les autorités de protection des données.
+Quelles sont les sanctions pénales maximales pour non-respect du RGPD ? ; 5 ans de prison et 300 000 euros d'amende. Sur le plan civil : réparation de la totalité des dommages.
+Quels sont les principes ou obligations auxquels les laboratoires doivent se plier pour montrer leur conformité ? ; Nommer un délégué à la protection des données, recenser les traitements de données, définir les actions correctives, analyser les risques, établir des procédures internes, tenir une documentation et faire un audit.
+Quelle est l'autorité de référence en France pour contrôler l'application du RGPD ? ; La CNIL.
+Donnez un exemple de mesure à adopter pour se conformer au RGPD. ; Demander le consentement de l'utilisateur lors de la collecte de ses données et l'informer sur le stockage et le traitement de ces données.
+Quels types de données ne faut-il pas confondre ? ; Les données personnelles, les données personnelles sensibles, les données stratégiques sensibles et les données publiques. Les trois premières sont considérées comme confidentielles.
+Donnez des exemples de données stratégiques sensibles qui n'ont pas de caractère personnel. ; Les commandes passées par les pharmacies, le nom des professionnels de santé démarchés, la composition des médicaments.
+Qu'est-ce qu'un visiteur médical ? ; Une sorte de commercial pour un laboratoire, chargé de faire connaître aux médecins, pharmaciens et autres professionnels de santé les offres et produits du laboratoire. Il ne fait pas de vente.
+Qu'est-ce que l'identification directe d'une personne ? ; Elle se produit lorsque les informations permettent d'identifier une personne sans nécessiter d'autres données.
+Qu'est-ce que l'identification indirecte d'une personne ? ; Elle intervient lorsque la personne ne peut pas être identifiée uniquement à partir d'une donnée.
+Donnez des exemples d'identification directe. ; Le nom, le prénom, la vidéo, la photo du visage, l'adresse électronique nominative.
+Donnez des exemples d'identification indirecte. ; Le numéro de sécurité sociale, la date et le lieu de naissance, le numéro de téléphone, l'adresse IP, la plaque d'immatriculation, le numéro de carte d'identité, l'adresse du domicile.
+Que dit l'article 9 du RGPD ? ; Il interdit le traitement des données à caractère personnel qui révèlent l'origine raciale ou ethnique, les opinions politiques, les convictions religieuses ou philosophiques, ou l'appartenance syndicale.
+À quelle condition les données biométriques peuvent-elles être recueillies par le service RH ? ; Le traitement des données génétiques et biométriques est interdit quand il vise à identifier une personne physique de manière unique, sauf exception.
+Quelles DCP sont dites sensibles dans le domaine de la santé ? ; L'état de santé, les maladies (y compris chroniques), le groupe sanguin, les échantillons biologiques, les examens prescrits et leurs résultats.
+Pourquoi les données de santé sont-elles qualifiées de « sensibles » ? ; Elles peuvent être vendues et/ou exploitées pour des raisons commerciales, et les DCP peuvent donner lieu à des infractions.
+Quelles données sont les plus exposées à un risque de cybersécurité ? ; Les DCP permettant l'identification indirecte et les données sensibles.
+Que signifie DCP ? ; Données à caractère personnel : des informations se rapportant à une personne vivante identifiée ou identifiable.
+Des DCP chiffrées ou pseudonymisées restent-elles des DCP ? ; Oui, si elles peuvent être utilisées pour identifier à nouveau une personne : elles sont couvertes par le RGPD.
+Quand des DCP ne sont-elles plus des DCP ? ; Quand elles ont été rendues anonymes de telle manière que la personne ne soit pas ou plus identifiable. Le processus d'anonymisation doit être irréversible.
+Le chiffrement et la pseudonymisation rendent-ils les DCP anonymes ? ; Non, ils ne permettent pas de rendre les DCP anonymes, car le processus n'est pas irréversible.
+Le RGPD dépend-il de la technologie utilisée ? ; Non, il est neutre sur le plan technologique : il s'applique au traitement automatisé et manuel, à condition que les données soient organisées selon certains critères prédéterminés (par exemple l'ordre alphabétique), quelle que soit la méthode de conservation (système informatique, vidéo, papier).
+Quelle législation spécifique s'applique aux données de localisation et aux cookies ? ; La directive « vie privée et communications électroniques » (directive 2002/58/CE du 12 juillet 2002).
+Qu'est-ce que le droit d'information (transparence) ? ; Le droit de questionner l'organisation sur l'utilisation effective des données (ex. : demander à une entreprise d'envoyer à une autre des données la concernant).
+Qu'est-ce que le droit d'accès ? ; Le droit d'obtenir et de vérifier les données qu'un organisme détient sur soi, y compris les fichiers de police, de gendarmerie et de renseignement, et le fichier des comptes bancaires (FICOBA). Il permet de vérifier la pertinence et la minimisation des données.
+Qu'est-ce que le droit de rectification ? ; Le droit de contrôler et faire modifier les informations inexactes.
+Qu'est-ce que le droit d'opposition ? ; Le droit d'interdire à tout moment à un organisme d'utiliser certaines de ses données, notamment de s'opposer au profilage et de demander l'intervention humaine dans un traitement automatisé.
+Qu'est-ce que le droit à la limitation du traitement ? ; Le droit de demander à un organisme de geler temporairement l'utilisation de certaines données (ex. : conserver une vidéo mais ne pas la diffuser).
+Qu'est-ce que le droit au déréférencement ? ; Le droit d'obtenir de ne plus associer son nom et son prénom à un contenu visible dans un moteur de recherche.
+Qu'est-ce que le droit à l'effacement (droit à l'oubli) ? ; Le droit à l'effacement des données.
+Qu'est-ce que le droit à la portabilité ? ; La possibilité de récupérer une partie de ses données dans un format ouvert et lisible, de les stocker et de les transmettre facilement d'un système d'information à un autre pour les réutiliser à des fins personnelles.
+Quel droit n'existait pas sous la loi Informatique et Libertés ? ; Le droit à la portabilité.
+Une fois le consentement donné, peut-on s'opposer au traitement ? ; Oui : l'affirmation inverse (« on ne peut plus s'y opposer ») est erronée.
+Dans quel délai répondre à une demande de droit d'accès ? ; Dans un délai de 1 mois.
+Les traitements papiers sont-ils concernés par le RGPD ? ; Oui : l'affirmation « les traitements papiers ne sont pas concernés » est fausse.
+Quel principe du RGPD a permis l'ouverture du marché des données bancaires (Smartpush) ? ; La portabilité des données (avec la directive DSP2).
+Quel est l'intérêt de Smartpush pour le commerçant ? ; Améliorer la connaissance client et proposer des offres personnalisées.
+Quel est l'intérêt de Smartpush pour la banque ? ; Une nouvelle source de revenus et lutter à armes égales avec les GAFAM.
+Quel est l'intérêt de Smartpush pour le consommateur ? ; Ne plus être spammé et gagner en pouvoir d'achat.
+Quel est le modèle économique de Smartpush ? ; Une source de revenus par commission sur le panier du commerçant partenaire (2 %, dont la moitié est reversée à la banque).
+Que faire à défaut de consentement pour diffuser des recommandations non personnalisées ? ; Anonymiser ou pseudonymiser les données.
+Qu'est-ce que l'Atelier RGPD de la CNIL ? ; Une formation en ligne gratuite et illimitée (MOOC), qui sensibilise les professionnels à la protection des données et accompagne leur mise en conformité. Elle s'adresse principalement aux délégués à la protection des données (DPO).
+Comment le MOOC de la CNIL est-il structuré ? ; En 5 modules d'une durée totale de 5 heures en moyenne, avec un 6e module nouveau (travail et données personnelles). Une attestation de suivi par module est délivrée à qui répond correctement à 80 % des questions.
+Quels sont les modules du MOOC de la CNIL ? ; Module 1 : le RGPD et ses notions clés. Module 2 : les principes de la protection des données. Module 3 : les responsabilités des acteurs. Module 4 : le DPO et les outils de la conformité. Module 5 : les collectivités territoriales. Module 6 : travail et données personnelles.
+Que comprend le module 2 du MOOC de la CNIL ? ; Les 8 règles d'or, la finalité, la licéité, la minimisation, la protection particulière de certaines données, la conservation limitée, l'obligation de sécurité, la transparence, les droits des personnes et l'encadrement des transferts hors de l'UE.
+Que comprend le module 4 du MOOC de la CNIL ? ; Le délégué à la protection des données, le registre, l'analyse d'impact sur la vie privée, la notification des violations de données, la certification et les codes de conduite.

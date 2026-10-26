@@ -1,0 +1,24 @@
+# Matière : CEJMA
+# Paquet : Patrimoine informatique d'un salon de coiffure
+# Description : Définition du patrimoine informatique, inventaire, audit préventif, coûts et évolutions à partir du cas du salon DuoCoiff.
+
+Qu'est-ce que le patrimoine informatique d'une organisation ? ; L'ensemble de ses actifs informatiques : matériels (le parc informatique) et immatériels (licences logicielles, contrats, brevets, services numériques internes ou dans le Cloud).
+Quels sont les actifs matériels du patrimoine informatique ? ; Le parc informatique.
+Quels sont les actifs immatériels du patrimoine informatique ? ; Les licences logicielles, les contrats, les brevets, les services numériques internes ou dans le Cloud de l'organisation.
+Que doit permettre la gestion du patrimoine informatique ? ; L'identification des ressources numériques, la mise en place des niveaux d'habilitation associés aux services numériques, la vérification du respect des règles d'utilisation, la gestion des sauvegardes, l'exploitation des référentiels, normes et standards, et la vérification des conditions de continuité des services informatiques.
+Quelle est la source de cette définition du patrimoine informatique ? ; Le Journal officiel, programme SIO du 30 mai 2019.
+Quels sont les leviers à identifier pour la gestion du patrimoine ? ; La scalabilité, la centralisation, la conformité et la résilience.
+Citez des catégories de matériel pour un salon de coiffure. ; PC fixe, TPE (terminal de paiement), imprimante, scanner, téléphone fixe, box Internet, écran tactile, clavier et souris, bras d'écran. Également : équipements réseaux, équipements mobiles, postes de travail, matériel partagé, multimédia et sécurité.
+Citez des types de logiciels pour un salon de coiffure. ; Boîte mail, calendrier ou agenda, suite bureautique, tableur, GLPI.
+Citez des types de données à gérer dans un salon de coiffure. ; Nom, prénom, téléphone, e-mail, prix, coiffure, coiffeur, base de données SQL.
+Quelles informations collecter à l'inventaire pour le matériel ? ; CPU, carte mère, GPU, alimentation, RAM, nombre de disques, version du BIOS, carte réseau, numéros de série.
+Quelles informations collecter à l'inventaire pour les logiciels ? ; La version et la licence.
+Quelles informations collecter à l'inventaire pour les données ? ; Le format (SQL/XML, JSON/CSV), le serveur de stockage, les adresses IP et les adresses MAC.
+Que vérifier lors d'un audit préventif du matériel ? ; Maintenance : le matériel est-il en bon état ? Sécurité : le matériel est-il protégé ? Optimisation : les drivers et le BIOS sont-ils à jour ?
+Que vérifier lors d'un audit préventif des logiciels ? ; Maintenance, sécurité et optimisation : le logiciel est-il à jour ?
+Que vérifier lors d'un audit préventif des données ? ; Maintenance : les données ont-elles été sauvegardées une seconde fois ? Sécurité : les données sont-elles sécurisées ? Optimisation : y a-t-il des données en trop à supprimer ?
+Quels sont les quatre postes de coût du patrimoine informatique ? ; Les coûts d'acquisition, de maintenance annuelle, de remplacement et d'obsolescence, et des évolutions futures.
+Quelles fourchettes de coût ont été estimées pour le salon ? ; Acquisition : entre 2 500 et 5 000 euros. Maintenance annuelle : entre 100 et 200 euros. Remplacement et obsolescence : entre 500 et 1 000 euros. Évolutions futures : entre 400 et 800 euros.
+Que prévoir si le gérant ouvre un deuxième salon ? ; Une synchronisation entre les deux salons.
+Que prévoir si le gérant veut piloter à distance depuis chez lui ? ; Un tunnel VPN sécurisé.
+Que prévoir si le gérant veut proposer de nouveaux services numériques ? ; Prévoir ce qu'il veut mettre en place pour voir si son infrastructure est adaptée.

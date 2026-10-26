@@ -1,0 +1,1251 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Identité numérique et cybersécurité"
+   }
+  ],
+  "cards": [
+   {
+    "id": "ba6bc27b-6b32-55dc-8a77-4c9866b7afa6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Qu'est-ce que l'identité numérique (IDN) ?",
+    "back": "Les contenus (les traces) diffusés sur Internet permettant d'identifier un utilisateur, personne physique (individu) ou personne morale (organisation), et les moyens permettant de vérifier qu'elle est bien celle qu'elle prétend être sur Internet.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "3164b64d-2ed7-555f-b9ab-27cd3b2abc70",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quels sont des exemples d'éléments de l'identité numérique ?",
+    "back": "Des données d'identité (nom, prénom, date de naissance), des identifiants (adresse électronique, identifiant de compte), des moyens d'authentification (mot de passe, certificat, clé de sécurité, biométrie), des justificatifs numériques (permis, diplôme, titre d'identité) et des attributs vérifiables (majorité, qualité professionnelle, droit à une prestation).",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "bb2978d4-67f1-5e71-b75b-48a6c77345a2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que veut dire identification ?",
+    "back": "« Qui êtes-vous ? »",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "0cf5c5c5-c05f-589e-b0f6-e63328b111ed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que veut dire authentification ?",
+    "back": "« Prouvez-moi que vous êtes bien cette personne. »",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "61630732-efc9-5fbc-9e6a-f49453310d01",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que veut dire autorisation ?",
+    "back": "« À quoi avez-vous le droit d'accéder ? »",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "d1a41f6f-3558-5b6d-9b06-af746d4013bc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quels équilibres l'identité numérique doit-elle trouver ?",
+    "back": "Sécurité (empêcher l'usurpation et les accès frauduleux), fiabilité (exactitude des informations), confidentialité (protéger les données personnelles et la vie privée), simplicité, interopérabilité (utiliser son identité dans différents services et pays) et souveraineté.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "af08b20b-9b23-54d3-873e-72c45d0c1f9d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Qu'est-ce que la souveraineté numérique ?",
+    "back": "La capacité d'un État ou d'un ensemble politique à maîtriser ses infrastructures, ses données, ses technologies et ses règles permettant d'identifier ses citoyens dans l'environnement numérique, en limitant sa dépendance à des acteurs privés ou étrangers.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "5bfbfe94-a9fd-5356-ba15-b6cf520c9a07",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelles sont les trois composantes de l'identité numérique (modèle de Fanny Georges) ?",
+    "back": "L'identité déclarative, l'identité agissante et l'identité calculée.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "c9960cb4-ad59-5b6b-8c81-79d46a84b34a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Qu'est-ce que l'identité déclarative ?",
+    "back": "Les données saisies par l'utilisateur qu'il choisit de partager volontairement sur le Web (identité juridique, identité administrative, identité d'accès, autres traces profilaires).",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "b253015c-1a63-5bbd-9474-5dccb9a9bf10",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Qu'est-ce que l'identité agissante ?",
+    "back": "Les données laissées par un membre de l'organisation lors de sa navigation sur le Web : cookies, historique, adresses IP, journaux de connexion, likes, partages. Les traces navigationnelles sont conservées.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "a43db7c1-1ea0-5235-8d3d-03cf4eff8f12",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Qu'est-ce que l'identité calculée ?",
+    "back": "L'interprétation ou l'extrapolation des traces laissées volontairement ou non (identité déclarative et agissante) pour réaliser des projections des comportements à venir : score d'e-réputation, référencement, profilage client, publicités ciblées, prévisions par IA.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "31287baa-2c1c-5197-8f59-4c35c888e29a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que sont le NIR et le SIREN ?",
+    "back": "Le NIR est le numéro d'inscription au répertoire des personnes physiques (numéro de Sécurité sociale : 13 chiffres et une clé de 2 chiffres). Le SIREN identifie une entreprise dans le système SIRENE de l'INSEE (le SIRET identifie un établissement).",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "8777212c-f63e-5439-b6bf-813947f03bc5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que décrit le code APE de l'INSEE ?",
+    "back": "L'activité principale exercée par l'entreprise.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "868c241b-0130-501f-9987-f58191a1d3ba",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que veut dire SIRENE ?",
+    "back": "Système national d'identification et du répertoire des entreprises et des établissements, géré par l'INSEE.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "c1d57262-f5a1-5f1f-9539-1d0d3265b993",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quels espaces et supports utilise une entreprise pour diffuser son identité numérique ?",
+    "back": "Son site web (vitrine, e-commerce, blog) rattaché à un nom de domaine, les réseaux sociaux, les fiches d'établissement et avis clients, les registres et annuaires officiels (Infogreffe, INSEE, INPI, BODACC), les plateformes de recrutement, les newsletters, la presse en ligne, les applications mobiles et les documents en ligne (mentions légales, CGV).",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "e219500f-0ef2-5811-8f7e-93d2a526021f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelles technologies traitent les traces de l'identité déclarative ?",
+    "back": "Les formulaires en ligne et CMS, les réseaux sociaux, les bases de données et registres, l'annuaire d'entreprise (Active Directory, LDAP), l'authentification forte (MFA, 2FA, SSO), les gestionnaires de mots de passe, les certificats numériques et SSL/TLS, les fournisseurs d'identité (FranceConnect, Microsoft Entra ID), les pare-feu, VPN et proxy, et les bandeaux de consentement.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "20b67f00-2ba2-5582-81c2-770275d98111",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelles technologies traitent les traces de l'identité agissante ?",
+    "back": "Les cookies et traceurs, les balises et pixels de suivi (Google Analytics, Matomo, Meta Pixel), les journaux (logs) de serveurs web, proxy et pare-feu, l'empreinte du navigateur et les SDK d'applications mobiles.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "c5b0fb7c-4e17-577c-90c8-4672888f42cb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelles technologies produisent l'identité calculée ?",
+    "back": "La supervision et corrélation des logs (SIEM), le machine learning et l'IA, le Big Data, les outils de web analytics, de scoring et de CRM, les moteurs de recommandation et régies publicitaires et les outils de veille et d'e-réputation.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "6248951e-5345-56fe-be11-8750304a5f0c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Qu'est-ce que le modèle d'identité centralisé ?",
+    "back": "L'organisation conserve les données de l'utilisateur dans sa propre base centrale. Exemple : un site conserve le nom, l'adresse et la date de naissance de ses clients.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "a1ad8e12-79c8-512a-be5c-3ad9054c87d1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quels sont les avantages et les risques du modèle centralisé ?",
+    "back": "Avantages : gestion relativement simple, contrôle centralisé, administration facilitée. Risques : communication de données concentrées, risque important en cas de piratage de la base, surveillance ou traçage, corrélation des activités, multiplication des comptes, dépendance à un serveur central.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "c93bcafb-9172-55ac-b735-17d5913ea560",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Qu'est-ce que le modèle d'identité décentralisé ?",
+    "back": "L'utilisateur conserve le contrôle de ses justificatifs numériques et choisit ce qu'il présente au service (divulgation sélective). Exemple : prouver sa majorité en transmettant « +18 ans : OUI » sans communiquer sa date de naissance complète.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "e727aa34-9f6b-5ff3-aa1f-2135dcf50702",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quel est le schéma de fonctionnement du modèle décentralisé ?",
+    "back": "L'autorité de confiance émet un justificatif, l'utilisateur présente le justificatif, le service vérificateur le vérifie.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "5e4ff6ae-db85-5e77-be1b-1e8c384f3d86",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quels sont les avantages du modèle décentralisé ?",
+    "back": "Données minimisées, contrôle de ses données par l'utilisateur, recherche de non-corrélation, possibilité de réutiliser des justificatifs numériques, distribution du contrôle.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "ea96ed5f-cea6-5062-b332-55115f88af16",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que posait eIDAS 1 (règlement UE n° 910/2014) ?",
+    "back": "Les bases de l'authentification transfrontalière et des services de confiance (signature électronique, horodatage, cachet). Sa portée était limitée par le manque d'interopérabilité directe entre pays et l'absence de solution native pour le citoyen.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "199fcd64-aad3-5f81-a06f-963c5c534d7d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Qu'introduit eIDAS 2 (règlement UE 2024/1183) ?",
+    "back": "Entré en vigueur en mai 2024, il introduit le Portefeuille européen d'identité numérique (EUDI Wallet).",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "ed6084de-72aa-54bf-bc2c-ea2b3b4d0e4a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelle est l'obligation de déploiement de l'EUDI Wallet ?",
+    "back": "Les États membres ont jusqu'à fin 2026 pour mettre à disposition au moins un EUDI Wallet gratuit et certifié à leurs citoyens et résidents.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "d0b4b5ea-eb35-58cd-a363-ea7b6cbea8ae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelle est l'obligation d'acceptation de l'EUDI Wallet ?",
+    "back": "D'ici fin 2027, les services publics, les secteurs régulés (banque, santé, télécoms, transports, énergie) et les grandes plateformes très fréquentées (plus de 50 millions d'utilisateurs) devront accepter le Wallet comme moyen d'authentification.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "1185006c-2eb9-5c23-ae72-29f214228740",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quels niveaux de garantie eIDAS 2 impose-t-il ?",
+    "back": "L'authentification repose sur des standards de sécurité stricts (essentiellement les niveaux Élevé et Substantiel).",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "80dcfe64-84ad-5a2b-b30a-b2cd14e9be5e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelle est la déclinaison nationale en France ?",
+    "back": "France Identité, qui permet de s'authentifier auprès de services en ligne. L'application est gérée par France Titres (ex-ANTS) et s'appuie sur la carte nationale d'identité électronique (CNIe) à puce NFC.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "60b00d05-e876-519a-a8c9-dd67bb8b73a5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Comment fonctionne l'exemple du diplôme avec un Wallet ?",
+    "back": "L'université vérifie le diplôme et signe un Verifiable Credential, l'étudiant le conserve dans son Wallet, l'entreprise demande le diplôme, l'étudiant présente le credential, l'entreprise vérifie la signature et l'émetteur. L'université n'a pas besoin de transmettre directement le diplôme à l'entreprise.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "7603a884-de20-513c-a884-9dbf145d1672",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que signifie SSI (Self-Sovereign Identity) ?",
+    "back": "Une architecture décentralisée : les attributs d'identité sont stockés sur le terminal de l'utilisateur (secure element) et non dans un registre centralisé.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "e32c0c97-ca5b-5e01-afdb-67ebd7493f97",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Qu'est-ce que la divulgation sélective (selective disclosure) ?",
+    "back": "La capacité à ne partager que les données strictement nécessaires (ex. : prouver qu'on a plus de 18 ans sans divulguer sa date de naissance complète).",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "45fc63dd-d683-5b75-8628-a09f860b0b7e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Qu'est-ce qu'un Verifiable Credential (VC) ?",
+    "back": "Une attestation électronique signée cryptographiquement par une autorité de confiance (source authentique).",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "6095e7dd-6eb4-50d2-944e-c94876dd7d46",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quels protocoles et formats l'EUDI Wallet utilise-t-il ?",
+    "back": "OpenID4VCI (émission), OpenID4VP (présentation et vérification), et les formats SD-JWT et ISO/IEC 18013-5 (mdoc).",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "7f6467d2-e256-592e-b1d3-8fd01d4a98a5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quels principes du RGPD l'EUDI Wallet respecte-t-il ?",
+    "back": "La minimisation des données (art. 5) : la divulgation sélective est techniquement obligatoire. La non-traçabilité et non-corrélation (art. 5a eIDAS 2). Le libre choix et la non-discrimination. L'encadrement de l'authentification biométrique (art. 9 du RGPD).",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "13721457-6211-5afb-bd92-001d4133abbc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que dit le principe du libre choix et de la non-discrimination ?",
+    "back": "L'accès aux services publics et privés ne peut être refusé ou dégradé pour une personne choisissant un canal d'identification traditionnel non numérique.",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "b7e4cb8a-8d0d-5822-a48b-bdb1573d2032",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que dit l'article 226-4-1 du Code pénal ?",
+    "back": "L'usurpation d'identité numérique est un délit autonome : le fait d'usurper l'identité d'un tiers ou d'utiliser des données de toute nature permettant de l'identifier, en vue de troubler sa tranquillité ou celle d'autrui, ou de porter atteinte à son honneur ou à sa considération.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "70eb47f5-418e-58c6-b2ad-c89d90f2a4bd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelles sont les sanctions de l'usurpation d'identité ?",
+    "back": "1 an d'emprisonnement et 15 000 euros d'amende. Les peines sont doublées (2 ans et 30 000 euros) lorsque l'infraction est commise par le conjoint, le concubin ou le partenaire de PACS de la victime.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "3d2b93ca-d44c-5439-a264-81b3c146b5e2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quel est le champ d'application numérique de l'usurpation d'identité ?",
+    "back": "La création de faux profils sur les réseaux sociaux, le piratage d'adresse e-mail, la réutilisation de jetons d'authentification et le phishing ciblé.",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   },
+   {
+    "id": "12055968-273a-5cca-b97a-7bec6fe03a72",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelles sont les infractions connexes en cybersécurité ?",
+    "back": "Les atteintes aux STAD (art. 323-1 et suivants), le faux et usage de faux numérique (art. 441-1) et l'escroquerie en ligne (art. 313-1).",
+    "createdAt": "2000-01-01T00:00:39.000Z"
+   },
+   {
+    "id": "dbcdbc1f-05b3-564d-ab97-53b226dc792f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que punit l'atteinte à un STAD (art. 323-1) ?",
+    "back": "L'accès ou le maintien frauduleux dans un système d'authentification, le vol, l'interception ou la modification de tokens, jetons d'authentification ou cookies d'identité : jusqu'à 5 ans de prison et 150 000 euros d'amende.",
+    "createdAt": "2000-01-01T00:00:40.000Z"
+   },
+   {
+    "id": "1aa8bdff-2d05-5d7e-a9e8-c567a42e71e0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que punit le faux et usage de faux numérique (art. 441-1) ?",
+    "back": "L'altération frauduleuse d'un document ou d'un certificat d'identité numérique : jusqu'à 3 ans de prison et 45 000 euros d'amende.",
+    "createdAt": "2000-01-01T00:00:41.000Z"
+   },
+   {
+    "id": "66d4d23c-84c2-5160-89f5-fa08f0139395",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que punit l'escroquerie en ligne (art. 313-1) ?",
+    "back": "L'usage d'une fausse identité pour tromper une personne physique ou morale et obtenir des fonds ou des données confidentielles : jusqu'à 5 ans de prison et 375 000 euros d'amende.",
+    "createdAt": "2000-01-01T00:00:42.000Z"
+   },
+   {
+    "id": "bee67400-19a4-50ff-8af2-372b5c0ee451",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que veut dire STAD ?",
+    "back": "Système de traitement automatisé de données.",
+    "createdAt": "2000-01-01T00:00:43.000Z"
+   },
+   {
+    "id": "8087edf1-1a01-5dce-acf7-82fe3fb45643",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelle est la responsabilité de l'administrateur SISR et du développeur SLAM ?",
+    "back": "L'obligation de sécurité et les sanctions pénales en cas de négligence (art. 226-17 du Code pénal et art. 32 du RGPD). Le technicien doit adopter les bonnes pratiques de sécurisation (MFA, hashage fort, mitigation des attaques par rejeu).",
+    "createdAt": "2000-01-01T00:00:44.000Z"
+   },
+   {
+    "id": "1affd6de-c509-5d7a-a63f-f415379f9069",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelles négligences peuvent engager la responsabilité pénale ?",
+    "back": "La non-mise en œuvre de mesures de sécurité suffisantes (hashage faible des mots de passe, absence de MFA, failles d'injection) exposant les données d'identité des utilisateurs : responsabilité pénale du responsable de traitement ou des concepteurs.",
+    "createdAt": "2000-01-01T00:00:45.000Z"
+   },
+   {
+    "id": "5c35789c-13ca-51d3-827b-6d208a763152",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Que dit le cours des deepfakes ?",
+    "back": "L'usage de l'IA générative pour usurper la voix ou le visage d'un tiers (notamment lors de contrôles d'identité vidéo ou Remote KYC) tombe sous le coup de l'article 226-4-1 et des réglementations sur les contenus générés par IA (AI Act).",
+    "createdAt": "2000-01-01T00:00:46.000Z"
+   },
+   {
+    "id": "7eabb5a0-14e9-5018-b7c3-35c4270f80db",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Pourquoi le piratage d'un EUDI Wallet est-il grave ?",
+    "back": "Tenter de falsifier ou de cloner des attestations électroniques (Verifiable Credentials) au sein d'un portefeuille d'identité constitue une atteinte grave aux STAD et un faux numérique aggravé.",
+    "createdAt": "2000-01-01T00:00:47.000Z"
+   },
+   {
+    "id": "d488d24c-1dc9-5b3e-b246-b3f7bfd5cfdc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelle évolution principale eIDAS 2 apporte-t-il par rapport à eIDAS 1 ?",
+    "back": "La création d'un portefeuille européen d'identité numérique.",
+    "createdAt": "2000-01-01T00:00:48.000Z"
+   },
+   {
+    "id": "3435f80b-539b-5718-9f96-6f545d0476c2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelle technique permet de prouver sa majorité sans communiquer sa date de naissance exacte ?",
+    "back": "La divulgation sélective (selective disclosure).",
+    "createdAt": "2000-01-01T00:00:49.000Z"
+   },
+   {
+    "id": "64c23262-0d9f-5322-aac8-eb64423e612b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quel est le rôle d'un Verifiable Credential ?",
+    "back": "Fournir une attestation numérique vérifiable et signée cryptographiquement.",
+    "createdAt": "2000-01-01T00:00:50.000Z"
+   },
+   {
+    "id": "30b9028f-db22-553f-9078-74f3630c6d1f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelle est la différence entre OpenID4VCI et OpenID4VP ?",
+    "back": "OpenID4VCI : émission d'un justificatif. OpenID4VP : présentation et vérification.",
+    "createdAt": "2000-01-01T00:00:51.000Z"
+   },
+   {
+    "id": "c6337056-4678-5e47-8117-2299459545a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quel principe du RGPD est en cause si une application demande nom, adresse, date de naissance, numéro de sécurité sociale et diplôme alors qu'elle doit seulement vérifier la majorité ?",
+    "back": "La minimisation des données.",
+    "createdAt": "2000-01-01T00:00:52.000Z"
+   },
+   {
+    "id": "c5411e33-2af9-5de6-a052-0f56aad173f1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Pourquoi la non-corrélation est-elle un enjeu pour une identité numérique européenne ?",
+    "back": "Elle limite la possibilité de reconstituer les activités d'un utilisateur à partir de ses différentes authentifications.",
+    "createdAt": "2000-01-01T00:00:53.000Z"
+   },
+   {
+    "id": "d3472dcb-348b-5e2b-97f2-8b21a795c2f1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelle qualification juridique s'applique à un faux compte créé avec le nom et les photos d'une autre personne pour porter atteinte à sa réputation ?",
+    "back": "L'article 226-4-1 du Code pénal (usurpation d'identité numérique).",
+    "createdAt": "2000-01-01T00:00:54.000Z"
+   },
+   {
+    "id": "fa9471e9-e0aa-5a76-a29f-89023eeb9f0d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quel texte est la référence principale pour les obligations de sécurité des données personnelles au niveau du RGPD ?",
+    "back": "L'article 32 du RGPD.",
+    "createdAt": "2000-01-01T00:00:55.000Z"
+   },
+   {
+    "id": "adad67c0-b1fc-55fa-8f7f-bb301bc183ae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Quelle mesure limite le risque qu'un jeton d'authentification volé soit réutilisé ?",
+    "back": "Mettre en place des mécanismes de détection et de prévention des attaques par rejeu (replay).",
+    "createdAt": "2000-01-01T00:00:56.000Z"
+   },
+   {
+    "id": "24216efd-ce34-5f97-8784-49295a18f3db",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "4f4a40be-1ce1-50b6-a415-c41d9057375e",
+    "front": "Un administrateur SISR stocke les mots de passe en clair. Quelle analyse est pertinente ?",
+    "back": "C'est une mauvaise pratique de sécurité, qui peut contribuer à un manquement aux obligations de sécurité applicables aux données personnelles.",
+    "createdAt": "2000-01-01T00:00:57.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "84892289-4a16-59a3-8801-9a76c639d4a7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ba6bc27b-6b32-55dc-8a77-4c9866b7afa6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cdbdc3f9-c9b3-583f-87d0-13cbc9c1ca46",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3164b64d-2ed7-555f-b9ab-27cd3b2abc70",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "aefb1ece-81aa-5dcd-a098-45283ff16150",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bb2978d4-67f1-5e71-b75b-48a6c77345a2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "21871a4d-56d3-5fcb-b259-47fb2d8f6e97",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0cf5c5c5-c05f-589e-b0f6-e63328b111ed",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5b0c841d-8cbf-5aea-941d-24b0124bfcfb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "61630732-efc9-5fbc-9e6a-f49453310d01",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b9d14c77-e08f-5034-8407-edaa0ec4afe4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d1a41f6f-3558-5b6d-9b06-af746d4013bc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5f2ba913-83a6-5608-ae76-0da27565e051",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "af08b20b-9b23-54d3-873e-72c45d0c1f9d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "359626bc-dc62-5362-986c-b64eca49ead6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5bfbfe94-a9fd-5356-ba15-b6cf520c9a07",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bd8b0355-fd64-59b9-bed7-a985488ca054",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c9960cb4-ad59-5b6b-8c81-79d46a84b34a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "605ab4be-7b6b-5a90-9bf2-a24c1968e85d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b253015c-1a63-5bbd-9474-5dccb9a9bf10",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "91e84a96-6a71-5b62-8e47-b8bc27b8917f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a43db7c1-1ea0-5235-8d3d-03cf4eff8f12",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c55c4a0c-ee6b-50bf-b58e-5d151d006b0d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "31287baa-2c1c-5197-8f59-4c35c888e29a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6b3db6ac-4175-5ffa-b40a-ba4f3aeab6d7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8777212c-f63e-5439-b6bf-813947f03bc5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dbd0fb43-2dc5-5ed6-8732-5291b4e6c590",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "868c241b-0130-501f-9987-f58191a1d3ba",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "607148d1-645a-5320-86f5-67ff34d2a9da",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c1d57262-f5a1-5f1f-9539-1d0d3265b993",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "586716aa-b00f-5aaf-bd5a-a37353b7cc43",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e219500f-0ef2-5811-8f7e-93d2a526021f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "76c68663-5ef8-5239-87e4-40f84e42ba0b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "20b67f00-2ba2-5582-81c2-770275d98111",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "04fe7cc6-a29d-502e-8431-7bd9357a0980",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c5b0fb7c-4e17-577c-90c8-4672888f42cb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "25faedb2-2974-54d1-9863-6ac00bfc8258",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6248951e-5345-56fe-be11-8750304a5f0c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "543ad930-a223-55a1-80cf-136aade41ead",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a1ad8e12-79c8-512a-be5c-3ad9054c87d1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bf9f80f5-c65f-566b-86ab-be0a21cd87aa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c93bcafb-9172-55ac-b735-17d5913ea560",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d82b8d23-397c-5a1c-99c3-21aefa20837a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e727aa34-9f6b-5ff3-aa1f-2135dcf50702",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "65ba982c-fcb5-531d-bc64-44d62268d282",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5e4ff6ae-db85-5e77-be1b-1e8c384f3d86",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "240ecda4-e032-5c52-87db-1755991e0372",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ea96ed5f-cea6-5062-b332-55115f88af16",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d3c77ff8-f4c6-5016-a156-e74085206095",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "199fcd64-aad3-5f81-a06f-963c5c534d7d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e6da0424-602c-5b34-a801-d0250e92d6d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ed6084de-72aa-54bf-bc2c-ea2b3b4d0e4a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dc66ec53-304b-50ed-b712-1ec46ee75f70",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d0b4b5ea-eb35-58cd-a363-ea7b6cbea8ae",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e11e18a5-a92b-51e9-bcfe-cd0a991537f6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1185006c-2eb9-5c23-ae72-29f214228740",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "18b2ff2f-fdb3-5a64-a98f-cf5d152efc34",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "80dcfe64-84ad-5a2b-b30a-b2cd14e9be5e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "78040000-5f40-5617-bfe1-8964de1c080e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "60b00d05-e876-519a-a8c9-dd67bb8b73a5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "105574c5-ea64-529f-9d8f-55d635a6c5ed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7603a884-de20-513c-a884-9dbf145d1672",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "37aa98bd-d9e2-5abd-b84a-6d77621cd868",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e32c0c97-ca5b-5e01-afdb-67ebd7493f97",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d74400ad-e11b-5471-bdc5-3b9711df42c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "45fc63dd-d683-5b75-8628-a09f860b0b7e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a27501f2-784b-55a9-ae9c-c9d2695b49d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6095e7dd-6eb4-50d2-944e-c94876dd7d46",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e85bab98-f5de-5c59-8db0-716318477f9a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7f6467d2-e256-592e-b1d3-8fd01d4a98a5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d2342ec1-e85f-5196-acbf-77527dabec0b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "13721457-6211-5afb-bd92-001d4133abbc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3cc56984-d6f9-5d9a-a053-9b24adcea485",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b7e4cb8a-8d0d-5822-a48b-bdb1573d2032",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "41cf12c8-0f7f-533e-9c99-760dd3b783d1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "70eb47f5-418e-58c6-b2ad-c89d90f2a4bd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9914d8fd-5278-57c3-bdf9-5dab180c482f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3d2b93ca-d44c-5439-a264-81b3c146b5e2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f1312351-44c2-5050-9032-b0bd316bf0e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "12055968-273a-5cca-b97a-7bec6fe03a72",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6d709532-5491-58bf-a8c8-f4fd4f2b8767",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dbcdbc1f-05b3-564d-ab97-53b226dc792f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bcafeabd-da9d-5e03-ab85-4d2b1e779c8f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1aa8bdff-2d05-5d7e-a9e8-c567a42e71e0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6bf4fcf7-dc4d-507b-8035-5055746d29c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "66d4d23c-84c2-5160-89f5-fa08f0139395",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a60bc8b0-ea15-57e4-9cff-55846315a2d8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bee67400-19a4-50ff-8af2-372b5c0ee451",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9842150b-936a-5bb9-aa09-bdcc419d1f08",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8087edf1-1a01-5dce-acf7-82fe3fb45643",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f4a99879-eed0-5b97-91d9-3e63a2207929",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1affd6de-c509-5d7a-a63f-f415379f9069",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "602a2848-5625-5e90-b694-8c3df36b0fd8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5c35789c-13ca-51d3-827b-6d208a763152",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a4ecdba5-2c02-5618-97fa-059f024ac856",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7eabb5a0-14e9-5018-b7c3-35c4270f80db",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1b4e2aba-d8e5-5048-8b3a-62ff5c1b0c7e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d488d24c-1dc9-5b3e-b246-b3f7bfd5cfdc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "db4505b2-ace2-58f0-a2e8-5f3347d66b11",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3435f80b-539b-5718-9f96-6f545d0476c2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "987143b4-7067-5517-8400-66315c2e0323",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "64c23262-0d9f-5322-aac8-eb64423e612b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "77b3fccd-b9f0-51cb-b424-5a50c8c1f5d0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "30b9028f-db22-553f-9078-74f3630c6d1f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "75446a10-76f8-5ed2-9cb6-0fe46fda824b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c6337056-4678-5e47-8117-2299459545a9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b41cb21e-9743-5897-89ff-c41aae2e3b64",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c5411e33-2af9-5de6-a052-0f56aad173f1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "36a9c9ed-52dc-5a10-bc35-02c43e82c736",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d3472dcb-348b-5e2b-97f2-8b21a795c2f1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "316e1fd2-ecf4-5a23-94fa-168579d56be0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fa9471e9-e0aa-5a76-a29f-89023eeb9f0d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "30d583cb-1f07-5b11-bf03-63e2b9aa0355",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "adad67c0-b1fc-55fa-8f7f-bb301bc183ae",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "af5a63fa-086e-538c-a25e-cf16c4b74775",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "24216efd-ce34-5f97-8784-49295a18f3db",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

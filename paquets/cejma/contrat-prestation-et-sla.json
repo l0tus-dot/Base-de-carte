@@ -1,0 +1,852 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Contrat de prestation informatique et SLA"
+   }
+  ],
+  "cards": [
+   {
+    "id": "3c9f2a4f-338e-5879-bd9e-e77226eef16d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Qu'est-ce que la sous-traitance ?",
+    "back": "Un contrat par lequel un donneur d'ordre confie à une autre entreprise (le sous-traitant) l'exécution d'une partie de sa production ou des composants qui lui sont nécessaires, selon un cahier des charges soumis par le donneur d'ordre selon les indications du maître d'ouvrage, qui est le client final.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "bf6b0782-f29b-574b-9ecf-eb45b454a97c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Qu'est-ce que l'externalisation (outsourcing ou infogérance) ?",
+    "back": "Un contrat par lequel un client confie l'intégralité d'un service à une autre entreprise, le prestataire de service.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "92d76e1b-16ac-5b77-aff3-de37fe116ed1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quelle activité la sous-traitance confie-t-elle ?",
+    "back": "Une activité principale au sens de Porter, c'est-à-dire liée au cœur de métier.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "7deedc53-f120-5d40-8876-aabb7aa3a4b7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Pourquoi la sous-traitance est-elle souvent temporaire ?",
+    "back": "Parce que le donneur d'ordre manque de capacité technique ou humaine pour répondre à la totalité d'une commande, ou parce qu'il ne dispose pas de compétences très spécifiques en interne.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "bbbab7fc-6b88-5691-a477-c1d6ca814ba3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quelle activité l'externalisation confie-t-elle ?",
+    "back": "Une activité de soutien au sens de Porter, c'est-à-dire qui ne fait pas partie du cœur de métier.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "c109da1a-744b-5262-9f6c-fc980e351209",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Pourquoi l'externalisation est-elle souvent pluriannuelle ?",
+    "back": "Parce que le client manque de compétences et souhaite se concentrer sur son activité principale.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "e39f25d6-ca6c-5aea-b429-fddf8de5e426",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Que peut accompagner une externalisation ?",
+    "back": "Une vente : le prestataire de services est alors aussi fournisseur.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "56458608-0e06-54c7-9c47-773f5554fbe4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Que dit l'article 1710 du Code civil ?",
+    "back": "Le louage d'ouvrage est un contrat par lequel l'une des parties s'engage à faire quelque chose pour l'autre, moyennant un prix convenu entre elles. Le contrat de prestation de services est un louage d'ouvrage.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "50ed49d8-76a6-50ec-8692-5542db447b60",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Qu'est-ce qu'un contrat de prestation de services informatiques ?",
+    "back": "La convention par laquelle une personne ou une société s'oblige contre une rémunération à exécuter pour une autre personne ou société un travail relevant du milieu de l'informatique, sans agir en son nom et de façon indépendante.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "de9526fe-7092-550f-87bc-0ad374ae575d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quel est le nom du contrat TIBCO étudié ?",
+    "back": "Un contrat d'assistance technique globale, entre TIBCO (le prestataire) et un client.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "d4b82b4b-ce13-5212-8f5c-e913c9079f70",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quel est l'objet du contrat TIBCO (article 1) ?",
+    "back": "La définition des prestations informatiques en matière d'exploitation, de conseil et d'assistance pouvant être confiées par le client à TIBCO.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "e4fb2135-77e7-5e96-af36-bf526360e201",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quelles prestations propose le contrat TIBCO ?",
+    "back": "L'exercice changement et opérations à distance, le support utilisateur, le support de niveau 2, la prestation de supervision, la prestation sur site, les coûts de proximité et la prestation de gouvernance.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "35ce0cc2-2ae6-5066-8520-9ce7908cf804",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quelles sont les modalités de résiliation ou de renouvellement du contrat TIBCO ?",
+    "back": "La résiliation anticipée (période d'essai), le renouvellement et la dénonciation (non-renouvellement).",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "d4811ab3-49ac-5b3f-a40a-ccbf3cd1c094",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Comment le prix des prestations TIBCO est-il fixé ?",
+    "back": "Il repose sur un système de forfait annuel converti en unités de valeur (points). Le montant forfaitaire initial est fixé à la prise de l'unité, avec une modalité de facturation.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "38e49fa8-b6f3-5947-aa21-88647bfd68a5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quelle est la commande minimum acceptée par TIBCO ?",
+    "back": "50 points.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "69e06239-69db-5cc9-af34-98467fb3a2b0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Comment une prestation à distance est-elle facturée chez TIBCO ?",
+    "back": "Selon le principe du décompte au temps passé, selon le profil de l'intervenant, le délai de planification et l'heure de l'intervention (par exemple 2 ou 2,5 points selon le délai).",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "261e324d-740b-541a-ac71-97104a36d05d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Combien de points pour la supervision à distance lors de la mise en place d'un premier équipement ?",
+    "back": "10 points.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "60732b3e-9b06-54d6-938f-ca599bb4450a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Comment les frais de déplacement sont-ils facturés chez TIBCO ?",
+    "back": "Il y a différents types de facturation selon les prestations : frais inclus d'office, frais soumis à accord préalable, frais hors forfait standard.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "c2e8b67e-776c-5a8c-bc71-797e18121698",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quel est le montant annuel du contrat TIBCO étudié ?",
+    "back": "3 864,00 euros TTC, soit 3 220,56 euros HT, pour 142 points au prix unitaire de 22,68 euros HT.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "52fd058b-92df-50b1-8fa4-217d410d864c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Que prévoit l'article 12 du contrat TIBCO ?",
+    "back": "La clause limitative de responsabilité : le prestataire n'a qu'une obligation de moyens dans l'exécution de ses missions, toute indemnisation pour les dommages indirects est exclue, et il y a un plafond financier strict limitant les dommages-intérêts aux sommes réellement payées par le client.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "b5165676-a165-5cdc-8693-6c13308b2213",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quelles sont les trois obligations d'information du prestataire (article L111 du Code de la consommation) ?",
+    "back": "Le devoir de renseignement, le devoir de conseil et le devoir de mise en garde. Elles prennent naissance avant même l'existence du consentement : précontractuelles et contractuelles.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "a25f0507-689e-5597-8f05-3b90c4fa3679",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Qu'est-ce que l'obligation de renseignement ?",
+    "back": "L'obligation pour le prestataire de transmettre au client toutes les informations purement factuelles, techniques et financières nécessaires pour lui permettre de comprendre les caractéristiques et le fonctionnement de la prestation proposée.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "7ed5a661-3cb5-5760-b5e3-f9869bc33799",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Comment le contrat TIBCO matérialise-t-il l'obligation de renseignement ?",
+    "back": "Par la description détaillée et transparente de chaque service à distance et sur site (articles 8 et 9).",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "cb316c6b-a9cb-5277-898f-8284cd9f9509",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Qu'est-ce que l'obligation de conseil ?",
+    "back": "L'obligation pour le prestataire d'orienter activement les choix du client : le professionnel doit analyser les besoins spécifiques du client pour lui proposer les solutions et architectures les plus adaptées et pertinentes.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "5fb27d8d-6cb4-5e50-860f-0195a6d144c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Comment TIBCO met-il en œuvre l'obligation de conseil ?",
+    "back": "Par l'article 13, qui propose des prestations de conseil offertes sous forme de bonus, d'options techniques.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "27d5ba79-03df-5373-b9a1-5b273d7e35c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Qu'est-ce que l'obligation de mise en garde ?",
+    "back": "L'obligation pour le prestataire d'avertir expressément le client des risques, des limites techniques, des contraintes d'utilisation ou des conséquences négatives potentielles liées à la mise en œuvre de la solution informatique.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "073a3a7a-58a6-5074-a4c8-8e9e2aca574f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Où le contrat TIBCO prévoit-il la mise en garde ?",
+    "back": "Dans l'article 12 (responsabilité et limites) ainsi que dans l'article 6.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "eb6800b9-5a8e-591e-800d-90323f390ccd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Qu'est-ce que l'obligation de collaboration du client ?",
+    "back": "L'obligation de fournir au prestataire toutes les informations, accès techniques et moyens humains nécessaires à la bonne exécution de la prestation. Le client doit s'impliquer activement et ne pas faire obstruction au travail du prestataire.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "88d55899-403c-5771-ad55-34ccbd0f2234",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Comment le contrat TIBCO matérialise-t-il l'obligation de collaboration ?",
+    "back": "Dans le cadre de la supervision (articles 5 et 8), par plusieurs exigences strictes envers le client : accès techniques, informations, matériel, désignation d'un interlocuteur.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "896335c1-c844-539f-a870-6de7bfd66eb2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quelle est la différence entre obligation de moyens et obligation de résultat ?",
+    "back": "La prestation au forfait repose sur une obligation de résultat, la prestation en régie repose sur une obligation de moyens.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "5a8ee335-595f-5343-a33a-a37c913b29a8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "TIBCO a-t-il une obligation de moyens ou de résultat pour l'assistance téléphonique de niveau 1 ?",
+    "back": "Une obligation de moyens : TIBCO s'engage à mobiliser ses compétences sans garantir la résolution systématique de chaque incident à distance. Cette responsabilité est définie par l'article 12.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "fb72388c-ce79-5767-b690-de4dfd56d29e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Que prévoit l'article 8.04 du contrat TIBCO ?",
+    "back": "Une clause d'exonération de responsabilité pour les prestations de supervision en cas d'intervention non autorisée du client ou d'un tiers : TIBCO est dégagé de toute responsabilité quant aux conséquences directes ou indirectes sur le niveau de service si une telle intervention est réalisée sans accord préalable écrit.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "1c1b868d-3a10-51c5-87b0-6294a9d6b629",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Que veut dire SLA ?",
+    "back": "Service Level Agreement, ou ANS (Accord de niveau de service) : un contrat, ou la partie d'un contrat, par lequel un prestataire informatique s'engage à fournir un ensemble de services à un ou plusieurs clients.",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "9abd8978-fe8e-56ac-a819-d77cb8081ae1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Que définit un SLA ?",
+    "back": "Les objectifs précis et le niveau de service qu'un client est en droit d'attendre du prestataire signataire.",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "08310d19-1292-5714-8a63-f6ba257b2e83",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Pourquoi le SLA est-il lié au cloud ?",
+    "back": "Il permet de garantir aux clients certains niveaux de sécurité dans le stockage et la gestion de leurs données à caractère personnel. Il faut définir de façon très précise différents indicateurs de qualité mesurés, analysés et contrôlés régulièrement, et prévoir des sanctions si le prestataire ne répond pas à ses obligations.",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "fd908652-d0ee-5578-8679-612224081fd6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Que dit Gartner sur l'absence de SLA ?",
+    "back": "Sans SLA, il n'y a pas de thermomètre du support applicatif dans l'entreprise : on ne peut pas connaître ni mesurer les coûts associés aux opérations de support, et les projets prennent du retard car les ressources sont détournées vers la maintenance.",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "d4bb8c2a-fb3b-5a28-8b05-bca7cb2a9dbf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Combien de critères Gartner propose-t-il pour établir un SLA en interne ?",
+    "back": "9 critères.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "e05fb941-d639-505a-ae74-a30bff7de68e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Quels points un SLA devrait-il comporter selon Gartner ?",
+    "back": "La disponibilité et les temps de réponse, la correction des défauts (maintenance corrective) selon un barème de gravité et de temps, les mises à niveau techniques, les améliorations mineures, le support à l'entreprise, la génération de rapports, le signalement progressif, les améliorations et le renouvellement.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "f577dbe6-0c93-5502-b31d-e009bbcaf252",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "7e725325-e596-5213-afc8-fc4afeed283b",
+    "front": "Que recommande Gartner pour les applications ?",
+    "back": "Établir des priorités : chaque application cruciale doit avoir son SLA, et les applications restantes sont regroupées dans des niveaux de prestations de services.",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "04b18a39-e8b1-5b47-84d0-b35fc9d4e586",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3c9f2a4f-338e-5879-bd9e-e77226eef16d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d3047a34-e4b2-5bc9-83b6-85732df33c09",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bf6b0782-f29b-574b-9ecf-eb45b454a97c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e35506b8-0340-5bea-9f18-926d4007294f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "92d76e1b-16ac-5b77-aff3-de37fe116ed1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d1ff3c8d-3e56-5a35-8e00-6144f357862f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7deedc53-f120-5d40-8876-aabb7aa3a4b7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "03a9e723-5d7c-5a6d-a50f-af69be16f58d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bbbab7fc-6b88-5691-a477-c1d6ca814ba3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "348b47b0-1163-5d2b-a0f8-92bc23961bd8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c109da1a-744b-5262-9f6c-fc980e351209",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bb63c98f-fd29-5f1c-a450-bcf194c114c0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e39f25d6-ca6c-5aea-b429-fddf8de5e426",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1ec15990-47fd-53c0-8d8f-48af61926fa7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "56458608-0e06-54c7-9c47-773f5554fbe4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7658cabc-cc63-53bb-a883-c590d005a5a4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "50ed49d8-76a6-50ec-8692-5542db447b60",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "575c55d7-dfa7-5e02-84b0-04b71b906b72",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "de9526fe-7092-550f-87bc-0ad374ae575d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ca2d7440-0a53-534c-83c2-f19aa9049a2b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d4b82b4b-ce13-5212-8f5c-e913c9079f70",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "08a954ec-d6ca-52fb-9794-e9706c3db97e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e4fb2135-77e7-5e96-af36-bf526360e201",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cd5827bb-67c1-5500-aba7-ab9e6f24101c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "35ce0cc2-2ae6-5066-8520-9ce7908cf804",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0adcd431-7c19-5f8f-8d44-ca1f068048a2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d4811ab3-49ac-5b3f-a40a-ccbf3cd1c094",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "60316041-0d45-567f-a659-efd5e38e2a14",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "38e49fa8-b6f3-5947-aa21-88647bfd68a5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e3b6acac-b416-5d39-8940-f48f9b712727",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "69e06239-69db-5cc9-af34-98467fb3a2b0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6ced8201-220c-510e-8ba2-f7189fc5dff3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "261e324d-740b-541a-ac71-97104a36d05d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4b35d43c-1796-50b9-9633-8549d3741e2c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "60732b3e-9b06-54d6-938f-ca599bb4450a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7f4639df-f90d-532b-af0d-cff159c528d8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c2e8b67e-776c-5a8c-bc71-797e18121698",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "096a5d03-1ce3-5282-81fb-8d825d9c09a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "52fd058b-92df-50b1-8fa4-217d410d864c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1aec9fb1-167b-5de6-88bf-cad2342612e8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b5165676-a165-5cdc-8693-6c13308b2213",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6dd6bec7-1a3b-5ea6-9c5f-e16f0a3a1215",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a25f0507-689e-5597-8f05-3b90c4fa3679",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0e2acd97-2652-5a6c-bcce-2115f88d2a75",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7ed5a661-3cb5-5760-b5e3-f9869bc33799",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b31d1a1d-0910-549e-84f2-a989eba8f6ee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cb316c6b-a9cb-5277-898f-8284cd9f9509",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6119153a-01cc-5480-b02f-9c0eac728838",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5fb27d8d-6cb4-5e50-860f-0195a6d144c5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4bac65e0-876e-56cc-92e5-e7d5e2c90fde",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "27d5ba79-03df-5373-b9a1-5b273d7e35c6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "85f4e080-2828-5bfe-8aba-af8e8a5c6c12",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "073a3a7a-58a6-5074-a4c8-8e9e2aca574f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b84d6c94-c1bb-5761-9b7c-3ed8ba3b953b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eb6800b9-5a8e-591e-800d-90323f390ccd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "da898eb0-0272-56e5-a1e3-f25574d245f1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "88d55899-403c-5771-ad55-34ccbd0f2234",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3f893f71-b1a7-5d7c-8189-7ae2a34d8d6f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "896335c1-c844-539f-a870-6de7bfd66eb2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d036442d-8929-597c-8f66-69111d835f36",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5a8ee335-595f-5343-a33a-a37c913b29a8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d1f0aa6e-6733-540b-a47d-f679dddcba4a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fb72388c-ce79-5767-b690-de4dfd56d29e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bcefcb9d-f1f0-56c1-a003-7671782ccf6b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1c1b868d-3a10-51c5-87b0-6294a9d6b629",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b7737cf8-a4a3-5154-8d3d-660702b9794a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9abd8978-fe8e-56ac-a819-d77cb8081ae1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "836a4bdd-12dc-55dc-b212-c31693bfa62a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "08310d19-1292-5714-8a63-f6ba257b2e83",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d0780f6d-dcf1-5f57-9817-808b45551bbd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fd908652-d0ee-5578-8679-612224081fd6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "91f81160-7171-56dc-949a-e5696d80159f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d4bb8c2a-fb3b-5a28-8b05-bca7cb2a9dbf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9854d33b-bbd6-5809-95a8-46adc8f663e3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e05fb941-d639-505a-ae74-a30bff7de68e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7dd2fc4b-80b7-56c2-b239-dd248b0534fa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f577dbe6-0c93-5502-b31d-e009bbcaf252",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

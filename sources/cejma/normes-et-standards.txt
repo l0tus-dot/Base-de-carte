@@ -1,0 +1,16 @@
+# Matière : CEJMA
+# Paquet : Normes et standards en informatique
+# Description : Différence entre standard et norme, standard ouvert ou fermé, et classement de termes informatiques.
+
+Qu'est-ce qu'un standard ? ; Un référentiel développé et préconisé par un ou quelques acteurs souvent d'origine industrielle, qui forment une organisation non officielle appelée consortium ou forum.
+Qu'est-ce qu'une norme ? ; Un référentiel élaboré par un organisme de normalisation reconnu par l'ensemble des parties prenantes (industriels, États, associations), qui fournit des règles communes pour des activités ou des caractéristiques d'un produit.
+Quelle différence entre un standard fermé et un standard ouvert ? ; Le référentiel d'un standard fermé n'est pas diffusé. Celui d'un standard ouvert est diffusé librement : il propose les premières règles du jeu (y compris pour l'interopérabilité) et favorise une technologie particulière.
+Que définit le référentiel d'une norme ? ; Des règles du jeu équitables, des caractéristiques, des bonnes pratiques et des recommandations. Elle est applicable à des biens, services, méthodes ou processus des organisations.
+Quelle est la finalité d'une norme ? ; Harmoniser l'activité d'un secteur, réduire les entraves aux échanges et permettre à différentes technologies de coexister.
+Citez des organisations qui élaborent des normes ou standards. ; ISO, CEN, AFNOR, 3WC, CEI, UIT, IETF, CENELEC, ETSI.
+Citez des exemples de méthodes ou référentiels de bonnes pratiques. ; CMMI, ITIL, AGILE, COBIT, PRINCE 2.
+Citez des exemples de protocoles de réseaux normalisés. ; TCP/IP, DHCP, DNS, ARP, VLAN, Spanning tree, FTP.
+Citez des exemples de standards de formats de fichiers. ; HTML, XML, CSS, JSON, RDF, MP3, RTF.
+Quels critères doit remplir une source pour une fiche sur une norme ? ; Elle doit être pertinente, fiable et actualisée.
+Quelles rubriques contient une fiche de présentation d'une norme ou d'un standard ? ; L'intitulé (sigle expliqué, norme ou standard fermé ou ouvert), le contenu et/ou les finalités du référentiel, le niveau de connaissance, la présentation de l'organisme qui élabore le document et la sitographie des sites utilisés.
+Quels enjeux sont attendus de la mise en place de normes ou de standards ? ; Ils favorisent l'innovation, améliorent l'interopérabilité, déterminent un niveau de qualité, renforcent la sécurité, réduisent l'impact environnemental, incitent à la veille technologique, facilitent les échanges commerciaux, abattent ou deviennent des barrières à l'entrée, favorisent des effets de réseau, permettent des économies d'échelle et peuvent décevoir le consommateur.

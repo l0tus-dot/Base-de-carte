@@ -1,0 +1,285 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "La gestion des actifs informatiques (ITAM)"
+   }
+  ],
+  "cards": [
+   {
+    "id": "ddbf19ab-063c-5f5c-92fb-a2d4ac8a4872",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "Qu'est-ce que la gestion des actifs informatiques (ITAM) ?",
+    "back": "IT Asset Management : un ensemble de processus d'entreprise conçus pour gérer le cycle de vie et l'inventaire des biens informatiques d'une organisation.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "67e0736c-4707-5b79-9aea-187808fc3462",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "Qu'est-ce qu'un asset ?",
+    "back": "Les éléments des logiciels et du matériel que l'on rencontre généralement dans un environnement professionnel.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "344ebb91-8472-546b-8f40-7c4dc3096843",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "Que veut dire ITSM ?",
+    "back": "IT Service Management : un processus de gestion des services informatiques qui aide l'organisation à réduire les coûts et les risques informatiques et à augmenter la productivité globale.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "7e80175a-8eab-5a53-a8c3-ced46eb2727a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "Pourquoi la gestion des actifs informatiques est-elle une priorité stratégique ?",
+    "back": "Les entreprises doivent gérer des parcs informatiques toujours plus étendus et hétérogènes tout en rationalisant les budgets. C'est une priorité pour les directeurs d'exploitation, les directeurs financiers et les PDG.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "e79ab176-d7db-556d-90e6-49e60a3c76d0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "Quelles sont les trois étapes de la démarche de gestion des actifs informatiques ?",
+    "back": "1. Identifier et collecter les données (inventaire). 2. Cartographier et organiser les liaisons entre les biens IT. 3. Définir la gestion du cycle de vie des actifs.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "2c603e23-e925-5e9b-be22-51acd22bf6d7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "En quoi consiste l'étape d'inventaire ?",
+    "back": "Bien identifier toutes les informations utiles sur les biens IT et avoir une vue consolidée de ces actifs pour construire la base regroupant l'ensemble de ces données, avec un équilibre entre effort de mise à jour et utilité de l'information.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "8966c8fd-a839-5caa-bbb2-c0e4b07ad00d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "En quoi consiste la deuxième étape ?",
+    "back": "Traiter les données recensées pour garantir leur cohérence et effectuer des corrections, de standardisation et de suppression des doublons (processus de normalisation), les cartographier en associant les biens IT entre eux (processus de mappage) et établir des liens avec d'autres sources d'informations (processus de liaison).",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "60c73a7a-b6a7-5a19-bacd-8485f0e3e665",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "En quoi consiste la troisième étape ?",
+    "back": "Gérer efficacement le cycle de vie des différentes composantes du parc, les adapter aux besoins, fluidifier leur gestion et anticiper les actions à mettre en place : renouvellement de licences, nouveaux matériels.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "e46db6d9-7d8b-5f68-a3ae-03f326f5f3fc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "Quelles fonctions une solution ITAM complète propose-t-elle ?",
+    "back": "Le suivi du cycle de vie des biens IT, la gestion administrative des contrats, la gestion de conformité des logiciels et droits de licences, et la gestion financière des coûts.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "2a9dcdba-9575-517a-856b-7c412ede18e4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "Quels sont les objectifs de la stratégie ITAM ?",
+    "back": "Optimiser les coûts, mieux aligner le SI et les métiers, et accroître la qualité de service : la DSI peut ainsi piloter finement ses budgets et s'appuyer sur un parc parfaitement adapté aux objectifs et à la croissance de l'entreprise.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "cdef2d61-3232-54b8-9cae-812aeff63f45",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "Comment réussir un projet ITAM ?",
+    "back": "Consacrer le temps nécessaire à la compréhension et à la conception de chaque processus, penser simplicité de fonctionnement pour obtenir l'adhésion des équipes IT, et s'appuyer sur une solution logicielle permettant l'automatisation et l'intégration avec d'autres bases.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "2073fd95-0ec8-59ec-bec2-d820139add96",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "749fd13e-e307-5185-b41d-2f9e55f8dab1",
+    "front": "Que veut dire DSI ?",
+    "back": "Direction des systèmes d'information.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "186abdc3-4a34-5d8a-bdda-a3b845031de7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ddbf19ab-063c-5f5c-92fb-a2d4ac8a4872",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b1c6feaa-c82c-55f1-820f-9d9ae68e1ac8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "67e0736c-4707-5b79-9aea-187808fc3462",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9be56d35-fa37-529d-998d-3e6ba266208d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "344ebb91-8472-546b-8f40-7c4dc3096843",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9224beb2-5496-5854-b9d4-54455a6e1bd4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7e80175a-8eab-5a53-a8c3-ced46eb2727a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "aefb13b2-aebc-5f5c-96ad-38f8f7ef1f32",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e79ab176-d7db-556d-90e6-49e60a3c76d0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4e37eb4e-002f-5d87-8004-b083f9ba1fb7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2c603e23-e925-5e9b-be22-51acd22bf6d7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b0fbf09e-08c5-58ad-ac66-a8a19e10101e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8966c8fd-a839-5caa-bbb2-c0e4b07ad00d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "451cd8dc-d31a-5f9a-8d4e-19779deff347",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "60c73a7a-b6a7-5a19-bacd-8485f0e3e665",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bed2eb8b-b28e-5854-9be9-18d63c58103f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e46db6d9-7d8b-5f68-a3ae-03f326f5f3fc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2e7689bb-7541-5030-99a2-ed7315cf54ee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2a9dcdba-9575-517a-856b-7c412ede18e4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ce8336b5-293e-5aea-8d12-20f755349868",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cdef2d61-3232-54b8-9cae-812aeff63f45",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d93b201b-59db-5e44-86bd-b15300d183bd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2073fd95-0ec8-59ec-bec2-d820139add96",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

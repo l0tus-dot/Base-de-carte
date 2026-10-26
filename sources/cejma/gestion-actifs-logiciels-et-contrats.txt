@@ -1,0 +1,29 @@
+# Matière : CEJMA
+# Paquet : Gestion des actifs logiciels et contrats de licence
+# Description : Le SAM, l'audit de licence, Flexera, la comparaison d'un contrat propriétaire (Adobe) et libre (VLC, GPL) et la jurisprudence Educaffix c/ CNRS.
+
+Que veut dire SAM ? ; Software Asset Management : la gestion des actifs logiciels, aussi appelée gestion des licences.
+Qu'est-ce que la gestion des actifs logiciels ? ; Une pratique de management qui consiste à gérer et optimiser l'achat, le déploiement, la maintenance, l'utilisation et l'élimination des actifs logiciels au sein d'une organisation.
+Quels sont les objectifs du SAM ? ; Réduire les risques économiques (les coûts), commerciaux et juridiques, tout en maximisant le service rendu.
+Le SAM est un sous-ensemble de quelle gestion ? ; De la gestion des actifs informatiques (IT Asset Management). Il fait l'objet de la norme ISO/CEI 19770.
+Quels risques court une entreprise qui ne fait pas l'inventaire de ses licences ? ; Elle peut payer des licences pour des logiciels qu'elle n'utilise plus, ou à l'inverse ne pas payer des licences pour des logiciels qu'elle utilise.
+Que représentent les logiciels pour les entreprises ? ; Une source de dépense importante.
+Qu'est-ce que l'audit de licence logiciel ? ; Une vérification par un éditeur de la conformité des licences acquises par rapport à l'usage des logiciels.
+Quelle est la conséquence majeure d'un audit logiciel pour une entreprise ? ; Un coût important et élevé.
+À quoi sert le logiciel Flexera ? ; À l'optimisation des licences logicielles : il indique les dépenses excessives, permet de préserver la conformité logicielle et d'améliorer la négociation du prix des licences.
+Quelles licences comparer dans l'étude : Photoshop d'Adobe et VLC media player ? ; Photoshop : licence propriétaire, payante. VLC : licence GNU GPL (licence libre), gratuite.
+Quels droits accorde la licence Adobe à l'utilisateur ? ; L'autorisation d'utiliser le logiciel tant qu'une licence valide est présente sur le compte utilisateur.
+Que prévoit la clause d'audit du contrat Adobe ? ; L'article 15 (droits d'audit) donne à Adobe le droit de vérifier que l'utilisation de ses produits et services est conforme à ses conditions.
+Que ne peut pas faire un utilisateur d'Adobe ? ; Copier le logiciel, le modifier et partager ces modifications.
+Quels droits accorde la licence GNU GPL de VLC ? ; L'autorisation de copier, diffuser et modifier, à condition de conférer la même licence, donc les mêmes libertés, à autrui.
+Y a-t-il une clause d'audit dans la licence GNU GPL ? ; Non.
+Que ne peut pas faire l'utilisateur d'un logiciel sous GPL ? ; Il ne peut pas copier, diffuser et modifier le logiciel en changeant la licence de ce même logiciel.
+Quelle est la première jurisprudence française sur la licence GNU GPL ? ; Educaffix c/ CNRS : décision du TGI de Paris du 28 mars 2007.
+Que s'est-il passé dans l'affaire Educaffix c/ CNRS ? ; Le CNRS (l'Organisme) avait cédé à Educaffix les droits patrimoniaux sur son logiciel Baghera, qui ne fonctionnait qu'avec le logiciel libre JATLite (université de Stanford, licence GNU GPL), fourni sur un Cdrom sans la licence GPL.
+Que demandait Educaffix aux juges ? ; La nullité du contrat de cession pour dol (on lui aurait caché l'existence du logiciel libre) et, à titre subsidiaire, la résolution du contrat aux torts exclusifs de l'Organisme car son exploitation impliquait un acte de contrefaçon.
+Les juges ont-ils retenu le dol dans l'affaire Educaffix ? ; Non : le logiciel libre ne faisait pas l'objet de la cession, le cessionnaire connaissait le contenu du Cdrom et il était un professionnel de l'informatique.
+Comment les juges ont-ils décidé sur la résolution du contrat ? ; Ils ont prononcé la résolution du contrat aux torts partagés : l'Organisme n'avait pas distribué le logiciel libre avec sa licence GNU GPL et n'a pas pu le remplacer par une brique propriétaire.
+Quelle exception de la licence GNU GPL v2 les juges ont-ils retenue ? ; Le caractère contaminant de la GPL : si des éléments identifiables ne sont pas dérivés du Programme et peuvent être raisonnablement considérés comme indépendants, la licence ne s'applique pas à eux quand ils sont distribués seuls. Distribués dans un ensemble cohérent basé sur un Programme soumis à la licence, ils lui sont aussi soumis.
+Qu'a jugé le TGI sur l'indépendance des développements de l'Organisme ? ; Les développements effectués par l'Organisme étaient indépendants du logiciel libre : il pouvait donc disposer de droits de propriété sur ceux-ci.
+Que faut-il obtenir pour un travail basé sur un logiciel libre qu'on ne peut identifier comme « raisonnablement indépendant » ? ; Une licence.
+Qu'aurait dû faire l'Organisme pour éviter le procès ? ; Distribuer le logiciel libre avec sa licence GNU GPL et informer clairement le cessionnaire.

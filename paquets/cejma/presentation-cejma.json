@@ -1,0 +1,285 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Présentation de la CEJMA"
+   }
+  ],
+  "cards": [
+   {
+    "id": "e93a0a68-cff1-54e9-9501-cede64de63b1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Que veut dire CEJM-A ?",
+    "back": "Culture économique, juridique et managériale appliquée.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "b178822f-0fe5-5499-ad51-14b127e3d748",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Quel est le rôle du Bloc 7 (CEJM pour l'informatique) ?",
+    "back": "Acquérir une culture économique, juridique et managériale ancrée dans le secteur du numérique.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "77d16e6c-d7da-55d8-947e-a73cddc59c83",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Quels sont les 6 thèmes de la CEJM (bloc 7) ?",
+    "back": "T1 : l'intégration de l'entreprise dans son environnement. T2 : la régulation de l'activité économique. T3 : l'organisation de l'activité de l'entreprise. T4 : l'impact du numérique sur la vie de l'entreprise. T5 : les mutations du travail. T6 : les choix stratégiques de l'entreprise.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "b060f7ca-e6e8-5dcb-8210-997b49e372a8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Comment les savoirs CEJMA sont-ils évalués ?",
+    "back": "Il n'y a pas d'épreuve spécifique : ils sont intégrés dans les épreuves E4, E5 et E6.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "60ed2baa-ce16-5c29-a5fd-968356f0f6d4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Que couvre le Bloc 1 de la CEJMA ?",
+    "back": "Support et mise à disposition de services informatiques : gestion du patrimoine informatique, réponse aux incidents et aux demandes d'assistance et d'évolution, développement de la présence en ligne de l'organisation, travail en mode projet, mise à disposition des utilisateurs d'un service informatique et organisation de son développement professionnel.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "df4365f5-0769-5450-aa77-4b9943b3c402",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Que couvre le Bloc 2 de la CEJMA ?",
+    "back": "Les options SISR (conception, installation, test et déploiement d'une solution d'infrastructure réseau, exploitation, dépannage et supervision) et SLAM (conception et développement d'applications, maintenance corrective ou évolutive d'une solution applicative, gestion des données).",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "b7837def-d74d-5ce5-b69d-c246c75f74f2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Que couvre le Bloc 3 de la CEJMA ?",
+    "back": "La cybersécurité des services informatiques : protection des données à caractère personnel, préservation de l'identité numérique de l'organisation, sécurisation des équipements et des usages des utilisateurs, garantie de la disponibilité, de l'intégrité et de la confidentialité des services informatiques et des données face aux cyberattaques.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "0cc70f85-29fd-56d4-ab3b-4a77bc1ff357",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Quels thèmes de la CEJMA concernent le patrimoine informatique (bloc 1) ?",
+    "back": "Les acteurs de l'industrie informatique, les enjeux de la gestion des actifs informatiques, les licences logicielles (libre/propriétaire, tarification), les données à caractère personnel (DCP) et les normes et standards.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "7d84ecd0-633e-5f57-abc2-3d0ce5457851",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Quels thèmes de la CEJMA concernent la présence en ligne de l'organisation (bloc 1) ?",
+    "back": "L'e-réputation, les mentions légales et conditions générales d'utilisation d'un site web, le nom de domaine, le droit d'utilisation des contenus externes, la responsabilité de l'éditeur et de l'hébergeur, et la réglementation sur la collecte, le traitement et la conservation des DCP.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "d230aec1-3525-5156-894b-dabec60d96c7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Quels thèmes concernent l'utilisation des ressources numériques par les salariés ?",
+    "back": "La charte informatique (rôle et valeur juridique), les responsabilités du salarié utilisateur, les enjeux des nouvelles modalités de travail et la sécurité des équipements personnels.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "8f165bf4-5501-57bd-8793-81e491ac6209",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Quels thèmes concernent le bloc 2 (SISR et SLAM) ?",
+    "back": "Le cahier des charges et ses enjeux juridiques, les contraintes éthiques et environnementales, la conservation et l'archivage des données, le droit de la preuve électronique, le contrat de prestation de service informatique, l'entente de niveau de service, les droits et obligations de l'ASR, la responsabilité civile et pénale, les contrats de développement et de maintenance, les licences et la protection juridique des productions et des bases de données.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "df260d9d-a98b-552a-8862-a3e3aa1bd195",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "8fb26559-b19c-5d53-a57b-9542bcfb8705",
+    "front": "Quels thèmes concernent le bloc 3 (cybersécurité) ?",
+    "back": "La protection des DCP (obligations du responsable de traitement), la protection de l'identité numérique, les obligations spécifiques des sous-traitants, les risques des cyberattaques, la réglementation de lutte contre la fraude informatique, les organisations de lutte contre la cybercriminalité et les obligations légales de notification en cas de faille de sécurité.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "ef650fe3-e88b-5e97-80ec-7040b0b10713",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e93a0a68-cff1-54e9-9501-cede64de63b1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "eb39ded6-ae34-5dad-93c3-383869200d4b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b178822f-0fe5-5499-ad51-14b127e3d748",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c7a0e20b-c4b0-5cc4-ab31-eb1aa52bb4e4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "77d16e6c-d7da-55d8-947e-a73cddc59c83",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3b297a44-e0ae-5d9c-9676-abbe0dbae5e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b060f7ca-e6e8-5dcb-8210-997b49e372a8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d7d098df-eaf7-5d09-95c1-fefebf2af97f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "60ed2baa-ce16-5c29-a5fd-968356f0f6d4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8a9f253b-08bb-5ecd-8f91-fbe031f19294",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "df4365f5-0769-5450-aa77-4b9943b3c402",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4fcb0c7c-7285-5155-8fa5-01005acef881",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b7837def-d74d-5ce5-b69d-c246c75f74f2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5022acee-a53a-5c66-a4de-a60dab2abc78",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0cc70f85-29fd-56d4-ab3b-4a77bc1ff357",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3fe7a073-0bcd-5b6d-bb80-1bf762d30a81",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7d84ecd0-633e-5f57-abc2-3d0ce5457851",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "05ee3487-585a-5a7c-8549-e6b46686352a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d230aec1-3525-5156-894b-dabec60d96c7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "eac02936-8caa-5f85-8911-23ad9111be67",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8f165bf4-5501-57bd-8793-81e491ac6209",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1c43c317-f062-55f8-a978-7fc1a4b432c2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "df260d9d-a98b-552a-8862-a3e3aa1bd195",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

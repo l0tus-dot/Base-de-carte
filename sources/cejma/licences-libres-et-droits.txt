@@ -1,0 +1,55 @@
+# Matière : CEJMA
+# Paquet : Licences libres, droits d'usage et sanctions
+# Description : Les droits d'une licence propriétaire, les logiciels libres, les trois types de licences libres, la double licence, le domaine public et les sanctions.
+
+Que dit l'article L335-3 du Code de la propriété intellectuelle ? ; Il définit l'illégalité de copier et d'utiliser un logiciel sans l'accord de son auteur.
+Qu'est-ce qu'une licence logicielle sur le plan juridique ? ; Un contrat entre le créateur et l'acheteur, qui autorise ce dernier à utiliser la propriété du créateur.
+Quelles sanctions menacent une personne physique qui viole une licence logicielle ? ; 2 ans d'emprisonnement et 150 000 euros d'amende.
+Quelles sanctions menacent une personne morale qui viole une licence logicielle ? ; La fermeture de l'établissement, 7 ans de prison et 750 000 euros d'amende.
+Qui est responsable du respect des licences en entreprise ? ; Le gestionnaire de parc, co-responsable avec la DSI en cas de piratage logiciel. Si l'entreprise est sanctionnée et qu'il a caché cette utilisation, elle peut se retourner contre lui, jusqu'au licenciement pour faute lourde.
+Que veut dire GLPI ? ; Gestionnaire Libre de Parc Informatique : un logiciel libre de gestion des services informatiques (ITSM) et de gestion des services d'assistance, écrit en PHP et distribué sous licence GPL.
+GLPI est-il sous licence permissive ou restrictive ? ; Restrictive (copyleft) : toute personne peut exécuter, modifier ou développer le code, mais à condition de respecter la licence GPL.
+Que désigne le « type » d'une licence dans GLPI ? ; La nature du droit d'utilisation. Le type OEM (licences pré-installées sur les ordinateurs) est le seul type configuré par défaut dans GLPI.
+Que désigne le « nombre » d'une licence dans GLPI ? ; Le volume d'installation permis : un nombre d'utilisateurs (licence flottante), un nombre d'installations (licence multiple) ou un nombre illimité (licence site).
+Que désigne l'« expiration » d'une licence dans GLPI ? ; La date limite donnant droit d'utilisation de la licence. Son dépassement peut déclencher une notification.
+Quelle différence entre version d'achat et version d'utilisation d'une licence ? ; La version d'achat est celle achetée, la version d'utilisation est celle réellement installée. Elles peuvent être très différentes mais doivent refléter l'existant.
+Les logiciels libres sont-ils toujours gratuits ? ; Non : des sociétés vendent des logiciels libres en y ajoutant des services (ex. : Openbravo propose un ERP libre avec une version gratuite et une version payante).
+Quels sont d'autres noms du logiciel ? ; Programme, plateforme, application, portail.
+Quelles sont les trois limites typiques d'une licence propriétaire d'usage ? ; Elle peut être limitée à un type, à un nombre de postes ou d'utilisateurs nommés, à un volume d'utilisation, à une durée et/ou à une étendue géographique (établissement, pays).
+Qu'est-ce qu'une licence OEM ? ; Une licence préinstallée sur la machine achetée (Original Equipment Manufacturer).
+Qu'est-ce qu'une licence réseau ? ; Une licence fondée sur le principe des utilisateurs définis ou des jetons.
+Comment peut-on mesurer une licence propriétaire ? ; Licences individuelles (1 poste = 1 licence), OEM, réseau, par nombre de processeurs, ou volume (secteurs particuliers, comme la licence Microsoft éducation).
+Quelle maintenance un utilisateur légitime peut-il effectuer sur un logiciel propriétaire ? ; La maintenance corrective : il peut effectuer tous les actes nécessaires au fonctionnement normal du logiciel, y compris corriger les erreurs (sauf clause contraire), mais il ne doit pas l'améliorer ni l'adapter.
+Combien de copies de sauvegarde un utilisateur peut-il faire d'un logiciel propriétaire ? ; Une seule copie de sauvegarde, si la copie originale est détruite. Elle ne peut pas être utilisée en même temps que l'original.
+Que peut faire un utilisateur pour étudier un logiciel sans autorisation de l'auteur ? ; Observer, étudier ou tester le fonctionnement ou la sécurité du logiciel pour déterminer les idées et principes à la base de ses éléments, lors d'une opération de chargement, d'affichage, d'exécution, de transmission ou de stockage qu'il est en droit d'effectuer.
+À quoi sert le droit de décompiler un logiciel ? ; À assurer l'interopérabilité avec d'autres logiciels : retrouver le code source du programme pour disposer d'informations techniques indispensables au fonctionnement conjoint de plusieurs logiciels.
+Existe-t-il une exception pour copie privée sur les logiciels ? ; Non : l'exception pour copie privée n'existe pas pour le logiciel, sauf licence libre.
+Qu'est-ce qu'un logiciel libre ? ; Un logiciel payant ou gratuit, distribué avec l'intégralité de ses codes sources ouverts, afin que l'ensemble des contributeurs puisse le modifier, l'enrichir et le redistribuer.
+Un logiciel libre est-il libre de droits ? ; Non : l'auteur détient les droits de propriété intellectuelle et il est protégé par le droit d'auteur. Celui-ci peut ne pas revendiquer ces droits.
+Qui a défini les 4 libertés de la licence libre ? ; Richard Stallman (1984).
+Quelles sont les 4 libertés de la licence libre ? ; Liberté 0 : exécuter le programme sans restriction. Liberté 1 : étudier son fonctionnement et l'adapter (accès au code source). Liberté 2 : diffuser des copies. Liberté 3 : publier les modifications (et pour cela, accéder au code source).
+Quelles libertés une licence propriétaire limite-t-elle ? ; Au moins une de ces quatre libertés est interdite ou limitée par le propriétaire, alors qu'une licence libre respecte les quatre.
+Quelles sont les 3 familles de licences libres ? ; Copyleft (restrictive), Open Source (permissive) et licence asymétrique (semi-libre).
+Qu'est-ce que le copyleft (licence restrictive) ? ; L'autorisation de copier, diffuser et modifier n'est accordée qu'à condition de conférer la même licence, donc les mêmes libertés, à autrui sur ses propres contributions. Exemples : GNU GPL, CeCILL.
+Qu'est-ce qu'une licence open source (permissive) ? ; Elle confère la libre redistribution et l'accès au code source, sans obligation d'accorder les mêmes libertés lors d'une rediffusion de l'œuvre modifiée ou non. Exemples : BSD, CeCILL-B.
+Qu'est-ce qu'une licence asymétrique (semi-libre) ? ; L'auteur accorde les libertés de copier, diffuser et modifier tout en se réservant l'exclusivité de certaines prérogatives, et oblige à ce que les enrichissements soient soumis à une licence qu'il a choisie. Exemples : GNU LGPL, CeCILL-C.
+Quelle licence correspond à « domaine public, vous pouvez copier, modifier et distribuer, et chaque personne choisit la licence de ses modifications » ? ; BSD (licence permissive).
+Quelle licence correspond à « copyleft : chaque modification doit être soumise à la même licence » ? ; GPL.
+Quelle licence correspond à « asymétrique : les modifications faites par d'autres doivent être soumises à la licence d'utilisation de ce logiciel » ? ; LGPL.
+Quels sont les avantages d'une licence libre pour l'utilisateur ? ; Liberté d'exécution, d'étudier, de modifier et de partager ces modifications, coût économique plus faible, interopérabilité, flexibilité.
+Quels sont les inconvénients d'une licence libre pour l'utilisateur ? ; Peu de support, la licence peut être asymétrique (GPL ou LGPL) et ne pas permettre de redistribuer comme on veut, il faut connaître les licences pour savoir ce que l'on a le droit de faire, et la dépendance éventuelle à un créateur.
+Quels sont les avantages d'une licence propriétaire pour l'utilisateur ? ; Une interface intuitive et épurée, un support 24h/24 et 7j/7, une notoriété rassurante et plus de documentation.
+Quels sont les inconvénients d'une licence propriétaire pour l'utilisateur ? ; Souvent payant, mises à jour payantes, respect de la vie privée, manque de personnalisation, arrêt de la revente ou du support, et mise à jour forcée.
+Citez un système d'exploitation propriétaire et un libre. ; Propriétaire : Windows, macOS. Libre : GNU/Linux, BSD.
+Citez un SGBD relationnel propriétaire et un libre. ; Propriétaire : SQL Server, Oracle Database. Libre : MariaDB, MySQL.
+Citez un navigateur web propriétaire et un libre. ; Propriétaire : Edge, Chrome. Libre : Chromium, Firefox.
+Citez une suite bureautique propriétaire et une libre. ; Propriétaire : Microsoft Office 365. Libre : LibreOffice.
+Citez un logiciel de traitement d'images propriétaire et un libre. ; Propriétaire : Photoshop. Libre : GIMP.
+Citez un serveur d'applications propriétaire et un libre. ; Propriétaire : IIS (Microsoft). Libre : Apache, Nginx.
+Citez un serveur mail propriétaire et un libre. ; Propriétaire : MS Exchange. Libre : Zimbra, Postfix.
+Qu'est-ce que la double licence ? ; Une clause de licence qui permet à un utilisateur d'une œuvre protégée par le droit d'auteur de l'utiliser en se conformant à l'un de deux ensembles de conditions.
+Quels sont les deux ensembles de conditions d'une double licence ? ; Une licence libre open source pour le produit standard, et une licence commerciale propriétaire, plus protégée, avec garantie et plus de fonctionnalités.
+Qu'est-ce que le domaine public ? ; L'ensemble des créations intellectuelles dont les droits d'exploitation liés au droit d'auteur sont expirés.
+Quelle est la durée des droits d'exploitation selon la convention de Berne (1886) ? ; 70 ans après la mort de l'auteur, ou 70 ans à dater de la première diffusion (si la diffusion est posthume, ou si l'œuvre est créée par plusieurs auteurs).
+Y a-t-il beaucoup de logiciels dans le domaine public ? ; Il y en a peu : ce sont des logiciels abandonnés par leurs auteurs, développés bénévolement (souvent dans le cadre universitaire).
+Quelles sont les caractéristiques d'un logiciel du domaine public ? ; Sa redistribution et son utilisation sont autorisées sans limitation, mais sa modification est souvent impossible car le code source est indisponible.

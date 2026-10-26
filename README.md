@@ -17,7 +17,18 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 
 | Matière | Paquet | Cartes | Fichier |
 | --- | --- | --- | --- |
+| CEJMA | Contrat de prestation informatique et SLA | 39 | `paquets/cejma/contrat-prestation-et-sla.json` |
+| CEJMA | Données à caractère personnel et RGPD | 51 | `paquets/cejma/donnees-personnelles-rgpd.json` |
+| CEJMA | Gestion des actifs logiciels et contrats de licence | 25 | `paquets/cejma/gestion-actifs-logiciels-et-contrats.json` |
+| CEJMA | Identité numérique et cybersécurité | 58 | `paquets/cejma/identite-numerique-cybersecurite.json` |
+| CEJMA | La gestion des actifs informatiques (ITAM) | 12 | `paquets/cejma/gestion-actifs-informatiques.json` |
+| CEJMA | Les acteurs de l'industrie informatique | 30 | `paquets/cejma/acteurs-industrie-informatique.json` |
 | CEJMA | Les licences logicielles | 21 | `paquets/cejma/les-licences-logicielles.json` |
+| CEJMA | Licences libres, droits d'usage et sanctions | 51 | `paquets/cejma/licences-libres-et-droits.json` |
+| CEJMA | Normes et standards en informatique | 12 | `paquets/cejma/normes-et-standards.json` |
+| CEJMA | Patrimoine informatique d'un salon de coiffure | 20 | `paquets/cejma/patrimoine-informatique-salon-coiffure.json` |
+| CEJMA | Présentation de la CEJMA | 12 | `paquets/cejma/presentation-cejma.json` |
+| CEJMA | Réglementation d'un site internet | 41 | `paquets/cejma/reglementation-site-internet.json` |
 | Réseau | Routage statique | 18 | `paquets/reseau/routage-statique.json` |
 | Réseau | Routage Dynamique (RIPv2) | 26 | `paquets/reseau/routage-dynamique-ripv2.json` |
 | Réseau | NAT et PAT | 25 | `paquets/reseau/nat-et-pat.json` |

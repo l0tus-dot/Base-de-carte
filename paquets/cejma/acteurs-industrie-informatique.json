@@ -1,0 +1,663 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Les acteurs de l'industrie informatique"
+   }
+  ],
+  "cards": [
+   {
+    "id": "80937210-0e66-5cdd-84f9-8ec120ae06ee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Qu'est-ce qu'un secteur d'activité (source INSEE) ?",
+    "back": "Un regroupement d'entreprises qui ont la même activité principale.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "dc9884bd-abc7-5c42-9780-55a78ecf1be3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Quels sont les trois secteurs de l'INSEE ?",
+    "back": "Le secteur primaire, le secteur secondaire et le secteur tertiaire.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "cbe3c092-f2fb-5739-bc18-77c8cb8de483",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que comprend le secteur primaire ?",
+    "back": "L'ensemble des activités dont la finalité consiste en une exploitation des ressources naturelles : agriculture, pêche, forêts, mines et gisements.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "25373d62-b50f-50a2-a1df-f7d41d4d84fe",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que comprend le secteur secondaire ?",
+    "back": "L'ensemble des activités consistant en la transformation des matières premières : construction, industrie manufacturière.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "eb173016-6a4c-541c-bfac-0435d18c2f1d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que comprend le secteur tertiaire ?",
+    "back": "Un vaste champ d'activités : du commerce à l'administration, en passant par les transports, les activités financières et immobilières, les services aux entreprises et aux particuliers, l'éducation, la santé et l'action sociale.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "91970e95-1801-5349-97b7-71535af3ea70",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que fait un constructeur de matériel informatique ?",
+    "back": "Il conçoit, fabrique, commercialise et maintient des appareils, composants ou pièces détachées (ordinateur, modem, processeur, téléphone, périphériques, alimentation, carte mère).",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "92ffd1df-1110-5ee6-afec-a7b00c160a9b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Dans quel secteur se trouve un constructeur de matériel informatique ?",
+    "back": "Le secteur secondaire.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "a6570af3-7490-55dc-9640-3dc3b08bc8b6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que fait un réparateur de matériel informatique ?",
+    "back": "Il assure l'entretien, la réparation et le reconditionnement des matériels informatiques.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "0fd1060b-8f9f-502b-a808-aeac566200eb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que fait un constructeur de matériel de télécommunication ?",
+    "back": "Il met en place les réseaux physiques de télécommunication et les maintient.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "9181bde7-1c95-5628-9db7-3c0b3fab28b2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que fait un opérateur télécom ?",
+    "back": "Il assure l'exploitation des réseaux de télécommunications et leur maintenance. Exemples : Free, Orange, Bouygues, SFR.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "472dee79-b4ee-5d3e-a0cf-5d49df9a79be",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que fait un éditeur de logiciel ?",
+    "back": "Il conçoit et fournit des programmes nécessaires au fonctionnement de tous les équipements numériques, qu'il s'agisse de modules embarqués ou d'une application de gestion complète d'une entreprise. Exemples : SAP, Ubisoft.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "e069642b-ad90-5bf4-8786-c6a99c75a3ee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Qu'est-ce qu'une ESN ?",
+    "back": "Une entreprise de services du numérique : elle accompagne les entreprises clientes dans leur transformation numérique en leur proposant une solution répondant à leur besoin dans le cadre d'un projet (mise en réseau, intégration d'un logiciel, infogérance, formation, management). Exemples : Cap Gemini, Atos, Orange.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "6aab921a-4ef9-5bda-9030-f89635af78b5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que veut dire SS2I ?",
+    "back": "Société de services d'ingénierie et d'informatique : l'ancien nom des ESN, changé à la proposition de Syntec Numérique.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "e33dcbea-ba0b-59df-b561-b4a5700cdf61",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Qu'est-ce que Syntec Numérique ?",
+    "back": "L'organisation professionnelle des entreprises de services du numérique (ESN), des éditeurs de logiciels et des sociétés de conseil en technologies.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "0cff4602-6d36-5a71-b4aa-ac91092eab6f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que fait une entreprise de conseil ?",
+    "back": "Elle apporte son expertise sur le système d'information (cartographie, transformation de l'architecture, pilotage de la transformation) et sur l'infrastructure (audit et amélioration de l'exploitation informatique, de la sécurité et des réseaux informatiques).",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "659f20cb-ecf5-5d6d-9bc5-1d5f36148048",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que fait un distributeur ?",
+    "back": "Il vend les produits, assure l'assistance et le service après-vente auprès des professionnels ou des particuliers. Il est grossiste ou détaillant et utilise un canal physique et/ou numérique (e-commerce). Exemples : Darty, Fnac, LDLC.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "206aa5e6-cb03-58bc-b035-5fa9f98c39b8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Que sont les entreprises de l'internet ?",
+    "back": "Les hébergeurs, les fournisseurs d'accès Internet, les éditeurs de contenu multimédia, les moteurs de recherche, les éditeurs de réseaux sociaux et la sécurité des sites web.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "7205dd2a-1bab-5136-b7a8-b15e3804af86",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Quel décret définit les catégories d'entreprises ?",
+    "back": "Le décret du 18 décembre 2008 relatif aux critères permettant de déterminer la catégorie d'appartenance d'une entreprise.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "649efdb1-1b84-5f06-9014-16f976ab3cb3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Qu'est-ce qu'une entreprise selon l'article 1 du décret de 2008 ?",
+    "back": "La plus petite combinaison d'unités légales qui constitue une unité organisationnelle de production de biens et de services jouissant d'une certaine autonomie de décision, notamment pour l'affectation de ses ressources courantes.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "8c1f5f59-5720-5e54-a775-6dfa8c6692f3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Qu'est-ce qu'une microentreprise (TPE) ?",
+    "back": "Une entreprise qui occupe moins de 10 personnes et a un chiffre d'affaires annuel ou un total de bilan n'excédant pas 2 millions d'euros.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "8ad34fdb-be0d-513c-944c-af92eba6e6f1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Qu'est-ce qu'une PME ?",
+    "back": "Une entreprise qui occupe moins de 250 personnes et a un chiffre d'affaires annuel n'excédant pas 50 millions d'euros ou un total de bilan n'excédant pas 43 millions d'euros.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "ebabf6c9-211e-590c-9d50-4ad1ebf2118c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Qu'est-ce qu'une ETI ?",
+    "back": "Une entreprise de taille intermédiaire : moins de 5 000 personnes, avec un chiffre d'affaires annuel n'excédant pas 1 500 millions d'euros ou un total de bilan n'excédant pas 2 000 millions d'euros.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "2fb38709-80b4-5730-aa33-4ab7dcb31e38",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Qu'est-ce qu'une grande entreprise (GE) ?",
+    "back": "Une entreprise qui n'est pas classée dans les catégories précédentes.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "0ee264c1-52cd-534a-8447-caf5daf635af",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Qu'est-ce que le chiffre d'affaires ?",
+    "back": "La valeur des ventes réalisées par une entreprise sur une période donnée : quantité de produits vendus multipliée par leur prix unitaire.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "d2edcf9a-9faa-5002-923d-75a409051e92",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Qu'est-ce que la valeur ajoutée ?",
+    "back": "La contribution d'une entreprise à la création de richesse : la différence entre la valeur finale du produit et la valeur des consommations intermédiaires (énergie, matières premières, produits semi-finis).",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "c73ddb23-dbb7-54a3-acd9-6f98e16ceb78",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "De quoi les capitaux propres sont-ils constitués ?",
+    "back": "Du capital social (argent apporté par les propriétaires pour créer l'entreprise) et de l'autofinancement (l'épargne de l'entreprise).",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "69e365cd-0c05-5832-9912-1362dc6ce2c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Pourquoi la taille des entreprises est-elle importante sur le plan juridique ?",
+    "back": "Le législateur adapte la réglementation selon la taille de l'entreprise, avec de nombreux seuils d'effectifs (ex. : le CSE n'est pas obligatoire en dessous de 50 salariés).",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "f5f82d0c-21df-5e70-b916-73266fe5f008",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Pourquoi la taille des entreprises est-elle importante sur le plan politique ?",
+    "back": "Les programmes (gouvernementaux, régionaux ou européens) soutiennent le développement du numérique des organisations en fonction de leur taille (ex. : l'État aide les TPE et PME).",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "f9a43d9e-5488-560b-8a5c-db0959e2d4a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Pourquoi la taille des entreprises est-elle importante sur le plan économique ?",
+    "back": "Les décisions de financement des acteurs sont contraintes par la taille des organisations (apports de propriétaires, banques, subventions des administrations).",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "1a4680d7-0096-5cc1-a348-dee14df61aa4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "641643c6-0076-55ab-b812-710cc0b6c12d",
+    "front": "Pourquoi la taille des entreprises est-elle importante sur le plan du management ?",
+    "back": "L'entreprise adapte sa structure en s'organisant pour accompagner sa croissance : le système de hiérarchie et les styles de management varient.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "b7aaa4d6-56f4-5da4-a979-7a51ea610a16",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "80937210-0e66-5cdd-84f9-8ec120ae06ee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f4ae2d86-d4e3-5fbb-a367-c7f5216ff030",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dc9884bd-abc7-5c42-9780-55a78ecf1be3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "089b8314-ee8b-50fb-9f07-760dd507c583",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cbe3c092-f2fb-5739-bc18-77c8cb8de483",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "024ada40-1202-5bf8-ba09-309959f3f3d7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "25373d62-b50f-50a2-a1df-f7d41d4d84fe",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b4887979-0ecf-51f0-8dd8-26809f72f529",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eb173016-6a4c-541c-bfac-0435d18c2f1d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "57c02a4d-802a-55b5-8a91-16e35e35c520",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "91970e95-1801-5349-97b7-71535af3ea70",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "919ba66c-4b1d-52ae-81f5-b5227549d18e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "92ffd1df-1110-5ee6-afec-a7b00c160a9b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d2c46538-15d4-5086-bbbf-f16a3dd866cd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a6570af3-7490-55dc-9640-3dc3b08bc8b6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1bba6460-de7d-5db4-95df-0d5fc08bee1f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0fd1060b-8f9f-502b-a808-aeac566200eb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cc3d880b-df07-5b2c-9df0-5f67dcd498fd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9181bde7-1c95-5628-9db7-3c0b3fab28b2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e9756e59-9115-500b-b2ce-8fe45969068e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "472dee79-b4ee-5d3e-a0cf-5d49df9a79be",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bed1b14b-2ae5-5835-bb55-e9afb2401a7f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e069642b-ad90-5bf4-8786-c6a99c75a3ee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "46096962-2889-5fc0-a481-aa67a63fcef9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6aab921a-4ef9-5bda-9030-f89635af78b5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b8fbb4dd-a2a6-5068-98f0-128040245f7a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e33dcbea-ba0b-59df-b561-b4a5700cdf61",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "43b52166-3440-5c4c-b3e2-6bb6415db19e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0cff4602-6d36-5a71-b4aa-ac91092eab6f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c3ebecd2-50e8-50b8-9aba-5ea2b32950f4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "659f20cb-ecf5-5d6d-9bc5-1d5f36148048",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5fdcb4b7-ae8a-55d0-81cc-e8e467914ae6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "206aa5e6-cb03-58bc-b035-5fa9f98c39b8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "428d3fd2-dd4f-5b70-b3f5-180f8ad27272",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7205dd2a-1bab-5136-b7a8-b15e3804af86",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "85ae4e96-7500-50ca-930d-850d4b22bfce",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "649efdb1-1b84-5f06-9014-16f976ab3cb3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c171717a-e3f8-535d-905f-8b8339ccbca6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8c1f5f59-5720-5e54-a775-6dfa8c6692f3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dc5c3899-1aad-55d6-a11d-19917ed5ca0c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8ad34fdb-be0d-513c-944c-af92eba6e6f1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3f6ae5c3-f840-57d4-87b5-914160c75efc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ebabf6c9-211e-590c-9d50-4ad1ebf2118c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "71615ea2-4d0e-5508-98b0-6cddb2bf1797",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2fb38709-80b4-5730-aa33-4ab7dcb31e38",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5e0f8850-6f7a-542f-8a77-86ac6350b92b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0ee264c1-52cd-534a-8447-caf5daf635af",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "0637fc1f-7652-58e2-971b-8fe1bffa8d4d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d2edcf9a-9faa-5002-923d-75a409051e92",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "548f6e3e-307f-57c3-8ff8-a72aa78aab46",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c73ddb23-dbb7-54a3-acd9-6f98e16ceb78",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3198145f-b814-54e3-b64c-082550bf2cb2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "69e365cd-0c05-5832-9912-1362dc6ce2c6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "10cd9c7c-8652-5bb9-9f6a-e5599f9731d8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f5f82d0c-21df-5e70-b916-73266fe5f008",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "42d580a2-9c26-520b-bed7-4fd200827039",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f9a43d9e-5488-560b-8a5c-db0959e2d4a9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1d015e6d-7ea4-5f45-85f5-2e24a7e991e4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1a4680d7-0096-5cc1-a348-dee14df61aa4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

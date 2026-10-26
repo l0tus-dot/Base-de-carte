@@ -1,0 +1,1104 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "Données à caractère personnel et RGPD"
+   }
+  ],
+  "cards": [
+   {
+    "id": "6448954b-6cf4-515b-b367-d64d9655009e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Que veut dire RGPD ?",
+    "back": "Règlement général sur la protection des données.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "7d1014ce-2861-5097-aa3b-986551a2d81c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quand le RGPD est-il entré en vigueur ?",
+    "back": "Le 25 mai 2018.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "dd61f20a-e4be-5f60-93f5-cb3468a49c2a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que le RGPD ?",
+    "back": "Un texte réglementaire européen qui harmonise les règles de traitement des données à caractère personnel dans toute l'Union européenne.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "ae2ba6ae-0c01-5050-8a70-bd6950d3df59",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "À qui s'adresse le RGPD ?",
+    "back": "À toutes les structures privées ou publiques qui collectent et/ou traitent des DCP sur le territoire de l'UE.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "8d3b4f07-0be6-5518-bd73-5a87e73e81aa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quelle loi française protégeait les DCP avant le RGPD ?",
+    "back": "La loi Informatique et Libertés du 6 janvier 1978.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "c07d8391-7d52-569c-a914-de478960945b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quels sont les trois objectifs principaux du RGPD ?",
+    "back": "Renforcer les droits des personnes, responsabiliser les acteurs traitant des données et crédibiliser la régulation grâce à une coopération renforcée entre les autorités de protection des données.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "12de12c4-7713-541f-9986-df59349c514a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quelles sont les sanctions pénales maximales pour non-respect du RGPD ?",
+    "back": "5 ans de prison et 300 000 euros d'amende. Sur le plan civil : réparation de la totalité des dommages.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "8dc06d24-644e-5e62-9444-57d21dd0dd21",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quels sont les principes ou obligations auxquels les laboratoires doivent se plier pour montrer leur conformité ?",
+    "back": "Nommer un délégué à la protection des données, recenser les traitements de données, définir les actions correctives, analyser les risques, établir des procédures internes, tenir une documentation et faire un audit.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "f03e249c-9d23-54bf-b9ec-c4a8cc0d7ed2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quelle est l'autorité de référence en France pour contrôler l'application du RGPD ?",
+    "back": "La CNIL.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "d21279cb-0fa5-5c4a-91d0-649493d6828e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Donnez un exemple de mesure à adopter pour se conformer au RGPD.",
+    "back": "Demander le consentement de l'utilisateur lors de la collecte de ses données et l'informer sur le stockage et le traitement de ces données.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "ee87b8d9-f93a-58a6-9dd0-46037c7250b2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quels types de données ne faut-il pas confondre ?",
+    "back": "Les données personnelles, les données personnelles sensibles, les données stratégiques sensibles et les données publiques. Les trois premières sont considérées comme confidentielles.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "81378cf0-50a6-5c0e-99b7-1f8ce2bdaa71",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Donnez des exemples de données stratégiques sensibles qui n'ont pas de caractère personnel.",
+    "back": "Les commandes passées par les pharmacies, le nom des professionnels de santé démarchés, la composition des médicaments.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "0d437f84-e29c-56f2-a65b-3e03a0554785",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce qu'un visiteur médical ?",
+    "back": "Une sorte de commercial pour un laboratoire, chargé de faire connaître aux médecins, pharmaciens et autres professionnels de santé les offres et produits du laboratoire. Il ne fait pas de vente.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "ef08cc7b-fb30-5190-8208-b3a8fad2e21c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que l'identification directe d'une personne ?",
+    "back": "Elle se produit lorsque les informations permettent d'identifier une personne sans nécessiter d'autres données.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "93a92256-6294-5820-bbe9-ffd37d88ec2e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que l'identification indirecte d'une personne ?",
+    "back": "Elle intervient lorsque la personne ne peut pas être identifiée uniquement à partir d'une donnée.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "f080811b-1d62-50ff-8f5b-03d6db4f1553",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Donnez des exemples d'identification directe.",
+    "back": "Le nom, le prénom, la vidéo, la photo du visage, l'adresse électronique nominative.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "8aa76e2a-582d-5a51-96e4-a9eedcbc5d3b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Donnez des exemples d'identification indirecte.",
+    "back": "Le numéro de sécurité sociale, la date et le lieu de naissance, le numéro de téléphone, l'adresse IP, la plaque d'immatriculation, le numéro de carte d'identité, l'adresse du domicile.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "5b4c0624-b4b4-5632-b844-bfb33c6871cb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Que dit l'article 9 du RGPD ?",
+    "back": "Il interdit le traitement des données à caractère personnel qui révèlent l'origine raciale ou ethnique, les opinions politiques, les convictions religieuses ou philosophiques, ou l'appartenance syndicale.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "bec307c4-fe4b-5631-af55-75e698add85f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "À quelle condition les données biométriques peuvent-elles être recueillies par le service RH ?",
+    "back": "Le traitement des données génétiques et biométriques est interdit quand il vise à identifier une personne physique de manière unique, sauf exception.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "2abbd3e8-fd66-5ee4-aa9a-56cb23cb207e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quelles DCP sont dites sensibles dans le domaine de la santé ?",
+    "back": "L'état de santé, les maladies (y compris chroniques), le groupe sanguin, les échantillons biologiques, les examens prescrits et leurs résultats.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "5cf847ea-8a51-5379-86b3-2ad05dd1e7d3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Pourquoi les données de santé sont-elles qualifiées de « sensibles » ?",
+    "back": "Elles peuvent être vendues et/ou exploitées pour des raisons commerciales, et les DCP peuvent donner lieu à des infractions.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "92a1b212-335a-55df-91c0-e86a9378ca17",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quelles données sont les plus exposées à un risque de cybersécurité ?",
+    "back": "Les DCP permettant l'identification indirecte et les données sensibles.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "52d6e657-208e-5bb2-84c9-0c80e935ac19",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Que signifie DCP ?",
+    "back": "Données à caractère personnel : des informations se rapportant à une personne vivante identifiée ou identifiable.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "95448cfd-ff4b-5fcd-b15b-66eab246bf96",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Des DCP chiffrées ou pseudonymisées restent-elles des DCP ?",
+    "back": "Oui, si elles peuvent être utilisées pour identifier à nouveau une personne : elles sont couvertes par le RGPD.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "574607ce-248e-5174-8558-202c9daf1b66",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quand des DCP ne sont-elles plus des DCP ?",
+    "back": "Quand elles ont été rendues anonymes de telle manière que la personne ne soit pas ou plus identifiable. Le processus d'anonymisation doit être irréversible.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "8eeb92b1-2701-5c9d-bd87-4b6f7a73fca6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Le chiffrement et la pseudonymisation rendent-ils les DCP anonymes ?",
+    "back": "Non, ils ne permettent pas de rendre les DCP anonymes, car le processus n'est pas irréversible.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "7733525a-fe90-5518-bd56-6973ee20e54a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Le RGPD dépend-il de la technologie utilisée ?",
+    "back": "Non, il est neutre sur le plan technologique : il s'applique au traitement automatisé et manuel, à condition que les données soient organisées selon certains critères prédéterminés (par exemple l'ordre alphabétique), quelle que soit la méthode de conservation (système informatique, vidéo, papier).",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "d05d63b7-7ba5-53db-b57d-07142595436e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quelle législation spécifique s'applique aux données de localisation et aux cookies ?",
+    "back": "La directive « vie privée et communications électroniques » (directive 2002/58/CE du 12 juillet 2002).",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "0e315d66-1ab6-526a-a712-78fbbb01cafb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que le droit d'information (transparence) ?",
+    "back": "Le droit de questionner l'organisation sur l'utilisation effective des données (ex. : demander à une entreprise d'envoyer à une autre des données la concernant).",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "e58821f9-cdb7-5954-a3dd-c8e9ca079895",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que le droit d'accès ?",
+    "back": "Le droit d'obtenir et de vérifier les données qu'un organisme détient sur soi, y compris les fichiers de police, de gendarmerie et de renseignement, et le fichier des comptes bancaires (FICOBA). Il permet de vérifier la pertinence et la minimisation des données.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "fd612615-961d-5785-9bc0-ef7ce951ef6a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que le droit de rectification ?",
+    "back": "Le droit de contrôler et faire modifier les informations inexactes.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "4bccbde6-4330-50d9-93ce-4eb6bd23a684",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que le droit d'opposition ?",
+    "back": "Le droit d'interdire à tout moment à un organisme d'utiliser certaines de ses données, notamment de s'opposer au profilage et de demander l'intervention humaine dans un traitement automatisé.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "903fe5ff-9f46-5452-b817-aed695c6cb5a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que le droit à la limitation du traitement ?",
+    "back": "Le droit de demander à un organisme de geler temporairement l'utilisation de certaines données (ex. : conserver une vidéo mais ne pas la diffuser).",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "7338f385-9c12-528e-9ad3-9f64c839beff",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que le droit au déréférencement ?",
+    "back": "Le droit d'obtenir de ne plus associer son nom et son prénom à un contenu visible dans un moteur de recherche.",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "bb357440-2abe-5930-abb9-961037f7b508",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que le droit à l'effacement (droit à l'oubli) ?",
+    "back": "Le droit à l'effacement des données.",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "67d66e3f-fa48-53fc-8c16-e8c08755def6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que le droit à la portabilité ?",
+    "back": "La possibilité de récupérer une partie de ses données dans un format ouvert et lisible, de les stocker et de les transmettre facilement d'un système d'information à un autre pour les réutiliser à des fins personnelles.",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "53c7fed8-83ba-5892-8480-b59818599c5f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quel droit n'existait pas sous la loi Informatique et Libertés ?",
+    "back": "Le droit à la portabilité.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "04219d76-6f54-5e24-84ca-379c47659cda",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Une fois le consentement donné, peut-on s'opposer au traitement ?",
+    "back": "Oui : l'affirmation inverse (« on ne peut plus s'y opposer ») est erronée.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "5cfb9dbe-c5d0-5623-af41-1e1ea03c290e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Dans quel délai répondre à une demande de droit d'accès ?",
+    "back": "Dans un délai de 1 mois.",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   },
+   {
+    "id": "b66f3783-9ec7-5456-a6a4-a088540ed73c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Les traitements papiers sont-ils concernés par le RGPD ?",
+    "back": "Oui : l'affirmation « les traitements papiers ne sont pas concernés » est fausse.",
+    "createdAt": "2000-01-01T00:00:39.000Z"
+   },
+   {
+    "id": "40b7cf8c-22b8-52a6-a49c-654daa1060d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quel principe du RGPD a permis l'ouverture du marché des données bancaires (Smartpush) ?",
+    "back": "La portabilité des données (avec la directive DSP2).",
+    "createdAt": "2000-01-01T00:00:40.000Z"
+   },
+   {
+    "id": "dc81f867-cd81-5acb-8474-b4c3a3bb17ee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quel est l'intérêt de Smartpush pour le commerçant ?",
+    "back": "Améliorer la connaissance client et proposer des offres personnalisées.",
+    "createdAt": "2000-01-01T00:00:41.000Z"
+   },
+   {
+    "id": "fbb1881e-44e1-5e7a-8433-e48d4fc2aa6c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quel est l'intérêt de Smartpush pour la banque ?",
+    "back": "Une nouvelle source de revenus et lutter à armes égales avec les GAFAM.",
+    "createdAt": "2000-01-01T00:00:42.000Z"
+   },
+   {
+    "id": "45f5bc3e-a4d0-51e5-b8f1-187694a6238a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quel est l'intérêt de Smartpush pour le consommateur ?",
+    "back": "Ne plus être spammé et gagner en pouvoir d'achat.",
+    "createdAt": "2000-01-01T00:00:43.000Z"
+   },
+   {
+    "id": "2f6d9da8-d5b4-5f5e-be15-dc7feb74bcf7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quel est le modèle économique de Smartpush ?",
+    "back": "Une source de revenus par commission sur le panier du commerçant partenaire (2 %, dont la moitié est reversée à la banque).",
+    "createdAt": "2000-01-01T00:00:44.000Z"
+   },
+   {
+    "id": "0950276d-10c6-5765-9793-bf10c51f6597",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Que faire à défaut de consentement pour diffuser des recommandations non personnalisées ?",
+    "back": "Anonymiser ou pseudonymiser les données.",
+    "createdAt": "2000-01-01T00:00:45.000Z"
+   },
+   {
+    "id": "c3b96d78-efb4-550c-a315-b5bd61b53b1d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Qu'est-ce que l'Atelier RGPD de la CNIL ?",
+    "back": "Une formation en ligne gratuite et illimitée (MOOC), qui sensibilise les professionnels à la protection des données et accompagne leur mise en conformité. Elle s'adresse principalement aux délégués à la protection des données (DPO).",
+    "createdAt": "2000-01-01T00:00:46.000Z"
+   },
+   {
+    "id": "ac52e50f-57af-50c3-aaf1-f8f8d49deb4b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Comment le MOOC de la CNIL est-il structuré ?",
+    "back": "En 5 modules d'une durée totale de 5 heures en moyenne, avec un 6e module nouveau (travail et données personnelles). Une attestation de suivi par module est délivrée à qui répond correctement à 80 % des questions.",
+    "createdAt": "2000-01-01T00:00:47.000Z"
+   },
+   {
+    "id": "624b8351-2760-50bb-974c-1563f378296c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Quels sont les modules du MOOC de la CNIL ?",
+    "back": "Module 1 : le RGPD et ses notions clés. Module 2 : les principes de la protection des données. Module 3 : les responsabilités des acteurs. Module 4 : le DPO et les outils de la conformité. Module 5 : les collectivités territoriales. Module 6 : travail et données personnelles.",
+    "createdAt": "2000-01-01T00:00:48.000Z"
+   },
+   {
+    "id": "2c65479a-0a3d-5807-9683-7ffd251557c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Que comprend le module 2 du MOOC de la CNIL ?",
+    "back": "Les 8 règles d'or, la finalité, la licéité, la minimisation, la protection particulière de certaines données, la conservation limitée, l'obligation de sécurité, la transparence, les droits des personnes et l'encadrement des transferts hors de l'UE.",
+    "createdAt": "2000-01-01T00:00:49.000Z"
+   },
+   {
+    "id": "5aefd95e-c9a3-5fc3-be98-3c0306eb755e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "68e69444-94a7-51e2-9b14-e7be1c8a24c7",
+    "front": "Que comprend le module 4 du MOOC de la CNIL ?",
+    "back": "Le délégué à la protection des données, le registre, l'analyse d'impact sur la vie privée, la notification des violations de données, la certification et les codes de conduite.",
+    "createdAt": "2000-01-01T00:00:50.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "bdff6ffe-cbfa-58fd-b906-80a9923c16f8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6448954b-6cf4-515b-b367-d64d9655009e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3905ea59-8dcc-5763-b9ea-a757758c7def",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7d1014ce-2861-5097-aa3b-986551a2d81c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4b684d5e-d34d-559a-ac37-4382733f6972",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dd61f20a-e4be-5f60-93f5-cb3468a49c2a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "30556079-0f64-5bfd-89f2-fd116b736f20",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ae2ba6ae-0c01-5050-8a70-bd6950d3df59",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f9369c96-1534-5eb8-a7fe-2b7e9a82810c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8d3b4f07-0be6-5518-bd73-5a87e73e81aa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "810d764b-e9af-593c-a2d9-af120dde7064",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c07d8391-7d52-569c-a914-de478960945b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a46c8221-5f44-53db-a94b-8819ec7a7407",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "12de12c4-7713-541f-9986-df59349c514a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "85e27398-2adb-5860-ac2f-4631a8c6ce63",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8dc06d24-644e-5e62-9444-57d21dd0dd21",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8135c08e-8993-5da3-8c36-83e3c48effef",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f03e249c-9d23-54bf-b9ec-c4a8cc0d7ed2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "69a3fd3a-45d8-5ab8-b323-b960d80b7959",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d21279cb-0fa5-5c4a-91d0-649493d6828e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "69570610-0f6a-5e74-94f5-cb1136640137",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ee87b8d9-f93a-58a6-9dd0-46037c7250b2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "36b6c015-e96a-5590-9e9f-71fc20491e22",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "81378cf0-50a6-5c0e-99b7-1f8ce2bdaa71",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6c950f7a-31e2-5405-ab26-1199c19f6aab",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0d437f84-e29c-56f2-a65b-3e03a0554785",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dfde8be2-9f2b-5c51-9c03-d4f06d3d951c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ef08cc7b-fb30-5190-8208-b3a8fad2e21c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9a304573-0a91-5a02-bb5f-eb24b2b71fed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "93a92256-6294-5820-bbe9-ffd37d88ec2e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ab06b3c0-2152-58d0-baec-f243a6f49ee2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f080811b-1d62-50ff-8f5b-03d6db4f1553",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c76b94b8-0022-574d-9920-26887bc1ad19",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8aa76e2a-582d-5a51-96e4-a9eedcbc5d3b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3b4ea38b-5c83-50d7-b88d-b1e38a4d28da",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5b4c0624-b4b4-5632-b844-bfb33c6871cb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1f69ff25-5b59-55ed-8a34-610853a86a88",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bec307c4-fe4b-5631-af55-75e698add85f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d44c1fce-ee8b-5389-93c5-39f4db4f36a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2abbd3e8-fd66-5ee4-aa9a-56cb23cb207e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9b5e72ef-cfdd-5dff-9e83-c8629f067140",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5cf847ea-8a51-5379-86b3-2ad05dd1e7d3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c3b40646-61fb-5609-ba0a-afade0083805",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "92a1b212-335a-55df-91c0-e86a9378ca17",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e672abd5-17cf-5aca-b250-a98bdad23428",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "52d6e657-208e-5bb2-84c9-0c80e935ac19",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "60b1e756-6a70-5f1c-8f78-53608df66506",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "95448cfd-ff4b-5fcd-b15b-66eab246bf96",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cd239b0e-6f99-5bfb-9ded-76f6c79e1000",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "574607ce-248e-5174-8558-202c9daf1b66",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d90e6290-ac1d-50b6-af00-7fe8ddb09c04",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8eeb92b1-2701-5c9d-bd87-4b6f7a73fca6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "57527498-8413-5b2d-9d79-4d4a1c28bb76",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7733525a-fe90-5518-bd56-6973ee20e54a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "df135da7-3e1f-5875-bd06-09b07f4db76a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d05d63b7-7ba5-53db-b57d-07142595436e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "98e87ba3-497a-58be-a96a-933eb8d8b0b0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0e315d66-1ab6-526a-a712-78fbbb01cafb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3f830d52-5825-599b-b3a4-e575f52df2e2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e58821f9-cdb7-5954-a3dd-c8e9ca079895",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e2ca13f3-703b-588a-bb91-10716e27911b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fd612615-961d-5785-9bc0-ef7ce951ef6a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "df374e4b-4dab-55b1-b971-eac09c784100",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4bccbde6-4330-50d9-93ce-4eb6bd23a684",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4986743c-ea53-5b98-8e6c-fb185e080409",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "903fe5ff-9f46-5452-b817-aed695c6cb5a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2b0296eb-7cb3-5c20-aade-caffcedc7961",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7338f385-9c12-528e-9ad3-9f64c839beff",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ed0e6c31-779d-5f11-9b9c-1c7181e3e7a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bb357440-2abe-5930-abb9-961037f7b508",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9e653be1-1a86-5b48-b258-3c6bbb5b50ef",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "67d66e3f-fa48-53fc-8c16-e8c08755def6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9b6dfc75-3404-5348-9130-ed5bf1ee4e1d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "53c7fed8-83ba-5892-8480-b59818599c5f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e64f7af4-4d3b-596e-9b42-bc94cf493375",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "04219d76-6f54-5e24-84ca-379c47659cda",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f83692f6-068a-5cef-8012-85e339e292a1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5cfb9dbe-c5d0-5623-af41-1e1ea03c290e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c65861b7-4c0c-5d3b-8d90-94e403c113e9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b66f3783-9ec7-5456-a6a4-a088540ed73c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "95205ec6-4108-5a1f-9981-5cdab7727978",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "40b7cf8c-22b8-52a6-a49c-654daa1060d2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ceecfcba-d8ce-5495-a613-83cdf94bd6d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dc81f867-cd81-5acb-8474-b4c3a3bb17ee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "62409c05-b214-57aa-9176-b5f4100b1fb3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fbb1881e-44e1-5e7a-8433-e48d4fc2aa6c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "80b5e2b7-cf10-5296-b464-d48f9c41b370",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "45f5bc3e-a4d0-51e5-b8f1-187694a6238a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7331a448-81fc-57e9-9e2c-573319544c33",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2f6d9da8-d5b4-5f5e-be15-dc7feb74bcf7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a2b178ba-8dfa-516a-ace3-b437faecd57a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0950276d-10c6-5765-9793-bf10c51f6597",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1bc777e7-e048-55fd-b7e0-e95213e9da32",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c3b96d78-efb4-550c-a315-b5bd61b53b1d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e3fcb23b-2007-5762-b17f-1eba1ed002a3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ac52e50f-57af-50c3-aaf1-f8f8d49deb4b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f922892d-9638-51cc-8035-05a30535f4a2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "624b8351-2760-50bb-974c-1563f378296c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fec464ca-abf1-5d76-b8e3-a8efa34c45f0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2c65479a-0a3d-5807-9683-7ffd251557c5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dd36d547-27fe-5eea-ab72-82eab8f330e3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5aefd95e-c9a3-5fc3-be98-3c0306eb755e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

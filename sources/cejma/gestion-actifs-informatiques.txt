@@ -1,0 +1,16 @@
+# Matière : CEJMA
+# Paquet : La gestion des actifs informatiques (ITAM)
+# Description : L'ITAM, les trois étapes de la démarche et les fonctions d'une solution ITAM.
+
+Qu'est-ce que la gestion des actifs informatiques (ITAM) ? ; IT Asset Management : un ensemble de processus d'entreprise conçus pour gérer le cycle de vie et l'inventaire des biens informatiques d'une organisation.
+Qu'est-ce qu'un asset ? ; Les éléments des logiciels et du matériel que l'on rencontre généralement dans un environnement professionnel.
+Que veut dire ITSM ? ; IT Service Management : un processus de gestion des services informatiques qui aide l'organisation à réduire les coûts et les risques informatiques et à augmenter la productivité globale.
+Pourquoi la gestion des actifs informatiques est-elle une priorité stratégique ? ; Les entreprises doivent gérer des parcs informatiques toujours plus étendus et hétérogènes tout en rationalisant les budgets. C'est une priorité pour les directeurs d'exploitation, les directeurs financiers et les PDG.
+Quelles sont les trois étapes de la démarche de gestion des actifs informatiques ? ; 1. Identifier et collecter les données (inventaire). 2. Cartographier et organiser les liaisons entre les biens IT. 3. Définir la gestion du cycle de vie des actifs.
+En quoi consiste l'étape d'inventaire ? ; Bien identifier toutes les informations utiles sur les biens IT et avoir une vue consolidée de ces actifs pour construire la base regroupant l'ensemble de ces données, avec un équilibre entre effort de mise à jour et utilité de l'information.
+En quoi consiste la deuxième étape ? ; Traiter les données recensées pour garantir leur cohérence et effectuer des corrections, de standardisation et de suppression des doublons (processus de normalisation), les cartographier en associant les biens IT entre eux (processus de mappage) et établir des liens avec d'autres sources d'informations (processus de liaison).
+En quoi consiste la troisième étape ? ; Gérer efficacement le cycle de vie des différentes composantes du parc, les adapter aux besoins, fluidifier leur gestion et anticiper les actions à mettre en place : renouvellement de licences, nouveaux matériels.
+Quelles fonctions une solution ITAM complète propose-t-elle ? ; Le suivi du cycle de vie des biens IT, la gestion administrative des contrats, la gestion de conformité des logiciels et droits de licences, et la gestion financière des coûts.
+Quels sont les objectifs de la stratégie ITAM ? ; Optimiser les coûts, mieux aligner le SI et les métiers, et accroître la qualité de service : la DSI peut ainsi piloter finement ses budgets et s'appuyer sur un parc parfaitement adapté aux objectifs et à la croissance de l'entreprise.
+Comment réussir un projet ITAM ? ; Consacrer le temps nécessaire à la compréhension et à la conception de chaque processus, penser simplicité de fonctionnement pour obtenir l'adhésion des équipes IT, et s'appuyer sur une solution logicielle permettant l'automatisation et l'intégration avec d'autres bases.
+Que veut dire DSI ? ; Direction des systèmes d'information.
