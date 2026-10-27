@@ -92,8 +92,6 @@ Il faut Python (aucune bibliothèque à installer). Sous Windows, si la commande
 
 ## Règles
 
-- Ne publie que des contenus que tu as le droit de partager : tes propres cartes, tes synthèses. Des cartes reformulées à partir d'un cours, oui ; recopier le cours ou un sujet protégé par des droits d'auteur, non, sans autorisation. Ce dépôt est public.
-- Pas de données personnelles (noms, notes, adresses) dans les cartes.
 - Garde les fichiers `.txt` et `.json` ensemble : le `.txt` est la source, le `.json` est ce que les autres importent.
 
 ## À savoir
@@ -105,7 +103,3 @@ Il faut Python (aucune bibliothèque à installer). Sous Windows, si la commande
 - Si tu veux recevoir les ajouts futurs d'un paquet, **ne supprime pas** sa matière ni son paquet dans Flash (tu peux déplacer ses cartes ailleurs, mais laisse-les là) : les nouvelles cartes seraient ajoutées sans que tu les voies.
 - La matière est reconnue par son **nom exact**. Si tu as déjà créé à la main une matière « Histoire », celle du paquet arrive à côté sous le même nom : tu peux déplacer les cartes d'un paquet à l'autre dans Flash.
 - Les fichiers sont tous datés du 1er janvier 2000 : c'est ce qui garantit qu'un import n'écrase rien.
-
-## Mettre ce dossier en ligne
-
-Ce dossier est un modèle : pour l'utiliser, crée un nouveau dépôt **public** sur GitHub, copie-y le contenu de ce dossier, puis envoie-le. Donne ensuite l'adresse du dépôt à tes camarades.
