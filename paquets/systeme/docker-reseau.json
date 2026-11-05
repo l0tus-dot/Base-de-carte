@@ -1,0 +1,399 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Système",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "4545849b-dee1-5d57-9e41-2c5f56b86094",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Docker",
+    "parentId": null
+   },
+   {
+    "id": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Réseau Docker",
+    "parentId": "4545849b-dee1-5d57-9e41-2c5f56b86094"
+   }
+  ],
+  "cards": [
+   {
+    "id": "d7720dfd-13d7-583e-a392-2c9d6c932bf4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Que crée Docker à l'installation côté réseau ?",
+    "back": "Une interface docker0 et un réseau bridge du même nom. Sans précision au lancement, tout conteneur y est rattaché.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "57e73fae-d6ba-5f05-bf16-482d15db638b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Quelle est l'adresse par défaut de docker0 ?",
+    "back": "172.17.0.1 (réseau 172.17.0.0/16).",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "1b0cabba-fb45-5d31-8206-c080cdc235ba",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Quelle commande liste tous les réseaux Docker ?",
+    "back": "docker network ls",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "c08abb4b-280b-50c2-bdeb-5adf3c664e2a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Que fait docker network inspect <réseau> ?",
+    "back": "Elle affiche les détails : sous-réseau, conteneurs rattachés.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "a850c487-0f1c-5ba0-868b-8afa8f69a767",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Comment créer un réseau bridge personnalisé ?",
+    "back": "docker network create <réseau>",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "46a33220-7822-569c-8f88-56285e5c9cca",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Comment créer un réseau avec un sous-réseau et une passerelle ?",
+    "back": "docker network create --driver bridge --subnet 192.168.100.0/24 --gateway 192.168.100.1 <réseau>",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "9435b45f-7646-5b85-83e6-81264709208f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Comment supprimer un réseau ?",
+    "back": "docker network rm <réseau> (il doit être vide).",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "c85d8492-1040-553d-ac2f-decbf3019c5f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Que fait docker network prune ?",
+    "back": "Elle supprime tous les réseaux inutilisés.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "a804b3f5-46db-5f20-b2eb-4c6de9a4288a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Comment rattacher un conteneur à un réseau ?",
+    "back": "docker network connect <réseau> <conteneur>",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "ae6ab9ab-85d9-5992-add0-2cac627c54e8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Comment détacher un conteneur d'un réseau ?",
+    "back": "docker network disconnect <réseau> <conteneur>",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "141dbf34-2cc7-5163-9c64-21167d784010",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Pourquoi préférer un réseau bridge personnalisé au bridge par défaut ?",
+    "back": "Sur le bridge par défaut, les conteneurs se joignent par IP. Sur un bridge nommé, Docker active un DNS interne : ils se joignent par leur nom (--name).",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "eee1ec91-4463-5d44-9610-283187ec8f87",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Comment modifier le réseau docker0 si 172.17.0.0/16 entre en conflit avec un plan d'adressage ?",
+    "back": "En créant ou modifiant /etc/docker/daemon.json avec le paramètre \"bip\" (ex. \"bip\": \"<adresse-ip>/24\").",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "b963438c-37ed-5310-8117-e9b9c2ddef16",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Quelles commandes appliquer après la modification de daemon.json ?",
+    "back": "sudo systemctl daemon-reload, sudo service docker restart, puis ip a show docker0 pour vérifier.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "ecb51f84-c5b4-5a47-b163-6f4407cd53a8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Pourquoi le redémarrage de Docker coupe-t-il la connectivité ?",
+    "back": "service docker restart interrompt brièvement docker0 et coupe la mise en réseau de tous les conteneurs (Portainer inclus). Ils ne s'arrêtent pas, mais leurs connexions ne se rétablissent qu'une fois le service revenu.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "355e7232-515a-5b4b-8d7f-675f0eab563b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Comment revenir à la valeur par défaut de docker0 ?",
+    "back": "Remettre \"bip\": \"172.17.0.1/16\", redémarrer, vérifier, puis supprimer le fichier : sudo rm -f /etc/docker/daemon.json.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "7164e9c9-b2a1-5617-9539-5a6929fea215",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Que faire si /etc/docker/daemon.json est introuvable ?",
+    "back": "Le fichier est absent par défaut : le créer avec le contenu attendu, puis systemctl daemon-reload et service docker restart.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "1aaff954-bb31-57df-8f96-3274fa781b89",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "189a300e-d411-56c4-8e3a-1a651732d92f",
+    "front": "Que faire si le changement de bip n'a aucun effet sur docker0 ?",
+    "back": "Le service n'a pas été rechargé : systemctl daemon-reload puis service docker restart, et vérifier avec ip a show docker0.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "0b1fc222-4899-5acc-bace-e5adb6ff7481",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d7720dfd-13d7-583e-a392-2c9d6c932bf4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e5967069-ff1c-56a3-b1d2-74c5cc7cc92c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "57e73fae-d6ba-5f05-bf16-482d15db638b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5ea29641-c01c-568c-9dcb-3aadd64e0285",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1b0cabba-fb45-5d31-8206-c080cdc235ba",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ee6197b2-f36a-5a30-8a09-20cbe075b31b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c08abb4b-280b-50c2-bdeb-5adf3c664e2a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "038e274a-6c50-54bf-bfe4-bf0aa28eb5fd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a850c487-0f1c-5ba0-868b-8afa8f69a767",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "49094fa8-f4a5-58ea-8594-f7b6293d8005",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "46a33220-7822-569c-8f88-56285e5c9cca",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "806aee94-cafb-56d5-a701-855f1007c4e0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9435b45f-7646-5b85-83e6-81264709208f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "66d7ad6d-09c6-5971-a64a-31d9733a4208",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c85d8492-1040-553d-ac2f-decbf3019c5f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2b435ab5-c001-597d-b995-f13639ecd8c1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a804b3f5-46db-5f20-b2eb-4c6de9a4288a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c66642b7-c14b-583a-b228-bc4a51289c61",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ae6ab9ab-85d9-5992-add0-2cac627c54e8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ee20d5a3-8c4e-5c05-8a94-36101366644f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "141dbf34-2cc7-5163-9c64-21167d784010",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a9cc1fda-6946-5403-80a1-797a84a33d0e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "eee1ec91-4463-5d44-9610-283187ec8f87",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8426f276-1fd5-550a-a1f4-c5286a9a292d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b963438c-37ed-5310-8117-e9b9c2ddef16",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8446de46-6386-5e11-9b1f-f288fdb10aa3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ecb51f84-c5b4-5a47-b163-6f4407cd53a8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6fa56058-21da-5f1c-ac69-24f7a919d91d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "355e7232-515a-5b4b-8d7f-675f0eab563b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fd819085-2a19-5c3d-9249-6ea7b966572e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7164e9c9-b2a1-5617-9539-5a6929fea215",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "391d986d-2f5b-5c96-8bb7-e830bfbf5240",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1aaff954-bb31-57df-8f96-3274fa781b89",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

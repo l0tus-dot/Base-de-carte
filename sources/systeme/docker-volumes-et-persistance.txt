@@ -1,0 +1,18 @@
+# Matière : Système
+# Parent : Docker
+# Paquet : Volumes et persistance
+# Description : Volumes nommés, bind mounts, tmpfs et montage en lecture seule.
+
+Que deviennent les données écrites dans un conteneur à sa suppression ? ; Elles disparaissent : les volumes permettent de les persister.
+Quels sont les trois types de montage Docker ? ; Le volume nommé, le bind mount et tmpfs.
+À quoi sert un volume nommé ? ; Aux données persistantes gérées par Docker. Syntaxe : -v nom_volume:/chemin
+À quoi sert un bind mount ? ; Au partage de fichiers de l'hôte avec le conteneur. Syntaxe : -v /chemin/hôte:/chemin/conteneur
+À quoi sert tmpfs ? ; Aux données temporaires stockées en RAM. Syntaxe : --tmpfs /chemin
+Quelle commande crée un volume ? ; docker volume create <volume>
+Quelle commande liste les volumes ? ; docker volume ls
+Que fait docker volume inspect ? ; Elle affiche l'emplacement du volume sur l'hôte et ses métadonnées.
+Quelle commande supprime un volume ? ; docker volume rm <volume>
+Que fait docker volume prune ? ; Elle supprime les volumes non utilisés.
+Comment monter un répertoire de l'hôte en lecture seule ? ; En ajoutant :ro, par exemple -v /chemin/hôte:/chemin/conteneur:ro.
+Que se passe-t-il si le conteneur écrit dans un montage :ro ? ; L'écriture échoue : c'est le comportement attendu. Il faut remonter sans :ro si l'écriture est nécessaire.
+Quel est le mode par défaut d'un bind mount ? ; Lecture/écriture.

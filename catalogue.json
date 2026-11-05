@@ -267,6 +267,62 @@
    "cards": 18,
    "description": "",
    "path": "paquets/reseau/routage-statique.json"
+  },
+  {
+   "subject": "Système",
+   "deck": "Docker Compose",
+   "cards": 25,
+   "description": "Le fichier compose.yml, ses clés principales, le fichier .env et les commandes docker compose.",
+   "path": "paquets/systeme/docker-compose.json",
+   "parent": "Docker"
+  },
+  {
+   "subject": "Système",
+   "deck": "Dockerfile et images personnalisées",
+   "cards": 23,
+   "description": "Les instructions d'un Dockerfile, la construction d'une image, les bonnes pratiques et docker commit.",
+   "path": "paquets/systeme/docker-dockerfile.json",
+   "parent": "Docker"
+  },
+  {
+   "subject": "Système",
+   "deck": "Images et conteneurs",
+   "cards": 54,
+   "description": "Gestion des images (recherche, pull, inspection, export) et du cycle de vie des conteneurs (run, exec, stop, logs, supervision).",
+   "path": "paquets/systeme/docker-images-et-conteneurs.json",
+   "parent": "Docker"
+  },
+  {
+   "subject": "Système",
+   "deck": "Installation et concepts",
+   "cards": 16,
+   "description": "Installation de Docker sur Ubuntu Server, vérifications, droits sans sudo et vocabulaire (image, conteneur, registry, volume, réseau).",
+   "path": "paquets/systeme/docker-installation-et-concepts.json",
+   "parent": "Docker"
+  },
+  {
+   "subject": "Système",
+   "deck": "Portainer et maintenance",
+   "cards": 20,
+   "description": "L'interface Portainer, le nettoyage ciblé et global, et la désinstallation complète de Docker.",
+   "path": "paquets/systeme/docker-portainer-et-maintenance.json",
+   "parent": "Docker"
+  },
+  {
+   "subject": "Système",
+   "deck": "Réseau Docker",
+   "cards": 17,
+   "description": "Le réseau bridge par défaut docker0, les réseaux personnalisés et le DNS interne, et la modification de l'adresse de docker0.",
+   "path": "paquets/systeme/docker-reseau.json",
+   "parent": "Docker"
+  },
+  {
+   "subject": "Système",
+   "deck": "Volumes et persistance",
+   "cards": 13,
+   "description": "Volumes nommés, bind mounts, tmpfs et montage en lecture seule.",
+   "path": "paquets/systeme/docker-volumes-et-persistance.json",
+   "parent": "Docker"
   }
  ]
 }

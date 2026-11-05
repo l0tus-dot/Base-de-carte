@@ -1,0 +1,22 @@
+# Matière : Système
+# Parent : Docker
+# Paquet : Réseau Docker
+# Description : Le réseau bridge par défaut docker0, les réseaux personnalisés et le DNS interne, et la modification de l'adresse de docker0.
+
+Que crée Docker à l'installation côté réseau ? ; Une interface docker0 et un réseau bridge du même nom. Sans précision au lancement, tout conteneur y est rattaché.
+Quelle est l'adresse par défaut de docker0 ? ; 172.17.0.1 (réseau 172.17.0.0/16).
+Quelle commande liste tous les réseaux Docker ? ; docker network ls
+Que fait docker network inspect <réseau> ? ; Elle affiche les détails : sous-réseau, conteneurs rattachés.
+Comment créer un réseau bridge personnalisé ? ; docker network create <réseau>
+Comment créer un réseau avec un sous-réseau et une passerelle ? ; docker network create --driver bridge --subnet 192.168.100.0/24 --gateway 192.168.100.1 <réseau>
+Comment supprimer un réseau ? ; docker network rm <réseau> (il doit être vide).
+Que fait docker network prune ? ; Elle supprime tous les réseaux inutilisés.
+Comment rattacher un conteneur à un réseau ? ; docker network connect <réseau> <conteneur>
+Comment détacher un conteneur d'un réseau ? ; docker network disconnect <réseau> <conteneur>
+Pourquoi préférer un réseau bridge personnalisé au bridge par défaut ? ; Sur le bridge par défaut, les conteneurs se joignent par IP. Sur un bridge nommé, Docker active un DNS interne : ils se joignent par leur nom (--name).
+Comment modifier le réseau docker0 si 172.17.0.0/16 entre en conflit avec un plan d'adressage ? ; En créant ou modifiant /etc/docker/daemon.json avec le paramètre "bip" (ex. "bip": "<adresse-ip>/24").
+Quelles commandes appliquer après la modification de daemon.json ? ; sudo systemctl daemon-reload, sudo service docker restart, puis ip a show docker0 pour vérifier.
+Pourquoi le redémarrage de Docker coupe-t-il la connectivité ? ; service docker restart interrompt brièvement docker0 et coupe la mise en réseau de tous les conteneurs (Portainer inclus). Ils ne s'arrêtent pas, mais leurs connexions ne se rétablissent qu'une fois le service revenu.
+Comment revenir à la valeur par défaut de docker0 ? ; Remettre "bip": "172.17.0.1/16", redémarrer, vérifier, puis supprimer le fichier : sudo rm -f /etc/docker/daemon.json.
+Que faire si /etc/docker/daemon.json est introuvable ? ; Le fichier est absent par défaut : le créer avec le contenu attendu, puis systemctl daemon-reload et service docker restart.
+Que faire si le changement de bip n'a aucun effet sur docker0 ? ; Le service n'a pas été rechargé : systemctl daemon-reload puis service docker restart, et vérifier avec ip a show docker0.

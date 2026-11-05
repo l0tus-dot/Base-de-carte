@@ -1,0 +1,525 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Système",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "4545849b-dee1-5d57-9e41-2c5f56b86094",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Docker",
+    "parentId": null
+   },
+   {
+    "id": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Dockerfile et images personnalisées",
+    "parentId": "4545849b-dee1-5d57-9e41-2c5f56b86094"
+   }
+  ],
+  "cards": [
+   {
+    "id": "20ae50ba-76ff-5434-9b89-904706d900eb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Qu'est-ce qu'un Dockerfile ?",
+    "back": "Un fichier qui décrit les instructions pour assembler une image personnalisée.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "d435e743-6b8f-5844-8a03-883389a23a0c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "À quoi sert l'instruction FROM ?",
+    "back": "Elle définit l'image de base (ex. FROM ubuntu:22.04).",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "3f5264f1-2801-5b7e-8667-ec911bd7aaa9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "À quoi sert l'instruction LABEL ?",
+    "back": "Elle ajoute des métadonnées à l'image (ex. maintainer, version).",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "3e1028dd-966e-564b-942a-046d3f19cced",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "À quoi sert l'instruction ARG ?",
+    "back": "Elle définit des variables disponibles à la construction de l'image.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "35aa2190-eb79-5d14-b6de-42ab3220143e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "À quoi sert l'instruction ENV ?",
+    "back": "Elle définit des variables d'environnement disponibles dans le conteneur.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "48bf01a2-6d66-5a72-9be8-635d84dfece4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "À quoi sert l'instruction RUN ?",
+    "back": "Elle exécute des commandes pendant la construction (ex. installation de dépendances).",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "5a72725d-2577-5f29-85c0-646e16a11f96",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "À quoi sert l'instruction WORKDIR ?",
+    "back": "Elle définit le répertoire de travail.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "c2648934-07c6-52f0-9069-3721930feb9f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "À quoi sert l'instruction COPY ?",
+    "back": "Elle copie des fichiers sources dans l'image.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "74d05078-6fb5-5261-8828-1e8a2dd53edc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "À quoi sert l'instruction EXPOSE ?",
+    "back": "Elle documente le port utilisé, sans le publier automatiquement.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "f20b211f-e851-595b-a928-40fb52add41c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "À quoi sert l'instruction CMD ?",
+    "back": "Elle définit la commande lancée au démarrage du conteneur.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "666439f8-8720-5c9f-bf1e-01cba1600167",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Quelle commande construit une image depuis le répertoire courant ?",
+    "back": "docker build -t <image>:<tag> .",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "772873ff-7702-5c32-a36f-b42b38281f6c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Comment construire une image avec un Dockerfile à un chemin précis ?",
+    "back": "docker build -t <image>:<tag> -f <Dockerfile> .",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "d30761f8-efb7-528a-bf8f-6626488209a6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Que fait docker build --no-cache ?",
+    "back": "Elle ignore le cache (utile après une mise à jour).",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "5eb19eb8-2f52-59a1-b469-92d9f61b6d32",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Comment passer une variable ARG à la construction ?",
+    "back": "docker build --build-arg VAR=valeur -t <image> .",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "0cc3da4b-093c-5f6d-aa10-0735f4153cfb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Pourquoi regrouper les RUN apt install en une seule instruction ?",
+    "back": "Pour réduire le nombre de couches et limiter la taille de l'image.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "dedc067b-5d45-565a-81fd-5ed5845b35f9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Pourquoi nettoyer le cache APT dans le même RUN ?",
+    "back": "Pour que le cache n'alourdisse pas la couche : && rm -rf /var/lib/apt/lists/*",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "92060b9c-41bc-5bf5-85f9-a948e2275019",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "À quoi sert le fichier .dockerignore ?",
+    "back": "À exclure les fichiers inutiles du contexte de build.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "3c8ed918-c165-59ab-9688-f88e53b11de9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Quelle image privilégier dans un Dockerfile ?",
+    "back": "Les images officielles et les tags versionnés plutôt que :latest.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "d795a06f-8648-5474-8b00-f8568f05bc33",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Que fait docker commit ?",
+    "back": "Elle fige l'état d'un conteneur modifié manuellement dans une nouvelle image.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "186c6b2d-ca96-59a0-b4a2-de61a69453ed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Quand utiliser docker commit plutôt qu'un Dockerfile ?",
+    "back": "Seulement pour des tests et des snapshots ponctuels : un Dockerfile reste préférable pour toute image reproductible ou partagée.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "c92008e7-e568-5e6f-b82d-b6b3e2f6098f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Pourquoi docker commit peut-il refuser un nom d'image ?",
+    "back": "Le nom d'image contient une majuscule : il faut le mettre entièrement en minuscules.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "bcfbcb64-321d-57c3-aaca-c81015e410b1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Que faire si l'image est introuvable après docker build ?",
+    "back": "Vérifier le tag et le chemin passé à docker build (contexte de build), et que le Dockerfile est présent.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "9ac8266a-8516-57be-b01f-34b1dcd2cd6e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1bc79bda-c2ea-5873-a5fe-465823fee7a6",
+    "front": "Quelles commandes vérifient une image construite ?",
+    "back": "docker images et docker history <image>:<tag>.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "8dc90b6b-04d7-5577-a559-efa21364bf7f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "20ae50ba-76ff-5434-9b89-904706d900eb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2c0dab6c-2326-5ac2-a7b4-b98ddb376c0e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d435e743-6b8f-5844-8a03-883389a23a0c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b1cc6619-6a17-5a32-bc18-524c6782edc6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3f5264f1-2801-5b7e-8667-ec911bd7aaa9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f1da599a-bda0-5a1a-af2e-7f56cbec3a8a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3e1028dd-966e-564b-942a-046d3f19cced",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ec1700c5-891c-56f6-82b6-4448fef4ae13",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "35aa2190-eb79-5d14-b6de-42ab3220143e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "511b86e6-cfd6-51fc-8793-5c87cc18f37e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "48bf01a2-6d66-5a72-9be8-635d84dfece4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f498227e-e61e-55be-a1e0-49458127f161",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5a72725d-2577-5f29-85c0-646e16a11f96",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "76c10790-d087-5a47-8d1e-e8bd681bbc69",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c2648934-07c6-52f0-9069-3721930feb9f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9e34056a-0e06-5c2c-b1db-036b6d1d1942",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "74d05078-6fb5-5261-8828-1e8a2dd53edc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "03e7b7c2-b860-55f3-846c-ee7940954bd5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f20b211f-e851-595b-a928-40fb52add41c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e32a507b-e5f6-5285-8006-e0944b2e99a2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "666439f8-8720-5c9f-bf1e-01cba1600167",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3e66f43c-dbf6-54dd-8909-b08775c42436",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "772873ff-7702-5c32-a36f-b42b38281f6c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "13e713c7-6a85-54e7-9f6e-bef76b8f99fa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d30761f8-efb7-528a-bf8f-6626488209a6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "814be333-d2d7-5766-aa93-db0f17fd496f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5eb19eb8-2f52-59a1-b469-92d9f61b6d32",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e1583f37-af9b-556d-ba43-6cce97dac291",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0cc3da4b-093c-5f6d-aa10-0735f4153cfb",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e4c218fc-c689-50b3-b272-a2c134d694e3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "dedc067b-5d45-565a-81fd-5ed5845b35f9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d5702f8a-3278-5d45-a104-a41b873ff7c6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "92060b9c-41bc-5bf5-85f9-a948e2275019",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1d138130-ca71-5e41-b2f8-cf8f11db6ce2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3c8ed918-c165-59ab-9688-f88e53b11de9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f011e7fd-ecd2-5ae1-ab8f-d9f09883d447",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d795a06f-8648-5474-8b00-f8568f05bc33",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "90e469e1-7fa8-51f1-bcaf-fe84661bf457",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "186c6b2d-ca96-59a0-b4a2-de61a69453ed",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bbc6f31d-e0fc-58da-af60-31c89a56b735",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c92008e7-e568-5e6f-b82d-b6b3e2f6098f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b42de563-2e8c-5d3c-8573-fc3e8dc8f627",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "bcfbcb64-321d-57c3-aaca-c81015e410b1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e333b249-2a96-57c0-8d08-44570ab56939",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9ac8266a-8516-57be-b01f-34b1dcd2cd6e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

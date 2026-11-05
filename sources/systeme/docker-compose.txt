@@ -1,0 +1,30 @@
+# Matière : Système
+# Parent : Docker
+# Paquet : Docker Compose
+# Description : Le fichier compose.yml, ses clés principales, le fichier .env et les commandes docker compose.
+
+Qu'est-ce que Docker Compose ? ; Un outil qui orchestre plusieurs conteneurs décrits dans un fichier compose.yml.
+Quelles sections principales contient un compose.yml ? ; services, volumes et networks.
+À quoi sert la clé image dans un service Compose ? ; Elle indique l'image du conteneur (ex. nginx:1.25).
+À quoi sert la clé container_name ? ; Elle donne un nom fixe au conteneur.
+À quoi sert la clé restart ? ; Elle définit la politique de redémarrage (ex. unless-stopped).
+À quoi sert la clé ports ? ; Elle publie des ports de l'hôte vers le conteneur (ex. "80:80").
+À quoi sert la clé volumes dans un service ? ; Elle monte des volumes ou des répertoires de l'hôte (ex. ./html:/usr/share/nginx/html:ro).
+À quoi sert la clé networks dans un service ? ; Elle rattache le service à un réseau déclaré dans la section networks.
+À quoi sert la clé depends_on ? ; Elle indique qu'un service dépend d'un autre : le service dépendant est démarré après.
+À quoi sert la clé environment ? ; Elle définit les variables d'environnement du conteneur (ex. TZ=Europe/Paris).
+Pourquoi utiliser un fichier .env avec Compose ? ; Pour placer les mots de passe et clés (ex. ${DB_ROOT_PASSWORD}) hors du compose.yml. Compose le charge automatiquement.
+Où placer le fichier .env et que faire pour le protéger ? ; À la racine du projet, en l'excluant du dépôt via .gitignore.
+Quelle commande démarre tous les services en arrière-plan ? ; docker compose up -d
+Comment reconstruire les images avant de démarrer ? ; docker compose up -d --build
+Comment démarrer un seul service ? ; docker compose up -d <service>
+Que fait docker compose down ? ; Elle arrête et supprime les conteneurs et les réseaux.
+Que fait docker compose down -v ? ; Elle supprime aussi les volumes nommés.
+Que fait docker compose down --rmi all ? ; Elle supprime aussi les images.
+Quelle commande affiche l'état des services ? ; docker compose ps
+Comment suivre les logs de tous les services ? ; docker compose logs -f (restreint à un service avec docker compose logs -f <service>).
+Comment ouvrir un shell dans un conteneur d'un projet Compose ? ; docker compose exec <service> /bin/bash
+Quelle commande redémarre un service ? ; docker compose restart <service>
+Que fait docker compose pull ? ; Elle télécharge les images les plus récentes.
+Que fait docker compose config ? ; Elle valide et affiche la configuration résolue.
+Que faire si les conteneurs d'un Compose ne se joignent pas par nom ? ; Déclarer un réseau commun dans la section networks: de chaque service.

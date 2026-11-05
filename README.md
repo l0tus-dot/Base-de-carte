@@ -53,6 +53,13 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | CEJM | Thème 5 - Les mutations du travail : Economique | 61 | `paquets/cejm/theme-5-economique.json` |
 | CEJM | Thème 5 - Les mutations du travail : Juridique | 163 | `paquets/cejm/theme-5-juridique.json` |
 | CEJM | Thème 5 - Les mutations du travail : Managériale | 47 | `paquets/cejm/theme-5-manageriale.json` |
+| Système | Docker : Docker Compose | 25 | `paquets/systeme/docker-compose.json` |
+| Système | Docker : Dockerfile et images personnalisées | 23 | `paquets/systeme/docker-dockerfile.json` |
+| Système | Docker : Images et conteneurs | 54 | `paquets/systeme/docker-images-et-conteneurs.json` |
+| Système | Docker : Installation et concepts | 16 | `paquets/systeme/docker-installation-et-concepts.json` |
+| Système | Docker : Portainer et maintenance | 20 | `paquets/systeme/docker-portainer-et-maintenance.json` |
+| Système | Docker : Réseau Docker | 17 | `paquets/systeme/docker-reseau.json` |
+| Système | Docker : Volumes et persistance | 13 | `paquets/systeme/docker-volumes-et-persistance.json` |
 
 Dans la matière CEJM, chaque paquet est un thème du cours, avec un sous-paquet par sous-thème (Economique, Juridique ou Managériale) qui regroupe les cartes de tous les PDF.
 

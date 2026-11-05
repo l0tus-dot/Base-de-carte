@@ -1,0 +1,25 @@
+# Matière : Système
+# Parent : Docker
+# Paquet : Portainer et maintenance
+# Description : L'interface Portainer, le nettoyage ciblé et global, et la désinstallation complète de Docker.
+
+Qu'est-ce que Portainer ? ; Une interface web complète pour gérer les conteneurs, images, volumes et réseaux de Docker.
+Comment lance-t-on Portainer ? ; On crée un volume portainer_data, puis docker run -d --name portainer --restart unless-stopped -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest.
+Pourquoi Portainer monte-t-il /var/run/docker.sock ? ; Pour communiquer avec le démon Docker de l'hôte et le piloter.
+À quoi sert le volume portainer_data ? ; Il conserve les données de Portainer (dans /data).
+Comment accéder à Portainer ? ; Depuis un navigateur : http://<adresse-ip-serveur>:9000. Le mot de passe administrateur est défini au premier lancement.
+Où peut-on intégrer Portainer pour faciliter sa mise à jour ? ; Dans un compose.yml, aux côtés des autres services.
+Quelle commande supprime les conteneurs arrêtés ? ; docker container prune
+Quelle commande supprime les images dangling ? ; docker image prune
+Quelle commande supprime toutes les images non utilisées ? ; docker image prune -a
+Quelle commande supprime les volumes non rattachés à un conteneur ? ; docker volume prune
+Quelle commande supprime les réseaux inutilisés ? ; docker network prune
+Quelle commande affiche l'espace occupé par images, conteneurs et volumes ? ; docker system df
+Que fait docker system prune ? ; Elle supprime les conteneurs arrêtés, les images dangling et les réseaux inutilisés.
+Que fait docker system prune -a ? ; Elle inclut toutes les images non utilisées.
+Que fait docker system prune -a --volumes ? ; Elle inclut aussi les volumes.
+Pourquoi docker system prune -a --volumes est-il irréversible ? ; Il supprime toutes les données non actives sans confirmation individuelle. À n'utiliser que sur un environnement que l'on est prêt à reconstruire entièrement.
+Quelle séquence désinstalle complètement Docker ? ; Supprimer tous les conteneurs (docker rm -f $(docker ps -aq)), les images (docker rmi -f $(docker images -q)), les volumes (docker volume prune -f), purger les paquets docker-ce, docker-ce-cli, containerd.io, docker-buildx-plugin et docker-compose-plugin, puis sudo rm -rf /var/lib/docker /etc/docker.
+Pourquoi la séquence de désinstallation est-elle dangereuse ? ; Elle supprime tout Docker et ses données sur l'hôte. À réserver à une désinstallation complète décidée délibérément, jamais à un retour arrière partiel.
+Pourquoi l'espace disque reste-t-il occupé après un nettoyage ciblé ? ; Des images ou volumes sont encore référencés par un conteneur arrêté, non couverts par prune seul. Utiliser docker system df pour localiser le poste, puis docker system prune -a --volumes si tout est voué à la suppression.
+Quelles commandes vérifient l'état après un nettoyage ? ; docker system df, docker ps -a, docker images, docker network ls et docker volume ls.

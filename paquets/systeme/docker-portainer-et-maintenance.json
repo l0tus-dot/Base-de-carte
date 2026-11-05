@@ -1,0 +1,462 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Système",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "4545849b-dee1-5d57-9e41-2c5f56b86094",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Docker",
+    "parentId": null
+   },
+   {
+    "id": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Portainer et maintenance",
+    "parentId": "4545849b-dee1-5d57-9e41-2c5f56b86094"
+   }
+  ],
+  "cards": [
+   {
+    "id": "f8146b8d-035e-5cc3-8983-9f29c226b2e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Qu'est-ce que Portainer ?",
+    "back": "Une interface web complète pour gérer les conteneurs, images, volumes et réseaux de Docker.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "1074b37a-c58d-5708-ae63-631f6ba0ee23",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Comment lance-t-on Portainer ?",
+    "back": "On crée un volume portainer_data, puis docker run -d --name portainer --restart unless-stopped -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "e7ecc9df-f9ce-5df2-880c-cb372292e904",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Pourquoi Portainer monte-t-il /var/run/docker.sock ?",
+    "back": "Pour communiquer avec le démon Docker de l'hôte et le piloter.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "aaad971a-11e0-58f4-a8a6-9bf5cda45540",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "À quoi sert le volume portainer_data ?",
+    "back": "Il conserve les données de Portainer (dans /data).",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "400adb9d-b0b6-5872-be38-6cd39f34f85f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Comment accéder à Portainer ?",
+    "back": "Depuis un navigateur : http://<adresse-ip-serveur>:9000. Le mot de passe administrateur est défini au premier lancement.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "6b4cf37e-11d8-5b94-aaf4-6377dfc5c7f1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Où peut-on intégrer Portainer pour faciliter sa mise à jour ?",
+    "back": "Dans un compose.yml, aux côtés des autres services.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "3316dae1-be47-559b-9a51-cfa31efb0dac",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Quelle commande supprime les conteneurs arrêtés ?",
+    "back": "docker container prune",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "7972250d-67f0-51a0-9f55-edbf6208e751",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Quelle commande supprime les images dangling ?",
+    "back": "docker image prune",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "2809ae50-cac2-56a8-b4df-069a2a83ec00",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Quelle commande supprime toutes les images non utilisées ?",
+    "back": "docker image prune -a",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "442df26f-2fd9-5065-8c35-60e6635f7562",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Quelle commande supprime les volumes non rattachés à un conteneur ?",
+    "back": "docker volume prune",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "e032ad78-42d1-5b74-8a9d-35a6f17768f7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Quelle commande supprime les réseaux inutilisés ?",
+    "back": "docker network prune",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "69a0f9f2-2be5-56d8-a0f1-e2233f15cbe0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Quelle commande affiche l'espace occupé par images, conteneurs et volumes ?",
+    "back": "docker system df",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "093e067d-c5ed-5854-ae5a-4e4ffad1ed7d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Que fait docker system prune ?",
+    "back": "Elle supprime les conteneurs arrêtés, les images dangling et les réseaux inutilisés.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "d5aff05f-6ee9-5ab5-96ec-323fc83603aa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Que fait docker system prune -a ?",
+    "back": "Elle inclut toutes les images non utilisées.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "0eed526e-afd6-5855-abcc-09615e2ed8a8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Que fait docker system prune -a --volumes ?",
+    "back": "Elle inclut aussi les volumes.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "4d806d03-2f97-5776-a039-963c7e048293",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Pourquoi docker system prune -a --volumes est-il irréversible ?",
+    "back": "Il supprime toutes les données non actives sans confirmation individuelle. À n'utiliser que sur un environnement que l'on est prêt à reconstruire entièrement.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "8b835ffb-47cc-550c-aa38-684ddf4a6bdd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Quelle séquence désinstalle complètement Docker ?",
+    "back": "Supprimer tous les conteneurs (docker rm -f $(docker ps -aq)), les images (docker rmi -f $(docker images -q)), les volumes (docker volume prune -f), purger les paquets docker-ce, docker-ce-cli, containerd.io, docker-buildx-plugin et docker-compose-plugin, puis sudo rm -rf /var/lib/docker /etc/docker.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "7f547521-94ba-521a-a19a-d59a4994f6fa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Pourquoi la séquence de désinstallation est-elle dangereuse ?",
+    "back": "Elle supprime tout Docker et ses données sur l'hôte. À réserver à une désinstallation complète décidée délibérément, jamais à un retour arrière partiel.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "352d74d3-cc08-5c56-946e-ab9ded1c40cf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Pourquoi l'espace disque reste-t-il occupé après un nettoyage ciblé ?",
+    "back": "Des images ou volumes sont encore référencés par un conteneur arrêté, non couverts par prune seul. Utiliser docker system df pour localiser le poste, puis docker system prune -a --volumes si tout est voué à la suppression.",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "db190fdc-44f4-5d39-8d0f-5cbe64392858",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "dc377c63-e9bc-5b82-9076-b078eaab2e54",
+    "front": "Quelles commandes vérifient l'état après un nettoyage ?",
+    "back": "docker system df, docker ps -a, docker images, docker network ls et docker volume ls.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "ef86e605-4201-5d1d-ac55-f3481781ef8e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f8146b8d-035e-5cc3-8983-9f29c226b2e6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c9e42265-22b6-5412-b531-b997a1380841",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1074b37a-c58d-5708-ae63-631f6ba0ee23",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7c21bb4e-e8b2-5a89-83f5-7137773f15f5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e7ecc9df-f9ce-5df2-880c-cb372292e904",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "347ff63e-273a-53c1-b35d-f5ed101291b4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "aaad971a-11e0-58f4-a8a6-9bf5cda45540",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "88b3ec50-18bd-5cd7-a125-a2cb82f4c8a9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "400adb9d-b0b6-5872-be38-6cd39f34f85f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "eba25f11-47e6-5412-a599-7088ea788a59",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6b4cf37e-11d8-5b94-aaf4-6377dfc5c7f1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f13cebed-8080-53f8-a697-fde975405aa0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3316dae1-be47-559b-9a51-cfa31efb0dac",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a6cbb21f-c4c1-57b1-a9ae-4a390e92e142",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7972250d-67f0-51a0-9f55-edbf6208e751",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4069e34b-cd60-5224-bb78-27dac765d6ed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2809ae50-cac2-56a8-b4df-069a2a83ec00",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "03752f38-90bf-5907-99eb-163bc71269b7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "442df26f-2fd9-5065-8c35-60e6635f7562",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d4e48f69-0aca-59e8-95ae-42a76492d36a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e032ad78-42d1-5b74-8a9d-35a6f17768f7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "35ea607b-46c1-5cbe-8fb1-63add8551499",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "69a0f9f2-2be5-56d8-a0f1-e2233f15cbe0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "109e57eb-00b1-515b-8e17-3823f9785f58",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "093e067d-c5ed-5854-ae5a-4e4ffad1ed7d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a1431a4e-21e3-58b2-b248-103a502403c3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d5aff05f-6ee9-5ab5-96ec-323fc83603aa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "96b8cd23-0b76-51b1-ab58-131e09016b82",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0eed526e-afd6-5855-abcc-09615e2ed8a8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "baa7129d-3914-5030-928a-b3a1a01048bb",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4d806d03-2f97-5776-a039-963c7e048293",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e2ff9f44-0366-5a29-96dc-026be75cf1dc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8b835ffb-47cc-550c-aa38-684ddf4a6bdd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "59a4948f-f235-515f-b381-12f2163db161",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7f547521-94ba-521a-a19a-d59a4994f6fa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7646d395-13d9-5d2f-abee-8d5190ed237e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "352d74d3-cc08-5c56-946e-ab9ded1c40cf",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "297ac82d-892d-585c-b92c-8f1214d9bfcc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "db190fdc-44f4-5d39-8d0f-5cbe64392858",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

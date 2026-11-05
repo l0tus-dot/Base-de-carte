@@ -1,0 +1,378 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Système",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "4545849b-dee1-5d57-9e41-2c5f56b86094",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Docker",
+    "parentId": null
+   },
+   {
+    "id": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Installation et concepts",
+    "parentId": "4545849b-dee1-5d57-9e41-2c5f56b86094"
+   }
+  ],
+  "cards": [
+   {
+    "id": "2b2fd3c9-ec50-5f1e-93f3-b3462b807b84",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Sur quel type d'hôte la documentation installe-t-elle Docker ?",
+    "back": "Un hôte Linux (testé sur Ubuntu Server, sans mode graphique), avec un accès root ou sudo.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "a78ad551-b8c0-53f0-a601-a38e365edb14",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Quelle édition de Docker installe-t-on dans la documentation ?",
+    "back": "L'édition Community : le paquet docker-ce.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "9673aff5-d62b-586c-aea4-a3fddd8d2971",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Comment installe-t-on Docker depuis le dépôt officiel ?",
+    "back": "On ajoute la clé GPG et le dépôt officiel Docker, puis on lance apt update et apt install -y docker-ce.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "2a769403-cbac-53da-84dc-8a6eebb6576f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Quelle commande confirme la version de docker-ce disponible avant l'installation ?",
+    "back": "apt-cache policy docker-ce",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "4b561b0a-58e9-5975-8f28-e005e3a3bdee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Que fait systemctl enable --now docker ?",
+    "back": "Il active le service Docker au démarrage et le démarre immédiatement, en une seule commande.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "79b55c79-c6e0-5c66-a426-b84f41cbc66e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Quelles commandes vérifient l'installation de Docker ?",
+    "back": "docker version (versions du client et du démon), docker info (état global : conteneurs, images, pilotes réseau et stockage) et sudo docker run hello-world.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "74d9cf5c-94d6-54c2-ae2d-56a26c1d93f8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Comment utiliser Docker sans préfixer chaque commande par sudo ?",
+    "back": "sudo usermod -aG docker $USER, puis newgrp docker pour que cela prenne effet sans déconnexion.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "2953743a-c133-527f-8be6-f77ee9ae4872",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Quel risque de sécurité présente l'appartenance au groupe docker ?",
+    "back": "Un utilisateur du groupe docker a des droits équivalents à root sur l'hôte. À ne faire que sur un poste de développement ou un environnement maîtrisé.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "cb86288b-4d70-5ceb-8fb2-71a6d51ee60b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Qu'est-ce qu'une image Docker ?",
+    "back": "Un modèle immuable (en lecture seule), construit en couches, qui sert de base à un ou plusieurs conteneurs.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "9f6ca2fb-3287-5b11-abb2-83f7d2245d5f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Qu'est-ce qu'un conteneur Docker ?",
+    "back": "Une instance en cours d'exécution d'une image, isolée par namespace et cgroup.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "4af46fd4-5887-5203-9037-81beb091dd08",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Qu'est-ce qu'un registry ?",
+    "back": "Un dépôt d'images : Docker Hub par défaut, ou un registre privé.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "261bc6ae-d916-51e2-8e28-91e4c193a0e7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Quelle commande télécharge une image depuis un registry ?",
+    "back": "docker pull",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "88a84036-0a15-57dc-aa47-e00402293b0e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Quelle commande crée un conteneur à partir d'une image ?",
+    "back": "docker run",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "34883940-87a1-55d9-ae0a-940723acd568",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Qu'est-ce qu'un volume Docker ?",
+    "back": "Un stockage persistant découplé du cycle de vie du conteneur.",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "885c7fa6-7451-5453-95d5-e8605f95d6c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "À quoi sert le réseau Docker ?",
+    "back": "C'est une couche d'isolation réseau entre conteneurs.",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "175d29bd-7304-59cb-ab9b-cfa34ad40707",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "5c40f61f-f262-57c7-b540-e1a6c0c245c7",
+    "front": "Que faire si on obtient « permission denied » sur /var/run/docker.sock ?",
+    "back": "L'utilisateur n'est pas dans le groupe docker : sudo usermod -aG docker $USER, puis newgrp docker.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "1421b244-fb9f-58cb-8411-97c2b59d725e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2b2fd3c9-ec50-5f1e-93f3-b3462b807b84",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "70d8f2c7-ac6e-5c8b-a7d2-86b04faefbb2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a78ad551-b8c0-53f0-a601-a38e365edb14",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2a15918e-f268-5a7b-87ea-9f93b9d283b5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9673aff5-d62b-586c-aea4-a3fddd8d2971",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f7aaa23e-2ec7-5218-801b-217a2c42edce",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2a769403-cbac-53da-84dc-8a6eebb6576f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d78f8de0-55d0-56ea-9bad-bc7d6174c686",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4b561b0a-58e9-5975-8f28-e005e3a3bdee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f6a08390-93fa-5358-bfb9-b2c92245fe39",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "79b55c79-c6e0-5c66-a426-b84f41cbc66e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a20ef871-9e4e-5dd5-8932-8238e46fcfd4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "74d9cf5c-94d6-54c2-ae2d-56a26c1d93f8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "455f2cc4-953c-5dcb-b8fb-2adf18965480",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "2953743a-c133-527f-8be6-f77ee9ae4872",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bbdf71dc-2463-547a-aeaa-1f5efdf91c44",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cb86288b-4d70-5ceb-8fb2-71a6d51ee60b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e7ecce6a-40e0-5f7c-b8c4-23bcb20e04d2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9f6ca2fb-3287-5b11-abb2-83f7d2245d5f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "af17038f-e811-56f8-aba2-f6d4cf29db93",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4af46fd4-5887-5203-9037-81beb091dd08",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ff8793cc-0185-5497-894b-50ecb117c720",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "261bc6ae-d916-51e2-8e28-91e4c193a0e7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bf71f6cb-78c4-58e6-a81e-32d6d3855324",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "88a84036-0a15-57dc-aa47-e00402293b0e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2af2bb09-92c9-5183-bd3c-591b99572fd8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "34883940-87a1-55d9-ae0a-940723acd568",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "55064e62-86d7-5703-b76b-51c46e10b127",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "885c7fa6-7451-5453-95d5-e8605f95d6c5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d455649f-264b-597a-8c18-33e82d43126e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "175d29bd-7304-59cb-ab9b-cfa34ad40707",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

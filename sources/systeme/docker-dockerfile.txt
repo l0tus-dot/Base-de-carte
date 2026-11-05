@@ -1,0 +1,28 @@
+# Matière : Système
+# Parent : Docker
+# Paquet : Dockerfile et images personnalisées
+# Description : Les instructions d'un Dockerfile, la construction d'une image, les bonnes pratiques et docker commit.
+
+Qu'est-ce qu'un Dockerfile ? ; Un fichier qui décrit les instructions pour assembler une image personnalisée.
+À quoi sert l'instruction FROM ? ; Elle définit l'image de base (ex. FROM ubuntu:22.04).
+À quoi sert l'instruction LABEL ? ; Elle ajoute des métadonnées à l'image (ex. maintainer, version).
+À quoi sert l'instruction ARG ? ; Elle définit des variables disponibles à la construction de l'image.
+À quoi sert l'instruction ENV ? ; Elle définit des variables d'environnement disponibles dans le conteneur.
+À quoi sert l'instruction RUN ? ; Elle exécute des commandes pendant la construction (ex. installation de dépendances).
+À quoi sert l'instruction WORKDIR ? ; Elle définit le répertoire de travail.
+À quoi sert l'instruction COPY ? ; Elle copie des fichiers sources dans l'image.
+À quoi sert l'instruction EXPOSE ? ; Elle documente le port utilisé, sans le publier automatiquement.
+À quoi sert l'instruction CMD ? ; Elle définit la commande lancée au démarrage du conteneur.
+Quelle commande construit une image depuis le répertoire courant ? ; docker build -t <image>:<tag> .
+Comment construire une image avec un Dockerfile à un chemin précis ? ; docker build -t <image>:<tag> -f <Dockerfile> .
+Que fait docker build --no-cache ? ; Elle ignore le cache (utile après une mise à jour).
+Comment passer une variable ARG à la construction ? ; docker build --build-arg VAR=valeur -t <image> .
+Pourquoi regrouper les RUN apt install en une seule instruction ? ; Pour réduire le nombre de couches et limiter la taille de l'image.
+Pourquoi nettoyer le cache APT dans le même RUN ? ; Pour que le cache n'alourdisse pas la couche : && rm -rf /var/lib/apt/lists/*
+À quoi sert le fichier .dockerignore ? ; À exclure les fichiers inutiles du contexte de build.
+Quelle image privilégier dans un Dockerfile ? ; Les images officielles et les tags versionnés plutôt que :latest.
+Que fait docker commit ? ; Elle fige l'état d'un conteneur modifié manuellement dans une nouvelle image.
+Quand utiliser docker commit plutôt qu'un Dockerfile ? ; Seulement pour des tests et des snapshots ponctuels : un Dockerfile reste préférable pour toute image reproductible ou partagée.
+Pourquoi docker commit peut-il refuser un nom d'image ? ; Le nom d'image contient une majuscule : il faut le mettre entièrement en minuscules.
+Que faire si l'image est introuvable après docker build ? ; Vérifier le tag et le chemin passé à docker build (contexte de build), et que le Dockerfile est présent.
+Quelles commandes vérifient une image construite ? ; docker images et docker history <image>:<tag>.

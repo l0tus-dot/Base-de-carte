@@ -1,0 +1,21 @@
+# Matière : Système
+# Parent : Docker
+# Paquet : Installation et concepts
+# Description : Installation de Docker sur Ubuntu Server, vérifications, droits sans sudo et vocabulaire (image, conteneur, registry, volume, réseau).
+
+Sur quel type d'hôte la documentation installe-t-elle Docker ? ; Un hôte Linux (testé sur Ubuntu Server, sans mode graphique), avec un accès root ou sudo.
+Quelle édition de Docker installe-t-on dans la documentation ? ; L'édition Community : le paquet docker-ce.
+Comment installe-t-on Docker depuis le dépôt officiel ? ; On ajoute la clé GPG et le dépôt officiel Docker, puis on lance apt update et apt install -y docker-ce.
+Quelle commande confirme la version de docker-ce disponible avant l'installation ? ; apt-cache policy docker-ce
+Que fait systemctl enable --now docker ? ; Il active le service Docker au démarrage et le démarre immédiatement, en une seule commande.
+Quelles commandes vérifient l'installation de Docker ? ; docker version (versions du client et du démon), docker info (état global : conteneurs, images, pilotes réseau et stockage) et sudo docker run hello-world.
+Comment utiliser Docker sans préfixer chaque commande par sudo ? ; sudo usermod -aG docker $USER, puis newgrp docker pour que cela prenne effet sans déconnexion.
+Quel risque de sécurité présente l'appartenance au groupe docker ? ; Un utilisateur du groupe docker a des droits équivalents à root sur l'hôte. À ne faire que sur un poste de développement ou un environnement maîtrisé.
+Qu'est-ce qu'une image Docker ? ; Un modèle immuable (en lecture seule), construit en couches, qui sert de base à un ou plusieurs conteneurs.
+Qu'est-ce qu'un conteneur Docker ? ; Une instance en cours d'exécution d'une image, isolée par namespace et cgroup.
+Qu'est-ce qu'un registry ? ; Un dépôt d'images : Docker Hub par défaut, ou un registre privé.
+Quelle commande télécharge une image depuis un registry ? ; docker pull
+Quelle commande crée un conteneur à partir d'une image ? ; docker run
+Qu'est-ce qu'un volume Docker ? ; Un stockage persistant découplé du cycle de vie du conteneur.
+À quoi sert le réseau Docker ? ; C'est une couche d'isolation réseau entre conteneurs.
+Que faire si on obtient « permission denied » sur /var/run/docker.sock ? ; L'utilisateur n'est pas dans le groupe docker : sudo usermod -aG docker $USER, puis newgrp docker.

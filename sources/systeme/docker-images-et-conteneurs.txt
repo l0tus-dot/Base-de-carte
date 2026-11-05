@@ -1,0 +1,59 @@
+# Matière : Système
+# Parent : Docker
+# Paquet : Images et conteneurs
+# Description : Gestion des images (recherche, pull, inspection, export) et du cycle de vie des conteneurs (run, exec, stop, logs, supervision).
+
+Quelle commande recherche une image sur Docker Hub ? ; docker search <terme>
+Comment filtrer docker search par popularité ? ; docker search <terme> --filter stars=50
+Comment limiter le nombre de résultats de docker search ? ; docker search <terme> --limit 5
+Quelle commande télécharge la dernière version d'une image ? ; docker pull <image> (tag :latest par défaut).
+Comment télécharger une version précise d'une image ? ; docker pull <image>:<tag> (ex. ubuntu:22.04).
+Comment forcer l'architecture cible d'un pull ? ; docker pull <image> --platform linux/amd64
+Quelle commande liste les images locales ? ; docker images (alias : docker image ls).
+Que fait docker images -a ? ; Elle inclut les couches intermédiaires.
+Quelle commande affiche la configuration complète d'une image en JSON ? ; docker inspect <image>
+Comment extraire un champ précis avec docker inspect ? ; Avec --format, par exemple docker inspect <image> --format '{{ .Config.Env }}'.
+Que fait docker history <image> ? ; Elle affiche les couches qui composent l'image et leur taille.
+Quelle commande supprime une image locale ? ; docker rmi <image> (ou docker rmi <image>:<tag> pour un tag précis).
+Que fait docker image prune ? ; Elle supprime les images dangling (sans tag ni conteneur associé).
+Que fait docker image prune -a ? ; Elle supprime toutes les images sans conteneur associé.
+Comment exporter une image sans registry ? ; docker save <image>:<tag> -o <archive>.tar
+Comment importer une image depuis un fichier tar ? ; docker load -i <archive>.tar
+Pourquoi utiliser docker save et docker load ? ; Pour transférer une image vers un hôte sans accès au dépôt d'origine.
+Que fait docker run <image> sans option ? ; Il lance le conteneur et il s'arrête après l'exécution.
+Que fait docker run -d ? ; Il lance le conteneur en mode détaché (arrière-plan).
+Que fait docker run -it <image> /bin/bash ? ; Il ouvre un shell interactif dans le conteneur.
+Que fait docker run --name <nom> ? ; Il nomme le conteneur.
+Que fait docker run --rm ? ; Il supprime automatiquement le conteneur après son arrêt.
+Comment passer une variable d'environnement à un conteneur ? ; docker run -e VAR=valeur <image>, ou depuis un fichier avec --env-file .env.
+Que signifie -p 8080:80 dans docker run ? ; Port de l'hôte : port du conteneur (ici le port 8080 de l'hôte est redirigé vers le port 80 du conteneur).
+Que fait -v /chemin/hôte:/chemin/conteneur ? ; Il monte un répertoire de l'hôte dans le conteneur (bind mount).
+Que fait l'option --restart unless-stopped ? ; Le conteneur redémarre sauf s'il a été arrêté manuellement. Recommandé en production.
+Que signifie la politique de redémarrage « no » ? ; C'est la valeur par défaut : le conteneur n'est jamais redémarré.
+Que signifie la politique de redémarrage « on-failure[:n] » ? ; Redémarrage en cas d'erreur, n fois au maximum.
+Que signifie la politique de redémarrage « always » ? ; Le conteneur est toujours redémarré, même après un docker stop.
+Quelle commande liste les conteneurs actifs ? ; docker ps
+Quelle commande liste tous les conteneurs, y compris arrêtés ? ; docker ps -a
+Comment ouvrir un nouveau shell dans un conteneur en cours d'exécution ? ; docker exec -it <conteneur> /bin/bash
+Comment exécuter une commande dans un conteneur sans shell interactif ? ; docker exec <conteneur> <commande>
+Que fait docker attach ? ; Elle rattache le terminal au processus principal du conteneur.
+Comment se détacher d'un conteneur sans l'arrêter ? ; Ctrl + P puis Ctrl + Q (dans un shell lancé avec -it).
+Que se passe-t-il si on tape exit dans un shell interactif de conteneur ? ; Le shell se ferme et le conteneur s'arrête si aucun autre processus n'y tourne.
+Que fait docker stop ? ; Elle envoie SIGTERM, puis SIGKILL après 10 secondes.
+Comment personnaliser le délai avant SIGKILL d'un docker stop ? ; docker stop -t 30 <conteneur>
+Que fait docker kill ? ; Elle envoie un SIGKILL immédiat.
+Quelle commande arrête puis relance un conteneur ? ; docker restart <conteneur>
+Quelle commande démarre un conteneur arrêté ? ; docker start <conteneur> (avec -i pour un shell interactif).
+Que font docker pause et docker unpause ? ; docker pause suspend tous les processus du conteneur (cgroup freeze), docker unpause les reprend.
+Quelle commande supprime un conteneur ? ; docker rm <conteneur> (il doit être arrêté), ou docker rm -f pour forcer la suppression même s'il tourne.
+Que fait docker container prune ? ; Elle supprime tous les conteneurs arrêtés.
+Pourquoi faut-il éviter docker rm -f $(docker ps -aq) tel quel ? ; Il supprime tous les conteneurs de l'hôte sans distinction. À réserver aux tests volontaires.
+Quelle commande affiche les logs d'un conteneur ? ; docker logs <conteneur> (flux stdout/stderr).
+Comment suivre les logs en temps réel ? ; docker logs -f <conteneur>
+Comment afficher les 50 dernières lignes des logs ? ; docker logs --tail 50 <conteneur>
+Comment afficher les logs depuis 1 heure ? ; docker logs --since 1h <conteneur>
+Quelle commande affiche le statut d'un conteneur ? ; docker inspect <conteneur> --format '{{ .State.Status }}'
+Que fait docker stats ? ; Elle affiche en direct le CPU, la mémoire et les I/O des conteneurs.
+Que fait docker top <conteneur> ? ; Elle affiche les processus en cours dans le conteneur.
+Que fait docker diff <conteneur> ? ; Elle affiche les fichiers modifiés depuis le démarrage du conteneur.
+Que fait docker port <conteneur> ? ; Elle affiche les mappages de ports actifs.

@@ -1,0 +1,567 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Système",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "4545849b-dee1-5d57-9e41-2c5f56b86094",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Docker",
+    "parentId": null
+   },
+   {
+    "id": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Docker Compose",
+    "parentId": "4545849b-dee1-5d57-9e41-2c5f56b86094"
+   }
+  ],
+  "cards": [
+   {
+    "id": "e3355150-b6e7-522a-86cc-533b7aae3cac",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Qu'est-ce que Docker Compose ?",
+    "back": "Un outil qui orchestre plusieurs conteneurs décrits dans un fichier compose.yml.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "84e36805-cf6e-5677-87ad-30c1f70d6364",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Quelles sections principales contient un compose.yml ?",
+    "back": "services, volumes et networks.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "1d1a29fa-5b5e-520e-9476-62be8b8dae40",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "À quoi sert la clé image dans un service Compose ?",
+    "back": "Elle indique l'image du conteneur (ex. nginx:1.25).",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "e27e6198-d410-511f-a7e2-31d9264f7f6b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "À quoi sert la clé container_name ?",
+    "back": "Elle donne un nom fixe au conteneur.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "7465ccf5-de3d-5b8d-9d78-fa8fea1206cd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "À quoi sert la clé restart ?",
+    "back": "Elle définit la politique de redémarrage (ex. unless-stopped).",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "46068dbb-2cc7-5854-af41-ee9eb70c73d3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "À quoi sert la clé ports ?",
+    "back": "Elle publie des ports de l'hôte vers le conteneur (ex. \"80:80\").",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "8e3085ca-a28e-534c-ba95-32f4fdb053c9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "À quoi sert la clé volumes dans un service ?",
+    "back": "Elle monte des volumes ou des répertoires de l'hôte (ex. ./html:/usr/share/nginx/html:ro).",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "0cc752df-a534-596c-b631-269c9671efae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "À quoi sert la clé networks dans un service ?",
+    "back": "Elle rattache le service à un réseau déclaré dans la section networks.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "4b8b26a3-4e44-58a2-9c32-81cd5716108f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "À quoi sert la clé depends_on ?",
+    "back": "Elle indique qu'un service dépend d'un autre : le service dépendant est démarré après.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "213b1461-8dc1-50f8-ba73-6339b7b15da9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "À quoi sert la clé environment ?",
+    "back": "Elle définit les variables d'environnement du conteneur (ex. TZ=Europe/Paris).",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "a5499b45-707f-5fb2-ac33-575604623646",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Pourquoi utiliser un fichier .env avec Compose ?",
+    "back": "Pour placer les mots de passe et clés (ex. ${DB_ROOT_PASSWORD}) hors du compose.yml. Compose le charge automatiquement.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "a84a9d4d-2946-5a18-b9f2-38f514a4f3f8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Où placer le fichier .env et que faire pour le protéger ?",
+    "back": "À la racine du projet, en l'excluant du dépôt via .gitignore.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "acc4f67e-44cb-5201-a0a4-282b9d639a16",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Quelle commande démarre tous les services en arrière-plan ?",
+    "back": "docker compose up -d",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "8b12854d-eff1-5536-90c6-b04d32639ded",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Comment reconstruire les images avant de démarrer ?",
+    "back": "docker compose up -d --build",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "c1a49fc7-e50f-5b12-95a9-97201658baf9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Comment démarrer un seul service ?",
+    "back": "docker compose up -d <service>",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "d852c7c1-3782-5718-a784-22469dc822ae",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Que fait docker compose down ?",
+    "back": "Elle arrête et supprime les conteneurs et les réseaux.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "31d06632-1e80-54a4-ad16-e9522193e159",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Que fait docker compose down -v ?",
+    "back": "Elle supprime aussi les volumes nommés.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "059fec06-17d7-5c27-9ef7-a6db24caf951",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Que fait docker compose down --rmi all ?",
+    "back": "Elle supprime aussi les images.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "48031910-345d-5fdd-8e73-3a5bfae39c0a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Quelle commande affiche l'état des services ?",
+    "back": "docker compose ps",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "4db08bfa-6878-5198-908d-51179928fc4b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Comment suivre les logs de tous les services ?",
+    "back": "docker compose logs -f (restreint à un service avec docker compose logs -f <service>).",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "e448da10-1653-5ec6-9c82-78de321a5db9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Comment ouvrir un shell dans un conteneur d'un projet Compose ?",
+    "back": "docker compose exec <service> /bin/bash",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "b95e78d5-5bc9-5053-814e-0f74248479f5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Quelle commande redémarre un service ?",
+    "back": "docker compose restart <service>",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "af194011-5283-57ce-a43f-7c485d8dc563",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Que fait docker compose pull ?",
+    "back": "Elle télécharge les images les plus récentes.",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "6c498320-376b-549b-8020-6066a6c27abc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Que fait docker compose config ?",
+    "back": "Elle valide et affiche la configuration résolue.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "99858902-65a1-5563-a77f-a729f0d08c2c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "41f6c7df-cceb-53e3-8099-c8cfafcbc876",
+    "front": "Que faire si les conteneurs d'un Compose ne se joignent pas par nom ?",
+    "back": "Déclarer un réseau commun dans la section networks: de chaque service.",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "bf81125b-e32c-5a97-bd41-0edf1cd5a5b4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e3355150-b6e7-522a-86cc-533b7aae3cac",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7377e5db-2d14-5e7e-8338-27dd2031b30d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "84e36805-cf6e-5677-87ad-30c1f70d6364",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "17c7a483-e206-52bf-9049-77410285723c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1d1a29fa-5b5e-520e-9476-62be8b8dae40",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d01d4ef6-8ba8-51cf-8a31-de3105ac3d48",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e27e6198-d410-511f-a7e2-31d9264f7f6b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8114ebaa-d826-52c5-b957-d14753cade75",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7465ccf5-de3d-5b8d-9d78-fa8fea1206cd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "97d34333-dcad-5b31-b5f7-198fdf44bacd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "46068dbb-2cc7-5854-af41-ee9eb70c73d3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a94beaa5-5ab3-5ba0-a2cc-08430e60da9f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8e3085ca-a28e-534c-ba95-32f4fdb053c9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "354dec5b-37ca-56a2-a73b-524af648d01b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0cc752df-a534-596c-b631-269c9671efae",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ee54f36d-d3ea-506c-bf74-4c4457f14f64",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4b8b26a3-4e44-58a2-9c32-81cd5716108f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d1d22bcd-afe1-5ce8-b62e-41849f35df3c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "213b1461-8dc1-50f8-ba73-6339b7b15da9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4b40a100-177c-5643-883e-b62f57ecf366",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a5499b45-707f-5fb2-ac33-575604623646",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f0770b70-6f67-51c5-9671-b8c149da03f7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a84a9d4d-2946-5a18-b9f2-38f514a4f3f8",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "019b441f-e877-5d28-9d66-05b2de81e589",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "acc4f67e-44cb-5201-a0a4-282b9d639a16",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "21881508-8013-52b6-a13c-cf6eec8cefe0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8b12854d-eff1-5536-90c6-b04d32639ded",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6be5126e-1054-558c-aa50-051be46a23be",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c1a49fc7-e50f-5b12-95a9-97201658baf9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a9b9e9c7-e455-58ff-88ee-91b789c620b1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d852c7c1-3782-5718-a784-22469dc822ae",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5aeea271-0f92-5bc0-926e-ce9670ce76dd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "31d06632-1e80-54a4-ad16-e9522193e159",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "40c0c7dd-0268-5b84-827e-8f20f15cc710",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "059fec06-17d7-5c27-9ef7-a6db24caf951",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6ccb8384-82cc-5a6a-b589-54fcc708aac1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "48031910-345d-5fdd-8e73-3a5bfae39c0a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f58e69a7-9979-5737-afa9-770f492d1dc2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4db08bfa-6878-5198-908d-51179928fc4b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cb0629ea-169a-54f3-ab1c-fa9008f75f7f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e448da10-1653-5ec6-9c82-78de321a5db9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e1c28b4e-5d51-531d-a883-cb3bdf352074",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b95e78d5-5bc9-5053-814e-0f74248479f5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "6f6c8dc9-70ce-583f-8833-d9f3a24fc3a5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "af194011-5283-57ce-a43f-7c485d8dc563",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "fdfcf613-664a-5184-95ca-0731b8e7d461",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6c498320-376b-549b-8020-6066a6c27abc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3537e3ec-5c9f-5a3b-80a3-1664d56e3464",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "99858902-65a1-5563-a77f-a729f0d08c2c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

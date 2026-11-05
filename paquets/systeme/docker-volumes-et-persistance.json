@@ -1,0 +1,315 @@
+{
+ "format": "flash-backup",
+ "version": 5,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "Système",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "4545849b-dee1-5d57-9e41-2c5f56b86094",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Docker",
+    "parentId": null
+   },
+   {
+    "id": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9ec8462d-043b-5b77-a95d-2512ca408c0e",
+    "name": "Volumes et persistance",
+    "parentId": "4545849b-dee1-5d57-9e41-2c5f56b86094"
+   }
+  ],
+  "cards": [
+   {
+    "id": "b1ab9abf-951f-521f-939f-4f2829d3941f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "Que deviennent les données écrites dans un conteneur à sa suppression ?",
+    "back": "Elles disparaissent : les volumes permettent de les persister.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "034e57e7-031e-5e4c-9849-31276791fdb7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "Quels sont les trois types de montage Docker ?",
+    "back": "Le volume nommé, le bind mount et tmpfs.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "a3901bbe-779c-565a-9291-b6f9350058b3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "À quoi sert un volume nommé ?",
+    "back": "Aux données persistantes gérées par Docker. Syntaxe : -v nom_volume:/chemin",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "85f025af-f3a7-57b7-bedb-4d0fb036f86a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "À quoi sert un bind mount ?",
+    "back": "Au partage de fichiers de l'hôte avec le conteneur. Syntaxe : -v /chemin/hôte:/chemin/conteneur",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "717301c8-9207-5ae4-94c9-a5dd436a9bed",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "À quoi sert tmpfs ?",
+    "back": "Aux données temporaires stockées en RAM. Syntaxe : --tmpfs /chemin",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "f810756b-24af-5684-9e45-f5264aed78c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "Quelle commande crée un volume ?",
+    "back": "docker volume create <volume>",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "ec3e72e9-c291-5165-b505-c5b9f7fffd06",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "Quelle commande liste les volumes ?",
+    "back": "docker volume ls",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "cbce4231-c125-5c42-94f9-0e04079f8155",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "Que fait docker volume inspect ?",
+    "back": "Elle affiche l'emplacement du volume sur l'hôte et ses métadonnées.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "c1947237-9b73-53af-9586-3bc04a37e4e2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "Quelle commande supprime un volume ?",
+    "back": "docker volume rm <volume>",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "5c092abf-96fc-5e97-afee-1f950f5aa2ee",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "Que fait docker volume prune ?",
+    "back": "Elle supprime les volumes non utilisés.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "f5493e6a-ab5d-5d49-97c5-34b47c0fd91b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "Comment monter un répertoire de l'hôte en lecture seule ?",
+    "back": "En ajoutant :ro, par exemple -v /chemin/hôte:/chemin/conteneur:ro.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "4b878779-7503-557c-99d6-16ffc48a3f7f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "Que se passe-t-il si le conteneur écrit dans un montage :ro ?",
+    "back": "L'écriture échoue : c'est le comportement attendu. Il faut remonter sans :ro si l'écriture est nécessaire.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "0dcca5a0-5bc9-5612-aa06-2c1bcf5ea9e3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "e5dfe015-904a-5c9b-994b-c0c77e7b80b9",
+    "front": "Quel est le mode par défaut d'un bind mount ?",
+    "back": "Lecture/écriture.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "dbc0dbe7-369a-5f85-983f-f1031700b7c4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b1ab9abf-951f-521f-939f-4f2829d3941f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3fe9bebe-7e6c-5a11-85df-8cbcce87cae3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "034e57e7-031e-5e4c-9849-31276791fdb7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "68042737-332e-517e-aa76-758a737c679b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a3901bbe-779c-565a-9291-b6f9350058b3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2a583697-2f35-5721-93ac-b85ca5230a38",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "85f025af-f3a7-57b7-bedb-4d0fb036f86a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "09f09c9e-2f6d-59bd-8f40-85d21f2b4887",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "717301c8-9207-5ae4-94c9-a5dd436a9bed",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "610dc4ea-0bb8-5c76-90d2-6c589ba72d4a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f810756b-24af-5684-9e45-f5264aed78c5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ec7d57f3-90a9-5b69-9933-a1bfe2794dc9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ec3e72e9-c291-5165-b505-c5b9f7fffd06",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "03a42d60-21d8-5a47-bbb8-32bb3ee51bc6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cbce4231-c125-5c42-94f9-0e04079f8155",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c1cb7f35-a198-5b5f-8793-9e4e2b0f7393",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c1947237-9b73-53af-9586-3bc04a37e4e2",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8bfd6af2-7da7-57c6-b8e9-329b1eae424d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "5c092abf-96fc-5e97-afee-1f950f5aa2ee",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ad9bb893-ec5a-5981-b59d-bf3792890c31",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f5493e6a-ab5d-5d49-97c5-34b47c0fd91b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "75cc27eb-482a-5781-8736-74faa6730713",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4b878779-7503-557c-99d6-16ffc48a3f7f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7308e522-5e2b-5547-a41f-43dcde11e55d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0dcca5a0-5bc9-5612-aa06-2c1bcf5ea9e3",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}
