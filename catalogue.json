@@ -61,8 +61,8 @@
   {
    "subject": "CEJM",
    "deck": "Juridique",
-   "cards": 82,
-   "description": "Les structures juridiques (entreprise individuelle et sociétés) et leurs motivations patrimoniales, fiscales, sociales et financières.",
+   "cards": 160,
+   "description": "Les structures juridiques (dont l'ESS), les risques, la responsabilité civile et pénale, la responsabilité contractuelle et extracontractuelle.",
    "path": "paquets/cejm/theme-3-juridique.json",
    "parent": "Thème 3 - L'organisation de l'activité de l'entreprise"
   },

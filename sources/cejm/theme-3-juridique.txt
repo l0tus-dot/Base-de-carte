@@ -1,7 +1,7 @@
 # Matière : CEJM
 # Parent : Thème 3 - L'organisation de l'activité de l'entreprise
 # Paquet : Juridique
-# Description : Les structures juridiques (entreprise individuelle et sociétés) et leurs motivations patrimoniales, fiscales, sociales et financières.
+# Description : Les structures juridiques (dont l'ESS), les risques, la responsabilité civile et pénale, la responsabilité contractuelle et extracontractuelle.
 
 Qu'est-ce que la structure juridique d'une entreprise ? ; Le cadre légal de l'activité de l'entrepreneur.
 Quand analyse-t-on les critères de choix d'une structure juridique ? ; À différents moments de la vie de l'entreprise, dès sa création et au cours de son évolution.
@@ -85,3 +85,81 @@ Qui prend les décisions dans une entreprise individuelle ? ; L'entrepreneur ind
 Qui détient le pouvoir dans une société ? ; Les associés ou actionnaires, détenteurs de parts ou d'actions. Ils délèguent le pouvoir de décision aux organes de gestion, qui détiennent un mandat pour agir au nom de la société.
 Qu'est-ce que l'assemblée générale ordinaire (AGO) ? ; La réunion des associés au minimum une fois par an pour approuver les comptes et prendre des décisions à la majorité.
 Qu'est-ce que l'assemblée générale extraordinaire (AGE) ? ; La réunion qui vise à modifier les statuts de la société. Il faut alors l'accord de 2/3 des actionnaires.
+Qu'est-ce que l'économie sociale et solidaire (ESS) ? ; Un ensemble d'entreprises organisées sous forme de coopératives, de mutuelles, d'associations, dont le fonctionnement interne et les activités sont fondés sur un principe de solidarité, d'équité et d'utilité sociale.
+Quels sont les domaines d'activité de l'ESS ? ; Multiples : la santé, l'éducation, le logement, l'insertion sociale, l'environnement, la banque.
+Quel est le mode de gestion des entreprises de l'ESS ? ; Un mode démocratique et participatif. Elles encadrent strictement l'utilisation des bénéfices : le profit individuel est proscrit et les résultats sont réinvestis.
+D'où viennent les ressources financières de l'ESS ? ; Elles sont en partie publiques : l'État et les collectivités (région, département, commune) les soutiennent financièrement.
+Quel poids représente l'ESS en France ? ; 14 % des salariés (2,4 millions de personnes), 12 millions de bénévoles, 10 % du PIB et 200 000 entreprises.
+Quand l'ESS a-t-elle acquis un statut juridique ? ; Avec la loi du 31 juillet 2014.
+À quelles conditions une société commerciale peut-elle faire partie de l'ESS ? ; Le but poursuivi doit être autre que le seul partage des bénéfices, la gouvernance doit être démocratique avec la participation des associés et des salariés, et les bénéfices doivent être utilisés en priorité pour le maintien ou le développement de l'activité.
+Que permet l'agrément ESUS ? ; L'agrément « Entreprise solidaire d'utilité sociale » permet aux financeurs de l'entreprise de bénéficier d'une fiscalité favorable et de dispositifs de financement spécifiques.
+Quels sont les cinq modèles d'organisation de l'ESS ? ; Les associations, les fondations, les mutuelles, les coopératives et les entreprises sociales.
+Qu'est-ce qu'une association ? ; Un groupement de personnes volontaires réunies autour d'un projet commun (ex. : Emmaüs, Restos du Cœur). Il existe des centaines de milliers d'associations, dont 168 000 ont au moins 1 salarié.
+Qu'est-ce qu'une fondation ? ; Une structure qui reçoit des dons, des droits ou des ressources (de particuliers ou d'entreprises) lui permettant de financer un ou des projets d'intérêt général (ex. : Fondation de France).
+Qu'est-ce qu'une mutuelle ? ; Une assurance dont les adhérents sont à la fois les bénéficiaires et les propriétaires : contrairement aux assurances classiques, les bénéfices vont exclusivement aux assurés, aux salariés ou aux réserves (ex. : MGEN, MAIF, MACIF, MATMUT, MAAF).
+Qu'est-ce qu'une coopérative ? ; Une entreprise où les salariés et les usagers sont tous membres et détiennent une part égale, tant pour prendre les décisions (« une personne, une voix ») que pour partager les profits (ex. : Biocoop, Crédit Agricole, Système U, Intersport).
+Qu'est-ce qu'une entreprise sociale ? ; Une entreprise commerciale classique qui suit les principes de l'ESS, par exemple en faisant travailler des personnes éloignées de l'emploi ou en limitant les écarts de salaires (ex. : Yuka, Too Good to Go).
+Qu'est-ce qu'un risque ? ; La probabilité d'un événement susceptible de causer un dommage aux personnes ou aux biens. Sa réalisation est donc incertaine.
+Quels sont les cinq types de risques ? ; Les risques environnementaux (éléments naturels du cadre de vie), matériels (endommagent les biens : locaux, machines, stocks), technologiques (action humaine lors de la manipulation, du transport ou du stockage de substances dangereuses ou de produits non conformes), professionnels (exposition d'un salarié à un danger, maladies ou accidents du travail) et numériques (données des utilisateurs : perte, vol, détérioration).
+Les risques peuvent-ils être individuels ou collectifs ? ; Oui : individuels comme ceux liés au travail (accidents du travail, stress lié au surmenage) ou collectifs (énergie nucléaire, atteinte à l'environnement).
+Pourquoi les entreprises doivent-elles anticiper les risques ? ; Pour ne pas engager leur responsabilité civile et/ou pénale.
+Que signifie le passage de la responsabilité pour faute à la responsabilité sans faute ? ; Il n'est pas toujours possible de déterminer le responsable d'un dommage : dans l'intérêt des victimes, le droit a peu à peu abandonné l'idée que seule la faute fonde la responsabilité. On peut être responsable par le risque que l'on fait courir à des tiers.
+Quels sont les deux principes du droit face aux risques ? ; Le principe de prévention et le principe de précaution.
+À quoi sert le principe de prévention ? ; À tenter d'éviter les risques connus (ex. : la Charte de l'environnement pour éviter les actions irréversibles contre l'environnement).
+À quoi sert le principe de précaution ? ; À anticiper les risques encore inconnus, liés à des incertitudes scientifiques (ex. : l'interdiction des OGM dans les cultures).
+Qu'est-ce que la responsabilité ? ; L'obligation d'une personne de répondre de ses actes (actions ou inactions) du fait du rôle, des charges qu'elle doit assumer et d'en supporter toutes les conséquences.
+Quand la responsabilité pénale est-elle engagée ? ; Lorsque la personne commet une infraction : des actes (actions ou inactions) ou comportements interdits par les lois.
+Que vise la responsabilité pénale ? ; Sanctionner (punir) les auteurs afin de protéger la société contre un trouble causé à l'ordre public.
+Quelles sont les trois catégories d'infractions, de la moins grave à la plus grave ? ; La contravention, le délit et le crime.
+La responsabilité pénale suppose-t-elle un préjudice ? ; Non : elle peut être engagée même s'il n'y a aucun préjudice (et même si la personne n'est pas l'auteur direct de l'infraction, d'après le cours).
+Quelles sont les sanctions pénales ? ; Proportionnelles à la gravité de l'infraction : une amende et/ou une peine de prison, et des peines alternatives comme les travaux d'intérêt général.
+Quelles juridictions pénales sont compétentes ? ; Le tribunal de police pour les contraventions, le tribunal correctionnel pour les délits et la cour d'assises pour les crimes.
+Donnez des exemples de responsabilité pénale du dirigeant. ; Le vol de données, le sabotage du matériel, le harcèlement et la non-protection du salarié.
+Quand la responsabilité civile est-elle mise en œuvre ? ; En cas de dommage causé à autrui : elle oblige à le réparer (indemniser).
+Quels sont les deux types de responsabilité civile ? ; La responsabilité contractuelle (si les dommages résultent de l'inexécution ou de la mauvaise exécution d'un contrat) et la responsabilité extracontractuelle ou délictuelle (si le dommage est causé en dehors de tout contrat).
+La responsabilité civile suppose-t-elle que le dommage soit commis par la personne elle-même ? ; Non : elle peut être engagée que le dommage soit commis par la personne elle-même ou par une personne dont elle est responsable.
+En quoi consistent les sanctions civiles ? ; À verser des dommages-intérêts.
+Quelles juridictions civiles sont compétentes ? ; Le tribunal judiciaire, le conseil de prud'hommes et le tribunal de commerce.
+Donnez des exemples de responsabilité civile du dirigeant. ; L'employeur : déclaration inexacte, défaut de gestion.
+Que dit l'article 1103 du Code civil ? ; Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits : les parties doivent honorer leurs obligations.
+Quelles conditions pour engager la responsabilité contractuelle d'une partie ? ; Une faute contractuelle, un dommage et un lien de causalité certain et direct entre la faute et le dommage.
+Quelles formes la faute contractuelle prend-elle ? ; L'inexécution totale des obligations (le vendeur ne livre pas les biens), l'inexécution partielle ou mauvaise exécution (le transporteur livre un colis abîmé) et le retard (l'emprunteur ne respecte pas les dates d'échéance).
+Quels types de dommages existe-t-il ? ; Le dommage matériel (perte pécuniaire, manque à gagner, perte de chance), le dommage corporel (atteinte à l'intégrité physique) et le dommage moral (atteinte à l'image, à l'honneur, préjudice d'agrément, atteinte au sentiment d'affection).
+Qu'est-ce qu'un lien de causalité ? ; Un rapport de cause à effet entre la faute et le dommage : il doit être certain et direct.
+Pourquoi distinguer obligation de résultat et obligation de moyens ? ; Parce que les règles de preuve et d'exonération de responsabilité diffèrent.
+Qu'est-ce qu'une obligation de résultat ? ; Celle par laquelle le cocontractant s'oblige à un résultat déterminé à atteindre.
+Qu'est-ce qu'une obligation de moyens ? ; Celle par laquelle le cocontractant s'engage à mettre en œuvre tous les moyens dont il dispose pour atteindre le résultat espéré par les parties.
+Qui doit prouver la faute dans une obligation de résultat ? ; Personne : la faute du débiteur est présumée. Le créancier doit seulement prouver l'inexécution et le dommage.
+Comment le débiteur peut-il se libérer d'une obligation de résultat ? ; En établissant l'existence d'une cause étrangère à l'origine de l'inexécution. Il n'est pas autorisé à s'exonérer en établissant l'absence de faute.
+Qui doit prouver la faute dans une obligation de moyens ? ; Le créancier doit prouver l'existence d'une faute contractuelle imputable au débiteur et le dommage subi.
+Comment le débiteur peut-il se libérer d'une obligation de moyens ? ; En prouvant l'absence de faute de sa part.
+Donnez des exemples d'obligation de résultat. ; Le vendeur a une obligation de résultat de livrer la chose promise. Le transporteur a une obligation de résultat de sécurité du voyageur : il suffit à ce dernier d'établir l'inexécution de l'obligation de sécurité.
+Donnez un exemple d'obligation de moyens. ; Un club hippique ou de gymnastique est tenu d'une obligation de moyens, car la pratique d'un sport implique un rôle actif du participant.
+Qu'est-ce que la mise en demeure ? ; L'acte par lequel le créancier donne injonction à son débiteur d'exécuter ses obligations. Elle prend la forme d'une lettre recommandée avec accusé de réception.
+Combien de sanctions légales l'inexécution du contrat entraîne-t-elle (art. 1217 du Code civil) ? ; Cinq, qui peuvent être cumulées.
+Quelles sont les cinq sanctions de l'inexécution du contrat ? ; L'exception d'inexécution, l'exécution forcée en nature, la réduction du prix, la résolution ou la résiliation du contrat, et la réparation du préjudice par des dommages-intérêts.
+Qu'est-ce que l'exception d'inexécution (art. 1219 et 1220) ? ; Le créancier peut, si l'inexécution du débiteur est suffisamment grave, suspendre l'exécution de ses propres obligations.
+Qu'est-ce que l'exécution forcée en nature (art. 1221) ? ; Le créancier demande au juge d'obliger sous la contrainte le débiteur à exécuter la prestation promise, à condition que la demande ne soit pas disproportionnée entre ses inconvénients pour le débiteur et son intérêt pour le créancier.
+Qu'est-ce que la réduction du prix (art. 1223) ? ; Le créancier peut accepter, en contrepartie d'une réduction du prix, que l'exécution imparfaite de l'obligation ne soit pas remise en cause, par souci d'efficacité et de rapidité.
+Qu'est-ce que la résolution du contrat à exécution instantanée (art. 1224) ? ; L'annulation des engagements réciproques de façon rétroactive, en opérant les restitutions, comme si le contrat n'avait jamais existé (ex. : une vente dont le prix a été payé mais dont l'objet n'a pas été livré). Elle peut être prévue par une clause résolutoire.
+Qu'est-ce que la résiliation d'un contrat à exécution successive ? ; L'annulation du contrat pour l'avenir, puisque l'exécution réalisée ne peut plus être restituée (ex. : contrat de travail, contrat d'assurance, bail locatif).
+Quelle différence entre résolution, résiliation et nullité du contrat ? ; La résolution et la résiliation sanctionnent l'inexécution d'un contrat valide. Un contrat est nul s'il n'est pas valide au moment de sa formation.
+Qu'est-ce que la réparation du préjudice par dommages-intérêts ? ; En cas d'inexécution, les parties s'exposent à payer des dommages-intérêts au créancier. Une clause pénale peut prévoir une indemnité en cas d'inexécution d'une obligation.
+Quand la responsabilité extracontractuelle est-elle engagée ? ; Lorsqu'il n'existe aucun lien contractuel entre la personne fautive et la victime (ex. : un client fait une chute en entrant dans un restaurant).
+Que dit l'article 1240 du Code civil ? ; Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé à le réparer.
+Quelles conditions pour la responsabilité extracontractuelle ? ; Un fait non contractuel ou une faute, un ou plusieurs dommages subis par la victime et un lien de causalité entre le fait générateur et le dommage, sauf force majeure.
+Quels sont les trois faits générateurs possibles ? ; La faute de l'auteur du dommage (volontaire ou d'imprudence), le fait d'une chose dont on a la garde et le fait d'autrui, d'une personne dont on doit répondre.
+Qui est responsable du fait d'autrui ? ; Le parent et l'employeur sont responsables des dommages causés par l'enfant ou le salarié. Cette responsabilité ne repose sur aucune faute.
+Quels types de préjudice existe-t-il ? ; Le préjudice corporel (blessures, dommage esthétique), matériel (perte monétaire), moral (perte d'un proche), écologique (dégâts causés par les hydrocarbures d'un navire accidenté) et d'anxiété (salariés exposés à l'amiante).
+Qu'a jugé la Cour de cassation en 2014 sur l'anxiété ? ; Les salariés ayant travaillé dans un établissement où était fabriqué ou traité de l'amiante n'ont pas à démontrer la réalité de leur anxiété par examen médical régulier pour être indemnisés.
+Quels sont les modes de réparation du dommage ? ; La réparation en nature, rare (ex. : obligation de détruire une construction édifiée sans droit), et la réparation par équivalent (dommages-intérêts), dont le juge apprécie l'importance et dont le montant doit être justifié par la victime.
+Qu'est-ce que la responsabilité des produits défectueux ? ; Un exemple de responsabilité sans faute, issu de la directive européenne du 25/07/1985.
+Qui est responsable d'un produit défectueux ? ; Les fabricants, les importateurs, et les vendeurs ou loueurs si le producteur ne peut être identifié (s'ils ne désignent pas leurs fournisseurs dans les 3 mois de la demande de la victime).
+Quel est le fait générateur de la responsabilité des produits défectueux ? ; L'existence d'un défaut du produit : tous les cas dans lesquels il n'offre pas la sécurité à laquelle on peut légitimement s'attendre.
+Quels dommages sont réparables pour un produit défectueux ? ; Toutes les atteintes à la personne (préjudices corporels, moraux ou économiques) et les atteintes à un bien autre que le produit lui-même dès lors que leur montant est supérieur à 500 euros (art. 1245-1 du Code civil).
+Quelles actions la victime d'un produit défectueux peut-elle mener ? ; Le droit commun et notamment les garanties, ou la responsabilité des produits défectueux (art. 1245 et suivants du Code civil), où elle doit prouver le dommage et le lien de causalité entre le défaut et le dommage.
+Quelle est la prescription pour un produit défectueux ? ; La responsabilité du producteur peut être engagée dans un délai de 10 ans après la mise en circulation. L'action se prescrit dans les trois ans de la connaissance du défaut, du dommage ou de l'identité du producteur.
+Quelles sont les trois conditions d'exonération de la responsabilité civile ? ; La force majeure, le fait d'un tiers et la faute de la victime. L'auteur du dommage peut s'exonérer en totalité ou en partie.
+Qu'est-ce que la force majeure ? ; Un événement exceptionnel auquel l'auteur du dommage ne peut faire face. Il doit être extérieur à l'auteur, imprévisible et irrésistible.
+Qu'est-ce que le fait d'un tiers ? ; Le fait d'une personne autre que les parties en litige ou qui n'est pas partie au contrat mais intervient dans la réalisation du dommage. Pour écarter la responsabilité de l'auteur, il doit présenter les caractères de la force majeure.
+Que produit la faute de la victime ? ; Pour écarter totalement la responsabilité de l'auteur du dommage, elle doit présenter les caractères de la force majeure. Dans le cas contraire, elle peut tout de même réduire en partie la responsabilité de l'auteur.
