@@ -1,0 +1,16 @@
+# Matière : CEJMA
+# Paquet : L'identité numérique des organisations
+# Description : Définition, traces volontaires ou involontaires, espaces de diffusion et exemples de traces pour les trois composantes de l'identité numérique.
+
+Qu'est-ce que l'identité numérique (IDN) ? ; Les contenus (les traces) diffusés sur Internet permettant d'identifier un utilisateur, qui est soit une personne physique (individu), soit une personne morale (une organisation).
+Une organisation a-t-elle une seule identité numérique ? ; Non : les utilisateurs et les organisations ont plusieurs « identités numériques », diluées dans le net.
+Comment se construit l'identité numérique ? ; À partir des traces volontaires ou involontaires, subies ou choisies, que laissent les internautes lors de leurs activités sur Internet (recherche et publication), particulièrement sur les réseaux sociaux et avec les objets connectés.
+Quels éléments les gardes-forestiers apprennent-ils sur le cycliste dans la publicité Qwant ? ; Son âge et sa situation (couple), ses goûts (pizzas, séries en streaming), son itinéraire (tourner à gauche), sa rencontre avec « Hélène78 » et une offre de vélo à -20 %. Ils proviennent d'un blog, de réseaux sociaux ou plateformes de streaming, d'un GPS, d'un site de rencontre et d'un site commerçant.
+Où un professionnel diffuse-t-il le contenu de l'identité numérique de son entreprise ? ; Sur plusieurs supports : les réseaux sociaux (Instagram, X, TikTok, Facebook), son propre site web et d'autres sites comme LinkedIn.
+Quels sont des exemples de traces de l'identité déclarative d'une personne morale ? ; Le nom de l'entreprise, son logo et l'adresse du siège.
+Quels sont des exemples de traces de l'identité administrative d'une personne physique ? ; Le NIR, l'INE, le code NEPH, l'IBAN, le numéro de carte Vitale.
+Quels sont des exemples d'identité d'accès aux services informatiques ? ; Le nom d'utilisateur, l'adresse mail, le mot de passe, l'adresse IP, le nom de domaine et le numéro de téléphone.
+Que sont les « autres traces profilaires » d'une organisation ? ; Ce que l'organisation dit d'elle-même : comptes sur les réseaux sociaux, slogan, partages par les internautes, commentaires et avis des internautes.
+Quels sont des exemples de traces de l'identité agissante ? ; Le temps passé sur un site, les habitudes d'achat, les habitudes de navigation et l'historique de recherche.
+Quels sont des exemples de traces de l'identité calculée ? ; Le croisement de données, l'observation comportementale, les statistiques sur la navigation et les prédictions via algorithme.
+Quelles technologies traitent l'identité calculée ? ; Les algorithmes, le recoupement d'informations et les statistiques.

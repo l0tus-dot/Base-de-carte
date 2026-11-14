@@ -144,6 +144,20 @@
   },
   {
    "subject": "CEJMA",
+   "deck": "L'e-réputation des organisations et son contrôle",
+   "cards": 45,
+   "description": "Définition, composantes, enjeux, stratégie, actions de veille, SEO, bad buzz, nettoyage de contenus, outils et risques juridiques.",
+   "path": "paquets/cejma/e-reputation-organisations.json"
+  },
+  {
+   "subject": "CEJMA",
+   "deck": "L'identité numérique des organisations",
+   "cards": 12,
+   "description": "Définition, traces volontaires ou involontaires, espaces de diffusion et exemples de traces pour les trois composantes de l'identité numérique.",
+   "path": "paquets/cejma/identite-numerique-organisations.json"
+  },
+  {
+   "subject": "CEJMA",
    "deck": "La gestion des actifs informatiques (ITAM)",
    "cards": 12,
    "description": "L'ITAM, les trois étapes de la démarche et les fonctions d'une solution ITAM.",

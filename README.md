@@ -21,6 +21,8 @@ Importer deux fois le même paquet ne crée **pas de doublons**, et ne touche ni
 | CEJMA | Données à caractère personnel et RGPD | 51 | `paquets/cejma/donnees-personnelles-rgpd.json` |
 | CEJMA | Gestion des actifs logiciels et contrats de licence | 25 | `paquets/cejma/gestion-actifs-logiciels-et-contrats.json` |
 | CEJMA | Identité numérique et cybersécurité | 58 | `paquets/cejma/identite-numerique-cybersecurite.json` |
+| CEJMA | L'e-réputation des organisations et son contrôle | 45 | `paquets/cejma/e-reputation-organisations.json` |
+| CEJMA | L'identité numérique des organisations | 12 | `paquets/cejma/identite-numerique-organisations.json` |
 | CEJMA | La gestion des actifs informatiques (ITAM) | 12 | `paquets/cejma/gestion-actifs-informatiques.json` |
 | CEJMA | Les acteurs de l'industrie informatique | 30 | `paquets/cejma/acteurs-industrie-informatique.json` |
 | CEJMA | Les licences logicielles | 21 | `paquets/cejma/les-licences-logicielles.json` |

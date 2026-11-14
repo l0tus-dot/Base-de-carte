@@ -1,0 +1,285 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "L'identité numérique des organisations"
+   }
+  ],
+  "cards": [
+   {
+    "id": "e96c22a2-b459-5772-bc67-6bd5a91c72fc",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Qu'est-ce que l'identité numérique (IDN) ?",
+    "back": "Les contenus (les traces) diffusés sur Internet permettant d'identifier un utilisateur, qui est soit une personne physique (individu), soit une personne morale (une organisation).",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "8035860c-09d8-5315-bffb-a9d00eb9da3a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Une organisation a-t-elle une seule identité numérique ?",
+    "back": "Non : les utilisateurs et les organisations ont plusieurs « identités numériques », diluées dans le net.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "100491fd-07ab-5b70-a90b-ebe647b658aa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Comment se construit l'identité numérique ?",
+    "back": "À partir des traces volontaires ou involontaires, subies ou choisies, que laissent les internautes lors de leurs activités sur Internet (recherche et publication), particulièrement sur les réseaux sociaux et avec les objets connectés.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "b1b83503-7d22-55b6-9ca2-bdc72732dd3d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Quels éléments les gardes-forestiers apprennent-ils sur le cycliste dans la publicité Qwant ?",
+    "back": "Son âge et sa situation (couple), ses goûts (pizzas, séries en streaming), son itinéraire (tourner à gauche), sa rencontre avec « Hélène78 » et une offre de vélo à -20 %. Ils proviennent d'un blog, de réseaux sociaux ou plateformes de streaming, d'un GPS, d'un site de rencontre et d'un site commerçant.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "cea44b0a-fb47-55be-99b3-dbe61d231c68",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Où un professionnel diffuse-t-il le contenu de l'identité numérique de son entreprise ?",
+    "back": "Sur plusieurs supports : les réseaux sociaux (Instagram, X, TikTok, Facebook), son propre site web et d'autres sites comme LinkedIn.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "d83067c2-efb6-5275-b4b4-48a12a57e088",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Quels sont des exemples de traces de l'identité déclarative d'une personne morale ?",
+    "back": "Le nom de l'entreprise, son logo et l'adresse du siège.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "a3acd66c-cd95-515d-998f-eb27bb9b5c00",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Quels sont des exemples de traces de l'identité administrative d'une personne physique ?",
+    "back": "Le NIR, l'INE, le code NEPH, l'IBAN, le numéro de carte Vitale.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "56e9c899-f8f8-566a-9b56-ee328122d1c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Quels sont des exemples d'identité d'accès aux services informatiques ?",
+    "back": "Le nom d'utilisateur, l'adresse mail, le mot de passe, l'adresse IP, le nom de domaine et le numéro de téléphone.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "07cfb75d-9cd3-54f8-a221-0073e6f02827",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Que sont les « autres traces profilaires » d'une organisation ?",
+    "back": "Ce que l'organisation dit d'elle-même : comptes sur les réseaux sociaux, slogan, partages par les internautes, commentaires et avis des internautes.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "b54ef52d-d317-5103-b99a-ee3c18af0503",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Quels sont des exemples de traces de l'identité agissante ?",
+    "back": "Le temps passé sur un site, les habitudes d'achat, les habitudes de navigation et l'historique de recherche.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "81cb4530-553a-597c-8936-aecfae4f1c5a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Quels sont des exemples de traces de l'identité calculée ?",
+    "back": "Le croisement de données, l'observation comportementale, les statistiques sur la navigation et les prédictions via algorithme.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "3f72bf0e-6216-5f3f-8241-f0a0fef94fc4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "d1403e7d-8445-5bff-ae83-cb1e3496f4f7",
+    "front": "Quelles technologies traitent l'identité calculée ?",
+    "back": "Les algorithmes, le recoupement d'informations et les statistiques.",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "589854ac-e481-5637-8e4e-057edb4ffebf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e96c22a2-b459-5772-bc67-6bd5a91c72fc",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dfad6d95-6b82-5030-8188-d44e374a463b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "8035860c-09d8-5315-bffb-a9d00eb9da3a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "30a19095-cd87-5199-a4e0-e226463b0a74",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "100491fd-07ab-5b70-a90b-ebe647b658aa",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "09356dc7-9231-5232-ba30-ed132bb0f1a1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b1b83503-7d22-55b6-9ca2-bdc72732dd3d",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7f79952a-9641-5469-ba79-76bb78420cac",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "cea44b0a-fb47-55be-99b3-dbe61d231c68",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ba32901d-bcfb-54b3-9c26-47a1f6f5c640",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d83067c2-efb6-5275-b4b4-48a12a57e088",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "46164b5d-80d7-5bc2-ab65-8f513b751285",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a3acd66c-cd95-515d-998f-eb27bb9b5c00",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "407d3064-8414-52c8-aec7-baea02dc93d0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "56e9c899-f8f8-566a-9b56-ee328122d1c5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5e52d6bc-879a-56f4-a9b5-cc81c852bd02",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "07cfb75d-9cd3-54f8-a221-0073e6f02827",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "33f03882-c8b8-5772-9fad-65124b80de8f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b54ef52d-d317-5103-b99a-ee3c18af0503",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "378df44c-d02c-5c03-9a61-32b94e72374a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "81cb4530-553a-597c-8936-aecfae4f1c5a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "83fd80c9-5d30-5b3c-8866-4f2f049c3553",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3f72bf0e-6216-5f3f-8241-f0a0fef94fc4",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

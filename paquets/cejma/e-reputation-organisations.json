@@ -1,0 +1,978 @@
+{
+ "format": "flash-backup",
+ "version": 3,
+ "exportedAt": "2000-01-01T00:00:00.000Z",
+ "tables": {
+  "subjects": [
+   {
+    "id": "9104af71-5c51-5816-8290-c62521e58a15",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "name": "CEJMA",
+    "color": 4282339765
+   }
+  ],
+  "decks": [
+   {
+    "id": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "subjectId": "9104af71-5c51-5816-8290-c62521e58a15",
+    "name": "L'e-réputation des organisations et son contrôle"
+   }
+  ],
+  "cards": [
+   {
+    "id": "9986af19-6ddd-5502-bd7b-1753d93b6819",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que l'e-réputation d'une organisation ?",
+    "back": "Son image, positive ou négative, perçue par les internautes à travers les contenus de l'identité numérique émise sur Internet. Elle peut être subie ou maîtrisée.",
+    "createdAt": "2000-01-01T00:00:00.000Z"
+   },
+   {
+    "id": "69f09b4a-47eb-5317-97ad-c305df703635",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "À quelle trace de l'identité numérique correspond l'e-réputation ?",
+    "back": "Aux traces héritées : ce que les autres disent ou montrent de moi sur le web.",
+    "createdAt": "2000-01-01T00:00:01.000Z"
+   },
+   {
+    "id": "0eab546c-ff40-5fed-ad41-432ea16abc8c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quelles sont les deux composantes de l'e-réputation ?",
+    "back": "La présence en ligne et la perception des autres.",
+    "createdAt": "2000-01-01T00:00:02.000Z"
+   },
+   {
+    "id": "38e1f35b-5792-5a50-8887-afbacd71c0a0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Que comprend la présence en ligne ?",
+    "back": "L'identité numérique que l'organisation a voulu forger, l'image d'une marque ou d'un produit, la présence sur les réseaux sociaux (visibilité), l'attitude professionnelle d'un collaborateur et les faits liés à sa gestion de clientèle ou sa stratégie commerciale.",
+    "createdAt": "2000-01-01T00:00:03.000Z"
+   },
+   {
+    "id": "a331db9c-81d1-558b-8297-2181591e9bad",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Que comprend la perception des autres ?",
+    "back": "Les avis et commentaires, les influenceurs, les rumeurs, les médias et les interprétations.",
+    "createdAt": "2000-01-01T00:00:04.000Z"
+   },
+   {
+    "id": "88862def-5cb6-5cbe-b28f-2dd7123369c7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Faut-il confondre réputation, visibilité et notoriété ?",
+    "back": "Non, ce sont trois notions différentes.",
+    "createdAt": "2000-01-01T00:00:05.000Z"
+   },
+   {
+    "id": "73a32779-c534-53bf-8bfb-2082d9b403fd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quels sont les risques d'une mauvaise e-réputation ?",
+    "back": "Une baisse d'activité et de chiffre d'affaires, une perte de crédibilité, des difficultés à convaincre et fidéliser les clients potentiels, des difficultés de recrutement, moins d'investissement ou des difficultés à trouver des financements, et une baisse de la valeur de l'entreprise.",
+    "createdAt": "2000-01-01T00:00:06.000Z"
+   },
+   {
+    "id": "e748db5e-7716-5550-80ea-0ca815f22b53",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quel est le but de la stratégie d'e-réputation ?",
+    "back": "Maîtriser l'information communiquée par l'entreprise : elle doit être méticuleusement préparée pour éviter toute retombée négative. C'est un outil de différenciation et un avantage concurrentiel.",
+    "createdAt": "2000-01-01T00:00:07.000Z"
+   },
+   {
+    "id": "ae5fe5b7-e7e0-52d2-8ed3-9eff524572d9",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quel est le rôle du community manager ?",
+    "back": "Créer et fédérer une communauté d'internautes autour d'un intérêt commun : développer et gérer la présence d'une organisation (marque, association, produit, jeu) sur Internet, contrôler et répondre aux publications et animer les réseaux.",
+    "createdAt": "2000-01-01T00:00:08.000Z"
+   },
+   {
+    "id": "7c38ea92-6e62-5a5a-ac5a-af5e46c19064",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quelles sont les quatre grandes actions pour surveiller et orienter son e-réputation ?",
+    "back": "Réaliser des veilles de l'e-réputation, créer du contenu de qualité, améliorer le référencement naturel et faire créer du contenu.",
+    "createdAt": "2000-01-01T00:00:09.000Z"
+   },
+   {
+    "id": "73c4a694-b8ff-5e98-b0f4-59d9179b14bd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Que faut-il surveiller dans une veille d'e-réputation ?",
+    "back": "En temps réel, les mentions de la marque, les avis clients et les réseaux sociaux.",
+    "createdAt": "2000-01-01T00:00:10.000Z"
+   },
+   {
+    "id": "52838872-199a-50be-9796-3edbec872ea1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Comment installer des notifications pour la veille ?",
+    "back": "En utilisant des outils d'alerte automatisés (Google Alerts).",
+    "createdAt": "2000-01-01T00:00:11.000Z"
+   },
+   {
+    "id": "6b39a954-2810-52d2-abc3-29a9f37b0cf5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quels indicateurs de veille analyser ?",
+    "back": "Le volume de mentions, la tonalité des commentaires, le taux d'engagement et le score de visibilité.",
+    "createdAt": "2000-01-01T00:00:12.000Z"
+   },
+   {
+    "id": "020576a6-232e-5b5c-a0ca-c5101b688c05",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Que faire des analyses de veille ?",
+    "back": "Répondre rapidement aux avis et commentaires et transmettre les analyses aux services concernés pour améliorer l'attractivité de l'entreprise (prise en compte des résultats de la veille).",
+    "createdAt": "2000-01-01T00:00:13.000Z"
+   },
+   {
+    "id": "f765ccf8-31e3-5518-a634-e5b765c9df95",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Comment créer une image de qualité sur le web ?",
+    "back": "En misant sur l'inbound marketing : attirer naturellement les clients grâce à des contenus utiles et pertinents, et accroître la présence en ligne par la communication institutionnelle et produit (site, comptes Facebook, LinkedIn, Instagram).",
+    "createdAt": "2000-01-01T00:00:14.000Z"
+   },
+   {
+    "id": "7f4cc531-8948-5f0c-97db-4d0a3adceaa7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quelles autres bonnes pratiques pour créer du contenu de qualité ?",
+    "back": "Définir une charte graphique et éditoriale, avoir un calendrier éditorial (périodicité qui permet de préparer et d'anticiper), varier le contenu (alterner les formats pour maintenir l'intérêt de l'audience) et vérifier la véracité des informations partagées.",
+    "createdAt": "2000-01-01T00:00:15.000Z"
+   },
+   {
+    "id": "1d4d9715-73e7-5934-84ae-fbc814a73857",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Pourquoi vérifier la véracité des informations partagées ?",
+    "back": "Publier des contenus erronés fait perdre en légitimité.",
+    "createdAt": "2000-01-01T00:00:16.000Z"
+   },
+   {
+    "id": "c664c84e-10fb-5403-8d11-1d686cc6f274",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Que signifie SEO ?",
+    "back": "Search Engine Optimization : le référencement naturel. Son but est d'améliorer le référencement sur les moteurs de recherche comme Bing ou Google.",
+    "createdAt": "2000-01-01T00:00:17.000Z"
+   },
+   {
+    "id": "a11d2ba8-8e76-5431-affd-a7ab36d6ccd0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Que signifie SEA ?",
+    "back": "Le référencement payant (SEO = référencement naturel).",
+    "createdAt": "2000-01-01T00:00:18.000Z"
+   },
+   {
+    "id": "862e2e26-ab37-50d9-8756-c6e2ee5d8854",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quelles pratiques SEO appliquer ?",
+    "back": "Créer du contenu unique avec des titres et sous-titres accrocheurs (balises HTML), optimiser le maillage interne et externe, travailler la sémantique et optimiser le champ lexical.",
+    "createdAt": "2000-01-01T00:00:19.000Z"
+   },
+   {
+    "id": "b8ee76f5-3ad7-5f2e-94d8-ce76df8d3969",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que le maillage interne ?",
+    "back": "Les liens entre les différentes pages de son propre site internet.",
+    "createdAt": "2000-01-01T00:00:20.000Z"
+   },
+   {
+    "id": "e1eb050b-33f1-5d84-9e9f-247aa7f54e57",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que le netlinking ?",
+    "back": "Une technique SEO visant à démontrer la popularité d'un site web aux yeux des moteurs de recherche grâce à des liens provenant d'autres sites internet et qui pointent vers le sien.",
+    "createdAt": "2000-01-01T00:00:21.000Z"
+   },
+   {
+    "id": "3b35ee81-0026-544f-bd90-c6cd5b830715",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que travailler la sémantique en SEO ?",
+    "back": "Intégrer les termes d'un même sens qui ne se rapportent pas qu'à la requête d'un internaute, c'est-à-dire des mots clés (keywords).",
+    "createdAt": "2000-01-01T00:00:22.000Z"
+   },
+   {
+    "id": "96e4d151-7729-5b0d-988b-f7bbfae960a6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que le keyword stuffing ?",
+    "back": "Le bourrage de mots clés : en abuser fausse l'analyse de Google, qui peut le sanctionner.",
+    "createdAt": "2000-01-01T00:00:23.000Z"
+   },
+   {
+    "id": "7d9a25a6-01ac-54cf-88a9-e75672f10d4f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que le champ lexical en SEO ?",
+    "back": "L'ensemble des mots d'un même thème (ex. : librairie, livre, page).",
+    "createdAt": "2000-01-01T00:00:24.000Z"
+   },
+   {
+    "id": "76171831-7b4d-5ccd-8aa9-05caecb133bd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que le marketing d'influence ?",
+    "back": "Une stratégie consistant à s'appuyer sur la notoriété et la crédibilité d'influenceurs pour promouvoir une marque ou un produit.",
+    "createdAt": "2000-01-01T00:00:25.000Z"
+   },
+   {
+    "id": "61804511-2711-588b-b4ef-6919c7b63ba5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Que sont les UGC ?",
+    "back": "User Generated Content : les contenus partagés par les clients, les fans, les collaborateurs, les membres de la communauté en ligne et les créateurs de contenu.",
+    "createdAt": "2000-01-01T00:00:26.000Z"
+   },
+   {
+    "id": "9214b6f8-5923-58e0-b571-9ca805a6eb42",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Comment faire créer du contenu aux autres ?",
+    "back": "Mettre en valeur les avis positifs, récompenser les ambassadeurs et créer le buzz en les associant.",
+    "createdAt": "2000-01-01T00:00:27.000Z"
+   },
+   {
+    "id": "453a0d2a-7baa-5979-bdbd-e02eafa015bd",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Comment gérer un bad buzz ?",
+    "back": "Répondre publiquement aux plaintes et critiques : agir rapidement avec calme, courtoisie et empathie, reconnaître l'erreur si l'entreprise est en tort et présenter des excuses sincères, proposer une solution concrète et communiquer en toute transparence.",
+    "createdAt": "2000-01-01T00:00:28.000Z"
+   },
+   {
+    "id": "44c622eb-0af4-53af-aa54-bdbf4377dc73",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Comment nettoyer des contenus sur Internet ?",
+    "back": "Demander d'effacer (exercer son droit à l'oubli, contacter directement le propriétaire du site concerné pour solliciter la suppression) ou demander d'apporter la preuve qu'il a cessé des pratiques illégales.",
+    "createdAt": "2000-01-01T00:00:29.000Z"
+   },
+   {
+    "id": "956b383b-8dc5-554a-b24b-19682f12e322",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Donnez des exemples de contenus abusifs.",
+    "back": "La diffamation, l'injure publique, le dénigrement commercial et les faux avis clients.",
+    "createdAt": "2000-01-01T00:00:30.000Z"
+   },
+   {
+    "id": "c5a227ea-7bab-56de-b559-a57c8abf7880",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quels outils surveillent l'e-réputation ?",
+    "back": "WebMii (moteur de recherche et score de visibilité), Google Alerts ou Talkwalkers (alertes), Netvibes (flux RSS), Google My Business et Trustfolio (gestion de la présence en ligne) et des logiciels de gestion des avis et feedback.",
+    "createdAt": "2000-01-01T00:00:31.000Z"
+   },
+   {
+    "id": "188e53d1-9bb6-59f4-aee3-b33a5a4bb121",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quelles sont les trois possibilités d'externaliser l'e-réputation ?",
+    "back": "Une agence RP (généraliste des relations presse et publiques), une agence spécialisée d'e-réputation ou une agence de référencement SEO/SEA.",
+    "createdAt": "2000-01-01T00:00:32.000Z"
+   },
+   {
+    "id": "e3496c9f-d640-5ba5-90bc-f361aee4ce06",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quels sont les auteurs possibles d'un incident d'e-réputation ?",
+    "back": "Des individus (influents ou non), des collectifs (organisés ou spontanés) et des leaders d'opinion (indépendants ou affiliés).",
+    "createdAt": "2000-01-01T00:00:33.000Z"
+   },
+   {
+    "id": "42240a9d-1e24-5447-b413-df43d202cc32",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quelles sont les trois familles d'incidents d'e-réputation (Digimind) ?",
+    "back": "La manipulation de l'information (avis négatifs, fausses informations, rumeurs, dénigrement), la manipulation de l'identité (détournement de logos, usurpation de marques, usurpation d'identité, contrefaçon de marques) et la manipulation technique (phishing, cybersquatting, flogs/splogs, piratage de site).",
+    "createdAt": "2000-01-01T00:00:34.000Z"
+   },
+   {
+    "id": "d20d54cd-4857-5756-90f0-f72291fae753",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quels impacts peut avoir un incident d'e-réputation ?",
+    "back": "Déficit d'image, bris de carrière, arrêt ou modification de production, baisse ou hausse de cours, désorganisation, pertes financières et pertes de données.",
+    "createdAt": "2000-01-01T00:00:35.000Z"
+   },
+   {
+    "id": "fafbf60c-c9f0-5fb1-a7a5-c04c7e8fe701",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quel est le délit d'usurpation d'identité ?",
+    "back": "Faire usage de données de toute nature permettant d'identifier une personne en vue de troubler sa tranquillité ou celle d'autrui, ou de porter atteinte à son honneur ou à sa considération. Source : loi LOPPSI 2 de 2011. Sanction : art. 226-4-1 du Code pénal, 1 an d'emprisonnement et 15 000 euros d'amende.",
+    "createdAt": "2000-01-01T00:00:36.000Z"
+   },
+   {
+    "id": "f1f484ff-69b3-57ff-b8d3-640f6c8f7843",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que le délit de diffamation ?",
+    "back": "Toute allégation ou imputation d'un fait qui porte atteinte à l'honneur ou à la considération de la personne ou du corps auquel le fait est imputé. Source : article 29 de la loi du 29 juillet 1881.",
+    "createdAt": "2000-01-01T00:00:37.000Z"
+   },
+   {
+    "id": "ca6e3219-9ed9-5181-88f4-52a59406e1af",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quelles sont les sanctions de la diffamation ?",
+    "back": "Diffamation publique : 1 an de prison, 45 000 euros d'amende et affichage de la décision (art. 29 de la loi du 29 juillet 1881). Diffamation non publique : amende des contraventions de 1re classe (art. R. 621-1 du Code pénal).",
+    "createdAt": "2000-01-01T00:00:38.000Z"
+   },
+   {
+    "id": "1a0fabc5-42cb-55e6-af9e-8c0b08a03e7a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que le délit d'injure ?",
+    "back": "Toute expression outrageante, termes de mépris ou invective qui ne renferme l'imputation d'aucun fait. Source : article 29 de la loi du 29 juillet 1881.",
+    "createdAt": "2000-01-01T00:00:39.000Z"
+   },
+   {
+    "id": "52eb6694-232d-522e-874d-7561b8d3d385",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quelles sont les sanctions de l'injure ?",
+    "back": "Injure publique (y compris sur Internet) : 12 000 à 45 000 euros d'amende et affichage de la décision (art. 33 de la loi de 1881). Injure non publique sans provocation : amende des contraventions de 1re classe (art. R. 621-2 du Code pénal).",
+    "createdAt": "2000-01-01T00:00:40.000Z"
+   },
+   {
+    "id": "880ef351-2d3e-55ca-a3e2-4d491b029262",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que le dénigrement ?",
+    "back": "Jeter publiquement le discrédit sur les produits ou services fournis par un tiers dans le but de lui nuire. Fondement : la responsabilité extracontractuelle, avec réparation (art. 1240 du Code civil).",
+    "createdAt": "2000-01-01T00:00:41.000Z"
+   },
+   {
+    "id": "0da73416-fa78-5228-b70a-fcce38a40fa6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que le délit d'escroquerie ?",
+    "back": "Le fait, par l'usage d'un faux nom ou d'une fausse qualité, ou par l'emploi de manœuvres frauduleuses, de tromper une personne physique ou morale et de la déterminer à remettre des fonds, un bien ou à fournir un service. Sanction : art. 313-1 du Code pénal, 5 ans d'emprisonnement et 375 000 euros d'amende.",
+    "createdAt": "2000-01-01T00:00:42.000Z"
+   },
+   {
+    "id": "4c96858f-bbf0-523a-9e6d-e7031611200b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Qu'est-ce que le délit d'accès frauduleux à un STAD ?",
+    "back": "Un accès par une personne sachant qu'elle n'y est pas autorisée à un système de traitement automatisé de données, confidentielles ou non, peu importe les moyens d'accès. Source : loi Informatique et libertés de 1978, reprise par la loi Godfrain du 5 janvier 1988.",
+    "createdAt": "2000-01-01T00:00:43.000Z"
+   },
+   {
+    "id": "e0ca3e61-1df3-5958-8ac7-f72095a4e26e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "deckId": "1c824ffe-92fc-5fce-b1cf-36aaf93ad058",
+    "front": "Quelles sont les sanctions de l'accès frauduleux à un STAD ?",
+    "back": "Accès seul : 2 ans d'emprisonnement et 60 000 euros d'amende. Accès avec suppression ou modification des données ou altération du fonctionnement du système : 3 ans d'emprisonnement et 100 000 euros d'amende (art. 323-1 du Code pénal).",
+    "createdAt": "2000-01-01T00:00:44.000Z"
+   }
+  ],
+  "card_states": [
+   {
+    "id": "b794018f-4a02-56fd-8d98-285a53a5f7af",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9986af19-6ddd-5502-bd7b-1753d93b6819",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7ebbfaf3-39fe-5e9e-ad5e-5286bb0c46ef",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "69f09b4a-47eb-5317-97ad-c305df703635",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "63c82eba-4551-5aa6-b266-e1cd9ec762e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0eab546c-ff40-5fed-ad41-432ea16abc8c",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "39cfa3e1-d72a-5969-bef8-38b4f86955c8",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "38e1f35b-5792-5a50-8887-afbacd71c0a0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "5b359b80-0bdf-57ac-a470-2b12f038812e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a331db9c-81d1-558b-8297-2181591e9bad",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "3b27a3d2-30c4-563b-9dfd-9e108d8b70c5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "88862def-5cb6-5cbe-b28f-2dd7123369c7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "cfc74bf5-aaa7-59a1-9608-fd7c3c65d981",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "73a32779-c534-53bf-8bfb-2082d9b403fd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "aa8f93ec-1250-52ad-b0a9-aebfee996baa",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e748db5e-7716-5550-80ea-0ca815f22b53",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2dc0d0fe-1b2d-5feb-8219-1b51e6edffa4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ae5fe5b7-e7e0-52d2-8ed3-9eff524572d9",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7ec21e61-bfcd-5e27-819c-b6c57938bbb5",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7c38ea92-6e62-5a5a-ac5a-af5e46c19064",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d084bed6-ff75-51af-b2eb-03c8741b48d3",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "73c4a694-b8ff-5e98-b0f4-59d9179b14bd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "61f119f6-76b5-5da5-9a96-58dbcc4dddaf",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "52838872-199a-50be-9796-3edbec872ea1",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "a0e97d80-2897-53d1-9cd2-96e5600d6452",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "6b39a954-2810-52d2-abc3-29a9f37b0cf5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7671d5bf-8fe3-577b-b56d-e246385aa515",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "020576a6-232e-5b5c-a0ca-c5101b688c05",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "65a469dd-0cdc-5ea4-939c-6002b1a678e6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f765ccf8-31e3-5518-a634-e5b765c9df95",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "94244cf2-7f87-5656-b2ab-0b90fa229a16",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7f4cc531-8948-5f0c-97db-4d0a3adceaa7",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "e6aae085-085d-53d3-abc4-7ab960c2cd01",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1d4d9715-73e7-5934-84ae-fbc814a73857",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c26b9f19-5fa5-5614-b93c-bcc2b4cec6f2",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c664c84e-10fb-5403-8d11-1d686cc6f274",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8bd91a48-17f8-5e3c-85a1-1ecfd50bf863",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "a11d2ba8-8e76-5431-affd-a7ab36d6ccd0",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "ecc5a013-a3fa-56d4-a8f9-09c743953979",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "862e2e26-ab37-50d9-8756-c6e2ee5d8854",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "8bb3fb72-4114-5a94-85bc-1125f0f52f4c",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "b8ee76f5-3ad7-5f2e-94d8-ce76df8d3969",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "35087798-3422-5fa0-8439-35de5f345408",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e1eb050b-33f1-5d84-9e9f-247aa7f54e57",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d59ec78e-4f29-569c-a317-7424daa44e73",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "3b35ee81-0026-544f-bd90-c6cd5b830715",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b666ef7e-e8a4-517d-9450-e8ef24097c1f",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "96e4d151-7729-5b0d-988b-f7bbfae960a6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dfb86cfd-dbe5-5802-b3b8-f89617050f55",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "7d9a25a6-01ac-54cf-88a9-e75672f10d4f",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7703145b-5d4a-5779-8300-108548451b8d",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "76171831-7b4d-5ccd-8aa9-05caecb133bd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "d27bee58-5bad-5a0f-8354-978388359373",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "61804511-2711-588b-b4ef-6919c7b63ba5",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "560c2201-ccf8-593e-b73a-087534f1bfe6",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "9214b6f8-5923-58e0-b571-9ca805a6eb42",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4d6ced4f-04de-5ddd-9091-69482b3f8b06",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "453a0d2a-7baa-5979-bdbd-e02eafa015bd",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b7a1c1a8-7918-5128-bb9b-b4e3a3bdf9d0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "44c622eb-0af4-53af-aa54-bdbf4377dc73",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "bd383f6a-cc28-518e-a9e4-af1c69e3ad78",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "956b383b-8dc5-554a-b24b-19682f12e322",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "15207ce0-d981-57b8-82fa-ae68891b621e",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "c5a227ea-7bab-56de-b559-a57c8abf7880",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "16040855-8ff6-5c9c-9125-f843b89510c1",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "188e53d1-9bb6-59f4-aee3-b33a5a4bb121",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "16f1b66e-4b69-50d4-bb35-56cbff02aea0",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e3496c9f-d640-5ba5-90bc-f361aee4ce06",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "2d180097-cac4-5ded-959f-1ea2cca1b242",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "42240a9d-1e24-5447-b413-df43d202cc32",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "1038996d-8271-5bf0-bef5-77b660a7b61a",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "d20d54cd-4857-5756-90f0-f72291fae753",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "055c299f-8196-5882-a4e8-990e107328ce",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "fafbf60c-c9f0-5fb1-a7a5-c04c7e8fe701",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "b58c7076-3dae-56e6-b2ac-2750ada70a29",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "f1f484ff-69b3-57ff-b8d3-640f6c8f7843",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "c8b1e1d3-1ebd-5490-bbe9-74861222de61",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "ca6e3219-9ed9-5181-88f4-52a59406e1af",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "dc13d9c9-2d50-5af6-b911-56c89c94c3e4",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "1a0fabc5-42cb-55e6-af9e-8c0b08a03e7a",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "131d7514-73af-5984-a96c-93c73a2e84a7",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "52eb6694-232d-522e-874d-7561b8d3d385",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "9c8fe582-625f-59fe-a637-1182c45a2d0b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "880ef351-2d3e-55ca-a3e2-4d491b029262",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "f643e648-8e47-5a5b-8a83-1a21b4963166",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "0da73416-fa78-5228-b70a-fcce38a40fa6",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "4e1dd3a1-7197-54ee-b28d-c9ca645a6900",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "4c96858f-bbf0-523a-9e6d-e7031611200b",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   },
+   {
+    "id": "7cb22b3f-c51f-5871-8764-a12c0e22492b",
+    "updatedAt": "2000-01-01T00:00:00.000Z",
+    "deletedAt": null,
+    "cardId": "e0ca3e61-1df3-5958-8ac7-f72095a4e26e",
+    "phase": 0,
+    "stepIndex": 0,
+    "ease": 2.5,
+    "intervalDays": 0,
+    "dueAt": "2000-01-01T00:00:00.000Z",
+    "lapses": 0
+   }
+  ],
+  "review_logs": [],
+  "quiz_answers": [],
+  "exams": [],
+  "study_sessions": []
+ }
+}

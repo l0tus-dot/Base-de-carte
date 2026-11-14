@@ -1,0 +1,49 @@
+# Matière : CEJMA
+# Paquet : L'e-réputation des organisations et son contrôle
+# Description : Définition, composantes, enjeux, stratégie, actions de veille, SEO, bad buzz, nettoyage de contenus, outils et risques juridiques.
+
+Qu'est-ce que l'e-réputation d'une organisation ? ; Son image, positive ou négative, perçue par les internautes à travers les contenus de l'identité numérique émise sur Internet. Elle peut être subie ou maîtrisée.
+À quelle trace de l'identité numérique correspond l'e-réputation ? ; Aux traces héritées : ce que les autres disent ou montrent de moi sur le web.
+Quelles sont les deux composantes de l'e-réputation ? ; La présence en ligne et la perception des autres.
+Que comprend la présence en ligne ? ; L'identité numérique que l'organisation a voulu forger, l'image d'une marque ou d'un produit, la présence sur les réseaux sociaux (visibilité), l'attitude professionnelle d'un collaborateur et les faits liés à sa gestion de clientèle ou sa stratégie commerciale.
+Que comprend la perception des autres ? ; Les avis et commentaires, les influenceurs, les rumeurs, les médias et les interprétations.
+Faut-il confondre réputation, visibilité et notoriété ? ; Non, ce sont trois notions différentes.
+Quels sont les risques d'une mauvaise e-réputation ? ; Une baisse d'activité et de chiffre d'affaires, une perte de crédibilité, des difficultés à convaincre et fidéliser les clients potentiels, des difficultés de recrutement, moins d'investissement ou des difficultés à trouver des financements, et une baisse de la valeur de l'entreprise.
+Quel est le but de la stratégie d'e-réputation ? ; Maîtriser l'information communiquée par l'entreprise : elle doit être méticuleusement préparée pour éviter toute retombée négative. C'est un outil de différenciation et un avantage concurrentiel.
+Quel est le rôle du community manager ? ; Créer et fédérer une communauté d'internautes autour d'un intérêt commun : développer et gérer la présence d'une organisation (marque, association, produit, jeu) sur Internet, contrôler et répondre aux publications et animer les réseaux.
+Quelles sont les quatre grandes actions pour surveiller et orienter son e-réputation ? ; Réaliser des veilles de l'e-réputation, créer du contenu de qualité, améliorer le référencement naturel et faire créer du contenu.
+Que faut-il surveiller dans une veille d'e-réputation ? ; En temps réel, les mentions de la marque, les avis clients et les réseaux sociaux.
+Comment installer des notifications pour la veille ? ; En utilisant des outils d'alerte automatisés (Google Alerts).
+Quels indicateurs de veille analyser ? ; Le volume de mentions, la tonalité des commentaires, le taux d'engagement et le score de visibilité.
+Que faire des analyses de veille ? ; Répondre rapidement aux avis et commentaires et transmettre les analyses aux services concernés pour améliorer l'attractivité de l'entreprise (prise en compte des résultats de la veille).
+Comment créer une image de qualité sur le web ? ; En misant sur l'inbound marketing : attirer naturellement les clients grâce à des contenus utiles et pertinents, et accroître la présence en ligne par la communication institutionnelle et produit (site, comptes Facebook, LinkedIn, Instagram).
+Quelles autres bonnes pratiques pour créer du contenu de qualité ? ; Définir une charte graphique et éditoriale, avoir un calendrier éditorial (périodicité qui permet de préparer et d'anticiper), varier le contenu (alterner les formats pour maintenir l'intérêt de l'audience) et vérifier la véracité des informations partagées.
+Pourquoi vérifier la véracité des informations partagées ? ; Publier des contenus erronés fait perdre en légitimité.
+Que signifie SEO ? ; Search Engine Optimization : le référencement naturel. Son but est d'améliorer le référencement sur les moteurs de recherche comme Bing ou Google.
+Que signifie SEA ? ; Le référencement payant (SEO = référencement naturel).
+Quelles pratiques SEO appliquer ? ; Créer du contenu unique avec des titres et sous-titres accrocheurs (balises HTML), optimiser le maillage interne et externe, travailler la sémantique et optimiser le champ lexical.
+Qu'est-ce que le maillage interne ? ; Les liens entre les différentes pages de son propre site internet.
+Qu'est-ce que le netlinking ? ; Une technique SEO visant à démontrer la popularité d'un site web aux yeux des moteurs de recherche grâce à des liens provenant d'autres sites internet et qui pointent vers le sien.
+Qu'est-ce que travailler la sémantique en SEO ? ; Intégrer les termes d'un même sens qui ne se rapportent pas qu'à la requête d'un internaute, c'est-à-dire des mots clés (keywords).
+Qu'est-ce que le keyword stuffing ? ; Le bourrage de mots clés : en abuser fausse l'analyse de Google, qui peut le sanctionner.
+Qu'est-ce que le champ lexical en SEO ? ; L'ensemble des mots d'un même thème (ex. : librairie, livre, page).
+Qu'est-ce que le marketing d'influence ? ; Une stratégie consistant à s'appuyer sur la notoriété et la crédibilité d'influenceurs pour promouvoir une marque ou un produit.
+Que sont les UGC ? ; User Generated Content : les contenus partagés par les clients, les fans, les collaborateurs, les membres de la communauté en ligne et les créateurs de contenu.
+Comment faire créer du contenu aux autres ? ; Mettre en valeur les avis positifs, récompenser les ambassadeurs et créer le buzz en les associant.
+Comment gérer un bad buzz ? ; Répondre publiquement aux plaintes et critiques : agir rapidement avec calme, courtoisie et empathie, reconnaître l'erreur si l'entreprise est en tort et présenter des excuses sincères, proposer une solution concrète et communiquer en toute transparence.
+Comment nettoyer des contenus sur Internet ? ; Demander d'effacer (exercer son droit à l'oubli, contacter directement le propriétaire du site concerné pour solliciter la suppression) ou demander d'apporter la preuve qu'il a cessé des pratiques illégales.
+Donnez des exemples de contenus abusifs. ; La diffamation, l'injure publique, le dénigrement commercial et les faux avis clients.
+Quels outils surveillent l'e-réputation ? ; WebMii (moteur de recherche et score de visibilité), Google Alerts ou Talkwalkers (alertes), Netvibes (flux RSS), Google My Business et Trustfolio (gestion de la présence en ligne) et des logiciels de gestion des avis et feedback.
+Quelles sont les trois possibilités d'externaliser l'e-réputation ? ; Une agence RP (généraliste des relations presse et publiques), une agence spécialisée d'e-réputation ou une agence de référencement SEO/SEA.
+Quels sont les auteurs possibles d'un incident d'e-réputation ? ; Des individus (influents ou non), des collectifs (organisés ou spontanés) et des leaders d'opinion (indépendants ou affiliés).
+Quelles sont les trois familles d'incidents d'e-réputation (Digimind) ? ; La manipulation de l'information (avis négatifs, fausses informations, rumeurs, dénigrement), la manipulation de l'identité (détournement de logos, usurpation de marques, usurpation d'identité, contrefaçon de marques) et la manipulation technique (phishing, cybersquatting, flogs/splogs, piratage de site).
+Quels impacts peut avoir un incident d'e-réputation ? ; Déficit d'image, bris de carrière, arrêt ou modification de production, baisse ou hausse de cours, désorganisation, pertes financières et pertes de données.
+Quel est le délit d'usurpation d'identité ? ; Faire usage de données de toute nature permettant d'identifier une personne en vue de troubler sa tranquillité ou celle d'autrui, ou de porter atteinte à son honneur ou à sa considération. Source : loi LOPPSI 2 de 2011. Sanction : art. 226-4-1 du Code pénal, 1 an d'emprisonnement et 15 000 euros d'amende.
+Qu'est-ce que le délit de diffamation ? ; Toute allégation ou imputation d'un fait qui porte atteinte à l'honneur ou à la considération de la personne ou du corps auquel le fait est imputé. Source : article 29 de la loi du 29 juillet 1881.
+Quelles sont les sanctions de la diffamation ? ; Diffamation publique : 1 an de prison, 45 000 euros d'amende et affichage de la décision (art. 29 de la loi du 29 juillet 1881). Diffamation non publique : amende des contraventions de 1re classe (art. R. 621-1 du Code pénal).
+Qu'est-ce que le délit d'injure ? ; Toute expression outrageante, termes de mépris ou invective qui ne renferme l'imputation d'aucun fait. Source : article 29 de la loi du 29 juillet 1881.
+Quelles sont les sanctions de l'injure ? ; Injure publique (y compris sur Internet) : 12 000 à 45 000 euros d'amende et affichage de la décision (art. 33 de la loi de 1881). Injure non publique sans provocation : amende des contraventions de 1re classe (art. R. 621-2 du Code pénal).
+Qu'est-ce que le dénigrement ? ; Jeter publiquement le discrédit sur les produits ou services fournis par un tiers dans le but de lui nuire. Fondement : la responsabilité extracontractuelle, avec réparation (art. 1240 du Code civil).
+Qu'est-ce que le délit d'escroquerie ? ; Le fait, par l'usage d'un faux nom ou d'une fausse qualité, ou par l'emploi de manœuvres frauduleuses, de tromper une personne physique ou morale et de la déterminer à remettre des fonds, un bien ou à fournir un service. Sanction : art. 313-1 du Code pénal, 5 ans d'emprisonnement et 375 000 euros d'amende.
+Qu'est-ce que le délit d'accès frauduleux à un STAD ? ; Un accès par une personne sachant qu'elle n'y est pas autorisée à un système de traitement automatisé de données, confidentielles ou non, peu importe les moyens d'accès. Source : loi Informatique et libertés de 1978, reprise par la loi Godfrain du 5 janvier 1988.
+Quelles sont les sanctions de l'accès frauduleux à un STAD ? ; Accès seul : 2 ans d'emprisonnement et 60 000 euros d'amende. Accès avec suppression ou modification des données ou altération du fonctionnement du système : 3 ans d'emprisonnement et 100 000 euros d'amende (art. 323-1 du Code pénal).
